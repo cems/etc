@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="कागजात लिखव बिना रुकावटि">
+						<longdesc>कागजात लिखव बिना रुकावटि यिथकंय कापी करुन या परंट</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="thumbnailers">
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="पीडीएफ कागज़ात खत्तर निशान कमांड।">
+								<longdesc>कमांड त दलील पीडीएफ कागज़ात निशान खत्तर।  ज्यादह् दलिलखत्तर वुछिव थंबनेल कागज़ात।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पीडीएफयूक थंबनेल चालू कर।">
+								<longdesc>बूलियन छु सही थंबनेलन ठिक करान त: गल्त थंबनेलन बंद करान।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="पीडीएफ कागज़ात खत्तर निशान कमांड।">
+								<longdesc>कमांड त दलील पीडीएफ कागज़ात निशान खत्तर।  ज्यादह् दलिलखत्तर वुछिव थंबनेल कागज़ात।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पीडीएफयूक थंबनेल चालू कर।">
+								<longdesc>बूलियन छु सही थंबनेलन ठिक करान त: गल्त थंबनेलन बंद करान।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="पीडीएफ कागज़ात खत्तर निशान कमांड।">
+								<longdesc>कमांड त दलील पीडीएफ कागज़ात निशान खत्तर।  ज्यादह् दलिलखत्तर वुछिव थंबनेल कागज़ात।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पीडीएफयूक थंबनेल चालू कर।">
+								<longdesc>बूलियन छु सही थंबनेलन ठिक करान त: गल्त थंबनेलन बंद करान।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

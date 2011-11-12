@@ -1,0 +1,2331 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="མྱུར་བའི་བསྒུལ་བཟོ་ལག་ལེན་འཐབ།">
+						<longdesc>རྫུན་པ་ལུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ གྲ་དུམ་ཚུ་ འགྲོས་ཀྱིས་འབད་ བརྗིད་ཉམས་དང་བཅས་འབུདཝ་ཨིན། བདེན་པ་གུ་ གཞི་སྒྲིག་འབད་བ་ཅིན་ གྲ་དུམ་ཚུ་ མགྱོགས་པར་ཐག་ཐོགས་བཏང་སྟེ་ འབུད་བཅུགཔ་ཨིན།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="སྲོལ་སྒྲིག་རྩེད་གཞོང་གི་མཐོ་ཚད།">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="སྲོལ་སྒྲིག་རྩེད་གཞོང་གི་རྒྱ་ཚད།">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="རྩེད་གཞོང་གི་ཚད།">
+						<longdesc>ལག་ལེན་འཐབ་ནིའི་རྩེད་གཞོང་གི་ཚད། ༡=སྲོལ་སྒྲིག ༢=ཆུང་ཀུ། ༣=འབྲིང་མ། ༤=ཆེ་བ།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="ལག་ལེན་འཐབ་ནིའི་བརྗོད་དོན།">
+						<longdesc>ལག་ལེན་འཐབ་ནིའི་ བརྗོད་དོན་གྱི་ཡིག་སྣོད་མིང་།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="ཤེལ་རྡོའི་རིལ་བུ་ས་ཁར་བཞག">
+						<longdesc>ཤེལ་རྡོ་རིལ་བུ་ ས་ཁར་བཞག་ནིའི་ ལྡེ་མིག་ཨེབ།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="གཡས་ལུ་སྤོ།">
+						<longdesc>གཡོས་ལུ་སྤོ་ནིའི་ ལྡེ་མིག་ཨེབ།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="གཡོན་ལུ་སྤོ།">
+						<longdesc>གཡོན་ལུ་སྤོ་ནིའི་ ལྡེ་མིག་ཨེབ།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="སྒྲ་སྐད།">
+						<longdesc>འབྱུང་ལས་ཀྱི་སྒྲ་སྐད་ གཏང་དགོ་ག་མིན་དགོ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="སྤྲོ་ཉམས་ཅན་བཟོ།">
+						<longdesc>སྤྲོ་ཉམས་ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="བརྗོད་དོན་གྱི་ངོ་རྟགས།">
+						<longdesc>དགའ་གདམ་ཅན་གྱི་བརྗོད་དོན་ གསལ་བཀོད་འབད་བའི་ཨང་གྲངས་ཅིག</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="རྩེད་མི་གཉིས་པའི་གནས་རིམ།">
+						<longdesc>ཀླད་ཀོར་དེ་ འགྲོ་བ་མི་ཨིན། གཅིག་ལས་གསུམ་ཚུན་ གློག་རིག་རྩེད་མིའི་གནས་རིམ་དང་མཐུནམ་ཨིན།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="རྩེད་མི་དང་པའི་གནས་རིམ།">
+						<longdesc>ཀླད་ཀོར་དེ་ འགྲོ་བ་མི་ཨིན། གཅིག་ལས་གསུམ་ཚུན་ གློག་རིག་རྩེད་མིའི་གནས་རིམ་དང་མཐུནམ་ཨིན།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="རྩེད་མོའི་སྔོན་ལྟ།">
+							<longdesc>མཐའ་མཇུག་ལུ་ སྲུང་བཞག་འབད་མི་རྩེད་ཐེངས་ནང་གི་ རྩེད་མོའི་སྔོན་ལྟ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="རྩེད་མོའི་ས་སྒོ།">
+							<longdesc>མཐའ་མཇུག་ལུ་ སྲུང་བཞག་འབད་མི་རྩེད་ཐེངས་ནང་གི་ རྩེད་མོའི་ས་སྒོ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="རྩེད་མོའི་སྐུགས་གྲངས།">
+							<longdesc>མཐའ་མཇུག་ལུ་ སྲུང་བཞག་འབད་མི་རྩེད་ཐེངས་ནང་གི་ རྩེད་མོའི་སྐུགས་གྲངས།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="སྤོ་བཤུད་ཚུ་བར་ནའི་དུས་ཚོད།">
+							<longdesc>སྤོ་བཤུད་ཚུ་གི་བར་ནའི་དུས་ཚོད་ མི་ལི་སྐར་ཆའི་ནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="རྒྱབ་གཞིའི་ཚོས་གཞི།">
+							<longdesc>རྒྱབ་གཞིའི་ཚོས་གཞི། རྒྱབ་གཞིའི་ཚོས་གཞི་གི་ ཧེགསི་གི་ཁྱད་རྣམ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="རྩེད་རིལ་གྱི་བཟོ་རྣམ།">
+							<longdesc>རྩེད་རིལ་གྱི་བཟོ་རྣམ། རྩེད་རིལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ གཟུགས་བརྙན་གྱི་ཡིག་སྣོད་མིང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="རྩེད་ཐང་གི་ཚད།">
+							<longdesc>རྩེ་ནིའི་ས་སྒོའི་ཚད། ༡=ཆུང་ཀུ ༢=བར་མ་ ༣=ཆེ་བ། བེ་ལུ་གཞན་ཚུ་ ནུས་མེད་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="རྩེད་པང་ཕྱོགས་སུ་བཀྲམ་སྟོན་འབད།">
+						<longdesc>གདོང་གཞི་ནང་ལུ་ཡོད་མི་པང་དེབ་གྱི་ཟུར་་དེ་ ཡང་&apos;དཀརཔོ&apos;, &apos;གནགཔོ&apos;, &apos;ད་ལྟོ&apos;(ད་ལྟོ་རྩེད་མི)ཡང་ན &apos;མི&apos; (ད་ལྟོ་རྩེད་མི་གི་ཟུར་ཁར)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="སྤོ་བཤུད་ཚུ་བཀྲམ་སྟོན་འབད་ནི་གི་རྩ་སྒྲིག">
+						<longdesc>སྤོ་བཤུད་བཀྲམ་སྟོན་ལུ་རྩ་སྒྲིག་ནང་ འདི་ཡང་ན་&apos;མི&apos; (མི་གིས་ལྷག་ཚུགསཔ), &apos;lan&apos; (གྲངས་ཚབ་རྩིས་རིགས་དབྱངས་རྟགས་རིངམ) ཡང་ན &apos;san&apos; (གྲངས་ཚབ་རྩིས་རིགས་དབྱངས་རྟགས་ཚད་ལྡན)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="ནང་ མངོན་གསལ་རྩེདམོ་ཌའི་ལོག་ ཁ་ཕྱེ་ནི་གི་སྣོད་ཐོ་">
+						<longdesc>ནང་ མངོན་གསལ་རྩེདམོ་ཌའི་ལོག་ ཁ་ཕྱེ་ནི་གི་སྣོད་ཐོ་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="ནང་ སྲུང་བཞག་རྩེདམོ་ཌའི་ལོག་ ཁ་ཕྱེ་ནི་གི་སྣོད་ཐོ་">
+						<longdesc>ནང་ སྲུང་བཞག་རྩེདམོ་ཌའི་ལོག་ ཁ་ཕྱེ་ནི་གི་སྣོད་ཐོ་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="ལག་ཆས་ཕྲ་རིང་འི་ལྕོགས་ཅན་བཟོ་ནི་གི་ ཟུར་རྟགས་">
+						<longdesc>ལག་ཆས་ཕྲ་རིང་འི་ལྕོགས་ཅན་བཟོ་ནི་གི་ ཟུར་རྟགས་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="མུབ་ཧིསི་ཏི་རི་བརའུ་ཟར་འདི་ལྕོགས་ཅན་བཟོ་ནི་གི་ཟུར་རྟགས་">
+						<longdesc>མུབ་ཧིསི་ཏི་རི་བརའུ་ཟར་འདི་ལྕོགས་ཅན་བཟོ་ནི་གི་ཟུར་རྟགས་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="བཤུད་ནི་གི་བསམ་བཀོདསྟོན་ནིའི་ཟུར་རྟགས">
+						<longdesc>བཤུད་ནི་གི་བསམ་བཀོདསྟོན་ནིའི་ཟུར་རྟགས</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc=" པང་དེབ་ཨང་་ལྕོགས་ཅན་བཟོ་ནིའི་ ཟུར་རྟགས་">
+						<longdesc> པང་དེབ་ཨང་་ལྕོགས་ཅན་བཟོ་ནིའི་ ཟུར་རྟགས་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="བཤུད་ནི་གི་སྤུས་ཚད་ལེགས་བཅོས་གཏང་ནི་ལྕོགས་ཅན་བཟོ་ནིའི་ཟུར་རྟགས">
+						<longdesc>བཤུད་ནི་གི་སྤུས་ཚད་ལེགས་བཅོས་གཏང་ནི་ལྕོགས་ཅན་བཟོ་ནིའི་ཟུར་རྟགས</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="༣ཌི་ ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་ནིའི་ ཟུར་རྟགས་">
+						<longdesc>༣ཌི་ ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་ནིའི་ ཟུར་རྟགས་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="པཱཝན་ཡར་བསྐྱེད་པིསི་ལུ་">
+						<longdesc>རྩེད་མི་གིས་པཱཝན་གྱལ་རིམ་ཐགང་རིང་སར་སྤོ་བཤུད་འབད་བའི་སྐབས་ལུ་པི་སི་ཡར་བསྐྱེད་ལུ འདི་&apos;མེམ་&apos;, &apos;དཔའོ&apos;, &apos;ཨོ་ལ&apos;, &apos;ཡེ་ཤུའི་བླམ&apos;གཅིག་འོང་།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="ཡོངས་འབྲེལ་ རྩེདམོ་རྒྱབ་སྐྱོར་ ་ལྕོགས་ཅན་བཟོ་ནི་གི་ ཟུར་རྟགས་">
+						<longdesc>ཡོངས་འབྲེལ་ རྩེདམོ་རྒྱབ་སྐྱོར་ ་ལྕོགས་ཅན་བཟོ་ནི་གི་ ཟུར་རྟགས་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="གསལ་གཞི་གང་བའི་ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་ནི་གི་ ཟུར་རྟགས་ཅིག་">
+						<longdesc>གསལ་གཞི་གང་བའི་ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་ནི་གི་ ཟུར་རྟགས་ཅིག་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="འཕར་ནིའི་ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་ནིའི་ ཟུར་རྟགས་">
+						<longdesc>འཕར་ནིའི་ཐབས་ལམ་ལྕོགས་ཅན་བཟོ་ནིའི་ ཟུར་རྟགས་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="སྒོ་སྒྲིག་གི་མཐོ་ཚད།">
+						<longdesc>པིག་སེལ་ཚུ་ནང་གི་ སྒོ་སྒྲིག་གཙོ་བོ་འདི་གི་ མཐོ་ཚད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="སྒོ་སྒྲིག་གི་རྒྱ་ཚད།">
+						<longdesc>པིག་སེལ་ཚུ་ནང་ སྒོ་སྒྲིག་གཙོ་བོ་འདི་གི་ རྒྱ་ཚད་</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="ཐག་རིང་གི་རྩེ་མི་ཚུ་ རྩེདམོ་གསརཔ་བལྟ་བཅུག་ནིའི་ ཟུར་རྟགས་">
+							<longdesc>ཐག་རིང་གི་རྩེ་མི་ཚུ་ རྩེདམོ་གསརཔ་བལྟ་བཅུག་ནིའི་ ཟུར་རྟགས་</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="རྩེ་མི་རེ་རེ་བཞིན་གིས་ རྩེདམོ་གསརཔ་ནང་སྤོ་བཤུད་འབད་ནིའི་ ཆུ་ཚོད་ཀྱི་བསྡོམས་">
+							<longdesc>རྩེ་མི་རེ་རེ་བཞིན་གིས་ རྩེདམོ་གསརཔ་ནང་སྤོ་བཤུད་འབད་ནིའི་ ཆུ་ཚོད་ཀྱི་བསྡོམས་</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="རྩེདམོ་གསརཔ་ནང་ གནགཔོ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྩེ་མི་ལཱ་ཁག་">
+								<longdesc>རྩེདམོ་གསརཔ་ནང་ གནགཔོ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྩེ་མི་ལཱ་ཁག་</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="རྩེདམོ་གསརཔ་ནང་ གནགཔོ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྩེ་མི་དབྱེ་བ་">
+								<longdesc>རྩེདམོ་གསརཔ་ནང་ གནགཔོ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྩེ་མི་དབྱེ་བ་</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="རྩེདམོ་གསརཔ་ནང་ དཀརཔོ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྩེ་མི་ལཱ་ཁག་">
+								<longdesc>རྩེདམོ་གསརཔ་ནང་ དཀརཔོ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྩེ་མི་ལཱ་ཁག་</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="རྩེདམོ་གསརཔ་ནང་ གནགཔོ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྩེ་མི་དབྱེ་བ་">
+								<longdesc>རྩེདམོ་གསརཔ་ནང་ གནགཔོ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྩེ་མི་དབྱེ་བ་</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="འཕྲལ་ཁམས་རྩེ་ཡོད་པའི་རྩེདམོ་ཚུ།">
+						<longdesc>འཕྲལ་ཁམས་རྩེ་ཡོད་པའི་རྩེདམོ་ཚུ་གི་ཐོ།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="རྩེདམོ་རྩེ་ཡོད་པའི་ཚད་རྩིས་ཚུ།">
+						<longdesc>ཀུའིན་ཊུ་པཱལ་གྱི་ ཚུལ་ནང་ཡོད་མི་ ཡིག་རྒྱུན་གྱི་ཐོ་ཡིག: མིང་ རྒྱལ་ཁ་ རྩེདམོ་རྩེ་ཡོད་པའི་ཡོངས་བསྡོམས་ དུས་ཚོད་དྲག་ཤོས་(སྐར་ཆའི་ནང་) དེ་ལས་ དུས་ཚོད་སྐྱོ་ཤོས་(དེ་ཡང་སྐར་ཆའི་ནང་) མ་རྩེ་བའི་རྩེདམོ་ཚུ་གི་ཁྱད་ཚབ་སྟོན་མི་དགོ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="ལག་ལེན་འཐབ་ནིའི་རྩེད་མོའི་ཡིག་སྣོད།">
+						<longdesc>སོ་ལི་ཊེར་རྩེདམོ་ཡོད་པའི་ ལས་འཆར་ཡིག་སྣོད་ཀྱི་མིང་།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="སྒྲ་སྐད།">
+						<longdesc>འབྱུང་ལས་ཀྱི་སྒྲ་སྐད་ གཏང་དགོ་ག་མིན་དགོ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="ཚད་འཛིན་གྱི་བཟོ་རྣམ་སེལ་འཐུ་འབད།">
+						<longdesc>ཤོག་བྱང་འཐེན་འདྲུད་འབད་ནི་ཨིན་ན་མེན་ སེལ་འཐུ་འབད། ཡང་ན་ དང་པ་འབྱུང་ཁུངས་དང་ དེ་ལས་འགྲོ་ཡུལ་ལུ་ ཨེབ་གཏང་འབད་ནི་ཨིན་ན།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="ལག་ཆས་ཕྲ་རིང་སྟོན་དགོ་ག་མིན་དགོ">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="བརྗོད་དོན་གྱི་ཡིག་སྣོད་མིང་།">
+						<longdesc>ཏ་སེ་གི་ཚད་རིས་དང་སྦྲགས་པའི་ ཡིག་སྣོད་ཀྱི་མིང་།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="བསྒུག་ནིའི་ལྡེ་མིག">
+							<longdesc>བསྒུག་སྡོད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="གང་འབྱུང་འབད་ རྒྱང་འདྲེན་འབད་ནིའི་ལྡེ་མིག">
+							<longdesc>གང་འབྱུང་འབད་ རྒྱང་འདྲེནའབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="རྒྱང་འདྲེན་འབད་ནིའི་ལྡེ་མིག">
+							<longdesc>ཉེན་སྲུང་ཐོག་ལུ་ རྒྱང་འདྲེན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་།(རབ་བྱུང་པ་ཅིན)། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="ཤར་ལྷོ་ཁ་ཐུག་ལུ་ སྤོ་ནིའི་ལྡེ་མིག">
+							<longdesc>ཤར་ལྷོ་ཁ་ཐུག་ལུ་ སྤོ་བཤུད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="ལྷོ་ཁ་ཐུག་ལུ་ སྤོ་ནིའི་ལྡེ་མིག">
+							<longdesc>ལྷོ་ཁ་ཐུག་ལུ་ སྤོ་བཤུད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="ལྷོ་ནུབ་ཁ་ཐུག་ལུ་ སྤོ་ནིའི་ལྡེ་མིག">
+							<longdesc>ལྷོ་ནུབ་ཁ་ཐུག་ལུ་ སྤོ་བཤུད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="ཤར་ཁ་ཐུག་ལུ་ སྤོ་ནིའི་ལྡེ་མིག">
+							<longdesc>ཤར་ཁ་ཐུག་ལུ་ སྤོ་བཤུད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="འཆང་ནིའི་ལྡེ་མིག">
+							<longdesc>གཙང་ཏང་འཆང་བཞག་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="ནུབ་ཁ་ཐུག་ལུ་ སྤོ་ནིའི་ལྡེ་མིག">
+							<longdesc>ནུབ་ཁ་ཐུག་ལུ་ སྤོ་བཤུད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="བྱང་ཤར་ཁ་ཐུག་ལུ་ སྤོ་ནིའི་ལྡེ་མིག">
+							<longdesc>བྱང་ཤར་ཁ་ཐུག་ལུ་ སྤོ་བཤུད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="བྱང་ཁ་ཐུག་ལུ་ སྤོ་ནིའི་ལྡེ་མིག">
+							<longdesc>བྱང་ཁ་ཐུག་ལུ་ སྤོ་བཤུད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="ནུབ་བྱང་ཁ་ཐུག་ལུ་ སྤོ་ནིའི་ལྡེ་མིག">
+							<longdesc>ནུབ་བྱང་ཁ་ཐུག་ལུ་ སྤོ་བཤུད་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་མི་ ལྡེ་མིག་གི་མིང་། མིང་དེ་ཚད་ལྡན་ཨེགསི་ལྡེ་མིག་གི་ མིང་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="ཆག་སྒྲ་ལྕོགས་ཅན་བཟོ།">
+							<longdesc>ཆག་སྒྲ་ལྕོགས་ཅན་བཟོ། སྒྲ་སྐད་བཏང་ཞིནམ་ལས་ གསལ་གཞི་གུ་ &quot;Splat!&quot; ཅིག་སྟོན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="རྩེད་མོའི་སྒྲ་སྐད་ ལྕོགས་ཅན་བཟོ།">
+							<longdesc>རྩེད་མོའི་སྒྲ་སྐད་ ལྕོགས་ཅན་བཟོ། རྩེད་འགྲན་འགོ་ལས་མཇུག་ཚུན་ འབྱུང་ལས་སྣ་ཚོགས་ཀྱི་དོན་ལུ་ སྒྲ་སྐད་གཏང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="ཁྱད་འཕགས་ཀྱི་ཉེན་སྲུང་ཅན་གྱི་ སྤོ་བཤུད་ལག་ལེག་འཐབ།">
+							<longdesc>ཁྱད་འཕགས་ཀྱི་ཉེན་སྲུང་ཅན་གྱི་ སྤོ་བཤུད་ལག་ལེག་འཐབ། ཉེན་སྲུང་ཅན་གྱི་སྤོ་བཤུད་མེད་པའི་སྐབས་ རྩེད་མི་ལུ་ དྲན་བརྡ་བྱིནམ་ཨིནམ་དང་ དེ་གི་སྐབས་ལུ་ ཕྱི་ཁར་རྒྱང་འདྲེན་འབད་ནིའི་ གདམ་ཁ་མ་གཏོགས་མེད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="ཉེན་སྲུང་ཅན་གྱི་སྤོ་བཤུད་ ལག་ལེན་འཐབ།">
+							<longdesc>ཉེན་སྲུང་ཅན་གྱི་སྤོ་བཤུད་ ལག་ལེན་འཐབ། ཉེན་སྲུང་ཅན་གྱི་སྤོ་བཤུད་ གདམ་ཁ་དེ་གིས་ ཁྱོད་རའི་ནོར་བ་ལུ་བརྟེན་པའི་ ཤི་རྐྱེན་ལས་ ཟུར་ཐབས་འབདཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="རྩེད་མོའི་དབྱེ་བ།">
+							<longdesc>རྩེད་མོའི་དབྱེ་བ། ལག་ལེན་འཐབ་ནིའི་ རྩེད་མོའི་ཁྱད་འགྱུར་གྱི་མིང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="རྒྱབ་གཞིའི་ཚོས་གཞི།">
+							<longdesc>རྒྱབ་གཞིའི་ཚོས་གཞི། རྒྱབ་གཞིའི་ཚོས་གཞི་གི་ ཧེགསི་གི་ཁྱད་རྣམ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="རོ་བོཌི་གཟུགས་བརྙན་གྱི་བརྗོད་དོན།">
+							<longdesc>རོ་བོཊི་གཟུགས་བརྙན་གྱི་བརྗོད་དོན། རོ་བོཊི་དོན་ལུ་ལག་ལེན་འཐབ་ནིའི་ གཟུགས་བརྙན་ཚུ་གི་བརྗོད་དོན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="ལག་ཆས་ཕྲ་རིང་སྟོན།">
+							<longdesc>ལག་ཆས་ཕྲ་རིང་སྟོན། ལག་ཆས་ཕྲ་རིང་ཚུ་གི་དོན་ལུ་ ཚད་ལྡན་གྱི་གདམ་ཁ་ཅིག</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="རྩེད་མོའི་ཊ་ཡིལ་གྱི་ཚད།">
+							<longdesc>རྩེད་མོའི་ཊ་ཡིལ་གྱི་ཚད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="སྒྲ་སྐད་ལྕོགས་ཅན་བཟོ།">
+							<longdesc>སྒྲ་སྐད་ལྕོགས་ཅན་བཟོ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="རྩེདམོ་འགོ་བཙུགས་སའི་གནས་རིམ།">
+							<longdesc>རྩེདམོ་འགོ་བཙུགས་སའི་གནས་རིམ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="གོ་རིམ་གང་འབྱུང་ནང་ རྩེ་ནིའི་གནས་རིམ།">
+							<longdesc>གོ་རིམ་གང་འབྱུང་ནང་ རྩེ་ནིའི་གནས་རིམ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="ཁེ་ཕན་རྫུན་མ་ ལྕོགས་ཅན་བཟོ།">
+							<longdesc>ཁེ་ཕན་རྫུན་མ་ ལྕོགས་ཅན་བཟོ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="རྩེད་མོའི་མགྱོགས་ཚད།">
+							<longdesc>རྩེད་མོའི་མགྱོགས་ཚད། (༡=མགྱོགས་པར། ༤=ལྷོད་ལྷོད།)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="ཨེ་ཨའི་རྩེད་མི་ཚུ་གྱངས་ཁ་">
+							<longdesc>ཨེ་ཨའི་རྩེད་མི་ཚུ་གི་གྱངས་ཁ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="འགྲོ་བ་མིའི་རྩེད་མི་ཚུ་གི་གྱངས་ཁ་">
+							<longdesc>འགྲོ་བ་མིའི་རྩེད་མི་ཚུ་གི་གྱངས་ཁ།</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="གཡས་ལུ་སྤོ།">
+									<longdesc>གཡས་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="གཡོན་ལུ་སྤོ།">
+									<longdesc>གཡོན་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="མར་སྤོ།">
+									<longdesc>མར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ཡར་སྤོ།">
+									<longdesc>ཡར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="འདྲ་མཉམ་སྤོ་བཤུད་ ལག་ལེན་འཐབ།">
+									<longdesc>འདྲ་མཉམ་སྤོ་བཤུད་ལག་ལེན་འཐབ། (དེ་ཡང་གཡོན་ལུའམ་གཡས་ལུ་རྐྱངམ་གཅིག)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།">
+									<longdesc>གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="གཡས་ལུ་སྤོ།">
+									<longdesc>གཡས་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="གཡོན་ལུ་སྤོ།">
+									<longdesc>གཡོན་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="མར་སྤོ།">
+									<longdesc>མར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ཡར་སྤོ།">
+									<longdesc>ཡར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="འདྲ་མཉམ་སྤོ་བཤུད་ ལག་ལེན་འཐབ།">
+									<longdesc>འདྲ་མཉམ་སྤོ་བཤུད་ལག་ལེན་འཐབ། (དེ་ཡང་གཡོན་ལུའམ་གཡས་ལུ་རྐྱངམ་གཅིག)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།">
+									<longdesc>གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="གཡས་ལུ་སྤོ།">
+									<longdesc>གཡས་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="གཡོན་ལུ་སྤོ།">
+									<longdesc>གཡོན་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="མར་སྤོ།">
+									<longdesc>མར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ཡར་སྤོ།">
+									<longdesc>ཡར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="འདྲ་མཉམ་སྤོ་བཤུད་ ལག་ལེན་འཐབ།">
+									<longdesc>འདྲ་མཉམ་སྤོ་བཤུད་ལག་ལེན་འཐབ། (དེ་ཡང་གཡོན་ལུའམ་གཡས་ལུ་རྐྱངམ་གཅིག)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།">
+									<longdesc>གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="གཡས་ལུ་སྤོ།">
+									<longdesc>གཡས་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="གཡོན་ལུ་སྤོ།">
+									<longdesc>གཡོན་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="མར་སྤོ།">
+									<longdesc>མར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ཡར་སྤོ།">
+									<longdesc>ཡར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="འདྲ་མཉམ་སྤོ་བཤུད་ ལག་ལེན་འཐབ།">
+									<longdesc>འདྲ་མཉམ་སྤོ་བཤུད་ལག་ལེན་འཐབ། (དེ་ཡང་གཡོན་ལུའམ་གཡས་ལུ་རྐྱངམ་གཅིག)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།">
+									<longdesc>གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="གཡས་ལུ་སྤོ།">
+									<longdesc>གཡས་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="གཡོན་ལུ་སྤོ།">
+									<longdesc>གཡོན་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="མར་སྤོ།">
+									<longdesc>མར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ཡར་སྤོ།">
+									<longdesc>ཡར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="འདྲ་མཉམ་སྤོ་བཤུད་ ལག་ལེན་འཐབ།">
+									<longdesc>འདྲ་མཉམ་སྤོ་བཤུད་ལག་ལེན་འཐབ། (དེ་ཡང་གཡོན་ལུའམ་གཡས་ལུ་རྐྱངམ་གཅིག)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།">
+									<longdesc>གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="གཡས་ལུ་སྤོ།">
+									<longdesc>གཡས་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="གཡོན་ལུ་སྤོ།">
+									<longdesc>གཡོན་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="མར་སྤོ།">
+									<longdesc>མར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ཡར་སྤོ།">
+									<longdesc>ཡར་འགུལ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ལྡེ་མིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="འདྲ་མཉམ་སྤོ་བཤུད་ ལག་ལེན་འཐབ།">
+									<longdesc>འདྲ་མཉམ་སྤོ་བཤུད་ལག་ལེན་འཐབ། (དེ་ཡང་གཡོན་ལུའམ་གཡས་ལུ་རྐྱངམ་གཅིག)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།">
+									<longdesc>གཅོང་འབུཔ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="ཚད་འཛིན་གྱི་བཟོ་རྣམ་སེལ་འཐུ་འབད།">
+						<longdesc>ཊ་ཡིལ་ཚུ་འདྲུད་ནི་ཨིན་ན་ ཡང་ན་ འབྱུང་ཁུངས་དང་ དེ་ལས་འགྲོ་ཡུལ་ལུ་ ཨེབ་གཏང་འབད་ནི་ཨིན་ན་ སེལ་འཐུ་འབད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="ཚོན་གཏང་ཡོད་པའི་ཊ་ཡིལ་ཚུ་ ཚད་འཛིན་འབད་">
+						<longdesc>ཚོན་བཏང་ཡོད་པའི་ཊ་ཡིལ་ཚུ་ ལྕོགས་ཅན་བཟོ་ནི་གི་ཟུར་རྟགས་ཅིག</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="རྩེ་བའི་བསྒང་གི་ གིརིཌི་གི་ཚད།">
+						<longdesc>ལྡེ་མིག་འདི་གི་བེ་ལུ་དེ་ རྩེ་བའི་བསྒང་གི་ གིརིཌི་གི་ཚད་ གྲོས་ཐག་གཅད་ནི་ལུ་ ལག་ལེན་འཐབ་ཨིན། ནུས་ཅན་གྱི་བེ་ལུསི་ཚུ་ ༢ ལས་༨ ཚུན་ཨིན། ག་རུང་གིས་  ༣ ལུ་ གཞི་སྒྲིག་འབདཝ་ཨིན།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="ཐེམ།">
+							<longdesc>ཐེམ་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="བསྒྱིར་ནི།">
+							<longdesc>བསྒྱིར་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="སར་འཇོག">
+							<longdesc>སར་འཇོག་གི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="མར་སྤོ།">
+							<longdesc>མར་སྤོ་ནིའི་དོན་ལུ་ ཨེབ་ནིའི་ལྡེ་མིག</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="གཡས་ལུ་སྤོ།">
+							<longdesc>གཡོས་ལུ་སྤོ་ནིའི་ ལྡེ་མིག་ཨེབ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="གཡོན་ལུ་སྤོ།">
+							<longdesc>གཡོན་ལུ་སྤོ་ནིའི་ ལྡེ་མིག་ཨེབ།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="ལྟེམས་ལྟེམས་གང་བའི་ གྲལ་ཐིག་་གི་སྟུག་ཚད།">
+							<longdesc>རྩེདམོ་འགོ་བཙུགས་པའི་སྐབས་ གྲལ་ཐིག་་ནང་ལེབ་དུམ་གྱི་མང་ཉུང་། བེ་ལུ་དེ་ཡང་ (ལེབ་དུམ་མེད་སར་ ) ༠ དང་ (གྲལ་ཐིག་ཡོངས་རྫོགས་བཀང་སྟེ་ཡོད་སར་) ༡༠ ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="བཀང་དགོ་པའི་གྲལ་ཐིག་གྱངས་ཁ།">
+							<longdesc>རྩེདམོ་འགོ་བཙུགས་སྐབས་ ལེབ་དུམ་གྱིས་གང་བྱུང་བཀང་བའི་ གྲལ་ཐིག་གྱངས་ཁ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="གཡོན་སྐོར་སྦེ་ བསྒྱིར་ནི་ཨིན་ན་མེན།">
+							<longdesc>གཡོན་སྐོར་སྦེ་ བསྒྱིར་ནི་ཨིན་ན་མེན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="ལེབ་དུམ་ཚུ་ལུ་ ཚོས་གཞི་གང་འབྱུང་གཏང་ནི་ཨིན་ན་མེན།">
+							<longdesc>ལེབ་དུམ་ཚུ་ལུ་ ཚོས་གཞི་གང་བྱུང་གཏང་ནི་ཨིན་ན་མེན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="དམིགས་གཏད་ཅིག་བྱིན་ནི་ཨིན་ན་མེན།">
+							<longdesc>ལེབ་དུམ་འབུད་སའི་ ཚད་རིས་ཅིག་སྟོན་དགོཔ་ཨིན་ན་མེན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="ལེབ་དུམ་ཤུལ་མམ་དེ་སྔོན་ལྟ་འབད་ནི་ཨིན་ན་མེན།">
+							<longdesc>ལེབ་དུམ་ཤུལ་མམ་དེ་ སྔོན་ལྟ་འབད་ནི་ཨིན་ན་མེན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="རྒྱབ་གཞིའི་ཚོས་གཞི།">
+							<longdesc>རྒྱབ་གཞིའི་ཚོས་གཞི། རྩ་སྒྲིག་ནང་ལུ་ ཇི་ཌི་ཀེ་_ཚོས་གཞི་_མིང་དཔྱད་ཧ་གོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="རྒྱབ་གཞིའི་གཟུགས་བརྙན་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།">
+							<longdesc>འདི་གིས་རྒྱབ་གཞིའི་ཚོས་གཞི་གུ་ རྒྱབ་གཞིའི་གཟུགས་བརྙན་ འབྲི་དགོ་ག་མིན་དགོ་ སེལ་འཐུ་འབདཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="འགོ་བཙུགས་ནིའི་གནས་རིམ།">
+							<longdesc>འགོ་བཙུགས་ནིའི་གནས་རིམ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="ལེབ་དུམ་ཚུ་ལྷག་སྟོན་འབད་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་མི་བརྗོད་དོན།">
+							<longdesc>ལེབ་དུམ་དང་རྒྱབ་གཞི་ལྷག་སྟོན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྗོད་དོན་གྱི་མིང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="ལེབ་དུམ་འབྲི་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་གཟུགས་བརྙན།">
+							<longdesc>ལེབ་དུམ་འབྲི་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་གཟུགས་བརྙན།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="གློག་རིག་གི་མནོ་བསམ་ བཀྲམ་སྟོན་འབད།">
+						<longdesc>བདེན་པ་གུ་གཞི་སྒྲིག་འབད་བ་ཅིན་ ཨེ་ཨའི་གི་ལཱ་གི་ཕྱགས་སྙིགས་ཅིག་ ཚད་ལྡན་ཨའུཊི་པུཊི་གུ་བཟོ་འོང་།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="ཤོ་རིལ་གྱི་བར་ན་ ཕྱིར་འགྱངས་འབད།">
+						<longdesc>རྩེད་མི་དེ་གིས་ ཧ་གོ་ཚུགས་ནིའི་དོན་ལུ་ གློག་རིག་གི་ཤོ་རིལ་བར་ན་ ཕྱིར་འགྱངས་བཙུག་ནི་ཨིན་ན་མེན་ གདམ་ཁ་རྐྱབས།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="རྩེ་བའི་བསྒང་གི་སྒྲིག་རྩེད།">
+						<longdesc>ད་ལྟོ་རྩེ་བའི་བསྒང་གི་ སྒྲིག་རྩེད་ཀྱི་ཨང་གྲངས།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="སྒྲ་སྐད།">
+						<longdesc>འབྱུང་ལས་ཀྱི་སྒྲ་སྐད་ གཏང་དགོ་ག་མིན་དགོ</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="ལག་ཆས་ཕྲ་རིང་གི་བཟོ་རྣམ་">
+							<longdesc>ལག་ཆས་ཕྲ་རིང་གི་བཟོ་རྣམ། ནུས་ལྡན་གནས་གོང་ཚུ་གཉིས་ཆ་རང་  ཐད་སྙོམས་གཉིས་ཆ་རང་  ངོས་དཔར་ དང་ཚིག་ཡིག་ (_h)</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="ཆེད་དམིགས་མ་འབད་བའི་ཁྱབ་ཚད་སེལ་འཐུ་འབད་ནི་ཚུ་འབད་བཅུག་">
+								<longdesc>ཌའི་ལོག་ལ་ལུ་ཅིག་ནང་ ལཱ་གཡོག་ཀི་དེབ་དེ་ནང་ཁྱབ་ཚད་སེལ་འཐུ་འབད་བཅུག་མི་ ཐོ་བཀོད་ས་སྒོ་རྐྱང་པ་ཅིག་རྐྱངམ་ཅིག་ཡོདཔ་ཨིན། འ་ནི་འགྱུར་ཅན་འདི་བདེན་པ་ལུ་གཞི་སྒྲིག་འབད་ནི་འདི་གིས་ ཐོ་བཀོད་འདི་ལུ་ལྡེ་སྒྲོམ་གྱི་ཆེད་དམིགས་མེད་དེ་རང་འབད་རུང་ འ་ནི་ཐོ་བཀོད་འདི་ལུ་སེལ་འཐུ་འབད་ནི་བཀོད་ཁྱབ་འབདཝ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="མགོ་ཡིག་/མཇུག་ཡིག་རྩ་སྒྲིག་ (གཡས་ཀྱི་ཡན་ལག་)">
+							<longdesc>འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་འབད་ནི་འདི་ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="མགོ་ཡིག་/མཇུག་ཡིག་རྩ་སྒྲིག་ (བར་གྱི་ཡན་ལག་)">
+							<longdesc>འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་འབད་ནི་འདི་ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="མགོ་ཡིག་/མཇུག་ཡིག་རྩ་སྒྲིག་་(གཡོན་གྱི་ཡན་ལག་)">
+							<longdesc>འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་འབད་ནི་འདི་ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="སྔོན་སྒྲིག་མཇུག་གི་ས་སྟོང་">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="སྔོན་སྒྲིག་མཇུག་གི་ས་སྟོང་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ ཡིག་ཚད་ཚུ་གི་སྔོན་སྒྲིག་ཨང་འདི་ ཤོག་ལེབ་ཅིག་གི་མཇུག་ལས་ མ་གཟུགས་ཀྱི་མཇུག་ལུ་བྱིནམ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ ལག་ལེན་འཐབ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="སྔོན་སྒྲིག་མགོའི་ས་སྟོང་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ ཡིག་ཚད་ཚུ་གི་སྔོན་སྒྲིག་ཨང་འདི་ ཤོག་ལེབ་ཅིག་གི་མགོ་ལས་ མ་གཟུགས་ཀྱི་འགོ་བཙུགས་ས་ལུ་བྱིནམ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ ལག་ལེན་འཐབ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="སྔོན་སྒྲིག་ཡང་བསྐྱར་འབད་ཡོད་པའི་ གཡོན་གྱི་ལུང་ཕྱོགས་">
+							<longdesc>འ་ནི་ཡིག་རྒྱུན་འདི་གིས་ དཔར་བསྐྲུན་འབད་ཡོད་པའི་ལེབ་གྲངས་རེ་རེ་གི་གཡོན་ཕྱོགས་ལུ་ ཡང་བསྐྱར་འབད་ནིའི་དོན་ལས་ སྔོན་སྒྲིག་ལུངས་ཕྱོགས་འདི་བྱིནམ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="སྔོན་སྒྲིག་ཡང་བསྐྱར་འབད་ཡོད་པའི་ མགོའི་ལུང་ཕྱོགས་">
+							<longdesc>འ་ནི་ཡིག་རྒྱུན་འདི་གིས་ དཔར་བསྐྲུན་འབད་ཡོད་པའི་ལེབ་གྲངས་རེ་རེ་གི་མགོ་ལུ་ཡང་བསྐྱར་འབད་ནིའི་དོན་ལས་ སྔོན་སྒྲིག་ལུངས་ཕྱོགས་འདི་བྱིནམ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་ཞུན་དག་ཌའི་ལོག་འདི་ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="སྔོན་སྒྲིག་ ཚད་འཇལ་ནིའ་མཐོ་ཚད་">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="སྔོན་སྒྲིག་ཚད་འཇལ་ནིའི་རྒྱ་ཚད་">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="སྔོན་སྒྲིག་ ཆ་ཚད་བརྒྱ་ཆ་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ དཔར་བསྐྲུན་འབད་འབད་བའི་ཤོག་ལེབ་རེ་རེ་ཚད་འཇལ་ནི་གི་ བརྒྱ་ཆ་འདི་བྱིནམ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ ལག་ལེན་འཐབ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="སྔོན་སྒྲིག་ཆ་ཚད་ཀྱི་དབྱེ་བ་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ནང་གི་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་འདི་ བྱིན་ཡོད་པའི་བརྒྱ་ཆ་ཅིག་གིས་ ཤོག་ལེབ་ཚུ་ཚད་འཇལ་ནི་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལགོ་འདི་ ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="སྔོན་སྒྲིག་དཔར་བསྐྲུན་གྱི་ཁ་ཕྱོགས་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ནང་གི་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་འདི་ ཧེ་མ་གཡས་དེ་ལས་མར་དཔར་བསྐྲུན་འབད་ནི་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལགོ་འདི་ ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="སྔོན་སྒྲིག་མགོ་མིང་དཔར་བསྐྲུན་འབད་ནི་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ནང་གི་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་འདི་ གྲལ་ཐིག་དང་ཀེར་ཐིག་མགོ་ཡིག་ཚུ་དཔར་བསྐྲུན་འབད་ནི་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལགོ་འདི་ ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="སྔོན་སྒྲིག་གནགཔོ་དང་དཀརཔོ་དཔར་བསྐྲུན་འབད་ནི་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ནང་གི་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་འདི་ གནགཔོ་དང་དཀརཔོ་ནང་རྐྱངམ་ཅིག་དཔར་བསྐྲུན་འབད་ནི་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལགོ་འདི་ ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="བཟོ་རྣམ་ཚུ་རྐྱངམ་ཅིག་དང་ཅིག་ཁར་ སྔོན་སྒྲིག་དཔར་བསྐྲུན་གྱི་ནང་ཐིག་ཚུ་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ནང་གི་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་འདི་ སྟོངམ་དེ་འབདཝ་ད་ རྩ་སྒྲིག་འབད་འབད་བའི་ནང་ཐིག་ཚུ་སྦེ་དཔར་བསྐྲུན་འབད་ནི་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལགོ་འདི་ ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="སྔོན་སྒྲིག་གིརིཌི་གི་གྲལ་ཐིག་དཔར་བསྐྲུན་འབད་ནི་">
+							<longdesc>&gt;འ་ནི་གནས་གོང་འདི་གིས་ སྔོན་སྒྲིག་སྒྲིག་སྟངས་འདི་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་ནང་ལུ་ དཔར་བསྐྲུན་གིརིཌི་གྲལ་ཐིག་ཚུ་ཨིན་ན་མེན་ན་ གཏན་འབེབས་བཟོཝ་ཨིན། འ་ནི་གནས་གོང་འདི་ཞུན་དག་འབད་ནིའི་དོན་ལས་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ལག་ལེན་འཐབ་གནང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="སྔོན་སྒྲིག་ཀེར་ཕྲང་དབུས་སྒྲིག་འབད་ནི་">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="སྔོན་སྒྲིག་ཐད་སྙོམས་དབུས་སྒྲིག་འབད་ནི་">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="སྔོན་སྒྲིག་མགོ་ཡིག་/མཇུག་ཡིག་གི་ཡིག་གཟུགས་འདི་ ཨའི་ཊ་ལིཀ་ཨིན་པས།">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ མོག་ཡིག་ཚུ་དང་མཇུག་ཡིག་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས་འདི་ ཨའི་ཊ་ལིཀ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="སྔོན་སྒྲིག་མགོ་ཡིག་/མཇུག་ཡིག་གི་ཡིག་གཟུགས་འདི་རྒྱགས་པ་ཨིན་པས།">
+							<longdesc>་འནི་གནས་གོང་འདི་གིས་ མགོ་ཡིག་ཚུ་དང་མཇུག་ཡིག་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས་འདི་ རྒྱགས་པ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="སྔོན་སྒྲིག་མོག་ཡིག་/མཇུག་ཡིག་ ཡིག་གཟུགས་ཀྱི་མིང་">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="སྔོན་སྒྲིག་མགོ་ཡིག་/མཇུག་ཡིག་ ཡིག་གཟུགས་ཀྱི་ཚད་">
+							<longdesc>མགོ་ཡིག་ཚུ་དང་མཇུག་ཡིག་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས་ཀྱི་ཚད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="ཤོག་ལེབ་ཀྱི་མཇུག་ཡིག་">
+							<longdesc>ཤོག་ལེབ་གཞི་སྒྲིག་འབད་ནིའི་ཌའི་ལོག་འདི་ལག་ལེན་འཐབ་ཐོག་ ལེགས་བཅོས་འབད་བཏུབ་མི་ ཡིག་ཆ་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཤོག་ལེབ་ཀྱི་མཇུག་ཡིག</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="ཤོག་ལེབ་ཀྱི་མགོ་ཡིག་">
+							<longdesc>ཤོག་ལེབ་གཞི་སྒྲིག་འབད་ནིའི་ཌའི་ལོག་འདི་ལག་ལེན་འཐབ་ཐོག་ ལེགས་བཅོས་འབད་བཏུབ་མི་ ཡིག་ཆ་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཤོག་ལེབ་ཀྱི་མགོ་ཡིག</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-setting">
+						<local_schema short_desc="ཇི་ཊི་ཀེ་ དཔར་བསྐྲུན་སྒྲིག་སྟངས་">
+							<longdesc>ཇི་ཊི་ཀེ་དཔར་བསྐྲུན་རིམ་སྒྲིག འགྱུར་ཅན་འདི་ ཞུན་དག་མ་འབད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="ལེབ་གྲངས་ཚུ་ཆ་མཉམ་ལུ་ དཔར་བསྐྲུན་-གཞི་སྒྲིག་འབད་ནི་འཇུག་སྤྱོད་འབད་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ ཡང་ཅིན་སྔོན་སྒྲིག་གིས་སྦེ་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ཌའི་ལོག་འདི་ དུས་མཉམ་ལུ་ལེབ་གྲངས་ཚུ་ཆ་མཉམ་ལུ་འཇུག་སྤྱོད་འབདཝ་ཨིན་ན་མེན་ན་ གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="རང་བཞིན་རྩ་སྒྲིག་ཚུ་གི་དོན་ལུ་ ལག་ལེན་པའི་སྣོད་ཐོ་">
+							<longdesc>ལག་ལེན་པ་དམིགས་བསལ་གྱི་རང་བཞིན་རྩ་སྒྲིག་ཊེམ་པེལེཊིསི་གི་དོན་ལུ་ སྣོད་ཐོ་གཙོ་བོ་དེ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="རང་བཞིན་རྩ་སྒྲིག་ཚུ་གི་དོན་ལུ་ རིམ་ལུགས་སྣོད་ཐོ་">
+							<longdesc>འ་ནི་སྣོད་ཐོ་འདི་ནང་ སྔོན་མ་གཞི་བཙུགས་འབད་ཡོད་པའི་རང་བཞིན་རྩ་སྒྲིག་གི་ཊེམ་པེལེཊིསི་ཡོདཔ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="རང་བཞིན་རྩ་སྒྲིག་སྣོད་ཐོ་ཐེབས་ཚུ་གི་ཐོ་ཡིག">
+							<longdesc>འ་ནི་ཐོ་ཡིག་འདི་ནང་ རང་བཞིན་རྩ་སྒྲིག་གི་ཊེམ་པེལེཊིསི་ཡོད་མི་ སྣོད་ཐོ་ཐེབས་ཚུ་ཡོདཔ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="པ་ལག་ཨིན་སྣོད་ཐོ་ཐེབས་ཚུ་གི་ཐོ་ཡིག">
+							<longdesc>འ་ནི་ཐོ་ཡིག་འདི་ནང་ པ་ལག་ཨིནསི་ཡོད་མི་ སྣོད་ཐོ་ཐེབས་ཚུ་ཡོདཔ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="པ་ལག་ཨིན་ཡིག་སྣོད་གནས་ལུགས་ཚུ་གི་ཐོ་ཡིག">
+							<longdesc>ཐོ་ཡིག་འདི་ནང་ པ་ལག་ཡིག་སྣོད་ཀྱི་གནས་ལུགས་ཚུ་ཆ་མཉམ་ཡོདཔ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="ཤེས་པའི་པ་ལག་ཨིན་ཚུ་གི་ཐོ་ཡིག">
+							<longdesc>ཐོ་ཡིག་འདི་ནང་ ཤེས་པའི་པ་ལག་ཨིནསི་ཆ་མཉམ་ཡོདཔ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="ཤུགས་ལྡན་པ་ལག་ཨིན་ཚུ་གི་ཐོ་ཡིག">
+							<longdesc>ཐོ་ཡིག་འདི་ནང་ རང་བཞིན་གྱིས་ཤུགས་ལྡན་ཨིན་དགོ་མི་ པ་ལག་ཨིན་ཚུ་ཆ་མཉམ་ཡོདཔ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="པ་ལག་ཨིན་གསརཔ་ཚུ་ཤུགས་ལྡན་བཟོ་">
+							<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ གདོང་ཐུག་འབྱུང་ཡོད་མི་པ་ལག་ཨིན་གསརཔ་རེ་རེ་བཞིན་ ཤུགས་ལྡན་བཟོ་དགོཔ་ཨིན་ན་མེན་ གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་ནི་ཚབ་བཙུགས་">
+							<longdesc>རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་ནི་ཚབ་བཙུགས་</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="ཉིནམ་ཚུ་གི་མིང་ཚུ་ རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་">
+							<longdesc>ཉིནམ་ཚུ་གི་མིང་ཚུ་ རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="ཡི་གུ་དམིགས་བསལ་དང་པའི་ཐོ་ཡིག་">
+							<longdesc>རང་བཞིན་ནོར་བཅོས་མ་འཕྲུལ་འདི་གིས་ ཐོ་ཡིག་དེ་ནང་གི་མིང་ཚིག་ཚུ་གི་དོན་ལུ་ ཡི་གུ་དང་པ་འདི་ནོར་བཅོས་མི་འབད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="ཡིག་གུ་དང་པ་འདི་རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་">
+							<longdesc>ཡིག་གུ་དང་པ་འདི་རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="འགོ་ཐོག་ཚུགས་ཡིག་དམིགས་བསལ་ཚུ་གི་ཐོ་ཡིག་">
+							<longdesc>རང་བཞིན་ནོར་བཅོས་མ་འཕྲུལ་འདི་གིས་ ཐོ་ཡིག་དེ་ནང་གི་མིང་ཚིག་ཚུ་གི་དོན་ལུ་ འགོ་ཐོག་ཚུགས་ཡིག་ཚུ་ ནོར་བཅོས་མི་འབད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="འགོ་ཐོག་ཀེཔ་ཚུ་རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་">
+							<longdesc>འགོ་ཐོག་ཀེཔ་ཚུ་རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="འཕྲལ་ཁམས་ལག་ལེན་འཐབ་ཡོད་པའི་ ལས་འགན་ཚུ་གི་ཐོ་ཡིག་གི་ མང་མཐའ་རིང་ཚད་">
+							<longdesc>ལས་འགན་སེལ་འཐུ་འབད་མི་འདི་གིས་ འཕྲལ་ཁམས་ལག་ལེན་འཐབ་ཡོད་པའི་ལས་འགན་ཚུ་གི་ཐོ་ཡིག་ཅིག་བཞགཔ་ཨིན། འ་ནི་འདི་འ་ཕི་ཐོ་ཡིག་འདི་གི་ མང་མཐའ་རིང་ཚད་འདི་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="འཕྲལ་ཁམས་ལག་ལེན་འཐབ་ཡོད་པའི་ལས་འགན་ཚུ་གི་ཐོ་ཡིག">
+							<longdesc>ལས་འགན་སེལ་འཐུ་འབད་མི་འདི་གིས་ འཕྲལ་ཁམས་ལག་ལེན་འཐབ་ཡོད་པའི་ལས་འགན་འདི་གི་ཐོ་ཡིག་ཅིག་བཞགཔ་ཨིན། འ་ནི་འདི་འ་ཕི་ཐོ་ཡིག་འདི་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="གཞི་རིམ་སེལ་འཐུ་འབད་ནི་གི་ལྟག་ལས་ འཛིན་པང་གདམ་">
+							<longdesc>བདེན་པ་ཨིན་པའི་སྐབས་ ཇི་ནུ་མིརིཀ་གིས་དེང་སང་འཛིན་པང་སེལ་འཐུ་འབད་ནི་འདི་ སྔོན་བཤུལ་གཞི་རིམ་སེལ་འཐུ་འབད་ནི་ཚུ་ལས་ གདམ་འོང་། ཁྱོད་ལུ་གློག་རིམ་རྙིངམ་ཚུ་དང་གཅིག་ཁར་བཀྲམ་དགོཔ་ཨིན་པ་ཅིན་ བདེན་པ་ལུ་གཞི་སྒྲིག་འབད་ དཔེར་ན་ ཨེགསི་ཐ་སྙད་ ཡང་ན་ ཨི་མེཀསི་ གཞི་རིམ་སེལ་འཐུ་འབད་ནི་རྐྱངམ་ཅིག་གཞི་སྒྲིག་འབད་མི།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="རང་བཞིན་གྱི་དབྱེ་དོན་ཚུ་གི་ཨང་">
+									<longdesc>དབྱེ་སེལ་ཌའི་ལོག་དེ་ནང་ དབྱེ་སེལ་ལུངས་ཕྱོགས་ཅིག་སེལ་འཐུ་འབད་བའི་སྐབས་ འཚོལ་ཞིབ་དབྱེ་དོན་ཚུ་ རང་བཞིན་གྱིས་ཁ་སྐོང་རྐྱབས་ཨིན། འ་ནི་ཨང་འདི་གིས་ རང་བཞིན་གྱིས་ཁ་སྐོང་རྐྱབས་ནི་གི་ དབྱེ་དོན་ཚུ་གི་མང་མཐའ་ཨང་འདི་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="དབྱེ་སེལ་ཡར་འཛེགས་">
+									<longdesc>འ་ནི་གདམ་ཁ་འདི་གིས་ དབྱེ་སེལ་ཌའི་ལོག་འདི་ནང་ དབྱེ་སེལ་གོ་རིམ་གྱི་ཨེབ་རྟ་འདི་གི་ འགོ་ཐོག་གནས་ལུགས་འདི་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="དབྱེ་སེལ་འབད་ནིའི་འདི་གིས་ རྩ་སྒྲིག་ཚུ་ཉམས་སྲུང་འབདཝ་ཨིན་">
+									<longdesc>འ་ནི་གདམ་ཁ་གཞི་སྒྲིག་འབད་ནི་འདི་གིས་ ལག་ཆས་ཕྲ་རིང་གུའི་དབྱེ་སེལ་ཨེབ་རྟ་ཚུ་ལུ་ དབྱེ་སེལ་འབད་བའི་སྐབས་ ནང་ཐིག་རྩ་སྒྲིག་ཚུ་ཉམས་སྲུང་འབད་བཅུགཔ་ཨིན་ དེ་ལས་ དབྱེ་སེལ་ཌའི་ལོག་ནང་གི་ རྩསྒྲིག་ཉམས་སྲུང་དཔྱད་སྒྲོམ་འདི་གི་ འགོ་ཐོག་གནས་ལུགས་འདི་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="དབྱེ་སཻླ་འདི་ཡི་གུ་ཆེ་ཆུང་གི་ཉེན་ཁ་ཨིན་">
+									<longdesc>འ་ནི་གདམ་ཁ་གཞི་སྒྲིག་འབད་ནི་འདི་གིས་ ལག་ཆས་ཕྲ་རིང་གུའི་དབྱེ་སེལ་ཨེབ་རྟ་ཚུ་ལུ་ ཡི་གུ་ཆེ་ཆུང་གི་ཉེན་ཁུའི་དབྱེ་སེལ་ཅིག་ལཱ་འགན་འགྲུབ་བཅུགཔ་ཨིན་ དེ་ལས་ དབྱེ་སེལ་ཌའི་ལོག་ནང་གི་ ཡི་གུ་ཆེ་ཆུང་གི་དཔྱད་སྒྲོམ་འདི་གི་ འགོ་ཐོག་གནས་ལུགས་འདི་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="ཚབ་སྲུང་འབད་ནིའི་ཡིག་སྣོད་ཚུ་ལུ་ སྔོན་སྒྲིག་">
+									<longdesc>ཡོད་བཞིན་པའི་ཡིག་སྣོད་ཅིག་ཚབ་སྲུང་མ་འབད་བའི་ཧེ་མ་ ཇི་ནུ་མིརིཀ་གིས་ཉེན་བརྡའི་ཌའི་ལོག་ཅིག་སྔོན་གཏང་འབད་འོང་། འ་ནི་གདམ་ཁ་གཞི་སྒྲིག་འབད་ནི་འདི་གིས་ སྔོན་སྒྲིག་དེ་ནང་གི་ ཚབ་སྲུང་ཨེབ་རྟ་འདི་ སྔོན་སྒྲིག་ཨེབ་རྟ་བཟོ་འོང་།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="རྐྱང་པའི་ལེབ་གྲངས་རྩ་སྒྲིག་ནང་ལུ་ ཕྱིར་འདྲེན་འབད་བའི་སྐབས་ ཉེན་བརྡ་འབད་">
+									<longdesc>ཡིག་སྣོད་ཀྱི་རྩ་སྒྲིག་ལ་ལུ་ཅིག་ནང་ ལེབ་གྲངས་རྐྱང་པ་ཅིག་རྐྱངམ་ཅིག་འོངམ་ཨིན། འ་ནི་མི་མཐུན་པ་འདི་གིས་ ལག་ལེན་པ་འདི་ཡང་ཅིན་ སྣ་མང་ཤོག་ལེབ་འདི་གི་ལཱ་གཡོག་ཀི་དེབ་འདི་གི་ལེབ་གྲངས་རྐྱང་པ་ཅིག་རྐྱངམ་ཅིག་སྲུང་བཞག་འབད་ཡོདཔ་ཨིན་པ་ཅིན་ ཉེན་བརྡ་འབད་ཡོདཔ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="ཇི་པུ་མིརིཀ་ཡིག་སྣོད་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཨེབ་བཙུགས་གནས་རིམ་">
+								<longdesc>འ་ནི་ཧྲིལ་གྲངས་(༠ དང ༩ གི་བར་ན་)འདི་གིས་ སྔོན་སྒྲིག་ཡིག་སྣོད་ཀྱི་རྩ་སྒྲིག་ནང་ཡིག་སྣོད་ཚུ་སྲུང་བཞག་འབད་བའི་སྐབས་ ཇི་ནུ་མིརིཀ་གིས་ལཱ་འགན་འགྲུབ་ཡོད་མི་ ཨེབ་བཙུགས་ཀྱི་བསྡོམས་འདི་གསལ་བཀོད་འབདཝ་ཨིན། ༠ འདི་ཨེབ་བཙུགས་ཉུང་ཤོས་ཨིན་ ༩ འདི་ཨེབ་བཙུགས་མང་ཤོས་ཨིན།་</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="སྔོན་སྒྲིག་རྒྱས་བཟུམ་ཆ་རྐྱེན་">
+									<longdesc>ལཱ་གཡོག་ཀི་དེབ་གསརཔ་ཚུ་གི་དོན་ལུ་ འགོ་ཐོག་རྒྱས་བཟུམ་ཆ་རྐྱེན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="སྔོན་སྒྲིག་ཀེར་ཕྲང་སྒོ་སྒྲིག་གི་ཚད་">
+									<longdesc>འ་ནི་ཨང་ (༠.༢༥ དང་ ༡.༠༠ གི་བར་ན་) གིས་སྔོན་སྒྲིག་སྒོ་སྒྲིག་གིས་སྤུབས་ཡོད་པའི་གསལ་གཞིའི་ཚད་འདི་གི་ ཀེར་ཕྲང་དཔྱ་ཕྲན་འདི་བྱིནམ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="སྔོན་སྒརིག་ཐད་སྙོམས་སྒོ་སྒྲིག་གི་ཚད་">
+									<longdesc>འ་ནི་ཨང་ (༠.༢༥ དང་ ༡.༠༠ གི་བར་ན་) གིས་སྔོན་སྒྲིག་སྒོ་སྒྲིག་གིས་སྤུབས་ཡོད་པའི་གསལ་གཞིའི་ཚད་འདི་གི་ ཐད་སྙོམས་དཔྱ་ཕྲན་འདི་བྱིནམ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="འགྱུར་བའི་ལྡེ་མིག་ཚུ་">
+									<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ འགྱུར་བའི་ལྡེ་མིག་ཚུ་གཞི་སྒྲིག་འབད་ཡོདཔ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན། འགྱུར་བའི་ལྡེ་མིག་ཚུ་ 1-2-3 བཟོ་རྣམ་བྱུང་ལས་ལེགས་སྐྱོང་འཐབ་ནི་ལུ་ ལོག་བཀོག་ཡོད་མི་ཅིག་ཨིན། དེ་ཚུ་གི་ ཚད་འཛིན་མདའ་རྟགས་འདི་ རྒྱུན་རིམ་ཚུ་གི་ འགོ་/མཇུག་འདི་ལུ་མཆོང་ནི་ལས་ ཤོག་ལེབ་སྤོ་བཤུད་ནང་ལུ་བསྐྱིརཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="recalclag">
+								<local_schema short_desc="རང་བཞིན་གསལ་བརྗོད་ སླར་རྩིས་སྟོན་ནིའི་ལེག་">
+									<longdesc>`lag&apos; འདི་ ༠་ ཨིན་པ་ཅིན་ ཇི་ནུ་མིརིཀ་གིས་ བསྒྱུར་བཅོས་རེ་རེ་བཞིན་གྱི་བཤུལ་མ་ དེ་འཕྲལ་ལས་ རང་བཞིན་གསལ་བརྗོད་ཚུ་ སླར་རྩིས་སྟོན་འབདཝ་ཨིན།  `lag&apos; གི་ཀླད་ཀོར་མེན་པའི་གནས་གོང་གིས་ ཇི་ནུ་མིརིཀ་ལུ་ སླར་རྩིས་སྟོན་འབད་ནི་རེ་རེ་གི་ཧེ་མ་བསྒྱུར་བཅོས་ལེ་ཤ་སྤུང་གསོག་འབད་ནིའི་དོན་ལས་འབད་བཅུགཔ་ཨིན། `lag&apos; འདི་ཡོད་ཆ་ཨིན་པ་ཅིན་ བསྒྱུར་བཅོས་ཚུ་ནམ་རང་འབྱུང་རུང་ ཇི་ནུ་མིརིཀ་གིས་ `lag&apos; མི་ལི་སྐར་ཆ་བསྒུག་ཞིནམ་ལས་ སླར་རྩིས་སྟོན་འབདཝ་ཨིན་  འ་ནི་དུས་ཡུན་འདི་གི་སྐབས་ལུ་བསྒྱུར་བཅོས་ལེ་ཤ་འབྱུང་པ་ཅིན་ དེ་ཚུ་ཡང་ འ་ནི་ཆུ་ཚོད་འདི་ལུ་ལས་སྦྱོར་འབདཝ་ཨིན། `lag&apos; འདི་མེད་ཆ་ཨིན་པ་ཅིན་ སླར་རྩིས་སྟོན་འབད་ནི་འདི་  |lag| མི་ལི་སྐར་ཆ་ཚུ་གི་ དུས་ཡུན་ཁ་སིམ་སིམ་ཅིག་གི་ཤུལ་ལས་རྐྱངམ་ཅིག་འབྱུངམ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="དངོས་མཐོང་བཤུད་བསྒྲིལ་འབད་ནི་">
+									<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ དངོས་མཐོང་(ཕྱིར་འགྱངས་འབད་ཡོད་མི་དང) བཤུད་བསྒྲིལ་འབད་ནི་འདི་ ལཱ་འགན་གྲུབ་ཡོདཔ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="རང་བཞིན་ཡོངས་སྒྲུབ་">
+									<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ རང་བཞིན་ཡོངས་སྒྲུབ་འདི་ཨཱོན་འབད་ཡོདཔ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar-position">
+								<local_schema>
+									<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ དངོས་པོ་ལག་ཆས་ཕྲ་རིང་འདི་ ག་སྟེ་སྟོན་དགོཔ་ཨིན་ན་ གཏན་འབེབས་བཟོཝ་ཨིན། ༠ འདི་གཡོན་ ༡ འདི་གཡས་ ༢ འདི་མགོ་ལུ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="དངོས་པོ་ལག་ཆས་ཕྲ་རིང་མཐོང་ཚུགསཔ་">
+									<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ དངོས་པོ་ལག་ཆས་ཕྲ་རིང་འདི་ འགོ་ཐོག་བསྒང་མཐོང་ཚུགས་དགོཔ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar-position">
+								<local_schema>
+									<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ རྩ་སྒྲིག་ལག་ཆས་ཕྲ་རིང་འདི་ ག་སྟེ་སྟོན་དགོཔ་ཨིན་ན་ གཏན་འབེབས་བཟོཝ་ཨིན། ༠ འདི་གཡོན་ ༡ འདི་གཡས་ ༢ འདི་མགོ་ལུ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="ལག་ཆས་ཕྲ་རིང་མཐོང་ཚུགས་མི་རྩ་སྒྲིག་འབད་">
+									<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ རྩ་སྒྲིག་ལག་ཆས་ཕྲ་རིང་འདི་ འགོ་ཐོག་བསྒང་མཐོང་ཚུགས་དགོཔ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar-position">
+								<local_schema short_desc="ཚད་ལྡན་ལག་ཆས་ཕྲ་རིང་གི་གནས་ས་">
+									<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ ཚད་ལྡན་ལག་ཆས་ཕྲ་རིང་འདི་ ག་སྟེ་སྟོན་དགོཔ་ཨིན་ན་ གཏན་འབེབས་བཟོཝ་ཨིན། ༠ འདི་གཡོན་ ༡ འདི་གཡས་ ༢ འདི་མགོ་ལུ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="ཚད་ལྡན་ལག་ཆས་ཕྲ་རིང་མཐོང་ཚུགསཔ་">
+									<longdesc>འ་ནི་འགྱུར་ཅན་འདི་གིས་ ཚད་ལྡན་ལག་ཆས་ཕྲ་རིང་འདི་ འགོ་ཐོག་བསྒང་མཐོང་ཚུགས་དགོཔ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="ཀེར་ཕྲང་ཌི་པི་ཨའི་">
+									<longdesc>ཀེར་ཕྲང་ཁ་ཕྱོགས་དེ་ནང་ གསལ་གཞི་ཧུམ་ཆ།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="ཐད་སྙོམས་ཌི་པི་ཨའི་">
+									<longdesc>ཐད་སྙོམས༌ཁ་ཕྱོགས་དེ་ནང་ གསལ་གཞི་ཧུམ་ཆ།</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="ལེབ་གྲངས་ཀྱི་སྔོན་སྒྲིག་ཨང་">
+								<longdesc>ལཱ་གཡོག་ཀི་དེབ་གསརཔ་ཅིག་ནང་ འགོ་ཐོག་གསར་བསྐྲུན་འབད་ཡོད་པའི་ ལེབ་གྲངས་ཚུ་གི་གྲངས།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="སྔོན་སྒྲིག་ཡིག་གཟུགས་འདི་ཨའི་ཊ་ལིཀ་ཨིན།">
+								<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ ལཱ་གཡོག་ཀི་དེབ་གསརཔ་ཅིག་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས་འདི་ ཨའི་ཊ་ལིཀ་ཨིན་ན་མེན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="སྔོན་སྒྲིག་ཡིག་གཟུགས་འདི་རྒྱགས་པ་ཨིན།">
+								<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ ལཱ་གཡོག་ཀི་དེབ་གསརཔ་ཅིག་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས་འདི་རྒྱགས་པ་ཨིན་ན་མེན་ན་ གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="སྔོན་སྒརིག་ཡིག་གཟུགས་ཀྱི་མིང་">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="སྔོན་སྒྲིག་ཡིག་གཟུགས་ཀྱི་ཚད་">
+								<longdesc>ལཱ་གཡོག་གི་དེབ་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས་ཀྱི་ཚད།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="འབད་བཤོལ་འགྲེལ་བཤད་པའི་རིང་ཚད་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་ འབད་བཤོལ་དང་ལོག་འབད་རྒྱུན་ཐག་ནང་གི་ བརྡ་བཀོད་འགྲེལ་བཤདཔ་ཚུ་གི་ མང་ཐའམ་རིང་ཚད་འདི་གི་ བརྡ་སྟོན་འབད་བཏུབ་ཅིག་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="འབད་བཤོལ་རྣམ་གྲངས་ཚུ་གི་ཨང་">
+							<longdesc>་འ་ནི་གནས་གོང་འདི་གིས་ འབད་བཤོལ་/ལོག་འབད་ཐོ་ཡིག་འདི་ནང་གི་རྣམ་གྲངས་ཚུ་གི་ མང་མཐའ་གྲངས་འདི་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="མང་མཐའ་འབད་བཤོལ་གྱི་ཚད་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ འབད་བཤོལ་རྒྱུན་ཐག་འདི་གི་ རིང་ཚད་འདི་གཏན་འབེབས་བཟོཝ་ཨིན། ཞུན་དག་འབད་ནིའི་བྱ་བ་རེ་རེ་ལུ་ འམཇ་སམ་ནང་ཐིག་གཅིག་ཞུན་དག་འབད་ནི་་(༡ གི་ཚད་) ཅིག་གི་དྲན་ཚད་དགོས་མཁོ་འདི་དང་གཅིག་ཁར་ད་བསྡུར་རྐྱབས་ནིའི་དོན་ལས་ དེ་དང་འབྲེལབ་ཡོད་མི་རེ་ཡོདཔ་ཨིན། འབད་བཤོལ་ཐོ་ཡིག་འདི་ ཁོ་རའི་ཚད་ཀྱི་བསྡོམས་འདི་ རིམ་སྒྲིག་འབད་བཏུབ་པའི་གནས་གོང་ལྷགཔ་དང་ ཆུང་ཀུ་བཟོ་འོང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="འབད་བཤོལ་ཐོ་ཡིག་ནང་ལུ་ ལེབ་གྲངས་ཀྱི་མིང་སྟོན་">
+							<longdesc>འ་ནི་གནས་གོང་འདི་གིས་ འབད་བཤོལ་དང་ལོག་འབད་ཐོ་ཡིག་ཚུ་ནང་ ལེབ་གྲངས་ཀྱི་མིང་འདི་ཚུ་ སྟོན་ནི་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="ལ་ཊེགསི་ཕྱིར་འདྲེན་ནང་ ཡུ་ཊི་ཨེཕ་-༨ ལག་ལེན་འཐབ་">
+								<longdesc>འ་ནི་སྒྲིག་སྟངས་འདི་གིས་ གསར་བསྐྲུན་འབད་ཡོད་པའི་ལེ་ཊེགསི་ཡིག་སྣོད་ཚུ་གིས་ ཡུ་ཊི་ཨེཕ་-༨ (ཡུ་ནི་ཀོཌི་)ཡང་ན་ ཨའི་ཨེསི་ཨོ་-༨༨༥༩-༡ (ལེ་ཊིན་༡) ལག་ལེན་འཐབ་ཨིན་ན་མེན་ན་གཏན་འབེབས་བཟོཝ་ཨིན། ཡུ་ཊི་ཨེཕ་-༨ ཡིག་སྣོད་ཚུ་ལག་ལེན་འཐབ་ནིའི་དོན་ལས་ ཁྱོད་ལུ་ ཡུ་སི་ཨེསི་ ལེ་ཊེགསི་ཐུམ་སྒྲིལ་གཞི་བཙུགས་འབད་འབདཝ་དགོ།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="ཡིག་ཆའི་དཀག་དམ་ཟུར་ཁར་བཞག">
+						<longdesc>ཡིག་ཆའི་དཀག་དམ་ དཔེར་ན་འདྲ་བཤུས་བརྐྱབ་ནི་དང་ དཔར་བསྐྲུན་འབད་ནིའི་དཀག་དམ་ཚུ་ ཟུར་ཁར་བཞག</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="ཟུར་རྟགས་ཚུ་གི་ རང་བཞིན་གྱི་གནས་རིམ་ལྕོགས་ཅན་བཟོ་">
+						<longdesc>བར་སྟོང་ལངམ་སྦེ་ཕྱིར་གསལ་འབད་ཡོད་པའི་སྐབས་ འགས་རྫས་བཙུགས་ཡོད་དོ་བཟུམ་སྦེ་ ཇི་ནོ་མཱའིན་རང་བཞིན་གྱི་ཟུར་རྟགས་ཚུ་ཡོད་ནིའི་དོན་ལས་ བདེན་པ་ལུ་གཞི་སྒྲིག་འབད་</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="ཟུར་རྟགས་མང་དྲགས་པའི་སྐོར་ཉེན་བརྡ།">
+						<longdesc>ཟུར་རྟགས་མང་དྲགས་པའི་སྐབས་ ཉེན་བརྡའི་ངོས་དཔར་ཚུ་ ལྕོགས་ཅན་བཟོ་ནི་ལུ་ བདེན་པ་གུ་ གཞི་སྒྲིག་འབད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="མ་ཤེས་པའི་ཟུར་རྟགས་ ལག་ལེན་འཐབ།">
+						<longdesc>གྲུ་བཞི་ཚུ་ མ་ཤེས་པའི་ཁོངས་སུ་ རྟགས་བཀལ་ཚུགས་ནི་ལུ་ བདེན་པ་གུ་གཞི་སྒྲིག་འབད།</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="རྩེད་པང་གི་ཚད་">
+							<longdesc>རྩེད་གཞོང་གི་ཚད། (༠-༢=ཆུང་ཀུ-སྦོམ། ༣=སྲོལ་སྒྲིག)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="སྲོལ་སྒྲིག་རྩེདམོ་ཅིག་ནང་ འགས་རྫས་ཀྱི་གྲངས་">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="སོལ་སྒྲིག་རྩེདམོ་ཅིག་ནང་ གྲལ་ཐིག་ཚུ་གི་གྲངས་">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="སྲོལ་སྒྲིག་རྩེདམོ་ཅིག་ནང་ ཀེར་ཐིག་ཚུ་གི་གྲངས་">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="ལག་ཆས་ཕྲ་རིང་སྟོན་དགོ་ག་མིན་དགོ">
+						<longdesc>ལག་ཆས་ཕྲ་རིང་སྟོན་དགོ་ག་མིན་དགོ</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="ཁྱོད་རའི་དངུལ་ཁང་ནང་ཡོད་པའི་དངུལ་བསྡོམས།">
+							<longdesc>ཁྱོད་རའི་དངུལ་ཁང་ནང་ཡོད་པའི་དངུལ་བསྡོམས།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="བརྗོད་དོན་གྱི་ཡིག་སྣོད་མིང་།">
+							<longdesc>ཏ་སེ་གི་ཚད་རིས་དང་སྦྲགས་པའི་ ཡིག་སྣོད་ཀྱི་མིང་།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="ནང་ཡང་ཉེན་བཅོལ་མ་ལེན།">
+							<longdesc>ནམ་ཡང་ ཨེ་ཀ་ཅིག་སྟོན་པའི་ཐོག་ལས་ བཀྲམ་མི་དང་གཅིག་ཁར་ ཉེན་བཅོལ་མ་ལེན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="མྱུར་བཀྲམ་ཅིག་ ལག་ལེན་འཐབ།">
+							<longdesc>ཏ་སེའི་རེ་རེའི་བར་ན་ ཡུན་འགྱངས་མེད་པའི་ མྱུར་བཀྲམ་ཅིག་ ལག་ལེན་འཐབ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="འབྱུང་ངེས་བཀྲམ་སྟོན་འབད།">
+							<longdesc>བཀྲམ་མི་རེ་རེའི་ ལག་ཡོད་གྲུབ་འབྲས་དང་ ཁྱོད་རའི་ལག་ཡོད་ཀྱི་གནས་གོང་འབྱུང་ངེས་ཚུ་ བཀྲམ་སྟོན་འབད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="ལག་ལེན་འཐབ་ནིའི་ལམ་ལུགས་ཀྱི་འགྱུར་བ།">
+							<longdesc>རྩེ་ནིའི་ལམ་ལུགས་ཀྱི་ཁྱད་འགྱུར་གྱི་ ལམ་ལུགས་ཡོད་པའི་ ཡིག་སྣོད་ཀྱི་མིང་།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="བཙུགས་སྤྱོད་ཉེན་སྲུང་གི་གདམ་ཁ་ ལྕོགས་ཅན་བཟོ།">
+						<longdesc>བཟུང་འཕྲུལ་གཞན་ཚུ་ལུ་ཡོད་མི་ བཙུགས་སྤྱོད་ཉེན་སྲུང་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="ཚད་ལས་བརྒལ་བའི་བཙུགས་སྤྱོད་ ལྕོགས་ཅན་བཟོ།">
+						<longdesc>གནད་སྡུད་དེ་ དངོས་སུ་ཡོད་པའི་བརྡ་ལམ་གྱི་ཚད་ལས་ ལྷག་བཅུག་ནི་ཨིན་ན་མེན།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="རྐྱེན་སེལ་ལྕོགས་ཅན་བཟོ།">
+						<longdesc>སི་ཌི་སྒྲ་བཟུང་གི་དོན་ལུ་ རྐྱེན་སེལ་ལྕོགས་ཅན་ བཟོ་ནི་ཨིན་ན་མེན།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="བཙུགས་སྤྱོད་མགྱོགས་ཚད་ སྔོན་སྒྲིག་འབད།">
+						<longdesc>བརྡ་ལམ་འབྲི་ནིའི་མགྱོགས་ཚད་གུ་ སྔོན་སྒྲིག་འབད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="འཕྲལ་སྐབས་ཀྱི་ ཨའི་ཨེསི་ཨོ་ གཟུགས་བརྙན་ཚུ་གི་དོན་ལུ་སྣོད་ཐོ།">
+						<longdesc>འཕྲལ་སྐབས་ཀྱི་ ཨའི་ཨེསི་ཨོ་ གཟུགས་བརྙན་ཚུ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་ ཁ་བྱང་ཐོ་ཡིག འཕྲལ་སྐབས་ཀྱི་སྣོད་ཐོ་ སྔོན་སྒྲིག་རིམ་ལུགས་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ བར་སྟོང་བཞག</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="ཇི་ནོམ་་ལྡེ་འཁོར་ PKCS#11 ཆ་ཤས་དེ་ ལྕོགས་ཅན་བཟོ་དེ་ཡོད་ག་མེད་ག། ">
+							<longdesc>གདམ་ཁ་འདི་གིས་ ཇི་ནོམ་ ལྡེ་འཁོར་ ཌེ་མཱོན་ནང་ལུ་ PKCS#11 ཆ་ཤས་ ལྕོགས་ཅན་བཟོཝ་ཨིན། དེ་ ཇི་ནོམ་ ལྡེ་འཁོར་ ཌེ་མཱོན་ འགོ་བཙུགསཔ་ད་ལྕངམ་ཅིག་ ནུས་པ་ཐོབ་ཨིན་ (དཔེར་ན་ ལག་ལེན་པ་དེ་ ནང་བསྐྱོད་འབདཝ་ད་ལུ་)། ཌེ་མཱོན་ལུ་ བཀོད་ལམ་ལ་ལོ་ཅིག་ རྩིས་སྤྲོད་འབད་ཡོད་པའི་སྐབས་ གཞི་སྒྲིག་འདི་ ཡངན་ཅིན་ མེདཔ་གཏང་འོང་།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="ཇི་ནོམ་ ལྡེ་འཁོར་ ཨེས་ཨེས་ཨེཆ་ ལས་ཚབ་དེ་ ལྕོགས་ཅན་བཟོ་དེ་ཡོད་ག་མེད་ག། ">
+							<longdesc>གདམ་ཁ་འདི་གིས་ ཇི་ནོམ་ ལྡེ་འཁོར་ ཌེ་མཱོན་ནང་ལུ་ SSH ལས་ཚབ་  ལྕོགས་ཅན་བཟོཝ་ཨིན། དེ་ ཇི་ནོམ་ ལྡེ་འཁོར་ ཌེ་མཱོན་ འགོ་བཙུགསཔ་ད་ལྕངམ་ཅིག་ ནུས་པ་ཐོབ་ཨིན་ (དཔེར་ན་ ལག་ལེན་པ་དེ་ ནང་བསྐྱོད་འབདཝ་ད་ལུ་)། ཌེ་མཱོན་ལུ་ བཀོད་ལམ་ལ་ལོ་ཅིག་ རྩིས་སྤྲོད་འབད་ཡོད་པའི་སྐབས་ གཞི་སྒྲིག་འདི་ ཡངན་ཅིན་ མེདཔ་གཏང་འོང་།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="ཡིག་སྣོད་ངོས་དཔར་གྱི་བརྗོད་དོན།">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="བྱུང་ལས་ཀྱི་དོན་ལུ་སྒྲ་སྐད།">
+							<longdesc>ལག་ལེན་པའི་བྱུང་ལས་ལུ་ སྒྲ་སྐད་གཏང་ནི་ཨིན་ན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="ཨི་ཨེསི་ཌི་ ལྕོགས་ཅན་བཟོ།">
+							<longdesc>སྒྲ་སྐད་སར་བར་འགོ་བཙུགས་ ལྕོགས་ཅན་བཟོ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="སྔོན་སྒྲིག་སྦྱོར་འཕྲུལ་གླུ་རིམ་ཚུ་">
+							<longdesc>སྣ་མང་བརྡ་ལམ་ལྡེ་མིག་བསྡམ་ཐག་དེ་ཚུ་གིས་ ལག་ལེན་འཐབ་མི་ སྔོན་སྒྲིག་སྦྱོར་འཕྲུལ་གླུ་རིམ་ཚུ།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="སྔོན་སྒྲིག་སྦྱོར་འཕྲུལ་ཐབས་འཕྲུལ་">
+							<longdesc>སྣ་མང་བརྡ་ལམ་ལྡེ་མིག་བསྡམ་ཐག་ཚུ་གིས་ལག་ལེན་འཐབ་མི་ སྔོན་སྒྲིག་སྦྱོར་འཕྲུལ་ཐབས་འཕྲུལ་</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="&apos;ཡི་ནི་ཀོཌི་ ཚད་འཛིན་ཡིག་འབྲུ་&apos; དཀར་ཆག་སྟོན།">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="&apos;ཨིན་པུཊི་ཐབས་ལམ&apos; གྱི་དཀར་ཆག་དེ་སྟོན།">
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="དཀར་ཆག་ཕྲ་རིང་གི་མགྱོགས་འཕྲུལ།">
+							<longdesc>དཀར་ཆག་ཕྲ་རིང་ཚུ་ཁ་ཕྱེ་ནིའི་ ལྡེ་སྒྲོམ་མགྱོགས་ཐབས།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="ཇི་ཊི་ཀེ་ ཡིག་སྣོད་འདེམས་བྱེད་ཀྱི་དོན་ལུ་ མོ་ཌུལ།">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc=" གནས་ཚད་ཕྲ་རིང༌ གཡས་ཕྱོགས་ལུ།">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="སྲོལ་སྒྲིག་ཡིག་གཟུགས་ལག་ལེན་འཐབ།">
+							<longdesc>ཇི་ཊི་ཀེ་+ གློག་རིམ་ནང་ལུ་ སྲོལ་སྒྲིག་ཡིག་གཟུགས་ཅིག་ ལག་ལེན་འཐབ་དགོཔ་ཨིན་ན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="མོ་ནོ་སིཔེསི་ ཡིག་གཟུགས།">
+							<longdesc>ཊར་མི་ནཱལ་བཟུམ་མའི་ གནས་ཁོངས་ཚུ་ནང་ ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ མོ་ནོ་སིཔེསི་ (རྒྱ་ཚད་གཏན་བཟོས་) ཡིག་གཟུགས་ཅིག་གི་མིང༌།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="ཡིག་ཆའི་ཡིག་གཟུགས།">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="ཇི་ཊི་ཀེ་ ཨའི་ཨེམ་ གནས་ཚད་བཟོ་རྣམ།">
+							<longdesc>ཇི་ཊི་ཀེ་+ གིས་ལག་ལེན་འཐབ་མི་ ཇི་ཊི་ཀེ་+ ཨིན་པུཊི་ཐབས་ཤེས་ གནས་ཚད་བཟོ་རྣམ་གྱི་མིང༌།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="ཇི་ཊི་ཀེ་ ཨའི་ཨེམ་ ཞུན་དག་མ་འབད་གོང་གི་བཟོ་རྣམ།">
+							<longdesc>ཇི་ཊི་ཀེ་+ གིས་ལག་ལེན་འཐབ་མི་ ཇི་ཊི་ཀེ་+ ཨིན་པུཊི་གི་ཐབས་ཤེས་ ཞུན་དག་མ་འབད་གོང་གི་བཟོ་རྣམ་གྱི་མིང༌།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="སྔོན་སྒྲིག་ཡིག་གཟུགས།">
+							<longdesc>ཇི་ཊི་ཀེ་+ གིས་ལག་ལེན་འཐབ་མི་ སྔོན་སྒྲིག་ཡིག་གཟུགས་ཀྱི་མིང༌།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="ཇི་ཊི་ཀེ་+ བརྗོད་དོན།">
+							<longdesc>ཇི་ཊི་ཀེ་+ གིས་ལག་ལེན་འཐབ་མི་ སྔོན་སྒྲིག་བརྗོད་དོན་གྱི་གཞི་མིང༌།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="ཇི་ཊི་ཀེ་+ བརྗོད་དོན།">
+							<longdesc>ཇི་ཊི་ཀེ་+ གིས་ལག་ལེན་འཐབ་མི་ སྔོན་སྒྲིག་བརྗོད་དོན་གྱི་གཞི་མིང༌།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="ངོས་དཔར་གྱི་བརྗོད་དོན།">
+							<longdesc>པེ་ནཱལ་དང་ ནའུ་ཊི་ལཱསི་ལ་སོགས་པའི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ངོས་དཔར།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="འོད་རྟགས་འགུལ་བསྐྱོད་དུས་ཚོད།">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="འོད་རྟགས་འགུལ་བསྐྱོད།">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="ལག་ཆས་ཕྲ་རིང་གི་ ངོས་དཔར་ཚད།">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="འཕྱལ་བཏུབ་པའི་ ལག་ཆས་ཕྲ་རིང་།">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="འཕྱལ་བཏུབ་པའི་ དཀར་ཆག་ཕྲ་རིང་།">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="དཀར་ཆག་ཚུ་ལུ་ ངོས་དཔར་ཡོད།">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="ལག་ཆས་ཕྲ་རིང་གི་བཟོ་རྣམ།">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="ཨེག་སེལསི་ བསྒྱུར་བཅོས་འབད་ཚུགས།">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="དཀར་ཆག་ཚུ་ལུ་ ཊིའར་ཨོཕ་ཡོད།">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="བསྒུལ་བཟོ་ལྕོགས་ཅན་བཟོ།།">
+							<longdesc>བསྒུལ་བཟོ་ཚུ་ བཀྲམ་སྟོན་འབད་དགོཔ་ཨིན་ན། དྲན་འཛིན་: འདི་སྤྱི་ཁྱབ་ཀྱི་ལྡེ་མིག་ཅིག་ཨིནམ་ལས་ འདི་གིས་ སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་དང་ པེ་ནཱལ་ལ་སོགས་པའི་ སྤྱོད་ལམ་བསྒྱུར་བཅོས་འབདཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="འཛུལ་སྤྱོད་ལྕོགས་ཅན་བཟོ།">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="འགོ་བཙུགས་ཀྱི་ ཕན་ཐབས་འཕྲུལ་རིག་གློག་རིམ་ཚུ།">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>ལྡེ་མིག་གཉིས་ དུས་མཉམ་ལུ་ཨེབ་པ་ཅིན་ ལྕོགས་མིན་བཟོཝ་ཨིན། </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="བར་མཚམས་ཉུང་མཐའ་ མི་ལི་སྐར་ཆའི་ནང་།">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="ལྡེ་སྒྲོམ་ལྡེ་མིག་བརྐྱབ་ནི་ ལྕོགས་ཅན་ཨིན་ན་མེན།">
+							<longdesc>ལྡེ་སྒྲོམ་ལྡེ་མིག་བརྐྱབ་ནི་ ལྕོགས་ཅན་ཨིན་ན་མེན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="བར་མཚམས་ཚུ་ ཕར་འགྱངས་འབད་བཅུག">
+							<longdesc>ཡིག་དཔར་བརྐྱབ་ནིའི་བར་མཚམས་ གསལ་གཞི་དེ་ ཕར་འགྱངས་འབད་ཚུགས་ག་མི་ཚུགས།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="བར་མཚམས་དུས་ཚོད།">
+							<longdesc>ཡིག་དཔར་བརྐྱབ་ནིའི་བར་མཚམས་རིང་ཐུང་ སྐར་མའི་གྲངས།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="ཡིག་དཔར་བརྐྱབ་ནིའི་དུས་ཚོད།">
+							<longdesc>བར་མཚམས་ཐབས་ལམ་ འགོ་མ་བཙུགས་པའི་ཧེ་མར་ ཡིག་དཔར་བརྐྱབ་ནིའི་དུས་ཚོད་ སྐར་མའི་གྲངས།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="གསལ་གཞི་ལྡེ་མིག་རྐྱབས་ནི་ལྕོགས་མིན་བཟོ་">
+							<longdesc>ལག་ལེན་པ་དེ་ལུ་ ཁོ་གི་གསལ་གཞི་ལྡེ་མིག་རྐྱབས་ནི་སྔོན་བཀག་འབད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="ལག་ལེན་པ་སོར་བསྒྱུར་འབད་ནི་ལྕོགས་མིན་བཟོ་">
+							<longdesc>ལག་ལེན་པ་ཅིག་ལུ་ ཁོ་གི་ལཱ་ཡུན་དེ་ ཤུགས་ལྡན་ཨིན་པའི་སྐབས་ རྩིས་ཐོ་གཞན་མི་ཅིག་ལུ་ སོར་བསྒྱུར་འབད་ནི་འདི་ལས་སྔོན་བཀག་འབད།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="དཔར་བསྐྲུན་གཞི་སྒྲིག་ལྕོགས་མིན་བཟོ།">
+							<longdesc>ལག་ལེན་པ་དེ་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ ལེགས་བཅོས་འབད་ནི་ལས་ བཀག་ཐབས་འབདཝ་ཨིན། དཔེར་ན་ འདི་གིས་གློག་རིམ་ཆ་མཉམ་ལུ་ &quot;Print Setup&quot; ཌའི་ལོག་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་ ལྕོགས་མིན་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="དཔར་བསྐྲུན་ལྕོགས་མིན་བཟོ།">
+							<longdesc>ལག་ལེན་པ་དེ་ དཔར་བསྐྲུན་འབད་ནི་ལས་ བཀག་ཐབས་འབདཝ་ཨིན། དཔེར་ན་ འདི་གིས་གློག་རིམ་ཆ་མཉམ་ལུ་&quot;Print&quot; ་ཌའི་ལོག་ཚུ་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་ ལྕོགས་མིན་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="ཡིག་སྣོད་ཚུ་ ཌིཀསི་ལུ་བསྲུང་ནི་ ལྕོགས་མིན་བཟོ།">
+							<longdesc>ལག་ལེན་པ་དེ་ ཡིག་སྣོད་ཚུ་ ཌིཀསི་ནང་བསྲུང་ནི་ལས་ བཀག་ཐབས་འབདཝ་ཨིན། དཔེར་ན་ འདི་གིས་གློག་རིམ་ཆ་མཉམ་ལུ་ &quot;Save as&quot; ཌའི་ལོག་ཚུ་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་ ལྕོགས་མིན་བཟོཝ་ཨིན།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="བཀོད་ལམ་ལྕོགས་མིན་བཟོ།">
+							<longdesc>ལག་ལེན་པ་དེ་ ཊར་མི་ནཱལ་ནང་ འཛུལ་སྤྱོད་འབད་ནི་ལས་ བཀག་ཐབས་འབདཝ་ཨིན། ཡང་ཅིན་ ལག་ལེན་འཐབ་དགོ་པའི་ བཀོད་ལམ་ཅིག་ གསལ་བཀོད་འབདཝ་ཨིན། དཔེར་ན་ འདི་གིས་པེ་ནཱལ་གྱི&quot;Run Application&quot; ཌའི་ལོག་ལུ་ འཛུལ་སྤྱོད་ལྕོགས་མིན་བཟོ་འོང༌།</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="ཚོས་གཞི་ནག་གྲིབ་ཀྱི་དབྱེ་བ།">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="གལ་གནད་ཆུང་བའི་ཚོས་གཞི།">
+							<longdesc>སྟེགས་རིས་འབྲི་བའི་སྐབས་ ཚོས་གཞི་རགས་པ་ ལག་ལེན་མ་འཐབ་པའི་ གཡས་ ཡང་ན་ མཇུག་གི་ཚོས་གཞི།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="ཚོས་གཞི་གཙོ་བོ།">
+							<longdesc>སྟེགས་རིས་སམ་ ཚོས་རགས་པ་འབྲི་བའི་སྐབས་ གཡོན་ ཡང་ན་ མགོའི་ཚོས་གཞི།</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="པར་གྱི་དྭངས་སྒྲིབ།">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="པར་གྱི་ཡིག་སྣོད་མིང༌།">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="པར་གྱི་གདམ་ཁ་ཚུ།">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="ཌེཀསི་ཊོཔ་ རྒྱབ་གཞི་བྲིས།">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="ཨང་ལྡེའི་གནས་ལུགས་ སེམས་ཁར་བཞག">
+								<longdesc>བདེན་པ་གུ་གཞི་སྒྲིག་འབདཝ་ད་ཇི་ནོམ་གྱིས་ ལཱ་ཡུན་ཚུ་གི་བར་ན་ ཨང་ལྡེའི་ ཨེལ་ཨི་ཌི་གི་གནས་ལུགས་ སེམས་ཁར་བཞགཔ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="ལྡེ་སྒྲོམ་དྲིལ་བུའི་ སྲོལ་སྒྲིག་ཡིག་སྣོད་མིང༌།">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>སྲིད་པའི་་བེ་ལུསི་ &quot;on&quot;, &quot;off&quot; དང་ &quot;custom&quot; ཚུ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="འོད་རྟགས་ཚད།">
+								<longdesc>འོད་རྟགས་བརྗོད་དོན་གྱིས་ གཞི་བསྟུན་འབད་ཡོད་མི་ འོད་རྟགས་ཀྱི་ཚད།(_t)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="འོད་རྟགས་བརྗོད་དོན།">
+								<longdesc>འོད་རྟགས་བརྗོད་དོན་གྱི་མིང་། ཨེགསི་འོད་རྟགས་ དཔེར་ན་ ཨེགསི་ཕིརི་༨༦ ༤.༣ དང་ དེ་གི་ཤུལ་ལས་ཀྱི་ཚུ་ལུ་རྒྱབ་སྐྱོར་འབད་མི་ ཨེགསི་སར་བར་གྱིས་ ལག་ལེན་འཐབ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="འོད་རྟགས་ཡིག་གཟུགས།">
+								<longdesc>འོད་རྟགས་ཡིག་གཟུགས་ཀྱི་མིང༌། སྒྲིག་བཤོལ་འབད་བ་ཅིན་ སྔོན་སྒྲིག་ཡིག་གཟུགས་དེ་ ལག་ལེན་འཐབ་ཨིན། བེ་ལུ་འདི་ ལཱ་ཡུན་རེ་འགོ་བཙུགས་སྐབས་ ཨེགསི་སར་བར་རྐྱངམ་གཅིག་ལུ་ དར་ཁྱབ་བཏང་སྟེ་ཡོདཔ་ལས་ ཁྱོད་ཀྱིས་ཤུལ་ལས་ ནང་བསྐྱོད་མ་འབད་ཚུན་ཚོད་ ལཱ་ཡུན་གྱི་བར་ན་ བསྒྱུར་བཅོས་འབདཝ་ད་ ཕན་གནོད་མེདཔ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="དཔག་བྱེད་ག་ཡོད་འཚོལ།">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="ཨེབ་གཏང་ཐེངས་གཉིས་ཀྱི་དུས་ཚོད།">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="ཐེརེཤ་ཧཱོལ་ འདྲུད།">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="འགུལ་བསྐྱོད་ཐེརེཤ་ཧཱོལ།">
+								<longdesc>མགྱོགསསྤྱོད་ཀྱི་ མའུསི་འགུལ་བསྐྱོད་ ཤུགས་ལྡན་མ་བཟོ་བའི་ཧེ་མར་ དཔག་བྱེད་འགུལ་བསྐྱོད་འབད་དགོ་པའི་རྒྱང་ཚད་ པིག་སེལསི་ནང༌། -༡ གི་བེ་ལུ་དེ་ རིམ་ལུགས་སྔོན་སྒྲིག་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="ཨེབ་གཏང་ཐེངས་གཅིག">
+								<longdesc>མཱའུསི་འགུལ་བསྐྱོད་ཀྱི་དོན་ལུ་ མགྱོགས་སྤྱོད་སྒྱུར་བྱེད།  -༡ གི་བེ་ལུ་དེ་ རིམ་ལུགས་སྔོན་སྒྲིག་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="ཨེབ་གཏང་ཐེངས་གཅིག">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="མཱའུསི་ཨེབ་རྟ་གི་ཕྱོགས།">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="ཕྱི་ཁའི་མཐེ་གཟེར་བརྡབ་མི་ ཆ་མཉམ་རང་ ལྕོགས་མིན་བཟོ།">
+							<longdesc>ལས་རིམ་དེ་ཚུ་ རང་དབང་སྦེ་ ལྕོགས་མིན་/ལྕོགས་ཅན་ གང་རུང་ཡང་ ཕྱི་ཁའི་མཐེ་གཟེར་བརྡབ་མིའི་ལས་རིམ་ཚུ་ ལྕོགས་མིན་བཟོ་ནི་ལུ་ ངེས་བདེན་ལུ་ གཞི་སྒྲིག་འབད།</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་གི་དོན་ལུ་ མཐེ་གཟེར་གྱི་བརྡ་བཀོད།">
+								<longdesc>པི་ཌི་ཨེཕ་ཡིག་ཆ་ལུ་མཐེ་གཟེར་བརྡབས་མིའི་ ནུས་ཅན་བརྡ་བཀོད་དང་སྒྲུབ་རྟགས་ཚུ། བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་ ནའུ་ཊི་ལཱསི་མཐེ་གཟེར་བརྡབས་མིའི་ཡིག་ཆ་ལུ་བལྟ།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་ལུ་ མཐེ་གཟེར་བརྡབ་ནི་ལྕོགས་ཅན་བཟོ།">
+								<longdesc>འཐོབ་ཚུགས་པའི་བུ་ལིན་གྱི་གདམ་ཁ། བདེན་པ་གིས་མཐེ་གཟེར་བརྡབ་ཚུགསཔ་བཟོ་ནི་དང་ རྫུན་པ་གིས་མཐེ་གཟེར་གསར་བསྐྲུན་འབད་མ་ཚུགསཔ་བཟོཝ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་གི་དོན་ལུ་ མཐེ་གཟེར་གྱི་བརྡ་བཀོད།">
+								<longdesc>པི་ཌི་ཨེཕ་ཡིག་ཆ་ལུ་མཐེ་གཟེར་བརྡབས་མིའི་ ནུས་ཅན་བརྡ་བཀོད་དང་སྒྲུབ་རྟགས་ཚུ། བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་ ནའུ་ཊི་ལཱསི་མཐེ་གཟེར་བརྡབས་མིའི་ཡིག་ཆ་ལུ་བལྟ།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་ལུ་ མཐེ་གཟེར་བརྡབ་ནི་ལྕོགས་ཅན་བཟོ།">
+								<longdesc>འཐོབ་ཚུགས་པའི་བུ་ལིན་གྱི་གདམ་ཁ། བདེན་པ་གིས་མཐེ་གཟེར་བརྡབ་ཚུགསཔ་བཟོ་ནི་དང་ རྫུན་པ་གིས་མཐེ་གཟེར་གསར་བསྐྲུན་འབད་མ་ཚུགསཔ་བཟོཝ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་གི་དོན་ལུ་ མཐེ་གཟེར་གྱི་བརྡ་བཀོད།">
+								<longdesc>པི་ཌི་ཨེཕ་ཡིག་ཆ་ལུ་མཐེ་གཟེར་བརྡབས་མིའི་ ནུས་ཅན་བརྡ་བཀོད་དང་སྒྲུབ་རྟགས་ཚུ། བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་ ནའུ་ཊི་ལཱསི་མཐེ་གཟེར་བརྡབས་མིའི་ཡིག་ཆ་ལུ་བལྟ།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་ལུ་ མཐེ་གཟེར་བརྡབ་ནི་ལྕོགས་ཅན་བཟོ།">
+								<longdesc>འཐོབ་ཚུགས་པའི་བུ་ལིན་གྱི་གདམ་ཁ། བདེན་པ་གིས་མཐེ་གཟེར་བརྡབ་ཚུགསཔ་བཟོ་ནི་དང་ རྫུན་པ་གིས་མཐེ་གཟེར་གསར་བསྐྲུན་འབད་མ་ཚུགསཔ་བཟོཝ་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="བརའུ་ཟར་གྱིས་ ཐག་རིང་ཧ་གོ་ཚུགས་པས།">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="བརའུ་ཟར་ལུ་ ཊར་མི་ནཱལ་དགོ་པས།">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="སྔོན་སྒྲིག་བརའུ་ཟར།">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="ལཱ་གི་ས་ཁོངས་ཚུ་གི་མིང་ཚུ།(ངོས་ལེན་མེདཔ)">
+								<longdesc>སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་དང་པའི་ ལཱ་གི་ས་ཁོངས་ཀྱི་ མིང་ཚུ་དང་བཅས་པའི་ཐོ་ཡིག་ཅིག ལྡེ་མིག་འདི་ ཇི་ནོམ་ ༢.༡༢ ཐོན་ཞིནམ་ལས་ ངོས་ལེན་མེདཔ་བཟོ་ཡི།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="ལཱ་གི་ས་ཁོངས་ཚུ་གི་གྱངས་ཁ།(ངོས་ལེན་མེདཔ)">
+								<longdesc>སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་གིས་ ལག་ལེན་འཐབ་དགོ་པའི་ ལཱ་གི་ས་ཁོངས་ཚུ་གི་གྱངས་ཁ། ལྡེ་མིག་འདི་ ཇི་ནོམ་ ༢.༡༢ ཐོན་ཞིནམ་ལས་ ངོས་ལེན་མེདཔ་བཟོ་ཡི།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="ལག་ལེན་པའི་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ།(ངོས་ལེན་མེདཔ)">
+								<longdesc>དང་པ་ར་ སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་ ལག་ལུན་འཐབ། ལྡེ་མིག་འདི་ ཇི་ནོམ་༢.༡༢ ཐོན་ཞིནམ་ལས་ ངོས་ལེན་མེདཔ་བཟོ་ཡི།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="གློ་བུར་རྒྱབ་ཐག་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ།(ངོས་ལེན་མེདཔ)">
+								<longdesc>ལག་ལེན་པའི་ སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་ འཚོལ་མ་ཐོབ་པ་ཅིན་ གློ་བུར་རྒྱབ་ཐག་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ། ལྡེ་མིག་འདི་ ཇི་ནོམ་ ༢.༡༢ ཐོན་ཞིནམ་ལས་ ངོས་ལེན་མེདཔ་བཟོ་ཡི།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="འགྲུལ་བསྐྱོད་ཕན་ཐབས་འཕྲུལ་རིག་གི་གློག་རིམ་ དགའ་མི་འགོ་བཙུགས་">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="འགྲུལ་བསྐྱོད་ཕན་ཐབས་འཕྲུལ་རིག་གི་གློག་རིམ་དགའ་མི་">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="མཐོང་བའི་ཕན་ཐབས་འཕྲུལ་རིག་གི་གློག་རིམ་དགའ་མི་འགོ་བཙུགས་">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="མཐོང་བའི་ཕན་ཐབས་འཕྲུལ་རིག་གི་གློག་རིམ་དགའ་མི་">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="སྔོན་སྒྲིག་ཆ་ཤས་ མཐོང་བྱེད་གློག་རིམ།">
+								<longdesc>ཡིག་སྣོད་ལུ་ བལྟ་ནིའི་གློག་རིམ་དེ་ལུ་ ཆ་ཤས་ཅིག་དགོ ཚད་བཟུང་ %s གི་ཚབ་ལུ་ ཡིག་སྣོད་ཀྱི་ ཡུ་ཨར་ཨའི་ཚུ་ བཙུགས་ནི་དང་ ཚད་བཟུང་ %c གི་ཚབ་ལུ་ ཆ་ཤས་ཀྱི་ཨའི་ཌི་ཌི་ བཙུགས་ནི་ཨིན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="སྒྱུབ་རྟགས་ཚུ་ ལག་ལེན་འཐབ།">
+								<longdesc>&apos;exec&apos; ལྡེ་མིག་གིས་ ངེས་འཛིན་འབད་མི་ ཊར་མི་ནཱལ་ནང་གི་ལས་རིམ་ཚུ་ ལག་ལེན་འཐབ་ནིའི་སྒྲུབ་རྟགས་ཚུ།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="ཊར་མི་ནཱལ་གློག་རིམ།">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་ཡོད་པ་ཅིན་ &quot;ymsgr&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་ བརྡ་བཀོད་ཀྱིས་ &quot;ymsgr&quot; ཡུ་ཨར་ཨེལ་ཚུ་ ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;ymsgr&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;xmpp&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;xmpp&quot; ཡུ་ཨར་ཨེལ་ཚུ་ ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;xmpp&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོ་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;sip&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;sip&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;sip&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོ་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;msnim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;msnim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;msnim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོ་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;irc&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;irc&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;irc&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོ་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;icq&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;icq&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;icq&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;gg&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;gg&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;gg&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;h323&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་བ་ཅིན་ &quot;h323&quot; ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;h323&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;h323&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;callto&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་བ་ཅིན་ &quot;callto&quot; ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;callto&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;callto&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;aim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;aim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;aim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;mailto&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་བ་ཅིན་ &quot;mailto&quot; ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;mailto&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;mailto&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;https&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་བ་ཅིན་ &quot;https&quot; ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;https&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;https&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;http&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc> ལྕོགས་ཅན་བཟོ་བ་ཅིན་ &quot;http&quot;  ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;http&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;http&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;man&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་བ་ཅིན་ &quot;man&quot; ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;man&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;man&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;info&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་བ་ཅིན་  &quot;info&quot; ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;info&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;info&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc=" &quot;ghelp&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་བ་ཅིན་ &quot;ghelp&quot; ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;ghelp&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;ghelp&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="བརྡ་བཀོད་དེ་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ།">
+								<longdesc>དབྱེ་བ་འདི་བཟུམ་གྱི་ ཡུ་ཨར་ཨེལ་ ལེགས་སྐྱོང་འཐབ་ནིའི་བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཊར་མི་ནཱལ་ཅིག་ནང་ གཡོག་བཀོལ་་དགོ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;trash&quot; ཡུ་ཨར་ཨེལ་ཨེསི་གི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་བ་ཅིན་ &quot;trash&quot; ཡུ་ཨར་ཨེལ་ཨེསི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་གིས་ &quot;trash&quot; ཡུ་ཨར་ཨེལ་ཨེསི་དེ་ ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་ན།">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་མི་ བརྡ་བཀོད་དེ་ ངེས་བདེན་ཨིན་པ་ཅིན་ &quot;trash&quot; ཡུ་ཨར་ཨེལ་དེ་ ལེགས་སྐྱོང་འཐབ་དགོ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="གསལ་སྡུད་འདི་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།">
+									<longdesc>གསལ་སྡུད་འདི་ ལག་ལེན་དང་ བཀྲམ་སྟོན་འབད་ནི་ཨིན་ན་མེན།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="གསལ་སྡུད་འདི་གི་དོན་ལུ་ སྔོན་སྒྲིག་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད།">
+									<longdesc>གསལ་སྡུད་འདི་གིས་ ཨིན་ཀོ་ཌེཌི་ འབད་ཡོད་པའི་ ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་ཅིག།</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="ལག་ལེན་འཐབ་ཡོད་པའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས།">
+									<longdesc>གསལ་སྡུད་འདི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས་ཅིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ འགྲེལ་བཤད་ཅིག">
+									<longdesc>གསལ་སྡུད་འདི་ ནམ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་གི་སྐོར་ལས་ བརྡ་དོན་དང་ འགྲེལ་བཤད་ཡོད་པའི་ གསལ་སྡུད་འགྲེལ་བཤད་ཅིག</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ མིང་ཐུང་ཀུ་ཅིག">
+									<longdesc>སེལ་འཐུ་འབད་ནི་དང་ གསལ་སྡུད་དེ་མཐུན་མིན་སྦེ་ ངོས་འཛིན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་གསལ་སྡུད་ཀྱི་ མིང་ཐུང་ཀུ་ཅིག</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="གསལ་སྡུད་འདི་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།">
+										<longdesc>གསལ་སྡུད་འདི་ ལག་ལེན་དང་ བཀྲམ་སྟོན་འབད་ནི་ཨིན་ན་མེན།</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="གསལ་སྡུད་འདི་གི་དོན་ལུ་ སྔོན་སྒྲིག་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད།">
+										<longdesc>གསལ་སྡུད་འདི་གིས་ ཨིན་ཀོ་ཌེཌི་ འབད་ཡོད་པའི་ ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་ཅིག།</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ལག་ལེན་འཐབ་ཡོད་པའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས།">
+										<longdesc>གསལ་སྡུད་འདི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ འགྲེལ་བཤད་ཅིག">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ མིང་ཐུང་ཀུ་ཅིག">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="གསལ་སྡུད་འདི་གི་དོན་ལུ་ སྔོན་སྒྲིག་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད།">
+										<longdesc>གསལ་སྡུད་འདི་གིས་ ཨིན་ཀོ་ཌེཌི་ འབད་ཡོད་པའི་ ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་ཅིག།</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ལག་ལེན་འཐབ་ཡོད་པའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས།">
+										<longdesc>གསལ་སྡུད་འདི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ འགྲེལ་བཤད་ཅིག">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ མིང་ཐུང་ཀུ་ཅིག">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="གསལ་སྡུད་འདི་གི་དོན་ལུ་ སྔོན་སྒྲིག་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད།">
+										<longdesc>གསལ་སྡུད་འདི་གིས་ ཨིན་ཀོ་ཌེཌི་ འབད་ཡོད་པའི་ ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་ཅིག།</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ལག་ལེན་འཐབ་ཡོད་པའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས།">
+										<longdesc>གསལ་སྡུད་འདི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ འགྲེལ་བཤད་ཅིག">
+										<longdesc>གསལ་སྡུད་འདི་ ནམ་ལག་ལེན་འཐབ་ནི་ཨིན་ན་གི་སྐོར་ལས་ བརྡ་དོན་དང་ འགྲེལ་བཤད་ཡོད་པའི་ གསལ་སྡུད་འགྲེལ་བཤད་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ མིང་ཐུང་ཀུ་ཅིག">
+										<longdesc>སེལ་འཐུ་འབད་ནི་དང་ གསལ་སྡུད་དེ་མཐུན་མིན་སྦེ་ ངོས་འཛིན་འབད་ནི་ལུ་ ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་གསལ་སྡུད་ཀྱི་ མིང་ཐུང་ཀུ་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="གསལ་སྡུད་འདི་གི་དོན་ལུ་ སྔོན་སྒྲིག་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད།">
+										<longdesc>གསལ་སྡུད་འདི་གིས་ ཨིན་ཀོ་ཌེཌི་ འབད་ཡོད་པའི་ ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་ཅིག།</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ལག་ལེན་འཐབ་ཡོད་པའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས།">
+										<longdesc>གསལ་སྡུད་འདི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ འགྲེལ་བཤད་ཅིག">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ མིང་ཐུང་ཀུ་ཅིག">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="གསལ་སྡུད་འདི་གི་དོན་ལུ་ སྔོན་སྒྲིག་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད།">
+										<longdesc>གསལ་སྡུད་འདི་གིས་ ཨིན་ཀོ་ཌེཌི་ འབད་ཡོད་པའི་ ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་ཅིག།</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ལག་ལེན་འཐབ་ཡོད་པའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས།">
+										<longdesc>གསལ་སྡུད་འདི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ འགྲེལ་བཤད་ཅིག">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ མིང་ཐུང་ཀུ་ཅིག">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="གསལ་སྡུད་འདི་གི་དོན་ལུ་ སྔོན་སྒྲིག་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད།">
+										<longdesc>གསལ་སྡུད་འདི་གིས་ ཨིན་ཀོ་ཌེཌི་ འབད་ཡོད་པའི་ ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་ཅིག།</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ལག་ལེན་འཐབ་ཡོད་པའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས།">
+										<longdesc>གསལ་སྡུད་འདི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ འགྲེལ་བཤད་ཅིག">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ མིང་ཐུང་ཀུ་ཅིག">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="གསལ་སྡུད་འདི་གི་དོན་ལུ་ སྔོན་སྒྲིག་འབད་ཡོད་པའི་ ཡིག་སྣོད་རྒྱ་བསྐྱེད།">
+										<longdesc>གསལ་སྡུད་འདི་གིས་ ཨིན་ཀོ་ཌེཌི་ འབད་ཡོད་པའི་ ཡིག་སྣོད་ཚུ་གསོག་འཇོག་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་སྣོད་མིང་གི་རྒྱ་བསྐྱེད་ཅིག།</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ལག་ལེན་འཐབ་ཡོད་པའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས།">
+										<longdesc>གསལ་སྡུད་འདི་གི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཇི་སི་ཊི་མར་གྱི་ རྒྱུད་དུང་འབྲེལ་ལམ་གྱི་ཆ་ཤས་ཅིག</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ འགྲེལ་བཤད་ཅིག">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="རྣར་ཉན་གསལ་སྡུད་ཀྱི་དོན་ལུ་ མིང་ཐུང་ཀུ་ཅིག">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="གསལ་སྡུད་ཚུ་གི་ཐོ་ཡིག">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="ཨེསི་ཨེམ་བི་ལཱ་སྡེ།">
+						<longdesc>ལག་ལེན་པ་དེ་ ཆ་ཤས་ཅིག་ཨིན་མི་ ཝིན་ཌོསི་ཡོངས་འབྲེལ་སྡེ་ཚན་ ཡང་ན་ ཌོ་མེན། ལཱ་སྡེ་གསརཔ་ཅིག་ལུ་ ནུས་པ་ཧྲིལ་བུ་འཐོབ་ནིའི་དོན་ལུ་ ལག་ལེན་པ་དེ་གིས་ ཕྱིར་བསྐྱོད་འབད་ཞིནམ་ལས་ ལོག་ནང་བསྐྱོད་འབད་དགོཔ་འོང་།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="ཌི་ཨེན་ཨེསི་-ཨེསི་ཌི་གི་ ཞབས་ཏོག་བལྟ་ནིའི་དོན་ལུ་ ཌོ་མེན་ཐེབས།">
+						<longdesc>&quot;network:///&quot; གནས་ཁོངས་ནང་ མཐོང་དགོ་པའི་ ལྷོོད་རྟགས་ཀྱིས་ སོ་སོ་དབྱེ་མི་  ཌི་ཨེན་ཨེསི་-ཨེསི་ཌི་ཌོ་མེན།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="ཉེ་གནས་ཀྱི་ཌི་ཨེན་ཨེསི་-ཨེསི་ཌི་གི་ ཞབས་ཏོག་བཀྲམ་སྟོན་འབད་ཐངས།">
+						<longdesc>སྲིད་པའི་བེ་ལུསི་ &quot;merged&quot; &quot;separate&quot; དང་ &quot;disabled&quot; ཚུ་ཨིན།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="རང་བཞིན་གྱི་ པོརོག་སི་ རིམ་སྒྲིག་གི་ ཡུ་ཨར་ཨེལ།">
+						<longdesc>པོརོག་སི་ རིམ་སྒྲིག་གི་ བེ་ལུསི་བྱིན་མི་ ཡུ་ཨར་ཨེལ།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="ཨེསི་ཨོ་སི་ཀེ་ཨེསི་ པོརོག་སི་ འདྲེན་ལམ།">
+						<longdesc>ཁྱོད་ཀྱིས་པོརོག་སི་འབད་མི་ འཕྲུལ་ཆས་གུའི་འདྲེན་ལམ་དེ་ &quot;/system/proxy/socks_host&quot; གིས་ ངེས་འཛིན་འབད་ཡོད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="ཨེསི་ཨོ་སི་ཀེ་ཨེསི་ པོརོག་སི་ ཧོསཊི་ནེམ།">
+						<longdesc>བརྒྱུད་དེ་ཨེསི་ཨོ་སི་ཀེ་ཨེསི་ པོརོག་སི་འབད་ནིའི་ གློག་འཕྲུལ་གྱི་མིང༌།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="ཨེཕ་ཊི་པི་ པོརོག་སི་ འདྲེན་ལམ།">
+						<longdesc>ཁྱོད་ཀྱིས་ པོ་རོ་སི་འབད་མི་ འཕྲུལ་ཆས་གུའི་འདྲེན་ལམ་དེ་ &quot;/system/proxy/ftp_host&quot; གིས་ངེས་འཛིན་འབད་ཡོད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="ཨེཕ་ཊི་པི་ པོརོག་སི་གི་ ཧོསཊི་ནེམ༌།">
+						<longdesc>ཨེཕ་ཊི་པི་ པོརོག་སི་་འབད་ནིའི་ གློག་འཕྲུལ་ཆས་མིང༌།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་གི་ འདྲེན་ལམ མཐའ་བཙན་བཟོ།">
+						<longdesc>ཁྱོད་ཀྱིས་པོརོག་སི་འབད་མི་ འཕྲུལ་ཆས་གུའི་འདྲེན་ལམ་དེ་ &quot;/system/proxy/secure_host&quot; གིས་ ངེས་འཛིན་འབད་ཡོད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ ཧོསཊི་གི་ནེམ་ མཐའ་བཙན་བཟོ།">
+						<longdesc>བརྒྱུད་དེ་ཨེཆ་ཊི་ཊི་པི་པོརོག་སི་ མཐའ་བཙན་བཟོ་ནིའི་ གློག་འཕྲུལ་གྱི་མིང༌།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="པོརོག་སི་ རིམ་སྒྲིག་གི་ཐབས་ལམ།">
+						<longdesc>པོརོག་སི་ རིམ་སྒྲིག་གི་ཐབས་ལམ་ སེལ་འཐུ་འབད། རྒྱབ་སྐྱོར་ཅན་གྱི་ བེ་ལུསི་ &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot; ཚུ་ཨིན།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="པོརོག་སི་མིན་པའི་ ཧོསཊིསི།">
+						<longdesc>ལྡེ་མིག་འདི་ནང་ ཧོསཊི་གི་ཐོ་ཡིག་ཅིག་ཡོད་མི་ཚུ་ (ཤུགས་ལྡན་ཨིན་པ་ཅིན)་ པོརོག་སི་མ་བརྒྱུད་པར་ ཕྲང་ཕྲང་མཐུད་དེ་ཡོདཔ་ཨིན། བེ་ལུསི་ཚུ་ ཧོསཊི་མིང་དང་ ཌོ་མེན་ (*.foo.com བཟུམ་གྱི་ འགོ་ཐོག་གི་ ཝ་ཡེལ་ཀཌི་ ལག་ལེན་འཐབ་སྟེ) ཨའི་པི་ཧོསཊི་ཁ་བྱང་(ཨའི་པི་ཝི་༤་དང་ ཨའི་པི་ཝི་༦ གཉིས་ཆ་རང་) ཡོངས་འབྲེལ་གྱི་ཁ་བྱང་ (༡༩༢་ ༡༦༨་ ༠་༠ / ༢༤ བཟུམ་འབད་མི་) ནེཊི་མཱཀསི་དང་གཅིག་ཁར།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ ཆོག་ཡིག">
+						<longdesc>ཨེཆ་ཊི་ཊི་པི་ པོརོག་སིང་གི་སྐབས་ལུ་ ཆོག་ཡིག་དེ་ བདེན་བཤད་བཟུམ་ཅིག་སྦེ་སྤྲོད་ནི།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་་ ལག་ལེན་པའི་མིང༌།">
+						<longdesc>ཨེཆ་ཊི་ཊི་པི་ པོརོག་སིང་གི་སྐབས་ལུ་ བདེན་བཤད་བཟུམ་སྦེ་སྤྲོད་ནིའི་ ལག་ལེན་པའི་མིང་།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="པོརོག་སི་ སར་བར་མཐུད་ལམ་གྱི་ བདེན་ཁུངས་བཤད།">
+						<longdesc>ངེས་བདེན་ཨིན་པ་ཅིན་ པོརོག་སི་སར་བར་གྱི་ མཐུད་ལམ་ཚུ་ལུ་ བདེན་བཤད་དགོ ལག་ལེན་པའི་མིང་/ ཆོག་ཡིག་གི་ཀོམ་བོ་དེ་ &quot;/system/http_proxy/authentication_user&quot;  དང་ &quot;/system/http_proxy/authentication_password&quot; ཚུ་གིས་ ངེས་འཛིན་འབད་ཡོད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ འདྲེན་ལམ།">
+						<longdesc>ཁྱོད་ཀྱིས་ པོརོག་སི་འབད་མི་ འཕྲུལ་ཆས་གུའི་འདྲེན་ལམ་དེ་ &quot;/system/http_proxy/host&quot; གིས་ ངེས་འཛིན་འབད་ཡོད།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ ཧོསཊི་ནེམ།">
+						<longdesc>ཨེཆ་ཊི་་ཊི་པི་ པོརོག་སི་འབད་ནིའི་ གློག་འཕྲུལ་གྱི་མིང༌།</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="ཨེཆ་ཊི་ཊི་པི་ པོརོག་སི་ ལག་ལེན་འཐབ།">
+						<longdesc>ཨིན་ཊར་ནེཊི་་ཐོག་ལས་ ཨེཆ་ཊི་ཊི་པི་ འཛུལ་སྤྱོད་འབདཝ་ད་ པོརོག་སི་ གཞི་སྒྲིག་ལྕོགས་ཅན་བཟོཝ་ཨིན།</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

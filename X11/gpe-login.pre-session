@@ -1,0 +1,99 @@
+#!/bin/sh
+
+USER=$1
+
+# Sound devices on various devices #
+
+if [ -e /dev/sound/dsp ]; then
+chown $USER /dev/sound/dsp
+fi
+
+if [ -e /dev/sound/mixer ]; then
+chown $USER /dev/sound/mixer
+fi
+
+if [ -e /dev/misc/buzzer ]; then
+chown $USER /dev/misc/buzzer
+fi
+
+if [ -e /dev/dsp ] && ! [ -h /dev/dsp ]; then
+chown $USER /dev/dsp
+fi
+
+if [ -e /dev/mixer ] && ! [ -h /dev/mixer ]; then
+chown $USER /dev/mixer
+fi
+
+if [ -e /dev/snd/controlC0 ]; then
+chown $USER /dev/snd/controlC0
+fi
+
+# serial device (GSM phone of HTC devices, bluetooth on iPAQ h6300)
+if [ -e /dev/tts/0 ]; then
+chown $USER /dev/tts/0
+fi
+
+# serial device (GSM phone of iPAQ h6300 devices)
+if [ -e /dev/tts/1 ]; then
+chown $USER /dev/tts/1
+fi
+
+# touchscreen devices #
+
+if [ -e /dev/touchscreen/0raw ]; then
+chown $USER /dev/touchscreen/0raw
+fi
+
+if [ -e /dev/touchscreen/0 ]; then
+chown $USER /dev/touchscreen/0
+fi
+
+# suspend (iPAQ h6300)#
+if [ -e /sys/power/state ]; then
+chown $USER /sys/power/state
+chmod u+rw /sys/power/state
+fi
+
+# screen light control #
+
+if [ -d /sys/class/backlight ]; then
+chown -R $USER /sys/class/backlight/*/*
+chmod u+rw /sys/class/backlight/*/*
+fi
+
+if [ -d /sys/devices/platform/omapfb/panel ]; then
+chown -R $USER /sys/devices/platform/omapfb/panel/*
+fi
+
+if [ -e /dev/sharp_fl ]; then
+chown $USER /dev/sharp_fl
+fi
+
+# terminal and framebuffer access #
+if [ -e /dev/tty ]; then
+chmod a+rw /dev/tty
+fi
+
+if [ -e /dev/fb0 ]; then
+chown $USER /dev/fb0
+fi
+ 
+
+# check for ramdisk location
+if [ -d /mnt/ramfs ]; then
+# old location as used in familiar <= 0.7.2
+RAMDISK="/mnt/ramfs"
+# check for location as used in familiar >= 0.8.2
+elif [ -d /media/ram ]; then
+RAMDISK="/media/ram"
+else
+# default to location as used in familiar 0.8.[01]
+RAMDISK="/mnt/ram"
+fi
+
+mkdir -p $RAMDISK/home/$USER
+chown $USER $RAMDISK/home/$USER
+
+# this location MUST be consistent with HOME_VOLATILE in /etc/X11/Xsession
+ln -sf $RAMDISK/home/$USER /home/$USER/ramdisk
+ln -sf /home/$USER/ramdisk/.xsession-errors /home/$USER/.xsession-errors

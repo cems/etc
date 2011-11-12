@@ -1,0 +1,1661 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="వేగమైన సచేతనాన్ని వాడుము">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="పలక పరిమాణం">
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="వాడాల్సిన వైవిధ్యాంశం">
+						<longdesc>వాడాల్సిన వైవిధ్యాంశం యొక్క దస్త్రనామము</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keyright">
+					<local_schema short_desc="కుడికి జరుగుము">
+						<longdesc>కుడివైపుకు జరుగుటకు మీటను నొక్కుము</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="ఎడమకు జరుగు">
+						<longdesc>ఎడమవైపుకు జరుగుటకు మీటను నొక్కుము</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="ధ్వని">
+						<longdesc>ఆడుతున్నపుడు కదలికల శ్రవణాన్ని మోగించాలా</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="వైవిధ్యాంశ ID">
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="రెండవ ఆటగాడి యొక్క స్థాయి">
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="మొదటి ఆటగాడి యొక్క స్థాయి">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="ఆట ఉపదర్శనం">
+							<longdesc>ఇంతకుముందు దాచిన సమక్కుర్పు నుండి ఆట ఉపదర్శనం.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="ఆట క్షేత్రము">
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="ఆట స్కోర్">
+							<longdesc>చివరిగా దాచిన సమకూర్పు నుండి ఆట స్కోరు.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="background_color">
+						<local_schema short_desc="పూర్వరంగం వర్ణము">
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="బంతి శైలి">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="ఆదుతున్న క్షేత్ర పరిమాణం">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="height">
+					<local_schema short_desc="గవాక్షపు ఎత్తు">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="గవాక్షపు వెడెల్పు">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="ఇంతకుముందే ఆడిన ఆటలు">
+						<longdesc>ఇటీవలే ఆడిన ఆటల జాబితా</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="ఆడిన ఆటల గణాంకాలు">
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="వాడాల్సిన ఆట దస్త్రము">
+						<longdesc>సొలెటైర్ పేకాట ఆడుటకు  ఉన్న పథకదస్త్రము నామము</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="ధ్వని">
+						<longdesc>ఆడుతున్నపుడు కదలికల శ్రవణాన్ని మోగించాలా</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="నియంత్రణ శైలిని ఎంచుకొనుము">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="పనిముట్ల పట్టీని చూపించాలా... లేదా...">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="వైవిధ్యాంశ దస్త్రనామము">
+						<longdesc>పేకలుకొరకు ఉన్న చిత్రాల దస్త్రనామము </longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key08">
+						<local_schema short_desc="ఆగ్నేయం వైపుకు జరుగుటకు నొక్కవలసిన మీట">
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="దక్షిణం వైపుకు జరుగుటకు నొక్కవలసిన మీట">
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="నైరుతి వైపుకు జరుగుటకు నొక్కవలసిన మీట">
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="తూర్పు వైపుకు జరుగుటకు నొక్కవలసిన మీట">
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="పడమర వైపుకు జరుగుటకు నొక్కవలసిన మీట">
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="ఈశాన్యం వైపుకు జరుగుటకు నొక్కవలసిన మీట">
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="ఉత్తరం వైపుకు జరుగుటకు నొక్కవలసిన మీట">
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="వాయువ్యం వైపుకు జరుగుటకు నొక్కవలసిన మీట">
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="భద్రమైన ఎత్తులను ఉపయోగించుము">
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="ఆట రకం">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="పూర్వరంగం వర్ణము">
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="పనిముట్ల పట్టాని చూపుము">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="ఆట పెంకుల పరిమాణం">
+							<longdesc>ఆట పెంకుల పరిమాణం</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="ధ్వనులను క్రియాశీలీకరించుము">
+							<longdesc>ధ్వనులను క్రియాశీలీకరించు</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="ప్రారంభించాల్సిన ఆట స్థాయి.">
+							<longdesc>ప్రారంభించాల్సిన ఆట స్థాయి.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="భిన్నమైన క్రమములో స్థాయిలను ఆడుము">
+							<longdesc>భిన్నమైన క్రమములో స్థాయిలను ఆడుము</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="ఆట వేగం">
+							<longdesc>ఆట వేగము (1=తొందరగా, 4=నెమ్మదిగా)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="Al ఆటగాళ్ళ సంఖ్య">
+							<longdesc>Al ఆటగాళ్ళ సంఖ్య</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="మానవ ఆటగాళ్ళ సంఖ్య ">
+							<longdesc>మానవ ఆటగాళ్ళ సంఖ్య</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="కుడికి జరుగుము">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ఎడమకు జరుగు">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="కిందకి జరుపు">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="పైకి జరుపు">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="కుడికి జరుగుము">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ఎడమకు జరుగు">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="కిందకి జరుపు">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="పైకి జరుపు">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="కుడికి జరుగుము">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ఎడమకు జరుగు">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="కిందకి జరుపు">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="పైకి జరుపు">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="కుడికి జరుగుము">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ఎడమకు జరుగు">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="కిందకి జరుపు">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="పైకి జరుపు">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="కుడికి జరుగుము">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ఎడమకు జరుగు">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="కిందకి జరుపు">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="పైకి జరుపు">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="కుడికి జరుగుము">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ఎడమకు జరుగు">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="కిందకి జరుపు">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="పైకి జరుపు">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="నియంత్రణ శైలిని ఎంచుకొనుము">
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="రంగుల పెంకులను నియంత్రించండి">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="విరామము">
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="పరిభ్రమణం">
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="కిందకి జరుపు">
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="కుడికి జరుగుము">
+							<longdesc>కుడివైపుకు జరుగుటకు మీటను నొక్కుము</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="ఎడమకు జరుగు">
+							<longdesc>ఎడమవైపుకు జరుగుటకు మీటను నొక్కుము</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_height">
+						<local_schema short_desc="నింపుటకు అడ్డపట్టీల సంఖ్య">
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="పూర్వరంగం వర్ణము">
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="ప్రారంభించాల్సిన స్థాయి">
+							<longdesc>ప్రారంభించాల్సిన స్థాయి.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="భాగాలను గీయుటకు ఉపయోగించాల్సిన ప్రతిరూపం">
+							<longdesc>భాగాలను గీయుటకు ఉపయోగించిన ప్రతిరూపం</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="కంప్యూటర్ ఆలోచనలను ప్రదర్శించుము">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nm-applet">
+				<entry name="stamp">
+					<local_schema short_desc="స్టాంప్">
+						<longdesc>అమరికలు కొత్త వర్షన్‌కు మైగ్రేట్ కావాలా అనేది నిర్ణయించుటకు వుపయోగించబడుతుంది.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="suppress-wireless-networks-available">
+					<local_schema short_desc="నెట్వర్కులు అందుబాటులోవున్నాయి నోటీసు అణిచివేయుము">
+						<longdesc>వైర్‌లెస్ నెట్వర్కులు అందుబాటులో వున్నప్పుడు నోటీసులను అచేతనము చేయుటకు దీనిని TRUE గా అమర్చండి.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-disconnected-notifications">
+					<local_schema short_desc="అననుసంధానపు నోటీసులను అచేతనముచేయుము">
+						<longdesc>నెట్వర్కునుండి అననుసంధానము అవుచున్నప్పుడు నోటీసులను అచేతనము చేయుటకు దీనిని TRUE గా అమర్చుము.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-connected-notifications">
+					<local_schema short_desc="అనుసంధానము నోటీసులను అచేతనముచేయుము">
+						<longdesc>నెట్వర్కునకు అనుసంధానమవుచున్నప్పుడు నోటీసులను అచేతనము చేయుటకు దీనిని TRUE గా అమర్చండి.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="ధ్వని">
+						<longdesc>ఆడుతున్నపుడు కదలికల శ్రవణాన్ని మోగించాలా</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="printsetup">
+					<entry name="footer">
+						<local_schema short_desc="పుట భూమిక">
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="పుట పీఠిక">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="defaultfont">
+						<entry name="name">
+							<local_schema>
+								<longdesc>కొత్త పనిపుస్తకాల అక్షరశైలి నామం అప్రమేయం.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="నోటీసు ప్రతిమను చూపాలా">
+						<longdesc>నోటీసు ప్రతిమను చూపాలా.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="పత్రము నిభందనలను తిరిగివ్రాయుము">
+						<longdesc>నకలుతీయి లేదా ముద్రించు నిభందనవంటి, పత్రము నిభందనలను తిరిగివ్రాయుము</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="పలకం పరిమాణం">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="పనిముట్ల పట్టీని చూపించాలా... లేదా...">
+						<longdesc>పనిముట్ల పట్టీని చూపించాలా... లేదా.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="మీ బ్యాంక్ లో మొత్తం డబ్బు">
+							<longdesc>మీ బ్యాంక్ లో మొత్తం డబ్బు.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="వైవిధ్యాంశ దస్త్రనామము">
+							<longdesc>పేకలుకొరకు ఉన్న చిత్రాల దస్త్రనామము </longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="బర్న్ ప్రూఫ్ ఉపయోగించుము">
+						<longdesc>బర్న్‌ప్రూఫ్ ఐచ్చికం అందుబాటును కొన్ని రికార్డర్లందు ఉపయోగించాలనుకుంటే.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="ఓవర్ బర్న్ ఉపయోగించుము ">
+						<longdesc>బౌతిక మాద్యమం పరిమాణం ను మించుపోవు డాటాను అనుమతించాలనుకుంటే.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="లోపనిర్మూలనం ఉపయోగించుము">
+						<longdesc>CD రికార్డింగ్ కు డిబగ్గింగ్ ను చేతనపరచాలనుకుంటే.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="అప్రమేయ వ్రాత వేగం">
+						<longdesc>మాద్యమం వ్రాయబడే అప్రమేయ వేగం.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="తాత్కాలిక ISO చిత్రాలకు సంచయం">
+						<longdesc>తాత్కాలిక ISO చిత్రాలకు ఉపయోగించే సంచయం, సిస్టమ్ యొక్క అప్రమేయ తాత్కాలిక సంచయాన్ని ఉపయోగించుకొనుటకు ఖాళీగావదిలివేయండి.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="gnome-keyring PKCS#11 మూలకం చేతనమవ్వాలా.">
+							<longdesc>ఈ ఐచ్చికం PKCS#11 మూలకంనందలి gnome-keyring డెమోన్‌ను చేతనపరుస్తుంది. యిది gnome-keyring-daemon ప్రారంభంతో ప్రభావితమౌతుంది. కొన్ని ఆదేశవరుస ఆర్గుమెంట్లు డెమోన్‌కు పాసైనప్పుడు ఈ అమర్పు తిరిగివ్రాయబడుతుంది.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="gnome-keyring SSH ప్రతినిధి చేతనమవ్వాలా.">
+							<longdesc>This option enables the SSH agent in the gnome-keyring daemon. It only takes effect as gnome-keyring-daemon starts, (ie: when the user logs in). This setting may be overridden when certain command line arguments are passed to the daemon.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="దస్త్రపు ప్రతిమ థీమ్">
+							<longdesc>దస్త్రపు ప్రతిమలను ప్రదర్శించుటకు వుపయోగించిన థీమ్.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="ఇన్‌పుట్ ఫీడ్‌బ్యాక్ శబ్దములు">
+							<longdesc>ఇన్‌పుట్ ఘటనలపై శబ్దములను మ్రోగించవలెనా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="శబ్దపు థీమ్ నామము">
+							<longdesc>ఘటన శబ్దముల కొరకు వుపయోగించుటకు XDG శబ్దపు థీమ్.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="ఘటనలకు శబ్దములు">
+							<longdesc>వినియోగదారి ఘటనలపై శబ్దములను మ్రోగించవలెనా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="ESD చేతనముచేయుము">
+							<longdesc>శబ్దపు సేవిక ప్రారంభంను చేతనంచేయుము</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="అప్రమేయ మిశ్రమకారి ట్రాకులు">
+							<longdesc>బహుళమాధ్యమ కీ బందనములద్వారా వుపయోగించబడిన అప్రమేయ మిశ్రమకారి ట్రాకులు.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="అప్రమేయ మిశ్రమకారి పరికరము">
+							<longdesc>బహుళమాధ్యమ కీ బందనములద్వారా వుపయోగించబడిన అప్రమేయ మిశ్రమకారి పరికరము.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="&apos;యూనికోడ్ నియంత్రిత అక్షర&apos; మెనూను చూపుము">
+							<longdesc>ప్రవేశాల మరియు పాఠ్యము దర్శనాలయొక్క సందర్భ మెనూలు నియంత్రిత అక్షరాలను చేర్చుటకు అడగాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="&apos;ఇన్‌పుట్ పద్దతుల&apos; మెనూను చూపుము">
+							<longdesc>ప్రవేశాల మరియు పాఠ్యము దర్శనాలయొక్క సందర్భ మెనూలు ఇన్‌పుట్ పద్దతిని మార్చుటకు అడగాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="మెనూబార్ త్వరుణి">
+							<longdesc>మెనూ బార్‌లను తెరువుటకు కీబోర్డు లఘువులు</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="GTKFileChooserకు మాడ్యూల్">
+							<longdesc>GtkFileChooser విడ్జట్‌కు దస్త్రవ్యవస్థ రీతిలాగా వుపయోగించుటకు మాడ్యూల్. సాధ్యమగు విలువలు &quot;gio&quot;, &quot;gnome-vfs&quot; మరియు &quot;gtk+&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="కుడివైపున స్థితి పట్టీ">
+							<longdesc>కుడిప్రక్కన స్థితి పట్టీ కొలమానికను ప్రదర్శించాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="మలచిన ఫాంటును వుపయోగించుము">
+							<longdesc>gtk+ అనువర్తనములనందు మలిచిన ఫాంటును వుపయోగించాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="మోనోస్పేస్ ఫాంటు">
+							<longdesc>టెర్మినల్స్‍‌వంటి స్థానముల నందు వుపయోగించుటకు మోనోస్పేస్డు (నిర్దారిత-వెడల్పు) ఫాంటు యొక్క నామము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="పత్రము ఫాంటు">
+							<longdesc>పత్రములను చదువుటకు వుపయోగించిన అప్రమేయ ఫాంటుయొక్క నామము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="GTK IM మాడ్యూల్">
+							<longdesc>GTK+ చేత వుపయోగించబడిన ఇన్‌పుట్ పద్దతి మాడ్యూల్ యొక్క నామము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM స్థితి శైలి">
+							<longdesc>gtk+ చేత వుపయోగించబడిన GTK+ ఇన్‌పుట్ పద్దతి స్థితి శైలి నామము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM ముందుగాసరిచేయు శైలి">
+							<longdesc>gtk+ చేత వుపయోగించబడిన GTK+ ఇన్‌పుట్ పద్దతి ప్రీయెడిట్ శైలి నామము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="అప్రమేయ ఫాంటు">
+							<longdesc>gtk+ చేత వుపయోగించబడిన అప్రమేయ ఫాంటుయొక్క నామము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="GTK+ థీమ్">
+							<longdesc>gtk+ ద్వారా వుపయోగించబడిన అప్రమేయ థీమ్‌యొక్క ఆధారనామము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="GTK+ థీమ్">
+							<longdesc>gtk+ ద్వారా వుపయోగించబడిన అప్రమేయ థీమ్‌యొక్క ఆధారనామము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="ప్రతిమ థీమ్">
+							<longdesc>ప్యానల్‌కు, నాటిలస్‌కు మొదలైన వాటికి వుపయోగించటానికి ప్రతిమ థీమ్.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="కర్సర్ బ్లింక్ సమయం">
+							<longdesc>కర్సర్ బ్లింకు ఆవృతియొక్క పొడవు, మిల్లీసెకనులలో.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="కర్సర్ బ్లింక్">
+							<longdesc>కర్సర్ బ్లింక్ అవ్వాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="సాధనపట్టీ ప్రతిమ పరిమాణము">
+							<longdesc>సాధనపట్టీల నందలి ప్రతిమలయొక్క పరిమాణము, &quot;చిన్న-సాధనపట్టీ&quot; లేదా &quot;పెద్ద-సాధనపట్టీ&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="విడదీయదగు సాధనపట్టీ">
+							<longdesc>వినియోగదారి సాధనపట్టీలను విడదీయగలిగి మరియు వాటిని కదల్చగలగాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="మెనూబార్ విడదీయదగినది">
+							<longdesc>వినియోగదారి మెనూపట్టీలను విడదీయగలిగి మరియు వాటిని కదల్చగలగాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="ప్రతిమలను కలిగివున్న బటన్లు">
+							<longdesc>బటన్ పాఠ్యమునకు అదనముగా బటన్లు ప్రతిమను కూడా ప్రదర్శించవలెనా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="ప్రతిమలను కలిగివున్న మెనూలు">
+							<longdesc>మెనూ ప్రవేశానికి ప్రక్కనే మెనూలు వొక ప్రతిమను ప్రదర్శించాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="సాధనపట్టీ శైలి">
+							<longdesc>సాధనపట్టీ శైలి. చెల్లునటువంటి విలువలు &quot;both&quot;, &quot;both-horiz&quot;, &quot;icons&quot;, మరియు &quot;text&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="యాక్సెల్స్‍‌ను మార్చగలదు">
+							<longdesc>క్రియాశీల మెనూఅంశముపైన వుంచినప్పుడు వినియోగదారి గతికంగా కొత్త త్వరుణిని టైపుచేయ గలగాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="కత్తిరింపులను కలిగివున్న మెనూలు">
+							<longdesc>మోనూలు కత్తిరింపులను కలిగివుండాలా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="యానిమేషన్లను చేతనపరుచుము">
+							<longdesc>యానిమెషన్లు ప్రదర్శించబడాలా. గమనిక: ఇది సార్వత్రిక కీ, ఇది విండో నిర్వాహిక, ప్యానల్ మొదలగు వాటియొక్క ప్రవర్తనను మార్చుతుంది.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="అందుబాటును చేతనపరుచుము">
+							<longdesc>అనువర్తనములు యాక్సెస్‌బిలిటి(ఆందుబాటు) మద్దతును కలిగివుండాలా.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="ప్రారంభపు సహాయక సాంకేతిక అనువర్తనములు">
+								<longdesc>GNOME డెస్కుటాప్‌కు లాగింగ్ అవుతున్నప్పుడు ప్రారంభమవవలిసిన సహాయక సాంకేతిక అనువర్తనముల జాబితా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>మాడిఫైర్ వత్తబడినప్పుడు బీప్ యివ్వుము</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>ఒకే సారి రెండులు వత్తబడితే అచేతనము చేయుము</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="కనీస విరామం మిల్లీసెకనులలో">
+								<longdesc>ఇన్ని మిల్లీసెకునుల @పాటు కీ వత్తబడి వుండకపోతే ఆమోదించవద్దు.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="ప్రారంభపు ఆలస్యం మిల్లీసెకనులలో">
+								<longdesc>మౌస్ కదలిక కీలు ఆపరేట్ అగుటకుముందు యెన్ని మిల్లిసెకనులు వేచివుండాలి.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="ఎన్ని మిల్లీసెకనుల పాటు త్వరుణీకరించ బడాలి">
+								<longdesc>0 నుండి గరిష్ఠ వేగమునకు వెళ్ళుటకు యిదియెన్ని మిల్లీసెకనులను తీసుకొంటుంది.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="సెకనులకు పిగ్జెల్స్‍">
+								<longdesc>గరిష్ట వేగమువద్ద వొక సెకనుకు యెన్ని పిగ్జెల్సు కదలాలి.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="కనీస విరామం మిల్లీసెకనులలో">
+								<longdesc>యిన్ని మిల్లీసెకనుల @సమయంలో ‌_వోకే_కీ మరలా మరలా వత్తబడితే పట్టించుకోవద్దు.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="కీబోర్డు లాకింగ్ చేతనపరిచిన పరచకపోయినా">
+							<longdesc>కీబోర్డు లాకింగ్ చేతనపరిచిన పరచకపోయినా</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="విరామా(బ్రేకు)లయొక్క పొడిగింపును అనుమతించుము">
+							<longdesc>టైపింగ్ విరామం తెర ముందుకు పొడిగించినా పొడిగించకపోయినా.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="విరామం(బ్రేకు) సమయం">
+							<longdesc>టైపింగు విరామం ముగియవలిసిన నిముషముల సంఖ్య</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="టైపుకు సమయం">
+							<longdesc>విరామ(బ్రేకు) రీతి ప్రారంభముకు ముందుగా టైపింగు సమయంకు నిముషాల సంఖ్య.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="URL మరియు MIME రకము సంభాలికలను అచేతనము చేయాలి">
+							<longdesc>ఎటువంటి URL లేదా MIME రకము సంభాలిక అనువర్తనములు నడువుటనైనా నిరోధించుము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="లాక్ తెరను అచేతనము చేయాలి">
+							<longdesc>వినియోగదారిని తన తెరను లాక్‌చేయుటనుండి నిరోధించుము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="వినియోగదారి మారికను అచేతనము చేయుము">
+							<longdesc>వినియోగదారి అతని సెషన్ క్రియాశీలముగా వున్నప్పుడు వేరొక ఖాతాకు మారుటను నిరోధించుము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="ముద్రణ అమర్పును అచేతనము చేయాలి">
+							<longdesc>వినియోగదారిని ముద్రణ అమరికలను మార్చుటనుండి నిరోధించుము. ఉదాహరణకు, యిది అన్ని అనువర్తనములయొక్క &quot;ముద్రణ అమర్పు&quot; డైలాగుల వాడుకను నిరోధిస్తుంది.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="ముద్రణను అచేతనముచేయి">
+							<longdesc>వినియోగదారిని ముద్రించుటనుండి నిరోధించుము. ఉదాహరణకు, యిది అన్ని అనువర్తనములయొక్క &quot;ముద్రణ&quot; డైలాగుల వాడుకను నిరోధిస్తుంది.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="దస్త్రములను డిస్కుకు భద్రపరుచుటను అచేతనము చేయుము">
+							<longdesc>వినియోగదారిని దస్త్రములు డిస్కుకు భద్రపరచుటనుండి నిరోధించుము. ఉదాహరణకు, యిది అన్ని అనువర్తనములయొక్క &quot;యిలా దాచు&quot; డైలాగుల వాడుకను నిరోధిస్తుంది.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="ఆదేశ వరుసను అచేతనము చేయాలి">
+							<longdesc>వినియోగదారిని టెర్మినల్ వాడుకొనుటనుండి లేదా నిర్వర్తించుటకు అదేశ వరుసను తెలుపుటనుండి నిరోధించుము. ఉదాహరమకు, యిది &quot;అనువర్తనం నడిపించు&quot; డైలాగుయొక్క ప్యానల్ వాడుకను అచేతనం చేస్తుంది.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="వర్ణ రంజిత రకము">
+							<longdesc>బ్యాక్‌గ్రౌండు రంగును యెలా వేయాలి. సాధ్యమగువిలువలు &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, మరియు &quot;solid&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="రెండవ రంగు">
+							<longdesc>గ్రేడియంట్స్‍ గీయుచున్నప్పుడు కుడి లేదా క్రింది రంగు, సాలిడ్ రంగులకు వుపయోగపడదు.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="ప్రాధమిక రంగు">
+							<longdesc>గ్రెడియంట్స్‍ గీయుచున్నప్పుడు ఎడమ లేదా పైన రంగు, లేదా సాలిడ్ రంగు.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="చిత్రము ఒపాసిటి">
+							<longdesc>బ్యాక్‌గ్రౌండ్ చిత్రము గీయుటకు ఒపాసిటి</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="చిత్రము దస్త్రమునామము">
+							<longdesc>బ్యాక్‌గ్రౌండు ప్రతిబింబముకు వుపయోగించుటకు దస్త్రము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="చిత్రము ఐచ్చికాలు">
+							<longdesc>wallpaper_filenameతో అమర్చిన ప్రతిబింబము యెలా ప్రస్పుటించాలో నిర్ణయిస్తుంది. సాధ్యమగు విలువలు &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="డెస్కుటాప్ బ్యాక్‌గ్రౌండును గీయుము">
+							<longdesc>GNOME కలిగి డెస్కుటాప్ బ్యాక్‌గ్రౌండును గీయుము.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>థంబ్‌నెయిల్ క్యాచీయొక్క గరిష్ఠ పరిమాణము, మెగాబైట్లలో. శుభ్రపరచుటకు -1కు అమర్చుము.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>క్యాచీనందు థంబ్‌నెయిల్సు గరిష్ఠ వయస్సు, రోజులలో. శుభ్రపరచుటను అచేతనము చేయుటకు -1కు అమర్చుము.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="NumLock స్థితిని గుర్తుంచుకొనుము">
+								<longdesc>సత్యముకు అమర్చితే, GNOME సెషన్ల మద్య NumLock LED స్థితిని గుర్తుంచుకొంటుంది.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="కీబోర్డు గంట మలచిన దస్త్రనామము">
+								<longdesc>మోగించవలిసిన గంట శబ్ధముయొక్క దస్త్రనామము.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>సాధ్యమగు విలువలు &quot;on&quot;, &quot;off&quot;, మరియు &quot;custom&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="కర్సర్ పరిమాణము">
+								<longdesc>cursor_theme చేత రిఫరెన్సు చేయబడిన కర్సర్ పరిమాణము.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="కర్సర్ థీమ్">
+								<longdesc>కర్సర్ థీమ్ నామము. Xకర్సర్‌ను మద్దతిచ్చే Xసేవికలచేత మాత్రమే వుపయోగించబడుతుంది, XFree86 4.3 మరియు తరువాతి వంటివి.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="కర్సర్ ఫాంటు">
+								<longdesc>కర్సర్ యొక్క ఫాంటునామము. అమర్చకపోతే, అప్రమేయ పాంటు వుపయోగించబడుతుంది. ప్రతి సెషన్ ప్రారంభంనందు ఈవిలువ X సేవికకుమాత్రమే ప్రకటించబడుతుంది, అందువలన దీనిని సెషన్ మద్యలో మార్చుటవలన తరువాతిసారి మీరు లాగిన్ అగునంతవరకు ప్రభావితంకాదు.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="సూచకిని వుంచు">
+								<longdesc>Control కీ వత్తినప్పుడు మరియు వదిలినప్పుడు సూచికయొక్క ప్రస్తుత స్థానమును వుద్దీపనము చేయుము.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="రెండు నొక్కుల సమయం">
+								<longdesc>రెండు నొక్కలమద్య పొడవు</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="డ్రాగ్ త్రెష్‌హోల్డ్‍">
+								<longdesc>లాగుట ప్రారంభించుటకు ముందు దూరము</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="గమనం త్రెష్‌హోల్డు">
+								<longdesc>త్వరుణీకరించిన మౌస్ గమనము క్రియాశీలపరుచుటకు ముందు సూచిక తప్పుక కదులవలిసిన దూరము పిగ్జెల్స్‍‌లో. విలువ -1 సిస్టమ్‌యొక్క అప్రమేయము.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="ఏక నొక్కు">
+								<longdesc>మౌస్ గమనము కొరకు త్వరుణము గుణించునది. -1 విలువ సిస్టమ్ యొక్క అప్రమేయము.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="ఏక నొక్కు">
+								<longdesc>ప్రతిమలను తెరుచుటకు ఏక నొక్కు.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="మౌస్ బటన్ సర్దుబాటు">
+								<longdesc>ఎడమ-చేతి మైకుకొరకు ఎడమ మరియు కుడి బటన్స్‍‌ను మార్చము.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="అన్ని బహిర్గత థంబ్‌నెయిలర్స్‍‌ను అచేతనంచేయుము">
+							<longdesc>అవి వేరువేరుగా చేతనం/అచేతనం చేయబడినా కూడా, అన్ని బహిర్గత థంబ్‌నెయిలర్స్‍‌ ప్రోగ్రాములను అచేతనంచేయుటకు సత్యముకు అమర్చుము.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF పత్రాలకు చిరుచిత్ర ఆదేశం">
+								<longdesc>PDF పత్ర చిరుచిత్రానికి వర్తించదగిన ఆదేశాలు. ఎక్కువ సమాచారం కోసం నాటిలస్ చిరుచిత్ర పత్రాన్ని చూడండి</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF పత్రాలను చిరుచిత్రాలుగా క్రియాశీలీకరించు">
+								<longdesc>బూలియన్ ఐచ్చికాలు అందుబాటులో వున్నయి, true అనునది థంబ్‌నెయిలింగ్ చేతనపరుస్తుంది మరియు false కొత్త థంబ్‌నెయిల్ సృష్టీకరణిని అచేతనము చేస్తుంది</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF పత్రాలకు చిరుచిత్ర ఆదేశం">
+								<longdesc>PDF పత్ర చిరుచిత్రానికి వర్తించదగిన ఆదేశాలు. ఎక్కువ సమాచారం కోసం నాటిలస్ చిరుచిత్ర పత్రాన్ని చూడండి</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF పత్రాలను చిరుచిత్రాలుగా క్రియాశీలీకరించు">
+								<longdesc>బూలియన్ ఐచ్చికాలు అందుబాటులో వున్నయి, true అనునది థంబ్‌నెయిలింగ్ చేతనపరుస్తుంది మరియు false కొత్త థంబ్‌నెయిల్ సృష్టీకరణిని అచేతనము చేస్తుంది</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="PDF పత్రాలకు చిరుచిత్ర ఆదేశం">
+								<longdesc>PDF పత్ర చిరుచిత్రానికి వర్తించదగిన ఆదేశాలు. ఎక్కువ సమాచారం కోసం నాటిలస్ చిరుచిత్ర పత్రాన్ని చూడండి</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF పత్రాలను చిరుచిత్రాలుగా క్రియాశీలీకరించు">
+								<longdesc>బూలియన్ ఐచ్చికాలు అందుబాటులో వున్నయి, true అనునది థంబ్‌నెయిలింగ్ చేతనపరుస్తుంది మరియు false కొత్త థంబ్‌నెయిల్ సృష్టీకరణిని అచేతనము చేస్తుంది</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="కర్తవ్యాలకు టెర్మినల్ అవసరము">
+								<longdesc>అప్రమేయ కర్తవ్య అనువర్తనము నడుచుటకు టెర్మినల్ అవసరమా</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="అప్రమేయ కర్తవ్యాలు">
+								<longdesc>అప్రమేయ కర్తవ్యాల అనువర్తనము</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="క్యాలెండర్‌కు టెర్మినల్ అవసరము">
+								<longdesc>అప్రమేయ క్యాలెండర్ అనువర్తనము నడుపుటకు టెర్మినల్ అవసరమా</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="అప్రమేయ క్యాలెండర్">
+								<longdesc>అప్రమేయ క్యాలెండర్ అనువర్తనము</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="అన్వేషణి రిమోట్‌ను అర్దముచేసుకుంటుంది">
+								<longdesc>అప్రమేయ అన్వేషణి నెట్‌స్కేప్ రిమోట్‌ను అర్ధంచేసుకోవాలా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="అన్వేషణికి టెర్మినల్ అవసరము">
+								<longdesc>నడుపుటకు అప్రమేయ అన్వేషణికి టెర్మినల్ అవసరమా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="అప్రమేయ అన్వేషణి">
+								<longdesc>అన్ని URLలకు అప్రమేయ అన్వేషణి.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="పనితలముల యొక్క నామములు (నిలిపివేయబడింది)">
+								<longdesc>మొదటి విండో నిర్వాహకి పనితలముల నామములతో జాబితా. ఈ కీ GNOME 2.12నుండి నిలిపివేయబడింది.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="పనితలముల యొక్క సంఖ్య (నిలిపివేయబడింది)">
+								<longdesc>విండో నిర్వాహిక వుపయోగించవలసిన పనితలముల యొక్క సంఖ్య ఈ కీ GNOME 2.12 నుండి నిలిపివేయబడింది.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="వినియోగదారి విండో నిర్వాహిక (నిలిపివేయబడింది)">
+								<longdesc>ముందుల ప్రయత్నించుటకు విండో నిర్వాహిక. ఈ కీ GNOME 2.12నుండి నిలిపివేయబడింది.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="ఫాల్‌బ్యాక్ విండో నిర్వాహకి (నిలిపివేయబడింది)">
+								<longdesc>వినియోగదారి విండో నిర్వాహిక కనుగొనలేకపోతే ఫాల్‌బ్యాక్ విండో నిర్వాహిక. ఈ కీ GNOME 2.12 నుండి నిలిపివేయబడింది.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="అభీష్ట గమన సహాయక సాంకేతిక అనువర్తనమును ప్రారంభించుము">
+									<longdesc>లాగిన్‌నందు GNOME ప్రారంభిచవలసిన ఆభీష్ట గమన సహాయక సాంకేతిక అనువర్తనము.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="అభీష్ట గమన సహాయక సాంకేతిక అనువర్తనము">
+									<longdesc>లాగన్‌కు, మెనూకు, లేదా అదేశ వరుసకు వుపయోగించవలసిన, అభీష్ట గమన సహాయక సాంకేతిక అనువర్తనము.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="అభీష్ట దృశ్య సహాయక సాంకేతిక అనువర్తనమును ప్రారంభించుము">
+									<longdesc>లాగిన్‌నందు GNOME ప్రారంభిచవలసిన అభీష్ట దృశ్య సహాయక సాంకేతక అనువర్తనము.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="అభీష్ట దృశ్య సహాయక సాంకేతిక అనువర్తనము">
+									<longdesc>లాగిన్‌కు, మెనూకు, లేదా అదేశ వరుసకు వుపయోగించిన, అభీష్ట దృశ్య సహాయక సాంకేతిక అనువర్తనము.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="అప్రమేయ భాగమైన దర్శకి కార్యక్షేత్రం">
+								<longdesc>దస్త్రములను దర్శించుటకు వుపయోగించే అనువర్తనముకు వాటిని దర్శించుటకు మూలకం అవసరమైంది. పారామితి %s దస్త్రముయొక్క URIల చేత పునఃస్థాపించబడుతుంది, పారామితి %c మూలకం IID చేత పునఃస్థాపించబడుతుంది.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Exec ఆర్గుమెంట్లు">
+								<longdesc>&apos;exec&apos; కీద్వారా నిర్వచించిన ప్రోగ్రములను టెర్మినల్‌నందు నిర్వర్తించుటకు విపయోగించు ఆర్గుమెంటు.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="టెర్మినల్ అనువర్తనము">
+								<longdesc>కావలిసిన అనువర్తనములను ప్రారంభిస్తున్నప్పుడు వుపయోగించవలిసిన టెర్మినల్ ప్రోగ్రామ్.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="టెర్మినల్ లో ఓ కమాండ్ ను పంపండి">
+								<longdesc>ఈ తరహా URL ను హ్యాండిల్ చేయడానికి ఉపయోగించిన కమాండ్ టెర్మినల్ లో పనిచేయాలన్నది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;ymsgr&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;ymsgr&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;ymsgr&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="టెర్మినల్ లో ఓ కమాండ్ ను పంపండి">
+								<longdesc>ఈ తరహా URL ను హ్యాండిల్ చేయడానికి ఉపయోగించిన కమాండ్ టెర్మినల్ లో పనిచేయాలన్నది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;xmpp&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;xmpp&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;xmpp&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="టెర్మినల్ లో ఓ కమాండ్ ను పంపండి">
+								<longdesc>ఈ తరహా URL ను హ్యాండిల్ చేయడానికి ఉపయోగించిన కమాండ్ టెర్మినల్ లో పనిచేయాలన్నది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;sip&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;sip&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;sip&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="టెర్మినల్ లో ఓ కమాండ్ ను పంపండి">
+								<longdesc>ఈ తరహా URL ను హ్యాండిల్ చేయడానికి ఉపయోగించిన కమాండ్ టెర్మినల్ లో పనిచేయాలన్నది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;msnim&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;msnim&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;msnim&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="టెర్మినల్ లో ఓ కమాండ్ ను పంపండి">
+								<longdesc>ఈ తరహా URL ను హ్యాండిల్ చేయడానికి ఉపయోగించిన కమాండ్ టెర్మినల్ లో పనిచేయాలన్నది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;irc&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;irc&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;irc&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="టెర్మినల్ లో ఓ కమాండ్ ను పంపండి">
+								<longdesc>ఈ తరహా URL ను హ్యాండిల్ చేయడానికి ఉపయోగించిన కమాండ్ టెర్మినల్ లో పనిచేయాలన్నది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;icq&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;icq&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;icq&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="టెర్మినల్ లో ఓ కమాండ్ ను పంపండి">
+								<longdesc>ఈ తరహా URL ను హ్యాండిల్ చేయడానికి ఉపయోగించిన కమాండ్ టెర్మినల్ లో పనిచేయాలన్నది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;gg&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;gg&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;gg&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;h323&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;h323&quot; ఆదేశం వాడుటకు ఉపయోగించుటకు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;h323&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;h323&quot; మీట ఉపయోగించవలెను URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;పిలుపుకు&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;పిలుపుకు&quot; ఆదేశం వాడుటకు ఉపయోగించుటకు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;పిలుపుకు&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;పిలుపుకు&quot; మీట ఉపయోగించవలెను &quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="టెర్మినల్ లో ఓ కమాండ్ ను పంపండి">
+								<longdesc>ఈ తరహా URL ను హ్యాండిల్ చేయడానికి ఉపయోగించిన కమాండ్ టెర్మినల్ లో పనిచేయాలన్నది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;aim&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;aim&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;aim&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;తపాలాకు&quot; ఉపయోగించుట కొరకు  URLs">
+								<longdesc>&quot;తపాలాకు&quot;ఆదేశం వాడుటకు ఉపయోగించుటకు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;తపాలాకు&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;తపాలాకు&quot; మీట ఉపయోగించవలెను &quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;https&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;https&quot; ఆదేశం వాడుటకు ఉపయోగించుటకు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;https&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;https&quot; మీట ఉపయోగించవలెను URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;http&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;http&quot; ఆదేశం వాడుటకు ఉపయోగించుటకు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;http&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;http&quot; మీట ఉపయోగించవలెను URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;నిక&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;నిక&quot; ఆదేశం వాడుటకు ఉపయోగించు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;నిక&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;నిక&quot; మీట ఉపయోగించవలెను URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;సమాచారము&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;సమాచారం&quot; ఆదేశం వాడుటకు ఉపయోగించుటకు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;సమాచారం&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;సమాచారము&quot; మీట ఉపయోగించవలెను URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gసహాయము&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;gసహాయము&quot; ఆదేశం వాడుటకు ఉపయోగించుటకు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;gసహాయము&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;gసహాయము&quot; మీట ఉపయోగించవలెను URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;చెత్తకుండి&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;చెత్తకుండి&quot; ఆదేశం వాడుటకు ఉపయోగించు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;చెత్తకుండి&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;చెత్తకుండి&quot; మీట ఉపయోగించవలెను URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="ఈ ప్రొఫైల్ ఉపయోగించకపోయినా లేదా ఉపయోగించినా">
+									<longdesc>ఈ ప్రొఫైల్ ను ఉపయోగించినా మరియు ప్రదర్శించినా లేదా లేకపోయినా.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="ఈ ప్రొఫైల్ కు అప్రమేయ దస్త్రపు పొడిగింపు">
+									<longdesc>నిల్వఉంచిన దస్త్రాలు ఈ ప్రొఫైల్ ద్వారా ఎన్‌కోడెడ్ చేయబడనప్పడు ఉపయోగించు దస్త్రనామపు పొడిగింపులు.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="పాక్షిక GStreamer పైప్‌లైన్ ఉపయోగించబడింది">
+									<longdesc>ఈ ప్రొఫైల్ కొరకు ఉపయోగించుటకు ఒక పాక్షిక GStreamer పైప్‌లైన్.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు వివరణ">
+									<longdesc>ప్రొఫైల్ యొక్క వివరణ, ఎక్కువ సమాచారాన్ని కలిగిఉంటుంది మరియు ఈ ప్రొఫైల్ ను ఎప్పుడు ఉపయోగించాలో వివరిస్తుంది.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు ఒక పొట్టినామము">
+									<longdesc>ఆడియో ప్రొఫైల్ కొరకు పొట్టినామము, ఎంపికలలో ఉంపయోగించుటకు మరియు ప్రొఫైల్ ను ఏకంగా గుర్తించుటకు.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="ఈ ప్రొఫైల్ ఉపయోగించకపోయినా లేదా ఉపయోగించినా">
+										<longdesc>ఈ ప్రొఫైల్ ను ఉపయోగించినా మరియు ప్రదర్శించినా లేదా లేకపోయినా.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="ఈ ప్రొఫైల్ కు అప్రమేయ దస్త్రపు పొడిగింపు">
+										<longdesc>నిల్వఉంచిన దస్త్రాలు ఈ ప్రొఫైల్ ద్వారా ఎన్‌కోడెడ్ చేయబడనప్పడు ఉపయోగించు దస్త్రనామపు పొడిగింపులు.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="పాక్షిక GStreamer పైప్‌లైన్ ఉపయోగించబడింది">
+										<longdesc>ఈ ప్రొఫైల్ కొరకు ఉపయోగించుటకు ఒక పాక్షిక GStreamer పైప్‌లైన్.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు వివరణ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు ఒక పొట్టినామము">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="ఈ ప్రొఫైల్ కు అప్రమేయ దస్త్రపు పొడిగింపు">
+										<longdesc>నిల్వఉంచిన దస్త్రాలు ఈ ప్రొఫైల్ ద్వారా ఎన్‌కోడెడ్ చేయబడనప్పడు ఉపయోగించు దస్త్రనామపు పొడిగింపులు.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="పాక్షిక GStreamer పైప్‌లైన్ ఉపయోగించబడింది">
+										<longdesc>ఈ ప్రొఫైల్ కొరకు ఉపయోగించుటకు ఒక పాక్షిక GStreamer పైప్‌లైన్.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు వివరణ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు ఒక పొట్టినామము">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="ఈ ప్రొఫైల్ కు అప్రమేయ దస్త్రపు పొడిగింపు">
+										<longdesc>నిల్వఉంచిన దస్త్రాలు ఈ ప్రొఫైల్ ద్వారా ఎన్‌కోడెడ్ చేయబడనప్పడు ఉపయోగించు దస్త్రనామపు పొడిగింపులు.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="పాక్షిక GStreamer పైప్‌లైన్ ఉపయోగించబడింది">
+										<longdesc>ఈ ప్రొఫైల్ కొరకు ఉపయోగించుటకు ఒక పాక్షిక GStreamer పైప్‌లైన్.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు వివరణ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు ఒక పొట్టినామము">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="ఈ ప్రొఫైల్ కు అప్రమేయ దస్త్రపు పొడిగింపు">
+										<longdesc>నిల్వఉంచిన దస్త్రాలు ఈ ప్రొఫైల్ ద్వారా ఎన్‌కోడెడ్ చేయబడనప్పడు ఉపయోగించు దస్త్రనామపు పొడిగింపులు.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="పాక్షిక GStreamer పైప్‌లైన్ ఉపయోగించబడింది">
+										<longdesc>ఈ ప్రొఫైల్ కొరకు ఉపయోగించుటకు ఒక పాక్షిక GStreamer పైప్‌లైన్.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు వివరణ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు ఒక పొట్టినామము">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="ఈ ప్రొఫైల్ కు అప్రమేయ దస్త్రపు పొడిగింపు">
+										<longdesc>నిల్వఉంచిన దస్త్రాలు ఈ ప్రొఫైల్ ద్వారా ఎన్‌కోడెడ్ చేయబడనప్పడు ఉపయోగించు దస్త్రనామపు పొడిగింపులు.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="పాక్షిక GStreamer పైప్‌లైన్ ఉపయోగించబడింది">
+										<longdesc>ఈ ప్రొఫైల్ కొరకు ఉపయోగించుటకు ఒక పాక్షిక GStreamer పైప్‌లైన్.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు వివరణ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు ఒక పొట్టినామము">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="ఈ ప్రొఫైల్ కు అప్రమేయ దస్త్రపు పొడిగింపు">
+										<longdesc>నిల్వఉంచిన దస్త్రాలు ఈ ప్రొఫైల్ ద్వారా ఎన్‌కోడెడ్ చేయబడనప్పడు ఉపయోగించు దస్త్రనామపు పొడిగింపులు.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="పాక్షిక GStreamer పైప్‌లైన్ ఉపయోగించబడింది">
+										<longdesc>ఈ ప్రొఫైల్ కొరకు ఉపయోగించుటకు ఒక పాక్షిక GStreamer పైప్‌లైన్.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు వివరణ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు ఒక పొట్టినామము">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="ఈ ప్రొఫైల్ కు అప్రమేయ దస్త్రపు పొడిగింపు">
+										<longdesc>నిల్వఉంచిన దస్త్రాలు ఈ ప్రొఫైల్ ద్వారా ఎన్‌కోడెడ్ చేయబడనప్పడు ఉపయోగించు దస్త్రనామపు పొడిగింపులు.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="పాక్షిక GStreamer పైప్‌లైన్ ఉపయోగించబడింది">
+										<longdesc>ఈ ప్రొఫైల్ కొరకు ఉపయోగించుటకు ఒక పాక్షిక GStreamer పైప్‌లైన్.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు వివరణ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ఆడియో ప్రొఫైల్ కొరకు ఒక పొట్టినామము">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="ప్రొఫైల్స్ జాబితా">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="SMB పని సముదాయం">
+						<longdesc>వినియోగదారి భాగముగావున్న విండోస్ నెట్వర్కింగ్ పనిసమూహం లేదా డొమైన్. కొత్త పనిసమూహం(వర్కుగ్రూప్) పూర్తిగా ప్రభావితం కావటానికి వినియోగదారి లాగ్అవుట్ అయ్యి లాగిన్ అవ్వవలసిరావచ్చు.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="DNS-SD సేవలలో అధికమైన అధికారక్షేత్రాలకు చూచుట కొరకు">
+						<longdesc>DNS-SD డొమైన్లయొక్క కామాతో విభజించిన జాబితా &quot;network:///&quot; స్థానమునందు కనిపించాలి.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="స్థానిక DNS-SD సేవ ఎలా ప్రదర్శించాలి">
+						<longdesc>సాధ్యమైన విలువలు ఉన్నవి &quot;ముంచబడినది&quot;, &quot;వేరుచేయు&quot; మరియు &quot;నిరుపయోగము&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="స్వయంచాలక ప్రాతినిథ్య రూపకరణ URL">
+						<longdesc>URL దాని యొక్క ప్రాతినిథ్య రూపకరణ విలువలు కల్పిస్తుంది</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="సోక్స్ ప్రాతినిథ్య రేవు">
+						<longdesc>రేవు పై పరికరం నిర్వచించుట ద్వారా &quot;/వ్యవస్థ/ప్రాతినిథ్య/సోక్స్_ఆతిథ్యం&quot; అది నీవు ప్రాతినిథ్యం గుండా.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="సోక్స్ ప్రాతినిథ్య ఆతిథ్య నామము">
+						<longdesc>యంత్రం నామము కు ప్రాతినిథ్యంకు సోక్స్ గుండా.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="FTP ప్రాతినిధ్య రేవు">
+						<longdesc>రేవు పై పరికరం నిర్వచించుట ద్వారా &quot;/వ్యవస్థ/ప్రాతినిథ్య/ftp_ఆతిథ్యం&quot; అది నీవు ప్రాతినిథ్యంగుండా.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="FTP ప్రాతినిధ్య ఆతిథ్య నామము">
+						<longdesc>యంత్రం నామము కు ప్రాతినిథ్యంకు రక్షిత FTP గుండా.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="రక్షిత HTTP ప్రాతినిథ్యం రేవు">
+						<longdesc>రేవు పై పరికరం నిర్వచించుట ద్వారా &quot;/వ్యవస్థ/ప్రాతినిథ్య/రక్షిత_ఆతిథ్యం&quot; అది నీవు ప్రాతినిథ్యం గుండా.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="రక్షిత HTTP ప్రాతినిథ్య ఆతిథ్య నామము">
+						<longdesc>యంత్రం నామము కు ప్రాతినిథ్యంకు రక్షిత HTTP గుండా.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="ప్రాతినిథ్య రూపకరణ విధం">
+						<longdesc>ప్రాతినిథ్య రూపకరణ విధం ఎంచుకొనుము. సహకరించు విలువలు కలవు &quot;ఏదీకాదు&quot;, &quot;నిర్థేశికం&quot;, &quot;స్వయంచాలకం&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="ప్రాతినిథ్యం-కాని ఆతిథ్యాలు">
+						<longdesc>ప్రోక్సీ(క్రియాశీలంగా వుంటే) ద్వారా కాకుండా, నేరుగా అనుసంధానమైవున్న అతిధేయలయొక్క జాబితాను కీ కలిగివుంది. అవి అతిధేయ నామములు, డొమైన్లు (ప్రాధమిక వైల్డుకార్డు *.foo.com వుపయోగించే), IP అతిధేయ చిరునామాలు (IPv4 మరియు IPv6 రెండూ) మరియు నెట్‌మాస్కు (192.168.0.0/24 వంటి)తో నెట్వర్కు చిరునామాలు.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="HTTP ప్రాతినిథ్య రహస్యపదం">
+						<longdesc>రహస్యపదంకు HTTP ప్రాతినిథ్యించుటకు రహస్యపదంకు ప్రామాణికరణ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="HTTP ప్రాతినిథ్య వినియోగదారు నామము">
+						<longdesc>HTTP ప్రాతినిథ్య పరుస్తున్నప్పుడు రూపశిల్పం లాగా పోవుటకు వినియోగదారు నామము.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="ప్రామాణికరణ ప్రాతినిథ్య సేవిక బంధాలు">
+						<longdesc>నిజమైతే, ప్రోక్సీ సేవికకు అనుసంధానములుకు దృవీకరణ అవసరమౌతుంది. వినియోగదారి/సంకేతపదం యుగళం &quot;/system/http_proxy/authentication_user&quot; మరియు &quot;/system/http_proxy/authentication_password&quot;చేత నిర్వచింపబడుతుంది.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="HTTP ప్రాతినిథ్య రేవు">
+						<longdesc>రేవు పై పరికరం నిర్వచించుట ద్వారా &quot;/వ్యవస్థ/http_ప్రాతినిథ్య/ఆతిథ్యం&quot; అది నీవు ప్రాతినిథ్యం గుండా.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="HTTP ప్రాతినిధ్య ఆతిథ్య నామము">
+						<longdesc>యంత్రం నామము కు ప్రాతినిథ్యంకు HTTP గుండా.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="HTTP ప్రాతినిథ్యం వాడు">
+						<longdesc>HTTP ఇంటర్ నెట్ పైన సాంగత్య పరుస్తున్నప్పుడు ప్రాతినిథ్య అమరికలు ఉపయోగించు. </longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

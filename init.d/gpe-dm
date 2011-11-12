@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+PIDFILE="/var/run/gpe-dm.pid"
+
+case "$1" in
+  start)
+	echo "Starting GPE display manager: gpe-dm"
+	gpe-dm
+  ;;
+
+  stop)
+        echo "Stopping GPE display manager: gpe-dm"
+        kill `cat ${PIDFILE}`
+	dd if=/dev/zero of=/dev/fb0 2>/dev/null || dd if=/dev/zero of=/dev/fb/0 2>/dev/null
+  ;;
+
+  *)
+        echo "usage: $0 { start | stop }"
+  ;;
+esac
+
+exit 0

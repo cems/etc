@@ -1,0 +1,9 @@
+key=????XF86AudioRecord:xcalibrate:/usr/bin/xtscal
+key=????XF86PowerDown:-:/usr/bin/apm --suspend
+key=????Held XF86PowerDown:-:bl toggle
+
+# VT changing
+key=...*Left:-:~chvt 1
+key=...*Right:-:~chvt 3
+key=...*Escape:-:~/etc/init.d/gpe-dm stop
+

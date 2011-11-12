@@ -1,0 +1,3493 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+<!-- MS Powerpoint -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.ms-powerpoint/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.ms-powerpoint/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of Microsoft PowerPoint presentations</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für Microsoft PowerPoint-Präsentationen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of Microsoft PowerPoint presentations</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para presentaciones de Microsoft PowerPoint</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea Microsoft PowerPoint aurkezpenentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour présentations Microsoft PowerPoint</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de apresentações do Microsoft PowerPoint</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para apresentações do Microsoft PowerPoint</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för Microsoft PowerPoint-presentationer</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生微軟 PowerPoint 簡報的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生微軟 PowerPoint 簡報的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.ms-powerpoint/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.ms-powerpoint/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for Microsoft PowerPoint presentations</short>
+        <long>Valid command plus arguments for the Microsoft PowerPoint thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für Microsoft PowerPoint-Präsentationen</short>
+        <long>Gültiger Befehl plus Argumente für die Microsoft PowerPoint-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for Microsoft PowerPoint presentations</short>
+        <long>Valid command plus arguments for the Microsoft PowerPoint thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para presentaciones de Microsoft PowerPoint</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de Microsoft PowerPoint</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa Microsoft PowerPoint aurkezpenentzako</short>
+        <long>Baliozko komandoa argumentuekin Microsoft PowerPoint koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour présentations Microsoft PowerPoint</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour Microsoft PowerPoint</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para apresentações do Microsoft PowerPoint</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência do Microsoft PowerPoint</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para apresentações do Microsoft PowerPoint</short>
+        <long>Argumentos de comando válidos para miniatura do Microsoft PowerPoint</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för Microsoft PowerPoint-presentationer</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för Microsoft PowerPoint</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生微軟 PowerPoint 簡報縮圖的指令</short>
+        <long>產生微軟 PowerPoint 簡報縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生微軟 PowerPoint 簡報縮圖的指令</short>
+        <long>產生微軟 PowerPoint 簡報縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- XML MS Powerpoint 2007 -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.presentationml.presentation/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.presentationml.presentation/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of Microsoft PowerPoint 2007 presentations</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für Microsoft PowerPoint-2007-Präsentationen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of Microsoft PowerPoint 2007 presentations</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para presentaciones de Microsoft PowerPoint 2007</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea Microsoft PowerPoint 2007 aurkezpenentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour présentations Microsoft PowerPoint 2007 </short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de apresentações do Microsoft PowerPoint 2007</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para apresentações do Microsoft PowerPoint 2007</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för Microsoft PowerPoint 2007-presentationer</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.presentationml.presentation/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.presentationml.presentation/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for Microsoft PowerPoint 2007 presentations</short>
+        <long>Valid command plus arguments for the Microsoft PowerPoint 2007 thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für Microsoft PowerPoint-2007-Präsentationen</short>
+        <long>Gültiger Befehl plus Argumente für die Microsoft PowerPoint-2007-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for Microsoft PowerPoint 2007 presentations</short>
+        <long>Valid command plus arguments for the Microsoft PowerPoint 2007 thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para presentaciones de Microsoft PowerPoint 2007</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de Microsoft PowerPoint 2007</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa Microsoft PowerPoint 2007 aurkezpenentzako</short>
+        <long>Baliozko komandoa argumentuekin Microsoft PowerPoint 2007 koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour présentations Microsoft PowerPoint 2007</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour Microsoft PowerPoint 2007</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para apresentações do Microsoft PowerPoint 2007</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência do Microsoft PowerPoint 2007</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para apresentações do Microsoft PowerPoint 2007</short>
+        <long>Argumentos de comando válidos para miniaturas do Microsoft PowerPoint 2007</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för Microsoft PowerPoint 2007-presentationer</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för Microsoft PowerPoint 2007</long>
+      </locale>
+    </schema>
+<!-- MS Excel -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.ms-excel/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.ms-excel/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of Microsoft Excel spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für Microsoft Excel-Tabellen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of Microsoft Excel spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para hojas de cálculo de Microsoft Excel</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea Microsoft Excel kalkulu-orrientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour feuilles de calcul Microsoft Excel</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de folhas de cálculo do Microsoft Excel</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para planilhas do Microsoft Excel</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för Microsoft Excel-kalkylblad</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生微軟 Excel 試算表的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生微軟 Excel 試算表的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.ms-excel/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.ms-excel/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for Microsoft Excel spreadsheets</short>
+        <long>Valid command plus arguments for the Microsoft Excel spreadsheets.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für Microsoft Excel-Tabellen</short>
+        <long>Gültiger Befehl plus Argumente für die Microsoft Excel-Tabellen.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for Microsoft Excel spreadsheets</short>
+        <long>Valid command plus arguments for the Microsoft Excel spreadsheets.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para documentos de hojas de cálculo de Microsoft Excel</short>
+        <long>Comando válido y argumentos para hojas de cálculo de Microsoft Excel.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa Microsoft Excel kalkulu-orrientzako</short>
+        <long>Baliozko komandoa argumentuekin Microsoft Excel kalkulu-orrientzako.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour feuilles de calcul Microsoft Excel</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour feuilles de calcul Microsoft Excel.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para folhas de cálculo do Microsoft Excel</short>
+        <long>Comando válido mais argumentos para as folhas de cálculo do Microsoft Excel</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para planilhas do Microsoft Excel</short>
+        <long>Argumentos de comando válidos para planilhas do Microsoft Excel.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för Microsoft Excel-kalkylblad</short>
+        <long>Giltigt kommando plus argument för Microsoft Excel-kalkylblad.</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生微軟 Excel 試算表縮圖的指令</short>
+        <long>產生微軟 Excel 試算表縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生微軟 Excel 試算表縮圖的指令</short>
+        <long>產生微軟 Excel 試算表縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- XML MS Excel 2007 -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.spreadsheetml.sheet/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.spreadsheetml.sheet/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of Microsoft Excel 2007 spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für Microsoft Excel-2007-Tabellen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of Microsoft Excel 2007 spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para hojas de cálculo de Microsoft Excel 2007</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea Microsoft Excel 2007 kalkulu-orrientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour feuilles de calcul Microsoft Excel 2007</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de folhas de cálculo do Microsoft Excel 2007</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para planilhas do Microsoft Excel 2007</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för Microsoft Excel 2007-kalkylblad</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.spreadsheetml.sheet/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.spreadsheetml.sheet/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for Microsoft Excel 2007 spreadsheets</short>
+        <long>Valid command plus arguments for the Microsoft Excel 2007 spreadsheets.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für Microsoft Excel-2007-Tabellen</short>
+        <long>Gültiger Befehl plus Argumente für die Microsoft Excel-2007-Tabellen.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for Microsoft Excel 2007 spreadsheets</short>
+        <long>Valid command plus arguments for the Microsoft Excel 2007 spreadsheets.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para documentos de hojas de cálculo de Microsoft Excel 2007</short>
+        <long>Comando válido y argumentos para hojas de cálculo de Microsoft Excel 2007.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa Microsoft Excel 2007 kalkulu-orrientzako</short>
+        <long>Baliozko komandoa argumentuekin Microsoft Excel 2007 kalkulu-orrientzako.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour feuilles de calcul Microsoft Excel 2007</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour feuilles de calcul Microsoft Excel 2007.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para folhas de cálculo do Microsoft Excel 2007</short>
+        <long>Comando válido mais argumentos para as folhas de cálculo do Microsoft Excel 2007</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para planilhas do Microsoft Excel 2007</short>
+        <long>Argumentos de comando válidos para apresentações do Microsoft Excel 2007.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för Microsoft Excel 2007-kalkylblad</short>
+        <long>Giltigt kommando plus argument för Microsoft Excel 2007-kalkylblad.</long>
+      </locale>
+    </schema>
+<!-- MS Word -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@msword/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@msword/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of Microsoft Word documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für Microsoft Word-Dokumente aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of Microsoft Word documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para documentos de Microsoft Word</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea Microsoft Word dokumentuentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour documents Microsoft Word</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de documentos do Microsoft Word</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para documentos do Microsoft Word</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för Microsoft Word-dokument</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生微軟 Word 文件的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生微軟 Word 文件的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@msword/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@msword/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for Microsoft Word documents</short>
+        <long>Valid command plus arguments for the Microsoft Word thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für Microsoft Word-Dokumente</short>
+        <long>Gültiger Befehl plus Argumente für die Microsoft Word-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for Microsoft Word documents</short>
+        <long>Valid command plus arguments for the Microsoft Word thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para archivos de Microsoft Word</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de Microsoft Word</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa Microsoft Word dokumentuentzako</short>
+        <long>Baliozko komandoa argumentuekin Microsoft Word koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour documents Microsoft Word</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour Microsoft Word</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para documentos do Microsoft Word</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência do Microsoft Word</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para documentos do Microsoft Word</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas do Microsoft Word</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för Microsoft Word-dokument</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för Microsoft Word</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生微軟 Word 文件縮圖的指令</short>
+        <long>產生微軟 Word 文書縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生微軟 Word 文件縮圖的指令</short>
+        <long>產生微軟 Word 文書縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- XML MS Word 2007 -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.wordprocessingml.document/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.wordprocessingml.document/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of Microsoft Word 2007 documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für Microsoft Word-2007-Dokumente aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of Microsoft Word 2007 documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para documentos de Microsoft Word 2007</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea Microsoft Word 2007 dokumentuentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour documents Microsoft Word 2007</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de documentos do Microsoft Word 2007</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para documentos do Microsoft Word 2007</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för Microsoft Word 2007-dokument</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.wordprocessingml.document/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.openxmlformats-officedocument.wordprocessingml.document/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for Microsoft Word 2007 documents</short>
+        <long>Valid command plus arguments for the Microsoft Word 2007 thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für Microsoft Word-2007-Dokumente</short>
+        <long>Gültiger Befehl plus Argumente für die Microsoft Word-2007-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for Microsoft Word 2007 documents</short>
+        <long>Valid command plus arguments for the Microsoft Word 2007 thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para archivos de Microsoft Word 2007</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de Microsoft Word 2007</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa Microsoft Word 2007 dokumentuentzako</short>
+        <long>Baliozko komandoa argumentuekin Microsoft Word 2007 koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour documents Microsoft Word 2007</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour Microsoft Word 2007</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para documentos do Microsoft Word 2007</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência do Microsoft Word 2007</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para documentos do Microsoft Word 2007</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas do Microsoft Word 2007</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för Microsoft Word 2007-dokument</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för Microsoft Word 2007</long>
+      </locale>
+    </schema>
+<!-- From http://framework.openoffice.org/documentation/mimetypes/mimetypes.html -->
+<!-- OpenDoc Presentation Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.presentation-template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.presentation-template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument presentation templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Präsentationsvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument presentation templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas de presentaciones de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument aurkezpenen txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles de présentation OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de modelos de apresentações OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos de apresentação do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-presentationsmallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 簡報樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 簡報樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.presentation-template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.presentation-template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument presentation templates</short>
+        <long>Valid command plus arguments for the OpenDocument presentation template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Präsentationsvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Präsentationsvorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument presentation templates</short>
+        <long>Valid command plus arguments for the OpenDocument presentation template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de presentaciones de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de presentaciones de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument aurkezpenen txantiloientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument aurkezpenen txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles de présentation OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles de présentation OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos de apresentação OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência de modelo de apresentação OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos de apresentação do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos de apresentação do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-presentationsmallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-presentationsmallar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 簡報樣式縮圖的指令</short>
+        <long>產生 OpenDocument 簡報樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 簡報樣式縮圖的指令</short>
+        <long>產生 OpenDocument 簡報樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Presentations -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.presentation/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.presentation/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument presentations</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Präsentationen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument presentations</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para presentaciones de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument aurkezpenentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour présentations OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de apresentações OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para apresentações do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-presentationer</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 簡報的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 簡報的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.presentation/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.presentation/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument presentations</short>
+        <long>Valid command plus arguments for the OpenDocument presentation thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Präsentationen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Präsentations-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument presentations</short>
+        <long>Valid command plus arguments for the OpenDocument presentation thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para presentaciones de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de presentaciones de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument aurkezpenentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument aurkezpenen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour présentations OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour présentations OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para apresentações OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para apresentações OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para apresentações do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de apresentação do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-presentationer</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-presentationer</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 簡報縮圖的指令</short>
+        <long>產生 OpenDocument 簡報縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 簡報縮圖的指令</short>
+        <long>產生 OpenDocument 簡報縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Spreadsheet Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.spreadsheet-template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.spreadsheet-template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument spreadsheet templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Tabellenvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument spreadsheet templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas de hojas de cálculo de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument kalkulu-orrien txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles de feuille de calcul OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de modelos de folhas de cálculo OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos de planilha do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-kalkylbladsmallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 試算表樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 試算表樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.spreadsheet-template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.spreadsheet-template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument spreadsheet templates</short>
+        <long>Valid command plus arguments for the OpenDocument spreadsheet template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Tabellenvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Tabellenvorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument spreadsheet templates</short>
+        <long>Valid command plus arguments for the OpenDocument spreadsheet template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de hojas de cálculo de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de hojas de cálculo de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument kalkulu-orrien txantiloientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument kalkulu-orrien txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles de feuille de calcul OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles de feuilles de calcul OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos de folha de cálculo OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência de modelos de folha de cálculo OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos de planilha do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelo de planilha do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-kalkylbladsmallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-kalkylbladsmallar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 試算表樣式縮圖的指令</short>
+        <long>產生 OpenDocument 試算表樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 試算表樣式縮圖的指令</short>
+        <long>產生 OpenDocument 試算表樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Spreadsheet -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.spreadsheet/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.spreadsheet/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Tabellen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para hojas de cálculo OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument kalkulu-orrientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour feuilles de calcul OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de folhas de cálculo OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para planilhas do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-kalkylblad</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 試算表的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 試算表的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.spreadsheet/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.spreadsheet/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument spreadsheets</short>
+        <long>Valid command plus arguments for the OpenDocument spreadsheet thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Tabellen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Tabellen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument spreadsheets</short>
+        <long>Valid command plus arguments for the OpenDocument spreadsheet thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para hojas de cálculo de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de hojas de cálculo de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument kalkulu-orrientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument kalkulu-orrien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour feuilles de calcul OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour feuilles de calcul OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para folhas de cálculo OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para folhas de cálculo OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para planilhas do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de planilha do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-kalkylblad</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-kalkylblad</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 試算表縮圖的指令</short>
+        <long>產生 OpenDocument 試算表縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 試算表縮圖的指令</short>
+        <long>產生 OpenDocument 試算表縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Text Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text-template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text-template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument wordprocessing document templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Textdokumentvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument word processing document templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas de documentos del procesador de documentos de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument testu-dokumentuen txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles de document de traitement de texte OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de modelos de documentos de processamento de texto OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos de processamento de texto do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-dokumentmallar för ordbehandling</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 文書樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 文書樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text-template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text-template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument wordprocessing document templates</short>
+        <long>Valid command plus arguments for the OpenDocument wordprocessing document template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Textdokumentvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Textdokumentvorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument word processing document templates</short>
+        <long>Valid command plus arguments for the OpenDocument word processing document template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de documentos de procesadores de texto de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de documentos de procesadores de texto de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument testu-dokumentuen txantiloientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument testu-dokumentuen txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles de documents de traitement de texte OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles de document de traitement de texte OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos de documento de processamento de texto OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para modelos de documentos de processamento de texto OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos de processamento de texto do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos de processamento de texto do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-dokumentmallar för ordbehandling</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-dokumentmallar för ordbehandling</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 文書樣式縮圖的指令</short>
+        <long>產生 OpenDocument 文書樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 文書樣式縮圖的指令</short>
+        <long>產生 OpenDocument 文書樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Master Text -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text-master/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text-master/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument wordprocessing master documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument Global-Textdokumente aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument word processing master documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para documentos maestros del procesador de textos de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument testu-dokumentu maisuentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour documents maîtres de traitement de texte OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de documentos mestres de processamento de texto OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para processamento de texto mestre do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-huvuddokument för ordbehandling</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 主控文件的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 主控文件的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text-master/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text-master/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument wordprocessing master documents</short>
+        <long>Valid command plus arguments for the OpenDocument wordprocessing master document thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Global-Textdokumente</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Text-Globaldokument-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument word processing master documents</short>
+        <long>Valid command plus arguments for the OpenDocument word processing master document thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para documentos maestros de procesadores de texto de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas documentos maestros de procesadores de texto de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument testu-dokumentu maisuentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument testu-dokumentu maisuen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour documents maîtres de traitement de texte OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour document maître de traitement de texte OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para documentos mestres de processamento de texto OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para documentos mestres de processamento de texto OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para documentos mestre de processamento de texto do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas do documento mestre de processamento de texto do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-huvuddokument för ordbehandling</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-huvuddokument för ordbehandling</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 主控文件縮圖的指令</short>
+        <long>產生 OpenDocument 主控文件縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 主控文件縮圖的指令</short>
+        <long>產生 OpenDocument 主控文件縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Text -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument wordprocessing documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Textdokumente aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument word processing documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para documentos del procesador de textos de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument testu-dokumentuentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour documents de traitement de texte OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de documentos de processamento de texto OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para processamento de texto do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-dokument för ordbehandling</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 文書的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 文書的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.text/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument wordprocessing documents</short>
+        <long>Valid command plus arguments for the OpenDocument wordprocessing document thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Textdokumente</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Textdokumenten-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument word processing documents</short>
+        <long>Valid command plus arguments for the OpenDocument word processing document thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para documentos de procesadores de texto de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de documentos de procesadores de texto de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument testu-dokumentuentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument testu-dokumentuen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour documents de traitement de texte OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour document de traitement de texte OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para documentos de processamento de texto OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para documentos de processamento de texto OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para documentos de processamento de texto do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de processamento de texto do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-dokument för ordbehandling</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-dokument för ordbehandling</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 文書縮圖的指令</short>
+        <long>產生 OpenDocument 文書縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 文書縮圖的指令</short>
+        <long>產生 OpenDocument 文書縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Drawing Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.graphics-template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.graphics-template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument drawing templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Zeichnungsvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument drawing templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas de dibujos de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument marrazkien txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles de dessins OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de modelos de desenho OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos de desenhos do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-ritmallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 繪圖檔的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 繪圖檔的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.graphics-template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.graphics-template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument drawing templates</short>
+        <long>Valid command plus arguments for the OpenDocument drawing template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Zeichnungsvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Zeichnungsvorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument drawing templates</short>
+        <long>Valid command plus arguments for the OpenDocument drawing template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de dibujos de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de dibujos de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument marrazkien txantiloientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument marrazkien txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles de dessin OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles de dessin OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos de desenho OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para modelos de desenho OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos de desenho do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos de desenhos do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-ritmallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-ritmallar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 繪圖樣式縮圖的指令</short>
+        <long>產生 OpenDocument 繪圖樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 繪圖樣式縮圖的指令</short>
+        <long>產生 OpenDocument 繪圖樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Drawing -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.graphics/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.graphics/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument drawings</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Zeichnungen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument drawings</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para dibujos de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument marrazkientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour dessins OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de desenhos OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para desenhos do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-ritningar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 繪圖樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 繪圖樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.graphics/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.graphics/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument drawings</short>
+        <long>Valid command plus arguments for the OpenDocument drawing thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Zeichnungen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Zeichnungs-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument drawings</short>
+        <long>Valid command plus arguments for the OpenDocument drawing thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para dibujos de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de dibujos de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument marrazkientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument marrazkien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour dessins OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour dessins OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para desenhos OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para desenho OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para desenhos do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de desenhos do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-ritningar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-ritningar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 繪圖縮圖的指令</short>
+        <long>產生 OpenDocument 繪圖縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 繪圖縮圖的指令</short>
+        <long>產生 OpenDocument 繪圖縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Chart -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.chart/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.chart/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument charts</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Diagramme aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument charts</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para gráficas de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument diagramentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour graphiques OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de gráficos OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para gráficos do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-diagram</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 圖表的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 圖表的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.chart/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.chart/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument charts</short>
+        <long>Valid command plus arguments for the OpenDocument chart thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Diagramme</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Diagrammvorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument charts</short>
+        <long>Valid command plus arguments for the OpenDocument chart thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para gráficas de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de gráficos de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument diagramentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument diagramen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour graphiques OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour graphique OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para gráficos OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para gráficos OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para gráficos do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-diagram</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-diagram</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 圖表縮圖的指令</short>
+        <long>產生 OpenDocument 圖表縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 圖表縮圖的指令</short>
+        <long>產生 OpenDocument 圖表縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Image -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.image/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.image/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument images</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Bilder aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument images</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para imágenes de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument irudientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour images OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de imagens OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para imagens do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-bilder</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 圖片的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 圖片的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.image/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.image/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument images</short>
+        <long>Valid command plus arguments for the OpenDocument image thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Bilder</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Bild-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument images</short>
+        <long>Valid command plus arguments for the OpenDocument image thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para imágenes de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de imágenes de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument irudientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument irudien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour images OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour images OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para imagens OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para imagens OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para imagens do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de imagens do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-bilder</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-bilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 圖片縮圖的指令</short>
+        <long>產生 OpenDocument 圖片縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 圖片縮圖的指令</short>
+        <long>產生 OpenDocument 圖片縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenDocument Formulas -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.formula/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.formula/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing of OpenDocument formulas</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenDocument-Formeln aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenDocument formulae</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para fórmulas de OpenDocument</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenDocument formulentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour formules OpenDocument</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência de fórmulas OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para fórmulas do OpenDocument</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenDocument-formler</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenDocument 數式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenDocument 算式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.formula/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.oasis.opendocument.formula/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenDocument formulas</short>
+        <long>Valid command plus arguments for the OpenDocument formula thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenDocument-Formeln</short>
+        <long>Gültiger Befehl plus Argumente für die OpenDocument-Formel-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenDocument formulae</short>
+        <long>Valid command plus arguments for the OpenDocument formula thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para fórmulas de OpenDocument</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de fórmulas de OpenDocument</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenDocument formulentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenDocument formulen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour formules OpenDocument</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour formules OpenDocument</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para fórmulas OpenDocument</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência de fórmulas OpenDocument</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para fórmulas do OpenDocument</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de fórmulas do OpenDocument</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenDocument-formler</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenDocument-formel</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenDocument 數式縮圖的指令</short>
+        <long>產生 OpenDocument 數式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenDocument 算式縮圖的指令</short>
+        <long>產生 OpenDocument 算式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Presentation Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress.template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress.template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Impress Presentation templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Impress-Präsentationsvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Impress Presentation templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas de presentaciones OpenOffice 1.x Impress</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Impress aurkezpeneko txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles de présentations OpenOffice 1.x Impress</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para modelos de apresentações do OpenOffice 1.x Impress</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos de apresentação do OpenOffice Impress 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Impress-presentationsmallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 簡報樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 簡報樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress.template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress.template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Impress Presentation templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Impress presentation template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Impress-Präsentationsvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Impress-Präsentationsvorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Impress Presentation templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Impress presentation template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de presentaciones de OpenOffice 1.x Impress</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de presentaciones de OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Impress aurkezpenen txantiloientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x Impress aurkezpenen txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles OpenOffice 1.x Impress Presentation</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles de présentation OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos de apresentações do OpenOffice 1.x Impress</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para modelos de apresentação OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos de apresentação do OpenOffice Impress 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos de apresentação do OpenOffice Impress 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Impress-presentationsmallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Impress-presentationsmallar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 簡報樣式縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 簡報樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 簡報樣式縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 簡報樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Presentation Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress.template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress.template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Impress Presentation templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Impress-Präsentationsvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Impress Presentation templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas de presentaciones OpenOffice 1.x Impress</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Impress aurkezpeneko txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles de présentations OpenOffice 1.x Impress</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para modelos de apresentações do OpenOffice 1.x Impress</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos de apresentação do OpenOffice Impress 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Impress-presentationsmallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 簡報樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 簡報樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress.template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress.template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Impress Presentation templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Impress presentation template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Impress-Präsentationsvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Impress-Präsentationsvorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Impress Presentation templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Impress presentation template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de presentaciones de OpenOffice 1.x Impress</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de presentaciones de OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Impress aurkezpenen txantiloientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x Impress aurkezpenen txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles OpenOffice 1.x Impress Presentation</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles de présentation OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos de apresentações do OpenOffice 1.x Impress</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para modelos de apresentação OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos de apresentação do OpenOffice Impress 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos de apresentação do OpenOffice Impress 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Impress-presentationsmallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Impress-presentationsmallar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 簡報樣式縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 簡報樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 簡報樣式縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 簡報樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Presentations -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Impress presentations</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Impress-Präsentationen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Impress presentations</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para presentaciones OpenOffice 1.x Impress</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Impress aurkezpenentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour présentations OpenOffice 1.x Impress</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para apresentações do OpenOffice 1.x Impress</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para apresentações do OpenOffice Impress 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Impress-presentationer</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 簡報的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 簡報的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.impress/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Impress presentations</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Impress presentation thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Impress-Präsentationen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Impress-Präsentations-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Impress presentations</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Impress presentation thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para presentaciones de OpenOffice 1.x</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de presentaciones de OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Impress aurkezpenentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x Impress aurkezpenen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour présentations OpenOffice 1.x Impress</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour présentations OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para apresentações do OpenOffice 1.x Impress</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para OpenOffice 1.x Impress</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para apresentações do OpenOffice Impress 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de apresentações do OpenOffice Impress 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Impress-presentationer</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Impress-presentationer</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 簡報縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 簡報縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 簡報縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 簡報縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Spreadsheet Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.calc.template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.calc.template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Spreadsheet templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Tabellenvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Spreadsheet templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas de hojas de cálculo de OpenOffice 1.x </short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x kalkulu-orriaren txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles OpenOffice 1.x Spreadsheet</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para modelos do OpenOffice 1.x Spreadsheet</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos do OpenOffice Spreadsheet 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x-kalkylbladsmallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 試算表樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 試算表樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.calc.template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.calc.template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Spreadsheet templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Writer template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Tabellenvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Writer-Vorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Spreadsheet templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Writer template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de OpenOffice 1.x Spreadsheet</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x kalkulu-orrientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x Writer txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles OpenOffice 1.x Spreadsheet</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos de folhas de cálculo do OpenOffice 1.x</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para modelos OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos do OpenOffice 1.x Spreadsheet</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos do OpenOffice Writer 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Spreadsheet-mallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Writer-mallar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 試算表縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 文書樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 試算表縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 文書樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Spreadsheet -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.calc/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.calc/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Calc spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Kalkulationstabellen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Calc spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para hojas de cálculo de OpenOffice 1.x</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Calc kalkulu-orriarentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour feuilles de calcul OpenOffice 1.x Calc</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para folhas de cálculo do OpenOffice 1.x Calc</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para planilhas do OpenOffice Calc 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Calc-kalkylblad</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 試算表的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 試算表的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.calc/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.calc/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Calc spreadsheets</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x spreadsheet thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Kalkulationstabellen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Tabellen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Calc spreadsheets</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x spreadsheet thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para hojas de cálculo de OpenOffice 1.x Calc</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de hojas de cálculo de OpenOffice 1.x</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Calc kalkulu-orrientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x kalkulu-orrien txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour feuilles de calcul OpenOffice 1.x Calc</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour feuilles de calcul OpenOffice 1.x</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para folhas de cálculo do OpenOffice 1.x Calc</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para folhas de cálculo OpenOffice 1.x</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para planilhas do OpenOffice 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de planilhas do OpenOffice 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Calc-kalkylblad</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x-kalkylblad</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 試算表縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 試算表縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 試算表縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 試算表縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Writer Global Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer.global/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer.global/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Writer global templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Writer-Globalvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Writer global templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas globales del procesador de textos OpenOffice 1.x</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Writer txantiloi globalentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles globaux OpenOffice 1.x Writer</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para modelos globais do OpenOffice 1.x Writer</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos globais do OpenOffice Writer 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för globala OpenOffice 1.x Writer-mallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer.global/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer.global/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Writer global templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Writer global template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Writer-Globalvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Writer-Globalvorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Writer global templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Writer global template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas globales de OpenOffice 1.x writer</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas globales de OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Writer txantiloi globalentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x Writer txantiloi globalen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles globaux OpenOffice 1.x Writer</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèle global OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos globais do OpenOffice 1.x Writer</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para modelos globais de OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos globais do OpenOffice Writer 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos globais do OpenOffice Writer 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för globala OpenOffice 1.x Writer-mallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för globala OpenOffice 1.x Writer-mallar</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Writer Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer.template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer.template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Writer templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Writer-Vorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Writer templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas del procesador de textos de OpenOffice 1.x</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Writer txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles OpenOffice 1.x Writer</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para modelos do OpenOffice 1.x Writer</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos do OpenOffice Writer 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Writer-mallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 文書樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 文書樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer.template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer.template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Writer templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Writer template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Writer-Vorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Writer-Vorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Writer templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Writer template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de OpenOffice 1.x writer</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Writer txantiloientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x Writer txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles OpenOffice 1.x Writer</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos do OpenOffice 1.x Writer</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para modelos OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos do OpenOffice Writer 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos do OpenOffice Writer 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Writer-mallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Writer-mallar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 文書樣式縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 文書樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 文書樣式縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 文書樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Writer -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Writer documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Writer-Dokumente aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Writer documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para documentos de procesador de textos de OpenOffice 1.x </short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Writer dokumentuentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour documents OpenOffice 1.x Writer</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para documentos do OpenOffice 1.x Writer</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para documentos do OpenOffice Writer 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Writer-dokument</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 文書的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 文書的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.writer/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Writer documents</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Writer document thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Writer-Dokumente</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Writer-Dokumenten-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Writer documents</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Writer document thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para documentos de OpenOffice 1.x writer</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de documentos de OpenOffice 1.x writer</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Writer dokumentuentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x Writer dokumentuen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour documents OpenOffice 1.x Writer</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour document OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para documentos do OpenOffice 1.x Writer</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para documentos OpenOffice 1.x Writer</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para documentos do OpenOffice Writer 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de documentos do OpenOffice Writer 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Writer-dokument</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Writer-dokument</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 文書縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 文書縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 文書縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 文書縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Drawing Templates -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.draw.template/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.draw.template/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Drawing templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Zeichnungsvorlagen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Drawing templates</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para plantillas de OpenOffice 1.x Dibujos</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Draw txantiloientzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour modèles OpenOffice 1.x Drawing </short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para modelos do OpenOffice 1.x Drawing</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para modelos de desenho do OpenOffice Drawing 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Drawing-mallar</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 繪圖樣式的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 繪圖樣式的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.draw.template/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.draw.template/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Drawing templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Drawing template thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Zeichnungsvorlagen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Zeichnungsvorlagen-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Drawing templates</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Drawing template thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para plantillas de OpenOffice 1.x Dibujos</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de plantillas de OpenOffice 1.x Dibujos</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Draw marrazkien txantiloientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x marrazkien txantiloien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour modèles OpenOffice 1.x Drawing</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour modèles OpenOffice 1.x Drawing</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para modelos do OpenOffice 1.x Drawing</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para modelos OpenOffice 1.x Drawing</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para modelos do OpenOffice Drawing 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de modelos do OpenOffice Drawing 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Drawing-mallar</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Drawing-mallar</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 繪圖縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 繪圖樣式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 繪圖縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 繪圖樣式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Drawings -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.draw/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.draw/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Calc spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Kalkulationstabellen aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Calc spreadsheets</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para hojas de cálculo de OpenOffice 1.x</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Calc kalkulu-orriarentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour feuilles de calcul OpenOffice 1.x Calc</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para folhas de cálculo do OpenOffice 1.x Calc</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para planilhas do OpenOffice Calc 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Calc-kalkylblad</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 試算表的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 試算表的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.draw/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.draw/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Calc spreadsheets</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Drawing thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Kalkulationstabellen</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Zeichnungs-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Calc spreadsheets</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Drawing thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para hojas de cálculo de OpenOffice 1.x Calc</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de OpenOffice 1.x Dibujos</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Calc kalkulu-orrientzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x marrazkien koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour feuilles de calcul OpenOffice 1.x Calc</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour OpenOffice 1.x Drawing</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para folhas de cálculo do OpenOffice 1.x Calc</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para OpenOffice 1.x Drawing</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para planilhas do OpenOffice 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas do OpenOffice Drawing 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Calc-kalkylblad</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Drawing</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 試算表縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 繪圖縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 試算表縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 繪圖縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+<!-- OpenOffice 1.x Math -->
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.math/enable</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.math/enable</applyto>
+      <owner>libgsf</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable thumbnailing for OpenOffice 1.x Math documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschau für OpenOffice 1.x Mathematik-Dokumente aktivieren</short>
+        <long>Boolesche Optionen sind verfügbar, »wahr« aktiviert die Erzeugung von Vorschauen und »falsch« deaktiviert die Erzeugung neuer Vorschauen</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable thumbnailing of OpenOffice 1.x Math documents</short>
+        <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar miniaturas para documentos de OpenOffice 1.x Math</short>
+        <long>Opciones booleanas disponibles:  &quot;true&quot; habilita la generación de imágenes en miniatura y &quot;false&quot; la deshabilita</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu koadro txikiak sortzea OpenOffice 1.x Math dokumentuentzako</short>
+        <long>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Active la création de miniatures pour documents OpenOffice 1.x Math</short>
+        <long>Option booléenne : true (vrai) active la création de miniatures, false (faux) désactive la création de nouvelles miniatures</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar imagens de referência para documentos do OpenOffice 1.x Math</short>
+        <long>Opções booleanas disponíveis, verdadeiro activa imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilita miniaturas para documentos do OpenOffice Math 1.x</short>
+        <long>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera skapandet av miniatyrbilder för OpenOffice 1.x Math-dokument</short>
+        <long>Booleska flaggor är tillgängliga, sant aktiverar miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用產生 OpenOffice 1.x 數式檔的縮圖的功能</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用產生 OpenOffice 1.x 算式檔的縮圖的功能</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/thumbnailers/application@vnd.sun.xml.math/command</key>
+      <applyto>/desktop/gnome/thumbnailers/application@vnd.sun.xml.math/command</applyto>
+      <owner>libgsf</owner>
+      <type>string</type>
+      <default>gsf-office-thumbnailer -i %i -o %o -s %s</default>
+      <locale name="C">
+        <short>Thumbnail command for OpenOffice 1.x Math documents</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Math document thumbnailer</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorschaubefehl für OpenOffice 1.x Mathematik-Dokumente</short>
+        <long>Gültiger Befehl plus Argumente für die OpenOffice 1.x Mathematik-Dokumenten-Vorschau</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Thumbnail command for OpenOffice 1.x Math documents</short>
+        <long>Valid command plus arguments for the OpenOffice 1.x Math document thumbnailer</long>
+      </locale>
+
+      <locale name="es">
+        <short>Comando para generar miniaturas para documentos de OpenOffice 1.x Math</short>
+        <long>Comando válido y argumentos para el generador de miniaturas de documentos de OpenOffice 1.x Math</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Koadro txikiak sortzeko komandoa OpenOffice 1.x Math dokumentuentzako</short>
+        <long>Baliozko komandoa argumentuekin OpenOffice 1.x Math dokumentuen koadro txikien sortzailearentzako</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Commande de création de miniatures pour documents OpenOffice 1.x Math</short>
+        <long>Commande valide avec ses paramètres pour la création de miniatures pour document OpenOffice 1.x Math</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Comando para imagens de referência para documentos do OpenOffice 1.x Math</short>
+        <long>Comando válido mais argumentos para o criador de imagens de referência para documentos OpenOffice 1.x Math</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Comando de miniatura para documentos do OpenOffice Math 1.x</short>
+        <long>Argumentos de comando válidos para o gerador de miniaturas de documento do OpenOffice Math 1.x</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Kommando för miniatyrbild för OpenOffice 1.x Math-dokument</short>
+        <long>Giltigt kommando plus argument för miniatyrbildskapare för OpenOffice 1.x Math-dokument</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用作產生 OpenOffice 1.x 數式縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 數式縮圖所用的指令加上參數。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用作產生 OpenOffice 1.x 算式縮圖的指令</short>
+        <long>產生 OpenOffice 1.x 算式縮圖所用的指令加上參數。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

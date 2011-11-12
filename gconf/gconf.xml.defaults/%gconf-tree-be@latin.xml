@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Nie zvažaj na abmiežavańni dakumentu">
+						<longdesc>Nie zvažaj na abmiežavańni dakumentu, napr., na abmiežavańni mahčymaści kapijavańnia albo druku.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Uklučy opcyju Burnproof">
+						<longdesc>Ci vykarystać opcyju Burnproof, padtrymanuju niekatorymi pryładami zapisu dyskaŭ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Uklučy zapis bolš za normu (overburn)">
+						<longdesc>Ci dazvalać zapis źviestak pamieram, bolšym za naminalny pamier fizyčnaha nośbitu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Uklučy adładku">
+						<longdesc>Ci ŭklučyć adładku dla zapisu CD.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Zmoŭčanaja chutkaść zapisu">
+						<longdesc>Zmoŭčanaja chutkaść, ź jakoj budzie zapisany dysk.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Kataloh dziela časovych vyjavaŭ dyskaŭ ISO">
+						<longdesc>Kataloh dziela zachoŭvańnia časovych vyjavaŭ ISO. Akreśli pustym, kab vykarystoŭvać zmoŭčany systemny kataloh dla časovych fajłaŭ.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="Ci ŭklučać kampanent PKCS#11 dla klučnika.">
+							<longdesc>Hetaja opcyja ŭklučaje kampanent PKCS#11 dla demana gnome-keyring. Opcyja ŭździejničaje tolki pry ŭruchamleńni demana gnome-keyring-daemon, h.zn. kali karystalnik uvachodzić u systemu. Hetaja nałada moža być źmieniena z dapamohaj peŭnych arhumentaŭ zahadnaha radka, pieradadzienych demanu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="Ci ŭklučać agenta SSH dla klučnika.">
+							<longdesc>Hetaja opcyja ŭklučaje agenta SSH dla demana gnome-keyring. Opcyja ŭździejničaje tolki pry ŭruchamleńni demana gnome-keyring-daemon, h.zn. kali karystalnik uvachodzić u systemu. Hetaja nałada moža być źmieniena z dapamohaj peŭnych arhumentaŭ zahadnaha radka, pieradadzienych demanu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="thumbnailers">
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="Zahad stvareńnia minijaturaŭ dla dakumentaŭ PDF">
+								<longdesc>Pravilny zahad i arhumenty dla stvareńnia minijaturaŭ dla dakumentaŭ PDF. Hladzi dakumentacyju na stvareńnie minijaturaŭ dla Nautilusa dziela padrabiaznaściaŭ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Uklučy minijatury dla dakumentaŭ PDF">
+								<longdesc>Dastupnyja lohikavyja opcyi: true ŭklučaje stvareńnie minijaturaŭ, false adklučaje</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="Zahad stvareńnia minijaturaŭ dla dakumentaŭ PDF">
+								<longdesc>Pravilny zahad i arhumenty dla stvareńnia minijaturaŭ dla dakumentaŭ PDF. Hladzi dakumentacyju na stvareńnie minijaturaŭ dla Nautilusa dziela padrabiaznaściaŭ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Uklučy minijatury dla dakumentaŭ PDF">
+								<longdesc>Dastupnyja lohikavyja opcyi: true ŭklučaje stvareńnie minijaturaŭ, false adklučaje</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="Zahad stvareńnia minijaturaŭ dla dakumentaŭ PDF">
+								<longdesc>Pravilny zahad i arhumenty dla stvareńnia minijaturaŭ dla dakumentaŭ PDF. Hladzi dakumentacyju na stvareńnie minijaturaŭ dla Nautilusa dziela padrabiaznaściaŭ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Uklučy minijatury dla dakumentaŭ PDF">
+								<longdesc>Dastupnyja lohikavyja opcyi: true ŭklučaje stvareńnie minijaturaŭ, false adklučaje</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykanaj zahad u terminale">
+								<longdesc>Praŭda, kali zahad dziela adčynieńnia spasyłak hetaha typu pavinny vykonvacca ŭ terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Adčynieńnie spasyłak &quot;ymsgr&quot;">
+								<longdesc>Zahad dziela adčynieńnia spasyłak &quot;ymsgr&quot;, kali ŭklučanyja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ci adčyniać spasyłki &quot;ymsgr&quot; akreślenym zahadam">
+								<longdesc>Praŭda, kali zahad, akreśleny dla kluča &quot;command&quot;, pavinny adčyniać spasyłki &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykanaj zahad u terminale">
+								<longdesc>Praŭda, kali zahad dziela adčynieńnia spasyłak hetaha typu pavinny vykonvacca ŭ terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Adčynieńnie spasyłak &quot;xmpp&quot;">
+								<longdesc>Zahad dziela adčynieńnia spasyłak &quot;xmpp&quot;, kali ŭklučanyja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ci adčyniać spasyłki &quot;xmpp&quot; akreślenym zahadam">
+								<longdesc>Praŭda, kali zahad, akreśleny dla kluča &quot;command&quot;, pavinny adčyniać spasyłki &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykanaj zahad u terminale">
+								<longdesc>Praŭda, kali zahad dziela adčynieńnia spasyłak hetaha typu pavinny vykonvacca ŭ terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Adčynieńnie spasyłak &quot;sip&quot;">
+								<longdesc>Zahad dziela adčynieńnia spasyłak &quot;sip&quot;, kali ŭklučanyja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ci adčyniać spasyłki &quot;sip&quot; akreślenym zahadam">
+								<longdesc>Praŭda, kali zahad, akreśleny dla kluča &quot;command&quot;, pavinny adčyniać spasyłki &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykanaj zahad u terminale">
+								<longdesc>Praŭda, kali zahad dziela adčynieńnia spasyłak hetaha typu pavinny vykonvacca ŭ terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Adčynieńnie spasyłak &quot;msnim&quot;">
+								<longdesc>Zahad dziela adčynieńnia spasyłak &quot;msnim&quot;, kali ŭklučanyja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ci adčyniać spasyłki &quot;msnim&quot; akreślenym zahadam">
+								<longdesc>Praŭda, kali zahad, akreśleny dla kluča &quot;command&quot;, pavinny adčyniać spasyłki &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykanaj zahad u terminale">
+								<longdesc>Praŭda, kali zahad dziela adčynieńnia spasyłak hetaha typu pavinny vykonvacca ŭ terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Adčynieńnie spasyłak &quot;irc&quot;">
+								<longdesc>Zahad dziela adčynieńnia spasyłak &quot;irc&quot;, kali ŭklučanyja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ci adčyniać spasyłki &quot;irc&quot; akreślenym zahadam">
+								<longdesc>Praŭda, kali zahad, akreśleny dla kluča &quot;command&quot;, pavinny adčyniać spasyłki &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykanaj zahad u terminale">
+								<longdesc>Praŭda, kali zahad dziela adčynieńnia spasyłak hetaha typu pavinny vykonvacca ŭ terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Adčynieńnie spasyłak &quot;icq&quot;">
+								<longdesc>Zahad dziela adčynieńnia spasyłak &quot;icq&quot;, kali ŭklučanyja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ci adčyniać spasyłki &quot;icq&quot; akreślenym zahadam">
+								<longdesc>Praŭda, kali zahad, akreśleny dla kluča &quot;command&quot;, pavinny adčyniać spasyłki &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykanaj zahad u terminale">
+								<longdesc>Praŭda, kali zahad dziela adčynieńnia spasyłak hetaha typu pavinny vykonvacca ŭ terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Adčynieńnie spasyłak &quot;gg&quot;">
+								<longdesc>Zahad dziela adčynieńnia spasyłak &quot;gg&quot;, kali ŭklučanyja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ci adčyniać spasyłki &quot;gg&quot; akreślenym zahadam">
+								<longdesc>Praŭda, kali zahad, akreśleny dla kluča &quot;command&quot;, pavinny adčyniać spasyłki &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykanaj zahad u terminale">
+								<longdesc>Praŭda, kali zahad dziela adčynieńnia spasyłak hetaha typu pavinny vykonvacca ŭ terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Adčynieńnie spasyłak &quot;aim&quot;">
+								<longdesc>Zahad dziela adčynieńnia spasyłak &quot;aim&quot;, kali ŭklučanyja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ci adčyniać spasyłki &quot;aim&quot; akreślenym zahadam">
+								<longdesc>Praŭda, kali zahad, akreśleny dla kluča &quot;command&quot;, pavinny adčyniać spasyłki &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Ci ŭžyvać hety profil">
+									<longdesc>Ci pakazvać i ŭžyvać hety profil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Zmoŭčanaje pašyreńnie fajłu dla hetaha profilu">
+									<longdesc>Pašyreńnie nazvy fajłu, užyvanaje pry zapisie fajłaŭ, kadavanych pry ŭžyćci hetaha profilu.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Častkovaja płyń GStreamer">
+									<longdesc>Častkovaja płyń GStreamer, užyvanaja z hetym profilem.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Apisańnie hukavoha profilu">
+									<longdesc>Apisańnie hukavoha profilu, jakoje ŭtrymlivaje dadatkovuju infarmacyju adnosna taho, kali hety profil pavinien być užyty.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Karotkaja nazva hukavoha profilu">
+									<longdesc>Karotkaja nazva hukavoha profilu, užyvanaja pry vybary, jakaja identyfikuje profil.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Ci ŭžyvać hety profil">
+										<longdesc>Ci pakazvać i ŭžyvać hety profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Zmoŭčanaje pašyreńnie fajłu dla hetaha profilu">
+										<longdesc>Pašyreńnie nazvy fajłu, užyvanaje pry zapisie fajłaŭ, kadavanych pry ŭžyćci hetaha profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Častkovaja płyń GStreamer">
+										<longdesc>Častkovaja płyń GStreamer, užyvanaja z hetym profilem.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Apisańnie hukavoha profilu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Karotkaja nazva hukavoha profilu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Zmoŭčanaje pašyreńnie fajłu dla hetaha profilu">
+										<longdesc>Pašyreńnie nazvy fajłu, užyvanaje pry zapisie fajłaŭ, kadavanych pry ŭžyćci hetaha profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Častkovaja płyń GStreamer">
+										<longdesc>Častkovaja płyń GStreamer, užyvanaja z hetym profilem.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Apisańnie hukavoha profilu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Karotkaja nazva hukavoha profilu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Zmoŭčanaje pašyreńnie fajłu dla hetaha profilu">
+										<longdesc>Pašyreńnie nazvy fajłu, užyvanaje pry zapisie fajłaŭ, kadavanych pry ŭžyćci hetaha profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Častkovaja płyń GStreamer">
+										<longdesc>Častkovaja płyń GStreamer, užyvanaja z hetym profilem.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Apisańnie hukavoha profilu">
+										<longdesc>Apisańnie hukavoha profilu, jakoje ŭtrymlivaje dadatkovuju infarmacyju adnosna taho, kali hety profil pavinien być užyty.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Karotkaja nazva hukavoha profilu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Zmoŭčanaje pašyreńnie fajłu dla hetaha profilu">
+										<longdesc>Pašyreńnie nazvy fajłu, užyvanaje pry zapisie fajłaŭ, kadavanych pry ŭžyćci hetaha profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Častkovaja płyń GStreamer">
+										<longdesc>Častkovaja płyń GStreamer, užyvanaja z hetym profilem.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Apisańnie hukavoha profilu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Karotkaja nazva hukavoha profilu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Zmoŭčanaje pašyreńnie fajłu dla hetaha profilu">
+										<longdesc>Pašyreńnie nazvy fajłu, užyvanaje pry zapisie fajłaŭ, kadavanych pry ŭžyćci hetaha profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Častkovaja płyń GStreamer">
+										<longdesc>Častkovaja płyń GStreamer, užyvanaja z hetym profilem.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Apisańnie hukavoha profilu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Karotkaja nazva hukavoha profilu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Zmoŭčanaje pašyreńnie fajłu dla hetaha profilu">
+										<longdesc>Pašyreńnie nazvy fajłu, užyvanaje pry zapisie fajłaŭ, kadavanych pry ŭžyćci hetaha profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Častkovaja płyń GStreamer">
+										<longdesc>Častkovaja płyń GStreamer, užyvanaja z hetym profilem.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Apisańnie hukavoha profilu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Karotkaja nazva hukavoha profilu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Zmoŭčanaje pašyreńnie fajłu dla hetaha profilu">
+										<longdesc>Pašyreńnie nazvy fajłu, užyvanaje pry zapisie fajłaŭ, kadavanych pry ŭžyćci hetaha profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Častkovaja płyń GStreamer">
+										<longdesc>Častkovaja płyń GStreamer, užyvanaja z hetym profilem.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Apisańnie hukavoha profilu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Karotkaja nazva hukavoha profilu">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Śpis profilaŭ">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

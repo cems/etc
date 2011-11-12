@@ -1,0 +1,602 @@
+<gconfschemafile>
+	<schemalist>
+		<schema>
+			<key>/schemas/apps/gnome-keyring/daemon-components/ssh</key>
+			<applyto>/apps/gnome-keyring/daemon-components/ssh</applyto>
+			<owner>gnome-keyring</owner>
+			<type>bool</type>
+			<default>TRUE</default>
+			<locale name="C">
+				<short>Whether the gnome-keyring SSH agent is enabled.</short>
+				<long>This option enables the SSH agent in the gnome-keyring 
+				daemon. It only takes effect as gnome-keyring-daemon starts, 
+				(ie: when the user logs in). This setting may be overridden 
+				when certain command line arguments are passed to the daemon.</long>
+			</locale>
+
+			<locale name="ar">
+				<short>إذا كان عميل SSH لـ gnome-keyring مفعّلا.</short>
+				<long>سيفعّل هذا الخيار مكون SSH لـ gnome-keyring. تبدأ فعاليته فقط عند تشغيل gnome-keyring-daemon (أي عندما يسجّل المستخدم الدخول).  قد يتم تجاوز هذا الإعداد عند تمرير خيارات سطر أوامر محددة إلى الرقيب.</long>
+			</locale>
+
+			<locale name="as">
+				<short>gnome-keyring SSH agent সক্ৰিয় কি না ।</short>
+				<long>এই বিকল্পেৰ সাহায্যে gnome-keyring ডেমনেৰ মধ্যে SSH agent সক্ৰিয় কৰা হ&apos;ব। gnome-keyring-daemon আৰম্ভেৰ সময় (অৰ্থাৎ, ব্যবহাৰকাৰী লগ-ইন কৰাৰ সময়) এটি প্ৰয়োগ কৰা হ&apos;ব। কমান্ড-লাইন থেকে প্ৰযোজ্য কিছু আৰ্গুমেন্ট এই ডেমনেৰ ব্যবহাৰৰ বাবে উল্লেখ কৰা হলে এই বৈশিষ্ট্য উপেক্ষা কৰা যাবে।</long>
+			</locale>
+
+			<locale name="ast">
+				<short>Conseña si l&apos;axente SSH del depósitu de claves ta activáu</short>
+				<long>Esta opción activa l&apos;axente SSH nel demoniu del Depósitu de claves. Namái toma efeutu cuando s&apos;anicia gnome-keyring-daemon, (ex: cuando l&apos;usuariu entra nel sistema). Esti axuste pue sobreescribisae al pasar ciertos parámetros al demoniu a traviés de la llinia de comandos.</long>
+			</locale>
+
+			<locale name="be@latin">
+				<short>Ci ŭklučać agenta SSH dla klučnika.</short>
+				<long>Hetaja opcyja ŭklučaje agenta SSH dla demana gnome-keyring. Opcyja ŭździejničaje tolki pry ŭruchamleńni demana gnome-keyring-daemon, h.zn. kali karystalnik uvachodzić u systemu. Hetaja nałada moža być źmieniena z dapamohaj peŭnych arhumentaŭ zahadnaha radka, pieradadzienych demanu.</long>
+			</locale>
+
+			<locale name="bg">
+				<short>Дали да се задейства агентът на SSH в gnome-keyring.</short>
+				<long>Тази опция задейства агента на SSH в демона gnome-keyring и има ефект само при стартирането на gnome-keyring-daemon (т.е. когато потребителят влиза в системата). Тази настройка може да се заобиколи чрез определени опции на командния ред, зададени на демона.</long>
+			</locale>
+
+			<locale name="bn">
+				<short>gnome-keyring SSH agent সক্রিয় কি না।</short>
+				<long>এই অপশনের সাহায্যে gnome-keyring ডেমনের মধ্যে SSH agent সক্রিয় করা হবে। gnome-keyring-daemon আরম্ভের সময় (অর্থাৎ, ব্যবহারকারী লগ-ইন করার সময়) এটি প্রয়োগ করা হবে। কমান্ড-লাইন থেকে প্রযোজ্য কিছু আর্গুমেন্ট এই ডেমনের ব্যবহারের জন্য উল্লেখ করা হলে এই বৈশিষ্ট্য উপেক্ষা করা যাবে।</long>
+			</locale>
+
+			<locale name="bn_IN">
+				<short>gnome-keyring SSH agent সক্রিয় কি না।</short>
+				<long>এই বিকল্পের সাহায্যে gnome-keyring ডেমনের মধ্যে SSH agent সক্রিয় করা হবে। gnome-keyring-daemon আরম্ভের সময় (অর্থাৎ, ব্যবহারকারী লগ-ইন করার সময়) এটি প্রয়োগ করা হবে। কমান্ড-লাইন থেকে প্রযোজ্য কিছু আর্গুমেন্ট এই ডেমনের ব্যবহারের জন্য উল্লেখ করা হলে এই বৈশিষ্ট্য উপেক্ষা করা যাবে।</long>
+			</locale>
+
+			<locale name="ca">
+				<short>Si està habilitat l&apos;agent SSH del gnome-keyring.</short>
+				<long>Aquesta opció habilita l&apos;agent SSH en el dimoni del gnome-keyring. Només te efecte quan s&apos;inicia el gnome-keyring-daemon, (per exemple, quan l&apos;usuari entra a la sessió). Es pot sobreescriure aquest paràmetre si es passa una opció de línia d&apos;ordres al dimoni.</long>
+			</locale>
+
+			<locale name="ca@valencia">
+				<short>Si està habilitat l&apos;agent SSH del gnome-keyring.</short>
+				<long>Esta opció habilita l&apos;agent SSH en el dimoni del gnome-keyring. Només te efecte quan s&apos;inicia el gnome-keyring-daemon, (per exemple, quan l&apos;usuari entra a la sessió). Es pot sobreescriure este paràmetre si es passa una opció de línia d&apos;ordes al dimoni.</long>
+			</locale>
+
+			<locale name="cs">
+				<short>Zda je agent SSH pro gnome-keyring aktivní.</short>
+				<long>Tato volba aktivuje SSH agenta v démonovi gnome-keyring. Změna se projeví pouze během spouštění gnome-keyring-daemon (např. když se uživatel přihlásí). Toto nastavení může být potlačeno, pokud jsou démonu předány jisté parametry příkazové řádky.</long>
+			</locale>
+
+			<locale name="da">
+				<short>Om SSH-agenten i gnome-keyring er aktiveret.</short>
+				<long>Dette aktiverer SSH-agenten i gnome-keyring-dæmonen. Dette træder kun i kraft når gnome-keyring-daemon startes (f.eks. når brugeren logger ind). Denne indstilling bliver måske overskrevet når visse kommandolinje-tilvalg gives til dæmonen.</long>
+			</locale>
+
+			<locale name="de">
+				<short>Legt fest, ob der SSH-Agent des GNOME-Schlüsselbunddienstes aktiviert ist.</short>
+				<long>Diese Option aktiviert den SSH-Agenten des GNOME-Schlüsselbunddienstes. Sie tritt nur in Kraft, wenn der Schlüsselbunddienst gestartet wird (also der Benutzer sich anmeldet). Diese Einstellung kann von bestimmten Befehlszeilenargumenten überschrieben werden, die dem Dienst übergeben werden.</long>
+			</locale>
+
+			<locale name="dz">
+				<short>ཇི་ནོམ་ ལྡེ་འཁོར་ ཨེས་ཨེས་ཨེཆ་ ལས་ཚབ་དེ་ ལྕོགས་ཅན་བཟོ་དེ་ཡོད་ག་མེད་ག། </short>
+				<long>གདམ་ཁ་འདི་གིས་ ཇི་ནོམ་ ལྡེ་འཁོར་ ཌེ་མཱོན་ནང་ལུ་ SSH ལས་ཚབ་  ལྕོགས་ཅན་བཟོཝ་ཨིན། དེ་ ཇི་ནོམ་ ལྡེ་འཁོར་ ཌེ་མཱོན་ འགོ་བཙུགསཔ་ད་ལྕངམ་ཅིག་ ནུས་པ་ཐོབ་ཨིན་ (དཔེར་ན་ ལག་ལེན་པ་དེ་ ནང་བསྐྱོད་འབདཝ་ད་ལུ་)། ཌེ་མཱོན་ལུ་ བཀོད་ལམ་ལ་ལོ་ཅིག་ རྩིས་སྤྲོད་འབད་ཡོད་པའི་སྐབས་ གཞི་སྒྲིག་འདི་ ཡངན་ཅིན་ མེདཔ་གཏང་འོང་།</long>
+			</locale>
+
+			<locale name="el">
+				<short>Αν ο gnome-keyring SSH agent θα είναι ενεργοποιημένος.</short>
+				<long>Αυτή η επιλογή ενεργοποιεί τον SSH agent στο gnome-keyring daemon. Πραγματοποιείται μόνο όταν ξεκινάει ο  gnome-keyring-daemon, (δηλ. όταν ο χρήστης συνδέεται). Αυτή η ρύθμιση μπορεί να παρακαμθεί με συγκεκριμένες εντολές στην γραμμή εντολών στο daemon.</long>
+			</locale>
+
+			<locale name="en_GB">
+				<short>Whether the gnome-keyring SSH agent is enabled.</short>
+				<long>This option enables the SSH agent in the gnome-keyring daemon. It only takes effect as gnome-keyring-daemon starts, (i.e.: when the user logs in). This setting may be overridden when certain command line arguments are passed to the daemon.</long>
+			</locale>
+
+			<locale name="es">
+				<short>Indica si el agente SSH del depósito de claves está activado.</short>
+				<long>Esta opción activa el agente SSH en el demonio del Depósito de claves. Sólo toma efecto cuando se inicia gnome-keyring-daemon, (ej: cuando el usuario entra en el sistema). Este ajuste se puede sobreescribir al pasar ciertos parámetros al demonio a traes de la línea de comandos.</long>
+			</locale>
+
+			<locale name="et">
+				<short>Kas gnome võtmerõnga SSH komponent on lubatud või mitte.</short>
+				<long>Selle võtme abil on võimalik lubada või keelata GNOME võtmerõnga deemonis SSH komponenti. See mõjub ainult gnome-keyring-daemon&apos;i käivitamisel, (ehk siis, kui kasutaja sisse logib). Seda sätet on võimalik mõnede deemonile antud käsureaargumentidega eirata.</long>
+			</locale>
+
+			<locale name="eu">
+				<short>&apos;Gnome-keyring&apos;-en SSH agentea gaitu behar den ala ez.</short>
+				<long>Aukera honek SSH agentea gaitzen du gnome-keyring daemonean. gnome-keyring-daemon abiaraztean soilik hartzen da eragina (adib. erabiltzaileak saioa hastean). Ezarpen hau gainidatzi egingo da komando-lerroko argumentu batzuk daemonari ematean.</long>
+			</locale>
+
+			<locale name="fi">
+				<short>Onko gnome-keyring SSH-agentti käytössä.</short>
+				<long>Tämä valinta ottaa käyttöön gnome-keyring-palvelimen SSH-agentin. Muutos tulee voimaan, kun gnome-keyring-palvelin käynnistetään uudestaan, esimerkiksi sisäänkirjauduttaessa. Tämä asetus voidaan ohittaa palvelimelle annetuilla komentorivivalitsimilla.</long>
+			</locale>
+
+			<locale name="fr">
+				<short>Indique si l&apos;agent SSH de gnome-keyring est activé.</short>
+				<long>Cette option active l&apos;agent SSH du démon gnome-keyring. Il prend effet dès que gnome-keyring-daemon démarre (c-à-d quand l&apos;utilisateur s&apos;identifie). Ce réglage peut être remplacé quand certains paramètres sont fournis au démon en ligne de commande.</long>
+			</locale>
+
+			<locale name="gl">
+				<short>Indica se o axente SSH do gnome-keyring está activado.</short>
+				<long>Esta opción activa o axente SSH no daemon gnome-keyring. Só será efectivo cando este daemon se inicie, por exemplo cando un usuario inicia a sesión. Esta configuración pode ser ignorada cando se pasan determinados argumentos da liña de ordes ao demoño.</long>
+			</locale>
+
+			<locale name="gu">
+				<short>ક્યાંતો gnome-keyring SSH એજંટ સક્રિય થયેલ છે.</short>
+				<long>આ વિકલ્પ SSH એજન્ટને gnome-keyring ડિમનમાં સક્રિય કરે છે. તે માત્ર gnome-keyring-daemon શરૂઆત તરીકે અસર લે છે, (એટલે કે: જ્યારે વપરાશકર્તા પ્રવેશ કરે). આ સુયોજન ફરીથી લખાઈ જશે જ્યારે ચોક્કસ આદેશ વાક્ય દલીલો ડિમનને પસાર કરવામાં આવે.</long>
+			</locale>
+
+			<locale name="he">
+				<short>Whether the gnome-keyring SSH agent is enabled.</short>
+				<long>This option enables the SSH agent in the gnome-keyring daemon. It only takes effect as gnome-keyring-daemon starts, (ie: when the user logs in). This setting may be overridden when certain command line arguments are passed to the daemon.</long>
+			</locale>
+
+			<locale name="hi">
+				<short>क्या gnome-keyring SSH एजेंट सक्रिय है.</short>
+				<long>यह कमांड SSH एजेंट को गनोम कीरिंग डेमॉन में सक्रिय करता है. यह तभी प्रभावी होता है जब gnome-keyring-daemon आरंभ होता है, (यानी: जब उपयोक्ता लॉगिन होता है). इस सेटिंग को अधिरोहित किया जा सकता है जब खास कमांड लाइन तर्क को डेमॉन में भेजा जाता है.</long>
+			</locale>
+
+			<locale name="hu">
+				<short>A gnome-keyring SSH ügynöke engedélyezve van-e.</short>
+				<long>Ez a lehetőség engedélyezi az SSH ügynököt a gnome-keyring démonban. Csak a gnome-keyring démonnal együtt indul el, például ha a felhasználó bejelentkezik. Ezt a beállítást felülbírálhatják a démonnak átadott bizonyos parancssori argumentumok.</long>
+			</locale>
+
+			<locale name="it">
+				<short>Indica se il componente SSH di gnome-keyring è abilitato.</short>
+				<long>Questa opzione abilita il componente SSH nel demone di gnome-keyring. Ha effetto solo all&apos;avvio di gnome-keyring-daemon (cioè quando l&apos;utente effettua l&apos;accesso). Questa impostazione può essere scavalcata quando determinati argomenti da riga di comando sono passati al demone.</long>
+			</locale>
+
+			<locale name="ja">
+				<short>SSH エージェントを有効にするかどうか</short>
+				<long>このオプションは gnome-keyring デーモンの SSH コンポーネントを有効にします。gnome-keyring デーモンを起動した時 (すなわちユーザがログインしている場合) にのみ効果があります。ここで設定した内容はコマンドラインから上書きすることができます。</long>
+			</locale>
+
+			<locale name="kn">
+				<short>gnome-ಕೀಲಿಸುರಳಿ SSH ಮಧ್ಯವರ್ತಿಯನ್ನು ಶಕ್ತಗೊಳಿಸಲಾಗಿದೆಯೆ.</short>
+				<long>ಈ ಆಯ್ಕೆಯು gnome-keyring daemon ನಲ್ಲಿ SSH ಮಧ್ಯವರ್ತಿಯನ್ನು ಶಕ್ತಗೊಳಿಸುತ್ತದೆ. gnome-keyring-daemon ಆರಂಭಗೊಂಡಾಗ ಮಾತ್ರವೆ ಇದು ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರುತ್ತದೆ, (ಅಂದರೆ: ಬಳಕೆದಾರರು ಒಳಗೆ ಪ್ರವೇಶಿಸಿದಾಗ). ಡೀಮನ್‌ಗೆ ಕೆಲವು ಆಜ್ಞಾ ಸಾಲಿನ ಆರ್ಗುಮೆಂಟ್‌ಗಳನ್ನು ಒದಗಿಸಿದಾಗ ಈ ಸಿದ್ಧತೆಗಳು ಅತಿಕ್ರಮಿಸಲ್ಪಡುತ್ತವೆ.</long>
+			</locale>
+
+			<locale name="ko">
+				<short>그놈 키 모음의 SSH 에이전트를 사용할 지 여부.</short>
+				<long>이 옵션은 gnome-keyring 데몬에서 SSH 에이전트를 사용합니다. 이 옵션은 gnome-keyring-daemon이 시작했을 경우에만, 즉 사용자가 로그인했을 경우에만 효과가 있습니다. 데몬에 특정 명령행 인자를 넘겼을 경우에 이 설정보다 우선할 수 있습니다.</long>
+			</locale>
+
+			<locale name="lt">
+				<short>Ar gnome-keyring SSH agentas įjungtas.</short>
+				<long>Ši parinktis įjungia SSH agentą gnome-keyring tarnyboje.  Ji svarbi tik startuojant gnome-keyring tarnybą, t.y., kai naudotojas prisijungia. Šis nustatymas gali būti pakeistas komandinės eilutės parametrais.</long>
+			</locale>
+
+			<locale name="mk">
+				<short>Дали е вклучен SSH агентот за gnome-keyring.</short>
+				<long>Оваа опција го вклучува SSH агентот во gnome-keyring даемонот. Се применува само кога при подигнувањето на даемонот за gnome-keyring, (пр. кога се најавува корисник). Ова поставување може да се избегне со додавање на одредени команди преку командната линија.</long>
+			</locale>
+
+			<locale name="ml">
+				<short>ഗ്നോം-ചാവിക്കൂട്ടം  SSH ഏജന്റ് സജീവമാണോ</short>
+				<long>ഈ ഐച്ഛികം ഗ്നോമിലെ ചാവിക്കൂട്ടത്തിനുള്ള നിരന്തരപ്രവൃത്തിയില്‍ എസ്എസ്എച്ച് ഏജന്റിനെ പ്രാവര്‍ത്തികമാക്കുന്നു. ഗ്നോമിലെ ചാവിക്കൂട്ടത്തിനുള്ള നിരന്തരപ്രക്രിയ (gnome-keyring-daemon) തുടങ്ങുമ്പോള്‍ മാത്രമേ ഇതു് സജീവമാകൂ, (അതായതു് ഉപയോക്താവു് അകത്തുകയറുമ്പോള്‍). ആജ്ഞാസ്ഥാനത്തു് ചില ഐച്ഛികങ്ങള്‍ നിരന്തരപ്രക്രിയയ്ക്കു് കൊടുക്കുമ്പോള്‍ ഈ സജ്ജീകരണം മറികടക്കാവുന്നതാണു്.</long>
+			</locale>
+
+			<locale name="mr">
+				<short>gnome-keyring SSH घटक कार्यान्वीत करायचे का.</short>
+				<long>हा पर्याय SSH घटक gnome-keyring डीमन कार्यान्वीत करतो. gnome-keyring-daemon पुन्हा सुरू केल्यावरच त्याचे प्रभाव दिसून पडते, (म्हणजे: जेव्हा वापरकर्ता दाखलन करतो). ही संयोजना ठराविक डीमन करीता आदेश ओळ बाब पाठविल्यास खोडून पुन्हा लिहीले जाते.</long>
+			</locale>
+
+			<locale name="nb">
+				<short>Om SSH-agenten for gnome-keyring er aktivert.</short>
+				<long>Dette alternativet aktiverer SSH-komponenten for gnome-keyring-tjenesten. Dette trer kun i kraft når gnome-keyring-daemon starter. Altså når brukeren logger inn. Denne innstillingen kan overstyres med spesifikke kommandolinjeargumenter gis til tjenesten.</long>
+			</locale>
+
+			<locale name="nl">
+				<short>Of de SSH-agent van gnome-keyring ingeschakeld is.</short>
+				<long>Deze optie schakelt de SSH-agent van gnome-keyring daemon in. Dit heeft alleen effect als gnome-keyring-daemon start, bijvoorbeeld als de gebruiker zich aanmeldt. Deze instelling kan worden overschreven door parameters op de opdrachtregel mee te geven aan de daemon.</long>
+			</locale>
+
+			<locale name="nn">
+				<short>Om SSH-agenten for gnome-keyring er slått på.</short>
+				<long>Dette alternativet slår på SSH-delen av gnome-keyring-tenesten. Dette trer berre i kraft når gnome-keyring-daemon startar. Altså når brukaren loggar inn. Denne innstillinga kan overstyrast med spesifikke kommandolinjeargumenter givast til tenesten.</long>
+			</locale>
+
+			<locale name="or">
+				<short>gnome-କିରିଙ୍ଗ SSH ସଦସ୍ୟଟି ସକ୍ରିୟ ହୋଇଛି କି ନାହିଁ।</short>
+				<long>ଏହି ବିକଳ୍ପ SSH ସଦସ୍ୟକୁ gnome-keyring ଡେମନରେ ସକ୍ରିୟ କରିଥାଏ। gnome-keyring-daemon ଆରମ୍ଭ ହେଲେ ଏହା ଘଟିଥାଏ, (ie: ଯେତେବେଳେ ଚାଳକମାନେ ଲଗଇନ କରନ୍ତି). ଏହି ବିନ୍ୟାସକୁ ନବଲିଖନ କରିହେବ।</long>
+			</locale>
+
+			<locale name="pa">
+				<short>ਕੀ ਗਨੋਮ-ਕੀਰਿੰਗ ਐਸ.ਐਸ.ਐਚ. ਏਜੰਟ ਯੋਗ ਕਰਨਾ ਹੈ।</short>
+				<long>ਇਹ ਚੋਣ ਚਾਲੂ ਕਰਨ ਨਾਲ ਐਸ.ਐਸ.ਐਚ ਏਜੰਟ ਗਨੋਮ-ਕੀਰਿੰਗ ਡੈਮਨ ਵਿੱਚ ਚੱਲੇਗਾ। ਇਹ ਤਾਂ ਹੀ ਚਾਲੂ ਹੋਵੇਗਾ ਜਦੋਂ ਗਨੋਮ-ਕੀਰਿੰਗ-ਡੈਮਨ ਸ਼ੁਰੂ ਹੋਵੇਗੀ (ਜਿਵੇਂ ਯੂਜ਼ਰ ਲਾਗਇਨ ਕਰੇਗਾ)। ਇਹ ਸੈਟਿੰਗ ਨੂੰ ਡੈਮਨ ਨੂੰ ਕੁਝ ਕਮਾਂਡ ਲਾਈਨ ਆਰਗੂਮੈਂਟ ਦੇਣ ਦੌਰਾਨ ਅਣਡਿੱਠਾ ਕੀਤਾ ਜਾ ਸਕਗਾ ਹੈ।</long>
+			</locale>
+
+			<locale name="pl">
+				<short>Określa, czy agent SSH usługi gnome-keyring jest włączony.</short>
+				<long>Ta opcja uruchamia agenta SSH w usłudze gnome-keyring. Działa tylko podczas uruchamiania usługi gnome-keyring (np. kiedy użytkownik się loguje). To ustawienie może zostać unieważnione poprzez odpowiednie parametry wiersza poleceń przekazane usłudze.</long>
+			</locale>
+
+			<locale name="pt">
+				<short>Se o agente SSH do gnome-keyring está ou não activo.</short>
+				<long>Esta opção activa o agente SSH no daemon gnome-keyring. Apenas tem efeito quando o gnome-keyring-daemon é iniciado, (por ex: quando o utilizador inicia uma sessão). Esta definição pode ser sobreposta quando determinados argumentos de linha de comando forem passados para o daemon.</long>
+			</locale>
+
+			<locale name="pt_BR">
+				<short>Habilitar o agente SSH do gnome-keyring.</short>
+				<long>Esta opção habilita o agente SSH no daemon do gnome-keyring. Ela só tem efeito quando o gnome-keyring-daemon inicia, ou seja, quando o usuário inicia uma sessão. Esta configuração pode ser substituída quando certos argumentos de linha de comando são passados para o daemon.</long>
+			</locale>
+
+			<locale name="ro">
+				<short>Dacă agentul SSH din keyring este activ.</short>
+				<long>Această opțiune activează agentul SSH în serviciul gnome-keyring. Are efect doar la pornirea gnome-keyring-daemon, (ex: când un utilizator este autentificate). Această opțiunea poate fi suprascrisă în cazul în care serviciul este pornit cu anumite argumente.</long>
+			</locale>
+
+			<locale name="ru">
+				<short>Будет ли активирован SSH-агент сервиса брелоков GNOME.</short>
+				<long>Этот параметр активирует SSH-агент в сервисе брелоков GNOME. Он обрабатывается только при запуске gnome-keyring-daemon, (то есть когда пользователь входит в систему). Данный параметр может быть изменён с помощью аргументов командной строки, передаваемых сервису.</long>
+			</locale>
+
+			<locale name="sl">
+				<short>Ali je gnome-keyring SSH agent omogočen.</short>
+				<long>Možnost omogoča podporo SSH agenta v gnome-keyring demonu. Uporablja se le ob zagonu demona gnome-keyring-daemon, (primer: ko se uporabnik prijavi). Možnost lahko s posebnimi argumenti med zagonom demona prekličete.</long>
+			</locale>
+
+			<locale name="sq">
+				<short>Tregon nëse agjenti SSH i gnome-keyring është aktivizuar.</short>
+				<long>Ky opsion aktivizon agjentin SSH në demon-in e gnome-keyring. Ka efekt vetëm në nisje të gnome-keyring-daemon (d.m.th. kur përdoruesi kryen hyrjen). Ky rregullim mund të kapërcehet kur jepen disa argumentë në rreshtin e komandës për deamon-in.</long>
+			</locale>
+
+			<locale name="sr">
+				<short>Да ли је SSH агент укључен.</short>
+				<long>Ова опција омогућава SSH агента у управљачком програму за Гномове привеске. Има ефекта само када је управљачки програм за Гномове привеске покренут (тј. када се корисник пријави). Ово подешавање се може потиснути када се одређени аргументи команде линије проследе овом програму.</long>
+			</locale>
+
+			<locale name="sr@latin">
+				<short>Da li je SSH agent uključen.</short>
+				<long>Ova opcija omogućava SSH agenta u upravljačkom programu za Gnomove priveske. Ima efekta samo kada je upravljački program za Gnomove priveske pokrenut (tj. kada se korisnik prijavi). Ovo podešavanje se može potisnuti kada se određeni argumenti komande linije proslede ovom programu.</long>
+			</locale>
+
+			<locale name="sv">
+				<short>Huruvida SSH-agenten i gnome-keyring är aktiverad.</short>
+				<long>Detta alternativ aktiverar SSH-agenten i gnome-keyring-demonen. Den blir endast aktiverad när gnome-keyring-daemon startar, (alltså när användaren loggar in). Denna inställning kan åsidosättas när vissa kommandoradsflaggor skickas till demonen.</long>
+			</locale>
+
+			<locale name="ta">
+				<short>க்னோம் விசை வளைய SSH முகவர் செயற்படுத்தி உள்ளதா</short>
+				<long>இந்த தேர்வு க்னோம் ரிங் SSH முகவரால் பயன்படுத்தப்படுகிறது. இது அந்த கிங்கரன் துவங்கும்போது மட்டுமே செயலுக்கு வரும். (அதாவது பயனர் உள்நுழையும் போது) இந்த அமைப்பு கிங்கரனுக்கு தரும் சில கட்டளை வரி மதிப்பால் மாற்ற இயலும்.</long>
+			</locale>
+
+			<locale name="te">
+				<short>gnome-keyring SSH ప్రతినిధి చేతనమవ్వాలా.</short>
+				<long>This option enables the SSH agent in the gnome-keyring daemon. It only takes effect as gnome-keyring-daemon starts, (ie: when the user logs in). This setting may be overridden when certain command line arguments are passed to the daemon.</long>
+			</locale>
+
+			<locale name="th">
+				<short>จะเปิดใช้ SSH agent ของ gnome-keyring หรือไม่</short>
+				<long>ตัวเลือกนี้จะเปิดใช้ SSH agent ในดีมอน gnome-keyring ซึ่งจะมีผลเมื่อดีมอน gnome-keyring ทำงานเท่านั้น (กล่าวคือ เมื่อผู้ใช้เข้าระบบ) ค่าตั้งนี้อาจถูกแทนที่โดยอาร์กิวเมนต์บางอย่างในบรรทัดคำสั่งที่ใช้เรียกดีมอน</long>
+			</locale>
+
+			<locale name="tr">
+				<short>Gnome-keyring SSH aracının etkin olmaması.</short>
+				<long>Bu özellik gnome-keyring servisi içindeki SSH aracını etkinleştirir. Bu sadece gnome-keyring-daemon başladığında etkili olur, (örn: kullanıcı giriş yaptığında). Kesin komut parametleri servise geçildiğinde bu ayarın yerine geçer.</long>
+			</locale>
+
+			<locale name="uk">
+				<short>Чи увімкнено агента SSH служби gnome-keyring.</short>
+				<long>Цей параметр вмикає агента SSH служби gnome-keyring. Він діє лише при запущеному gnome-keyring-daemon, (наприклад: коли користувач входить у сеанс). Цей параметр можна перевизначити передаванням певних аргументів команді запуску служби.</long>
+			</locale>
+
+			<locale name="vi">
+				<short>Có bật gnome-keyring SSH agent hay không.</short>
+				<long>Tuỳ chọn này bật SSH agent trong gnome-keyring daemon. Nó chỉ có tác dụng khi gnome-keyring-daemon hoạt động, (ví dụ: khi người dùng đăng nhập). Thiết lập này có thể bị ghi đè bằng đối số dòng lệnh truyền cho daemon.</long>
+			</locale>
+
+			<locale name="zh_CN">
+				<short>是否启用 gnome-keyring SSH 代理</short>
+				<long>此选项启用 gnome-keyring 守护进程的 SSH 代理。它仅在 gnome-keyring-daemon 启动时生效(即用户登入时)。当一些特定的命令行参数传给守护进程时，此设定可以被覆盖。</long>
+			</locale>
+
+			<locale name="zh_HK">
+				<short>是否啟用 gnome-keyring SSH 代理程式。</short>
+				<long>這個選項會啟用 gnome-keyring 伺服程式中的 SSH 代理程式。它只會在 gnome-keyring-daemon 啟動時生效，(例如使用者登入時)。這個設定值在傳送某些命令列引數給伺服程式時可能會被覆蓋。</long>
+			</locale>
+
+			<locale name="zh_TW">
+				<short>是否啟用 gnome-keyring SSH 代理程式。</short>
+				<long>這個選項會啟用 gnome-keyring 伺服程式中的 SSH 代理程式。它只會在 gnome-keyring-daemon 啟動時生效，(例如使用者登入時)。這個設定值在傳送某些命令列引數給伺服程式時可能會被覆蓋。</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/gnome-keyring/daemon-components/pkcs11</key>
+			<applyto>/apps/gnome-keyring/daemon-components/pkcs11</applyto>
+			<owner>gnome-keyring</owner>
+			<type>bool</type>
+			<default>TRUE</default>
+			<locale name="C">
+				<short>Whether the gnome-keyring PKCS#11 component is enabled.</short>
+				<long>This option enables the PKCS#11 component in the gnome-keyring 
+				daemon. It only takes effect as gnome-keyring-daemon starts, 
+				(ie: when the user logs in). This setting may be overridden 
+				when certain command line arguments are passed to the daemon.</long>
+			</locale>
+
+			<locale name="ar">
+				<short>إذا كان عميل PKCS#11 لـ gnome-keyring مفعّلا.</short>
+				<long>سيفعّل هذا الخيار مكون PKCS#11 لـ gnome-keyring. تبدأ فعاليته فقط عند تشغيل gnome-keyring-daemon (أي عندما يسجّل المستخدم الدخول). قد يتم تجاوز هذا الإعداد عند تمرير خيارات سطر أوامر محددة إلى الرقيب.</long>
+			</locale>
+
+			<locale name="as">
+				<short>gnome-keyring PKCS#11 সামগ্ৰী সক্ৰিয় কি না ।</short>
+				<long>এই বিকল্পেৰ সাহায্যে gnome-keyring ডেমনেৰ মধ্যে PKCS#11 সামগ্ৰী সক্ৰিয় কৰা হ&apos;ব। gnome-keyring-daemon আৰম্ভেৰ সময় (অৰ্থাৎ, ব্যবহাৰকাৰী লগ-ইন কৰাৰ সময়) এটি প্ৰয়োগ কৰা হ&apos;ব। কমান্ড-লাইন থেকে প্ৰযোজ্য কিছু আৰ্গুমেন্ট এই ডেমনেৰ ব্যবহাৰৰ বাবে উল্লেখ কৰা হলে এই বৈশিষ্ট্য উপেক্ষা কৰা যাবে।</long>
+			</locale>
+
+			<locale name="ast">
+				<short>Conseña si&apos;l componente PKCS#11 del depósitu de claves ta activáu</short>
+				<long>Esta opción activa el componente PKCS#11 nel demoniu del Depósitu de claves. Namái toma efeutu cuando s&apos;anicia gnome-keyring-daemon, (ex: cuando l&apos;usuariu entra nel sistema). Esti axuste pue sobreescribisae al pasar ciertos parámetros al demoniu a traviés de la llinia de comandos.</long>
+			</locale>
+
+			<locale name="be@latin">
+				<short>Ci ŭklučać kampanent PKCS#11 dla klučnika.</short>
+				<long>Hetaja opcyja ŭklučaje kampanent PKCS#11 dla demana gnome-keyring. Opcyja ŭździejničaje tolki pry ŭruchamleńni demana gnome-keyring-daemon, h.zn. kali karystalnik uvachodzić u systemu. Hetaja nałada moža być źmieniena z dapamohaj peŭnych arhumentaŭ zahadnaha radka, pieradadzienych demanu.</long>
+			</locale>
+
+			<locale name="bg">
+				<short>Дали да се задейства модулът за PKCS#11 на gnome-keyring.</short>
+				<long>Тази опция задейства модула за PKCS#11 в демона gnome-keyring и има ефект само при стартирането на gnome-keyring-daemon (т.е. когато потребителят влиза в системата). Тази настройка може да се заобиколи чрез определени опции на командния ред, зададени на демона.</long>
+			</locale>
+
+			<locale name="bn">
+				<short>gnome-keyring PKCS#11 সামগ্রী সক্রিয় কি না।</short>
+				<long>এই অপশনের সাহায্যে gnome-keyring ডেমনের মধ্যে PKCS#11 সামগ্রী সক্রিয় করা হবে। gnome-keyring-daemon আরম্ভের সময় (অর্থাৎ, ব্যবহারকারী লগ-ইন করার সময়) এটি প্রয়োগ করা হবে। কমান্ড-লাইন থেকে প্রযোজ্য কিছু আর্গুমেন্ট এই ডেমনের ব্যবহারের জন্য উল্লেখ করা হলে এই বৈশিষ্ট্য উপেক্ষা করা যাবে।</long>
+			</locale>
+
+			<locale name="bn_IN">
+				<short>gnome-keyring PKCS#11 সামগ্রী সক্রিয় কি না।</short>
+				<long>এই বিকল্পের সাহায্যে gnome-keyring ডেমনের মধ্যে PKCS#11 সামগ্রী সক্রিয় করা হবে। gnome-keyring-daemon আরম্ভের সময় (অর্থাৎ, ব্যবহারকারী লগ-ইন করার সময়) এটি প্রয়োগ করা হবে। কমান্ড-লাইন থেকে প্রযোজ্য কিছু আর্গুমেন্ট এই ডেমনের ব্যবহারের জন্য উল্লেখ করা হলে এই বৈশিষ্ট্য উপেক্ষা করা যাবে।</long>
+			</locale>
+
+			<locale name="ca">
+				<short>Si està habilitat el component PKCS#11 del gnome-keyring.</short>
+				<long>Aquesta opció habilita el component PKCS#11 en el dimoni del gnome-keyring. Només te efecte quan s&apos;inicia el gnome-keyring-daemon, (per exemple, quan l&apos;usuari entra a la sessió). Es pot sobreescriure aquest paràmetre si es passa una opció de línia d&apos;ordres al dimoni.</long>
+			</locale>
+
+			<locale name="ca@valencia">
+				<short>Si està habilitat el component PKCS#11 del gnome-keyring.</short>
+				<long>Esta opció habilita el component PKCS#11 en el dimoni del gnome-keyring. Només te efecte quan s&apos;inicia el gnome-keyring-daemon, (per exemple, quan l&apos;usuari entra a la sessió). Es pot sobreescriure este paràmetre si es passa una opció de línia d&apos;ordes al dimoni.</long>
+			</locale>
+
+			<locale name="cs">
+				<short>Zda je komponenta PKCS#11 pro gnome-keyring aktivní.</short>
+				<long>Tato volba aktivuje komponentu PKCS#11 v démonovi gnome-keyring. Změna se projeví pouze během spouštění gnome-keyring-daemon (např. když se uživatel přihlásí). Toto nastavení může být potlačeno, pokud jsou démonu předány jisté parametry příkazové řádky.</long>
+			</locale>
+
+			<locale name="da">
+				<short>Om PKCS#11-komponenten i gnome-keyring er aktiveret.</short>
+				<long>Dette aktiverer PKCS#11-komponenten i gnome-keyring-dæmonen. Dette træder kun i kraft når gnome-keyring-daemon startes (f.eks. når brugeren logger ind). Denne indstilling bliver måske overskrevet når visse kommandolinje-tilvalg gives til dæmonen.</long>
+			</locale>
+
+			<locale name="de">
+				<short>Legt fest, ob die PKCS #11-Komponente des GNOME-Schlüsselbunddienstes aktiviert ist.</short>
+				<long>Diese Option aktiviert die PKCS #11-Komponente im GNOME-Schlüsselbunddienst. Sie tritt nur in Kraft, wenn der Schlüsselbunddienst gestartet wird (also der Benutzer sich anmeldet). Diese Einstellung kann von bestimmten Befehlszeilenargumenten überschrieben werden, die dem Dienst übergeben werden.</long>
+			</locale>
+
+			<locale name="dz">
+				<short>ཇི་ནོམ་་ལྡེ་འཁོར་ PKCS#11 ཆ་ཤས་དེ་ ལྕོགས་ཅན་བཟོ་དེ་ཡོད་ག་མེད་ག། </short>
+				<long>གདམ་ཁ་འདི་གིས་ ཇི་ནོམ་ ལྡེ་འཁོར་ ཌེ་མཱོན་ནང་ལུ་ PKCS#11 ཆ་ཤས་ ལྕོགས་ཅན་བཟོཝ་ཨིན། དེ་ ཇི་ནོམ་ ལྡེ་འཁོར་ ཌེ་མཱོན་ འགོ་བཙུགསཔ་ད་ལྕངམ་ཅིག་ ནུས་པ་ཐོབ་ཨིན་ (དཔེར་ན་ ལག་ལེན་པ་དེ་ ནང་བསྐྱོད་འབདཝ་ད་ལུ་)། ཌེ་མཱོན་ལུ་ བཀོད་ལམ་ལ་ལོ་ཅིག་ རྩིས་སྤྲོད་འབད་ཡོད་པའི་སྐབས་ གཞི་སྒྲིག་འདི་ ཡངན་ཅིན་ མེདཔ་གཏང་འོང་།</long>
+			</locale>
+
+			<locale name="el">
+				<short>Αν θα είναι ενεργοποιημένο το gnome-keyring PKCS#11 component</short>
+				<long>Αυτή η επιλογή ενεργοποιεί το  PKCS#11 component στο gnome-keyring daemon. Πραγματοποιείται μόνο όταν ξεκινάει ο  gnome-keyring-daemon, (δηλ. όταν ο χρήστης συνδέεται). Αυτή η ρύθμιση μπορεί να παρακαμθεί με συγκεκριμένες εντολές στην γραμμή εντολών στο daemon.</long>
+			</locale>
+
+			<locale name="en_GB">
+				<short>Whether the gnome-keyring PKCS#11 component is enabled.</short>
+				<long>This option enables the PKCS#11 component in the gnome-keyring daemon. It only takes effect as gnome-keyring-daemon starts, (ie: when the user logs in). This setting may be overridden when certain command line arguments are passed to the daemon.</long>
+			</locale>
+
+			<locale name="es">
+				<short>Indica si el componente PKCS#11 del depósito de claves está activado.</short>
+				<long>Esta opción activa el componente PKCS#11 en el demonio del Depósito de claves. Sólo toma efecto cuando se inicia gnome-keyring-daemon, (ej: cuando el usuario entra en el sistema). Este ajuste se puede sobreescribir al pasar ciertos parámetros al demonio a través de la línea de comandos.</long>
+			</locale>
+
+			<locale name="et">
+				<short>Kas gnome võtmerõnga PKCS#11 komponent on lubatud või mitte.</short>
+				<long>Selle võtme abil on võimalik lubada või keelata GNOME võtmerõnga deemonis PKCS#11 komponenti. See mõjub ainult gnome-keyring-daemon&apos;i käivitamisel, (ehk siis, kui kasutaja sisse logib). Seda sätet on võimalik mõnede deemonile antud käsureaargumentidega eirata.</long>
+			</locale>
+
+			<locale name="eu">
+				<short>&apos;Gnome-keyring&apos;-en PKCS#11 osagaia gaitu behar den ala ez.</short>
+				<long>Aukera honek PKCS#11 osagaia gaitzen du gnome-keyring daemonean. gnome-keyring-daemon abiaraztean soilik hartzen da eragina (adib. erabiltzaileak saioa hastean). Ezarpen hau gainidatzi egingo da komando-lerroko argumentu batzuk daemonari ematean.</long>
+			</locale>
+
+			<locale name="fi">
+				<short>Onko gnome-keyring PKCS#11-komponentti käytössä.</short>
+				<long>Tämä valinta ottaa käyttöön gnome-keyring-palvelimen PKCS#11-komponentin. Muutos tulee voimaan, kun gnome-keyring-palvelin käynnistetään uudestaan, esimerkiksi sisäänkirjauduttaessa. Tämä asetus voidaan ohittaa palvelimelle annetuilla komentorivivalitsimilla.</long>
+			</locale>
+
+			<locale name="fr">
+				<short>Indique si le composant PKCS#11 de gnome-keyring est activé.</short>
+				<long>Cette option active le composant PKCS#11 du démon gnome-keyring. Il prend effet dès que gnome-keyring-daemon démarre (c-à-d quand l&apos;utilisateur s&apos;identifie). Ce réglage peut être remplacé quand certains paramètres sont fournis au démon en ligne de commande.</long>
+			</locale>
+
+			<locale name="gl">
+				<short>Indica se o compoñente PKCS#11 do gnome-keyring está activado.</short>
+				<long>Esta opción activa o compoñente PKCS#11 no daemon gnome-keyring. Só será efectivo cando este daemon se inicie, por exemplo cando un usuario inicia a sesión. Esta configuración pode ser ignorada cando se pasan determinados argumentos da liña de ordes ao demoño.</long>
+			</locale>
+
+			<locale name="gu">
+				<short>ક્યાંતો gnome-keyring PKCS#11 ઘટક સક્રિય થયેલ છે.</short>
+				<long>આ વિકલ્પ PKCS#11 ઘટકને gnome-keyring ડિમનમાં સક્રિય કરે છે. તે માત્ર gnome-keyring-daemon શરૂઆત તરીકે અસર લે છે, (એટલે કે: જ્યારે વપરાશકર્તા પ્રવેશ કરે). આ સુયોજન ફરીથી લખાઈ જશે જ્યારે ચોક્કસ આદેશ વાક્ય દલીલો ડિમનને પસાર કરવામાં આવે.</long>
+			</locale>
+
+			<locale name="he">
+				<short>Whether the gnome-keyring PKCS#11 component is enabled.</short>
+				<long>This option enables the PKCS#11 component in the gnome-keyring daemon. It only takes effect as gnome-keyring-daemon starts, (ie: when the user logs in). This setting may be overridden when certain command line arguments are passed to the daemon.</long>
+			</locale>
+
+			<locale name="hi">
+				<short>क्या gnome-keyring PKCS#11 घटक सक्रिय है.</short>
+				<long>यह कमांड PKCS#11 घटक को गनोम कीरिंग डेमॉन में सक्रिय करता है. यह तभी प्रभावी होता है जब gnome-keyring-daemon आरंभ होता है, (यानी: जब उपयोक्ता लॉगिन होता है). इस सेटिंग को अधिरोहित किया जा सकता है जब खास कमांड लाइन तर्क को डेमॉन में भेजा जाता है.</long>
+			</locale>
+
+			<locale name="hu">
+				<short>A gnome-keyring PKCS#11 összetevője engedélyezve van-e?</short>
+				<long>Ez a lehetőség engedélyezi a PKCS#11 összetevőt a gnome-keyring démonban. Csak a gnome-keyring démonnal együtt indul el, például ha a felhasználó bejelentkezik. Ezt a beállítást felülbírálhatják a démonnak átadott bizonyos parancssori argumentumok.</long>
+			</locale>
+
+			<locale name="it">
+				<short>Indica se il componente PKCS#11 di gnome-keyring è abilitato.</short>
+				<long>Questa opzione abilita il componente PKCS#11 nel demone di gnome-keyring. Ha effetto solo all&apos;avvio di gnome-keyring-daemon (cioè quando l&apos;utente effettua l&apos;accesso). Questa impostazione può essere scavalcata quando determinati argomenti da riga di comando sono passati al demone.</long>
+			</locale>
+
+			<locale name="ja">
+				<short>PKCS#11 コンポーネントを有効にするかどうか</short>
+				<long>このオプションは gnome-keyring デーモンの PKCS#11 コンポーネントを有効にします。gnome-keyring デーモンを起動した時 (すなわちユーザがログインしている場合) にのみ効果があります。ここで設定した内容はコマンドラインから上書きすることができます。</long>
+			</locale>
+
+			<locale name="kn">
+				<short>gnome-ಕೀಲಿಸುರಳಿ PKCS#11 ಘಟಕವನ್ನು ಶಕ್ತಗೊಳಿಸಲಾಗಿದೆಯೆ.</short>
+				<long>ಈ ಆಯ್ಕೆಯು gnome-keyring ಡೀಮನ್‌ನಲ್ಲಿ PKCS#11 ಘಟಕವನ್ನು ಶಕ್ತಗೊಳಿಸುತ್ತದೆ. gnome-keyring-daemon ಆರಂಭಗೊಂಡಾಗ ಮಾತ್ರವೆ ಇದು ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರುತ್ತದೆ, (ಅಂದರೆ: ಬಳಕೆದಾರರು ಒಳಗೆ ಪ್ರವೇಶಿಸಿದಾಗ). ಡೀಮನ್‌ಗೆ ಕೆಲವು ಆಜ್ಞಾ ಸಾಲಿನ ಆರ್ಗುಮೆಂಟ್‌ಗಳನ್ನು ಒದಗಿಸಿದಾಗ ಈ ಸಿದ್ಧತೆಗಳು ಅತಿಕ್ರಮಿಸಲ್ಪಡುತ್ತವೆ.</long>
+			</locale>
+
+			<locale name="ko">
+				<short>그놈 키 모음의 PKCS#11 컴포넌트를 사용할 지 여부.</short>
+				<long>이 옵션은 gnome-keyring 데몬에서 PKCS#11 컴포넌트를 사용합니다. 이 옵션은 gnome-keyring-daemon이 시작했을 경우에만, 즉 사용자가 로그인했을 경우에만 효과가 있습니다. 데몬에 특정 명령행 인자를 넘겼을 경우에 이 설정보다 우선할 수 있습니다.</long>
+			</locale>
+
+			<locale name="lt">
+				<short>Ar gnome-keyring PKCS#11 komponentas įjungtas.</short>
+				<long>Ši parinktis įjungia PKCS#11 komponentą gnome-keyring tarnyboje. Ji svarbi tik startuojant gnome-keyring tarnybą, t.y., kai naudotojas prisijungia. Šis nustatymas gali būti pakeistas komandinės eilutės parametrais.</long>
+			</locale>
+
+			<locale name="mk">
+				<short>Дали е вклучена компонетата PKCS#11 за gnome-keyring.</short>
+				<long>Оваа опција ја вклучува компонентата PKCS#11 во даемонот за gnome-keyring. Се применува само при подигнувањето на даемонот за gnome-keyring, (пр. при најава на корисникот). Ова поставување може да се избегне со додавање на одредени команди преку командната линија.</long>
+			</locale>
+
+			<locale name="ml">
+				<short>ഗ്നോമിലെ ചാവിക്കൂട്ടത്തില്‍ PKCS#11 ഘടകം പ്രാവര്‍ത്തികമാക്കിയിട്ടുണ്ടോ എന്നു്.</short>
+				<long>ഈ ഐച്ഛികം ഗ്നോമിലെ ചാവിക്കൂട്ടത്തിന്റെ നിരന്തരപ്രക്രിയയില്‍ PKCS#11 ഘടകത്തെ പ്രാവര്‍ത്തികമാക്കുന്നു. ഗ്നോമിലെ ചാവിക്കൂട്ടത്തിനുള്ള നിരന്തരപ്രക്രിയ (gnome-keyring-daemon) തുടങ്ങുമ്പോള്‍ മാത്രമേ ഇതു് സജീവമാകൂ, (അതായതു് ഉപയോക്താവു് അകത്തുകയറുമ്പോള്‍). ആജ്ഞാസ്ഥാനത്തു് ചില ഐച്ഛികങ്ങള്‍ നിരന്തരപ്രക്രിയയ്ക്കു് കൊടുക്കുമ്പോള്‍ ഈ സജ്ജീകരണം മറികടക്കാവുന്നതാണു്.</long>
+			</locale>
+
+			<locale name="mr">
+				<short>gnome-keyring PKCS#11 घटक कार्यान्वीत आहे का.</short>
+				<long>हा पर्याय gnome-keyring डीमन मध्ये PKCS#11 घटक कार्यान्वीत करतो. gnome-keyring-daemon पुन्हा सुरू होताच त्याचा प्रभाव दृश्यास पडतो, (म्हणजेच: वापरकर्ता दाखलन करतो तेव्हा). ही संयोजना ठराविक डीमन करीता आदेश ओळ बाब पाठविल्यास खोडून पुन्हा लिहीले जाते.</long>
+			</locale>
+
+			<locale name="nb">
+				<short>Om PKCS#11-komponenten for gnome-keyring er aktivert.</short>
+				<long>Dette alternativet aktiverer PKCS#11-komponenten for gnome-keyring-tjenesten. Dette trer kun i kraft når gnome-keyring-daemon starter. Altså når brukeren logger inn. Denne innstillingen kan overstyres med spesifikke kommandolinjeargumenter gis til tjenesten.</long>
+			</locale>
+
+			<locale name="nl">
+				<short>Of de PKCS#11-component van gnome-keyring ingeschakeld is.</short>
+				<long>Deze optie schakelt de PKCS#11-component van gnome-keyring daemon in. Dit heeft alleen effect als gnome-keyring-daemon start, bijvoorbeeld als de gebruiker zich aanmeldt. Deze instelling kan worden overschreven door parameters op de opdrachtregel mee te geven aan de daemon.</long>
+			</locale>
+
+			<locale name="nn">
+				<short>Om PKCS#11-delen av gnome-keyring er slått på.</short>
+				<long>Dette alternativet slår på PKCS#11-delen av gnome-keyring-tenesten. Dette trer berre i kraft når gnome-keyring-daemon startar. Altså når brukaren loggar inn. Denne innstillinga kan overstyrast med spesifikke kommandolinjeargumenter givast til tenesten.</long>
+			</locale>
+
+			<locale name="or">
+				<short>gnome-କିରିଙ୍ଗ PKCS#11 ଉପାଦାନଟି ସକ୍ରିୟ ହୋଇଛି କି ନାହିଁ।</short>
+				<long>ଏହି ବିକଳ୍ପ PKCS#11 ସଦସ୍ୟକୁ gnome-keyring ଡେମନରେ ସକ୍ରିୟ କରିଥାଏ। gnome-keyring-daemon ଆରମ୍ଭ ହେଲେ ଏହା ଘଟିଥାଏ, (ie: ଯେତେବେଳେ ଚାଳକମାନେ ଲଗଇନ କରନ୍ତି). ଏହି ବିନ୍ୟାସକୁ ନବଲିଖନ କରିହେବ।</long>
+			</locale>
+
+			<locale name="pa">
+				<short>ਕੀ ਗਨੋਮ-ਕੀਰਿੰਗ PKCS#11 ਭਾਗ ਚਾਲੂ ਕਰਨਾ ਹੈ।</short>
+				<long>ਇਹ ਚੋਣ ਚਾਲੂ ਕਰਨ ਨਾਲ PKCS#11 ਏਜੰਟ ਗਨੋਮ-ਕੀਰਿੰਗ ਡੈਮਨ ਵਿੱਚ ਚੱਲੇਗਾ। ਇਹ ਤਾਂ ਹੀ ਚਾਲੂ ਹੋਵੇਗਾ ਜਦੋਂ ਗਨੋਮ-ਕੀਰਿੰਗ-ਡੈਮਨ ਸ਼ੁਰੂ ਹੋਵੇਗੀ (ਜਿਵੇਂ ਯੂਜ਼ਰ ਲਾਗਇਨ ਕਰੇਗਾ)। ਇਹ ਸੈਟਿੰਗ ਨੂੰ ਡੈਮਨ ਨੂੰ ਕੁਝ ਕਮਾਂਡ ਲਾਈਨ ਆਰਗੂਮੈਂਟ ਦੇਣ ਦੌਰਾਨ ਅਣਡਿੱਠਾ ਕੀਤਾ ਜਾ ਸਕਗਾ ਹੈ।</long>
+			</locale>
+
+			<locale name="pl">
+				<short>Określa, czy komponent PKCS#11 usługi gnome-keyring jest włączony.</short>
+				<long>Ta opcja włącza komponent PKCS#11 usługi gnome-keyring. Działa tylko podczas uruchamiania usługi gnome-keyring (np. kiedy użytkownik się loguje). To ustawienie może zostać unieważnione poprzez odpowiednie parametry wiersza poleceń przekazane usłudze.</long>
+			</locale>
+
+			<locale name="pt">
+				<short>Se o componente PKCS#11 do gnome-keyring está ou não activo.</short>
+				<long>Esta opção activa o componente PKCS#11 no daemon gnome-keyring. Apenas tem efeito quando o gnome-keyring-daemon é iniciado, (por ex: quando o utilizador inicia uma sessão). Esta definição pode ser sobreposta quando determinados argumentos de linha de comando forem passados para o daemon.</long>
+			</locale>
+
+			<locale name="pt_BR">
+				<short>Habilitar o componente PKCS#11 do gnome-keyring.</short>
+				<long>Esta opção habilita o componente PKCS#11 no daemon do gnome-keyring. Ela só tem efeito quando o gnome-keyring-daemon inicia, ou seja, quando o usuário inicia uma sessão. Esta configuração pode ser substituída quando certos argumentos de linha de comando são passados para o daemon.</long>
+			</locale>
+
+			<locale name="ro">
+				<short>Dacă componenta PKCS#11 din gnome-keyring este activă.</short>
+				<long>Această opțiune activează componenta PKCS#1 în serviciul gnome-keyring. Are efect doar la pornirea gnome-keyring-daemon, (ex: când un utilizator este autentificate). Această opțiunea poate fi suprascrisă în cazul în care serviciul este pornit cu anumite argumente.</long>
+			</locale>
+
+			<locale name="ru">
+				<short>Будет ли активирован компонент сервиса брелоков GNOME PKCS#11.</short>
+				<long>Этот параметр активирует компонент PKCS#11 в сервисе брелоков GNOME. Он обрабатывается только при запуске gnome-keyring-daemon, (то есть когда пользователь входит в систему). Данный параметр может быть изменён с помощью аргументов командной строки, передаваемых сервису.</long>
+			</locale>
+
+			<locale name="sl">
+				<short>Ali je gnome-keyring PKCS#11 enota omogočena.</short>
+				<long>Možnost omogoča zagon PKCS#11 enote v gnome-keyring demonu. Uporablja se le ob zagonu demona gnome-keyring-daemon, (primer: ko se uporabnik prijavi). Možnost lahko s posebnimi argumenti med zagonom demona prekličete.</long>
+			</locale>
+
+			<locale name="sq">
+				<short>Tregon nëse përbërësi PKCS#11 i gnome-keyring është aktivizuar.</short>
+				<long>Ky opsion aktivizon përbërësin PKCS#11 në demon-in e gnome-keyring. Ka efekt vetëm në nisje të gnome-keyring-daemon (d.m.th. kur përdoruesi kryen hyrjen). Ky rregullim mund të kapërcehet kur jepen disa argumentë në rreshtin e komandës për deamon-in.</long>
+			</locale>
+
+			<locale name="sr">
+				<short>Да ли је PKCS#11 компонента укљученa.</short>
+				<long>Ова опција омогућава PKCS#11 компоненту у управљачком програму за Гномове привеске. Има ефекта само када је управљачки програм за Гномове привеске покренут (тј. када се корисник пријави). Ово подешавање се може потиснути када се одређени аргументи команде линије проследе овом програму.</long>
+			</locale>
+
+			<locale name="sr@latin">
+				<short>Da li je PKCS#11 komponenta uključena.</short>
+				<long>Ova opcija omogućava PKCS#11 komponentu u upravljačkom programu za Gnomove priveske. Ima efekta samo kada je upravljački program za Gnomove priveske pokrenut (tj. kada se korisnik prijavi). Ovo podešavanje se može potisnuti kada se određeni argumenti komande linije proslede ovom programu.</long>
+			</locale>
+
+			<locale name="sv">
+				<short>Huruvida PKCS#11-komponenten i gnome-keyring är aktiverad.</short>
+				<long>Detta alternativ aktiverar PKCS#11-komponenten i gnome-keyring-demonen. Den blir endast aktiverad när gnome-keyring-daemon startar, (alltså när användaren loggar in). Denna inställning kan åsidosättas när vissa kommandoradsflaggor skickas till demonen.</long>
+			</locale>
+
+			<locale name="ta">
+				<short>க்னோம் விசை வளைய அடக்கம் PKCS#11 செயற்படுத்தப் பட வேண்டுமா</short>
+				<long>இந்த தேர்வு க்னோம் ரிங் கிங்கரனின் PKCS#11 கூறால் பயன்படுத்தப்படுகிறது. இது அந்த கிங்கரன் துவங்கும்போது மட்டுமே செயலுக்கு வரும். (அதாவது பயனர் உள்நுழையும் போது) இந்த அமைப்பு கிங்கரனுக்கு தரும் சில கட்டளை வரி மதிப்பால் மாற்ற இயலும்.</long>
+			</locale>
+
+			<locale name="te">
+				<short>gnome-keyring PKCS#11 మూలకం చేతనమవ్వాలా.</short>
+				<long>ఈ ఐచ్చికం PKCS#11 మూలకంనందలి gnome-keyring డెమోన్‌ను చేతనపరుస్తుంది. యిది gnome-keyring-daemon ప్రారంభంతో ప్రభావితమౌతుంది. కొన్ని ఆదేశవరుస ఆర్గుమెంట్లు డెమోన్‌కు పాసైనప్పుడు ఈ అమర్పు తిరిగివ్రాయబడుతుంది.</long>
+			</locale>
+
+			<locale name="th">
+				<short>จะเปิดใช้องค์ประกอบ PKCS#11 ของ gnome-keyring หรือไม่</short>
+				<long>ตัวเลือกนี้จะเปิดใช้องค์ประกอบ PKCS#11 ในดีมอน gnome-keyring ซึ่งจะมีผลเมื่อดีมอน gnome-keyring ทำงานเท่านั้น (กล่าวคือ เมื่อผู้ใช้เข้าระบบ) ค่าตั้งนี้อาจถูกแทนที่โดยอาร์กิวเมนต์บางอย่างในบรรทัดคำสั่งที่ใช้เรียกดีมอน</long>
+			</locale>
+
+			<locale name="tr">
+				<short>Gnome-keyring PKCS#11 bileşeninin etkin olmaması.</short>
+				<long>Bu özellik gnome-keyring servisi içindeki PKCS#11 eklentisini etkinleştirir. Bu sadece gnome-keyring-daemon başladığında etkili olur, (örn: kullanıcı giriş yaptığında). Kesin komut parametleri servise geçildiğinde bu ayarın yerine geçer.</long>
+			</locale>
+
+			<locale name="uk">
+				<short>Чи увімкнено компонент PKCS#11 служби gnome-keyring.</short>
+				<long>Цей параметр вмикає компонент PKCS#11 служби gnome-keyring. Він діє лише при запущеному gnome-keyring-daemon, (наприклад: коли користувач входить у сеанс). Цей параметр можна перевизначити передаванням певних аргументів команді запуску служби.</long>
+			</locale>
+
+			<locale name="vi">
+				<short>Có bật thành phần gnome-keyring PKCS#11 hay không.</short>
+				<long>Tuỳ chọn này bật thành phần PKCS#11 trong gnome-keyring daemon. Nó chỉ có tác dụng khi gnome-keyring-daemon hoạt động, (ví dụ: khi người dùng đăng nhập). Thiết lập này có thể bị ghi đè bằng đối số dòng lệnh truyền cho daemon.</long>
+			</locale>
+
+			<locale name="zh_CN">
+				<short>是否启用 gnome-keyring PKCS#11 组件</short>
+				<long>此选项启用 gnome-keyring 守护进程的 PKCS#11 组件。它仅在 gnome-keyring-daemon 启动时生效(即用户登入时)。当一些特定的命令行参数传给守护进程时，此设定可以被覆盖。</long>
+			</locale>
+
+			<locale name="zh_HK">
+				<short>是否啟用 gnome-keyring PKCS#11 元件。</short>
+				<long>這個選項會啟用 gnome-keyring 伺服程式中的 PKCS#11 元件。它只會在 gnome-keyring-daemon 啟動時生效，(例如使用者登入時)。這個設定值在傳送某些命令列引數給伺服程式時可能會被覆蓋。</long>
+			</locale>
+
+			<locale name="zh_TW">
+				<short>是否啟用 gnome-keyring PKCS#11 元件。</short>
+				<long>這個選項會啟用 gnome-keyring 伺服程式中的 PKCS#11 元件。它只會在 gnome-keyring-daemon 啟動時生效，(例如使用者登入時)。這個設定值在傳送某些命令列引數給伺服程式時可能會被覆蓋。</long>
+			</locale>
+		</schema>
+	</schemalist>
+</gconfschemafile>

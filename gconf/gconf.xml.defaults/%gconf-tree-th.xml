@@ -1,0 +1,1905 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="เคลื่อนที่เร็ว">
+						<longdesc>กำหนดเป็น FALSE ให้ลูกบอลหล่นช้าๆ แบบนุ่มนวล ค่า TRUE จะทำให้ลูกบอลหล่นเร็วแบบพรวดพราด</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="ความสูงของกระดานกำหนดเอง">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="ความกว้างของกระดานกำหนดเอง">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="ขนาดกระดาน">
+						<longdesc>ขนาดของกระดานที่ใช้ 1 = กำหนดเอง, 2 = เล็ก, 3 = กลาง, 4 = ใหญ่</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="ชุดตกแต่งที่ใช้">
+						<longdesc>ชื่อแฟ้มของชุดตกแต่งที่ใช้</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="ปล่อยลูกแก้ว">
+						<longdesc>ปุ่มกดเพื่อปล่อยลูกแก้ว</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="เลื่อนขวา">
+						<longdesc>ปุ่มกดเพื่อเลื่อนขวา</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="เลื่อนซ้าย">
+						<longdesc>ปุ่มกดเพื่อเลื่อนซ้าย</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="เสียง">
+						<longdesc>กำหนดว่าจะเล่นเสียงของเหตุการณ์ต่างๆ หรือไม่</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="ใช้ภาพเคลื่อนไหว">
+						<longdesc>กำหนดว่าจะใช้ภาพเคลื่อนไหวหรือไม่</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="หมายเลขชุดตกแต่ง">
+						<longdesc>ตัวเลขระบุชุดตกแต่งที่เลือก</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="ระดับของผู้เล่นที่สอง">
+						<longdesc>ศูนย์หมายถึงมนุษย์; หนึ่งถึงสามหมายถึงระดับผู้เล่นที่เป็นคอมพิวเตอร์</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="ระดับของผู้เล่นที่หนึ่ง">
+						<longdesc>ศูนย์หมายถึงมนุษย์; หนึ่งถึงสามหมายถึงระดับผู้เล่นที่เป็นคอมพิวเตอร์</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="ตัวอย่างเกม">
+							<longdesc>ตัวอย่างเกมจากเกมที่แล้วที่บันทึกไว้</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="กระดานเกม">
+							<longdesc>กระดานเกมจากเกมที่แล้วที่บันทึกไว้</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="คะแนนของเกม">
+							<longdesc>คะแนนของเกมจากเกมที่แล้วที่บันทึกไว้</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="กำหนดเวลาของแต่ละตา">
+							<longdesc>กำหนดเวลาของแต่ละตาเป็นมิลลิวินาที</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="สีพื้น">
+							<longdesc>สีพื้น กำหนดโดยเลขฐานสิบหก</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="รูปลักษณ์ของลูกแก้ว">
+							<longdesc>รูปลักษณ์ของลูกแก้ว ระบุชื่อแฟ้มของรูปภาพที่ใช้แสดงลูกแก้ว</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="ขนาดกระดาน">
+							<longdesc>ขนาดกระดาน 1=เล็ก, 2=กลาง, 3=ใหญ่ ค่าอื่นๆ ถือว่าใช้ไม่ได้</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="ข้างของกระดานที่แสดง">
+						<longdesc>ข้างของกระดานที่จะหันออกด้านหน้า ค่าที่เป็นไปได้คือ &apos;white&apos; (ฝ่ายขาว), &apos;black&apos; (ฝ่ายดำ), &apos;current&apos; (ฝ่ายผู้เล่นปัจจุบัน) หรือ &apos;human&apos; (ฝ่ายผู้เล่นปัจจุบันที่เป็นมนุษย์)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="รูปแบบการแสดงตาเดิน">
+						<longdesc>รูปแบบที่ใช้แสดงตาเดิน ค่าที่เป็นไปได้คือ &apos;human&apos; (แบบที่มนุษย์อ่านได้), &apos;lan&apos; (long algebraic notation - รูปพีชคณิตแบบยาว), &apos;san&apos; (standard algebraic notation - รูปพีชคณิตมาตรฐาน)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="ไดเรกทอรีที่จะเปิดกล่องโต้ตอบเรียกอ่านเกม">
+						<longdesc>ไดเรกทอรีที่จะเปิดกล่องโต้ตอบเรียกอ่านเกม</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="ไดเรกทอรีที่จะเปิดกล่องโต้ตอบบันทึกเกม">
+						<longdesc>ไดเรกทอรีที่จะเปิดกล่องโต้ตอบบันทึกเกม</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="แฟล็กเปิดใช้แถบเครื่องมือ">
+						<longdesc>แฟล็กเปิดใช้แถบเครื่องมือ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="แฟล็กเปิดใช้แถบแสดงบันทึกการเล่น">
+						<longdesc>แฟล็กเปิดใช้แถบแสดงบันทึกการเล่น</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="แฟล็กเปิดใช้การแสดงความเห็นต่อตาเดิน">
+						<longdesc>แฟล็กเปิดใช้การแสดงความเห็นต่อตาเดิน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="แฟล็กเปิดใช้เลขกำกับกระดาน">
+						<longdesc>แฟล็กเปิดใช้เลขกำกับกระดาน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="แฟล็กเปิดใช้การบอกใบ้ตาเดิน">
+						<longdesc>แฟล็กเปิดใช้การบอกใบ้ตาเดิน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="แฟล็กเปิดใช้โหมด 3 มิติ">
+						<longdesc>แฟล็กเปิดใช้โหมด 3 มิติ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="จะเลื่อนชั้นพอว์นขึ้นเป็นหมากอะไร">
+						<longdesc>เมื่อผู้เล่นมนุษย์เดินพอว์นขึ้นไปถึงแถวบนสุด จะเลื่อนชั้นพอว์นเป็นอะไร ค่าที่เป็นไปได้คือ: &apos;queen&apos; (ควีน), &apos;knight&apos; (ม้า), &apos;rook&apos; (เรือ), &apos;bishop&apos; (บิชอป)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="แฟล็กเปิดใช้การเล่นเกมในเครือข่าย">
+						<longdesc>แฟล็กเปิดใช้การเล่นเกมในเครือข่าย</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="แฟล็กเปิดใช้โหมดแสดงเต็มจอ">
+						<longdesc>แฟล็กเปิดใช้โหมดแสดงเต็มจอ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="แฟล็กเปิดใช้โหมดขยายหน้าต่างเต็มจอ">
+						<longdesc>แฟล็กเปิดใช้โหมดขยายหน้าต่างเต็มจอ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="ความสูงของหน้าต่าง">
+						<longdesc>ความสูงหน้าต่างหลักเป็นพิกเซล</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="ความกว้างของหน้าต่าง">
+						<longdesc>ความกว้างของหน้าต่างหลักเป็นนพิกเซล</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="แฟล็กสำหรับอนุญาตให้ผู้ใช้อื่นดูเกมใหม่ที่จะเล่นได้">
+							<longdesc>แฟล็กสำหรับอนุญาตให้ผู้ใช้อื่นดูเกมใหม่ที่จะเล่นได้</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="กำหนดเวลาที่ผู้ใช้แต่ละคนต้องเดินในเกมใหม่">
+							<longdesc>กำหนดเวลาที่ผู้ใช้แต่ละคนต้องเดินในเกมใหม่</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="ระดับความยากของผู้เล่นฝ่ายดำโดยปริยายในเกมใหม่">
+								<longdesc>ระดับความยากของผู้เล่นฝ่ายดำโดยปริยายในเกมใหม่</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="ชนิดของผู้เล่นฝ่ายดำโดยปริยายในเกมใหม่">
+								<longdesc>ชนิดของผู้เล่นฝ่ายดำโดยปริยายในเกมใหม่</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="ระดับความยากของผู้เล่นฝ่ายขาวโดยปริยายในเกมใหม่">
+								<longdesc>ระดับความยากของผู้เล่นฝ่ายขาวโดยปริยายในเกมใหม่</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="ชนิดของผู้เล่นฝ่ายขาวโดยปริยายในเกมใหม่">
+								<longdesc>ชนิดของผู้เล่นฝ่ายขาวโดยปริยายในเกมใหม่</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="เกมที่เล่นก่อนหน้านี้">
+						<longdesc>รายการเกมที่เล่นก่อนหน้านี้</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="สถิติของการเล่นเกม">
+						<longdesc>รายการสตริงในรูปของระเบียน: ชื่อ, จำนวนเกมชนะ, จำนวนเกมที่เล่นทั้งหมด, เวลาที่ดีที่สุด (เป็นวินาที) และเวลาที่แย่ที่สุด (เป็นวินาทีเช่นกัน) เกมที่ไม่ได้เล่นไม่จำเป็นต้องเก็บ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="แฟ้มเกมที่จะใช้">
+						<longdesc>ชื่อของแฟ้ม scheme ที่เก็บเกมถอดไพ่ที่จะเล่น</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="เสียง">
+						<longdesc>กำหนดว่าจะเล่นเสียงของเหตุการณ์ต่างๆ หรือไม่</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="รูปแบบการควบคุม">
+						<longdesc>เลือกว่าจะใช้การลากไพ่ หรือจะคลิกต้นทางและปลายทาง</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_statusbar">
+					<local_schema short_desc="จะแสดงแถบสถานะหรือไม่">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="จะแสดงแถบเครื่องมือหรือไม่">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="ชื่อแฟ้มชุดตกแต่ง">
+						<longdesc>ชื่อของแฟ้มที่เก็บรูปภาพสำรับไพ่</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="ปุ่มหยุดรอ">
+							<longdesc>ชื่อของปุ่มที่จะใช้หยุดรอ ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="ปุ่มหายตัวแบบสุ่มเสี่ยง">
+							<longdesc>ชื่อของปุ่มที่จะใช้หายตัวแบบสุ่มเสี่ยง ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="ปุ่มหายตัว">
+							<longdesc>ชื่อของปุ่มที่จะใช้หายตัวแบบปลอดภัย (ถ้าทำได้) ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="ปุ่มเลื่อนตะวันออกเฉียงใต้">
+							<longdesc>ชื่อของปุ่มที่จะใช้เลื่อนไปทางตะวันออกเฉียงใต้ ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="ปุ่มเลื่อนใต้">
+							<longdesc>ชื่อของปุ่มที่จะใช้เลื่อนไปทางใต้ ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="ปุ่มเลื่อนตะวันตกเฉียงใต้">
+							<longdesc>ชื่อของปุ่มที่จะใช้เลื่อนไปทางตะวันตกเฉียงใต้ ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="ปุ่มเลื่อนตะวันออก">
+							<longdesc>ชื่อของปุ่มที่จะใช้เลื่อนไปทางตะวันออก ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="ปุ่มอยู่กับที่">
+							<longdesc>ชื่อของปุ่มที่จะใช้อยู่กับที่ ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="ปุ่มเลื่อนตะวันตก">
+							<longdesc>ชื่อของปุ่มที่จะใช้เลื่อนไปทางตะวันตก ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="ปุ่มเลื่อนตะวันออกเฉียงเหนือ">
+							<longdesc>ชื่อของปุ่มที่จะใช้เลื่อนไปทางตะวันออกเฉียงเหนือ ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="ปุ่มเลื่อนเหนือ">
+							<longdesc>ชื่อของปุ่มที่จะใช้เลื่อนไปทางเหนือ ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="ปุ่มเลื่อนตะวันตกเฉียงเหนือ">
+							<longdesc>ชื่อของปุ่มที่จะใช้เลื่อนไปทางตะวันตกเฉียงเหนือ ใช้รูปแบบชื่อปุ่มตามมาตรฐานของ X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="เปิดเสียงชน">
+							<longdesc>เปิดเสียงชน เล่นเสียงและแสดง &quot;Splat!&quot; บนจอ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="เปิดเสียงเกม">
+							<longdesc>เปิดเสียงเกม เล่นเสียงของเหตุการณ์ต่างๆ ในเกม</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="ใช้การเคลื่อนที่แบบปลอดภัยสุดยอด">
+							<longdesc>ใช้การเคลื่อนที่แบบปลอดภัยสุดยอด จะแจ้งผู้ใช้เมื่อไม่มีการเคลื่อนที่ที่ปลอดภัย โดยทางเลือกเดียวที่เหลืออยู่คือการหายตัวหนีไป</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="ใช้การเคลื่อนที่แบบปลอดภัย">
+							<longdesc>ใช้การเคลื่อนที่แบบปลอดภัย ตัวเลือกนี้จะช่วยคุณหลีกเลี่ยงการเดินพลาดไปถูกฆ่า ถ้าคุณพยายามเคลื่อนที่ไปในตำแหน่งที่จะทำให้คุณตายในขณะใช้การเคลื่อนที่แบบปลอดภัย คุณจะไม่สามารถเคลื่อนที่ไปได้</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="ชนิดของเกม">
+							<longdesc>ชนิดของเกม ชื่อของแบบของเกมที่จะใช้</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="สีพื้น">
+							<longdesc>สีพื้น กำหนดโดยเลขฐานสิบหก</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="ชุดตกแต่งรูปหุ่นยนต์">
+							<longdesc>ชุดตกแต่งรูปหุ่นยนต์ ชุดตกแต่งของรูปที่จะใช้แสดงหุ่นยนต์</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="แสดงแถบเครื่องมือ">
+							<longdesc>แสดงแถบเครื่องมือ ตัวเลือกมาตรฐานสำหรับแถบเครื่องมือ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="ขนาดของห้องเกม">
+							<longdesc>ขนาดของห้องเกม</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="เปิดเสียง">
+							<longdesc>เปิดเสียง</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="ระดับเริ่มต้นของเกม">
+							<longdesc>ระดับเริ่มต้นของเกม</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="เปลี่ยนระดับแบบสุ่ม">
+							<longdesc>เปลี่ยนระดับแบบสุ่ม</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="ใช้โบนัสปลอม">
+							<longdesc>ใช้โบนัสปลอม</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="ความเร็วของเกม">
+							<longdesc>ความเร็วของเกม (1=เร็ว, 4=ช้า)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="จำนวนผู้เล่น AI">
+							<longdesc>จำนวนผู้เล่น AI</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="จำนวนผู้เล่นที่เป็นมนุษย์">
+							<longdesc>จำนวนผู้เล่นที่เป็นมนุษย์</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="เลื่อนขวา">
+									<longdesc>ปุ่มสำหรับเลื่อนขวา</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="เลื่อนซ้าย">
+									<longdesc>ปุ่มสำหรับเลื่อนซ้าย</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="เลื่อนลง">
+									<longdesc>ปุ่มสำหรับเลื่อนลง</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="เลื่อนขึ้น">
+									<longdesc>ปุ่มสำหรับเลื่อนขึ้น</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ใช้คำสั่งเลี้ยวมองจากตัวหนอน">
+									<longdesc>ใช้คำสั่งเลี้ยวโดยมองจากตัวหนอน (กล่าวคือ ซ้ายหรือขวาเท่านั้น)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="สีของหนอน">
+									<longdesc>สีของหนอน</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="เลื่อนขวา">
+									<longdesc>ปุ่มสำหรับเลื่อนขวา</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="เลื่อนซ้าย">
+									<longdesc>ปุ่มสำหรับเลื่อนซ้าย</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="เลื่อนลง">
+									<longdesc>ปุ่มสำหรับเลื่อนลง</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="เลื่อนขึ้น">
+									<longdesc>ปุ่มสำหรับเลื่อนขึ้น</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ใช้คำสั่งเลี้ยวมองจากตัวหนอน">
+									<longdesc>ใช้คำสั่งเลี้ยวโดยมองจากตัวหนอน (กล่าวคือ ซ้ายหรือขวาเท่านั้น)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="สีของหนอน">
+									<longdesc>สีของหนอน</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="เลื่อนขวา">
+									<longdesc>ปุ่มสำหรับเลื่อนขวา</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="เลื่อนซ้าย">
+									<longdesc>ปุ่มสำหรับเลื่อนซ้าย</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="เลื่อนลง">
+									<longdesc>ปุ่มสำหรับเลื่อนลง</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="เลื่อนขึ้น">
+									<longdesc>ปุ่มสำหรับเลื่อนขึ้น</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ใช้คำสั่งเลี้ยวมองจากตัวหนอน">
+									<longdesc>ใช้คำสั่งเลี้ยวโดยมองจากตัวหนอน (กล่าวคือ ซ้ายหรือขวาเท่านั้น)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="สีของหนอน">
+									<longdesc>สีของหนอน</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="เลื่อนขวา">
+									<longdesc>ปุ่มสำหรับเลื่อนขวา</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="เลื่อนซ้าย">
+									<longdesc>ปุ่มสำหรับเลื่อนซ้าย</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="เลื่อนลง">
+									<longdesc>ปุ่มสำหรับเลื่อนลง</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="เลื่อนขึ้น">
+									<longdesc>ปุ่มสำหรับเลื่อนขึ้น</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ใช้คำสั่งเลี้ยวมองจากตัวหนอน">
+									<longdesc>ใช้คำสั่งเลี้ยวโดยมองจากตัวหนอน (กล่าวคือ ซ้ายหรือขวาเท่านั้น)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="สีของหนอน">
+									<longdesc>สีของหนอน</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="เลื่อนขวา">
+									<longdesc>ปุ่มสำหรับเลื่อนขวา</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="เลื่อนซ้าย">
+									<longdesc>ปุ่มสำหรับเลื่อนซ้าย</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="เลื่อนลง">
+									<longdesc>ปุ่มสำหรับเลื่อนลง</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="เลื่อนขึ้น">
+									<longdesc>ปุ่มสำหรับเลื่อนขึ้น</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ใช้คำสั่งเลี้ยวมองจากตัวหนอน">
+									<longdesc>ใช้คำสั่งเลี้ยวโดยมองจากตัวหนอน (กล่าวคือ ซ้ายหรือขวาเท่านั้น)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="สีของหนอน">
+									<longdesc>สีของหนอน</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="เลื่อนขวา">
+									<longdesc>ปุ่มสำหรับเลื่อนขวา</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="เลื่อนซ้าย">
+									<longdesc>ปุ่มสำหรับเลื่อนซ้าย</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="เลื่อนลง">
+									<longdesc>ปุ่มสำหรับเลื่อนลง</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="เลื่อนขึ้น">
+									<longdesc>ปุ่มสำหรับเลื่อนขึ้น</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ใช้คำสั่งเลี้ยวมองจากตัวหนอน">
+									<longdesc>ใช้คำสั่งเลี้ยวโดยมองจากตัวหนอน (กล่าวคือ ซ้ายหรือขวาเท่านั้น)</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="สีของหนอน">
+									<longdesc>สีของหนอน</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="รูปแบบการควบคุม">
+						<longdesc>เลือกว่าจะใช้การลากกระเบื้อง หรือจะคลิกต้นทางและปลายทาง</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="การใช้กระเบื้องสี">
+						<longdesc>แฟล็กเปิดใช้กระเบื้องสี</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="ขนาดของกระดานที่เล่น">
+						<longdesc>ค่าของคีย์นี้ใช้กำหนดขนาดของกระดานที่เล่น ค่าที่ใช้ได้คือจาก 2 ถึง 8 ค่าอื่นๆ จะถือว่าเป็น 3 หมด</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="พัก">
+							<longdesc>ปุ่มที่จะใช้พัก</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="หมุน">
+							<longdesc>ปุ่มที่จะใช้หมุน</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="ปล่อยลง">
+							<longdesc>ปุ่มที่จะใช้ปล่อยลง</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="เลื่อนลง">
+							<longdesc>ปุ่มที่จะใช้เลื่อนลง</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="เลื่อนขวา">
+							<longdesc>ปุ่มกดเพื่อเลื่อนขวา</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="เลื่อนซ้าย">
+							<longdesc>ปุ่มกดเพื่อเลื่อนซ้าย</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="ความหนาแน่นของแถวที่เติม">
+							<longdesc>ความหนาแน่นของกล่องในแถวที่เติมตอนเริ่มเกม ใช้ค่าระหว่าง 0 (สำหรับการไม่เติมกล่อง) ถึง 10 (สำหรับการเติมกล่องเต็มแถว)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="จำนวนแถวที่จะเติม">
+							<longdesc>จำนวนของแถวที่จะเติมกล่องแบบสุ่มเมื่อเริ่มเกม</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="หมุนทวนเข็มนาฬิกาหรือไม่">
+							<longdesc>หมุนทวนเข็มนาฬิกาหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="ใช้สีกล่องแบบสุ่มหรือไม่">
+							<longdesc>ใช้สีกล่องแบบสุ่มหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="แสดงเป้าหมายหรือไม่">
+							<longdesc>แสดงภาพบอกตำแหน่งที่กล่องจะตกหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="แสดงกล่องชิ้นถัดไปหรือไม่">
+							<longdesc>แสดงกล่องชิ้นถัดไปหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="สีพื้นหลัง">
+							<longdesc>สีพื้นหลัง ในรูปแบบที่ gdk_color_parse เข้าใจ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="ใช้ภาพพื้นหลังหรือไม่">
+							<longdesc>กำหนดว่าจะวาดภาพพื้นหลังบนสีพื้นหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="ระดับเริ่มต้น">
+							<longdesc>ระดับเริ่มต้น</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="ชุดตกแต่งสำหรับวาดกล่อง">
+							<longdesc>ชื่อของชุดตกแต่งที่ใช้วาดกล่องและพื้นหลัง</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="รูปภาพที่จะใช้วาดกล่อง">
+							<longdesc>รูปภาพที่จะใช้วาดกล่อง</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="แสดงสิ่งที่คอมพิวเตอร์คิด">
+						<longdesc>ถ้ากำหนดเป็นค่าจริง จะแสดงการทำงานของ AI ออกทางเอาต์พุตมาตรฐาน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="หน่วงเวลาระหว่างทอยลูกเต๋า">
+						<longdesc>กำหนดว่าจะหน่วงเวลาระหว่างการทอยลูกเต๋าของคอมพิวเตอร์ เพื่อให้ผู้เล่นติดตามสิ่งที่เกิดขึ้นได้หรือไม่</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="ปริศนาที่กำลังเล่น">
+						<longdesc>หมายเลขปริศนาที่กำลังเล่น</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="เสียง">
+						<longdesc>กำหนดว่าจะเล่นเสียงของเหตุการณ์ต่างๆ หรือไม่</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="จะแสดงไอคอนแจ้งเหตุหรือไม่">
+						<longdesc>จะแสดงไอคอนแจ้งเหตุหรือไม่</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="ละเลยข้อห้ามของเอกสาร">
+						<longdesc>ละเลยข้อห้ามของเอกสาร เช่น การห้ามทำสำเนาหรือห้ามจัดพิมพ์</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="เปิดใช้การปักธงอัตโนมัติ">
+						<longdesc>กำหนดเป็นค่าจริงเพื่อให้ gnomine ปักธงทำเครื่องหมายกับระเบิดในช่องที่ช่องรอบๆ ถูกเปิดเพียงพอโดยอัตโนมัติ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="เตือนเมื่อปักธงเกิน">
+						<longdesc>กำหนดเป็นค่าจริงเพื่อเปิดการเตือนด้วยไอคอนเมื่อมีการปักธงเกิน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="ใช้ธงไม่แน่ใจ">
+						<longdesc>กำหนดเป็นค่าจริงเพื่อสามารถทำเครื่องหมายช่องที่ไม่แน่ใจได้</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="ขนาดกระดาน">
+							<longdesc>ขนาดของสนาม (0-2 = เล็ก-ใหญ่, 3=กำหนดเอง)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="จำนวนกับระเบิดในเกมกำหนดเอง">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="จำนวนแถวของเกมกำหนดเอง">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="จำนวนคอลัมน์ของเกมกำหนดเอง">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="จะแสดงแถบเครื่องมือหรือไม่">
+						<longdesc>จะแสดงแถบเครื่องมือหรือไม่</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="จำนวนของเงินในคลังของคุณ">
+							<longdesc>จำนวนของเงินในคลังของคุณ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="ชื่อแฟ้มชุดตกแต่ง">
+							<longdesc>ชื่อของแฟ้มที่เก็บรูปภาพสำรับไพ่</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="ไม่ต้องประกัน">
+							<longdesc>ไม่ต้องประกันในกรณีที่เจ้ามือแสดงหน้าไพ่เอซในมือ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="ใช้การแจกไพ่แบบไว">
+							<longdesc>ใช้การแจกไพ่แบบไวโดยไม่ต้องหน่วงเวลาระหว่างไพ่แต่ละใบ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="แสดงความน่าจะเป็น">
+							<longdesc>แสดงความน่าจะเป็นของไพ่แต่ละใบในมือของเจ้ามือ และค่าคาดหมายของไพ่ในมือคุณ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="รูปแบบย่อยของแฟ้มกฎที่จะใช้">
+							<longdesc>ชื่อของแฟ้มกฎที่บรรจุกฎรูปแบบต่างๆ ที่จะใช้เล่น</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="เลือกใช้ Burnproof">
+						<longdesc>กำหนดว่าจะเลือกใช้ตัวเลือก Burnproof หรือไม่ (มีแค่ในเครื่องเขียนบางเครื่อง)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="เลือกใช้ overburn">
+						<longdesc>กำหนดว่าจะยอมเขียนข้อมูลเกินขนาดของแผ่นหรือไม่</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="เลือกใช้การดีบัก">
+						<longdesc>กำหนดว่าจะเลือกใช้การดีบักสำหรับการเขียนซีดี หรือไม่</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="ความเร็วปริยายในการเขียน">
+						<longdesc>ความเร็วปริยายสำหรับเขียนข้อมูลลงซีดี</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="โฟลเดอร์สำหรับแฟ้ม ISO image ชั่วคราว">
+						<longdesc>โฟลเดอร์สำหรับเขียนแฟ้ม ISO image ชั่วคราว เว้นว่างไว้ถ้าจะใช้ โฟลเดอร์ชั่วคราวปริยาย ของเครื่อง</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="จะเปิดใช้องค์ประกอบ PKCS#11 ของ gnome-keyring หรือไม่">
+							<longdesc>ตัวเลือกนี้จะเปิดใช้องค์ประกอบ PKCS#11 ในดีมอน gnome-keyring ซึ่งจะมีผลเมื่อดีมอน gnome-keyring ทำงานเท่านั้น (กล่าวคือ เมื่อผู้ใช้เข้าระบบ) ค่าตั้งนี้อาจถูกแทนที่โดยอาร์กิวเมนต์บางอย่างในบรรทัดคำสั่งที่ใช้เรียกดีมอน</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="จะเปิดใช้ SSH agent ของ gnome-keyring หรือไม่">
+							<longdesc>ตัวเลือกนี้จะเปิดใช้ SSH agent ในดีมอน gnome-keyring ซึ่งจะมีผลเมื่อดีมอน gnome-keyring ทำงานเท่านั้น (กล่าวคือ เมื่อผู้ใช้เข้าระบบ) ค่าตั้งนี้อาจถูกแทนที่โดยอาร์กิวเมนต์บางอย่างในบรรทัดคำสั่งที่ใช้เรียกดีมอน</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="ชุดไอคอนแฟ้ม">
+							<longdesc>ชุดไอคอนสำหรับใช้แสดงเป็นตัวแทนแฟ้ม</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="เล่นเสียงการป้อนข้อมูล">
+							<longdesc>จะเล่นเสียงหรือไม่เมื่อมีเหตุการณ์การป้อนข้อมูล</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="ชื่อชุดเสียง">
+							<longdesc>ชุดเสียงของ XDG ที่จะใช้เล่นประกอบการป้อนข้อมูล</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="เล่นเสียงเมื่อมีเหตุการณ์">
+							<longdesc>จะเล่นเสียงหรือไม่เมื่อมีเหตุการณ์การใช้งาน</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="เปิดใช้ ESD">
+							<longdesc>เปิดใช้ระบบเสียง</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="แทร็กปรับระดับเสียงปริยาย">
+							<longdesc>แทร็กปรับระดับเสียงปริยายที่จะใช้โดยปุ่มลัดสื่อผสม</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="อุปกรณ์ปรับระดับเสียงปริยาย">
+							<longdesc>อุปกรณ์ปรับระดับเสียงปริยายที่จะใช้โดยปุ่มลัดสื่อผสม</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="แสดงเมนู &apos;อักขระควบคุมของยูนิโค้ด&apos;">
+							<longdesc>กำหนดว่าจะให้เมนูบริบทของช่องป้อนข้อความแสดงเมนูสำหรับแทรกอักขระควบคุมหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="แสดงเมนู &apos;วิธีป้อนข้อความ&apos;">
+							<longdesc>กำหนดว่าจะให้เมนูบริบทของช่องป้อนข้อความแสดงเมนูสำหรับเปลี่ยนวิธีป้อนข้อความหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="คีย์ด่วนเรียกเมนู">
+							<longdesc>ปุ่มลัดที่จะใช้เปิดแถบเมนู</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="มอดูลสำหรับ GtkFileChooser">
+							<longdesc>มอดูลที่จะใช้จัดการระบบแฟ้มสำหรับวิดเจ็ต GtkFileChooser ค่าที่เป็นไปได้คือ &quot;gio&quot;, &quot;gnome-vfs&quot; และ &quot;gtk+&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="แถบสถานะอยู่ด้านขวา">
+							<longdesc>กำหนดว่าจะแสดงแถบสถานะไว้ด้านขวาหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="ใช้แบบอักษรตั้งเอง">
+							<longdesc>กำหนดว่าจะใช้แบบอักษรตั้งเองในโปรแกรม gtk+ หรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="แบบอักษรพิมพ์ดีด">
+							<longdesc>ชื่อแบบอักษรพิมพ์ดีด (ความกว้างคงที่) สำหรับใช้โปรแกรมที่ต้องใช้ (เช่น เทอร์มินัล)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="แบบอักษรสำหรับเอกสาร">
+							<longdesc>ชื่อแบบอักษรปริยายสำหรับอ่านเอกสารต่างๆ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="มอดูล GTK IM">
+							<longdesc>ชื่อของมอดูลกรรมวิธีป้อนข้อความที่จะใช้ใน GTK+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="รูปแบบของสถานะของ GTK IM">
+							<longdesc>ชื่อของรูปแบบสถานะของกรรมวิธีป้อนข้อความที่จะใช้ใน GTK+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="รูปแบบ Preedit ของ GTK IM">
+							<longdesc>ชื่อของรูปแบบ Preedit ของกรรมวิธีป้อนข้อความที่จะใช้ใน GTK+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="แบบอักษรปริยาย">
+							<longdesc>ชื่อแบบอักษรปริยายสำหรับ gtk+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="ชุดตกแต่ง Gtk+">
+							<longdesc>ชื่อของชุดตกแต่งปริยายที่ใช้โดย GTK+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="ชุดตกแต่ง Gtk+">
+							<longdesc>ชื่อของชุดตกแต่งปริยายที่ใช้โดย GTK+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="ชุดตกแต่งไอคอน">
+							<longdesc>ชุดไอคอนสำหรับใช้ในพาเนล nautilus ฯลฯ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="ช่วงการกะพริบของเคอร์เซอร์">
+							<longdesc>จังหวะการกะพริบของเคอร์เซอร์ เป็นมิลลิวินาที</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="กะพริบเคอร์เซอร์">
+							<longdesc>กำหนดว่าเคอร์เซอร์จะกะพริบหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="ขนาดไอคอนในแถบเครื่องมือ">
+							<longdesc>ขนาดของไอคอนในแถบเครื่องมือ เป็นค่า &quot;small-toolbar&quot; หรือ &quot;large-toolbar&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="ดึงแถบเครื่องมือออกมาได้">
+							<longdesc>กำหนดว่าผู้ใช้สามารถดึงแถบเครื่องมือออกมาใช้นอกหน้าต่างได้หรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="ดึงแถบเมนูออกมาได้">
+							<longdesc>กำหนดว่าผู้ใช้สามารถดึงแถบเมนูออกมาใช้นอกหน้าต่างได้หรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="ปุ่มมีไอคอน">
+							<longdesc>กำหนดว่าปุ่มจะแสดงไอคอนเพิ่มเติมจากข้อความบนปุ่มหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="เมนูมีไอคอน">
+							<longdesc>กำหนดว่าเมนูจะแสดงไอคอนข้างๆ รายการในเมนูหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="รูปแบบแถบเครื่องมือ">
+							<longdesc>รูปแบบแถบเครื่องมือ สามารถตั้งเป็น &quot;both&quot;, &quot;both-horiz&quot; &quot;icons&quot; หรือ &quot;text&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="สามารถเปลี่ยนคีย์ด่วนได้">
+							<longdesc>กำหนดว่าผู้ใช้สามารถตั้งคีย์ด่วนเมื่อเมาส์ชี้ที่รายการเมนูที่เปิดใช้งานอยู่ได้หรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="เมนูมีแถบดึงออก">
+							<longdesc>กำหนดว่าเมนูสามารถดึงออกมาได้หรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="ใช้ภาพเคลื่อนไหว">
+							<longdesc>กำหนดว่าควรจะแสดงภาพเคลื่อนไหวหรือไม่  หมายเหตุ: นี่เป็นคีย์ส่วนกลางที่ใช้ร่วมสำหรับ พาเนล โปรแกรมจัดการหน้าต่าง ฯลฯ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="ใช้สิ่งอำนวยความสะดวก">
+							<longdesc>กำหนดว่าโปรแกรมควรจะใช้สิ่งอำนวยความสะดวกหรือไม่</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="โปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกเมื่อเข้าสู่ระบบ">
+								<longdesc>รายการของโปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกที่จะเริ่มใช้เมื่อเข้าสู่ระบบ GNOME</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>บี๊บถ้าปุ่มประกอบถูกกด</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>เลิกใช้ถ้าสองปุ่มถูกกดพร้อมกัน</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="ช่วงเวลาสั้นสุด เป็นมิลลิวินาที">
+								<longdesc>รับสัญญาณการกดปุ่มต่อเมื่อปุ่มถูกกดค้างไว้ @delay มิลลิวินาที</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="จำนวนมิลลิวินาทีที่คอย">
+								<longdesc>คอยกี่มิลลิวินาทีก่อนที่ปุ่มบังคับเมาส์จะเริ่มทำงาน</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="ใช้เวลากี่มิลลิวินาที่ในการเร่งความเร็ว">
+								<longdesc>ใช้เวลากี่มิลลิวินาทีในการเร่งจาก 0 ไปความเร็วสูงสุด</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="พิกเซลต่อวินาที">
+								<longdesc>ความเร็วสูงสุดกี่พิกเซลต่อวินาที</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="ช่วงเวลาสั้นสุด เป็นมิลลิวินาที">
+								<longdesc>ไม่สนใจปุ่มเดียวกันที่ถูกกดซ้ำภายใน @delay มิลลิวินาที</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="จะล็อคแป้นพิมพ์หรือไม่">
+							<longdesc>จะล็อคแป้นพิมพ์หรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="ยอมให้เลื่อนการพักออกไป">
+							<longdesc>จะให้เลื่อนการพักพิมพ์ออกไปได้หรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="เวลาพัก">
+							<longdesc>จำนวนนาทีของระยะเวลาพักพิมพ์</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="ระยะเวลาพิมพ์">
+							<longdesc>จำนวนนาทีที่พิมพ์ก่อนที่จะบังคับให้พัก</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="ปิดใช้การดำเนินการ URL และชนิด MIME">
+							<longdesc>ไม่ต้องเรียกโปรแกรมจัดการ URL หรือชนิด MIME ใดๆ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="ปิดการล็อคหน้าจอ">
+							<longdesc>ป้องกันไม่ให้ผู้ใช้ล็อคจอภาพ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="ปิดการสลับผู้ใช้">
+							<longdesc>ป้องกันไม่ให้ผู้ใช้สลับไปใช้บัญชีผู้ใช้อื่นขณะที่วาระยังดำเนินอยู่</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="ปิดใช้การปรับแต่งการพิมพ์">
+							<longdesc>ป้องกันไม่ให้ผู้ใช้ปรับแต่งการพิมพ์ ผลคือ เมนู &quot;ปรับแต่งการพิมพ์&quot; ในโปรแกรมต่างๆ จะใช้ไม่ได้ เป็นต้น</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="ปิดใช้การพิมพ์">
+							<longdesc>ป้องกันไม่ให้ผู้ใช้พิมพ์ออกเครื่องพิมพ์ ผลคือ เมนู &quot;พิมพ์&quot; ในโปรแกรมต่างๆ จะใช้ไม่ได้ เป็นต้น</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="ปิดใช้การบันทึกแฟ้ม">
+							<longdesc>ป้องกันไม่ให้ผู้ใช้บันทึกแฟ้มลงดิสก์ ผลคือ เมนู &quot;บันทึกเป็น&quot; ในโปรแกรมต่างๆ จะใช้ไม่ได้ เป็นต้น</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="ปิดใช้บรรทัดคำสั่ง">
+							<longdesc>ป้องกันไม่ให้ผู้ใช้เรียกใช้เทอร์มินัล หรือเรียกใช้คำสั่งจากบรรทัดคำสั่ง ผลคือ หน้าต่าง &quot;เรียกโปรแกรม&quot; ในพาเนลจะหายไป เป็นต้น</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="ชนิดการแรเงาสี">
+							<longdesc>จะไล่สีพื้นหลังอย่างไร  สามารถตั้งเป็น &quot;horizontal-gradient&quot; &quot;vertical-gradient&quot; หรือ &quot;solid&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="สีรอง">
+							<longdesc>สีขวาหรือสีล่างถ้าไล่แถบสี ค่านี้ไม่ถูกใช้ถ้าใช้สีเดียว</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="สีหลัก">
+							<longdesc>สีเดียวที่ใช้ หรือสีซ้ายหรือสีบนถ้าไล่แถบสี </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="ความโปร่งแสงของรูป">
+							<longdesc>ความโปร่งแสงสำหรับรูปพื้นหลัง</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="ชื่อแฟ้มรูป">
+							<longdesc>แฟ้มที่จะใช้เป็นรูปพื้นหลัง</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="ตัวเลือกของรูป">
+							<longdesc>ตั้งว่ารูปที่เลือกใน wallpaper_filename จะถูกแสดงอย่างไร  สามารถตั้งเป็น &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="วาดพื้นหลังของพื้นโต๊ะ">
+							<longdesc>ให้ GNOME เป็นผู้วาดพื้นหลังของพื้นโต๊ะ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>ขนาดสูงสุดของแคชภาพย่อ ในหน่วยเมกะไบต์ กำหนดเป็น -1 ถ้าจะไม่ล้างแคชเลย</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>ระยะเวลาที่นานที่สุดที่จะเก็บภาพย่อไว้ในแคช เป็นจำนวนวัน กำหนดเป็น -1 ถ้าจะไม่ล้างแคชเลย</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="จำสถานะ NumLock">
+								<longdesc>ถ้าเป็นจริง GNOME จะจำสถานะของไฟ NumLock ขณะจบวาระเพื่อใช้ในวาระถัดไป</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="ชื่อแฟ้มเสียงระฆังแป้มพิมพ์ที่กำหนด">
+								<longdesc>ชื่อแฟ้มเสียงระฆังที่จะเล่น</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>สามารถตั้งเป็น &quot;on&quot;, &quot;off&quot; หรือ &quot;custom&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="ขนาดตัวชี้">
+								<longdesc>ขนาดของตัวชี้ที่อ้างโดย cursor_theme</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="ชุดตกแต่งตัวชี้">
+								<longdesc>ชื่อชุดตกแต่งตัวชี้ ใช้กับ X server ที่รองรับ Xcursor เช่น XFree86 4.3 ขึ้นไปเท่านั้น</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="แบบอักษรตัวชี้">
+								<longdesc>ชื่อแบบอักษรสำหรับตัวชี้ ถ้าไม่ตั้งจะใช้แบบอักษรปริยาย ค่านี้จะถูกส่งไป X เซิร์ฟเวอร์เมื่อเริ่มวาระเท่านั้น ค่าที่เปลี่ยนจะมีผลบังคับใช้ เมื่อเข้าระบบครั้งต่อไป</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="หาตัวชี้">
+								<longdesc>เน้นตำแหน่งของตัวชี้เมื่อปุ่ม Control ถูกกดแล้วปล่อย</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="ความเร็วดับเบิลคลิก">
+								<longdesc>ความเร็วดับเบิลคลิก</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="ระยะเริ่มลาก">
+								<longdesc>ระยะก่อนที่จะเริ่มลาก</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="ระยะเร่ง">
+								<longdesc>ระยะทางเป็นพิกเซล ที่ตัวชี้ต้องขยับ ก่อนที่จะเมาส์จะวิ่งอย่างเร็ว ถ้าตั้งเป็น -1 จะใช้ค่าปริยายของระบบ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="คลิกเดียว">
+								<longdesc>ตัวคูณความเร่งของเมาส์  ถ้าตั้งเป็น -1 จะใช้ค่าปริยายของระบบ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="คลิกเดียว">
+								<longdesc>เปิดไอคอนด้วยคลิกเดียว</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="ตำแหน่งปุ่มบนเมาส์">
+								<longdesc>สลับปุ่มซ้ายและขวาของเมาส์ สำหรับผู้ถนัดซ้าย</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="ปิดการใช้งานโปรแกรมแสดงรูปภาพย่อภายนอกทั้งหมด">
+							<longdesc>ตั้งเป็นค่าจริงเพื่อปิดการเรียกใช้โปรแกรมแสดงรูปภาพย่อภายนอกทั้งหมด โดยไม่สนใจว่าโปรแกรมแต่ละตัวเหล่านั้นจะมีการสั่งเปิดใช้หรือปิดการใช้งานต่างหากไว้หรือไม่</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="คำสั่งย่อภาพสำหรับเอกสาร PDF">
+								<longdesc>คำสั่งพร้อมอาร์กิวเมนต์สำหรับการแสดงภาพย่อของเอกสาร PDF อ่านข้อมูลเพิ่มเติมได้จากเอกสารตัวแสดงภาพย่อของ Nautilus</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="เปิดใช้การแสดงภาพย่อของเอกสาร PDF">
+								<longdesc>ค่าบูลีน ค่าจริงหมายถึงเปิดใช้การแสดงภาพย่อ และค่าเท็จหมายถึงปิดการแสดงภาพย่อภาพใหม่</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="คำสั่งย่อภาพสำหรับเอกสาร PDF">
+								<longdesc>คำสั่งพร้อมอาร์กิวเมนต์สำหรับการแสดงภาพย่อของเอกสาร PDF อ่านข้อมูลเพิ่มเติมได้จากเอกสารตัวแสดงภาพย่อของ Nautilus</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="เปิดใช้การแสดงภาพย่อของเอกสาร PDF">
+								<longdesc>ค่าบูลีน ค่าจริงหมายถึงเปิดใช้การแสดงภาพย่อ และค่าเท็จหมายถึงปิดการแสดงภาพย่อภาพใหม่</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="คำสั่งย่อภาพสำหรับเอกสาร PDF">
+								<longdesc>คำสั่งพร้อมอาร์กิวเมนต์สำหรับการแสดงภาพย่อของเอกสาร PDF อ่านข้อมูลเพิ่มเติมได้จากเอกสารตัวแสดงภาพย่อของ Nautilus</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="เปิดใช้การแสดงภาพย่อของเอกสาร PDF">
+								<longdesc>ค่าบูลีน ค่าจริงหมายถึงเปิดใช้การแสดงภาพย่อ และค่าเท็จหมายถึงปิดการแสดงภาพย่อภาพใหม่</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="โปรแกรมงานต้องใช้เทอร์มินัล">
+								<longdesc>โปรแกรมรายการงานปริยายต้องใช้เทอร์มินัลหรือไม่</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="โปรแกรมงานปริยาย">
+								<longdesc>โปรแกรมรายการงานปริยาย</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="ปฏิทินต้องใช้เทอร์มินัล">
+								<longdesc>ปฏิทินปริยายต้องใช้เทอร์มินัลหรือไม่</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="ปฏิทินปริยาย">
+								<longdesc>โปรแกรมปฏิทินปริยาย</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="เบราว์เซอร์เข้าใจรีโมต">
+								<longdesc>กำหนดว่าเบราว์เซอร์ปริยายเข้าใจ netscape remote หรือไม่</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="เบราว์เซอร์ต้องใช้เทอร์มินัล">
+								<longdesc>เบราว์เซอร์ปริยายต้องใช้เทอร์มินัลหรือไม่</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="เบราว์เซอร์ปริยาย">
+								<longdesc>เบราว์เซอร์ที่ใช้สำหรับเปิด URL ถ้าไม่ได้เจาะจงใช้เบราว์เซอร์อื่น</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="รายชื่อพื้นที่ทำงาน (เลิกใช้แล้ว)">
+								<longdesc>รายชื่อพื้นที่ทำงานของโปรแกรมจัดการหน้าต่างแรก  คีย์นี้เลิกใช้แล้วตั้งแต่ GNOME 2.12 เป็นต้นไป</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="จำนวนพื้นที่ทำงาน (เลิกใช้แล้ว)">
+								<longdesc>จำนวนพื้นที่ทำงานที่โปรแกรมจัดการหน้าต่างควรจะใช้  คียนี้เลิกใช้แล้วตั้งแต่ GNOME 2.12 เป็นต้นไป</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="โปรแกรมจัดการหน้าต่างของผู้ใช้ (เลิกใช้แล้ว)">
+								<longdesc>โปรแกรมจัดการหน้าต่างที่จะลองใช้ก่อน  คีย์นี้เลิกใช้แล้วตั้งแต่ GNOME 2.12 เป็นต้นไป</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="โปรแกรมจัดการหน้าต่างสำรอง (เลิกใช้แล้ว)">
+								<longdesc>โปรแกรมจัดการหน้าต่างที่ใช้เมื่อหาโปรแกรมจัดการหน้าต่างที่ผู้ใช้เลือกไม่พบ  คีย์นี้เลิกใช้แล้วตั้งแต่ GNOME 2.12 เป็นต้นไป</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="เรียกโปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกสำหรับอุปกรณ์ติดตามตัวที่เลือกไว้">
+									<longdesc>ให้ GNOME เรียกโปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกสำหรับอุปกรณ์ติดตามตัวที่เลือกไว้ เมื่อเข้าระบบ</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="โปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกสำหรับอุปกรณ์ติดตามตัวที่เลือกใช้">
+									<longdesc>โปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกสำหรับอุปกรณ์ติดตามตัวที่เลือกใช้ สำหรับการเข้าระบบ เมนู หรือบรรทัดคำสั่ง</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="เรียกโปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกสำหรับสายตาที่เลือกไว้">
+									<longdesc>ให้ GNOME เรียกโปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกสำหรับสายตาที่เลือกไว้ เมื่อเข้าระบบ</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="โปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกสำหรับสายตาที่เลือกใช้">
+									<longdesc>โปรแกรมเทคโนโลยีสิ่งอำนวยความสะดวกสำหรับสายตาที่เลือกใช้ สำหรับการเข้าระบบ เมนู หรือบรรทัดคำสั่ง</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="โปรแกรมแสดงปริยาย">
+								<longdesc>โปรแกรมแสดง แฟ้มที่ต้องใช้คอมโพเนนต์แสดง %s จะถูกแทนที่ด้วย URI ของแฟ้ม และ %c จะถูกแทนที่ด้วย IID ของคอมโพเนนต์</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="อาร์กิวเมนต์คำสั่ง">
+								<longdesc>อากิวเมนต์สำหรับเรียกใช้โปรแกรมในเทอร์มินัลตามคีย์ &apos;exec&apos;</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="โปรแกรมเทอร์มินัล">
+								<longdesc>โปรแกรมเทอร์มินัลที่จะใช้สำหรับโปรแกรมที่ต้องใช้เทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด h323">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด h323 (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด h323">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด h323</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด callto">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด callto (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด callto">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด callto</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด aim">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด aim (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด aim">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด aim</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด mailto">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด mailto (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด mailto">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด mailto</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด https">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด https (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด https">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด https</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด http">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด http (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด http">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด http</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด man">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด man (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด man">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด man</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด info">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด info (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด info">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมใน &quot;command&quot; จัดการ URL ชนิด info</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด ghelp">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด ghelp (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด ghelp">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด ghelp</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="เรียกใช้โปรแกรมในเทอร์มินัล">
+								<longdesc>ตั้งเป็นค่าจริงถ้าโปรแกรมที่จัดการ URL นี้ควรถูกเรียกใช้ในเทอร์มินัล</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="คำสั่งจัดการ URL ชนิด trash">
+								<longdesc>คำสั่งสำหรับจัดการ URL ชนิด trash (ถ้าเปิดใช้)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="กำหนดให้คำสั่งนี้จัดการ URL ชนิด trash">
+								<longdesc>ตั้งเป็นค่าจริงถ้าต้องการให้โปรแกรมในคีย์ &quot;command&quot; จัดการ URL ชนิด trash</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="เปิดใช้โพรไฟล์">
+									<longdesc>กำหนดว่าจะเปิดใช้และแสดงโพรไฟล์นี้หรือไม่</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="นามสกุลแฟ้มปริยายสำหรับโพรไฟล์นี้">
+									<longdesc>นามสกุลแฟ้มที่จะใช้เมื่อจะบันทึกแฟ้มที่ลงรหัสด้วยโพรไฟล์นี้</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="ส่วนของไปป์ไลน์ GStreamer ที่จะใช้">
+									<longdesc>ส่วนของไปป์ไลน์ GStreamer ที่จะใช้สำหรับโพรไฟล์นี้</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="คำอธิบายสำหรับโพรไฟล์เสียง">
+									<longdesc>คำอธิบายของโพรไฟล์ประกอบด้วยข้อมูลจำนวนมาก และคำอธิบายนี้จะมีเมื่อใช้โพรไฟล์นี้</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="ชื่อสั้นๆ ของโพรไฟล์เสียง">
+									<longdesc>ชื่อสั้นๆ สำหรับโพรไฟล์เสียง เพื่อใช้ในการเลือกและระบุโพรไฟล์</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="เปิดใช้โพรไฟล์">
+										<longdesc>กำหนดว่าจะเปิดใช้และแสดงโพรไฟล์นี้หรือไม่</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="นามสกุลแฟ้มปริยายสำหรับโพรไฟล์นี้">
+										<longdesc>นามสกุลแฟ้มที่จะใช้เมื่อจะบันทึกแฟ้มที่ลงรหัสด้วยโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ส่วนของไปป์ไลน์ GStreamer ที่จะใช้">
+										<longdesc>ส่วนของไปป์ไลน์ GStreamer ที่จะใช้สำหรับโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="คำอธิบายสำหรับโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ชื่อสั้นๆ ของโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="นามสกุลแฟ้มปริยายสำหรับโพรไฟล์นี้">
+										<longdesc>นามสกุลแฟ้มที่จะใช้เมื่อจะบันทึกแฟ้มที่ลงรหัสด้วยโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ส่วนของไปป์ไลน์ GStreamer ที่จะใช้">
+										<longdesc>ส่วนของไปป์ไลน์ GStreamer ที่จะใช้สำหรับโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="คำอธิบายสำหรับโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ชื่อสั้นๆ ของโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="นามสกุลแฟ้มปริยายสำหรับโพรไฟล์นี้">
+										<longdesc>นามสกุลแฟ้มที่จะใช้เมื่อจะบันทึกแฟ้มที่ลงรหัสด้วยโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ส่วนของไปป์ไลน์ GStreamer ที่จะใช้">
+										<longdesc>ส่วนของไปป์ไลน์ GStreamer ที่จะใช้สำหรับโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="คำอธิบายสำหรับโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ชื่อสั้นๆ ของโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="นามสกุลแฟ้มปริยายสำหรับโพรไฟล์นี้">
+										<longdesc>นามสกุลแฟ้มที่จะใช้เมื่อจะบันทึกแฟ้มที่ลงรหัสด้วยโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ส่วนของไปป์ไลน์ GStreamer ที่จะใช้">
+										<longdesc>ส่วนของไปป์ไลน์ GStreamer ที่จะใช้สำหรับโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="คำอธิบายสำหรับโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ชื่อสั้นๆ ของโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="นามสกุลแฟ้มปริยายสำหรับโพรไฟล์นี้">
+										<longdesc>นามสกุลแฟ้มที่จะใช้เมื่อจะบันทึกแฟ้มที่ลงรหัสด้วยโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ส่วนของไปป์ไลน์ GStreamer ที่จะใช้">
+										<longdesc>ส่วนของไปป์ไลน์ GStreamer ที่จะใช้สำหรับโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="คำอธิบายสำหรับโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ชื่อสั้นๆ ของโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="นามสกุลแฟ้มปริยายสำหรับโพรไฟล์นี้">
+										<longdesc>นามสกุลแฟ้มที่จะใช้เมื่อจะบันทึกแฟ้มที่ลงรหัสด้วยโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ส่วนของไปป์ไลน์ GStreamer ที่จะใช้">
+										<longdesc>ส่วนของไปป์ไลน์ GStreamer ที่จะใช้สำหรับโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="คำอธิบายสำหรับโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ชื่อสั้นๆ ของโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="นามสกุลแฟ้มปริยายสำหรับโพรไฟล์นี้">
+										<longdesc>นามสกุลแฟ้มที่จะใช้เมื่อจะบันทึกแฟ้มที่ลงรหัสด้วยโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ส่วนของไปป์ไลน์ GStreamer ที่จะใช้">
+										<longdesc>ส่วนของไปป์ไลน์ GStreamer ที่จะใช้สำหรับโพรไฟล์นี้</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="คำอธิบายสำหรับโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ชื่อสั้นๆ ของโพรไฟล์เสียง">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="รายการของโพรไฟล์">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="เวิร์กกรุป SMB">
+						<longdesc>เวิร์กกรุปหรือโดเมนของเครือข่ายวินโดวส์ที่ผู้ใช้อาศัยอยู่ ผู้ใช้อาจต้องออกจากระบบแล้วเข้าใหม่เพื่อจะเริ่มใช้เวิร์กกรุปใหม่ได้</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="โดเมนเพิ่มเติมที่จะมองหาบริการ DNS-SD">
+						<longdesc>รายการโดเมน DNS-SD (คั่นด้วยจุลภาค) ที่น่าจะมองเห็นได้ในตำแหน่ง &quot;network:///&quot;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="วิธีแสดงผลบริการ DNS-SD ในเครือข่ายท้องถิ่น">
+						<longdesc>ค่าที่เป็นไปได้คือ &quot;merged&quot;, &quot;separate&quot; และ &quot;disabled&quot;</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="URL สำหรับตั้งค่าพร็อกซีโดยอัตโนมัติ">
+						<longdesc>URL ที่จัดส่งค่าตั้งพร็อกซี</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="พอร์ตพร็อกซี SOCKS">
+						<longdesc>พอร์ตบนเครื่องที่ตั้งไว้ใน &quot;/system/proxy/socks_host&quot; ที่จะใช้ติดต่อผ่าน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="ชื่อโฮสต์พร็อกซี SOCKS">
+						<longdesc>ชื่อเครื่องที่จะติดต่อ socks ผ่าน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="พอร์ตพร็อกซี FTP">
+						<longdesc>พอร์ตบนเครื่องที่ตั้งไว้ใน &quot;/system/proxy/ftp_host&quot; ที่จะใช้ติดต่อผ่าน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="ชื่อโฮสต์พร็อกซี FTP">
+						<longdesc>ชื่อเครื่องที่จะติดต่อ FTP ผ่าน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="พอร์ตพร็อกซี Secure HTTP">
+						<longdesc>พอร์ตบนเครื่องที่ตั้งไว้ใน &quot;/system/proxy/secure_host&quot; ที่จะใช้ติดต่อผ่าน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="ชื่อโฮสต์พร็อกซี Secure HTTP">
+						<longdesc>ชื่อเครื่องที่จะติดต่อ Secure HTTP ผ่าน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="โหมดการตั้งค่าพร็อกซี">
+						<longdesc>เลือกโหมดการตั้งค่าพร็อกซี สามารถตั้งเป็น &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="โอสต์ที่ไม่ติดต่อผ่านพร็อกซี">
+						<longdesc>คีย์นี้เก็บรายชื่อโฮสต์ที่ให้ติดต่อโดยตรง แทนที่จะผ่านพร็อกซี (ถ้าเปิดทำงานอยู่)  สามารถตั้งเป็น ชื่อโฮสต์ โดเมน (ใช้ wildcard ข้างหน้าเช่น *.foo.com), ที่อยู่ IP (ทั้ง IPv4 และ IPv6) หรือที่อยู่บนเครือข่ายพร้อมกับ netmask (เช่น 192.168.0.0/24)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="รหัสผ่านพร็อกซี HTTP">
+						<longdesc>รหัสผ่านสำหรับการตรวจสอบสิทธิ์ใช้พร็อกซี HTTP</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="ชื่อบัญชีผู้ใช้พร็อกซี HTTP">
+						<longdesc>ชื่อบัญชีผู้ใช้สำหรับตรวจสอบสิทธิ์กับพร็อกซี HTTP</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="ตรวจสอบสิทธิ์ก่อนใช้พร็อกซี">
+						<longdesc>ถ้าตั้งเป็นค่าจริง การเชื่อมต่อผ่านพร็อกซีจะต้องผ่านการตรวจสอบสิทธิ์ก่อน ชื่อผู้ใช้และรหัสผ่านเอามาจาก &quot;/system/http_proxy/authentication_user&quot; และ &quot;/system/http_proxy/authentication_password&quot;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="พอร์ตพร็อกซี HTTP">
+						<longdesc>พอร์ตบนเครื่องที่ตั้งไว้ใน &quot;/system/http_proxy/host&quot; ที่จะใช้ติดต่อผ่าน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="ชื่อโฮสต์พร็อกซี HTTP">
+						<longdesc>ชื่อเครื่องที่จะติดต่อ HTTP ผ่าน</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="ใช้พร็อกซี HTTP">
+						<longdesc>ใช้ค่าพร็อกซีที่ตั้งไว้เวลาใช้ HTTP บนอินเทอร์เน็ต</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs &quot;ymsgr&quot;">
+								<longdesc>ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង &quot;ymsgr&quot; URLs ប្រសិន​បើ​បានបើក ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ថាតើ ពាក្យ​បញ្ជាក់​ដែលបានបញ្ជាក់​គួរ​គ្រប់គ្រង URLs &quot;ymsgr&quot; ។">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​គ្រប់គ្រង URLs &quot;ymsgr&quot; ។</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs &quot;xmpp&quot;">
+								<longdesc>ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង &quot;xmpp&quot; URLs ប្រសិន​បើ​បានបើក ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ថាតើ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs &quot;xmpp&quot; ។">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​គ្រប់គ្រង URLs &quot;xmpp&quot; ។</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="កម្ម​វិធី​គ្រប់គ្រង​សម្រាប់ URLs &quot;sip&quot;">
+								<longdesc>ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង &quot;sip&quot; URLs ប្រសិនបើ​បានបើក ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ថាតើ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs &quot;sip&quot;">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​គ្រប់គ្រង URLs &quot;sip&quot; ។</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs &quot;msnim&quot;">
+								<longdesc>ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង &quot;msnim&quot; URLs ប្រសិន​បើ​បានបើក ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ថាតើ ពាក្យ​បញ្ជា​ដែលបានបញ្ជាក់គួរ​គ្រប់គ្រង URLs &quot;msnim&quot; ។">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​គ្រប់គ្រង URLs &quot;msnim&quot; ។</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs &quot;irc&quot;">
+								<longdesc>ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង &quot;irc&quot; URLs ប្រសិន​បើ​បានបើក ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ថាតើ​ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់គួរ​គ្រប់គ្រង URLs &quot;irc&quot; ។">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​គ្រប់គ្រង URLs &quot;irc&quot; ។</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs &quot;icq&quot;">
+								<longdesc>ពាក្យ​បញ្ជា​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង &quot;icq&quot; URLs ប្រសិន​បើ​បាន​បើក ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ថាតើ ពាក្យ​បញ្ជា​ដែល​បានប​ញ្ជាក់​គួរ​គ្រប់គ្រង URLs &quot;icq&quot; ។">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​គ្រប់គ្រង URLs &quot;icq&quot; ។</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="កម្មវិធី​គ្រប់គ្រ​ងសម្រាប់ URLs &quot;gg&quot;">
+								<longdesc>ពាក្យ​បញ្ជា​បាន​ប្រើ​​ដើម្បី​គ្រប់គ្រង &quot;gg&quot; URLs ប្រសិនបើ​បាន​បើក ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ថាតើ​ពាក្យ​បញ្ជា​ដែលបាន​បញ្ជាក់​គួរ​គ្រប់គ្រង URLs &quot;gg&quot; ។">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​គ្រប់គ្រង URLs &quot;gg&quot; ។</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="រត់​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បាន​បញ្ជាក់​នៅ​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​​រត់​នៅ​ក្នុង​ស្ថានីយ ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="កម្មវិធី​គ្រប់គ្រង​សម្រាប់ URLs &quot;aim&quot;">
+								<longdesc>ពាក្យ​បញ្ជា​បានប្រើ​ដើម្បី​គ្រប់គ្រង &quot;aim&quot; URLs ប្រសិន​បើ​បាន​បើក ។</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ថាតើ​ ពាក្យ​បញ្ជា​ដែល​បាន​បញ្ជាក់​គួរគ្រប់គ្រង URLs &quot;aim&quot; ។">
+								<longdesc>ពិត ប្រសិនបើ​ពាក្យ​បញ្ជា​បានបញ្ជាក់​នៅ​​​គ្រាប់ចុច &quot;ពាក្យ​បញ្ជា&quot; គួរ​គ្រប់គ្រង URLs &quot;aim&quot; ។</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

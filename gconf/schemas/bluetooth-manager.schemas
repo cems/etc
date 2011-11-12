@@ -1,0 +1,287 @@
+<gconfschemafile>
+  <schemalist>
+
+    <schema>
+      <key>/schemas/apps/bluetooth-manager/show_icon</key>
+      <applyto>/apps/bluetooth-manager/show_icon</applyto>
+      <owner>bluetooth-manager</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Whether to show the notification icon</short>
+        <long>Whether to show the notification icon.</long>
+      </locale>
+
+      <locale name="af">
+        <short>Of die kennisgewingikoon moet wys</short>
+        <long>Of die kennisgewingikoon moet wys.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>ما إذا ستعرض أيقونة التنبيه</short>
+        <long>ما إذا ستعرض أيقونة التنبيه.</long>
+      </locale>
+
+      <locale name="as">
+        <short>সূচনাৰ আইকন প্ৰদৰ্শন কৰা হ&apos;ব নে নহয়</short>
+        <long>সূচনাৰ আইকন প্ৰদৰ্শন কৰা হ&apos;ব নে নহয়  ।</long>
+      </locale>
+
+      <locale name="be">
+        <short>Ці паказваць значку інфармаваньня?</short>
+        <long>Ці паказваць значку інфармаваньня?</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Дали да се показва икона за известяване</short>
+        <long>Дали да се показва икона за известяване</long>
+      </locale>
+
+      <locale name="bn">
+        <short>নোটিফিকেশন আইকন প্রদর্শন করা হবে কি না</short>
+        <long>নোটিফিকেশন আইকন প্রদর্শন করা হবে কি না</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>সূচনার আইকন প্রদর্শন করা হবে কি না</short>
+        <long>সূচনার আইকন প্রদর্শন করা হবে কি না।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Si s&apos;ha de mostrar la icona de notificació</short>
+        <long>Si s&apos;ha de mostrar la icona de notificació.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zda se má zobrazit oznamovací ikona</short>
+        <long>Zda se má zobrazit oznamovací ikona.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Om statusikonet skal vises</short>
+        <long>Om statusikonet skal vises.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Benachrichtigungssymbol anzeigen</short>
+        <long>Legt fest, wann das Benachrichtigungssymbol angezeigt werden soll.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εάν θα φαίνεται το εικονίδιο ενημέρωσης</short>
+        <long>Εάν θα φαίνεται το εικονίδιο ενημέρωσης.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Whether to show the notification icon</short>
+        <long>Whether to show the notification icon.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Indica si se debe mostrar el icono de notificación</short>
+        <long>Indica si se debe mostrar el icono de notificación.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kas teateala ikooni näidatakse</short>
+        <long>Kas teateala ikooni näidata.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Jakinarazpeneko ikonoa erakutsiko den edo ez</short>
+        <long>Jakinarazpeneko ikonoa erakutsiko den edo ez.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Näytetäänkö ilmoituskuvake</short>
+        <long>Näytetäänkö ilmoituskuvake.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Indique s&apos;il faut afficher l&apos;icône de notification</short>
+        <long>Indique s&apos;il faut afficher l&apos;icône de notification.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Non se sabe se mostrar unha icona de notificación</short>
+        <long>Non se sabe se mostrar unha icona de notificación.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ક્યાંતો સૂચના ચિહ્નને બતાવશો કે નહિં</short>
+        <long>ક્યાંતો સૂચના ચિહ્નને બતાવશો કે નહિં.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Whether to show the notification icon</short>
+        <long>Whether to show the notification icon.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>क्या अधिसूचना प्रतीर दिखाना है</short>
+        <long>क्या अधिसूचना प्रतीर दिखाना है.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Megjelenjen-e az értesítési ikon?</short>
+        <long>Megjelenjen-e az értesítési ikon?</long>
+      </locale>
+
+      <locale name="id">
+        <short>Apakah menampilkan ikon pemberitahuan</short>
+        <long>Apakah menampilkan ikon pemberitahuan.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Indica se mostrare l&apos;icona di notifica</short>
+        <long>Indica se mostrare l&apos;icona di notifica.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>通知アイコンを表示するかどうか</short>
+        <long>通知アイコンを表示するかどうか。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಸೂಚನಾ ಚಿಹ್ನೆಯನ್ನು ತೋರಿಸಬೇಕೆ</short>
+        <long>ಸೂಚನಾ ಚಿಹ್ನೆಯನ್ನು ತೋರಿಸಬೇಕೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>알림 아이콘을 표시할지 여부</short>
+        <long>알림 아이콘을 표시할지 여부.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Ar rodyti pranešimų piktogramą</short>
+        <long>Ar rodyti pranešimų piktogramą.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Vai rādīt notifikācijas ikonu</short>
+        <long>Vai rādīt notifikācijas ikonu.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>അറിയിപ്പിനുള്ള ചിഹ്നം കാണിക്കണമോ എന്നു്</short>
+        <long>അറിയിപ്പിനുള്ള ചിഹ്നം കാണിക്കണമോ എന്നു്.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>सूचना चिन्ह दाखवायचे</short>
+        <long>सूचना चिन्ह दाखवायचे.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Om varslingsikonet skal vises</short>
+        <long>Om varslingsikonet skal vises.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Wanneer het mededelingspictogram te laten zien</short>
+        <long>Wanneer het mededelingspictogram te laten zien.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ବିଜ୍ଞପ୍ତି ଚିତ୍ରସଂକେତକୁ ଦର୍ଶାଇବା ଉଚିତ କି</short>
+        <long>ବିଜ୍ଞପ୍ତି ଚିତ୍ରସଂକେତକୁ ଦର୍ଶାଇବା ଉଚିତ କି।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਕੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਈਕਾਨ ਵੇਖਣਾ ਹੈ</short>
+        <long>ਕੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਈਕਾਨ ਵੇਖਣਾ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Określa, czy wyświetlać ikonę powiadamiania</short>
+        <long>Określa, czy wyświetlać ikonę powiadamiania.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Se apresentar ou não o ícone de notificação</short>
+        <long>Se apresentar apresentar ou não o ícone de notificação.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Se exibe o ícone de notificação</short>
+        <long>Se exibe o ícone de notificação.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dacă se afișează sau nu pictograma de notificare</short>
+        <long>Dacă se afișează sau nu pictograma de notificare.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Отображать ли значок уведомления</short>
+        <long>Отображать ли значок уведомления.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ali naj bo prikazana ikona obveščanja</short>
+        <long>Ali naj bo prikazana ikona obveščanja.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Да ли да прикажем иконицу у обавештајној зони</short>
+        <long>Да ли да прикажем иконицу у обавештајној зони.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Da li da prikažem ikonicu u obaveštajnoj zoni</short>
+        <long>Da li da prikažem ikonicu u obaveštajnoj zoni.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Huruvida notifieringsikonen ska visas</short>
+        <long>Huruvida notifieringsikonen ska visas.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>அறிக்கை சின்னத்தைக் காட்ட வேண்டுமா</short>
+        <long>அறிக்கை சின்னத்தைக் காட்ட வேண்டுமா</long>
+      </locale>
+
+      <locale name="te">
+        <short>నోటీసు ప్రతిమను చూపాలా</short>
+        <long>నోటీసు ప్రతిమను చూపాలా.</long>
+      </locale>
+
+      <locale name="th">
+        <short>จะแสดงไอคอนแจ้งเหตุหรือไม่</short>
+        <long>จะแสดงไอคอนแจ้งเหตุหรือไม่</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Uyarı simgesinin gösterilmesi</short>
+        <long>Uyarı simgesini gösterilmesi.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Показувати піктограму сповіщення</short>
+        <long>Показувати піктограму сповіщення.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Có hay không hiển thị biểu tượng</short>
+        <long>Có hay không hiển thị biểu tượng.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>是否显示通知图标</short>
+        <long>是否显示通知图标。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>是否顯示通知圖示</short>
+        <long>是否顯示通知圖示。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>是否顯示通知圖示</short>
+        <long>是否顯示通知圖示。</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

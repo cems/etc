@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gnect">
+				<entry name="keyright">
+					<local_schema short_desc="Bolegar cap a drecha">
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Bolegar cap a esquèrra">
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Son">
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Animar">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Previsualizacion del jòc">
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Marca del jòc">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="background_color">
+						<local_schema short_desc="Color de fons">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="width">
+					<local_schema short_desc="La largor de la fenèstra">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="statistics">
+					<local_schema short_desc="Estadisticas de las partidas jogadas">
+						<longdesc>Una tièra de cadenas jos la forma d&apos;un quintuplet : nom, victòrias, partidas jogadas, melhor temps (en segondas) e temps pièger (en segondas tanben). Las partidas non jogadas an pas mestièr d&apos;èsser representadas.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Lo fichièr de jòc a utilizar">
+						<longdesc>Lo nom del fichièr que cap lo jòc de solitari de jogar.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Son">
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Seleccionar la mena de contraròtle">
+						<longdesc>Causir se volètz rossegar las cartas o clicar la sorça puèi la tòca.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Indica se cal visualizar o non la barra d&apos;espleches">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Nom del fichièr de tèma">
+						<longdesc>Lo nom del fichièr que cap los grafismes de las cartas.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="enable_sound">
+						<local_schema short_desc="Activar los sons del jòc">
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Tipe de jòc">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Color de fons">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="sound">
+						<local_schema short_desc="Activar los sons">
+							<longdesc>Activar los sons.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Velocitat del jòc">
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Bolegar cap a drecha">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bolegar cap a esquèrra">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bolegar cap aval">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bolegar cap amont">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Bolegar cap a drecha">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bolegar cap a esquèrra">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bolegar cap aval">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bolegar cap amont">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Bolegar cap a drecha">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bolegar cap a esquèrra">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bolegar cap aval">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bolegar cap amont">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Bolegar cap a drecha">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bolegar cap a esquèrra">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bolegar cap aval">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bolegar cap amont">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Bolegar cap a drecha">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bolegar cap a esquèrra">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bolegar cap aval">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bolegar cap amont">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Bolegar cap a drecha">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bolegar cap a esquèrra">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bolegar cap aval">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bolegar cap amont">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Seleccionar la mena de contraròtle">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Pausa">
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Bolegar cap aval">
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Bolegar cap a drecha">
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Bolegar cap a esquèrra">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="bgcolor">
+						<local_schema short_desc="La color de fons">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Son">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Estil de barra d&apos;espleches">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="printsetup">
+					<entry name="paper-orientation">
+						<local_schema short_desc="Papièr">
+						</local_schema>
+					</entry>
+					<entry name="paper">
+						<local_schema short_desc="Papièr">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Ordenar de manièra ascendenta">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="name">
+							<local_schema>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Indica se cal visualizar o non la barra d&apos;espleches">
+						<longdesc>Indica se cal visualizar o non la barra d&apos;espleches.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Nom del fichièr de tèma">
+							<longdesc>Lo nom del fichièr que cap los grafismes de las cartas.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Tèma d&apos;icònas del fichièr">
+							<longdesc>Tèma utilizat per visualizar las icònas del fichièr</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="enable_esd">
+						<local_schema short_desc="Activar ESD">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modul per GtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Utilizar una poliça personalisada">
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Poliça del document">
+							<longdesc>Nom de la poliça per defaut utilizada per legir los documents</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Poliça per defaut">
+							<longdesc>Nom de la poliça per defaut utilisada per GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Tèma GTK+">
+							<longdesc>Nom de base del tèma per defaut utilisat per GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Tèma GTK+">
+							<longdesc>Nom de base del tèma per defaut utilisat per GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Tèma d&apos;icònas">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Talha de las icònas de las barras d&apos;espleches">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Los menuts an d&apos;icònas">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Estil de barra d&apos;espleches">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Activar las animacions">
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Activar l&apos;accessibilitat">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Pixels per segondas">
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="interval minimum en milisegondas">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_printing">
+						<local_schema short_desc="Desactivar l&apos;estampatge">
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Desactivar la linha de comandas">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="secondary_color">
+						<local_schema short_desc="Color segondària">
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Color primària">
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Opacitat de l&apos;imatge">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Nom de fichièrs de l&apos;imatge">
+							<longdesc>Fichièr d&apos;utilizar coma imatge de fons</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Opcions de l&apos;imatge">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="exec">
+							<local_schema short_desc="Prètzfaches per defaut">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="Lo calendièr deu aver un terminal">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Calendièr per defaut">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="needs_term">
+							<local_schema short_desc="Lo navegador deu aver un terminal">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Navegador per defaut">
+								<longdesc>Navegador per defaut per totas las URL</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Noms dels espacis de trabalh (obsolet)">
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Lo nombre d&apos;espacis de trabalh (obsolet)">
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Gestionari de fenèstras personalisat (obsolet)">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Arguments d&apos;execucion">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

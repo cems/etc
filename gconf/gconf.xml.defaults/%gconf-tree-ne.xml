@@ -1,0 +1,2204 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="छिटो एनिमेसन प्रयोग गर्नुहोस्">
+						<longdesc>यसलाई FALSE मा सेटिङ गर्नुको अर्थ टुक्रा विस्तारै, तर राम्रोसँग झार्छ । TRUE को सेटिङले टुक्रा छिटो र जोडले झार्छ ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="अनुकूल बोर्डको उचाइ">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="अनुकूल बोर्डको चौडाइ">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="बोर्डको आकार">
+						<longdesc>प्रयोग गरिने बोर्डको साइज । १ = अनुकूल, २ = सानो ३ =मध्यम ४ = ठुलो ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="प्रयोग गरिने विषयवस्तु">
+						<longdesc>प्रयोग गरिने विषयवस्तुको फाइलनाम ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="गुच्चा झार्नुहोस्">
+						<longdesc>गुच्चा झार्नलाई कुञ्जी थिच्नुहोस् ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="दाँया सार्नुहोस्">
+						<longdesc>दायाँ सार्नलाई कुञ्जी थिच्नुहोस् ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="बाँया सार्नुहोस्">
+						<longdesc>बायाँ सार्नलाई कुञ्जी थिच्नुहोस् ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="ध्वनि">
+						<longdesc>घटना ध्वनि प्ले गर्ने या नगर्ने ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="एनिमेट गर्नुहोस्">
+						<longdesc>एनिमेसन प्रयोग गर्ने या नगर्ने ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="विषयवस्तु आईडी">
+						<longdesc>रूचाइएको विषयवस्तु निर्दिष्ट गर्ने नम्बर ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="खेलाडी २ को स्तर">
+						<longdesc>शुन्यले मानव जनाउँछ; एक देखि तीन सम्मले कम्प्युटर खेलाडीलाई दर्शाउछ ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="खेलाडी १ को स्तर">
+						<longdesc>शुन्यले मानव जनाउँछ; एक देखि तीन सम्मले कम्प्युटर खेलाडीलाई दर्शाउछ ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="खेल पुर्वावलोकन">
+							<longdesc>अन्त्यमा बचत गरिएको सत्रबाट खेल पुर्वावलोकन ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="खेल मैदान">
+							<longdesc>अन्त्यमा बचत गरिएको सत्रबाट खेल मैदान ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="खेल प्राप्ताङ्क">
+							<longdesc>अन्त्यमा बचत गरिएको सत्रबाट खेल प्राप्ताङ्क ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="चाल बीचको समय">
+							<longdesc>चाल बीचको समय मिलिसकेन्डमा ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="पृष्ठभूमि रङ">
+							<longdesc>पृष्ठभूमि रङ । पृष्ठभूमि रङको हेक्स विवरण ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="बल शैली">
+							<longdesc>बल शैली । बलका लागि प्रयोग गरिने छविको फाइलनाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="खेल मैदानको आकार">
+							<longdesc>खेलिरहेको खेलको मैदान । १=सानो, २=मध्यम, ३=ठूलो । अन्य कुनै पनि मान अवैध छ ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="प्रदर्शन गरिने बोर्डको साइज">
+						<longdesc>अग्रभूमिमा रहेको बोर्डको छेउमा, यात &apos;सेतो&apos;, &apos;कालो&apos;, &apos;हालको&apos; (हालको खेलाडी) वा &apos;मानव&apos; (हालको मानव खेलाडीको छेउ) हुन्छ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="चाल प्रदर्शन गर्ने ढाँचा">
+						<longdesc>चाल प्रदर्शन गर्ने ढाँचा, यात &apos;मानिस&apos; (मानिसले पढ्नेयोग्य), &apos;लान&apos; (लामो बिजगणितिय सूचना) वा &apos;सान&apos; (मानक बिजगणितिय सूचना)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="लोड गरिएको खेल संवाद खोल्नका लागि डाइरेक्टरी">
+						<longdesc>लोड गरिएको खेल संवाद खोल्नका लागि डाइरेक्टरी</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="बचत गरिएको खेल संवाद खोल्नका लागि डाइरेक्टरी">
+						<longdesc>बचत गरिएको खेल संवाद खोल्नका लागि डाइरेक्टरी</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="उपकरणपट्टीलाई सक्षम पार्ने झन्डा">
+						<longdesc>उपकरणपट्टीलाई सक्षम पार्ने झन्डा</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="चाल इतिहास ब्राउजर सक्षम पार्ने झन्डा">
+						<longdesc>चाल इतिहास ब्राउजर सक्षम पार्ने झन्डा</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="चाल टिप्पणी देखाउने झन्डा">
+						<longdesc>चाल टिप्पणी देखाउने झन्डा</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="बोर्ड नम्बर सक्षम पार्ने झन्डा">
+						<longdesc>बोर्ड नम्बर सक्षम पार्ने झन्डा</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="चाल सङ्केत सक्षम पार्ने झन्डा">
+						<longdesc>चाल सङ्केत सक्षम पार्ने झन्डा</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="त्रि-आयामिक मोड सक्षम पार्ने झन्डा">
+						<longdesc>त्रि-आयामिक मोड सक्षम पार्ने झन्डा</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="पोनलाई प्रस्तुत गर्ने टुक्रा">
+						<longdesc>मानव खेलाडीलाई पोन टाढा सार्दा प्रोत्साहन गर्ने टुक्रा । यी मध्ये कुनै एक हुनसक्छ: &apos;रानी&apos;, &apos;योद्धा&apos;, &apos;रूक&apos;, &apos;पादरी&apos; ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="पूरा पर्दा मोड सक्षम पार्ने झन्ड">
+						<longdesc>पूरा पर्दा मोड सक्षम पार्ने झन्ड</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="ठूलो पारिएको मोड सक्षम पार्ने झन्डा">
+						<longdesc>ठूलो पारिएको मोड सक्षम पार्ने झन्डा</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="सञ्झ्यालको उचाइ">
+						<longdesc>मुख्य सञ्झ्यालको उचाइ पिक्सेलमा ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="सञ्झ्यालको चौडाइ">
+						<longdesc>मुख्य सञ्झ्यालको चौडाइ पिक्सेलमा ।</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="टाढाको खेलाडीलाई नयाँ खेल हेर्न अनुमति दिने झन्डा">
+							<longdesc>टाढाको खेलाडीलाई नयाँ खेल हेर्न अनुमति दिने झन्डा</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="प्रत्येक खेलाडी नयाँ खेलमा सरेको समयको मान">
+							<longdesc>प्रत्येक खेलाडी नयाँ खेलमा सरेको समयको मान</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="नयाँ खेलमा पूर्वनिर्धारित खेलाडी कठीनका लागि कालो">
+								<longdesc>नयाँ खेलमा पूर्वनिर्धारित खेलाडी कठीनका लागि कालो</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="नयाँ खेलमा पूर्वनिर्धारित खेलाडी प्रकारका लागि कालो">
+								<longdesc>नयाँ खेलमा पूर्वनिर्धारित खेलाडी प्रकारका लागि कालो</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="नयाँ खेलमा पूर्वनिर्धारित खेलाडी कठीनका लागि सेतो">
+								<longdesc>नयाँ खेलमा पूर्वनिर्धारित खेलाडी कठीनका लागि सेतो</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="नयाँ खेलमा पूर्वनिर्धारित खेलाडी प्रकारका लागि सेतो">
+								<longdesc>नयाँ खेलमा पूर्वनिर्धारित खेलाडी प्रकारका लागि सेतो</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="हालै खेलेका खेल">
+						<longdesc>हालै खेलेका खेलको सूची ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="खेलिएका खेलको तथ्याङ्क">
+						<longdesc>क्विन्टुपलका रूपमा आउने स्ट्रिङको सूची: नाम, विजेता, खेलेका खेलको कूल सङ्ख्या, उत्तम समय (सेकेन्डमा) र सबैभन्दा खराब समय (सेकेन्डमा) ।नखेलिएका खेललाई प्रतिनिधित्व गर्नु पर्दैन ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="प्रयोग गरिने खेलको फाइल">
+						<longdesc>खेलिने सोलिटेइर खेल सम्मिलित योजना फाइलको नाम ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="ध्वनि">
+						<longdesc>घटना ध्वनि प्ले गर्ने या नगर्ने ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="नियन्त्रणको शैली चयन गर्नुहोस्">
+						<longdesc>तासलाई तान्ने वा स्रोतमा क्लिक गरेर त्यसपछि गन्तब्यमा क्लिक गर्ने चयन गर्नुहोस् ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="उपकरणपट्टीलाई देखाउने या नदेखाउने">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="विषयवस्तु फाइल नाम">
+						<longdesc>तासका लागि ग्राफिक्स भएको फाइलको नाम ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="प्रतीक्षा गर्नुपर्ने कुञ्जी">
+							<longdesc>प्रतीक्षा गर्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="अनियमित रूपमा टेलिपोर्ट गर्ने कुञ्जी">
+							<longdesc>अनियमित रूपमा टेलिपोर्ट गर्न प्रयोग गरिने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="टेलिपोर्ट गरिने कुञ्जी">
+							<longdesc>सुरक्षित तरिकाले (सम्भव भएमा) टेलिपोर्ट गर्न प्रयोग गरिने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc=" SE कुञ्जी">
+							<longdesc>दक्षिण-पूर्व सार्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc=" S सार्ने कुञ्जी">
+							<longdesc>दक्षिण सार्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc=" SW सार्ने कुञ्जी">
+							<longdesc>दक्षिण-पश्चिम सार्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc=" E सार्ने कुञ्जी">
+							<longdesc>पूर्व सार्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="होल्ड गर्ने कुञ्जी">
+							<longdesc>होल्ड गरिराख्न प्रयोग गरिने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc=" W सार्ने कुञ्जी">
+							<longdesc>पश्चिम सार्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc=" NE सार्ने कुञ्जी">
+							<longdesc>उत्तर-पूर्व सार्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc=" N सार्ने कुञ्जी">
+							<longdesc>उत्तर सार्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc=" NW सार्ने कुञ्जी">
+							<longdesc>उत्तर-पश्चिम सार्नका लागि प्रयोग हुने कुञ्जीको नाम । नाम मानक X कुञ्जीको नाम हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="स्प्लाट सक्षम पार्नुहोस्">
+							<longdesc>स्प्लाट सक्षम पार्नुहोस् । ध्वनि बजाउनुहोस् र पर्दामा &quot;स्प्लाट!&quot; देखाउनुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="खेल ध्वनि सक्षम पार्नुहोस्">
+							<longdesc>खेल ध्वनि सक्षम पार्नुहोस् । खेलका धेरै घटनाका लागि ध्वनि प्ले गर्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="अति सुरक्षित चाल प्रयोग गर्नुहोस्">
+							<longdesc>अति सुरक्षित चाल प्रयोग गर्नुहोस् । खेलाडीलाई सुरक्षित चाल नहुँदा सतर्क गराइन्छ र एउटा मात्र बाँकी विकल्प भनेको टेलिपोर्ट गर्नु हो ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="सुरक्षित चाल प्रयोग गर्नुहोस्">
+							<longdesc>सुरक्षित चाल प्रयोग गर्नुहोस् । सुरक्षित चालको विकल्पले तपाईँलाई गल्तिले मर्नबाट बचाउँछ । तपाईँले चाल चल्ने प्रयास गर्नुभयो भने त्यसले तपाईँको मृत्यु पनि निम्त्याउन सक्छ यदि तपाईँको चाल सुरक्षित छ भने तपाईँलाई अघि बढ्न अनुमति दिइन्छ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="खेल प्रकार">
+							<longdesc>खेल प्रकार । प्रयोग गरिने खेल भिन्नताको नाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="पृष्ठभूमि रङ">
+							<longdesc>पृष्ठभूमि रङ । पृष्ठभूमि रङको हेक्स विवरण ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="रोबोट छविको विषयवस्तु">
+							<longdesc>रोबोट छविको विषयवस्तु । रोबोटका लागि प्रयोग गरिने छविको विषयवस्तु ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="उपकरणपट्टी देखाउनुहोस्">
+							<longdesc>उपकरणपट्टी देखाउनुहोस् । उपकरणपट्टीका लागि मानक विकल्प ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="खेलको टाइलको आकार">
+							<longdesc>खेल टाइलको आकार ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="ध्वनि सक्षम पार्नुहोस्">
+							<longdesc>ध्वनि सक्षम पार्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="सुरुको खेल स्तर">
+							<longdesc>सुरुको खेल स्तर ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="अनियमित क्रममा स्तर प्ले गर्नुहोस्">
+							<longdesc>अनियमित क्रममा स्तर प्ले गर्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="बनावटी बोनसलाई सक्षम पार्नुहोस्">
+							<longdesc>बनावटी बोनसलाई सक्षम पार्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="खेलको गति">
+							<longdesc>खेलको गति (१=छिटो, ४=ढिलो) ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="AI खेलाडीको सङ्ख्या">
+							<longdesc>AI खेलाडीको सङ्ख्या ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="मानव खेलाडीको सङ्ख्या">
+							<longdesc>मानव खेलाडीक सङ्ख्या ।</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="दाँया सार्नुहोस्">
+									<longdesc>दायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="बाँया सार्नुहोस्">
+									<longdesc>बायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="तल सार्नुहोस्">
+									<longdesc>तल झार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="माथि सार्नुहोस्">
+									<longdesc>माथि सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="सापेक्षिक चाल प्रयोग गर्नुहोस्">
+									<longdesc>सापेक्षिक चाल(उदाहरणका लागि, दायाँ वा बायाँ मात्र) प्रयोग गर्नुहोस् ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="कीराको लागि प्रयोग गरिने रङ">
+									<longdesc>कीराको लागि प्रयोग गरिने रङ ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="दाँया सार्नुहोस्">
+									<longdesc>दायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="बाँया सार्नुहोस्">
+									<longdesc>बायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="तल सार्नुहोस्">
+									<longdesc>तल झार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="माथि सार्नुहोस्">
+									<longdesc>माथि सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="सापेक्षिक चाल प्रयोग गर्नुहोस्">
+									<longdesc>सापेक्षिक चाल(उदाहरणका लागि, दायाँ वा बायाँ मात्र) प्रयोग गर्नुहोस् ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="कीराको लागि प्रयोग गरिने रङ">
+									<longdesc>कीराको लागि प्रयोग गरिने रङ ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="दाँया सार्नुहोस्">
+									<longdesc>दायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="बाँया सार्नुहोस्">
+									<longdesc>बायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="तल सार्नुहोस्">
+									<longdesc>तल झार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="माथि सार्नुहोस्">
+									<longdesc>माथि सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="सापेक्षिक चाल प्रयोग गर्नुहोस्">
+									<longdesc>सापेक्षिक चाल(उदाहरणका लागि, दायाँ वा बायाँ मात्र) प्रयोग गर्नुहोस् ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="कीराको लागि प्रयोग गरिने रङ">
+									<longdesc>कीराको लागि प्रयोग गरिने रङ ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="दाँया सार्नुहोस्">
+									<longdesc>दायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="बाँया सार्नुहोस्">
+									<longdesc>बायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="तल सार्नुहोस्">
+									<longdesc>तल झार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="माथि सार्नुहोस्">
+									<longdesc>माथि सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="सापेक्षिक चाल प्रयोग गर्नुहोस्">
+									<longdesc>सापेक्षिक चाल(उदाहरणका लागि, दायाँ वा बायाँ मात्र) प्रयोग गर्नुहोस् ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="कीराको लागि प्रयोग गरिने रङ">
+									<longdesc>कीराको लागि प्रयोग गरिने रङ ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="दाँया सार्नुहोस्">
+									<longdesc>दायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="बाँया सार्नुहोस्">
+									<longdesc>बायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="तल सार्नुहोस्">
+									<longdesc>तल झार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="माथि सार्नुहोस्">
+									<longdesc>माथि सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="सापेक्षिक चाल प्रयोग गर्नुहोस्">
+									<longdesc>सापेक्षिक चाल(उदाहरणका लागि, दायाँ वा बायाँ मात्र) प्रयोग गर्नुहोस् ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="कीराको लागि प्रयोग गरिने रङ">
+									<longdesc>कीराको लागि प्रयोग गरिने रङ ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="दाँया सार्नुहोस्">
+									<longdesc>दायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="बाँया सार्नुहोस्">
+									<longdesc>बायाँ सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="तल सार्नुहोस्">
+									<longdesc>तल झार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="माथि सार्नुहोस्">
+									<longdesc>माथि सार्नका लागि प्रयोग गरिने कुञ्जी ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="सापेक्षिक चाल प्रयोग गर्नुहोस्">
+									<longdesc>सापेक्षिक चाल(उदाहरणका लागि, दायाँ वा बायाँ मात्र) प्रयोग गर्नुहोस् ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="कीराको लागि प्रयोग गरिने रङ">
+									<longdesc>कीराको लागि प्रयोग गरिने रङ ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="नियन्त्रणको शैली चयन गर्नुहोस्">
+						<longdesc>टायललाई तान्ने वा स्रोतमा क्लिक गरेर गन्तव्यमा लैजाने वा नलैजाने चयन गर्नुहोस् ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="रङ लगाइएका टायल नियन्त्रण गर्नुहोस्">
+						<longdesc>रङ लगाइएका टायल सक्षम पार्ने झन्डा ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="खेलिरहेको ग्रिडको साइज">
+						<longdesc>यस कुञ्जीको मानलाई खेल भइरहेको ग्रिडको साइजको निर्णय गर्न प्रयोग गरिन्छ । वैध मान २ देखि ८ सम्म हुन्, अन्यथा ३ मा सेट हुन्छ ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="पज गर्नुहोस्">
+							<longdesc>रोक्नलाई कुञ्जी थिच्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="घुमाउनुहोस्">
+							<longdesc>घुमाउनलाई कुञ्जी थिच्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="झार्नुहोस्">
+							<longdesc>झार्नका लागि कुञ्जी थिच्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="तल सार्नुहोस्">
+							<longdesc>तल सार्नलाई कुञ्जी थिच्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="दाँया सार्नुहोस्">
+							<longdesc>दायाँ सार्नलाई कुञ्जी थिच्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="बाँया सार्नुहोस्">
+							<longdesc>बायाँ सार्नलाई कुञ्जी थिच्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="भरिएका पङ्‌क्तिको घनत्व">
+							<longdesc>खेलको सरुमा भरिने पङ्‌क्तिको खण्डको घनत्व । मान ० (खण्ड नहुनका लागि) र १० (पूर्ण रूपमा भरिएको पङ्‌क्तिका लागि) ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="भर्नुपर्ने पङ्‌क्तिको सङ्ख्या">
+							<longdesc>खेलको सुरुमा अनियमित खण्डद्वारा भरिएका पङ्‌क्तिको सङ्ख्या ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="घडीको विपरित दिशामा घुमाउने या नघुमाउने">
+							<longdesc>घडीको विपरित दिशातिर घुमाउने या नघुमाउने ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="अनियमित रङका खण्ड दिन्छ या दिदैन">
+							<longdesc>अनियमित रङका खण्ड दिन्छ या दिदैन ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="लक्ष्य उपलब्ध गर्ने या नगर्ने">
+							<longdesc>खण्ड रोकिने ठाउमा ग्राफिकल प्रतिनिधित्व उपलब्ध गर्ने या नगर्ने ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="पछिल्लो खण्ड पूर्वावलोकन गर्ने या नगर्ने">
+							<longdesc>पछिल्लो खण्ड पूर्वावलोकन गर्ने या नगर्ने ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="पृष्ठभूमिको रङ">
+							<longdesc>gdk रङ पदवर्णन बुझ्ने ढाँचामा, पृष्ठभूमि रङ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="पृष्ठभूमिको छवि प्रयोग गर्ने या नगर्ने">
+							<longdesc>यसले पृष्ठभूमि रङमा पृष्ठभूमि छवि झार्ने या नझार्ने चयन गर्छ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="सुरु गरिने स्तर">
+							<longdesc>सुरु गरिने स्तर ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="खण्ड रेन्डरिङ गर्नका लागि प्रयोग गरिने विषयवस्तु">
+							<longdesc>खण्ड र पृष्ठभूमि रेन्डरिङ गर्नका लागि प्रयोग गरिने विषयवस्तुको नाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="खण्ड झार्नका लागि प्रयोग गरिने छवि">
+							<longdesc>खण्ड झार्नका लागि प्रयोग छवि ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="कम्प्युटरको सोचाइ प्रदर्शन गर्नुहोस्">
+						<longdesc>यदि ठीकमा सेट गरेमा, Al&apos;s को धेरै कार्य मानक निर्गतमा पूरा हुन्छ ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="घुमाइको बीचको विलम्ब">
+						<longdesc>कम्प्युटरको पासा घुमाइको बीचमा विलम्ब घुसाउने वा नघुसाउने रोज्नुहोस् जसबाट खेलाडीले यसको कार्य पछ्याउन सक्छ ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="खेलमा रहेका पजल">
+						<longdesc>खेलिरहेका पजलको सङ्ख्या ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="ध्वनि">
+						<longdesc>घटना ध्वनि प्ले गर्ने या नगर्ने ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="उपकरणपट्टी शैली">
+							<longdesc>उपकरणपट्टी शैली। वैध मानहरू दुवै, दुवैतेर्सो, प्रतिमा, र पाठ हुन्</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="फोकस नगरिएको दायरा चयन अनुमति दिनुहोस्">
+								<longdesc>कुनै संवादले केवल एक्लो प्रविष्टि फाँट समावेश गर्छ जसले कार्यपुस्तिकामा दायरा चयनको अनुमति दिन्छ। यदि प्रविष्टिसँग कुञ्जीपाटी फोकस नभएपनि सो प्रविष्टिमा सत्य प्रतक्ष्य चयनलाई सो चलमा सेट गर्दैछ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="हेडर/फुटर ढाँचा (दायाँ भाग)">
+							<longdesc>कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="हेडर/फुटर ढाँचा (मध्य भाग)">
+							<longdesc>कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="हेडर/फुटर ढाँचा (बायाँ भाग)">
+							<longdesc>कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="पूर्वनिर्धारित तल्लो सीमान्त">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="पूर्वनिर्धारित तल्लो सीमान्त">
+							<longdesc>यो मानले पृष्ठको तल्लो भागदेखि मुख्य भागको अन्तसम्म पूर्वनिर्धारित बिन्दुको सङ्ख्या दिन्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="पूर्वनिर्धारित माथिल्लो सीमान्त">
+							<longdesc>यो मानले पृष्ठको माथिल्लो भागदेखि मुख्यभागको सुरुसम्म पूर्वनिर्धारित बिन्दुको सङ्ख्या दिन्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="पूर्वनिर्धारित दोहोरिएको बायाँ स्थान">
+							<longdesc>यो स्ट्रिङले प्रत्येक मुद्रण गरिएको पानाको बायाँपट्टी दोहोर्याउन पूर्वनिर्धारित फाँट दिन्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="पूर्वनिर्धारित दोहोरिएको माथिल्लो स्थान">
+							<longdesc>यो स्ट्रिङले प्रत्येक मुद्रण गरिएको पानाको माथिपट्टी दोहोर्याउन पूर्वनिर्धारित फाँट दिन्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="पूर्वनिर्धारित मापन उचाइ">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="पूर्वनिर्धारित मापन चौडाइ">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="पूर्वनिर्धारित मापन प्रतिशत">
+							<longdesc>यो मानले प्रत्येक मुद्रण गरिएको पृष्ठ स्केल गर्ने प्रतिशत दिन्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="पूर्वनिर्धारित मापन प्रकार">
+							<longdesc>यो मानले दिइएको प्रतिशतबाट पृष्ठ स्केल गर्नेको मुद्रण सेटअप संवाद पूर्वनिर्धारित सेटिङ निर्धारण गर्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="पूर्वनिर्धारित मुद्रण निर्देशन">
+							<longdesc>यो मानले मुद्रण पहिला दायाँ अनि तलको मुद्रण सेटअप संवाद पूर्वनिर्धारित सेटिङ निर्धारण गर्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="पूर्वनिर्धारित शीर्षक मुद्रण">
+							<longdesc>यो मानले मुद्रण पङ्क्ति र स्तम्भ शीर्षकको मुद्रण सेटअप संवाद पूर्वनिर्धारित सेटिङ निर्धारण गर्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="पूर्वनिर्धारित श्यामश्वेत मुद्रण">
+							<longdesc>यो मानले श्यामश्वेतमा मुद्रण गर्ने कि मुद्रण सेटअप संवादमा पूर्वनिर्धारित सेटिङ निर्धारण गर्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="शैली सँग मात्र पूर्वनिर्धारित मुद्रण कक्ष">
+							<longdesc>यो मानले मुद्रण खाली तर ढाँचा कक्षको मुद्रण सेटअप संवाद पूर्वनिर्धारित सेटिङ निर्धारण गर्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="पूर्वनिर्धारित ग्रिड लाइन मुद्रण">
+							<longdesc>&gt;यो मानले मुद्रण सेटअप संवादको मुद्रण ग्रिड लाइनहरू मध्ये पूर्वनिर्धारित सेटिङ निर्धारण गर्छ। कृपया यो मान सम्पादन गर्दा मुद्रण सेटअप संवाद प्रयोग गर्नुहोस्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="पूर्वनिर्धारित ठाडो केन्द्रिकरण">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="पूर्वनिर्धारित तेर्सो केन्द्रिकरण">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="पूर्वनिर्धारित शीर्षक/फुटरको फन्ट छड्के छ।">
+							<longdesc>यो मानले छड्के शीर्षक र फुटरको फन्ट पूर्वनिर्धारित हुन्छ कि हुँदैन भनेर निर्धारण गर्छ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="पूर्वनिर्धारित शीर्षक/फुटरको फन्ट बाक्लो छ।">
+							<longdesc>यो मानले गाढा शीर्षक र फुटरको फन्ट पूर्वनिर्धारित हुन्छ कि हुँदैन भनेर निर्धारण गर्छ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="पूर्वनिर्धारित शीर्षक/फुटर फन्ट नाम">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="पूर्वनिर्धारित हेडर/फुटर फन्ट साइज">
+							<longdesc>हेडर र फुटरको पूर्वनिर्धारित फन्ट साइज</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="पृष्ठ फुटर">
+							<longdesc>नयाँ कागजातका लागि पूर्वनिर्धारित पृष्ठ फुटर जसलाई पृष्ठ सेटअप संवाद प्रयोग गरेर परिमार्जन गर्न सकिन्छ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="पृष्ठ हेडर">
+							<longdesc>नयाँ कागजातका लागि पूर्वनिर्धारित पृष्ठ हेडर जसलाई पृष्ठ सेटअप संवाद प्रयोग गरेर परिमार्जन गर्न सकिन्छ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="सबै पानाको मुद्रण-सेटअप लागू गर्नुहोस्">
+							<longdesc>यो मानले मुद्रण सेटअप संवाद सबै पानामा पूर्वनिर्धारित हुन्छ कि हुँदैन भनेर निर्धारण गर्छ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="स्वत: ढाँचाका लागि प्रयोगकर्ता डाइरेक्टरी">
+							<longdesc>निर्दिष्ट स्वत: ढाँचा टेम्प्लेट प्रयोगकर्ताको लागि मुख्य डाइरेक्टरी</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="स्वत: ढाँचाका लागि प्रणाली डाइरेक्टरी">
+							<longdesc>यो डाइरेक्टरीमा पूर्व-स्थापित स्वढाँचा टेम्प्लेटहरू छन्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="अन्य स्वत: ढाँचा डाइरेक्टरीको सूची">
+							<longdesc>यो सूचीमा स्वढाँचा टेम्प्लेटहरू समावेश सबै अन्य डाइरेक्टरीहरू छन्।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="अन्य प्लगइन डाइरेक्टरीको सूची">
+							<longdesc>यो सूचीले प्लगइनहरू समावेश सबै अन्य डाइरेक्टरीहरू छन्।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="प्लगइन फाइल अवस्था सूची">
+							<longdesc>यो सूचीले सबै प्लगइन फाइल अवस्थाहरू समावेश गर्दछ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="ज्ञात प्लगइनको सूची">
+							<longdesc>यो सूचीले सबै ज्ञात प्लगइनहरू समावेश गर्दछ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="सक्रिय प्लगइनको सूची">
+							<longdesc>स्वत: क्रियाशील मानिएको सबै प्लगइनहरू यो सूचीले समावेश गर्दछ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="नयाँ प्लगइन सक्रिय पार्नुहोस्">
+							<longdesc>यो चलले प्रत्येक नयाँ जम्काभेट प्लगइन क्रियाशील गर्ने कि नगर्ने निर्धारण गर्छ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="बदलि स्वत: शुद्धाशुद्धि">
+							<longdesc>बदलि स्वत: शुद्धाशुद्धि</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="दिनको नाम स्वत: शुद्धाशुद्धि">
+							<longdesc>दिनको नाम स्वत: शुद्धाशुद्धि</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="पहिलो क्यारेक्टर अपवादको सूची">
+							<longdesc>स्वत: शुद्धाशुद्धि यन्त्रले यो सूचीमा भएको पहिलो क्यारेक्टर सुधार गर्दैन</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="पहिलो क्यारेक्टर स्वत: शुद्धाशुद्धि">
+							<longdesc>पहिलो क्यारेक्टर स्वत: शुद्धाशुद्धि</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="सुरुको ठुला क्यारेक्टर अपवादको सूची">
+							<longdesc>यो स्वत: शुद्धाशुद्धि यन्त्रले यो सूचीमा भएको पहिलो ठूलो क्यारेक्टर सुधार गर्दैन</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="सुरुको ठुला क्यारेक्टर स्वत: शुद्धाशुद्धि">
+							<longdesc>सुरुको ठुला क्यारेक्टर स्वत: शुद्धाशुद्धि</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="हालै प्रयोग गरिएको प्रकार्य सूचीको अधिकतम लम्बाइ">
+							<longdesc>कार्य चयनकर्ताले हालै प्रयोग गरिएको कार्यको सूची राख्छ। यो सोहि सूचीको अधिकतम लम्बाइ हो।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="हालै प्रयोग गरिएको प्रकार्यको सूची">
+							<longdesc>कार्य चयनकर्ताले हालै प्रयोग गरिएको कार्यको सूची राख्छ। यो सोहि सूची हो।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="प्राथमिक चयन भन्दा क्लिपबोर्डमा प्राथमिकता दिन्छ">
+							<longdesc>जब सत्य हुन्छ, विरासत प्राथमिक चयन भन्दा जिन्युमेरिकले आधुनिक क्लिपबोर्ड चयनलाई प्राथमिकता दिन्छ। असत्यमा सेट गर्नुहोस् यदि तपाईँले पुरानो अनुप्रयोगसँग कारोबार गर्नुपर्दछ, जस्तै एक्सटर्म अथवा इम्याक्स, जसले केवल प्राथमिक चयन सेट गर्छ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="स्वचालित धाराको सङ्ख्या">
+									<longdesc>क्रमबद्ध संवाद भित्रको क्रमबद्ध फाँट चयन गर्दा खोजी दफा स्वत: जोडिन्छन। यो सङ्ख्याले स्वत: जोडिनपर्ने दफाको सङ्ख्या निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="बद्ढो तरिकाले क्रमबद्ध गर्नुहोस्">
+									<longdesc>यो विकल्पले क्रमबद्ध संवाद भित्रको क्रमबद्ध-आदेश-बटनको प्रारम्भिक अवस्था निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="क्रमबद्ध गर्नाले ढाँचा संरक्षित हुन्छ">
+									<longdesc>यो विकल्प सेट गर्दा उपकरणपट्टीमा भएको क्रमबद्ध बटनले क्रमबद्ध गर्दा कक्ष ढाँचा संरक्षण गर्छ अनि क्रमबद्ध संवाद भित्रका संरक्षण-ढाँचा जाँचबाकसको प्रारम्भिक अवस्था निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="क्रमबद्ध केस-सम्वेदनशील छ">
+									<longdesc>यो विकल्प सेट गर्नाले उपकरणपट्टीमा भएको क्रमबद्ध बटनले केस-सम्वेदनशील क्रमबद्ध कार्य सम्पादन गर्न कारक बन्छ अनि क्रमबद्ध संवादमा केस-सम्वेदनशील जाँचबाकसको प्रारम्भिक अवस्था निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="फाइलहरू अधिलेखन गर्नका लागि पूर्वनिर्धारण">
+									<longdesc>अवस्थित फाइल अधिलेखन गर्नुभन्दा पहिला जिन्युमेरिकले चेतावनी संवाद दिन्छ। यो विकल्पको सेटिङले त्यो संवाद पूर्वनिर्धारित बटनमा अधिलेखन बटन बनाउंछ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="एकल पाना ढाँचामा निर्यात गर्दा चेतावनी दिनुहोस्">
+									<longdesc>कुनै फाइल ढाँचाले केवल एउटा पाना राख्न सक्छ। बहु-पाना कार्यपुस्तिकाको एउटा मात्र पाना बचत गर्न लागेको प्रयोगकर्तालाई चेतावनी दिने कि नदिने भनेर यो चलले निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="जिन्युमेरिक फाइलका लागि पूर्वनिर्धारित सङ्कुचन तह">
+								<longdesc>यो इन्टिजर (० देखि ९ को बिच) ले पूर्वनिर्धारित फाइल ढाँचामा फाइल बचत गर्दा जिन्युमेरिकले गरेको सङ्कुचनको मात्रा विश्लेषण गर्छ। ० न्यूनतम सङ्कुचन हो भने ९ अधिकतम सङ्कुचन हो।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="पूर्वनिर्धारित जुम तत्व">
+									<longdesc>नयाँ कार्यपुस्तिकाका लागि प्रारम्भिक जुम तत्व</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="पूर्वनिर्धारित ठाडो सञ्झ्याल साइज">
+									<longdesc>पूर्वनिर्धारित सञ्झ्यालले ढाकेको पर्दा साइजको ठाडो भाग यो सङ्ख्या (०.२५ देखि १.०० भित्र) ले दिन्छ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="पूर्वनिर्धारित तेर्सो सञ्झ्याल साइज">
+									<longdesc>पूर्वनिर्धारित सञ्झ्यालले ढाकेको पर्दा साइजको तेर्सो भाग यो सङ्ख्या (०.२५ देखि १.०० भित्र) ले दिन्छ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="संक्रमण कुञ्जीहरू">
+								</local_schema>
+							</entry>
+							<entry name="recalclag">
+								<local_schema short_desc="स्वत: अभिव्यक्ति पुन: गणना ढिलाइ">
+									<longdesc>यदि `ल्याग&apos; ० छ भने जिन्युमेरिकले प्रत्येक परिवर्तन पछि सबै स्वत: अभिव्यक्ति तुरुन्त पुन:गणना गर्छ।`ल्याग&apos; को नन-जिरो मानले जिन्युमेरिकलाई प्रत्येक पुन: गणना भन्दा पहिला अन्य परिवर्तनहरू संचय गर्न अनुमति दिन्छ। यदि `ल्याग&apos; घनात्मक छ भने जहिले पनि जिन्युमेरिक `ल्याग&apos; मिलिसिकेन्ड पर्खिन्छ त्यसपछि पुन: गणना गर्छ; यदि त्यो अवधिमा अरू परिवर्तनहरू देखियो भने तिनीहरू पनि त्यो समयमा प्रशोधित हुन्छन। यदि `ल्याग&apos; ऋणात्मक भयो भने [ल्याग] मिलिसिकेन्ड अवधिको केही पछि मात्र पुन: गणना हुन्छ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="जिवन्त स्क्रोल हुँदैछ">
+									<longdesc>जिवन्त (भर्सस विलम्ब गरिएको) स्क्रोलिंग भइरहेको छ कि छैन यो चलले निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="स्वत: समाप्त">
+									<longdesc>स्वत: समाप्त सेट अन गर्ने कि नगर्ने यो चलले निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar-position">
+								<local_schema>
+									<longdesc>यो चलले वस्तु उपकरणपट्टी कहाँ देखाइने निर्धारण गर्छ। ० बायाँ हो, १ दायाँ हो, २ माथि हो।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="वस्तु उपकरणपट्टी दृश्य">
+									<longdesc>स्वत: समाप्ति सेट अन गर्ने कि नगर्ने यो चलले निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar-position">
+								<local_schema>
+									<longdesc>यो चलले ढाँचा उपकरणपट्टी कहाँ देखाइने निर्धारण गर्छ। ० बायाँ हो, १ दायाँ हो, २ माथि हो।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="उपकरणपट्टी दृश्य ढाँचाबद्ध गर्नुहोस्">
+									<longdesc>यो चलले संक्रमण कुञ्जीहरू सेट अन गर्ने कि नगर्ने निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar-position">
+								<local_schema short_desc="मानक उपकरणपट्टी स्थिति">
+									<longdesc>यो चलले मानक उपकरणपट्टी कहाँ देखाइने निर्धारण गर्छ। ० बायाँ हो, १ दायाँ हो, २ माथि हो।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="मानक उपकरणपट्टी दृश्य">
+									<longdesc>यो चलले संक्रमण कुञ्जीहरू सेट अन गर्ने कि नगर्ने निर्धारण गर्छ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="ठाडो DPI">
+									<longdesc>ठाडो दिशामा पर्दा रिजोल्युसन</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="तेर्सो DPI">
+									<longdesc>तेर्सो दिशामा पर्दा रिजोल्युसन</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="पूर्वनिर्धारित पानाको सङ्ख्या">
+								<longdesc>नयाँ कार्यपुस्तिकामा सुरुमा सिर्जित पानाको सङ्ख्या</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="पूर्वनिर्धारित फन्ट छड्के छ।">
+								<longdesc>यो मानले नयाँ कार्यपुस्तिकाको पूर्वनिर्धारित फन्ट छड्के छ कि छैन निर्धारण गर्छ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="पूर्वनिर्धारित फन्ट बाक्लो छ।">
+								<longdesc>यो मानले नयाँ कार्यपुस्तिकाको पूर्वनिर्धारित फन्ट बाक्लो छ कि छैन निर्धारण गर्छ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="पूर्वनिर्धारित फन्ट नाम">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="पूर्वनिर्धारित फन्ट साइज">
+								<longdesc>नयाँ कार्यपुस्तिकाका लागि पूर्वनिर्धारित फन्ट साइज</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="पूर्वस्थितिमा फर्काउने डिस्क्रिप्टर्सको लम्बाइ">
+							<longdesc>पूर्वावस्थामा फर्काउने र रिडु सिक्रिको आदेश वर्णकको अधिकतम लम्बाइको यो मान सूचक हो।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="पूर्वस्थितिमा फर्काउने वस्तुको सङ्ख्या">
+							<longdesc>पूर्वावस्थामा फर्काउने/रिडु सूचीमा भएका वस्तुको अधिकतम सङ्ख्या निर्धारण गर्छ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="अधिकतम पूर्वस्थितिमा फर्काउने साइज">
+							<longdesc>यो मानले पूर्वावस्थामा फर्काउने सिक्रिको लम्बाइ निर्धारण गर्छ। साधारण एक-कक्ष सम्पादन (१ को साइज) को स्मृति आवश्यकतासँग यसलाई तुलना गर्न  प्रत्येक सम्पादकिय कार्यसँग एउटा साइज समन्धित हुन्छ। साइजको मात्रा यो कन्फिगर गर्न योग्य मान भन्दा बढी भएमा यो पूर्वावस्थामा फर्काउने सूची काटिन्छ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="पूर्वस्थितिमा फर्काउने सूचीमा पाना नाम देखाउनुहोस्">
+							<longdesc>यो मानले पूर्वावस्थामा फर्काउने र रिडु सूचीमा भएको पाना नाम देखाउने कि नदेखाउने निर्धारण गर्छ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="लाटेएक्स निकासिमा युटिएफ-८ प्रयोग गर्नुहोस्">
+								<longdesc>यो सेटिङले सिर्जित लाटेएक्स फाइलले युटिएफ-८ (युनिकोड) अथवा आइएसओ-८८५९-१ (ल्याटिन१) भन्ने निर्धारित गर्छ। युटिएफ-८ फाइल प्रयोग गर्न तपाईँले युसिएस लाटेएक्स प्याकेज इन्सटल गरेकै हुनुपर्छ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="कागजात निषेधहरू मिच्नुहोस्">
+						<longdesc>कागजात अवरोधहरू अधिलेखन गर्नुहोस्, जस्तै प्रतिलिपी गर्नुमा अवरोध वा मुद्रन गर्नमा अवरोध । </longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="झण्डाको स्वचालित स्थापना सक्षम पार्नुहोस्">
+						<longdesc>gnomine भएकोलाई ठीकमा सेट गर्दा प्रसस्त वर्ग देखिएका समयमा स्वचालित रूपले झण्डा वर्गलाई खानीका रूपमा देखाउँछ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="अति धेरै झण्डाका बारेमा चेतावनी">
+						<longdesc>अति धेरै झण्डा देखिदा चेतावनी प्रतिमा सक्षम पार्न ठीकमा सेट गर्नुहोस् ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="अज्ञात झण्डा प्रयोग गर्नुहोस्">
+						<longdesc>वर्गलाई अज्ञातका रूपमा चिनो लगाउन सक्षम हुन ठीकमा सेट गर्नुहोस् ।</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="बोर्डको आकार">
+							<longdesc>बोर्डको आकार (०-२ = सानो-ठूलो, ३=अनुकूल)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="अनुकूल खेलमा खानीको सङ्ख्या">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="अनुकूल खेलमा पङ्‌क्ति सङ्ख्या">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="अनुकूल खेलमा स्तम्भको सङ्ख्या">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="उपकरणपट्टीलाई देखाउने या नदेखाउने">
+						<longdesc>उपकरणपट्टीलाई देखाउने या नदेखाउने ।</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="बैंकमा रहेको तपाईँको रकम">
+							<longdesc>बैंकमा रहेको तपाईँको रकम ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="विषयवस्तु फाइल नाम">
+							<longdesc>तासका लागि ग्राफिक्स भएको फाइलको नाम ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="कहेल्यै पनि बीमा नगर्नुहोस्">
+							<longdesc>एक्का देखाउने डिलरसँग कहिल्यै पनि बीमा नलिनुहोस्</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="छिटो बाँड्ने प्रयोग गर्नुहोस्">
+							<longdesc>प्रत्येक तासको बीचमा विलम्ब नगरी छिटो बाँड्ने प्रयोग गर्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="सम्भावितलाई प्रदर्शन गर्नुहोस्">
+							<longdesc>प्रत्येक डिलरको हातमा आउने सम्भावित र तपाईँको हातको अपेक्षित मान प्रदर्शन गर्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="प्रयोग गरिने नियम फाइलको विविधता">
+							<longdesc>खेलिने नियमको विविधता सम्मिलित नियम फाइलको नाम ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="बर्नप्रुफ विकल्प सक्षम पार्नुहोस्">
+						<longdesc>केहि रेकर्डरमा उपलब्ध भएको बर्नप्रुफ विकल्प प्रयोग गर्ने या नगर्ने ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="ओभरबर्न सक्षम पार्नुहोस्">
+						<longdesc>डेटालाई भौतिक माध्यमको साइज नाघ्न अनुमति दिने या नदिने ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="त्रुटिमोचन सक्षम पार्नुहोस्">
+						<longdesc>सीडी रेकर्डडिङका लागि त्रुटिमोचन सक्रिय पार्ने या नपार्ने</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="पूर्वनिर्धारित बर्न गति">
+						<longdesc>मिडिया लेखिने पूर्वनिर्धारित गति ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="अस्थायी ISO छविका लागि डाइरेक्टरी">
+						<longdesc>अस्थायी ISO छविका लागि डाइरेक्टरी, पूर्वनिर्धारित प्रणाली अस्थायी डाइरेक्टरी प्रयोग गर्न खाली छोड्नुहोस् ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="फाइल प्रतिमा विषयवस्तु">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="घटनाहरूका लागि ध्वनि">
+							<longdesc>प्रयोगकर्ता घटनामा ध्वनि प्ले गर्नु पर्छ या पर्दैन ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="ESD लाई सक्षम पार्नुहोस्">
+							<longdesc>सुरुआतमा ध्वनि सर्भर सक्षम पार्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="पूर्वनिर्धारित मिश्रक ट्र्याक">
+							<longdesc>मल्टिमिडिया कुञ्जी बाइन्डिङद्वारा प्रयोग गरिएका पूर्वनिर्धारित मिश्रक ट्र्याक ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="पूर्वनिर्धारित मिश्रक यन्त्र">
+							<longdesc>मल्टिमिडिया कुञ्जी बाइन्डिङद्वारा प्रयोग गरिएका पूर्वनिर्धारित मिश्रक यन्त्र ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="&apos;युनिकोड नियन्त्रण क्यारेक्टर&apos; मेनु देखाउनुहोस्">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="&apos;आगत विधि&apos; मेनु देखाउनुहोस्">
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="मेनुपट्टी गतिवर्धक">
+							<longdesc>मेनुपट्टी खोल्ने कुञ्जीपाटी सर्टकट ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="GtkFileChooser का लागि मोड्युल">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="दायाँ तर्फ वस्तुस्थिति पट्टी">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="अनुकूल फन्ट प्रयोग गर्नुहोस्">
+							<longdesc>gtk+अनुप्रयोगमा अनुकूल फन्ट प्रयोग गर्ने या नगर्ने ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="मोनोस्पेस फन्ट">
+							<longdesc>टर्मिनल जस्तै स्थानमा प्रयोग गरिने मोनोस्पेस (स्थिर-चौडाइ) भएको फन्टको नाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="कागजात फन्ट">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM वस्तुस्थिति शैली">
+							<longdesc>gtk+ ले प्रयोग गरेको GTK+आगत बिधि वस्तुस्थिति शैलीको नाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM पूर्व सम्पादित शैली">
+							<longdesc>gtk+ ले प्रयोग गरेको GTK+ आगत विधि पूर्वसम्पादन शैलीको नाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="पूर्वनिर्धारित फन्ट">
+							<longdesc>gtk+ ले प्रयोग गरेको पूर्वनिर्धारित फन्टको नाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Gtk+ विषयवस्तु">
+							<longdesc>gtk+ द्वारा प्रयोग गरिएको पूर्वनिर्धारित विषयवस्तुको आधार नाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Gtk+ विषयवस्तु">
+							<longdesc>gtk+ द्वारा प्रयोग गरिएको पूर्वनिर्धारित विषयवस्तुको आधार नाम ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="प्रतिमा विषयवस्तु">
+							<longdesc>प्यानल,नटिलस इत्यादिको लागि प्रयोग गरिने प्रतिमा विषयवस्तु ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="कर्सर झिम्किने समय">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="कर्सर ब्लिङ्क">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="उपकरणपट्टी प्रतिमा आकार">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="परिवर्तन योग्य उपकरणपट्टी">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="परिवर्तनयोग्य मेनुपट्टी">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="मेनुमा प्रतिमाहरू छन्">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="उपकरणपट्टी शैली">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="गतिहरू परिवर्तन गर्न सक्छ">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="मेनुहरू च्यात्तिएको छ">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="एनिमेसन सक्षम पार्नुहोस्">
+							<longdesc>एनिमेसन प्रदर्शित गरिएको हुनुपर्दछ या पर्दैन । द्रष्टब्य: यो विश्वब्यापी कुञ्जी हो, यसले सञ्झ्याल प्रबन्धकको ब्यवहार तथा प्यानल आदि परिवर्तन गर्दछ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="पहुँचता सक्षम बनाउनुहोस्">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="सहयोगी प्रविधिको सहयोगी शुरु गर्नुहोस्">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>यदि दुई कुञ्जी एउटै समयमा थिचिएमा अक्षम पार्नुहोस्</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="मिलिसेकेन्डमा न्यूनतम अन्तराल">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="मिलिसेकेन्डमा प्रारम्भिक विलम्ब">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="मिलिसेकेन्डमा कति गतिवर्धन गर्ने">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="पिक्सेल प्रति सेकेन्ड">
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="मिलिसेकेन्डमा न्युनतम अन्तराल">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="कुञ्जीपाटी ताल्चा मार्ने काम सक्षम पारिएको छ वा छैन">
+							<longdesc>कुञ्जीपाटी ताल्चा मार्ने काम सक्षम पारिएको छ वा छैन ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="विच्छेदको स्थगनलाई अनुमति दिनुहोस्">
+							<longdesc>टाइपिङ विच्छेद पर्दा स्थगर्न सकिन्छ या सकिँदैन ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="विच्छेद समय">
+							<longdesc>टाइपिङ वेच्छेद अन्त्य हुनुपर्ने मिनेटको सङ्ख्या ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="समय प्रकार">
+							<longdesc>विच्छेद मोड सुरु हुनुभन्दा पहिलाको टाइपिङ मिनेटको सङ्ख्या ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="पर्दामा ताल्चा लगाउन अक्षम पार्नुहोस्">
+							<longdesc>प्रयोगकर्तालाई उसको पर्दामा ताल्चा लगाउन रोक्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="प्रयोगकर्ता स्विचिङ अक्षम पार्नुहोस्">
+							<longdesc>प्रयोगकर्ताको सत्र सक्रिय हुदा उसलाई अन्य खातामा स्विच गर्नबाट रोक्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="मुद्रण सेटअप अक्षम पार्नुहोस्">
+							<longdesc>प्रयोगकर्तालाई मुद्रण सेटिङ परिमार्जन गर्न रोक्नुहोस् । उदाहरणका, लागि यसले सबै अनुप्रयोगका &quot;मुद्रण सेटअप&quot; संवादलाई पहुँच गर्न अक्षम बनाउदछ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="मुद्रण अक्षम पार्नुहोस्">
+							<longdesc>प्रयोगकर्तालाई मुद्रण कार्य गर्न रोक्नुहोस् । उदाहरणका लागि, यसले सबै अनुप्रयोगमा &quot;मुद्रण गर्नुहोस्&quot; संवादलाई पहुँच गर्न अक्षम पार्दछ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="डिस्कमा फाइल बचत गर्न अक्षम पार्नुहोस्">
+							<longdesc>प्रयोगकर्तालाई फाइल डिस्कमा बचत गर्नबाट रोक्नुहोस् । उदाहरणका लागि, यसले सबै अनुप्रयोगमा &quot;यस रुपमा बचत गर्नुहोस्&quot; संवादलाई पहुँच गर्न अक्षम पार्छ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="आदेश लाइन अक्षम पार्नुहोस्">
+							<longdesc>प्रयोगकर्तालाई टर्मिनलमा जाने सुविधाबाट वा कार्यान्वयन गरिने आदेश लाइन निर्दिष्ट गर्नबाट रोक्नुहोस् । उदाहरणका लागि यसले समूहका &quot;अनुप्रयोग चलाउनुहोस् &quot; संवादलाई पहुँच गर्नअक्षम पार्नेछ ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="रङ छाया पार्ने प्रकार">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="गौण रङ">
+							<longdesc>ठोस रङका लागि प्रयोग नगरी, ग्रेडियन्ट कोर्दा दायाँ र तलको रङ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="प्राथमिक रङ">
+							<longdesc>ग्रेडिएन्ट, वा ठोस रङ कोर्दा बाँया वा माथिको रङ ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="तस्बिर अस्पष्टता">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="तस्बिर फाइलनाम">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="तस्बिर विकल्प">
+							<longdesc>वालपेपर फाइलनामद्वारा सेट गरिएका छवि कसरी प्रदान गर्ने निर्धारण गर्दछ । सम्भावित मानहरू &quot;कुनै पनि होइन&quot;, &quot;वालपेपर&quot;, &quot;केन्द्रित&quot;, &quot;स्केल गरिएको&quot;, &quot;फैलिएको&quot;, &quot;जूम&quot; आदि हुन् ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="डेस्कटप पृष्ठभूमि कोर्नुहोस्">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="NumLock अवास्थालाई सम्झनुहोस्">
+								<longdesc>ठीकमा सेट गर्दा, जिनोमले सत्रहरू बीचको NumLock LED को अवास्थालाई सम्झन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="कुञ्जीपाटी घन्टी अनुकूल फाइल नाम">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>सम्भावित मान &quot;खुला&quot;, &quot;बन्द&quot;, र &quot;अनुकूल&quot; हुन् ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="कर्सर साइज">
+								<longdesc>कर्सर विषयवस्तुद्वारा सन्दर्भ गरिएका कर्सरको साइज ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="कर्सर विषयवस्तु">
+								<longdesc>कर्सर विषयवस्तु नाम । X कर्सर समर्थन गर्ने X सर्भरद्वारा मात्र प्रयोग गरिन्छ, जस्तै XFree86 4.3 र त्यसपछिका X कर्सर ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="कर्सर फन्ट">
+								<longdesc>कर्सरको फन्ट नाम । यदि सेटबाट हटाइएको भएमा, पूर्वनिर्धारित फन्ट प्रयोग गरिन्छ । यो मानले प्रत्येक सत्र शुरुमा X सर्भरलाई मात्र जनाउदछ, त्यसैले पछिल्लो पटक तपाईँले लगइन नगरेसम्म यसको मध्य सत्रमा गरिएका परिवर्तनले प्रभाव पार्दैन ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="सूचकको पहिचान गर्नुहोस्">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="समयमा डबल क्लिक गर्नुहोस्">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="थ्रेसहोल्ड तान्नुहोस्">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="थ्रेसहोल्डको कम्पन">
+								<longdesc>गतिवर्धन गरिएको माउसको चाल सक्रिया पार्नुभन्दा पहिले माउसको सूचक सारिने दुरी पिक्सेलमा । -१ पूर्वनिर्धारित प्रणाली मान हो ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="एकपटक मात्र क्लिक गर्नुहोस्">
+								<longdesc>माउस चालका लागि गुणक प्रवेग । -१ पूर्वनिर्धारित प्रणाली मान हो ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="एकपटक मात्र क्लिक गर्नुहोस्">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="माउस बटन अभिमूखिकरण">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="सबै बाह्य थम्बनेलर अक्षम पार्नुहोस्">
+							<longdesc>सबै बाह्य थम्बनेलर कार्यक्रम स्वतन्त्रतापूर्वक अक्षम/सक्षम पारिएको छ या छैन निर्भर नभई, यीनलाई अक्षम पार्न ठीकमा सेट गर्नुहोस् ।</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="पि डि एफ कागजातहरुका लागि थम्बनेल्स आदेश">
+								<longdesc>PDF कागजात थम्बनेलरका लागि वैध आदेश र तर्कहरू । धेरै जानकारीका लागि नटिलस थम्बनेलर मिसिलीकरण हर्नुहोस् ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पि डि एफ कागजातहरुको थम्बनेल गर्ने सक्षम पार्नुहोस्">
+								<longdesc>बुलियन विकल्पहरू उपलब्ध छ, थम्बनेलको सत्य सक्षमहरू र गलत अक्षमहरूले नयाँ थम्बनेलहरुको सिर्जना गर्दछ </longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="पि डि एफ कागजातहरुका लागि थम्बनेल्स आदेश">
+								<longdesc>PDF कागजात थम्बनेलरका लागि वैध आदेश र तर्कहरू । धेरै जानकारीका लागि नटिलस थम्बनेलर मिसिलीकरण हर्नुहोस् ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पि डि एफ कागजातहरुको थम्बनेल गर्ने सक्षम पार्नुहोस्">
+								<longdesc>बुलियन विकल्पहरू उपलब्ध छ, थम्बनेलको सत्य सक्षमहरू र गलत अक्षमहरूले नयाँ थम्बनेलहरुको सिर्जना गर्दछ </longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="पि डि एफ कागजातहरुका लागि थम्बनेल्स आदेश">
+								<longdesc>PDF कागजात थम्बनेलरका लागि वैध आदेश र तर्कहरू । धेरै जानकारीका लागि नटिलस थम्बनेलर मिसिलीकरण हर्नुहोस् ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="पि डि एफ कागजातहरुको थम्बनेल गर्ने सक्षम पार्नुहोस्">
+								<longdesc>बुलियन विकल्पहरू उपलब्ध छ, थम्बनेलको सत्य सक्षमहरू र गलत अक्षमहरूले नयाँ थम्बनेलहरुको सिर्जना गर्दछ </longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="ब्राउजरले टाढाको बुझ्दछ">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="ब्राउजरलाई टर्मिनल चाहिन्छ">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="पूर्वनिर्धारित ब्राउजर">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="कार्यस्थानका नामहरू (अमान्य)">
+								<longdesc>पहिलो सञ्झ्याल प्रबन्धक कार्यस्थानको नामहरुको एउटा सूची । यो कुञ्जी  GNOME २.१२ देखि अमान्य छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="कार्यस्थानका सङ्ख्या (अमान्य)">
+								<longdesc>सञ्झ्याल प्रबन्धकले प्रयोग गर्नुपर्ने कार्यस्थानको सङ्ख्या, यो कुञ्जी GNOME २.१२ देखि अमान्य ठानिएको छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="प्रयोगकर्ता सञ्झ्याल प्रबन्धक (अमान्य)">
+								<longdesc>पहिला प्रयास गरिने सञ्झ्याल प्रबन्धक । यो कुञ्जीलाई GNOME २.१२ देखि अमान्य ठानिएको छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="सञ्झ्याल प्रबन्धकलाई पछाडि धकेल्नुहोस् (अमान्य)">
+								<longdesc>प्रयोगकर्ता सञ्झ्याल प्रबन्धक फेला परेन भने सञ्झ्याल प्रबन्धकलाई पछाडि धकेल्नुहोस् । यो कुञ्जीलाई GNOME २.१२ देखि अमान्य बनाइएको छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="रुचाइएका गतिशीलता सहयोगी प्रविधि अनुप्रयोग सुरु गर्नुहोस्">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="रुचाइएका गतिशीलता सहयोगी प्रविधि अनुप्रयोग">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="रुचाइएका दृश्यात्मक सहयोगी प्रविधि अनुप्रयोग सुरु गर्नुहोस्">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="रुचाइएका दृश्य सहयोगी प्रविधि अनुप्रयोग">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="पूर्वनिर्धारित अवयव दर्शक अनुप्रयोग">
+								<longdesc>फाइल हेर्नका लागि प्रयोग गरिने अनुप्रयोगले ती फाइल हेर्नलाई केही तत्वको आवश्यकता महसुस गर्दछ । %s परामिति URIs फाइलमा प्रतिस्थापन गरिन्छन्, %c परामिति IID अवयवद्वारा प्रस्तिस्थापन गरिन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="कार्यान्वयन तर्क">
+								<longdesc>टर्मिनलमा &apos;exec&apos; कुञ्जीद्वारा परिभाषित गरिएका कार्यक्रम कार्यान्वयन गर्न प्रयोग गरिने तर्क ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="टर्मिनल अनुप्रयोग">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;h323&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;h323&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;h323&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;h323&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;callto&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;callto&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;callto&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;callto&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;aim&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट आदेशले &quot;aim&quot; URLs ह्यान्डल गर्नुपर्छ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;aim&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;mailto&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;mailto&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;mailto&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;mailto&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;https&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;https&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;https&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;https&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;http&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;http&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;http&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;http&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;man&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;man&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;man&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;man&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;info&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;info&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;info&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;info&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ghelp&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;ghelp&quot; URLs ह्यान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;ghelp&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;ghelp&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमा आदेश चलाउनुहोस् ।">
+								<longdesc>यदि आदेशलाई यस प्रकारको यूआरएल ह्यान्डल गर्न टर्मिनलमा चलाउनु पर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;trash&quot; URLs का लागि ह्यान्डलर">
+								<longdesc>यदि सक्षम पारिएमा, &quot;trash&quot; URLs हान्डल गर्न प्रयोग गरिने आदेश ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्दिष्ट गरिएको आदेशले &quot;trash&quot; URLs ह्यान्डल गर्नुपर्दछ या पर्दैन">
+								<longdesc>यदि &quot;command&quot; कुञ्जीमा निदिष्ट गरिएको आदेशले &quot;trash&quot; URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="यस प्रोफाइलको प्रयोग गरिन्छ या गरिदैँन">
+									<longdesc>यस प्रोफाइललाई प्रयोग र प्रदर्शन गर्ने या नगर्ने ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार">
+									<longdesc>यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम विस्तार ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन">
+									<longdesc>यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="अडियो प्रोफाइलका लागि विवरण">
+									<longdesc>बढी सूचना र प्रोफाइल कहिले प्रयोग गर्ने वर्णन समाविष्ट, प्रोफाइलको वर्णन ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="अडियो प्रोफाइलका लागि एउटा छोटो नाम">
+									<longdesc>प्रोफाइललाई अद्वितिय रूपमा पहिचान गर्न र चयनमा प्रयोग गरिने, अडियो प्रोफाइलका लागि छोटो नाम ।</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="यस प्रोफाइलको प्रयोग गरिन्छ या गरिदैँन">
+										<longdesc>यस प्रोफाइललाई प्रयोग र प्रदर्शन गर्ने या नगर्ने ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार">
+										<longdesc>यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम विस्तार ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन">
+										<longdesc>यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि विवरण">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि एउटा छोटो नाम">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार">
+										<longdesc>यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम विस्तार ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन">
+										<longdesc>यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि विवरण">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि एउटा छोटो नाम">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार">
+										<longdesc>यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम विस्तार ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन">
+										<longdesc>यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि विवरण">
+										<longdesc>बढी सूचना र प्रोफाइल कहिले प्रयोग गर्ने वर्णन समाविष्ट, प्रोफाइलको वर्णन ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि एउटा छोटो नाम">
+										<longdesc>प्रोफाइललाई अद्वितिय रूपमा पहिचान गर्न र चयनमा प्रयोग गरिने, अडियो प्रोफाइलका लागि छोटो नाम ।</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार">
+										<longdesc>यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम विस्तार ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन">
+										<longdesc>यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि विवरण">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि एउटा छोटो नाम">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार">
+										<longdesc>यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम विस्तार ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन">
+										<longdesc>यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि विवरण">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि एउटा छोटो नाम">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार">
+										<longdesc>यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम विस्तार ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन">
+										<longdesc>यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि विवरण">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि एउटा छोटो नाम">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="यस प्रोफाइलका लागि पूर्वनिर्धारित फाइल विस्तार">
+										<longdesc>यस प्रोफाइलसँग सङ्केतन गरिएका फाइल भण्डारण गर्दा प्रयोग हुने एउटा फाइल नाम विस्तार ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="प्रयोग गरिने आंशिक जिस्ट्रिमर पाइपलाइन">
+										<longdesc>यस प्रोफाइलका लागि प्रयोग गरिने एउटा आंशिक जिस्ट्रिमर पाइपलाइन ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि विवरण">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="अडियो प्रोफाइलका लागि एउटा छोटो नाम">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="प्रोफाइलको सूची">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="एसएमबी (SMB) कार्यसमूह">
+						<longdesc>विण्डोज नेटवर्किङ कार्यसमूह वा डोमेन जुन प्रयोगकर्ता एउटा अंश हो । नयाँ कार्यसमूहका लागि पूरै प्रभाव पार्न प्रयोगकर्ताले लग आउट गरेर फेरि लगइन गर्नुपर्दछ ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="यस भित्र DNS-SD सेवा खोज्नका लागि अतिरिक्त डोमेन">
+						<longdesc>अल्पविरामले DNS-SD डोमेनको सूची विभाजन गर्दछ जुन &quot;network:///&quot; स्थानमा देखिने हुनुपर्दछ ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="स्थानीय DNS-SD सेवा कसरी प्रदर्शन गर्नुहुन्छ">
+						<longdesc>सम्भावित मान &quot;गाभिएका&quot;, &quot;विभाजन&quot; र &quot;अक्षम&quot; हुन् ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="स्वचालित प्रोक्सी कन्फिगरेसन यूआरएल">
+						<longdesc>प्रोक्सी कन्फिगरेसन मान प्रदान गर्ने यूआरएल ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="SOCKS प्रोक्सी पोर्ट">
+						<longdesc>तपाईँले प्रोक्सि गर्नुभएको &quot;/system/proxy/socks_host&quot; द्वारा परिभाषित मेसिनको पोर्ट ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="SOCKS प्रोक्सी होस्टनाम">
+						<longdesc>सक्सबाट प्रोक्सी गर्ने मेसिनको नाम ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="एफटीपी (FTP) प्रोक्सी पोर्ट">
+						<longdesc>तपाईँले प्रोक्सि गर्नुभएको &quot;/system/proxy/ftp_host&quot; द्वारा परिभाषित मेसिनको पोर्ट ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="एफटीपी (FTP) प्रोक्सी होस्टनाम">
+						<longdesc>एफटीपी (FTP)बाट प्रोक्सी गर्ने मेसिन नाम</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="एचटीटीपी (HTTP) प्रोक्सी पोर्ट सुरक्षित राख्नुहोस्">
+						<longdesc>तपाईँले प्रोक्सि गर्नुभएको &quot;/system/proxy/socks_host&quot; द्वारा परिभाषित मेसिनको पोर्ट ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="एचटीटीपी (HTTP) प्रोक्सी होस्टनाम सुरक्षित राख्नुहोस्">
+						<longdesc>एचटीटीपी (HTTP)बाट प्रोक्सी सुरक्षित गर्ने मेसिन नाम ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="प्रोक्सी कन्फिगरेसन मोड">
+						<longdesc>प्रोक्सी कन्फिगरेसन मोड चयन गर्नुहोस् । समर्थित मान &quot;कुनै पनि होइन&quot;, &quot;म्यानुअल&quot;, &quot;स्वचालित&quot; हुन् ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="प्रोक्सी-नभएका होस्ट">
+						<longdesc>यस कुञ्जीले प्रोक्सी मार्फत नभइ प्रत्यक्ष जडित होस्टको सूची समावेश गर्दछ (यदि यो सक्रिय भएमा) । यसका मानहरू, होस्टनाम, डोमेन ( *.foo.com जस्ता प्रारम्भिक वाइल्डकार्ड प्रयोग गर्ने), आई पी होस्ट ठेगाना (दुवै IPv4 र IPv6) तथा नेटमास्क भएका सञ्जाल ठेगानाहरू (१९२.१६८.०.०/२४ जस्ता केही वस्तु) हुन् ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="एचटीटीपी (HTTP) प्रोक्सी पासवर्ड">
+						<longdesc>एचटीटीपी (HTTP) प्रोक्सी गर्दा प्रमाणिकरणको रूपमा पास गरिने पासवर्ड ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="एचटीटीपी (HTTP) प्रोक्सी प्रयोगकर्ता नाम">
+						<longdesc>एचटीटीपी प्रोक्सी गर्दा, प्रमाणीकरणका रूपमा पास गरिने प्रयोगकर्ता नाम ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="प्रमाणीकरण प्रोक्सी सर्भर जडान">
+						<longdesc>यदि ठीक भएमा, त्यसपछि प्रोक्सी सर्भरसँग जडान गर्न प्रमाणिकरण चाहिन्छ ।&quot;/system/http_proxy/authentication_user&quot; र &quot;/system/http_proxy/authentication_password&quot; द्वारा प्रयोगकर्तानाम/पासवर्ड कम्बो परिभाषित गरिन्छ ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="एचटीटीपी (HTTP) प्रोक्सी पोर्ट">
+						<longdesc>तपाईँले प्रोक्सी गर्ने &quot;/system/http_proxy/host&quot; द्वारा परिभाषित मेसिनको पोर्ट ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="एचटीटीपी (HTTP) प्रोक्सी होस्टनाम">
+						<longdesc>एचटीटीपी (HTTP)बाट प्रोक्सी गर्ने मेसिन नाम ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="एचटीटीपी प्रोक्सी प्रयोग गर्नुहोस्">
+						<longdesc>इन्टरनेटमा एचटीटीपीले पहुँच प्राप्त गर्दा प्रोक्सी सेटिङ सक्षम पार्दछ ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

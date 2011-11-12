@@ -1,0 +1,2069 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="Benyt hurtig animation">
+						<longdesc>Hvis dette sættes til &quot;FALSE&quot; falder delene langsomt, men graciøst. Sættes dette til &quot;TRUE&quot; falder delene hurtigt og rykvis.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Højden af det tilpassede bræt">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Bredden af det tilpassede bræt">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="Brætstørrelsen">
+						<longdesc>Brætstørrelsen. 1 = Brugertilpasset, 2 = Lille, 3 = Mellemstor, 4 = Stor.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="Temaet der skal benyttes">
+						<longdesc>Navnet på temafilen der skal benyttes.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Slip kugle">
+						<longdesc>Tastetryk for at slippe en kugle.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Træk til højre">
+						<longdesc>Tastetryk for at flytte til højre.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Træk til venstre">
+						<longdesc>Tastetryk for at flytte til venstre.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Lyd">
+						<longdesc>Om lydhændelser skal afspilles.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Animér">
+						<longdesc>Om animering skal benyttes.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="Tema-id">
+						<longdesc>En tal der angiver det foretrukne tema.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Niveau for spiller to">
+						<longdesc>Nul er menneske; Et til tre svarer til sværhedsgraden for computerspilleren.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Niveau for spiller en">
+						<longdesc>Nul er menneske; Et til tre svarer til sværhedsgraden for computerspilleren.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Spilforhåndsvisning">
+							<longdesc>Spilforhåndsvisning fra sidste gemte session.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Spillefelt">
+							<longdesc>Spillefeltet fra sidste gemte session.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Spilpoint">
+							<longdesc>Spilpoint fra sidste gemte session.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Tid mellem flytninger">
+							<longdesc>Tid mellem flytninger i millisekunder.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Baggrundsfarve">
+							<longdesc>Baggrundsfarve. Hexadecimal specifikation af baggrundsfarven.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Boldstil">
+							<longdesc>Boldstil. Filnavnet på de billeder der skal bruges til kuglerne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Banestørrelse">
+							<longdesc>Banestørrelse. 1=Lille, 2=Mellemstor, 3=Stor. Alle andre værdier er ugyldige.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="Siden af brættet der vises">
+						<longdesc>Siden af brættet der er i forgrunden, enten &quot;white&quot;, &quot;black&quot;, &quot;current&quot; (den nuværende spiller) eller &quot;human&quot; (den nuværende menneskespillers side)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="Formatet til visning af træk">
+						<longdesc>Formatet som træk vises i - kan være enten &quot;human&quot; (menneske-læselig), &quot;lan&quot; (lang algebraisk notation) eller &quot;san&quot; (algebraisk notation)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="Mappen hvori &quot;hent spil&quot;-vinduet åbnes">
+						<longdesc>Mappen hvori &quot;hent spil&quot;-vinduet åbnes</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="Mappen hvori &quot;gem spil&quot;-vinduet åbnes">
+						<longdesc>Mappen hvori &quot;gem spil&quot;-vinduet åbnes</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Et flag der aktiverer værktøjslinjen">
+						<longdesc>Et flag der aktiverer værktøjslinjen</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="Et flag der aktiverer trækhistorie-læseren">
+						<longdesc>Et flag der aktiverer trækhistorie-læseren</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="Et flag der aktiverer visning af trækkommentarer">
+						<longdesc>Et flag der aktiverer visning af trækkommentarer</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="Et flag der aktiverer brætnummerering">
+						<longdesc>Et flag der aktiverer brætnummerering</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="Et flag der aktiverer trækfif">
+						<longdesc>Et flag der aktiverer trækfif</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="Et flag der aktiverer 3D-tilstand">
+						<longdesc>Et flag der aktiverer 3D-tilstand</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="Brikken som bønder forfremmes til">
+						<longdesc>Brikken som der forfremmes til idet en menneskespiller flytter en bonde til den modsatte række. Kan være: &quot;queen&quot;, &quot;knight&quot;, &quot;rook&quot;, &quot;bishop&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="Et flag der aktiverer understøttelse af netværksspil">
+						<longdesc>Et flag der aktiverer understøttelse af netværksspil</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="Et flag der aktiverer fuldskærmstilstand">
+						<longdesc>Et flag der aktiverer fuldskærmstilstand</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="Et flag der aktiverer maksimeret tilstand">
+						<longdesc>Et flag der aktiverer maksimeret tilstand</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="Højden af vinduet">
+						<longdesc>Højden af hovedvinduet i billedpunkter.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Bredden af vinduet">
+						<longdesc>Bredden af hovedvinduet i billedpunkter.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="Et flag der tillader fjerne spillere at observere nye spil">
+							<longdesc>Et flag der tillader fjerne spillere at observere nye spil</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="Tidsrummet hver spiller har til at foretage træk i nye spil">
+							<longdesc>Tidsrummet hver spiller har til at foretage træk i nye spil</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="Standardsværhedsgraden for sort spiller i nye spil">
+								<longdesc>Standardsværhedsgraden for sort spiller i nye spil</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Forvalgt spillertype for sort i nye spil">
+								<longdesc>Forvalgt spillertype for sort i nye spil</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="Standardsværhedsgraden for hvid spiller i nye spil">
+								<longdesc>Standardsværhedsgraden for hvid spiller i nye spil</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Forvalgt spillertype for hvid i nye spil">
+								<longdesc>Forvalgt spillertype for hvid i nye spil</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="Nyligt spillede">
+						<longdesc>En liste af nyligt spillede spil.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="Statistik for spillede spil">
+						<longdesc>En liste af strenge udformede som femtupler: navn, vundne, totalt spillede spil, bedste tid (i sekunder) og dårligste tid (også i sekunder). Spil der ikke er blevet prøvet, behøver ikke at blive repræsenteret.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Spilfil der skal benyttes">
+						<longdesc>Navnet på den Scheme-fil der indeholder kortspillet der skal spilles.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Lyd">
+						<longdesc>Om lydhændelser skal afspilles.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Vælg kontrolstilen">
+						<longdesc>Vælg mellem træk og slip eller at klikke først på startpunkt så på slutpunkt.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_statusbar">
+					<local_schema short_desc="Om statuslinjen skal vises">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Om værktøjslinjen skal vises">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Temafilnavn">
+						<longdesc>Navnet på filen med grafikken til kortene.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Tast til at vente">
+							<longdesc>Navnet på tasten til at vente. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Tast til at teleportere tilfældigt">
+							<longdesc>Navnet på tasten til at teleportere tilfældigt. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Tast til teleport">
+							<longdesc>Navnet på tasten til at teleportere sikkert (om muligt). Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Tast til at flytte SØ">
+							<longdesc>Navnet på tasten til at flytte mod sydøst. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Tast til at flytte S">
+							<longdesc>Navnet på tasten til at flytte mod syd. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Tast til at flytte SV">
+							<longdesc>Navnet på tasten til at flytte mod sydvest. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Tast til at flytte Ø">
+							<longdesc>Navnet på tasten til at flytte mod øst. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Tast at trykke">
+							<longdesc>Navnet på tasten til at stå stille. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Tast til at flytte V">
+							<longdesc>Navnet på tasten til at flytte mod vest. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Tast til at flytte NØ">
+							<longdesc>Navnet på tasten til at flytte mod nordøst. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Tast til at flytte N">
+							<longdesc>Navnet på tasten til at flytte mod nord. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Tast til at flytte NV">
+							<longdesc>Navnet på tasten til at flytte mod nordvest. Navnet er et standard X-tastenavn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Aktivér splat">
+							<longdesc>Aktivér splat. Afspil en lyd og vis et &quot;Splat!&quot; på skærmen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Aktivér spillyde">
+							<longdesc>Aktivér spillyde. Afspil lyde for forskellige hændelser i spillet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Benyt supersikre træk">
+							<longdesc>Benyt supersikre træk. Spilleren blive advaret når der ikke er nogen sikre træk og den eneste mulighed er at teleportere sig væk.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Benyt sikre træk">
+							<longdesc>Benyt sikre træk. Denne indstiling kan hjælpe dig med at undgå at blive dræbt pga. en fejl. Hvis du forsøger at bevæge dig i en retning der ville forårsage din død når der er et sikkert træk tilgængeligt, vil du ikke få lov til at fortsætte.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Spiltype">
+							<longdesc>Spiltype. Navnet på den spilvariation der skal bruges.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Baggrundsfarve">
+							<longdesc>Baggrundsfarve. Hexadecimal specifikation af baggrundsfarven.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Robotbilledtema">
+							<longdesc>Robotbilledtema. Det tema for billeder der skal bruges til robotterne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="Vis værktøjslinje">
+							<longdesc>Vis værktøjslinje. Et standard alternativ for værktøjslinjer.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Størrelse af spilfliser">
+							<longdesc>Størrelse af spilfliser.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Aktivér lyde">
+							<longdesc>Aktivér lyde.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Spilbane der startes på">
+							<longdesc>Spilbane der startes på.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Spil baner i tilfældig rækkefølge">
+							<longdesc>Spil baner i tilfældig rækkefølge.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Aktivér falske bonuser">
+							<longdesc>Aktivér falske bonuser.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Spilhastighed">
+							<longdesc>Spilhastighed (1 = hurtig, 4 = langsom).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="Antal computerstyrede spillere">
+							<longdesc>Antal computerstyrede spillere.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="Antal menneskelige spillere">
+							<longdesc>Antal menneskelige spillere.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Træk til højre">
+									<longdesc>Tast til at bevæge orm til højre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Træk til venstre">
+									<longdesc>Tast til at bevæge orm til venstre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Flyt ned">
+									<longdesc>Tast til at bevæge orm nedad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Flyt op">
+									<longdesc>Tast til at bevæge orm opad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Benyt relativ bevægelse">
+									<longdesc>Benyt relativ bevægelse (dvs. til venstre eller højre kun).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Farve der skal bruges til orm">
+									<longdesc>Farve der skal bruges til orm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Træk til højre">
+									<longdesc>Tast til at bevæge orm til højre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Træk til venstre">
+									<longdesc>Tast til at bevæge orm til venstre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Flyt ned">
+									<longdesc>Tast til at bevæge orm nedad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Flyt op">
+									<longdesc>Tast til at bevæge orm opad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Benyt relativ bevægelse">
+									<longdesc>Benyt relativ bevægelse (dvs. til venstre eller højre kun).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Farve der skal bruges til orm">
+									<longdesc>Farve der skal bruges til orm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Træk til højre">
+									<longdesc>Tast til at bevæge orm til højre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Træk til venstre">
+									<longdesc>Tast til at bevæge orm til venstre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Flyt ned">
+									<longdesc>Tast til at bevæge orm nedad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Flyt op">
+									<longdesc>Tast til at bevæge orm opad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Benyt relativ bevægelse">
+									<longdesc>Benyt relativ bevægelse (dvs. til venstre eller højre kun).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Farve der skal bruges til orm">
+									<longdesc>Farve der skal bruges til orm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Træk til højre">
+									<longdesc>Tast til at bevæge orm til højre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Træk til venstre">
+									<longdesc>Tast til at bevæge orm til venstre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Flyt ned">
+									<longdesc>Tast til at bevæge orm nedad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Flyt op">
+									<longdesc>Tast til at bevæge orm opad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Benyt relativ bevægelse">
+									<longdesc>Benyt relativ bevægelse (dvs. til venstre eller højre kun).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Farve der skal bruges til orm">
+									<longdesc>Farve der skal bruges til orm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Træk til højre">
+									<longdesc>Tast til at bevæge orm til højre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Træk til venstre">
+									<longdesc>Tast til at bevæge orm til venstre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Flyt ned">
+									<longdesc>Tast til at bevæge orm nedad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Flyt op">
+									<longdesc>Tast til at bevæge orm opad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Benyt relativ bevægelse">
+									<longdesc>Benyt relativ bevægelse (dvs. til venstre eller højre kun).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Farve der skal bruges til orm">
+									<longdesc>Farve der skal bruges til orm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Træk til højre">
+									<longdesc>Tast til at bevæge orm til højre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Træk til venstre">
+									<longdesc>Tast til at bevæge orm til venstre.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Flyt ned">
+									<longdesc>Tast til at bevæge orm nedad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Flyt op">
+									<longdesc>Tast til at bevæge orm opad.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Benyt relativ bevægelse">
+									<longdesc>Benyt relativ bevægelse (dvs. til venstre eller højre kun).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Farve der skal bruges til orm">
+									<longdesc>Farve der skal bruges til orm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Vælg kontrolstilen">
+						<longdesc>Vælg mellem træk og slip eller at klikke først på startpunkt så på slutpunkt.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="Indstil farvede felter">
+						<longdesc>Et flag der aktiverer farvede felter.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="Størrelsen af spillefeltet">
+						<longdesc>Værdien af denne nøgle bruges til at bestemme størrelsen af gitteret. De mulige værdier er 2 til 8, alt andet bliver sat til 3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Pause">
+							<longdesc>Tastetryk for at holde en pause.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Rotér">
+							<longdesc>Tastetryk for at rotere.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Slip">
+							<longdesc>Tastetryk for at slippe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Flyt ned">
+							<longdesc>Tastetryk for at flytte ned.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Træk til højre">
+							<longdesc>Tastetryk for at flytte til højre.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Træk til venstre">
+							<longdesc>Tastetryk for at flytte til venstre.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Tæthed af fyldte rækker">
+							<longdesc>Tætheden af blokke i rækker der er fyldt i starten af spillet. Værdien er mellem 0 (for ingen blokke) og 10 (for en helt fyldt række).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Antallet af rækker der skal fyldes op">
+							<longdesc>Antallet af rækker der er fyldt med tilfældige blokke i starten af spillet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Om der skal roteres mod uret">
+							<longdesc>Om der skal roteres mod uret.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Om blokke skal have tilfældige farver">
+							<longdesc>Om blokke skal have tilfældige farver.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="Om der gives et mål">
+							<longdesc>Om der tegnes en grafisk repræsentation af klodsens landingssted.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Om næste blok skal vises på forhånd">
+							<longdesc>Om næste blok skal vises på forhånd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Baggrundsfarven">
+							<longdesc>Baggrundsfarven i et format som gdk_color_parse forstår.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Om baggrundsbilledet skal benyttes">
+							<longdesc>Dette vælger om baggrundsbilledet tegnes over baggrundsfarven eller ej.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Niveau der startes på">
+							<longdesc>Niveau der startes på.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Billede som bruges til at tegne blokke">
+							<longdesc>Navnet på temaet der benyttes til at tegne klodser og baggrund.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Billede som skal bruges til at tegne blokke">
+							<longdesc>Billed som skal bruges til at tegne blokke.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Vis computerens tanker">
+						<longdesc>Hvis denne sættes til &quot;true&quot; vil et dump af de aktive computerspilleres arbejde blive sendt til standard uddata.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Pause mellem kast">
+						<longdesc>Vælg om der skal indsættes en pause mellem computerens terningkast så spilleren kan følge hvad der sker.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="Det igangværende spil">
+						<longdesc>Spillets nummer.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nm-applet">
+				<entry name="stamp">
+					<local_schema short_desc="Stempel">
+						<longdesc>Bliver brugt til at bestemme, hvorvidt indstillinger skal migreres til en ny version.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="suppress-wireless-networks-available">
+					<local_schema short_desc="Tilbagehold påmindelser om tilgængelige netværk">
+						<longdesc>Sæt denne til SAND for at deaktivere påmindelser, når trådløse netværk er tilgængelige.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-disconnected-notifications">
+					<local_schema short_desc="Deaktivér påmindelse ved afbrudt forbindelse">
+						<longdesc>Set denne til SAND for at deaktivere påmindelser ved afbrydelse af forbindelse til netværk.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-connected-notifications">
+					<local_schema short_desc="Deaktivér påmindelse ved etableret forbindelse">
+						<longdesc>Sæt denne til SAND for at deaktivere påmindelser ved oprettelse af forbindelse til netværk.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Lyd">
+						<longdesc>Om lydhændelser skal afspilles.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Automatiske rettelser">
+							<longdesc>Automatiske rettelser</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Sortér stigende">
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Skeln mellem store og små bogstaver">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="Om statusikonet skal vises">
+						<longdesc>Om statusikonet skal vises.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Ignorér dokumentbegrænsninger">
+						<longdesc>Ignorér dokumentbegrænsninger såsom begrænsninger på at kopiere eller udskrive.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="Aktivér automatisk placering af flag">
+						<longdesc>Sæt til &quot;true&quot; for at få gnomine til automatisk at sætte flag på felter, når tilstrækkeligt mange felter er afsløret</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="Advarsel om for mange flag">
+						<longdesc>Sæt til &quot;true&quot; for at aktivere advarselsikoner når der er placeret for mange flag.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="Benyt ukendt-flaget">
+						<longdesc>Sæt til &quot;true&quot; for at kunne angive kvadrater som ukendte.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="Brætstørrelse">
+							<longdesc>Brætstørrelse (0-2 = lille-stor, 3 = brugertilpasset)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="Antallet af miner i et brugertilpasset spil">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="Antal rækker i et brugertilpasset spil">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="Antal kolonner i et brugertilpasset spil">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Om værktøjslinjen skal vises">
+						<longdesc>Om værktøjslinjen skal vises.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Mængden af penge i banken">
+							<longdesc>Mængden af penge i banken.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Temafilnavn">
+							<longdesc>Navnet på filen med grafikken til kortene.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Tag aldrig forsikring">
+							<longdesc>Tag aldrig forsikring når kortgiveren viser et es.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Benyt hurtig kortgivning">
+							<longdesc>Benyt hurtig kortgivning uden pause mellem hvert kort.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Vis sandsynligheder">
+							<longdesc>Vis sandsynlighederne for hver af kortgiverens udfald og den forventede værdi af din hånd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Fil med variationer af reglerne">
+							<longdesc>Navnet på den regelfil som indeholder variationen af de regler der skal spilles efter.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Aktivér fejlbrændingssikring">
+						<longdesc>Om Burnproof-fejlbrændingssikring, tilgængelig på nogle brændere, skal bruges.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Aktivér overbrænding">
+						<longdesc>Om data må overstige størrelsen af det fysiske medium.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Aktivér fejlfinding">
+						<longdesc>Om fejlfinding for cdbrænding er aktiveret.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Standardhastighed">
+						<longdesc>Standardhastighed som mediet vil blive skrevet med.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Mappe til de midlertidige ISO-aftryk">
+						<longdesc>Mappe til de midlertidige ISO-aftryk, efterlad tom for at benytte systemets standardmappe til midlertidige filer.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="Om PKCS#11-komponenten i gnome-keyring er aktiveret.">
+							<longdesc>Dette aktiverer PKCS#11-komponenten i gnome-keyring-dæmonen. Dette træder kun i kraft når gnome-keyring-daemon startes (f.eks. når brugeren logger ind). Denne indstilling bliver måske overskrevet når visse kommandolinje-tilvalg gives til dæmonen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="Om SSH-agenten i gnome-keyring er aktiveret.">
+							<longdesc>Dette aktiverer SSH-agenten i gnome-keyring-dæmonen. Dette træder kun i kraft når gnome-keyring-daemon startes (f.eks. når brugeren logger ind). Denne indstilling bliver måske overskrevet når visse kommandolinje-tilvalg gives til dæmonen.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Filikontema">
+							<longdesc>Tema som benyttes til at vise filikoner.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="Inddata-tilbagemeldingslyde">
+							<longdesc>Om der skal afspilles lyde ved inddatahændelser.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="Lydtemanavn">
+							<longdesc>Det XDG-lydtema som skal bruges til begivenhedslyde.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="Lyde for hændelser">
+							<longdesc>Om der skal afspilles lyde ved brugerhændelser.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Aktivér ESD">
+							<longdesc>Aktivér start af lydserver.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="Forvalgt mixerspor">
+							<longdesc>Det forvalgte mixerspor der skal bruges af multimedie-tastebindingerne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="Forvalgt mixerenhed">
+							<longdesc>Den forvalgte mixerenhed der skal bruges af multimedie-tastebindingerne.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Vis menuen &quot;Unicode-kontroltegn&quot;">
+							<longdesc>Om kontekstmenuen i indtastnings- og tekstfelter skal gøre det muligt at indsætte kontroltegn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Vis menuen &quot;Indtastningsmetoder&quot;">
+							<longdesc>Om kontekstmenuerne i indtastnings- og tekstfelter skal gøre det muligt at ændre indtastningsmetoden.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Menulinje-genvej">
+							<longdesc>Tastaturgenvej for at åbne menulinjerne.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modul for GtkFileChooser">
+							<longdesc>Modul som skal bruges som filsystemsmodellen for GtkFileChooser-kontrollen. Mulige værdier er &quot;gio&quot;, &quot;gnome-vfs&quot; og &quot;gtk+&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Statuslinje til højre">
+							<longdesc>Om der skal vises en statuslinjemåler til højre.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Benyt brugerdefineret skrifttype">
+							<longdesc>Om der skal benyttes en brugerdefineret skrifttype i GTK+-programmer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Fast bredde-skrifttype">
+							<longdesc>Navn på fast bredde skrifttype til brug i f.eks. terminaler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Dokument-skrifttype">
+							<longdesc>Navn på den forvalgte skrifttype der benyttes til dokumenter.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="GTK IM-modul">
+							<longdesc>Navn på indtastningsmetode-modulet, der bruges af GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM-statusstil">
+							<longdesc>Navn på den statusstil der benyttes af GTK+, til GTK+-indtastningsmetoden.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM-præredigeringsstil">
+							<longdesc>Navn på den præredigeringsstil der benyttes af GTK+, til GTK+-indtastningsmetoden.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Forvalgt skrifttype">
+							<longdesc>Navn på den forvalgte skrifttype der benyttes af GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="GTK+-tema">
+							<longdesc>Grundnavn til det forvalgte tema som benyttes af GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="GTK+-tema">
+							<longdesc>Grundnavn til det forvalgte tema som benyttes af GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Ikontema">
+							<longdesc>Ikontema der skal benyttes til panelet, Nautilus osv.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Markørblinkningstid">
+							<longdesc>Længde af markørblinkningscyklus, i millisekunder.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Markør blinker">
+							<longdesc>Om markøren skal blinke.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Ikonstørrelse for værktøjslinjer">
+							<longdesc>Størrelse af ikoner i værktøjsbjælker, enten &quot;small-toolbar&quot; eller &quot;large-toolbar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Værktøjslinjer kan frigøres">
+							<longdesc>Om brugeren kan frigøre værktøjslinjer og flytte dem omkring.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Menulinjer kan frigøres">
+							<longdesc>Om brugeren kan frigøre menulinjer og flytte dem omkring.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="Knapper har ikoner">
+							<longdesc>Om knapper kan vise et ikon ud over knapteksten.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Menuer har ikoner">
+							<longdesc>Om menuer kan vise et ikon ved siden af et menupunkt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Stil for værktøjslinjer">
+							<longdesc>Værktøjslinjestil. Gyldige værdier er &quot;both&quot;, &quot;both-horiz&quot;, &quot;icons&quot;, og &quot;text&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Kan ændre genveje">
+							<longdesc>Om brugeren dynamisk kan indtaste en ny genvej ved position over et aktivt menupunkt.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Menuer har afrivningslinjer">
+							<longdesc>Om menuer skal kunne afrives.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Aktivér animationer">
+							<longdesc>Om animationer skal vises. Bemærk: dette er en global nøgle, den ændrer opførslen for vindueshåndteringen, panelet osv.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Aktivér tilgængelighed">
+							<longdesc>Om programmer skal have tilgængelighedsunderstøttelse.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Assisterende teknologier ved start">
+								<longdesc>List af assisterende teknologier som skal startes når der logges ind.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>Bip når der trykkes på modifikationstast.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Deaktivér hvis to taster trykkes ned på samme tid.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Minimalt interval i millisekunder">
+								<longdesc>Acceptér ikke en tast som værende trykket ned medmindre den holdes @delay antal millisekunder.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Begyndelsesventetid i millisekunder">
+								<longdesc>Hvor mange millisekunder der skal ventes før museflytningstasterne begynder at virke.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Hvor lang tid der accelereres i millisekunder">
+								<longdesc>Hvor mange millisekunder det tager at gå fra 0 til maksimal fart.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Punkter pr. sekund">
+								<longdesc>Hvor mange punkter pr. sekund der skal flyttes ved maksimal fart.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="minimalt interval i millisekunder">
+								<longdesc>Ignorér flere tryk på den _samme_ tast inden for @delay millisekunder.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Om tastaturlås er aktiveret">
+							<longdesc>Om tastaturlås er aktiveret.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Tillad udsættelse af pauser">
+							<longdesc>Om tastepause-skærmen kan udsættes.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Pausetid">
+							<longdesc>Antal minutter som indtastningspausen skal vare.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Indtastningstid">
+							<longdesc>Antal minutters indtastningstid før pausetilstand begynder.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="Deaktivér URL- og MIME-typehåndtering">
+							<longdesc>Forhindr kørsel af URL- og MIME-typehåndteringsprogrammer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Deaktivér låsning af skærm">
+							<longdesc>Forhindr brugeren i at låse skærmen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Deaktivér brugerskift">
+							<longdesc>Forhindr brugeren i at skifte til en anden konto mens hans session er aktiv.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Deaktivér udskriftsopsætning">
+							<longdesc>Forhindr brugeren i at ændre udskriftsindstillingerne. Dette vil f.eks. forhindre tilgang til alle programmers &quot;Udskriftsopsætning&quot;-vinduer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Deaktivér udskrivning">
+							<longdesc>Forhindr brugeren i at udskrive. Dette vil f.eks. forhindre tilgang til alle programmers &quot;Udskriv&quot;-vinduer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Deaktivér gemning af filer på disken">
+							<longdesc>Forhindr brugeren i at gemme filer på disken. Dette vil f.eks. deaktivere tilgang til alle progammers &quot;Gem som&quot;-vinduer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Deaktivér kommandolinje">
+							<longdesc>Forhindr brugeren i at tilgå terminalen eller angive en kommandolinje der skal køres. Dette vil f.eks. forhindre tilgangen til panelets &quot;Kør program&quot;-vindue.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Farvelægningstype">
+							<longdesc>Hvordan baggrundsfarven skal tegnes. Mulige værdier er &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; og &quot;solid&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Sekundær farve">
+							<longdesc>Højre eller nederste farve ved tegning af farveovergange, benyttes ikke til ved ensfarvet baggrund.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Primær farve">
+							<longdesc>Venstre eller øverste farve ved tegning af farveovergange, eller blot den enkelte farve hvis ensfarvet.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Billeduigennemsigtighed">
+							<longdesc>Uigennemsigtighedsgrad som baggrundsbilledet skal tegnes med.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Billedfilnavn">
+							<longdesc>Fil der skal bruges som baggrundsbillede.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Billedindstillinger">
+							<longdesc>Afgør hvordan billedet der er sat af wallpaper_filename optegnes. Mulige værdier er &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Optegn skrivebordsbaggrund">
+							<longdesc>Lad Gnome optegne skrivebordsbaggrunden.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>Maksimumstørrelse af miniature-mellemlager i megabyte. Sæt til -1 for at slå oprydning fra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>Maksimumsalder for miniaturer i mellemlager i dage. Sæt til -1 for at slå oprydning fra.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Husk NumLock-tilstand">
+								<longdesc>Hvis sand vil Gnome huske tilstanden af NumLock-lyset mellem sessioner.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Brugerdefineret filnavn til tastaturklokke">
+								<longdesc>Filnavn for den klokkelyd der skal afspilles.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>mulige værdier er &quot;on&quot;, &quot;off&quot; og &quot;custom&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Markørstørrelse">
+								<longdesc>Størrelsen af den markør som bliver refereret til at af cursor_theme.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Markørtema">
+								<longdesc>Markørtemaets navn. Bruges kun af X-servere der understøtter Xcursor såsom XFree86 4.3 og senere.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Markørskrifttype">
+								<longdesc>Skrifttypenavn for markøren. Hvis ikke sat, benyttes standardskrifttypen. Denne værdi bliver kun sendt til X-serveren ved begyndelsen af hver session så en ændring under en session træder først i kraft næste gang der logges på.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Lokalisér markør">
+								<longdesc>Fremhæv den aktuelle placering af markøren når Ctrl-tasten trykkes ned og slippes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Dobbeltkliktid">
+								<longdesc>Længden af et dobbeltklik.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Trækketærskel">
+								<longdesc>Afstand før en træk-og-slip påbegyndes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Bevægelsestærskel">
+								<longdesc>Afstand i punkter som markøren skal flytte sig før den accelererede musebevægelse aktiveres. En værdi på -1 er systemets standard.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Enkeltklik">
+								<longdesc>Accelerationsfaktor for musebevægelser. En værdi på -1 er systemets standard.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Enkeltklik">
+								<longdesc>Enkeltklik for at åbne ikoner.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Museknapsorientering">
+								<longdesc>Ombyt venstre og højre museknapper til venstrehåndsmus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Deaktivér alle eksterne miniaturegenereringer">
+							<longdesc>Om alle eksterne miniaturegenereringer skal deaktiveres, uafhængigt af om de bliver deaktiveret/aktiveret hver for sig.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="Miniature-kommando til PDF-dokumenter">
+								<longdesc>Gyldig kommando plus parametre til miniaturegenerering af PDF-dokumenter. Se dokumentationen for Nautilus&apos; miniaturegenerering for flere oplysninger.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Aktivér miniaturer for PDF-dokumenter">
+								<longdesc>Kan have boolske værdier: Hvis sand aktiveres generering af miniaturer, hvis falsk deaktiveres genereringen af nye</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="Miniature-kommando til PDF-dokumenter">
+								<longdesc>Gyldig kommando plus parametre til miniaturegenerering af PDF-dokumenter. Se dokumentationen for Nautilus&apos; miniaturegenerering for flere oplysninger.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Aktivér miniaturer for PDF-dokumenter">
+								<longdesc>Kan have boolske værdier: Hvis sand aktiveres generering af miniaturer, hvis falsk deaktiveres genereringen af nye</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="Miniature-kommando til PDF-dokumenter">
+								<longdesc>Gyldig kommando plus parametre til miniaturegenerering af PDF-dokumenter. Se dokumentationen for Nautilus&apos; miniaturegenerering for flere oplysninger.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Aktivér miniaturer for PDF-dokumenter">
+								<longdesc>Kan have boolske værdier: Hvis sand aktiveres generering af miniaturer, hvis falsk deaktiveres genereringen af nye</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="Opgaveprogram kræver terminal">
+								<longdesc>Om det forvalgte opgaveprogram skal bruge en terminal for at køre</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Standardopgaver">
+								<longdesc>Standardopgaveprogram</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="Kalender kræver terminal">
+								<longdesc>Om det forvalgte kalenderprogram skal bruge en terminal for at køre</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Standardkalender">
+								<longdesc>Standardkalenderprogram</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Browser forstår fjernbetjening">
+								<longdesc>Om standardbrowseren forstår Netscape-fjernbetjening.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Browser kræver terminal">
+								<longdesc>Om standardbrowseren skal bruge en terminal for at køre.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Standardbrowser">
+								<longdesc>Standardbrowser for alle URL&apos;er.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Navne på arbejdsområderne (forældet)">
+								<longdesc>En liste med navne over de første arbejdsområder. Denne nøgle har været forældet siden Gnome 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Antallet af arbejdsområder (forældet)">
+								<longdesc>Antallet af arbejdsområder som vindueshåndteringen skal benytte. Denne nøgle har været forældet siden Gnome-2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Brugervindueshåndtering (forældet)">
+								<longdesc>Den vindueshåndtering der skal prøves først. Denne nøgle har være forældet siden Gnome 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Vindueshåndtering at falde tilbage på (forældet)">
+								<longdesc>Den vindueshåndtering der skal faldes tilbage på hvis brugerens vindueshåndtering ikke kan findes. Denne nøgle har været forældet siden Gnome 2.12.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Start foretrukne program til mobilitets-assisterende teknologier">
+									<longdesc>GNOME skal starte foretrukne program til mobilitets-assisterende teknologier under logind.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Foretrukne program til mobilitets-assisterende teknologier">
+									<longdesc>Foretrukne program til mobilitets-assisterende teknologier som bruges til login, menu eller kommandolinje.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Start foretrukne program til visuelt-assisterende teknologier">
+									<longdesc>GNOME skal starte foretrukne program til visuelt-assisterende teknologier under logind.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Foretrukne program til visuelt-assisterende teknologier">
+									<longdesc>Foretrukne program til visuelt-assisterende teknologier som bruges til login, menu eller kommandolinje.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Forvalgt komponentfremviser">
+								<longdesc>Det program der skal bruges til at vise filer der kræver en komponent for at vise dem. Parameteren %s vil blive erstattet af filens adresser, parameteren %c vil blive erstattet med komponentens IID.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Kørselsparametre">
+								<longdesc>Parameter der benyttes til at køre programmer i terminalen defineret af &quot;exec&quot;-nøglen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Terminalprogram">
+								<longdesc>Terminalprogram der benyttes ved start af programmer der kræver terminal.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen brugt til at håndtere denne type af adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen af &quot;ymsgr&quot;-adresser">
+								<longdesc>Kommandoen brugt til at håndtere &quot;ymsgr&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;ymsgr&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skulle håndtere &quot;ymsgr&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen brugt til at håndtere denne type af adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen af &quot;xmpp&quot;-adresser">
+								<longdesc>Kommandoen brugt til at håndtere &quot;xmpp&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;xmpp&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skulle håndtere &quot;xmpp&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen brugt til at håndtere denne type af adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen af &quot;sip&quot;-adresser">
+								<longdesc>Kommandoen brugt til at håndtere &quot;sip&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;sip&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skulle håndtere &quot;sip&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen brugt til at håndtere denne type af adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen af &quot;msnim&quot;-adresser">
+								<longdesc>Kommandoen brugt til at håndtere &quot;msnim&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;msnim&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skulle håndtere &quot;msnim&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen brugt til at håndtere denne type af adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen af &quot;irc&quot;-adresser">
+								<longdesc>Kommandoen brugt til at håndtere &quot;irc&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;irc&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skulle håndtere &quot;irc&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen brugt til at håndtere denne type af adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen af &quot;icq&quot;-adresser">
+								<longdesc>Kommandoen brugt til at håndtere &quot;icq&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;icq&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skulle håndtere &quot;icq&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen brugt til at håndtere denne type af adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen af &quot;gg&quot;-adresser">
+								<longdesc>Kommandoen brugt til at håndtere &quot;gg&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;gg&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skulle håndtere &quot;gg&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;h323&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;h323&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den specificerede kommando skal håndtere &quot;h323&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;h323&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;callto&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;callto&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den specificerede kommando skal håndtere &quot;callto&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;callto&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen brugt til at håndtere denne type af adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;aim&quot;-adresser">
+								<longdesc>Kommandoen brugt til at håndtere &quot;aim&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;aim&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skulle håndtere &quot;aim&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;mailto&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;mailto&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den specificerede kommando skal håndtere &quot;mailto&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;mailto&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;https&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;https&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den specificerede kommando skal håndtere &quot;https&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;https&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;http&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;http&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den specificerede kommando skal håndtere &quot;http&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;http&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;man&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;man&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den specificerede kommando skal håndtere &quot;man&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;man&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;info&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;info&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specificerde program skal håndtere &quot;info&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;info&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;ghelp&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;ghelp&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den specificerede kommando skal håndtere &quot;ghelp&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;ghelp&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtering af &quot;trash&quot;-adresser">
+								<longdesc>Kommandoen der bruges til at håndtere &quot;trash&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den specificerede kommando skal håndtere &quot;trash&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;command&quot;-nøglen håndterer &quot;trash&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Om profilen skal bruges">
+									<longdesc>Om profilen skal vises.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Den forvalgte filendelse for denne profil">
+									<longdesc>En filnavnsendelse som skal bruges når filer kodet med denne profil gemmes.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Delvis GStreamer-datakanal">
+									<longdesc>En delvis GStreamer-datakanal som skal bruges til denne profil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="En beskrivelse til lydprofilen">
+									<longdesc>En beskrivelse af profilen med yderligere oplysninger og information om hvornår profilen skal benyttes.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Et kort navn til lydprofilen">
+									<longdesc>Et kort navn til lydprofilen til at identificere den.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Om profilen skal bruges">
+										<longdesc>Om profilen skal vises.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Den forvalgte filendelse for denne profil">
+										<longdesc>En filnavnsendelse som skal bruges når filer kodet med denne profil gemmes.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Delvis GStreamer-datakanal">
+										<longdesc>En delvis GStreamer-datakanal som skal bruges til denne profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="En beskrivelse til lydprofilen">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Et kort navn til lydprofilen">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Den forvalgte filendelse for denne profil">
+										<longdesc>En filnavnsendelse som skal bruges når filer kodet med denne profil gemmes.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Delvis GStreamer-datakanal">
+										<longdesc>En delvis GStreamer-datakanal som skal bruges til denne profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="En beskrivelse til lydprofilen">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Et kort navn til lydprofilen">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Den forvalgte filendelse for denne profil">
+										<longdesc>En filnavnsendelse som skal bruges når filer kodet med denne profil gemmes.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Delvis GStreamer-datakanal">
+										<longdesc>En delvis GStreamer-datakanal som skal bruges til denne profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="En beskrivelse til lydprofilen">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Et kort navn til lydprofilen">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Den forvalgte filendelse for denne profil">
+										<longdesc>En filnavnsendelse som skal bruges når filer kodet med denne profil gemmes.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Delvis GStreamer-datakanal">
+										<longdesc>En delvis GStreamer-datakanal som skal bruges til denne profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="En beskrivelse til lydprofilen">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Et kort navn til lydprofilen">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Den forvalgte filendelse for denne profil">
+										<longdesc>En filnavnsendelse som skal bruges når filer kodet med denne profil gemmes.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Delvis GStreamer-datakanal">
+										<longdesc>En delvis GStreamer-datakanal som skal bruges til denne profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="En beskrivelse til lydprofilen">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Et kort navn til lydprofilen">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Den forvalgte filendelse for denne profil">
+										<longdesc>En filnavnsendelse som skal bruges når filer kodet med denne profil gemmes.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Delvis GStreamer-datakanal">
+										<longdesc>En delvis GStreamer-datakanal som skal bruges til denne profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="En beskrivelse til lydprofilen">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Et kort navn til lydprofilen">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Den forvalgte filendelse for denne profil">
+										<longdesc>En filnavnsendelse som skal bruges når filer kodet med denne profil gemmes.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Delvis GStreamer-datakanal">
+										<longdesc>En delvis GStreamer-datakanal som skal bruges til denne profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="En beskrivelse til lydprofilen">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Et kort navn til lydprofilen">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Liste af profiler">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="SMB-arbejdsgruppe">
+						<longdesc>Windows netværks-arbejdsgruppen eller domænet som brugeren er en del af. For at en ny arbejdsgruppe er komplet aktiveret skal brugeren muligvis logge ud og logge ind igen.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="Ekstra domæner til at kigge efter DNS-SD-tjenester i">
+						<longdesc>Komma-adskilt liste af DNS-SD-domæner som skal være synlige i &quot;network:///&quot;-stedet.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="Hvordan en lokal DNS-SD-tjeneste skal vises">
+						<longdesc>Mulige værdier er &quot;merged&quot;, &quot;separate&quot; og &quot;disabled&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="Automatisk mellemværtskonfigurationsadresse">
+						<longdesc>Adresse som tilbyder konfigurationsværdier for mellemvært.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="SOCKS-mellemværtsport">
+						<longdesc>Porten på den maskine defineret af &quot;/system/proxy/socks_host&quot; som trafikken skal gå gennem.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="SOCKS-mellemværtsnavn">
+						<longdesc>Maskinnavn som SOCKS-trafik skal gå gennem.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="FTP-mellemværtsport">
+						<longdesc>Porten på den maskine defineret af &quot;/system/proxy/ftp_host&quot; som trafikken skal gå gennem.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="FTP-mellemværtsnavn">
+						<longdesc>Maskinnavn som FTP-trafik skal gå gennem.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Sikker HTTP-mellemværtsport">
+						<longdesc>Porten på den maskine defineret af &quot;/system/proxy/secure_host&quot; som trafikken skal gå gennem.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Sikker HTTP-mellemværtsnavn">
+						<longdesc>Maskinnavn som sikker HTTP-trafik skal gå gennem.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Mellemværtstilstand">
+						<longdesc>Vælg mellemværtkonfigurationen. Mulige værdier er &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Værter uden mellemvært">
+						<longdesc>Denne nøgle indeholder en liste af værter som der skal tilsluttes til direkte i stedet for gennem mellemværten (hvis den er aktiv). Værdierne kan være værtsnavne, domæner (med et indledende jokertegn som f.eks. *.foo.dk), IP-værtsadresser (både IPv4 og IPv6) og netværksadresser med et netmaske (som f.eks. 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="HTTP-mellemværtsadgangskode">
+						<longdesc>Adgangskode der skal gives som brugergodkendelse for HTTP-mellemvært.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="HTTP-mellemværtsbrugernavn">
+						<longdesc>Brugernavn der skal videregives til brugergodkendelse til HTTP-mellemvært.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Brugergodkendelse ved mellemværtstilslutninger">
+						<longdesc>Hvis sand, kræver tilslutningerne til mellemværten brugergodkendelse. Brugernavn-/adgangskodekombinationen er defineret i &quot;/system/http_proxy/authentication_user&quot; og &quot;/system/http_proxy/authentication_password&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="HTTP-mellemværtsport">
+						<longdesc>Porten på den maskine defineret af &quot;/system/http_proxy/host&quot; som trafikken skal gå gennem.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="HTTP-mellemværtsnavn">
+						<longdesc>Maskinnavn som HTTP-trafik skal gå gennem.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Benyt HTTP-mellemvært">
+						<longdesc>Aktivér mellemværtsindstillingerne ved HTTP over internettet.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

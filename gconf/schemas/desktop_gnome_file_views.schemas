@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/desktop/gnome/file-views/icon_theme</key>
+      <applyto>/desktop/gnome/file_views/icon_theme</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default>crux_teal</default>
+      <locale name="C">
+        <short>File Icon Theme</short>
+        <long>Theme used for displaying file icons.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>سِمة  أيقونة الملفات</short>
+        <long>السِمة المستخدمة لعرض أيقونات الملفات.</long>
+      </locale>
+
+      <locale name="as">
+        <short>নথিপত্ৰ প্ৰতীকচিহ্নৰ থিম</short>
+        <long>নথিপত্ৰ প্ৰতীকচিহ্ন প্ৰদৰ্শনৰ বাবে ব্যৱহৃত থিম</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Tema d&apos;iconos de ficheros</short>
+        <long>Tema usáu p&apos;amosar los iconos de ficheros.</long>
+      </locale>
+
+      <locale name="az">
+        <short>Fayl Timsal Örtüyü</short>
+        
+      </locale>
+
+      <locale name="be">
+        <short>Файл тэмы значак</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Име на темата с икони</short>
+        <long>Тема на иконите, която да се използва.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ফাইল আইকন থিম</short>
+        
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ফাইল প্রতীকচিহ্নের থিম</short>
+        <long>ফাইল প্রতীকচিহ্ন প্রদর্শনের জন্য ব্যবহৃত থিম।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Tema ikone datoteke</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Tema d&apos;icones de fitxers</short>
+        <long>Tema que s&apos;utilitza per a mostrar les icones de fitxers.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Tema d&apos;icones de fitxers</short>
+        <long>Tema que s&apos;utilitza per a mostrar les icones de fitxers.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Dosye İşaretçigi Teması</short>
+        <long>Dosye işaretçikleriniñ kösteriminde qullanılğan tema.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Motiv ikon souborů</short>
+        <long>Motiv používaný k zobrazování ikon souborů.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Thema Eiconau Ffeiliau</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Filikontema</short>
+        <long>Tema som benyttes til at vise filikoner.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Dateisymbol-Thema</short>
+        <long>Zum Anzeigen von Dateisymbole verwendetes Thema.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཡིག་སྣོད་ངོས་དཔར་གྱི་བརྗོད་དོན།</short>
+        
+      </locale>
+
+      <locale name="el">
+        <short>Θέμα εικονιδίου αρχείου</short>
+        <long>Θέμα που χρησιμοποιείται για την προβολή εικονιδίων αρχείων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>File Icon Theme</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>File Icon Theme</short>
+        <long>Theme used for displaying file icons.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Temo de dosiera ikono</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>Archivo de tema de iconos</short>
+        <long>Tema usado para mostrar los iconos de los archivos.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Failiikooni teema</short>
+        <long>Failiikoonide kuvamiseks kasutatav teema.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Fitxategi-ikonoen gaia</short>
+        <long>Fitxategietako ikonoak bistaratzeko erabiltzen den gaia.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>تم شمایل پرونده</short>
+        
+      </locale>
+
+      <locale name="fi">
+        <short>Tiedostokuvakkeiden teema</short>
+        <long>Tiedostokuvakkeiden piirrossa käytetty teema.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Fichier du thème d&apos;icône</short>
+        <long>Thème utilisé pour afficher les icônes des fichiers.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Teme icone dai files</short>
+        
+      </locale>
+
+      <locale name="ga">
+        <short>Téama Deilbhíní Comhaid</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Ficheiro de tema de icona</short>
+        <long>Tema usado para mostrar as iconas dos ficheiros.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ફાઈલ ચિહ્ન થીમ</short>
+        <long>ફાઈલના ચિહ્નો દર્શાવવા માટે વપરાતી થીમ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>File Icon Theme</short>
+        <long>Theme used for displaying file icons.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>फ़ाइल चिह्न प्रसंग</short>
+        <long>फ़ाइल प्रतीक प्रदर्शित करने में प्रयुक्त प्रसंग.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Tema datotečnih sličica</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>Fájlikon téma</short>
+        <long>A fájlikonok megjelenítéséhez használandó téma.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Tematik ikon file</short>
+        
+      </locale>
+
+      <locale name="is">
+        <short>Skráartáknmyndaþema</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>Tema icone dei file</short>
+        <long>Tema usato per visualizzare le icone dei file.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ファイル・アイコンのテーマ</short>
+        <long>ファイルのアイコンに適用するテーマです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ფაილის ხატულების თემა</short>
+        
+      </locale>
+
+      <locale name="kn">
+        <short>ಕಡತದ ಚಿಹ್ನೆ ಪರಿಸರವಿನ್ಯಾಸ</short>
+        <long>ಕಡತದ ಚಿಹ್ನೆಗಳನ್ನು ತೋರಿಸಲು ಬಳಸಲಾಗುವ ಪರಿಸರ ವಿನ್ಯಾಸ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>파일 아이콘 테마</short>
+        <long>파일 아이콘을 보여줄 때 사용된 테마.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Dirbê Îkona Dosyeyê</short>
+        
+      </locale>
+
+      <locale name="lt">
+        <short>Failų piktogramų tema</short>
+        <long>Tema naudojama rodyti failų piktogramas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Faila ikonas tēma</short>
+        
+      </locale>
+
+      <locale name="mai">
+        <short>फाइल चिह्न प्रसंग</short>
+        
+      </locale>
+
+      <locale name="mg">
+        <short>Endriky ny kisarin-drakitra</short>
+        <long>Ny endrika ampiasaina hanehoana kisarin-drakitra</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Датотека со тема за икони</short>
+        <long>Тема која се копристи за приказ на иконите на датотеките.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ഫയല്‍ പ്രതിരൂപത്തിന്റെ ഥീം</short>
+        <long>ഫയലുകളുടെ ചിഹ്നങ്ങള്‍ കാണിയ്ക്കാനുപയോഗിയ്ക്കുന്ന രംഗവിതാനം.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Файлын эмблемийн хэлбэр</short>
+        <long>Файлын дарцагийг үзүүлэхэд ашиглах хэлбэр.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>फाइल चिन्ह सुत्रयोजना</short>
+        <long>फाइल चिन्ह दर्शविण्याकरीताची सुत्रयोजना.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Tema Ikon Fail</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Ikontema for fil</short>
+        <long>Tema som brukes for å vise filikoner.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>फाइल प्रतिमा विषयवस्तु</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Bestandspictogramthema</short>
+        <long>Te gebruiken thema voor bestandspictogrammen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Ikondrakt for filer</short>
+        <long>Drakta som vert brukt til å visa filikon.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Tèma d&apos;icònas del fichièr</short>
+        <long>Tèma utilizat per visualizar las icònas del fichièr</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଫାଇଲ ଚିତ୍ରସଂକେତ ପ୍ରସଙ୍ଗ</short>
+        <long>ଫାଇଲ ଚିତ୍ରସଂକେତ ପ୍ରଦର୍ଶନ ପାଇଁ ବ୍ଯବହୃତ ପ୍ରସଙ୍ଗ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਫਾਇਲ ਆਈਕਾਨ ਥੀਮ</short>
+        <long>ਥੀਮ, ਫਾਇਲ ਆਈਕਾਨ ਵੇਖਾਉਣ ਲਈ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Motyw ikony pliku</short>
+        <long>Motyw wykorzystywany do wyświetlania ikon plików.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Tema de Ícone de Ficheiro</short>
+        <long>Tema utilizado para apresentar ícones de ficheiros.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Tema de ícones de arquivos</short>
+        <long>Tema usado para exibir ícones de arquivos.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Temă iconițe fișiere</short>
+        <long>Temă utilizată pentru a afișa iconițele fișierelor.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Тема файловых значков</short>
+        <long>Тема, используемая для показа значков файлов.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Téma ikony súboru</short>
+        <long>Téma použitá pri zobrazovaní ikon súboru.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Tema ikon datotek</short>
+        <long>Tema za prikaz ikon datotek.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Tema e ikonave të file</short>
+        <long>Tema e përdorur për të shfaqur ikonat e file.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Тема икона за датотеке</short>
+        <long>Тема која се користи за приказивање икона за датотеке.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Тема икона за датотеке</short>
+        
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Tema ikona za datoteke</short>
+        <long>Tema koja se koristi za prikazivanje ikona za datoteke.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Filikontema</short>
+        <long>Tema som används för visning av filikoner.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கோப்பு குறும்படம் தோற்றம்</short>
+        <long>கோப்பு குறும்படங்களை காண்பிப்பதற்கு பயன்படுத்தவேண்டிய தோற்றம்.</long>
+      </locale>
+
+      <locale name="te">
+        <short>దస్త్రపు ప్రతిమ థీమ్</short>
+        <long>దస్త్రపు ప్రతిమలను ప్రదర్శించుటకు వుపయోగించిన థీమ్.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ชุดไอคอนแฟ้ม</short>
+        <long>ชุดไอคอนสำหรับใช้แสดงเป็นตัวแทนแฟ้ม</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Dosya Simge Teması</short>
+        <long>Dosya simgelerini görüntülemekte kullanılacak tema.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Тема файлових значків</short>
+        <long>Тема, що використовуватиметься для відображення значків файлів.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Sắc thái Biểu tượng Tập tin</short>
+        <long>Sắc thái được dùng để hiển thị biểu tượng tập tin.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Tinme imådjetes di fitchîs</short>
+        
+      </locale>
+
+      <locale name="xh">
+        <short>UMxholo woMfanekiso onguMqondiso weFayili</short>
+        
+      </locale>
+
+      <locale name="zh_CN">
+        <short>文件图标主题</short>
+        <long>用于显示文件图标的主题。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>檔案圖示主題</short>
+        <long>顯示檔案圖示所使用的圖示主題。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>檔案圖示主題</short>
+        <long>顯示檔案圖示所使用的圖示主題。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

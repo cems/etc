@@ -1,0 +1,2051 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="Uporabi hitro animiranje">
+						<longdesc>Neizbrana možnost določa počasno in valovno padanje, izbrano pa določa hitro in tresavo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Višina poljubne plošče">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Širina poljubne plošče">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="Velikost plošče">
+						<longdesc>Velikost igralne plošče. 1 = po meri, 2 = mala, 3 = srednja, 4 = velika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="Uporabljena tema">
+						<longdesc>Ime datoteke uporabljene teme.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Izpusti kroglico">
+						<longdesc>Pritisk tipke za izpustitev kroglice.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Premaknite se v desno">
+						<longdesc>Pritisk tipke za premik v desno.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Premaknite se v levo">
+						<longdesc>Pritisk tipke za premik v levo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Zvok">
+						<longdesc>Ali naj se ob dogodkih predvajajo zvoki.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Animiraj">
+						<longdesc>Uporabljaj ali ne uporabljaj animacij.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="ID teme">
+						<longdesc>Številka ki določa prednostno temo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Stopnja drugega igralca">
+						<longdesc>Ničla je človek; števila od ena do tri pripadajo stopnji računalniškega igralca.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Stopnja prvega igralca">
+						<longdesc>Ničla je človek; števila od ena do tri pripadajo stopnji računalniškega igralca.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Predogled igre">
+							<longdesc>Predogled igre zadnje shranjene seje.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Igralno polje">
+							<longdesc>Polje igre zadnje shranjene seje.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Točke igre">
+							<longdesc>Točke igre zadnje shranjene seje.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Ćas med potezami">
+							<longdesc>Čas med potezami v milisekundah.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Barva ozadja">
+							<longdesc>Barva ozadja. Vrednost je določena v osmiškem zapisu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Slog kroglice">
+							<longdesc>Slog kroglice. Datoteka slike za kroglice</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Velikost igralnega polja">
+							<longdesc>Velikost igralnega polja. 1 = majhno, 2 = srednje, 2 = veliko. Katerakoli druga vrednost je neveljavna.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="Velikost igralne plošče">
+						<longdesc>Stran igralne plošče v ospredju je lahko; &apos;bela&apos;, &apos;črna&apos;, &apos;trenutna&apos; (trenutni igralec) ali pa &apos;človek&apos; (stran trenutnega človeškega igralca)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="Zapis za prikaz premikov figur">
+						<longdesc>Zapis premikov figur je lahko; &apos;človek&apos; (namenjeno branju), &apos;lan&apos; (dolga algebrična opomba) ali &apos;san&apos; (običajna algebrična opomba)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="Mapa, kjer se odpre pogovorno okno nalaganja ...">
+						<longdesc>Mapa, kjer se odpre pogovorno okno nalaganja ...</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="Mapa, kjer se odpre pogovorno okno shranjevanja ...">
+						<longdesc>Mapa, kjer se odpre pogovorno okno shranjevanja ...</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Oznaka za prikaz orodne vrstice">
+						<longdesc>Oznaka za prikaz orodne vrstice</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="Izbira za prikaz zgodovine brskalnika">
+						<longdesc>Izbira za prikaz zgodovine brskalnika</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="Izbira za prikaz opomb korakov">
+						<longdesc>Izbira za prikaz opomb korakov</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="Izbira za prikaz oštevilčenja plošče">
+						<longdesc>Izbira za prikaz oštevilčenja plošče</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="Izbira za prikaz namigov korakov">
+						<longdesc>Izbira za prikaz namigov korakov</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="Izbira za prikaz v 3D načinu">
+						<longdesc>Izbira za prikaz v 3D načinu</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="Izbor figure pri povišanju kmeta">
+						<longdesc>Figura v katero se poviša kmeta, kadar ga igralec pripelje do oddaljenega roba igralne plošče. Izbirate lahko med možnostmi: &apos;kraljica&apos;, &apos;skakač&apos;, &apos;trdnjava&apos;, &apos;lovec&apos;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="Izbira za podporo omrežnim igram">
+						<longdesc>Izbira za podporo omrežnim igram</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="Oznaka za prikaz celozaslonskega načina">
+						<longdesc>Oznaka za prikaz celozaslonskega načina</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="Izbira za prikaz povečanega okna">
+						<longdesc>Izbira za prikaz povečanega okna</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="Višina okna">
+						<longdesc>Višina glavnega okna v točkah</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Širina okna">
+						<longdesc>Širina glavnega okna v točkah</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="Izbira za dovoljenje oddaljenim igralcem opazovanja igre">
+							<longdesc>Izbira za dovoljenje oddaljenim igralcem opazovanja igre</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="Čas na voljo za korake pri igranju vsake nove igre">
+							<longdesc>Čas na voljo za korake pri igranju vsake nove igre</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="Privzeta zahtevnost igranja za črnega v novih igrah">
+								<longdesc>Privzeta zahtevnost igranja za črnega v novih igrah</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Privzeta vrsta igranja za črnega v novih igrah">
+								<longdesc>Privzeta vrsta igranja za črnega v novih igrah</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="Privzeta zahtevnost igranja za belega v novih igrah">
+								<longdesc>Privzeta zahtevnost igranja za belega v novih igrah</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Privzeta vrsta igranja za belega v novih igrah">
+								<longdesc>Privzeta vrsta igranja za belega v novih igrah</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="Nedavno igrane igre">
+						<longdesc>Seznam nedavno igranih iger.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="Statistika odigranih iger">
+						<longdesc>Seznam nizov, ki se pojavljajo v peterkah: ime, zmage, skupno igranih iger, najboljši čas (v sekundah) in najslabši čas (tudi v sekundah). Neigranih iger ni treba prikazati.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Ime datoteke igre, ki jo želite igrati">
+						<longdesc>Ime datoteke sheme z igro pasjanse, ki jo želite igrati.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Zvok">
+						<longdesc>Ali naj se ob dogodkih predvajajo zvoki.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Izberite slog nadzora">
+						<longdesc>Izberite med vlečenjem kart in klikom najprej na vir in nato na cilj.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_statusbar">
+					<local_schema short_desc="Ali naj bo prikazana vrstica stanja">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Ali naj bo prikazana orodna vrstica">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Ime datoteke s temo">
+						<longdesc>Ime datoteke z slokovno podobo kart.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Tipka za čakanje">
+							<longdesc>Ime tipke za čakanje. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Tipka za naključno teleportiranje">
+							<longdesc>Ime tipke za naključno teleportiranje. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Tipka za teleportiranje">
+							<longdesc>Ime tipke za varno teleportiranje (če je možno). Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Tipka za premik JV">
+							<longdesc>Ime tipke za premikanje jugovzhodno. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Tipka za premik južno">
+							<longdesc>Ime tipke za premikanje južno. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Tipka za premik JZ">
+							<longdesc>Ime tipke za premikanje jugozahodno. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Tipka za premik vzhodno">
+							<longdesc>Ime tipke za premikanje vzhodno. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Tipka za obstati">
+							<longdesc>Ime tipke za obstati pri miru. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Tipka za premik zahodno">
+							<longdesc>Ime tipke za premikanje zahodno. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Tipka za premik SV">
+							<longdesc>Ime tipke za premikanje severovzhodno. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Tipka za premik severno">
+							<longdesc>Ime tipke za premikanje severno. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Tipka za premik SZ">
+							<longdesc>Ime tipke za premikanje severozahodno. Ime je standardno ime X za tipko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Omogoči brizganje">
+							<longdesc>omogoči pljuske. Predvajaj zvok in prikaži pljusk &quot;Splat!&quot; na zaslonu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Omogoči zvok igre">
+							<longdesc>Omogoči zvok igre. Predvajaj zvok ob raznih dogodkih skozi igro.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Uporabi zelo varne premike">
+							<longdesc>Uporabi zelo varne premike. Igralec je opozorjen, ko ni več na voljo varnih premikov in ko je edina možnost teleportiranje.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Uporabi varne premike">
+							<longdesc>Uporabi varne premike. Možnost varni premiki vam bo pomagala, da se izognete smrti zaradi napake. Če boste poskušali izvesti premik, ki vas bi vodil v smrt, vam ne bo dovoljeno nadaljevati, če je na voljo varni premik.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Vrsta igre">
+							<longdesc>Vrsta igre. Ime variacije igre, ki naj se uporabi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Barva ozadja">
+							<longdesc>Barva ozadja. Vrednost je določena v osmiškem zapisu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Slikovna tema robotov">
+							<longdesc>Slikovna tema robotov. Tema s slikami, ki naj se uporabijo za robote.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="Prikaži orodno vrstico">
+							<longdesc>Prikaži orodno vrstico. Standardna možnost za orodne vrstice.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="velikost igralnih ploščic">
+							<longdesc>Velikost igralnih ploščic.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Omogoči zvok">
+							<longdesc>Omogoči zvok.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Stopnja, s želite začeti">
+							<longdesc>Stopnja, s želite začeti.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Stopnje v naključnem vrstnem redu">
+							<longdesc>Stopnje v naključnem vrstnem redu</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Omogoči lažni bonus">
+							<longdesc>Omogoči lažni bonus.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Hitrost igre">
+							<longdesc>Hitrost igre (1=hitro, 4=počasi).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="Število računalniških igralcev">
+							<longdesc>Število računalniških igralcev.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="Število človeških igralcev">
+							<longdesc>Število človeških igralcev.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Premaknite se v desno">
+									<longdesc>Tipka za premikanje desno.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Premaknite se v levo">
+									<longdesc>Tipka za premikanje levo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Premakni dol">
+									<longdesc>Tipka za premikanje dol.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Premakni gor">
+									<longdesc>Tipka za premikanje gor.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Uporabi relativne premike">
+									<longdesc>Uporabi relativne premike (tj. samo levo ali desno).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Barva črva">
+									<longdesc>Barva črva.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Premaknite se v desno">
+									<longdesc>Tipka za premikanje desno.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Premaknite se v levo">
+									<longdesc>Tipka za premikanje levo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Premakni dol">
+									<longdesc>Tipka za premikanje dol.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Premakni gor">
+									<longdesc>Tipka za premikanje gor.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Uporabi relativne premike">
+									<longdesc>Uporabi relativne premike (tj. samo levo ali desno).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Barva črva">
+									<longdesc>Barva črva.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Premaknite se v desno">
+									<longdesc>Tipka za premikanje desno.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Premaknite se v levo">
+									<longdesc>Tipka za premikanje levo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Premakni dol">
+									<longdesc>Tipka za premikanje dol.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Premakni gor">
+									<longdesc>Tipka za premikanje gor.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Uporabi relativne premike">
+									<longdesc>Uporabi relativne premike (tj. samo levo ali desno).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Barva črva">
+									<longdesc>Barva črva.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Premaknite se v desno">
+									<longdesc>Tipka za premikanje desno.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Premaknite se v levo">
+									<longdesc>Tipka za premikanje levo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Premakni dol">
+									<longdesc>Tipka za premikanje dol.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Premakni gor">
+									<longdesc>Tipka za premikanje gor.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Uporabi relativne premike">
+									<longdesc>Uporabi relativne premike (tj. samo levo ali desno).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Barva črva">
+									<longdesc>Barva črva.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Premaknite se v desno">
+									<longdesc>Tipka za premikanje desno.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Premaknite se v levo">
+									<longdesc>Tipka za premikanje levo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Premakni dol">
+									<longdesc>Tipka za premikanje dol.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Premakni gor">
+									<longdesc>Tipka za premikanje gor.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Uporabi relativne premike">
+									<longdesc>Uporabi relativne premike (tj. samo levo ali desno).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Barva črva">
+									<longdesc>Barva črva.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Premaknite se v desno">
+									<longdesc>Tipka za premikanje desno.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Premaknite se v levo">
+									<longdesc>Tipka za premikanje levo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Premakni dol">
+									<longdesc>Tipka za premikanje dol.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Premakni gor">
+									<longdesc>Tipka za premikanje gor.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Uporabi relativne premike">
+									<longdesc>Uporabi relativne premike (tj. samo levo ali desno).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Barva črva">
+									<longdesc>Barva črva.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Izberite slog nadzora">
+						<longdesc>Izberite med vlečenjem kart ali klikom najprej na vir in nato na cilj.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="Nadzor barvnih ploščic">
+						<longdesc>Izbira, ki omogoča barvne ploščice</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="Velikost igralne mreže">
+						<longdesc>Vrednost možnosti določa velikost igralne mreže. Veljavne vrednosti so od 2 do 8, ostale vrednosti pa se samodejno spremenijo v 3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Premor">
+							<longdesc>Tipka za premor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Obračanje">
+							<longdesc>Tipka za obračanje.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Spusti">
+							<longdesc>Tipka za spustitev.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Premakni dol">
+							<longdesc>Tipka za pomik navzdol.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Premaknite se v desno">
+							<longdesc>Pritisk tipke za premik v desno.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Premaknite se v levo">
+							<longdesc>Pritisk tipke za premik v levo.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Gostota napolnjenih vrstic">
+							<longdesc>Gostota polnosti vrstic z liki ob začetku igranja igre. Vrednosti je določena med  0 (ni likov) in 10 (polno zasedene vrstice).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Število vrstic za izpolnjevanje">
+							<longdesc>Število vrstic, ki naj bodo zapolnjene z naključnimi liki ob začetku igre.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Ali naj se obračajo proti smeri urinega kazalca">
+							<longdesc>Ali naj se obračajo proti smeri urinega kazalca.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Ali naj bodo bloki naključne barve">
+							<longdesc>Ali naj bodo bloki naključne barve.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="Ali naj bo priskrbljena tarča">
+							<longdesc>Ali naj bo prikazana predočitev kje bo pristal lik.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Ali naj bo omogočen predogled naslednjega bloka">
+							<longdesc>Ali naj bo omogočen predogled naslednjega bloka.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Barva ozadja">
+							<longdesc>Barva ozadja v zapisu razumljivem za gdk_color_parse.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Ali naj se uporabi slika ozadja">
+							<longdesc>Določa ali naj se izriše slika ozadja nad barvo ozadja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Stopnja, s katero želite začeti">
+							<longdesc>Stopnja, s katero naj začnem.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Tema za upodobitev blokov">
+							<longdesc>Ime teme uporabljene za slog likov in ozadja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Slika, ki naj se uporabi za risanje blokov">
+							<longdesc>Slika, ki bo uporabljena za risanje blokov.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Prikaži računalnikovo razmišljanje">
+						<longdesc>Izbrana možnost omogoča, da se beleženje UI izpiše preko  standardnega odvoda.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Zamik med meti">
+						<longdesc>Izbrana možnost omogoča, da se vstavi časovni zamik med meti kocke računalnika. Na ta način imajo ostali igralci možnost slediti dogajanju.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="Sestavljanka v igri">
+						<longdesc>Številka sestavljanke, ki jo igrate.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nm-applet">
+				<entry name="disable-wifi-create">
+					<local_schema short_desc="Onemogoči ustvarjanje WiFi">
+						<longdesc>Izbrana možnost onemogoči ustvarjanje omrežij adhoc med uporabo apleta. </longdesc>
+					</local_schema>
+				</entry>
+				<entry name="stamp">
+					<local_schema short_desc="Pečat">
+						<longdesc>Uporabljeno za določanje ali naj bodo nastavitve preseljene v novo različico.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="suppress-wireless-networks-available">
+					<local_schema short_desc="Prepreči obvestila o razpoložljivosti omrežij">
+						<longdesc>Izbrana možnost onemogoča obvestila o razpoložljivosti brezžičnih omrežij.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-disconnected-notifications">
+					<local_schema short_desc="Onemogoči obvestila ob prekinitvah povezav">
+						<longdesc>Izbrana možnost onemogoča obvestila ob prekinitvi omrežne povezave.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-connected-notifications">
+					<local_schema short_desc="Onemogoči obvestila ob vzpostavitvi povezav">
+						<longdesc>Izbrana možnost onemogoča obvestila ob povezovanju z omrežjem.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Zvok">
+						<longdesc>Ali naj se ob dogodkih predvajajo zvoki.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="Ali naj bo prikazana ikona obveščanja">
+						<longdesc>Ali naj bo prikazana ikona obveščanja.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Preglasi omejitve dokumenta">
+						<longdesc>Prezri omejitve dokumenta, kot sta omejitev kopiranja ali tiskanja.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="Omogoči samodejno postavitev zastavic">
+						<longdesc>Izbrana možnost omogoča igri Gnome mine, da samodejno označi polja kot minirana, ko je odkritih dovolj sosednjih polj.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="Opozorilo o preveč zastavicah">
+						<longdesc>Nastavite na resnično, da omogočite opozorilne ikone, ko je postavljenih preveč zastavic.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="Uporabi neznano oznako">
+						<longdesc>Izbrana možnost omogoča, da označite polja kot neznana.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="Velikost plošče">
+							<longdesc>Velikost plošče (0 - 2 = mala - velika, 3 = po meri)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="Število min v igri po meri">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="Število vrstic v igri po meri">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="Število stolpcev v igri po meri">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Ali naj bo prikazana orodna vrstica">
+						<longdesc>Ali naj bo prikazana orodna vrstica.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Vsota denarja v banki">
+							<longdesc>Vsota denarja v vaši banki.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Ime datoteke s temo">
+							<longdesc>Ime datoteke z slokovno podobo kart.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Nikoli ne stavi na delivčeve karte">
+							<longdesc>Nikoli ne stavi na delivčeve karte, kadar dobi ta kot prvo karto karto as.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Uporabi hitro deljenje">
+							<longdesc>Uporabi hitro deljenje brez zamika med vsako karto.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Prikaži verjetnosti">
+							<longdesc>Prikaže verjetnosti zmage delivčevih kart in pričakovano vrednost vaših kart.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Ime datoteke z različico pravil, ki naj se uporabi">
+							<longdesc>Ime datoteke s pravili, ki vsebuje različico pravil igranja.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Omogoči možnost Burnproof">
+						<longdesc>Ali naj bo uporabljena možnost Burnproof, ki je na voljo pri nekaterih zapisovalcih.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Omogoči zapisovanje preko meje zmogljivosti">
+						<longdesc>Ali naj bo dovoljeno, da podatki prekoračijo velikost fizičnega medija.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Omogoči razhroščevanje">
+						<longdesc>Ali naj bo omogočeno razhroščevanje za zapisovanje plošč CD.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Privzeta hitrost zapisovanja">
+						<longdesc>Privzeta hitrost, pri kateri bo nosilec zapisan.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Mapa začasnih slik plošče ISO">
+						<longdesc>Mapa, ki bo uporabljena za začasne slike plošče ISO. Pustite prazno za uporabo privzete začasne mape sistema.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="Ali je gnome-keyring PKCS#11 enota omogočena.">
+							<longdesc>Možnost omogoča zagon PKCS#11 enote v gnome-keyring demonu. Uporablja se le ob zagonu demona gnome-keyring-daemon, (primer: ko se uporabnik prijavi). Možnost lahko s posebnimi argumenti med zagonom demona prekličete.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="Ali je gnome-keyring SSH agent omogočen.">
+							<longdesc>Možnost omogoča podporo SSH agenta v gnome-keyring demonu. Uporablja se le ob zagonu demona gnome-keyring-daemon, (primer: ko se uporabnik prijavi). Možnost lahko s posebnimi argumenti med zagonom demona prekličete.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Tema ikon datotek">
+							<longdesc>Tema za prikaz ikon datotek.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="Uporabi obvestilne zvoke">
+							<longdesc>Ali naj se ob uporabniških dogodkih predvajajo zvoki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="Ime datoteke zvočne teme">
+							<longdesc>Zvočna tema XDG za zvoke dogodkov.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="Zvoki za dogodke">
+							<longdesc>Ali naj se ob uporabniških dogodkih predvajajo zvoki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Omogoči ESD">
+							<longdesc>Omogoči zagon strežnika za zvok.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="Privzete mešalne sledi">
+							<longdesc>Privzete mešalne sledi za multimedijske tipkovne povezave.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="Privzeta mešalna naprava">
+							<longdesc>Privzete mešalne naprave za multimedijske tipkovne povezave.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Prikaži meni &apos;Nadzorni znak Unicode&apos;">
+							<longdesc>Ali naj vsebinski meni vnosov in besedila omogoči vstavljanje nadzornih znakov.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Prikaži meni &apos;Vhodne metode&apos;">
+							<longdesc>Ali naj vsebinski meni vnosov in pogledi besedila omogočajo možnost spreminjanja vnosne metode.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Pospeševalnik menijske vrstice">
+							<longdesc>Bližnjica tipk za odpiranje menijske vrstice.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modul za GtkFileChooser">
+							<longdesc>Modul kot model datotečnega sistema za gradnik GtkFileChooser. Mogoče vrednosti so &quot;gio&quot;, &quot;gnome-vfs&quot; in &quot;gtk+&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Vrstica stanja na desni">
+							<longdesc>Ali naj se prikaže kazalnik vrstice stanja na desni.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Uporabi pisavo po meri">
+							<longdesc>Ali naj se uporabi prikrojena pisava v programih gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Monospace pisava">
+							<longdesc>Ime monospace pisave (stalne širine) za uporabo v terminalu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Pisava dokumenta">
+							<longdesc>Ime privzete pisave za branje dokumentov.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="Enota GTK IM">
+							<longdesc>Ime vhodne metode, ki jo uporablja GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="Slog stanja GTK IM">
+							<longdesc>Ime vhodne metode GTK+ sloga stanja, uporabljeno s strani gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="Predvnosni slog GTK IM">
+							<longdesc>Ime vhodne metode GTK+ predvpisnega sloga, uporabljeno s strani gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Privzeta pisava">
+							<longdesc>Ime privzete pisave, uporabljeno s strani gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Tema Gtk+">
+							<longdesc>Ime privzete teme uporabljene s strani gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Tema Gtk+">
+							<longdesc>Ime privzete teme uporabljene s strani gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Ikonska tema">
+							<longdesc>Tema ikon, ki naj se uporabi za pult, nautilusa, itd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Čas utripanja kazalca">
+							<longdesc>Dolžina cikla utripanja kazalca, v milisekundah.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Utripanje kazalca">
+							<longdesc>Ali naj kazalec utripa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Velikost ikon orodjarn">
+							<longdesc>Velikost ikon v orodni vrstici, vrednosti &quot;majhne&quot; ali &quot;velike&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Odstranljive orodjarne">
+							<longdesc>Ali lahko uporabnik odpne orodjarne in jih premika okoli.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Menijsko vrstico je mogoče odstraniti">
+							<longdesc>Ali lahko uporabnik odpne menijske vrstice in jih premika okoli.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="Gumbi imajo ikone">
+							<longdesc>Ali naj bo na gumbu ob besedilu gumba še ikona.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Meniji imajo ikone">
+							<longdesc>Ali naj meniji kažejo ikono poleg predmeta menija.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Slog orodjarn">
+							<longdesc>Slog orodjarne. Mogoče vrednosti so &quot;both&quot;, &quot;both_horiz&quot;, &quot;icons&quot; in &quot;text&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Lahko spremeni pospeševalnike">
+							<longdesc>Ali lahko uporabnik dejavno vpiše nov pospeševalnik, ko se nahaja nad dejavnim predmetom menija.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Meniji imajo vrstico za odcep">
+							<longdesc>Ali naj imajo meniji gumb za odpenjanje.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Omogoči animacije">
+							<longdesc>Ali naj bodo prikazane animacije. Opomba: To je globalen ključ, saj spremeni obnašanja upravitelja oken, pulta, itd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Omogoči dostopnost">
+							<longdesc>Ali naj imajo programi podporo za dostopnost.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Zagon Programov pomožnih tehnologij">
+								<longdesc>Seznam programov pomožnih tehnologij, ki naj se zaženejo ob prijavi v namizje GNOME.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>Zapiskaj, ko je pritisnjen spremenilnik.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Izključi, če sta dve tipki pritisnjeni hkrati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="najmanjši razmik (v milisekundah)">
+								<longdesc>Ne sprejmi tipke kot pritisnjene, dokler ni pritisnjena @delay milisekund.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="začetni zamik (v milisekundah)">
+								<longdesc>Koliko milisekund naj se počaka preden začnejo delovati tipke premikanja miške.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="kako dolgo je pospeševanje (v milisekundah)">
+								<longdesc>Koliko milisekund naj vzame za prehod iz 0 na najvišjo hitrost.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="točk na sekundo">
+								<longdesc>Koliko točk na sekundo se premika pri najvišji hitrosti.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="najmanjši interval (v milisekundah)">
+								<longdesc>Prezri večkratne pritiske iste tipke znotraj @delay milisekund.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Ali naj bo omogočeno zaklepanje tipkovnice">
+							<longdesc>Ali naj bo omogočeno zaklepanje tipkovnice.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Dovoli odlaganje prelomov">
+							<longdesc>Ali je lahko zaslon za premor tipkanja preložen</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Čas preloma">
+							<longdesc>Število minut kolikor naj traja premor</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Čas tipkanja">
+							<longdesc>Čas tipkanja v minutah, preden se začne premor</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="Onemogoči upravljavce URL in vrst MIME.">
+							<longdesc>Prepreči zagona kateregakoli programa, ki upravlja naslove URL ali vrste MIME.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Onemogoči zaklepanje zaslona">
+							<longdesc>Prepreči uporabniku zaklepanje zaslona.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Onemogoči zamenjave uporabnikov">
+							<longdesc>Prepreči uporabniku preklop na drug račun, ko je seja še aktivna.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Onemogoči nastavitve tiskanja">
+							<longdesc>Uporabniku prepreči spreminjanje nastavitev tiskanja. Tako mu bo na primer onemogočen dostop do pogovornega okna &quot;Nastavitve tiskanja&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Onemogoči tiskanje">
+							<longdesc>Uporabniku prepreči tiskanje. Tako mu bo na primer onemogočen dostop do pogovornega okna &quot;Natisni&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Onemogoči shranjevanje na disk">
+							<longdesc>Uporabniku prepreči shranjevanje datotek na disk. Tako mu bo na primer onemogočen dostop do pogovornega okna &quot;Shrani kot&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Onemogoči ukazno vrstico">
+							<longdesc>Uporabniku prepreči dostop do terminala ali izvajanje določenih ukazov. Tako mu bo na primer onemogočen dostop do pogovornega okna &quot;Zaženi program&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Vrsta senčenja barv">
+							<longdesc>Kako naj se senči barva ozadja. Mogoče vrednosti so &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, in &quot;solid&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Drugotna barva">
+							<longdesc>Desna ali spodnja barva za risanje prelivov, ni uporabljena pri barvi polnjenja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Prvotna barva">
+							<longdesc>Leva ali zgornja barva ob risanju prelivov, ali barva polnjenja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Prosojnost slike">
+							<longdesc>Prosojnost s katero naj se nariše slika ozadja.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Ime slike">
+							<longdesc>Datoteka, ki naj se uporabi za ozadje.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Možnosti slike">
+							<longdesc>Določa kako naj se slika nastavljena kot wallpaper_filename izriše. Mogoče vrednosti so &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;..</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Riši ozadje namizja">
+							<longdesc>Naj Gnome izriše ozadje namizja.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>Največja velikost predpomnilnika sličic v megabajtih. Vrednost -1 onemogoči čiščenje.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>Največja starost sličic v predpomnilniku v dnevih. Vrednost -1 onemogoči čiščenje.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Zapomni si stanje NumLock">
+								<longdesc>Ko je možnost izbrana, si bo GNOME zapomnil stanje NumLock med sejami.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Ime datoteke prikrojenega zvonca tipkovnice">
+								<longdesc>Ime datoteke zvonca, ki naj se predvaja.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>mogoče vrednosti so &quot;on&quot;, &quot;off&quot; in &quot;custom&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Velikost kazalca">
+								<longdesc>Velikost kazalca, ki jo določa tema_kazalca.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Tema kazalca">
+								<longdesc>Ime teme kazalca. Uporabno samo s strežniki X, ki podpirajo Xcursor, npr. XFree86 4.3 in novejši.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Pisava kazalca">
+								<longdesc>Ime pisave kazalca. Če ni nastavljeno je uporabljena privzeta pisava. Ta vrednost se posreduje strežniku X le ob zagonu vsake seje, zato njeno spreminjanje med sejo ne bo imelo vpliva dokler se ne prijavite znova.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Najdi kazalec">
+								<longdesc>Osvetli trenutno mesto kazalca, kadar je pritisnjena in spuščena tipka Control.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Čas dvojnega klika">
+								<longdesc>Dolžina dvojnega klika.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Prag vlečenja">
+								<longdesc>Razdalja preden se začne poteg miške.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Prag premikanja">
+								<longdesc>Razdalja v točkah, kolikor se mora premakniti kazalec, preden se vključi premikanje miške. Privzeta vrednost je -1.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Enojni klik">
+								<longdesc>Pospeševalnik za premikanje miške. Privzeta vrednost je -1.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Enojni klik">
+								<longdesc>Enojni klik za odpiranje ikon.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Usmerjenost gumbov miške">
+								<longdesc>Zamenjaj levi in desni gumb miške za levičarsko miško.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Izklopi vse zunanje izdelovalce pomanjšanih sličic">
+							<longdesc>Nastavi na true za izklop vseh zunanjih izdelovalcev pomanjšanih sličic, neodvisno od tega ali so omogočeni ali ne.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="Ukaz za sličice dokumentov PDF">
+								<longdesc>Veljaven ukaz z argumenti za izdelovalca sličic dokumentov PDF. Za več informacij si oglejte dokumentacijo izdelovalca sličic v Nautilusu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Omogoči sličice dokumentov PDF">
+								<longdesc>Na voljo sta Boolovi vrednosti: resnično omogoča izdelavo sličic, napačno pa onemogoča</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="Ukaz za sličice dokumentov PDF">
+								<longdesc>Veljaven ukaz z argumenti za izdelovalca sličic dokumentov PDF. Za več informacij si oglejte dokumentacijo izdelovalca sličic v Nautilusu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Omogoči sličice dokumentov PDF">
+								<longdesc>Na voljo sta Boolovi vrednosti: resnično omogoča izdelavo sličic, napačno pa onemogoča</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="Ukaz za sličice dokumentov PDF">
+								<longdesc>Veljaven ukaz z argumenti za izdelovalca sličic dokumentov PDF. Za več informacij si oglejte dokumentacijo izdelovalca sličic v Nautilusu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Omogoči sličice dokumentov PDF">
+								<longdesc>Na voljo sta Boolovi vrednosti: resnično omogoča izdelavo sličic, napačno pa onemogoča</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="Naloge potrebujejo terminal">
+								<longdesc>Ali privzet program za naloge za zagon potrebuje terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Privzete naloge">
+								<longdesc>Privzeti program nalog</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="Koledar potrebuje terminal">
+								<longdesc>Ali privzet koledarski program za zagon potrebuje terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Privzeti koledar">
+								<longdesc>Privzet koledarski program</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Brskalnik razume klice upravljanja">
+								<longdesc>Ali privzet brskalnik razume netscape oddaljeno upravljanje.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Brskalnik potrebuje terminal">
+								<longdesc>Ali privzet brskalnik za zagon potrebuje terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Privzet brskalnik">
+								<longdesc>Privzet brskalnik za vse URL naslove.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Imena delovnih površin (opuščen)">
+								<longdesc>Seznam imen delovnih površin prvega upravitelja oken. Ta ključ je opuščen od GNOME 2.12 naprej.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Število delovnih površin (opuščen)">
+								<longdesc>Število delovnih površin, ki naj jih uporabi upravitelj oken. Ta ključ je opuščen od GNOME 2.12 naprej.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Uporabnikov upravitelj oken (opuščen)">
+								<longdesc>Upravitelj oken najprej za preizkus. Ta ključ je opuščen od GNOME 2.12 naprej.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Rezervni upravitelj oken (opuščen)">
+								<longdesc>Rezervni upravitelj oken, če uporabnikovega upravitelja ni mogoče najti. Ta ključ je opuščen od GNOME 2.12 naprej.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Zagon želenih Mobility programov pomožnih tehnologij">
+									<longdesc>Zagon GNOME Mobility pomožne tehnologije med prijavo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Zagon Mobility programov pomožnih tehnologij">
+									<longdesc>Prednostni program pomožnih Mobility tehnologij za prijavo, meni ali ukazno vrstico.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Zagon prednostnih programov pomožnih tehnologij">
+									<longdesc>Zagon GNOME vizualne pomožne tehnologije med prijavo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Prednostni vizualni programov pomožnih tehnologij">
+									<longdesc>Program prednostnih vizualnih pomožnih tehnologij za prijavo, meni in ukazno vrstico.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Privzet pregledovalnik komponent:">
+								<longdesc>Program za pregledovanje datotek, ki za ogled zahtevajo komponento. Parameter %s bo zamenjan z URI-jem datoteke, parameter %c pa z IID komponente.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Argumenti za exec">
+								<longdesc>Argument, ki naj se uporabi za izvedbo programov v terminalu, definiran kot ključ &apos;exec&apos;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Program terminala">
+								<longdesc>Terminalski program, ki naj se zažene, kadar ga drugi programi zahtevajo.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;ymsgr">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;ymsgr&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;ymsgr&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;ymsgr&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;xmpp">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;xmpp&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;xmpp&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;xmpp&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;sip">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;sip&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;sip&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;sip&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;msnim">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;msnim&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;msnim&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;msnim&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;irc">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;irc&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;irc&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;irc&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;icq">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;icq&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;icq&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;icq&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;gg">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;gg&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;gg&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;gg&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;h323&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;h323&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;h323&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;h323&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;callto&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;callto&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;callto&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;callto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;aim">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;aim&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;aim&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;aim&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;mailto&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;mailto&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;mailto&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;mailto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;https&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;https&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;https&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;https&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;http&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;http&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;http&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;http&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;man&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;man&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;man&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;man&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;info&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;info&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;info&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;info&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;ghelp&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;ghelp&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;ghelp&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;ghelp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Poženi ukaz v terminalu">
+								<longdesc>Ali naj se ukaz za upravljanje z URL-ji te vrste zažene v terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač URL-jev &quot;trash&quot;">
+								<longdesc>Ukaz za upravljanje URI-jev &quot;trash&quot;, če je omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj naveden ukaz upravlja URL-je &quot;trash&quot;">
+								<longdesc>Ali naj ukaz naveden v ključu &quot;command&quot; upravlja z URI-ji &quot;trash&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Ali naj se uporabi ta profil">
+									<longdesc>Ali naj se uporabi in prikaže ta profil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Privzeta končnica datotek za ta profil">
+									<longdesc>Končnica imena datoteke, ki naj se uporabi za shranjevanje datotek, zakodiranih s tem profilom.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Uporabljen delni cevovod GStreamer">
+									<longdesc>Delni cevovod GStreamer za uporabo v tem profilu.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Opis zvočnega profila">
+									<longdesc>Opis zvočnega profila, ki vsebuje več podatkov in opisuje, kdaj naj bo ta profil uporabljen.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Kratko ime zvočnega profila">
+									<longdesc>Kratko ime zvočnega profila, ki naj se uporabi v izbirah in za edinstveno predstavitev profila.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Ali naj se uporabi ta profil">
+										<longdesc>Ali naj se uporabi in prikaže ta profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Privzeta končnica datotek za ta profil">
+										<longdesc>Končnica imena datoteke, ki naj se uporabi za shranjevanje datotek, zakodiranih s tem profilom.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Uporabljen delni cevovod GStreamer">
+										<longdesc>Delni cevovod GStreamer za uporabo v tem profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Opis zvočnega profila">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Kratko ime zvočnega profila">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Privzeta končnica datotek za ta profil">
+										<longdesc>Končnica imena datoteke, ki naj se uporabi za shranjevanje datotek, zakodiranih s tem profilom.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Uporabljen delni cevovod GStreamer">
+										<longdesc>Delni cevovod GStreamer za uporabo v tem profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Opis zvočnega profila">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Kratko ime zvočnega profila">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Privzeta končnica datotek za ta profil">
+										<longdesc>Končnica imena datoteke, ki naj se uporabi za shranjevanje datotek, zakodiranih s tem profilom.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Uporabljen delni cevovod GStreamer">
+										<longdesc>Delni cevovod GStreamer za uporabo v tem profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Opis zvočnega profila">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Kratko ime zvočnega profila">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Privzeta končnica datotek za ta profil">
+										<longdesc>Končnica imena datoteke, ki naj se uporabi za shranjevanje datotek, zakodiranih s tem profilom.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Uporabljen delni cevovod GStreamer">
+										<longdesc>Delni cevovod GStreamer za uporabo v tem profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Opis zvočnega profila">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Kratko ime zvočnega profila">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Privzeta končnica datotek za ta profil">
+										<longdesc>Končnica imena datoteke, ki naj se uporabi za shranjevanje datotek, zakodiranih s tem profilom.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Uporabljen delni cevovod GStreamer">
+										<longdesc>Delni cevovod GStreamer za uporabo v tem profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Opis zvočnega profila">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Kratko ime zvočnega profila">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Privzeta končnica datotek za ta profil">
+										<longdesc>Končnica imena datoteke, ki naj se uporabi za shranjevanje datotek, zakodiranih s tem profilom.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Uporabljen delni cevovod GStreamer">
+										<longdesc>Delni cevovod GStreamer za uporabo v tem profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Opis zvočnega profila">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Kratko ime zvočnega profila">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Privzeta končnica datotek za ta profil">
+										<longdesc>Končnica imena datoteke, ki naj se uporabi za shranjevanje datotek, zakodiranih s tem profilom.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Uporabljen delni cevovod GStreamer">
+										<longdesc>Delni cevovod GStreamer za uporabo v tem profilu.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Opis zvočnega profila">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Kratko ime zvočnega profila">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Seznam profilov">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Delovna skupina SMB">
+						<longdesc>Delovna skupina ali domena omrežja Windows, katere del je uporabnik. Za uveljavitev nastavitev nove delovne skupine bo morda potrebna ponovna prijava.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="Dodatne domene za iskanje storitev DNS-SD">
+						<longdesc>Z vejico ločen seznam domen DNS-SD, ki naj bodo vidne na lokaciji &quot;network:///&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="Kako naj se prikaže lokalna storitev DNS-SD">
+						<longdesc>Možne vrednosti so &quot;povezano&quot;, &quot;loči&quot; in &quot;onemogočeno&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="URL za samodejno nastavitev posredovalnega strežnika">
+						<longdesc>URL z vrednostmi za nastavitve posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="Vrata posredovalnega strežnika SOCKS">
+						<longdesc>Vrata računalnika, ki jih določa &quot;/system/proxy/socks_host&quot; posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="Ime gostitelja posredovalnega strežnika SOCKS">
+						<longdesc>Ime računalnika posredovalnega strežnika SOCKS.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="Vrata FTP posredovalnega strežnika">
+						<longdesc>Vrata računalnika, ki jih določa &quot;/system/proxy/ftp_host&quot; posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="Ime gostitelja FTP posredovalnega strežnika">
+						<longdesc>Ime računalnika FTP posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Vrata varnega posredovalnega strežnika HTTP">
+						<longdesc>Vrata računalnika, ki jih določa &quot;/system/proxy/secure_host&quot; posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Ime gostitelja varnega posredovalnega strežnika HTTP">
+						<longdesc>Ime računalnika varnega HTTP posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Način nastavitev posredovalnega strežnika">
+						<longdesc>Izberite način nastavitev posredovalnega strežnika. Podprte vrednosti so &quot;brez&quot;, &quot;ročno&quot;, &quot;samodejno&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Gostitelj brez posredovalnega strežnika">
+						<longdesc>Ta ključ vsebuje seznam gostiteljev, s katerimi se vzpostavi neposredna povezava in preko posredovalnega strežnika (če je dejaven). Vrednosti so lahko imena gostiteljev, domene (z nadomestnimi znaki kot je *.foo.com), naslovi IP gostitelja (tako IPv4 kot tudi IPv6) in omrežni naslovi z omrežno masko (npr. 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="Geslo HTTP posredovalnega strežnika">
+						<longdesc>Geslo za overitev HTTP posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="Uporabniško ime HTTP posredovalnega strežnika">
+						<longdesc>Uporabniško ime za overitev HTTP posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Overi povezave posredovalnih strežnikov">
+						<longdesc>Možnost določa zahtevo za overitev povezave na posredovalni strežnik. Spustno polje za uporabniško ime in geslo določata &quot;/system/http_proxy/authentication_user&quot; in &quot;/system/http_proxy/authentication_password&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="Vrata HTTP posredovalnega strežnika">
+						<longdesc>Vrata računalnika, ki jih določa &quot;/system/http_proxy/host&quot; posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="Ime gostitelja HTTP posredovalnega strežnika">
+						<longdesc>Ime računalnika HTTP posredovalnega strežnika.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Uporabi HTTP posredovalni strežnik">
+						<longdesc>Omogoči nastavitve posredovalnega strežnika za dostop do HTTP preko interneta.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

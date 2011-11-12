@@ -1,0 +1,1262 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Jatuhkan guli">
+						<longdesc>Kekunci untuk menjatuhkan guli.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Gerakan ke kanan">
+						<longdesc>Kekunci untuk bergerak ke kanan.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Gerakan kekiri">
+						<longdesc>Kekunci untuk bergerak ke kiri.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Bunyi">
+						<longdesc>Samada memainkan bunyi atau tidak.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Animasi">
+						<longdesc>Samada menggunakan animasi atau tidak.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="ID Tema">
+						<longdesc>Nombor yang menyatakan tema digerami.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Peringkat bagi pemain kedua.">
+						<longdesc>Sifar ialah manusia; satu hingga tiga merujuk kepada peringkat komputer.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Peringkat bagi Pemain Pertama">
+						<longdesc>Sifar ialah manusia; satu hingga tiga merujuk kepada peringkat komputer.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Prebiu permainan">
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Medan permainan">
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Markah permainan">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Masa di antara pergerakan">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Warna latar belakang">
+							<longdesc>Warna latar belakang. Specifikasi heks bagi warna latar belakang.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Gaya bola">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="statistics">
+					<local_schema short_desc="Statistik permainan yang telah dimainkan">
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Fail permainan yang hendak digunakan">
+						<longdesc>Nama bagi fail skema mengandungi permainan solitaire untuk dimainkan.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Bunyi">
+						<longdesc>Samada memainkan bunyi atau tidak.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Samada papar atau sembunyikan toolbar">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Nama fail tema">
+						<longdesc>Nama fail  yg mengandungi grafik untuk kad.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="enable_splats">
+						<local_schema short_desc="Hidupkan spla">
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Hidupkan bunyi permainan">
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Guna pergerakan super-selamat">
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Guna pergerakan selamat">
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Jenis permainan">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Warna latar belakang">
+							<longdesc>Warna latar belakang. Specifikasi heks bagi warna latar belakang.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Tema imej robot">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Saiz jubin permainan">
+							<longdesc>Saiz jubin permainan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Hidupkan bunyi">
+							<longdesc>Hidupkan bunyi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Aras Permainan untuk dimulakan">
+							<longdesc>Aras Permainan untuk dimulakan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Peringkat permianan dalam susunan rawak">
+							<longdesc>Peringkat permianan dalam susunan rawak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Hidupkan bonus palsu">
+							<longdesc>Hidupkan bonus palsu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Kelajuan permainan">
+							<longdesc>Kelajuan permainan(1=laju, 4=perlahan).</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Gerakan ke kanan">
+									<longdesc>Kekunci digunakan untuk bergerak ke kanan.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Gerakan kekiri">
+									<longdesc>Kekunci digunakan untuk bergerak ke kiri.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Kekunci digunakan untuk bergerak ke bawah.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Guna pergerakan relatif">
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Warna digunakan untuk cecacing">
+									<longdesc>Warna digunakan untuk cecacing.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Gerakan ke kanan">
+									<longdesc>Kekunci digunakan untuk bergerak ke kanan.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Gerakan kekiri">
+									<longdesc>Kekunci digunakan untuk bergerak ke kiri.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Kekunci digunakan untuk bergerak ke bawah.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Guna pergerakan relatif">
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Warna digunakan untuk cecacing">
+									<longdesc>Warna digunakan untuk cecacing.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Gerakan ke kanan">
+									<longdesc>Kekunci digunakan untuk bergerak ke kanan.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Gerakan kekiri">
+									<longdesc>Kekunci digunakan untuk bergerak ke kiri.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Kekunci digunakan untuk bergerak ke bawah.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Guna pergerakan relatif">
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Warna digunakan untuk cecacing">
+									<longdesc>Warna digunakan untuk cecacing.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Gerakan ke kanan">
+									<longdesc>Kekunci digunakan untuk bergerak ke kanan.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Gerakan kekiri">
+									<longdesc>Kekunci digunakan untuk bergerak ke kiri.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Kekunci digunakan untuk bergerak ke bawah.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Guna pergerakan relatif">
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Warna digunakan untuk cecacing">
+									<longdesc>Warna digunakan untuk cecacing.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Gerakan ke kanan">
+									<longdesc>Kekunci digunakan untuk bergerak ke kanan.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Gerakan kekiri">
+									<longdesc>Kekunci digunakan untuk bergerak ke kiri.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Kekunci digunakan untuk bergerak ke bawah.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Guna pergerakan relatif">
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Warna digunakan untuk cecacing">
+									<longdesc>Warna digunakan untuk cecacing.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Gerakan ke kanan">
+									<longdesc>Kekunci digunakan untuk bergerak ke kanan.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Gerakan kekiri">
+									<longdesc>Kekunci digunakan untuk bergerak ke kiri.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Kekunci digunakan untuk bergerak ke bawah.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Guna pergerakan relatif">
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Warna digunakan untuk cecacing">
+									<longdesc>Warna digunakan untuk cecacing.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="grid_size">
+					<local_schema short_desc="Saiz bagi grid permainan">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Kaku">
+							<longdesc>Tekanan kekunci untuk kaku.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Kilas">
+							<longdesc>Tekanan kekunci untuk kilas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema>
+							<longdesc>Tekanan Kekunci untuk jatuhkan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema>
+							<longdesc>Tekanan kekunci untuk bergerak ke bawah.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Gerakan ke kanan">
+							<longdesc>Kekunci untuk bergerak ke kanan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Gerakan kekiri">
+							<longdesc>Kekunci untuk bergerak ke kiri.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Kepadatan bagu baris penuh">
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Samada kilas arah pusingan jam">
+							<longdesc>Samada pusing arah pusingan jam</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Samada memberikan warna blok secara rawak">
+							<longdesc>Samada memberikan warna blok secara rawak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Samada prebiu blok berikutnya">
+							<longdesc>Samada tunjuk blok berikut</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Warna latar belakang">
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Peringkat untuk dimulakan">
+							<longdesc>Peringkat untuk dimulakan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Imej untuk melukis blok">
+							<longdesc>Imej untuk melukis blok.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Tangguh antara lambungan">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Bunyi">
+						<longdesc>Samada memainkan bunyi atau tidak.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Gaya Toolbar">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Isih Menaik">
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Isihan Mengekalkan Format">
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Isihan adalah Sensitif huruf kecil/besar">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Tahap Mampatan Default Bagi Fail Gnumeric">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="DPI menegak">
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="DPI mengufuk">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Font default adalah italik-">
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Nama font default">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Saiz Font Default">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Samada papar atau sembunyikan toolbar">
+						<longdesc>Samada papar atau sembunyikan toolbar.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Jumlah wang dalam bank anda">
+							<longdesc>Jumlah wang dalam bank anda.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Nama fail tema">
+							<longdesc>Nama fail  yg mengandungi grafik untuk kad.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="show_probabilities">
+						<local_schema short_desc="Papar kebarangkalian">
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema>
+							<longdesc>Nama fail tatacara yg mengandungi variasi tatacara untuk bermain.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Hidupkan opsyen Burnproof">
+						<longdesc>Samada menggunakan opesyen Burnroof yang ada pada sesetengah perekod</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Hidupkan overburn">
+						<longdesc>Samada mengizinkan data untuk melebihi saiz fizikal medium</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Hidupkan nyahpepijat">
+						<longdesc>Samada menghidupkan pengnyahpepijatan bagi perekodan CD.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="kelajuan pembakaran default">
+						<longdesc>Kelajuan default apabila media ditulis.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Direktori bagi imej ISO sementara">
+						<longdesc>Direktori digunakan untuk imej ISO sementara, biarkan kosong untuk menggunakan direktori sementara sistem yg default.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Tema Ikon Fail">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="Bunyi bagi acara">
+							<longdesc>Samada memainkan bunyi pada acara pengguna.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Hidupkan ESD">
+							<longdesc>Hidupkan permulaan pelayan bunyi.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Bar Status pada Kanan">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Guna Font Tersendiri">
+							<longdesc>Samada untuk menggunakan font sendiri pada aplikasi gtk+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Font monoruang">
+							<longdesc>Nama bagi font monoruang (lebar-tetap) untuk digunakan pada lokasi seperti terminal.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="Gaya Status IM GTK">
+							<longdesc>Nama bagi Gaya Status kaedah input GTK+ digunakan oleh gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="Gaya Preedit Im GTK">
+							<longdesc>Nama Gaya Preedit kaedah input GTK+ digunakan oleh gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Font default">
+							<longdesc>Nama fonr default digunakan oleh gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Tema GTK">
+							<longdesc>Nama dasar bagi tema default digunakan oleh gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Tema GTK">
+							<longdesc>Nama dasar bagi tema default digunakan oleh gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Tema Ikon">
+							<longdesc>Tema ikon untuk digunakan pada panel, nautilus dll.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Masa Kelipan Kursor">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Kelipan Kursor">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Saiz Ikon Toolbar">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Toolbar bolehdilerai">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Bar Menu bolehdilerai">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Menu Mempunyai Ikon">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Gaya Toolbar">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Boleh Tukar Pemecut">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Menu mempunyai pengoyak">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Hidupkan animasi">
+							<longdesc>Samada animasi patut dipaparkan. Nota: Ini adalah kekunci global, ia menukar kelakuan bagi pengurus tetingkap, panel dll.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Hidupkan kebolehcapaian">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Permulaan Aplikasi Teknologi Penolong">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Dimatikan jika dua kekunci ditekan serentak.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="Selangmasa minimum dalam saat">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="break_time">
+						<local_schema short_desc="Masa rehat">
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Masa menaip">
+							<longdesc>Bilangan minit oleh masa menaip sebelum mod rehat bermula.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Jenis Kesuraman Warna">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Warna Sekunder">
+							<longdesc>warna Kanan atau Bawah bila melukis gradien, tak digunakan untuk warna tegar.Warna Kanan atau Bawah bila melukis gradien, tidak digunakan untuk warna tegar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Warna Utama">
+							<longdesc>Warna kiri atau atas bila melukis gradien, atau warna tegar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Opacity Gambar">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Namafail Gambar">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Opsyen Gambar">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Lukis LatarBelakang Desktop">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Namafail Loceng tersendiri Papankekunci">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>nilai yang boleh adalah &quot;on&quot;, &quot;off&quot; dan &quot;custom&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Saiz Kursor">
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Tema kursor">
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Font kursor">
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Cari Pentuding">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Masa Dwi-Klik">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema>
+								<longdesc>Jarak dalam piksel dimana pentuding mesti gerak sebelum pergerakan tetikus dipecut diaktifkan. Nilai -1 adalah default sistem</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Klik Tunggal">
+								<longdesc>Pendarab pemecut bagi pergerakan tetikus. Nilai -1 adalah default sistem.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Klik Tunggal">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Orientasi butang tetikus">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Pelungsur memahami jauh">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Pelungsur memerlukan terminal">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Pelungsur default">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Aplikasi pelihat komponen default">
+								<longdesc>Aplikasi digunakan untuk melihat fail yang memerlukan komponen untuk melihatnya. Parameter %s akan digantikan dengan URI fail, parameter %c akan digantikan dengan IID komponen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Hujah Exec">
+								<longdesc>Hujah digunakan untuk melaksanakan program pada terminal ditakrifkan dengan kekunci &apos;exec&apos;</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Aplikasi terminal">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;h323&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;h323&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;h323&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;h323&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;callto&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;callto&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;callto&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;callto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;aim&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;aim&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;aim&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;mailto&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;mailto&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;mailto&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;mailto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;https&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;https&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;https&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;https&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;http&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;http&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;http&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;http&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;man&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;man&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;man&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;man&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;info&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;info&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;info&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;info&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;ghelp&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;ghelp&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;ghelp&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;ghelp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Laksana program pada terminal">
+								<longdesc>Benar jika arahan digunakan untuk mengendali URL ini patut dilaksanakan pada terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Pengendali bagi URL &quot;man&quot;">
+								<longdesc>Arahan untuk mengendali  URL &quot;trash&quot; URLs, jika dihidupkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Samada arahan dinyatakan patut mengendali mengendali URL &quot;trash&quot;">
+								<longdesc>Benar jika arahan dinyatakan pada kekunci &quot;command&quot; mengendali URL &quot;trash&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Samada profile ini akan digunakan">
+									<longdesc>Samada mengguna dan memapar profil ini.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Sambungan fail default bagi profil ini">
+									<longdesc>Sambungan namafail untuk digunakan bila menyimpan fail yang dienkod dengan profil ini.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Sebahagian barispaip GStreamer digunakan">
+									<longdesc>Sebahagian barispaip GStreamer untuk digunakan bagi profil ini.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Huraian bagi profil audio">
+									<longdesc>Keterangan bagi profil, mengandungi lebih maklumat dan menerangkan bila menggunakan profil ini.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Nama pendek bagi profil audio">
+									<longdesc>Nama pendek bagi profil audio, untuk digunakan pada pemilihan dan unik menunjukkan profil.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Samada profile ini akan digunakan">
+										<longdesc>Samada mengguna dan memapar profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Sambungan fail default bagi profil ini">
+										<longdesc>Sambungan namafail untuk digunakan bila menyimpan fail yang dienkod dengan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Sebahagian barispaip GStreamer digunakan">
+										<longdesc>Sebahagian barispaip GStreamer untuk digunakan bagi profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Huraian bagi profil audio">
+										<longdesc>Keterangan bagi profil, mengandungi lebih maklumat dan menerangkan bila menggunakan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Nama pendek bagi profil audio">
+										<longdesc>Nama pendek bagi profil audio, untuk digunakan pada pemilihan dan unik menunjukkan profil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Sambungan fail default bagi profil ini">
+										<longdesc>Sambungan namafail untuk digunakan bila menyimpan fail yang dienkod dengan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Sebahagian barispaip GStreamer digunakan">
+										<longdesc>Sebahagian barispaip GStreamer untuk digunakan bagi profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Huraian bagi profil audio">
+										<longdesc>Keterangan bagi profil, mengandungi lebih maklumat dan menerangkan bila menggunakan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Nama pendek bagi profil audio">
+										<longdesc>Nama pendek bagi profil audio, untuk digunakan pada pemilihan dan unik menunjukkan profil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Sambungan fail default bagi profil ini">
+										<longdesc>Sambungan namafail untuk digunakan bila menyimpan fail yang dienkod dengan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Sebahagian barispaip GStreamer digunakan">
+										<longdesc>Sebahagian barispaip GStreamer untuk digunakan bagi profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Huraian bagi profil audio">
+										<longdesc>Keterangan bagi profil, mengandungi lebih maklumat dan menerangkan bila menggunakan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Nama pendek bagi profil audio">
+										<longdesc>Nama pendek bagi profil audio, untuk digunakan pada pemilihan dan unik menunjukkan profil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Sambungan fail default bagi profil ini">
+										<longdesc>Sambungan namafail untuk digunakan bila menyimpan fail yang dienkod dengan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Sebahagian barispaip GStreamer digunakan">
+										<longdesc>Sebahagian barispaip GStreamer untuk digunakan bagi profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Huraian bagi profil audio">
+										<longdesc>Keterangan bagi profil, mengandungi lebih maklumat dan menerangkan bila menggunakan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Nama pendek bagi profil audio">
+										<longdesc>Nama pendek bagi profil audio, untuk digunakan pada pemilihan dan unik menunjukkan profil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Sambungan fail default bagi profil ini">
+										<longdesc>Sambungan namafail untuk digunakan bila menyimpan fail yang dienkod dengan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Sebahagian barispaip GStreamer digunakan">
+										<longdesc>Sebahagian barispaip GStreamer untuk digunakan bagi profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Huraian bagi profil audio">
+										<longdesc>Keterangan bagi profil, mengandungi lebih maklumat dan menerangkan bila menggunakan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Nama pendek bagi profil audio">
+										<longdesc>Nama pendek bagi profil audio, untuk digunakan pada pemilihan dan unik menunjukkan profil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Sambungan fail default bagi profil ini">
+										<longdesc>Sambungan namafail untuk digunakan bila menyimpan fail yang dienkod dengan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Sebahagian barispaip GStreamer digunakan">
+										<longdesc>Sebahagian barispaip GStreamer untuk digunakan bagi profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Huraian bagi profil audio">
+										<longdesc>Keterangan bagi profil, mengandungi lebih maklumat dan menerangkan bila menggunakan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Nama pendek bagi profil audio">
+										<longdesc>Nama pendek bagi profil audio, untuk digunakan pada pemilihan dan unik menunjukkan profil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Sambungan fail default bagi profil ini">
+										<longdesc>Sambungan namafail untuk digunakan bila menyimpan fail yang dienkod dengan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Sebahagian barispaip GStreamer digunakan">
+										<longdesc>Sebahagian barispaip GStreamer untuk digunakan bagi profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Huraian bagi profil audio">
+										<longdesc>Keterangan bagi profil, mengandungi lebih maklumat dan menerangkan bila menggunakan profil ini.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Nama pendek bagi profil audio">
+										<longdesc>Nama pendek bagi profil audio, untuk digunakan pada pemilihan dan unik menunjukkan profil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Senarai profil">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Kumpulankerja SMB">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="display_local">
+					<local_schema short_desc="Bagaimana memapar servis DNS-SD setempat">
+						<longdesc>Nilai yang boleh adalah &quot;merged&quot;, &quot;separate&quot; dan &quot;disabled&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="URL konfigurasi proksi automatik">
+						<longdesc>URL yg membekalkan nilai konfigurasi proksi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="Liang proksi SOCKS">
+						<longdesc>Liang pada mesin ditakrifkan oleh &quot;/system/proxy/socks_host&quot; yang anda lalui.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="Nama hos proksi SOCKS">
+						<longdesc>Nama mesin supaya proksi socks melaluinya.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="Liang proksi FTP">
+						<longdesc>Liang pada mesin ditakrifkan oleh &quot;/system/proxy/ftp_host&quot; yang anda lalui.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="Nama hos proksi FTP">
+						<longdesc>Nama mesin supaya proksi FTP melaluinya..</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Liang proksi HTTP selamat">
+						<longdesc>Liang pada mesin ditakrifkan oleh &quot;/system/proxy/secure_host&quot; yang anda lalui.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Nama hos proksi HTTP selamat">
+						<longdesc>Nama mesin supaya proksi HTTP selamat melaluinya.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Mod konfigurasi proksi">
+						<longdesc>Pilih mod konfigurasi proksi. Nilai disokong adalah &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Hos pbukan-proksi">
+						<longdesc>Kekunci ini mengandungi senarai hos yang disambung secara terus, bukannya melalui proksi (jika ia aktif). Nilai boleh jadi namahos, domain (menggunakan wildcard awalan seperti *.sebol.com), Alamat hos IP (kedua-dua IPv4 dan IPv6) dan alamat rangkaian dengan netmask (seperti 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="Katalaluan proksi HTTP">
+						<longdesc>Katalaluan untuk dihantar sebagai autentikasi bila melakukan pemproksian HTTP</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="Namapengguna proksi HTTP">
+						<longdesc>Nama pengguna untuk dihantar sebagai autentikasi bila melakukan pemproksian HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Authentikasi sambungan ke pelayan proksi">
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="Liang proksi HTTP">
+						<longdesc>Liang pada mesin ditakrifkan oleh &quot;/system/http_proxy/host&quot; yang anda lalui.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="Nama hos proksi HTTP">
+						<longdesc>Nama mesin supaya proksi HTTP melaluinya..</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Guna proksi HTTP">
+						<longdesc>Hidupkan tetapan proksi bila mengakses HTTP di internet.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

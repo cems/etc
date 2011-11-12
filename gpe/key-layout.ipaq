@@ -1,0 +1,63 @@
+#
+# Device depenent key layout
+# This example is for iPAQ h3100-h5500 series.
+#
+
+[Global]
+image = /usr/share/pixmaps/ipaq-s1.png
+offset_x = 50
+offset_y = 10
+
+[Power]
+title = Power Button
+symbol = gpe-config-apm.png
+key = XF86PowerDown
+modificator = ????Pressed
+command = apm --suspend
+xpos = 155
+ypos = 0
+
+[Record]
+title = Audio Record
+symbol = ibutton1.png
+key = XF86AudioRecord
+modificator = ????Pressed
+command = gpe-soundbite record --autogenerate-filename $HOME_VOLATILE
+xpos = 30
+ypos = 30
+
+[Calendar]
+title = Calendar
+symbol = ibutton2.png
+key = XF86Calendar
+modificator = ????Pressed
+command = gpe-calendar
+xpos = 57
+ypos = 131
+
+[Contacts]
+title = Calendar
+symbol = ibutton3.png
+key = telephone
+modificator = ????Pressed
+command = gpe-contacts
+xpos = 84
+ypos = 143
+
+[Mail]
+title = Mail
+symbol = ibutton4.png
+key = XF86Mail
+modificator = ????Pressed
+command = gpe-taskmgr
+xpos = 125
+ypos = 144
+
+[Start]
+title = Calendar
+symbol = ibutton5.png
+key = XF86Start
+modificator = ????Pressed
+command = matchbox-remote -desktop
+xpos = 168
+ypos = 130

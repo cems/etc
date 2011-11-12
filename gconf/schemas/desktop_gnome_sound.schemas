@@ -1,0 +1,2067 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/desktop/gnome/sound/default_mixer_device</key>
+      <applyto>/desktop/gnome/sound/default_mixer_device</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>Default mixer device</short>
+        <long>The default mixer device used by the multimedia key bindings.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>جهاز هندسة الصوت المبدئي</short>
+        <long>جهاز هندسة الصوت المبدئي المستخدم بواسطة ارتباطات مفتاح الوسائط المتعددة.</long>
+      </locale>
+
+      <locale name="as">
+        <short>অবিকল্পিত মিক্সাৰ যন্ত্ৰ</short>
+        <long>মাল্টিমিডিয়া কি বাইন্ডিং দ্বাৰা ব্যৱহৃত অবিকল্পিত মিক্সাৰ যন্ত্ৰ ।</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Стандартно устройство за смесване на звука</short>
+        <long>Стандартно устройство за смесване на звука, което се използва за мултимедийните клавиши.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ডিফল্ট মিক্সার যণ্ত্র</short>
+        <long>মাল্টিমিডিয়া কী বাইন্ডিংয়ের ব্যবহৃত ডিফল্ট মিক্সার যণ্ত্র।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ডিফল্ট মিক্সার ডিভাইস</short>
+        <long>মাল্টিমিডিয়া কি-বাইন্ডিং দ্বারা ব্যবহৃত ডিফল্ট মিক্সার ডিভাইস।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Dispositiu mesclador predeterminat</short>
+        <long>El dispositiu mesclador predeterminat que s&apos;utilitza en les vinculacions de tecles multimèdia.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Dispositiu mesclador predeterminat</short>
+        <long>El dispositiu mesclador predeterminat que s&apos;utilitza en les vinculacions de tecles multimèdia.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Ög-belgilengen qarıştırıcı cihazı</short>
+        <long>Çoqlu-müit tuş bağlamları tarafından qullanılacaq ög-belgilengen qarıştırıcı cihazı.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Výchozí zařízení směšovače</short>
+        <long>Výchozí zařízení směšovače užívané multimediálními klávesovými zkratkami.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Dyfais gymysgu ragosodedig</short>
+        <long>Y ddyfais gymysgu ragosodedig ddefnyddir gan y rhwymiadau bysell amlgyfrwng.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Forvalgt mixerenhed</short>
+        <long>Den forvalgte mixerenhed der skal bruges af multimedie-tastebindingerne.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Voreingestelltes Mixer-Gerät</short>
+        <long>Das voreingestellte Mixer-Gerät das beim Verwenden der Multimedia-Tasten benutzt wird.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>སྔོན་སྒྲིག་སྦྱོར་འཕྲུལ་ཐབས་འཕྲུལ་</short>
+        <long>སྣ་མང་བརྡ་ལམ་ལྡེ་མིག་བསྡམ་ཐག་ཚུ་གིས་ལག་ལེན་འཐབ་མི་ སྔོན་སྒྲིག་སྦྱོར་འཕྲུལ་ཐབས་འཕྲུལ་</long>
+      </locale>
+
+      <locale name="el">
+        <short>Προεπιλεγμένη συσκευή μίξης ήχου</short>
+        <long>Η προεπιλεγμένη συσκευή μίξης ήχου για χρήση από τις συντομεύσεις πλήκτρων πολυμέσων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Default mixer device</short>
+        <long>The default mixer device used by the multimedia key bindings.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Default mixer device</short>
+        <long>The default mixer device used by the multimedia key bindings.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Dispositivo mezclador predeterminado</short>
+        <long>El dispositivo mezclador predeterminado a usar por las combinaciones de teclas multimedia.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Vaikimisi mikserseade</short>
+        <long>Multimeedia klahvivajutuste korral vaikimisi kasutatav mikserseade.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Nahasgailu lehenetsia</short>
+        <long>Multimediako laster-teklek erabiltzen duten nahasgailu lehenetsia</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Oletusmikseri</short>
+        <long>Multimedianäppäinten käyttämä oletusmikseri.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Périphérique de mixage par défaut</short>
+        <long>Le périphérique de mixage par défaut utilisé par les touches de raccourci multimédia.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Dispositivo mesturador predeterminado</short>
+        <long>O dispositivo mesturador predeterminado usado polas combinacións de teclas multimedia.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>મૂળભૂત મિક્સર ઉપકરણ</short>
+        <long>મલ્ટીમીડિયા કી બાઈન્ડીંગો દ્વારા વાપરવામાં આવતું મૂળભૂત મિક્સર ઉપકરણ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Default mixer device</short>
+        <long>The default mixer device used by the multimedia key bindings.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>तयशुदा मदद युक्ति</short>
+        <long>मल्टीमीडिया कुंजी बाइंडिंग के द्वारा प्रयुक्त तयशुदा मिक्सर युक्ति.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Uobičajeni mixer uređaj</short>
+        <long>Mikser uređaj koji će se koristiti za multimedijske tipke.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Alapértelmezett keverőeszköz</short>
+        <long>A multimédia billentyűtársítások által használandó alapértelmezett keverőeszköz.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Device mixer predefinito</short>
+        <long>Il device del mixer predefinito usato dalle associazioni dei tasti multimediali.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>デフォルトのミキサ用デバイス</short>
+        <long>マルチメディア・キーの割り当てで使用するデフォルトのミキサ用デバイスです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ნაგულისხმევი მიქშერის მოწყობილობა</short>
+        <long>ნაგულისხმევი მიქშერ მოწყობილობის მიერ გამოყენებული ღილაკ-მალსახმობები.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಸಾಧನಗಳು</short>
+        <long>ಮಲ್ಟಿಮೀಡಿಯಾ ಕೀಲಿ ಬೈಂಡಿಗ್‌ಗಳಲ್ಲಿ ಬಳಸಲಾಗುವ ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಸಾಧನಗಳು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>기본 믹서 장치</short>
+        <long>멀티미디어 키가 사용할 기본 믹서 장치.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Numatytasis mikšerio įrenginys</short>
+        <long>Numatytasis mikšerio įrenginys naudojamas multimedijos klavišų susiejimų.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Miksera ierīce pēc noklusējuma</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Стандарден уред - миксер</short>
+        <long>Стандардниот уред за мискање користен од поврзувањето на мултимедијалните копчиња.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സഹജമായ മിക്സര്‍ ഉപകരണം</short>
+        <long>മള്‍ട്ടിമീഡിയ കീ ബന്ധങ്ങള്‍ ഉപയോഗിയ്ക്കേണ്ട സഹജമായ മിക്സര്‍ ഉപകരണം.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Өгөгдмөл найруулагч төхөөрөмж</short>
+        <long>Мультимедиа товчлуур хэрэглэх үед өгөгдмөл найруулагч төх. хэрэглэх эсэх.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>मुलभूत मीक्सर साधन</short>
+        <long>बहुमाध्यम किल्ली बांधणी द्वारे वापरल्या जाणारे मुलभूत मीक्सर साधन.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Forvalgt mikserenhet</short>
+        <long>Forvalgt mikserenhet som brukes av tastaturbindinger for multimedia.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>पूर्वनिर्धारित मिश्रक यन्त्र</short>
+        <long>मल्टिमिडिया कुञ्जी बाइन्डिङद्वारा प्रयोग गरिएका पूर्वनिर्धारित मिश्रक यन्त्र ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Standaard mixer</short>
+        <long>De mixer die standaard gebruikt wordt voor de multimediatoetsen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Standard miksareining</short>
+        <long>Standardmiksaren brukt av multimedieknappane.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ପୂର୍ବନିର୍ଦ୍ଧାରିତ ମିଶ୍ରଣ ଉପକରଣ</short>
+        <long>ବହୁମାଧ୍ଯମ କି-ବାଇଣ୍ଡିଙ୍ଗ ଦ୍ବାରା ବ୍ଯବହୃତ ପୂର୍ବନିର୍ଦ୍ଧାରିତ ମିଶ୍ରଣ ଉପକରଣ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਡਿਫਾਲਟ ਮਿਕਸਰ ਜੰਤਰ</short>
+        <long>ਮਲਟੀਮੀਡਿਆ ਸਵਿੱਚ-ਬਾਈਡਿੰਗ ਰਾਹੀਂ ਵਰਤਣ ਲਈ ਡਿਫਾਲਟ ਮਿਕਸਰ ਜੰਤਰ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Domyślne urządzenie miksera</short>
+        <long>Domyślne urządzenie mixera używane przez klawisze multimedialne.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Dispositivo de mistura por omissão</short>
+        <long>O dispositivo de mistura utilizado por omissão pelas ligações de teclas multimédia.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Dispositivo padrão de mixer</short>
+        <long>O dispotivo de mixer padrão usado por atalhos de teclado multimídia.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dispozitiv implicit mixer</short>
+        <long>Dispozitiv mixer implicit de utilizat pentru tastele multimedia.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Устройство микшера по умолчанию</short>
+        <long>Устройство микшера, используемое по умолчанию для привязки мультимедийных клавиш.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Predvolené zariadenie mixéra</short>
+        <long>Predvolené zariadenie mixéra použitého multimediálnym priradením kláves.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Privzeta mešalna naprava</short>
+        <long>Privzete mešalne naprave za multimedijske tipkovne povezave.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Dispozitivi i prezgjedhur mixer</short>
+        <long>Dispozitivi i prezgjedhur mixer përdorur nga pulsantët multimedialë.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Уобичајени уређај за звук</short>
+        <long>Уобичајни уређај за звук на који ће се односити мултимедијалне пречице на тастатури.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Uobičajeni uređaj za zvuk</short>
+        <long>Uobičajni uređaj za zvuk na koji će se odnositi multimedijalne prečice na tastaturi.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Standardmixerenhet</short>
+        <long>Standardmixerenheten som används av multimediatangentbindningarna.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>முன்னிருப்பு கலவை சாதனம்</short>
+        <long>பல்லூடக விசை பைண்டிங்கால் பயன்படுத்தப்படும் முன்னிருப்பு கலவை சாதனம் </long>
+      </locale>
+
+      <locale name="te">
+        <short>అప్రమేయ మిశ్రమకారి పరికరము</short>
+        <long>బహుళమాధ్యమ కీ బందనములద్వారా వుపయోగించబడిన అప్రమేయ మిశ్రమకారి పరికరము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>อุปกรณ์ปรับระดับเสียงปริยาย</short>
+        <long>อุปกรณ์ปรับระดับเสียงปริยายที่จะใช้โดยปุ่มลัดสื่อผสม</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Öntanımlı karıştırıcı aygıtı</short>
+        <long>Çokluortam tuş bağları tarafından kullanılacak öntanımlı karıştırıcı aygıtı.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Типовий пристрій мікшера звуку</short>
+        <long>Типовий пристрій мікшера, що використовується мультимедійними комбінаціями клавіш.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Thiết bị hoà tiếng mặc định</short>
+        <long>Thiết bị hoà tiếng mặc định dùng bởi những tổ hợp phím nhạc/phim.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>默认混音器设备</short>
+        <long>多媒体按键绑定所使用的默认混音器设备。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>預設混音裝置</short>
+        <long>多媒體按鍵組合使用的預設混音裝置</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>預設混音裝置</short>
+        <long>多媒體按鍵組合使用的預設混音裝置</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/sound/default_mixer_tracks</key>
+      <applyto>/desktop/gnome/sound/default_mixer_tracks</applyto>
+      <owner>gnome</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[]</default>
+      <locale name="C">
+        <short>Default mixer tracks</short>
+        <long>The default mixer tracks used by the multimedia key bindings.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>مقطوعات هندسة الصوت المبدئية</short>
+        <long>مقطوعات هندسة الصوت المبدئية المستخدمة بواسطة ارتباطات مفتاح الوسائط المتعددة.</long>
+      </locale>
+
+      <locale name="as">
+        <short>অবিকল্পিত মিক্সাৰ ট্ৰেক</short>
+        <long>মাল্টিমিডিয়া কি বাইন্ডিং দ্বাৰা ব্যৱহৃত অবিকল্পিত মিক্সাৰ ট্ৰেক ।</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Стандартни канали за смесване</short>
+        <long>Стандартни канали за смесване, които се използват за мултимедийните клавиши.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ডিফল্ট মিক্সার ট্র্যাক</short>
+        <long>মাল্টিমিডিয়া কী বাইন্ডিংয়ের ব্যবহৃত ডিফল্ট মিক্সার ট্র্যাক।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ডিফল্ট মিক্সার ট্র্যাক</short>
+        <long>মাল্টিমিডিয়া কি-বাইন্ডিং দ্বারা ব্যবহৃত ডিফল্ট মিক্সার ট্র্যাক।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Pistes predeterminades del mesclador</short>
+        <long>Les pistes predeterminades del mesclador que s&apos;utilitzen en les vinculacions de tecles multimèdia.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Pistes predeterminades del mesclador</short>
+        <long>Les pistes predeterminades del mesclador que s&apos;utilitzen en les vinculacions de tecles multimèdia.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Ög-belgilengen qarıştırıcı kanalları</short>
+        <long>Çoqlu-müit tuş bağlamları tarafından qullanılacaq ög-belgilengen qarıştırıcı kanalları.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Výchozí stopy směšovače</short>
+        <long>Výchozí stopy směšovače užívané multimediálními klávesovými zkratkami.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Traciau rhagosodedig y cymysgwr</short>
+        <long>Y traciau cymysgu rhagosodedig ddefnyddir gan y rhwymiadau bysell amlgyfrwng.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Forvalgt mixerspor</short>
+        <long>Det forvalgte mixerspor der skal bruges af multimedie-tastebindingerne.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Voreingestellte Mixer-Kanäle</short>
+        <long>Die voreingestellten Mixer-Kanäle die beim Verwenden der Multimedia-Tasten benutzt wird.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>སྔོན་སྒྲིག་སྦྱོར་འཕྲུལ་གླུ་རིམ་ཚུ་</short>
+        <long>སྣ་མང་བརྡ་ལམ་ལྡེ་མིག་བསྡམ་ཐག་དེ་ཚུ་གིས་ ལག་ལེན་འཐབ་མི་ སྔོན་སྒྲིག་སྦྱོར་འཕྲུལ་གླུ་རིམ་ཚུ།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Προεπιλεγμένα track μίξης</short>
+        <long>Τα προεπιλεγμένα track μίξης για χρήση από τις συντομεύσεις πλήκτρων πολυμέσων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Default mixer tracks</short>
+        <long>The default mixer tracks used by the multimedia key bindings.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Default mixer tracks</short>
+        <long>The default mixer tracks used by the multimedia key bindings.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Pistas de la mezcladora predeterminado</short>
+        <long>El mezclador de pistas predeterminado a usar por las combinaciones de teclas multimedia.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Mikseri vaikimisi rajad</short>
+        <long>Multimeedia klahvivajutuste korral vaikimisi miksimiseks kasutatav rada.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Pista-nahasgailu lehenetsia</short>
+        <long>Multimediako laster-teklek erabiltzen duten pista-nahasgailu lehenetsia</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Mikserin oletuskanavat</short>
+        <long>Multimedianäppäinten käyttämät mikserin oletuskanavat.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Pistes de la table de mixage par défaut</short>
+        <long>Les pistes de la table de mixage par défaut utilisées par les touches de raccourci multimédia.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Pistas do mesturador predeterminado</short>
+        <long>O mesturador de pistas predeterminado usado polas combinacións de teclas multimedia.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>મૂળભૂત મિક્સર ટ્રેકો</short>
+        <long>મલ્ટીમીડિયા કી બાઈન્ડીંગો દ્વારા વાપરવામાં આવતા મૂળભૂત મિક્સર ટ્રેકો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Default mixer tracks</short>
+        <long>The default mixer tracks used by the multimedia key bindings.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>तयशुदा मिक्सर ट्रैक</short>
+        <long>मल्टीमीडिया कुंजी बाइंडिंग के द्वारा प्रयुक्त तयशुदा मिक्सर ट्रैक.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Uobičajene mixer trake</short>
+        <long>Mikser izlaz koji će se koristiti za multimedijske tipke.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Alapértelmezett keverősávok</short>
+        <long>A multimédia billentyűtársítások által használandó alapértelmezett keverősávok.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Tracce mixer predefinite</short>
+        <long>Le tracce del mixer predefinito usato dalle associazioni dei tasti multimediali.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>デフォルトのミキサ・トラック</short>
+        <long>マルチメディア・キーの割り当てで使用するデフォルトのミキサ・トラックです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>მიქსერის ნაგულისხმევი არხები</short>
+        <long>ნაგულისხმევი მიქშერ მოწყობილობის მიერ გამოყენებული ღილაკ-მალსახმობები.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಟ್ರಾಕ್‌ಗಳು</short>
+        <long>ಮಲ್ಟಿಮೀಡಿಯಾ ಕೀಲಿ ಬೈಂಡಿಗ್‌ಗಳಲ್ಲಿ ಬಳಸಲಾಗುವ ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಟ್ರಾಕ್‌ಗಳು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>기본 믹서 트랙</short>
+        <long>멀티미디어 키가 사용할 기본 믹서 트랙.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Numatytieji mikšerio takeliai</short>
+        <long>Numatytieji mikšerio takeliai naudojami multimedijos klavišų susiejimų.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Miksera celiņi pēc noklusējuma</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Стандардни траки на мискер</short>
+        <long>Стандардните траки на миксер кои се користат од мултимедијалните поврзувања на копчиња.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സഹജമായ മിക്സര്‍ ട്രാക്കുകള്‍</short>
+        <long>മള്‍ട്ടിമീഡിയ കീ ബന്ധങ്ങള്‍ ഉപയോഗിയ്ക്കേണ്ട സഹജമായ മിക്സര്‍ ട്രാക്കുകള്‍.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Өгөгдмөл найруулагчийн суваг</short>
+        <long>Мультимедиа товчлуур хэрэглэх үед өгөгдмөл суваг хэрэглэх эсэх.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>मुलभूत मीक्सर मार्ग</short>
+        <long>बहुमाध्यम किल्ली बांधणी द्वारे वापरल्या जाणारे मुलभूत मीक्सर साधन.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Forvalgte spor for mikser</short>
+        <long>Forvalgte spor for mikser som brukes av tastaturbindinger for multimedia.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>पूर्वनिर्धारित मिश्रक ट्र्याक</short>
+        <long>मल्टिमिडिया कुञ्जी बाइन्डिङद्वारा प्रयोग गरिएका पूर्वनिर्धारित मिश्रक ट्र्याक ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Standaard mixer-schuiven</short>
+        <long>De mixer-schuiven die standaard gebruikt worden voor de multimediatoetsen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Standard miksarspor</short>
+        <long>Standardmiksarspor brukt av multimedieknappane.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ପୂର୍ବନିର୍ଦ୍ଧାରିତ ମିଶ୍ରଣ ଟ୍ରାକ</short>
+        <long>ବହୁମାଧ୍ଯମ କି-ବାଇଣ୍ଡିଙ୍ଗ ଦ୍ବାରା ବ୍ଯବହୃତ ପୂର୍ବନିର୍ଦ୍ଧାରିତ ମିଶ୍ରଣ ଟ୍ରାକ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਡਿਫਾਲਟ ਮਿਕਸਰ ਟਰੈਕ</short>
+        <long>ਮਲਟੀਮੀਡਿਆ ਸਵਿੱਚ-ਬਾਈਡਿੰਗ ਰਾਹੀਂ ਵਰਤਣ ਲਈ ਡਿਫਾਲਟ ਮਿਕਸਰ ਟਰੈਕ ਹਨ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Domyślne ścieżki miksera</short>
+        <long>Domyślne ścieżki miksera używane przez klawisze multimedialne.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Canais de mistura por omissão</short>
+        <long>Os canais de mistura utilizados por omissão pelas ligações de teclas multimédia.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Faixas</short>
+        <long>As faixas de mixer padrão usadas pelos atalhos de teclado multimídia.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Piste implicite mixer</short>
+        <long>Piste mixer implicite de utilizat pentru tastele multimedia.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Каналы микшера по умолчанию</short>
+        <long>Каналы микшера, используемые по умолчанию для привязки мультимедийных клавиш.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Predvolené stopy mixéra</short>
+        <long>Predvolené stopy mixéra použitého multimediálnym priradením kláves.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Privzete mešalne sledi</short>
+        <long>Privzete mešalne sledi za multimedijske tipkovne povezave.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Tracks e prezgjedhur të mixer</short>
+        <long>Tracks e prezgjedhur të mixer përdorur nga pulsantët multimedialë.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Уобичајни канали уређаја за звук</short>
+        <long>Уобичајни канали уређаја за звук на које ће се односити мултимедијалне пречице на тастатури.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Uobičajni kanali uređaja za zvuk</short>
+        <long>Uobičajni kanali uređaja za zvuk na koje će se odnositi multimedijalne prečice na tastaturi.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Standardmixerspår</short>
+        <long>Standardmixerspåren som används av multimediatangentbindningarna.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>முன்னிருப்பு கலவை ட்ராக்கள்</short>
+        <long>பல்லூடக விசை பைண்டிங்கால் முன்னிருப்பு கலவை ட்ராக்கள் பயன்படுத்தப்படுகிறது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>అప్రమేయ మిశ్రమకారి ట్రాకులు</short>
+        <long>బహుళమాధ్యమ కీ బందనములద్వారా వుపయోగించబడిన అప్రమేయ మిశ్రమకారి ట్రాకులు.</long>
+      </locale>
+
+      <locale name="th">
+        <short>แทร็กปรับระดับเสียงปริยาย</short>
+        <long>แทร็กปรับระดับเสียงปริยายที่จะใช้โดยปุ่มลัดสื่อผสม</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Öntanımlı karıştırıcı parçaları</short>
+        <long>Çokluortam tuş bağları tarafından kullanılacak öntanımlı karıştırıcı parçaları.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Типові доріжки мікшера</short>
+        <long>Типові доріжки мікшера, що використовуються мультимедійними комбінаціями клавіш.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Các rãnh hoà tiếng mặc định</short>
+        <long>Các rãnh hoà tiếng mặc định dùng bởi những tổ hợp phím nhạc/phim.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>默认混音器音轨</short>
+        <long>多媒体按键绑定所使用的默认混音器音轨。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>預設混音聲道</short>
+        <long>多媒體按鍵組合使用的預設混音聲道</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>預設混音聲道</short>
+        <long>多媒體按鍵組合使用的預設混音聲道</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/sound/enable_esd</key>
+      <applyto>/desktop/gnome/sound/enable_esd</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable ESD</short>
+        <long>Enable sound server startup.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>فعّل ESD</short>
+        <long>فعّل تشغيل خادوم الصوت عند البدء.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ESD সক্ৰিয় কৰা হ&apos;ব</short>
+        <long>প্ৰাৰম্ভিক ধ্বনি সেৱক সক্ৰিয় কৰা হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Activar l&apos;ESD</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>ESD-ni Fəallaşdır</short>
+        <long>Səs vericisi başladıla bilmədi.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Уключыць ESD</short>
+        <long>Уключыць выкарыстаньне гукавога паслужніку.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Включване на ESD</short>
+        <long>Включване на употреба на звуковия сървър.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ই-এস-ডি সক্রিয়</short>
+        <long>প্রারম্ভে সাউন্ড সার্ভার সক্রিয়</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ESD সক্রিয় করা হবে</short>
+        <long>প্রারম্ভিক সাউন্ড সার্ভার সক্রিয় করা হবে।</long>
+      </locale>
+
+      <locale name="br">
+        <short>Gweredekaat ESD</short>
+        
+      </locale>
+
+      <locale name="bs">
+        <short>Omogući ESD</short>
+        <long>Pokreni server za zvuk tokom prijave.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita l&apos;ESD</short>
+        <long>Habilita l&apos;inici del servidor de so.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Habilita l&apos;ESD</short>
+        <long>Habilita l&apos;inici del servidor de so.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>ESD qabilleştirilsin</short>
+        <long>Davuş sunucısı başlatılmasını qabilleştir.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit ESD</short>
+        <long>Povolit spuštění zvukového serveru.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Galluogi ESD</short>
+        <long>Galluogi cychwyn y gweinydd sain.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Aktivér ESD</short>
+        <long>Aktivér start af lydserver.</long>
+      </locale>
+
+      <locale name="de">
+        <short>ESD aktivieren</short>
+        <long>Soll der Sound-Server beim Start von GNOME gestartet werden?</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཨི་ཨེསི་ཌི་ ལྕོགས་ཅན་བཟོ།</short>
+        <long>སྒྲ་སྐད་སར་བར་འགོ་བཙུགས་ ལྕོགས་ཅན་བཟོ།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ενεργοποίηση ESD</short>
+        <long>Ενεργοποίηση εκκίνησης εξυπηρετητή ήχων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Enable ESD</short>
+        <long>Enable sound server startup.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable ESD</short>
+        <long>Enable sound server startup.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Ŝaltu ESD</short>
+        <long>Ŝaltu sonservilan lanĉon.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar ESD</short>
+        <long>Activar el inicio del servidor de sonido.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Lubada ESD</short>
+        <long>Heliserveri lubamine käivitamisel.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gaitu ESD</short>
+        <long>Gaitu soinu-zerbitzaria abiaraztea.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>به کار انداختن ESD</short>
+        <long>به کار انداختن راه‌اندازی کارگزار صوت</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Käytä ESD:tä (äänipalvelin)</short>
+        <long>Käynnistä äänipalvelin.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer ESD</short>
+        <long>Activer le serveur de sons au démarrage.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Cumasaigh ESD</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Activar ESD</short>
+        <long>Activar o inicio do servidor de son.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ESD કાર્યરત કરો</short>
+        <long>પ્રારંભિક ધ્વની સર્વર કાર્યરત કરો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Enable ESD</short>
+        <long>Enable sound server startup.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>ईएसडी सक्षम करें</short>
+        <long>ध्वनि सर्वर स्टार्टअप सक्षम करें.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Omogući ESD</short>
+        <long>Omogući poslužitelj zvukova na početku.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>ESD engedélyezése</short>
+        <long>Hangszerver elindításának engedélyezése.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Gunakan ESD</short>
+        <long>Gunakan server suara saat start.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Virkja ESD</short>
+        <long>Virjka hljóð þjón við ræsingu</long>
+      </locale>
+
+      <locale name="it">
+        <short>Abilita ESD</short>
+        <long>Abilita il server sonoro all&apos;avvio.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ESD を有効にする</short>
+        <long>サウンド・サーバを起動します。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ESD-ს ჩართვა</short>
+        <long>დაწყებისას ხმის სერვერის გააქტივება.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ESD ಅನ್ನು ಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಧ್ವನಿ ಪರಿಚಾರಕದ ಆರಂಭವನ್ನು ಶಕ್ತಗೊಳಿಸು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>ESD 사용</short>
+        <long>사운드 서버 시작을 사용합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>ESD çalak bike</short>
+        <long>Destpêkirina pêşkêşkerê deng çalak bike.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Įjungti ESD</short>
+        <long>Naudoti garsų serverį.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Aktivizēt ESD</short>
+        <long>Aktivizēt skaņas servera sāknēšanu.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>ईएसडी सक्षम करू</short>
+        <long>ध्वनि सर्वर स्टार्टअप सक्षम करू.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Alefaso ny ESD</short>
+        <long>Alefaso eny am-piantombohana ny mpizara feo.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Овозможи ESD</short>
+        <long>Овозможи звук на подигање на серверот.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ഇഎസ്ഡി പ്രവര്‍ത്തന സജ്ജമാക്കുക</short>
+        <long>ശബ്ദ സേവകന്റെ തുടക്കം പ്രവര്‍ത്തന സജ്ജമാക്കുക</long>
+      </locale>
+
+      <locale name="mn">
+        <short>ESD-ийг идэвхжүүлэх</short>
+        <long>GNOME-ийн эхлэхэд дууны серверийг ажиллуулах6</long>
+      </locale>
+
+      <locale name="mr">
+        <short>ESD कार्यान्वीत करा</short>
+        <long>ध्वनी सर्वर सुरवात कार्यान्वीत करा.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Hidupkan ESD</short>
+        <long>Hidupkan permulaan pelayan bunyi.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Aktiver ESD</short>
+        <long>Aktiver oppstart av lydtjener.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>ESD लाई सक्षम पार्नुहोस्</short>
+        <long>सुरुआतमा ध्वनि सर्भर सक्षम पार्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>ESD inschakelen</short>
+        <long>Geluidsserver inschakelen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Bruk ESD</short>
+        <long>Slå på oppstart av lydtenar.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Activar ESD</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ଇ.ଓସ.ଡି. ସକ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ଧ୍ବନି ସେବକ ପ୍ରାରମ୍ଭ ସକ୍ରିୟ କରନ୍ତୁ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ESD ਯੋਗ</short>
+        <long>ਸ਼ੁਰੂਆਤ &apos;ਤੇ ਸਾਊਡ ਸਰਵਰ ਨੂੰ ਯੋਗ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Użycie serwera dźwięku (ESD)</short>
+        <long>Włączone uruchamianie serwera dźwięku.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar ESD</short>
+        <long>Activar inicialização do servidor de som.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar ESD</short>
+        <long>Habilitar servidor de áudio ao iniciar.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Activare ESD</short>
+        <long>Pornește serverul de sunet ESD.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Включить ESD</short>
+        <long>Включить сервер звука.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Povoliť ESD</short>
+        <long>Povoliť štart zvukového servera.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Omogoči ESD</short>
+        <long>Omogoči zagon strežnika za zvok.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Aktivizo ESD</short>
+        <long>Aktivizo server-in e zërit gjatë nisjes.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Омогући ЕСД</short>
+        <long>Покрени звучни сервер при покретању.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Омогући ЕСД</short>
+        <long>Покрени звучни сервер при покретању.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Omogući ESD</short>
+        <long>Pokreni zvučni server pri pokretanju.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera ESD</short>
+        <long>Aktivera uppstart av ljudserver.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>ESD ஐ இயலுமைப்படுத்து</short>
+        <long>ஒலிச் சேவையக தொடங்குதலை இயலுமைப்படுத்துக.</long>
+      </locale>
+
+      <locale name="te">
+        <short>ESD చేతనముచేయుము</short>
+        <long>శబ్దపు సేవిక ప్రారంభంను చేతనంచేయుము</long>
+      </locale>
+
+      <locale name="th">
+        <short>เปิดใช้ ESD</short>
+        <long>เปิดใช้ระบบเสียง</long>
+      </locale>
+
+      <locale name="tr">
+        <short>ESD&apos;yi Etkinleştir</short>
+        <long>Ses sunucusunun başlatılmasını etkinleştir.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Увімкнути ESD</short>
+        <long>Увімкнути запуск звукового сервера</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bật ESD</short>
+        <long>Bật trình phục vụ âm thanh lúc khởi động.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>ESD en alaedje</short>
+        <long>Mete en ouve li sierveu di sons a l&apos; enondaedje.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Vula i-ESD</short>
+        <long>Vula isandi seseva kungeno.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>启用 ESD</short>
+        <long>在启动时启用声音服务器。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>啟用 ESD</short>
+        <long>啟動時開啟音效伺服程式。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用 ESD</short>
+        <long>啟動時開啟音效伺服程式。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/sound/event_sounds</key>
+      <applyto>/desktop/gnome/sound/event_sounds</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Sounds for events</short>
+        <long>Whether to play sounds on user events.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>أصوات للأحداث</short>
+        <long>فيما أذا وجب عزف أصوات عند أحداث المستخدم.</long>
+      </locale>
+
+      <locale name="as">
+        <short>বিভিন্ন ঘটনাৰ শব্দ</short>
+        <long>ব্যৱহাৰকৰ্তাদৰ ঘটনাৰ বাবে শব্দ বজোৱা হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Soníos pa los eventos</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>Hadisələr üçün səslər</short>
+        <long>İstifadəçi hadisələrində səslərin çalınıb çalınmaması.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Гукі для падзеяў</short>
+        <long>Ці граюць гукі па падзеях.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Звук при събития</short>
+        <long>Дали да се пуска звук при потребителски събития.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>বিভিন্ন ইভেন্টের শব্দ</short>
+        <long>যেকোনো ক্ষেত্রে ব্যবহারকারীর ইভেন্টস চালু হওয়ার শব্দ</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>বিভিন্ন ইভেন্টের শব্দ</short>
+        <long>ব্যবহারকারীদের ইভেন্টের জন্য শব্দ বাজানো হবে।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Zvuci za događaje</short>
+        <long>Da li puštati zvukove na događaje vezane za korisnika.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Sons per a esdeveniments</short>
+        <long>Si s&apos;han de reproduir sons en els esdeveniments de l&apos;usuari.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Sons per a esdeveniments</short>
+        <long>Si s&apos;han de reproduir sons en els esdeveniments de l&apos;usuari.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Vaqialar içün davuşlar</short>
+        <long>Qullanıcı vaqiaları üzerine davuşlarnıñ çalınıp çalınmaycağı.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zvuky pro události</short>
+        <long>Jestli přehrávat zvuky při uživatelských událostech.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Synau ar gyfer digwyddiadau</short>
+        <long>Dylid chwarae synau ar gyfer digwyddiadau defnyddiwr.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Lyde for hændelser</short>
+        <long>Om der skal afspilles lyde ved brugerhændelser.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Klänge bei Ereignissen</short>
+        <long>Sollen bei Benutzer-Ereignissen Klänge abgespielt werden?</long>
+      </locale>
+
+      <locale name="dz">
+        <short>བྱུང་ལས་ཀྱི་དོན་ལུ་སྒྲ་སྐད།</short>
+        <long>ལག་ལེན་པའི་བྱུང་ལས་ལུ་ སྒྲ་སྐད་གཏང་ནི་ཨིན་ན།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ήχοι για συμβάντα</short>
+        <long>Αν θα αναπαράγονται ήχοι στα γεγονότα χρήστη.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Sounds for events</short>
+        <long>Whether to play sounds on user events.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Sounds for events</short>
+        <long>Whether to play sounds on user events.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Sonoj por eventoj</short>
+        <long>Ĉu ludi sonojn je uzantoeventoj.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Sonidos para los eventos</short>
+        <long>Indica si se van a reproducir sonidos en los eventos del usuario.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Sündmuste helid</short>
+        <long>Kas kasutajasündmuste puhul mängitakse helisid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Gertaeren soinuak</short>
+        <long>Erabiltzailearen gertaeretan soinuak erreproduzitu ala ez adierazten du.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>صدا برای رویدادها</short>
+        <long>این که آیا برای رویدادهای کاربر صدا پخش بشود یا نه.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Äänitapahtumat</short>
+        <long>Soiko ääni käyttäjän määrittelemissä tapahtumissa.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Effets sonores pour les événements</short>
+        <long>Indique s&apos;il faut jouer des sons sur les événements utilisateur.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Sons para os eventos</short>
+        <long>Indica se se van reproducir sons nos eventos do usuario.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ઘટનાઓ માટેના ધ્વનિઓ</short>
+        <long>શું વપરાશકર્તાઓની ઘટનાઓ પર ધ્વનિઓ વગાડવા કે નહિ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Sounds for events</short>
+        <long>Whether to play sounds on user events.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>घटनाओं हेतु ध्वनियाँ</short>
+        <long>उपयोगकर्ता घटनाओं में ध्वनियाँ बजाएँ या नहीं</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Zvuci za događaje</short>
+        <long>Koji zvukovi se trebaju svirati na korisničke događaje.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Hangok az eseményekhez</short>
+        <long>Legyen-e hanglejátszás felhasználói eseményekkor?</long>
+      </locale>
+
+      <locale name="id">
+        <short>Suara untuk kejadian-kejadian tertentu</short>
+        <long>Mainkan file suara saat ada kejadian tertentu.</long>
+      </locale>
+
+      <locale name="is">
+        <short>Hljóð fyrir atburði</short>
+        <long>Á að spila hljóð við atburði notenda.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Suoni per eventi</short>
+        <long>Indica se usare suoni quando avvengono eventi utente.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>イベント発生時にサウンドを鳴らす</short>
+        <long>ユーザのイベントでサウンドを演奏するかどうかです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>მოვლენის გახმოვანება</short>
+        <long>მოვლენების გახმოვანების გამოყენება</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಘಟನೆಗಳಿಗಾಗಿನ ಧ್ವನಿಗಳು</short>
+        <long>ಬಳಕೆದಾರರ ಘಟನೆಗಳಲ್ಲಿ ಒಂದು ಧ್ವನಿಯನ್ನು ಚಲಾಯಿಸಬೇಕೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>이벤트에 대한 사운드</short>
+        <long>사용자 이벤트에 사운드를 플레이할 지 여부.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Dengên ji bo buyêran</short>
+        <long>Di bûyerên bikarhêner de dengderketin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Įvykių garsai</short>
+        <long>Ar leisti garsus, susietus su naudotojo atliekamais veiksmais</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Skaņas notikumiem</short>
+        <long>Vai atskaņot skaņas pie lietotāja notikumiem.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>घटनासभ लेल ध्वनि</short>
+        <long>प्रयोक्ता घटनासभमे ध्वनि बजाएनाइ चाही अथवा नहि</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Feon-java-mitranga</short>
+        <long>Raha tokony hampaneno feo amin&apos;ny zava-mitranga (mpampiasa).</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Звуци за настани</short>
+        <long>Дали да се пуштаат звуци за корисничките настани.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സംഭവങ്ങള്‍ക്കുളള ശബ്ദങ്ങള്‍</short>
+        <long>ഉപയോക്താക്കളുടെ സംഭവങ്ങളില്‍ ശബ്ദം കേള്‍പ്പിയ്ക്കണോ.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Үйлдлүүдийн гаргах дуу</short>
+        <long>Хэрэглэгчийн хийх үйлдэлд хамааруулан дуу гаргах эсэх</long>
+      </locale>
+
+      <locale name="mr">
+        <short>घटनांकरीता ध्वनी</short>
+        <long>वापरकर्त्याच्या घटनांसाठी ध्वनी करायचा का.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Bunyi bagi acara</short>
+        <long>Samada memainkan bunyi pada acara pengguna.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Lyder for hendelser</short>
+        <long>Om lyder skal spilles av ved brukerhendelser.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>घटनाहरूका लागि ध्वनि</short>
+        <long>प्रयोगकर्ता घटनामा ध्वनि प्ले गर्नु पर्छ या पर्दैन ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Geluiden voor acties</short>
+        <long>Of er geluiden afgespeeld worden bij gebruikersacties.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Lydar på hendingar</short>
+        <long>Om det skal spelast lydar ved brukarhendingar.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଘଟଣା ପାଇଁ ଧ୍ବନି.</short>
+        <long>ବ୍ଯବହାରକାରୀ ଘଟଣାରେ ଧ୍ବନି ବଜାଯିବ କି</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਘਟਨਾਵਾਂ ਲਈ ਆਵਾਜ਼</short>
+        <long>ਕੀ ਯੂਜ਼ਰ ਘਟਨਾਵਾਂ ਲਈ ਅਵਾਜ਼ਾਂ ਨੂੰ ਚਲਾਉਣਾ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Dźwięki dla zdarzeń</short>
+        <long>Określa, czy przy zdarzeniach użytkownika powinny być odtwarzane dźwięki.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Sons para eventos</short>
+        <long>Se reproduzir sons para eventos de utilizador.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Sons para eventos</short>
+        <long>Reproduzir sons em eventos do usuário.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Sunete pentru evenimente</short>
+        <long>Specifică dacă se redau sunete pentru evenimentele utilizator.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Звуки для событий</short>
+        <long>Подавать ли звуки при наступлении событий.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zvuky pre udalosti</short>
+        <long>Či zahrať zvuky pri používateľských udalostiach.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Zvoki za dogodke</short>
+        <long>Ali naj se ob uporabniških dogodkih predvajajo zvoki.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Tinguj për ndodhitë</short>
+        <long>Përcakton nëse duhen përdorur tingujt për ndodhitë e përdoruesit</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Звуци за догађаје</short>
+        <long>Да ли да пусти звук при корисниковим догађајима.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Звуци за догађаје</short>
+        <long>Да ли да пусти звук при корисниковим догађајима.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Zvuci za događaje</short>
+        <long>Da li da pusti zvuk pri korisnikovim događajima.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Ljud för händelser</short>
+        <long>Huruvida ljud ska spelas vid användarhändelser.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>நிகழ்வுகளுக்கான ஒலி</short>
+        <long>ஒலிகளை பயனர் நிகழ்வின்போது விளையாடுவதா இல்லையா</long>
+      </locale>
+
+      <locale name="te">
+        <short>ఘటనలకు శబ్దములు</short>
+        <long>వినియోగదారి ఘటనలపై శబ్దములను మ్రోగించవలెనా.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เล่นเสียงเมื่อมีเหตุการณ์</short>
+        <long>จะเล่นเสียงหรือไม่เมื่อมีเหตุการณ์การใช้งาน</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Olaylar için sesler</short>
+        <long>Kullanıcı olaylarında ses çalınması.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Звуки до подій</short>
+        <long>Чи відтворювати звуки під час визначених користувачем подій.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Âm thanh của sự kiện</short>
+        <long>Có phát âm trên những sự kiện của người dùng không.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Sons po ls evenmints</short>
+        
+      </locale>
+
+      <locale name="xh">
+        <short>Izandi zeenkqubo</short>
+        <long>Nokuba ngaba kudlalwe izandi kwiinkqubo zomsebenzisi.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>事件的声音</short>
+        <long>是否在用户事件发生时播放声音。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>代表事件的音效</short>
+        <long>當出現不同事件時播放代表該事件的音效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>代表事件的音效</short>
+        <long>當出現不同事件時播放代表該事件的音效。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/sound/theme_name</key>
+      <applyto>/desktop/gnome/sound/theme_name</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default>freedesktop</default>
+      <locale name="C">
+        <short>Sound theme name</short>
+        <long>The XDG sound theme to use for event sounds.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>اسم سمة الصوت</short>
+        <long>سمة الصوت XDF للاستخدام مع أصوات الأحداث.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ধ্বনিৰ থিমৰ নাম</short>
+        <long>পেনেল, nautilus প্ৰভৃতিৰ বাবে ব্যৱহৃত প্ৰতীকচিহ্নৰ থিম</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Nome del tema de soníos</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Име на звуковата тема</short>
+        <long>Звукова тема по XDG, която да се използва.</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>শব্দের থিমের নাম</short>
+        <long>ইভেন্টের শব্দ হিসাবে ব্যবহারযোগ্য XDG শব্দের থিম।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Nom del tema de so</short>
+        <long>El tema de sons XDG a utilitzar en els sons dels esdeveniments.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Nom del tema de so</short>
+        <long>El tema de sons XDG a utilitzar en els sons dels esdeveniments.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Davuş teması ismi</short>
+        <long>Vaqia davuşları içün qullanılacaq XDG davuş teması.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Název motivu zvuku</short>
+        <long>Motiv zvuku XDG, který má být použit u zvuků událostí.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Lydtemanavn</short>
+        <long>Det XDG-lydtema som skal bruges til begivenhedslyde.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Name des Audio-Themas</short>
+        <long>Für Ereignis-Klänge zu verwendenes Audio-Thema.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Όνομα θέματος ήχων</short>
+        <long>Θέμα ήχων XDG για τους ήχους συμβάντων.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Sound theme name</short>
+        <long>The XDG sound theme to use for event sounds.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Nombre del tema de sonidos</short>
+        <long>Tema de sonidos XDG que usar para eventos de sonidos.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Heliteema nimi</short>
+        <long>Sündmuste helide jaoks kasutatav XDG heliteema.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Soinu gaiaren izena</short>
+        <long>XDG soinu gaia gertaeren soinuetan erabiltzeko.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Ääniteeman nimi</short>
+        <long>Tapahtumien äänille käytettävä XDB-ääniteema.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Nom du thème sonore</short>
+        <long>Thème sonore XDG à utiliser pour les sons des événements.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Nome do tema de son</short>
+        <long>O tema de son XDG para usar nos eventos de son.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ધ્વનિ થીમ નામ</short>
+        <long>ઘટના ધ્વનિઓ માટે વાપરવાની XDG ધ્વનિ થીમ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Sound theme name</short>
+        <long>The XDG sound theme to use for event sounds.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>ध्वनि प्रसंग नाम</short>
+        <long>घटना ध्वनि के प्रयोग के लिए XDG ध्वनि प्रसंग.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Hangtéma neve</short>
+        <long>Az eseményhangokhoz használandó XDG hangtéma.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Nome del tema sonoro</short>
+        <long>Il tema sonoro XDG da usare per i suoni degli eventi.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>サウンド・テーマの名前</short>
+        <long>イベント毎に演奏する XDG のサウンド・テーマです。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಧ್ವನಿ ಪರಿಸರವಿನ್ಯಾಸದ ಹೆಸರು</short>
+        <long>ಘಟನೆಯ ಶಬ್ಧಗಳಲ್ಲಿ ಬಳಸಲಾಗುವ XDG ಧ್ವನಿ ಪರಿಸರವಿನ್ಯಾಸ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>사운드 테마 이름</short>
+        <long>이벤트 사운드에 사용할 XDG 사운드 테마.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Garso temos pavadinimas</short>
+        <long>XDG garsų tema įvykių garsams.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Skaņu tēmas nosaukums</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Име на тема со звуци</short>
+        <long>XDG тема со звуци што ќе се користи за звучни настани.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ശബ്ദ പ്രമേയത്തിനുള്ള പേരു്</short>
+        <long>ഇവന്റ് ശബ്ദങ്ങള്‍ക്കു് വേണ്ടിയുള്ള XDG ശബ്ദ ഥീം.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>संगीत सुत्रयोजनाचे नाव</short>
+        <long>घटना संगीत करीता वापरण्याजोगी XDG संगीत सुत्रयोजना.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Navn på lydtema</short>
+        <long>XDG lydtema som skal brukes for lydhendelser.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Naam van geluidsthema</short>
+        <long>Het XDG-geluidsthema voor actiegeluiden.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଧ୍ୱନୀ ପ୍ରସଙ୍ଗ ନାମ</short>
+        <long>ଘଟଣା ଧ୍ଵନୀରେ ବ୍ଯବହାର ାଇଁ ବଥିବା XDG ଧ୍ୱନୀ ପ୍ରସଙ୍ଗ</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਸਾਊਂਡ ਥੀਮ ਨਾਂ</short>
+        <long>ਘਟਨਾਵਾਂ ਸਾਊਂਡ ਲਈ ਵਰਤਣ ਵਾਸਤੇ XDG ਸਾਊਂਡ ਥੀਮ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Nazwa motywu dźwiękowego</short>
+        <long>Motyw dźwiękowy XDG używany przez powiadomienia dźwiękowe.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Nome do tema de som</short>
+        <long>O tema de sons XDG a utilizar para os sons de eventos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Nome do tema de som</short>
+        <long>O tema de som XDG para usar como sons de evento.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Numele temei de sunete</short>
+        <long>Temă XDG de sunete utilizată pentru evenimentele sonore.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Имя звуковой темы</short>
+        <long>Звуковая тема XDG для событий.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Názov zvukovej témy</short>
+        <long>Téma zvuku XDG, ktorú použiť pre zvuky udalostí.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Ime datoteke zvočne teme</short>
+        <long>Zvočna tema XDG za zvoke dogodkov.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Emri i temës sonore</short>
+        <long>Tema sonore XDG për tu përdorur për tingujt e eventeve.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Име звучне теме</short>
+        <long>XDG звучна тема која се користи за звуке на догађаје.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Ime zvučne teme</short>
+        <long>XDG zvučna tema koja se koristi za zvuke na događaje.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Ljudtemanamn</short>
+        <long>XDG-ljudtemat att använda för händelseljud.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>ஒலி தீம் பெயர்</short>
+        <long>இந்த XDG ஒலி தீம் நிகழ்வு ஒலிகளுக்கு பயன்படுத்தப்படுகிறது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>శబ్దపు థీమ్ నామము</short>
+        <long>ఘటన శబ్దముల కొరకు వుపయోగించుటకు XDG శబ్దపు థీమ్.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ชื่อชุดเสียง</short>
+        <long>ชุดเสียงของ XDG ที่จะใช้เล่นประกอบการป้อนข้อมูล</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Ses tema ismi</short>
+        <long>Olay sesleri için kullanılacak XDG ses teması.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Назва звукової теми</short>
+        <long>Тема звуків XDG, що використовується озвучення подій.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tên sắc thái âm</short>
+        <long>Sắc thái âm XDG cần dùng cho các sự kiện âm thanh.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>声音主题名称</short>
+        <long>用于事件声音的 XDG 声音主题。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>音效主題名稱</short>
+        <long>在事件音效中使用的 XDG 音效主題</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>音效主題名稱</short>
+        <long>在事件音效中使用的 XDG 音效主題</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/sound/input_feedback_sounds</key>
+      <applyto>/desktop/gnome/sound/input_feedback_sounds</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Input feedback sounds</short>
+        <long>Whether to play sounds on input events.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>أصوات رد فعل مدخلة</short>
+        <long>فيما أذا وجب عزف أصوات عند أحداث الإدخال.</long>
+      </locale>
+
+      <locale name="as">
+        <short>নিবেশ মন্তব্যৰ ধ্বনি</short>
+        <long>ব্যৱহাৰকৰ্তাৰ ঘটনাৰ বাবে শব্দ বজোৱা হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Звуци при вход от потребителя</short>
+        <long>Дали да се пуска звук при събитията от входа.</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ইনপুট প্রতিক্রিয়ার জন্য শব্দ</short>
+        <long>ইনপুট ইভেন্টের জন্য শব্দ বাজানো হবে কি না।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Sons de suggeriment d&apos;entrada</short>
+        <long>Si s&apos;han de reproduir sons en els esdeveniments d&apos;entrada.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Sons de suggeriment d&apos;entrada</short>
+        <long>Si s&apos;han de reproduir sons en els esdeveniments d&apos;entrada.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Kirdi keri besleme davuşları</short>
+        <long>Kirdi vaqiaları üzerine davuşlarnıñ çalınıp çalınmaycağı.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zvuky zpětné vazby vstupu</short>
+        <long>Jestli přehrávat zvuky při událostech vstupu.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Inddata-tilbagemeldingslyde</short>
+        <long>Om der skal afspilles lyde ved inddatahændelser.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Klänge bei Eingaben</short>
+        <long>Sollen bei Eingabe-Ereignissen Klänge abgespielt werden?</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ήχοι ειδοποίησης εισόδου</short>
+        <long>Αν θα αναπαράγονται ήχοι για συμβάντα εισόδου.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Input feedback sounds</short>
+        <long>Whether to play sounds on input events.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Sonidos de comentarios</short>
+        <long>Indica si se van a reproducir sonidos en los eventos de entrada.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Sisestuse tagasiside helid</short>
+        <long>Kas sisestussündmuste puhul mängitakse helisid või mitte.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Sarrerako berrelikaduren soinuak</short>
+        <long>Sarrerako gertaeretan soinuak erreproduzitu ala ez adierazten du.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Syötteen palauteäänet</short>
+        <long>Soitetaanko ääniä syötetapahtumille.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Retour sonore lors de la saisie</short>
+        <long>Indique s&apos;il faut jouer des sons sur les événements d&apos;entrée.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Sons de retroacción da entrada</short>
+        <long>Indica cando se reproducen sons nos eventos de entrada.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ઈનપુટ અભિપ્રાય સંભળાય છે</short>
+        <long>શું ઈનપુટ ઘટનાઓ પર ધ્વનિઓ વગાડવી.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Input feedback sounds</short>
+        <long>Whether to play sounds on input events.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>इनपुट फ़ीडबैक ध्वनि</short>
+        <long>क्या इनपुट घटना पर ध्वनि बजाएँ या नहीं.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Beviteli visszajelzés hangja</short>
+        <long>Legyen-e hanglejátszás beviteli eseményekkor?</long>
+      </locale>
+
+      <locale name="it">
+        <short>Suoni di riscontro dell&apos;input</short>
+        <long>Indica se usare suoni quando avvengono eventi di input.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>入力フィードバックとしてのサウンド効果</short>
+        <long>入力イベントでサウンドを演奏するかどうかです。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಇನ್‌ಪುಟ್‌ ಪ್ರತಿಕ್ರಿಯೆಯ ಶಬ್ಧಗಳು</short>
+        <long>ಇನ್‌ಪುಟ್‌ ನಡೆದ ಸಂದರ್ಭಗಳಲ್ಲಿ ಶಬ್ಧವನ್ನು ಹೊರಡಿಸಬೇಕೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>입력 피드백 사운드</short>
+        <long>입력 이벤트에 대해 사운드를 플레이할 지 여부.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Įvedimo grįžtamojo ryšio garsai</short>
+        <long>Ar leisti garsus, susietus su įvedimo įvykiais.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Звуци за влезен фидбек</short>
+        <long>Дали да се пуштаат звуци при влезни настани.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ഇന്‍പുട്ട് അഭിപ്രായങ്ങളുടെ ശബ്ദങ്ങള്‍</short>
+        <long>ഇന്‍പുട്ട് ഇവന്റുകളില്‍ ശബ്ദം കേള്‍പ്പിയ്ക്കണോ.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>इनपुट प्रतिसाद करीता संगीत</short>
+        <long>इनपुट घटनांकरीता संगीत चालवायचे.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Lyder for tilbakemelding om inndata</short>
+        <long>Om lyder skal spilles av ved inndatahendelser.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Invoerfeedbackgeluiden</short>
+        <long>Of er geluiden afgespeeld worden bij invoeracties.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ନିବେଶ ପ୍ରତିକ୍ରିୟା ଧ୍ୱନୀ</short>
+        <long>ନିବେଶ ଘଟଣାରେ ଧ୍ବନି ବଜାଯିବ କି.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਇੰਪੁੱਟ ਫੀਡਬੈਕ ਸਾਊਂਡ</short>
+        <long>ਕੀ ਇੰਪੁੱਟ ਘਟਨਾਵਾਂ ਲਈ ਸਾਊਂਡ ਚਲਾਉਣੀ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Dźwięki w odpowiedzi na działania użytkownika</short>
+        <long>Określa, czy przy zdarzeniach użytkownika powinny być odtwarzane dźwięki.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Sons de resposta à introdução</short>
+        <long>Se reproduzir ou não sons nos eventos de introdução.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Sons de retorno de entrada</short>
+        <long>Reproduzir sons em eventos de entrada.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Sunete de feedback la input</short>
+        <long>Specifică dacă se redau sunete la input.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Звуки реакции на действия пользователя</short>
+        <long>Следует ли проигрывать звуки при возникновении событий.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zvuky spätnej väzby vstupu</short>
+        <long>Či zahrať zvuky pri udalostiach vstupu.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Uporabi obvestilne zvoke</short>
+        <long>Ali naj se ob uporabniških dogodkih predvajajo zvoki.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Tingujt përgjigjës të input</short>
+        <long>Përcakton nëse duhen riprodhuar tinguj për eventet e input.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Звучно обавештење о уносу</short>
+        <long>Да ли да пусти звук при корисниковим догађајима.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Zvučno obaveštenje o unosu</short>
+        <long>Da li da pusti zvuk pri korisnikovim događajima.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Återkopplingsljud för inmatning</short>
+        <long>Huruvida ljud ska spelas vid inmatningshändelser.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>பின்னூட்ட ஒலிகளை உள்ளீடு செய்</short>
+        <long>ஒலிகளை பயனர் நிகழ்வின்போது இயக்க வேண்டுமா.</long>
+      </locale>
+
+      <locale name="te">
+        <short>ఇన్‌పుట్ ఫీడ్‌బ్యాక్ శబ్దములు</short>
+        <long>ఇన్‌పుట్ ఘటనలపై శబ్దములను మ్రోగించవలెనా.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เล่นเสียงการป้อนข้อมูล</short>
+        <long>จะเล่นเสียงหรือไม่เมื่อมีเหตุการณ์การป้อนข้อมูล</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Girdi geri besleme sesleri</short>
+        <long>Girdi olaylarında ses çalınması.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Звуки при вводі</short>
+        <long>Чи відтворювати звуки під час подій вводу.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Âm phản hồi đầu vào</short>
+        <long>Có phát âm trên những sự kiện đầu vào không.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>输入反馈声音</short>
+        <long>是否在输入事件发生时播放声音。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>輸入回饋音效</short>
+        <long>是否播放輸入事件的音效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>輸入回饋音效</short>
+        <long>是否播放輸入事件的音效。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

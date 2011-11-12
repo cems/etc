@@ -1,0 +1,2506 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="Использовать быструю анимацию">
+						<longdesc>Значение FALSE задает медленное и красивое падение шариков. ЗначениеTRUE задает быстрое, но отрывистое падение.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Высота настраиваемой доски">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Ширина настраиваемой доски">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="Размер игрового поля">
+						<longdesc>Используемый размер доски. 1 - настраиваемая, 2 - маленькая, 3 - средняя, 4 - большая.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="Используемая в игре тема">
+						<longdesc>Файл игровой темы.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Сбросить вкрапления">
+						<longdesc>Нажмите клавишу для сброса вкрапления.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Вправо">
+						<longdesc>Клавиша для перемещения вправо.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Влево">
+						<longdesc>Клавиша для перемещения влево.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Звук">
+						<longdesc>Воспроизводить звуки событий или нет.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Анимировать">
+						<longdesc>Использовать анимацию или нет.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="Идентификатор темы">
+						<longdesc>Число, указывающее выбранную тему.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Уровень второго Игрока">
+						<longdesc>Ноль обозначает игрока-человека, а значение от единицы до тройки обозначает уровень мастерства компьютерного игрока.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Уровень первого Игрока">
+						<longdesc>Ноль обозначает игрока-человека, а значение от единицы до тройки обозначает уровень мастерства компьютерного игрока.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Просмотр игры">
+							<longdesc>Просмотр игры из последнего сохраненного сеанса игры.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Игровое поле">
+							<longdesc>Игровое поле из последнего сохраненного сеанса игры.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Результаты игры">
+							<longdesc>Таблица результатов из последнего сохраненного сеанса игры.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Время между прыжками шариков">
+							<longdesc>Время между прыжками шарика в миллисекундах</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Цвет фона">
+							<longdesc>Цвет фона. Это шестнадцатеричное число, определяющее цвет фона.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Стиль шариков">
+							<longdesc>Стиль шариков. Это имя файла изображения шариков.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Размер игрового поля">
+							<longdesc>Размер игрового поля. 1 - маленькое, 2 - среднее, 3 - большое. Другие значениянекорректны</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="Сторона игрового поля">
+						<longdesc>Сторона доски, обращённая к пользователю, например &apos;white&apos;, &apos;black&apos;, &apos;current&apos; (сторона текущего игрока) или &apos;human&apos; (сторона текущего игрока-человека)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="Формат для оборажения ходов">
+						<longdesc>Формат для отображения ходов. Возможные значения &apos;human&apos; (приспособлен для чтения), &apos;lan&apos; (длинная алгебраическая запись) или &apos;san&apos; (стандартная алгебраическая запись).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="Каталог в котором открывать диалог открытия игры">
+						<longdesc>Каталог в котором открывать диалог открытия игры</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="Каталог в котором открывать диалог сохранения игры">
+						<longdesc>Каталог в котором открывать диалог сохранения игры</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Показать или скрыть панель инструментов">
+						<longdesc>Показать или скрыть панель инструментов</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="Показать или скрыть просмотр истории">
+						<longdesc>Показать или скрыть просмотр истории</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="Показывать комментарии к ходам">
+						<longdesc>Показывать комментарии к ходам</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="Включить нумерацию полей">
+						<longdesc>Включить нумерацию полей</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="Включить подсказки ходов">
+						<longdesc>Включить подсказки ходов</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="Включить трёхмерный режим">
+						<longdesc>Включить трёхмерный режим</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="Фигура, в которую нужно превращать пешку при проходе">
+						<longdesc>Фигура, в которую нужно превращать пешку при проходе. Возможные значения: &apos;queen&apos;, &apos;knight&apos;, &apos;rook&apos;, &apos;bishop&apos;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="Включить поддержку сетевой игры">
+						<longdesc>Включить поддержку сетевой игры</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="Работать в полноэкранном режими">
+						<longdesc>Работать в полноэкранном режими</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="Включить режим развёрнутого окна">
+						<longdesc>Включить режим развёрнутого окна</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="Высота окна">
+						<longdesc>Требуемая высота основного, в пикселях.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Ширина окна">
+						<longdesc>Требуемая ширина основного окна, в пикселях.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="Позволять удалённым игрокам наблюдать за игрой">
+							<longdesc>Позволять удалённым игрокам наблюдать за игрой</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="Промежуток времени на выполнение хода в новых играх">
+							<longdesc>Промежуток времени на выполнение хода в новых играх</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="Сложность игры за чёрных в новых играх">
+								<longdesc>Сложность игры за чёрных в новых играх</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Игрок за чёрных по умолчанию">
+								<longdesc>Игрок за чёрных по умолчанию</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="Сложность игры за белых в новых играх">
+								<longdesc>Сложность игры за белых в новых играх</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Игрок за белых по умолчанию">
+								<longdesc>Игрок за белых по умолчанию</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="Недавние пасьянсы">
+						<longdesc>Список недавно сыгранных пасьянсов.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="Статистика сыгранных игр">
+						<longdesc>Список строк, которые содержат четверки - имя игры, победы, количество игр, лучшее время в секундах и худшее время тоже в секундах.Игры, в которые не играли, могут отсутствовать.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Используемый файл игры">
+						<longdesc>Название файла схем, содержащего нужный пасьянс.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Звук">
+						<longdesc>Воспроизводить звуки событий или нет.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Выбор стиля управления">
+						<longdesc>Нужно ли перетаскивать карты мышью или указывать место, откуда карта берётся и куда кладется.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_statusbar">
+					<local_schema short_desc="Показать или скрыть строку состояния">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Показать или скрыть панель инструментов">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Имя файла темы">
+						<longdesc>Имя файла с изображениями карт.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Клавиша для ожидания">
+							<longdesc>Клавиша для ожидания.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Клавиша для случайной телепортации">
+							<longdesc>Клавиша для случайной телепортации.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Клавиша для телепортации">
+							<longdesc>Клавиша для безопасной телепортации (если такая возможна).Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Клавиша для перемещения вправо и вниз.">
+							<longdesc>Клавиша для движения вправо и вниз.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Клавиша для перемещения вниз.">
+							<longdesc>Клавиша для движения вниз.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Клавиша для перемещения влево и вниз.">
+							<longdesc>Клавиша для движения влево и вниз.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Клавиша для перемещения вправо.">
+							<longdesc>Клавиша для движения вправо.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Клавиша, чтобы остаться на месте">
+							<longdesc>Клавиша, чтобы оставаться на месте.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Клавиша для перемещения влево.">
+							<longdesc>Клавиша для движения влево.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Клавиша для перемещения вправо и вверх.">
+							<longdesc>Клавиша для движения вправо и вверх.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Клавиша для перемещения вверх.">
+							<longdesc>Клавиша для движения вверх.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Клавиша для перемещения влево и вверх.">
+							<longdesc>Клавиша для движения влево и вверх.Значение должно быть стандартным именем клавиши в X Window</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Включить звук взрыва">
+							<longdesc>Включить звук взрыва. Воспроизводит звук и показывает на экране «Splat!».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Включить звуки игры">
+							<longdesc>Включить звуки игры. Воспроизводит звуки при разных событиях в игре.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Использовать особо безопасные ходы">
+							<longdesc>Использовать особо безопасные ходы. Игрок предупреждается, если больше нет безопасных ходов и срочно необходима телепортация.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Использовать безопасные ходы">
+							<longdesc>Использовать безопасные ходы. Параметр использования безопасных ходов помогает вам спастись от безвременной кончины из-за ошибок в тактике. Если вы попробуете сделать неудачный ход, ведущий вас прямо в могилу - и при этом есть безопасный ход, то игра не даст вам ошибиться.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Тип игры">
+							<longdesc>Тип игры. Название используемого варианта игры.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Цвет фона">
+							<longdesc>Цвет фона. Это шестнадцатеричное число, определяющее цвет фона.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Тема игры Роботы">
+							<longdesc>Тема игры Роботы. Это используемый набор изображений роботов в игре.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="Показывать панель инструментов">
+							<longdesc>Показывать панель инструментов. Стандартная настройка для интерфейса.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Размер узора">
+							<longdesc>Размер узора.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Включить звуки">
+							<longdesc>Включить звуки.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Уровень начала игры">
+							<longdesc>Уровень начала игры.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Случайно предлагать уровни">
+							<longdesc>Случайно предлагать уровни.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Разрешить фальшивые бонусы">
+							<longdesc>Разрешить фальшивые бонусы.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Скорость игры">
+							<longdesc>Скорость игры (1=быстрая, 4=медленная).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="Число компьютерных игроков">
+							<longdesc>Число компьютерных игроков.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="Число игроков">
+							<longdesc>Число игроков.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Вправо">
+									<longdesc>Кнопка для движения вправо.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Влево">
+									<longdesc>Кнопка для движения влево.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Двигаться вниз">
+									<longdesc>Кнопка для движения вниз.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Двигаться вверх">
+									<longdesc>Кнопка для движения вверх.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Использовать относительное перемещение">
+									<longdesc>Использовать относительное перемещение (т.е. только влево или вправо).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Цвет червяка">
+									<longdesc>Цвет червяка.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Вправо">
+									<longdesc>Кнопка для движения вправо.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Влево">
+									<longdesc>Кнопка для движения влево.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Двигаться вниз">
+									<longdesc>Кнопка для движения вниз.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Двигаться вверх">
+									<longdesc>Кнопка для движения вверх.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Использовать относительное перемещение">
+									<longdesc>Использовать относительное перемещение (т.е. только влево или вправо).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Цвет червяка">
+									<longdesc>Цвет червяка.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Вправо">
+									<longdesc>Кнопка для движения вправо.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Влево">
+									<longdesc>Кнопка для движения влево.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Двигаться вниз">
+									<longdesc>Кнопка для движения вниз.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Двигаться вверх">
+									<longdesc>Кнопка для движения вверх.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Использовать относительное перемещение">
+									<longdesc>Использовать относительное перемещение (т.е. только влево или вправо).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Цвет червяка">
+									<longdesc>Цвет червяка.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Вправо">
+									<longdesc>Кнопка для движения вправо.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Влево">
+									<longdesc>Кнопка для движения влево.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Двигаться вниз">
+									<longdesc>Кнопка для движения вниз.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Двигаться вверх">
+									<longdesc>Кнопка для движения вверх.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Использовать относительное перемещение">
+									<longdesc>Использовать относительное перемещение (т.е. только влево или вправо).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Цвет червяка">
+									<longdesc>Цвет червяка.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Вправо">
+									<longdesc>Кнопка для движения вправо.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Влево">
+									<longdesc>Кнопка для движения влево.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Двигаться вниз">
+									<longdesc>Кнопка для движения вниз.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Двигаться вверх">
+									<longdesc>Кнопка для движения вверх.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Использовать относительное перемещение">
+									<longdesc>Использовать относительное перемещение (т.е. только влево или вправо).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Цвет червяка">
+									<longdesc>Цвет червяка.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Вправо">
+									<longdesc>Кнопка для движения вправо.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Влево">
+									<longdesc>Кнопка для движения влево.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Двигаться вниз">
+									<longdesc>Кнопка для движения вниз.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Двигаться вверх">
+									<longdesc>Кнопка для движения вверх.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Использовать относительное перемещение">
+									<longdesc>Использовать относительное перемещение (т.е. только влево или вправо).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Цвет червяка">
+									<longdesc>Цвет червяка.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Выбор стиля управления">
+						<longdesc>Нужно ли перетаскивать фигуры мышью или указывать место, откуда фигура берётся и куда кладется.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="Управлять цветными фигурками">
+						<longdesc>Включать цветные фигурки.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="Размер игровой решетки">
+						<longdesc>Значение этого ключа используется для определения размера игровой решетки. Допустимыми значениями являются от 2 до 8, все остальные значения будут сбрасываться в 3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Пауза">
+							<longdesc>Клавиша для паузы.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Поворот">
+							<longdesc>Нажмите клавишу для поворота.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Бросить">
+							<longdesc>Клавиша для сброса вкрапления.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Двигаться вниз">
+							<longdesc>Клавиша для перемещения вниз.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Вправо">
+							<longdesc>Клавиша для перемещения вправо.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Влево">
+							<longdesc>Клавиша для перемещения влево.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Плотность блоков в заполненных строках">
+							<longdesc>Количество рядов блоков в начале игры. Принимает значения от 0 (нет блоков) до 10 (полностью заполненный стакан).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Число заполняемый рядов">
+							<longdesc>Число рядов, заполненных случайными блоками в начале игры.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Вращать по часовой стрелке">
+							<longdesc>Вращать по часовой стрелке.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Использовать разноцветные блоки">
+							<longdesc>Использовать разноцветные блоки.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="Показывать цель">
+							<longdesc>Показывать, куда упадёт блок.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Показывать следующий блок">
+							<longdesc>Показывать следующий блок.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Цвет фона">
+							<longdesc>Цвет фона в формате, распознаваемом gdk_color_parse.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Использовать фоновое изображение">
+							<longdesc>Отрисовывать ли фоновое изображение над фоном, заполненым цветом.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Начальный уровень">
+							<longdesc>Начальный уровень.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Тема блоков">
+							<longdesc>Тема, используемая для рисования блоков и фона.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Изображение для блоков">
+							<longdesc>Изображение для блоков.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Показать размышления компьютера">
+						<longdesc>Если установлено, то на стандартный вывод будут выводиться куски размышлений искуственного интеллекта.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Задержка между бросками">
+						<longdesc>Выберите, вставлять или нет задержку между бросками костей компьютером так, чтобы игрок мог видеть, что происходит.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="Текущая головоломка">
+						<longdesc>Номер текущей головоломки</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nm-applet">
+				<entry name="stamp">
+					<local_schema short_desc="Stamp">
+						<longdesc>Используется чтобы определить, какие параметры должны быть перенесены в новую версию.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="suppress-wireless-networks-available">
+					<local_schema short_desc="Отключить уведомления о доступных сетях">
+						<longdesc>Установите в TRUE, чтобы отключить уведомления о доступных беспроводных сетях.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-disconnected-notifications">
+					<local_schema short_desc="Отключить уведомления об отключении">
+						<longdesc>Установите в TRUE, чтобы отключить уведомления при отключении от сети.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-connected-notifications">
+					<local_schema short_desc="Отключить уведомления о подключении">
+						<longdesc>Установите в TRUE, чтобы отключить уведомления при подключении к сети.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Звук">
+						<longdesc>Воспроизводить звуки событий или нет.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Стиль панели инструментов">
+							<longdesc>Стиль панели управления. Допустимые значения: &quot;Оба&quot;,&quot;Оба гориз.&quot;, &quot;Пиктограммы&quot; и &quot;Текст&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Разрешить выделения без фокуса">
+								<longdesc>Некоторые диалоги содержат только одно поле ввода допускающее указание выделенного диапазона в рабочей книге. Установка значений этой переменной в TRUE (истина) направляет выделение в это поле даже если поле не имеет фокуса ввода.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="Формат заголовка/сноски (правая часть)">
+							<longdesc>Используйте диалог настройки печати для исправления этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="Формат заголовка/сноски (средняя часть)">
+							<longdesc>Используйте диалог настройки печати для исправления этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="Формат заголовка/сноски (левая часть)">
+							<longdesc>Используйте диалог настройки печати для исправления этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paper-orientation">
+						<local_schema short_desc="Бумага">
+							<longdesc>Это значение задаёт исходную ориентацию страницы. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paper">
+						<local_schema short_desc="Бумага">
+							<longdesc>Это значение задаёт спецификацию бумаги. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="Нижний отступ по умолчанию">
+							<longdesc>Это значение задаёт исходное число пунктов от правого края страницы до начала области печати. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-left">
+						<local_schema short_desc="Отсуп слева по умолчанию">
+							<longdesc>Это значение задаёт исходное число пунктов от левого края страницы до конца области печати. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-top">
+						<local_schema short_desc="Внешний верхний отступ по умолчанию">
+							<longdesc>Это значение задаёт исходное число пунктов от верхнего края страницы до начала заголовка. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-bottom">
+						<local_schema short_desc="Внешний нижний отступ по умолчанию">
+							<longdesc>Это значение задаёт исходное число пунктов от нижнего края страницы до конца сноски. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="Нижний отступ по умолчанию">
+							<longdesc>Это значение задаёт исходное число пунктов от нижнего края страницы до конца области печати. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="Отсуп сверху по умолчанию">
+							<longdesc>Это значение задаёт исходное число пунктов от верхнего края страницы до начала области печати. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preferred-unit">
+						<local_schema short_desc="Предпочтительные единицы измерения">
+							<longdesc>Эта строка задаёт исходные значения для единиц измерения в диалоге настройки печати.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="Повторение левой области по умолчанию">
+							<longdesc>Эта строка задаёт область по умолчанию для печати слева на каждом распечатываемом листе. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="Повторение верхней области по умолчанию">
+							<longdesc>Эта строка задаёт область по умолчанию для печати сверху на каждом распечатываемом листе. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="Высота масштабирования по умолчанию">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="Ширина масштабирования по умолчанию">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="Масштаб по умолчанию">
+							<longdesc>Это значение задаёт масштаб для печати каждой страницы в процентах. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="Тип масштаба по умолчанию">
+							<longdesc>Это значение задаёт исходные настройки для масштабирования страниц (в процентах) при печати. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="Направление печати по умолчанию">
+							<longdesc>Это значение задаёт исходные настройки для печати сначала вправо, а затем вниз. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="Печать заголовка по умолчанию">
+							<longdesc>Это значение задаёт исходные настройки для печати заголовков строк и столбцов. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="Чёрно-белая печать по умолчанию">
+							<longdesc>Это значение задаёт исходные настройки для чёрно-белой печати. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="Печать по умолчанию ячеек только со стилями">
+							<longdesc>Это значение задаёт исходные настройки для печати пустых, но отформатированных ячеек. Используйте диалог настройки печати для изменения этого значения.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="Печать линий сетки по умолчанию">
+							<longdesc>&gt;Это значение определяет исходные настройки в диалоге печати для линий сетки. Для исправления этого значения используйте диалог настройки печати.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="Вертикальное центрирование по умолчанию">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="Центрирование по горизонтали по умолчанию">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="По умолчанию для заголовков и сносок используется наклонное начертание шрифта.">
+							<longdesc>Это значение определяет будет ли исходный шрифт для заголовков и сносок наклонным.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="По умолчанию для заголовков и сносок используется полужирное начертание шрифта.">
+							<longdesc>Это значение определяет будет ли исходный шрифт для заголовков и сносок полужирным.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="Название шрифта используемого по умолчанию для заголовков/сносок">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="Размер шрифта заголовков/сносок по умолчанию">
+							<longdesc>Размер шрифта используемого по умолчанию для заголовков и сносок.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Сноска на странице">
+							<longdesc>Сноска на странице используемая по умолчанию для новых документов, может быть изменена с помощью диалога настройки страницы.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Заголовок страницы">
+							<longdesc>Заголовок для страницы используемый по умолчанию для новых документов, может быть изменён с помощью диалога настройки страницы.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-setting">
+						<local_schema>
+							<longdesc>Настройка GTKPrintSettings. Не исправляйте эту переменную.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Применить настройки печати ко всем листам">
+							<longdesc>Это значение определяет будут ли установки диалога печати по умолчанию применяться одновременно ко всем листам.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Каталог пользователя для шаблонов автоформатирования">
+							<longdesc>Главный каталог для пользовательских шаблонов автоформатирования.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Системный каталог для шаблонов автоформатирования">
+							<longdesc>Каталог для предустановленных шаблонов автоформатирования.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="Список дополнительных каталогов шаблонов автоформатирования.">
+							<longdesc>Это список всех каталогов содержащих шаблоны автоформатирования.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Список каталогов дополнений.">
+							<longdesc>Это список всех каталогов дополнений.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Список состояний файлов дополнений.">
+							<longdesc>Это список всех состояний файлов дополнений.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Список известных дополнений.">
+							<longdesc>Это список всех известных дополнений.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Список включённых дополнений.">
+							<longdesc>Это список всех дополнений, которые должны включаться автоматически.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Включить новое дополнение">
+							<longdesc>Эта переменная определяет надо ли активировать каждое новое обнаруженное дополнение.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Автокоррекция замены">
+							<longdesc>Автокоррекция замены</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Автокоррекция названий дней">
+							<longdesc>Автокоррекция названий дней</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="Список исключений для первой буквы">
+							<longdesc>Модуль автокоррекции не исправляет первую букву в словах из этого списка.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Автокоррекция первой буквы">
+							<longdesc>Автокоррекция первой буквы</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="Список исключений начальных заглавных">
+							<longdesc>Модуль автокоррекции не исправляет начальные заглавные в словах из этого списка.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Автокоррекция начальных заглавных">
+							<longdesc>Автокоррекция начальных заглавных</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Максимальная длина списка использовавшихся функций">
+							<longdesc>Диалог выбора функций сохраняет список ранее использовавшихся функций. Это максимальная длина списка.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Список последних использовавшихся функций.">
+							<longdesc>Диалог выбора функций сохраняет список ранее использовавшихся функций. Вот этот список.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="Предпочитать БУФЕР ОБМЕНА обычному ВЫДЕЛЕНИЮ">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Сортировка по возрастанию">
+									<longdesc>Этот параметр определяет исходное состояние кнопки порядка сортировки в диалоге сортировки.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Сохранять форматирование при сортировке">
+									<longdesc>Установка этого параметра приведёт к тому, что при сортировке с помощью кнопки на панели инструментов будет сохраняться форматирование ячеек. Соответствующим образом будет определяться исходное состояние поля отметки &quot;Сохранять форматирование при сортировке&quot; в диалоге сортировки.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Сортировка с учётом регистра">
+									<longdesc>Установка этого параметра приведёт к тому, что при сортировке с помощью кнопки на панели инструментов будет производиться сортировка с учётом регистра символов. Соответствующим образом будет определяться исходное состояние переключателя &quot;Сортировка с учётом регистра&quot; в диалоге сортировки.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Переписывание файлов по умолчанию">
+									<longdesc>Перед перезаписью существующего файла gnumeric показывает предупреждающее сообщение. Установка этого параметра сделает кнопку &quot;Переписать&quot; в этом диалоге выбранной по умолчанию.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Предупреждать при экспортировании в формат поддерживающий только один лист">
+									<longdesc>Некоторые форматы файлов могут содержать только один лист. Эта отметка определяет будет ли пользователь предупреждён в том случае, когда будет сохранён только один лист из многостраничной рабочей книги.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Уровень сжатия файлов Gnumeric по умолчанию">
+								<longdesc>Это число (между 0 и 9) указывает степень сжатия используемую gnumeric при сохранении файлов в исходном формате. 0 -- без компрессии, 9 -- максимальное сжатие.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Исходный масштаб">
+									<longdesc>Исходный масштаб для новых книг.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Исходный размер окна по вертикали">
+									<longdesc>Это число (между 0.25 и 1.00) определяет какую часть экрана по-вертикали будет занимать окно по умолчанию.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Исходный размер окна по горизонтали">
+									<longdesc>Это число (между 0.25 и 1.00) определяет какую часть экрана по-горизонтали будет занимать окно по умолчанию.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="Клавиши перехода">
+									<longdesc>Эта переменная определяет будут ли включены клавиши переходов. Клавиши переходов -- это возврат к обработке клавиатурных комбинаций в стиле Lotus 1-2-3. Они превращают нажатие &quot;Ctrl-стрелка&quot; в сдвиг страницы вместо перехода в начало/конец серии.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="recalclag">
+								<local_schema short_desc="Задержка автоматического пересчёта выражений">
+									<longdesc>Если &quot;задержка&quot; равна 0, gnumeric пересчитывает все выражения немедленно после каждого изменения. Значения отличные от 0 позволяют gnumeric накопить больше изменений до каждого пересчёта. Если &quot;задержка&quot; положительная, то после любого изменения gnumeric ждёт указанное число миллисекунд и затем пересчитывает выражения. Если в этот период произойдут какие-то дополнительные изменения, то они тоже будут обработаны в этот момент. Если значение &quot;задержки&quot; отрицательное, используется модуль её значения.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Немедленная прокрутка">
+									<longdesc>Эта переменная определяет будет ли выполняться немедленная прокрутка или отложенная.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Автодополнение">
+									<longdesc>Эта переменная определяет установлено ли автозавершение.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar-position">
+								<local_schema>
+									<longdesc>Эта переменная определяет где будет отображаться панель графических объектов. 0 - слева, 1 - справа, 2 - сверху.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="Панель графических элементов видна">
+									<longdesc>Эта переменная определяет будет ли видна при запуске панель графических объектов.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar-position">
+								<local_schema>
+									<longdesc>Эта переменная определяет где будет отображаться панель форматирования. 0 - слева, 1 - справа, 2 - сверху.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="Панель форматирования видна">
+									<longdesc>Эта переменная определяет будет ли видна при запуске панель форматирования.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar-position">
+								<local_schema short_desc="Расположение стандартной панели">
+									<longdesc>Эта переменная определяет где будет отображаться стандартная панель. 0 - слева, 1 - справа, 2 - сверху.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="Стандартная панель видна">
+									<longdesc>Эта переменная определяет будет ли видна при запуске стандартная панель.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="Разрешение по вертикали">
+									<longdesc>Разрешение экрана по вертикали.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="Разрешение по горизонтали">
+									<longdesc>Разрешение экрана по горизонтали.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Исходное число листов">
+								<longdesc>Исходное число листов для новых книг.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Исходный шрифта имеет наклонное начертание.">
+								<longdesc>Это значение определяет будет ли наклонным шрифт по умолчанию для новой рабочей книги.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Исходный шрифт имеет полужирное начертание.">
+								<longdesc>Это значение определяет будет ли полужирным шрифт по умолчанию для новой рабочей книги.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Название используемого по умолчанию шрифта">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Размер шрифта по умолчанию">
+								<longdesc>Размер шрифта используемого по умолчанию для новых книг.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Длина списка описания отмен">
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="Число элементов отмены">
+							<longdesc>Это значение определяет максимальное число элементов в списке отмен/возвратов.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Максимальное количество отмен">
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Показывать название листа в списке отмен">
+							<longdesc>Это значение определяет будут ли показаны имена листов в списке отмен/возвратов.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="Использовать UTF-8 при экспорте в LaTeX">
+								<longdesc>Эта отметка определяет будут ли создаваемые файлы LaTeX использовать кодировку UTF-8 (юникод) или ISO-8859-1 (Latin-1). Чтобы использовать файлы UTF-8, у вас должен быть установлен пакет ucs LaTeX.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="Отображать ли значок уведомления">
+						<longdesc>Отображать ли значок уведомления.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Игнорировать ограничения">
+						<longdesc>Игнорировать ограничения документа, например, ограничение на копирование и печать.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="Включить автоматическое открытие мин">
+						<longdesc>Если истинно, квадраты с минами будут автоматически открываться, когда вокруг открыто достаточное количество квадратов.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="Предупреждение о слишком большом количестве флагов">
+						<longdesc>Если истинно, при слишком большом количестве флагов отображается значок предупреждения.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="Использовать флаг «Неизвестно»">
+						<longdesc>Отметьте поле, если вы хотите использовать флаги «Неизвестно».</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="Размер игрового поля">
+							<longdesc>Размер доски (0-2=маленькая-большая, 3=настраиваемая)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="Число мин в настраиваимой игре">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="Число строк в настраиваемой игре">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="Число столбцов в настраиваемой игре">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Показать или скрыть панель инструментов">
+						<longdesc>Показать или скрыть панель инструментов.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Количество денег на вашем счету">
+							<longdesc>Количество денег на вашем счету.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Имя файла темы">
+							<longdesc>Имя файла с изображениями карт.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Никогда не брать страховку">
+							<longdesc>Никогда не брать страховку от сдачи туза.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Использовать быструю сдачу карт">
+							<longdesc>Использовать быструю сдачу без задержек между сдачей каждой карты.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Показывать вероятности">
+							<longdesc>Показывать вероятности при каждой сдаче карты и ожидаемое значение у вас на руках.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Файл вариантов условий игр.">
+							<longdesc>Имя файла правил, содержащего варианты условий игр.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Включить функцию Burnproof">
+						<longdesc>Включить функцию Burnproof, доступную на некоторых устройствах.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Включить функцию overburn">
+						<longdesc>Разрешить запись данных, превышающих объем физического носителя.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Включить отладку">
+						<longdesc>Включить отладку процесса записи CD.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Скорость записи по умолчанию">
+						<longdesc>Скорость записи дисков по умолчанию.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Каталог для временных ISO-образов">
+						<longdesc>Каталог, используемый для временных ISO-образов, оставьте поле пустым для использования системного каталога временных файлов.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="Будет ли активирован компонент сервиса брелоков GNOME PKCS#11.">
+							<longdesc>Этот параметр активирует компонент PKCS#11 в сервисе брелоков GNOME. Он обрабатывается только при запуске gnome-keyring-daemon, (то есть когда пользователь входит в систему). Данный параметр может быть изменён с помощью аргументов командной строки, передаваемых сервису.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="Будет ли активирован SSH-агент сервиса брелоков GNOME.">
+							<longdesc>Этот параметр активирует SSH-агент в сервисе брелоков GNOME. Он обрабатывается только при запуске gnome-keyring-daemon, (то есть когда пользователь входит в систему). Данный параметр может быть изменён с помощью аргументов командной строки, передаваемых сервису.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Тема файловых значков">
+							<longdesc>Тема, используемая для показа значков файлов.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="Звуки реакции на действия пользователя">
+							<longdesc>Следует ли проигрывать звуки при возникновении событий.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="Имя звуковой темы">
+							<longdesc>Звуковая тема XDG для событий.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="Звуки для событий">
+							<longdesc>Подавать ли звуки при наступлении событий.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Включить ESD">
+							<longdesc>Включить сервер звука.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="Каналы микшера по умолчанию">
+							<longdesc>Каналы микшера, используемые по умолчанию для привязки мультимедийных клавиш.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="Устройство микшера по умолчанию">
+							<longdesc>Устройство микшера, используемое по умолчанию для привязки мультимедийных клавиш.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Показывать меню «Вставить управляющий символ набора Юникод»">
+							<longdesc>Должны ли контекстные меню элементов ввода текста предлагать вставить управляющие символы.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Показывать меню «Использовать методы ввода»">
+							<longdesc>Должны ли контекстные меню элементов ввода текста предлагать сменить метод ввода.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Клавиатурный ускоритель меню">
+							<longdesc>Комбинация клавиш клавиатуры для открытия меню.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Модуль для GtkFileChooser">
+							<longdesc>Модуль для использования в качестве модели файловой системы в виджете GtkFileChooser. Возможные значения: «gio», «gnome-vfs» и «gtk+».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Строка состояния справа">
+							<longdesc>Отображать ли область для переноса в строке состояния справа.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Использовать другой шрифт">
+							<longdesc>Следует ли использовать другой шрифт в приложениях GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Моноширинный шрифт">
+							<longdesc>Название моноширинного (как у пишущей машинки) шрифта, используемого в приложениях вроде терминала.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Шрифт документа">
+							<longdesc>Имя шрифта, используемого по умолчанию для чтения документов.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="Модуль ввода GTK+">
+							<longdesc>Название метода ввода, используемого GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="Стиль состояния метода ввода GTK+">
+							<longdesc>Имя стиля состояния метода ввода GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="Стиль предправки метода ввода GTK+">
+							<longdesc>Имя стиля предправки метода ввода GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Шрифт по умолчанию">
+							<longdesc>Название шрифта по умолчанию, используемого GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Тема GTK+">
+							<longdesc>Базовое имя темы по умолчанию, используемой GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Тема GTK+">
+							<longdesc>Базовое имя темы по умолчанию, используемой GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Тема значков">
+							<longdesc>Тема значков, для использования в панели, Nautilus и других местах.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Время мигания курсора">
+							<longdesc>Длина цикла мигания курсора (в миллисекундах).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Мигание курсора">
+							<longdesc>Должен ли курсор мигать.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Размер значков на панелях инструментов">
+							<longdesc>Размер значков на панелях инструментов: либо «small-toolbar», либо «large-toolbar».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Открепляемые панели инструментов">
+							<longdesc>Может ли пользователь откреплять панели инструментов и передвигать их по экрану.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Открепляемые меню">
+							<longdesc>Может ли пользователь откреплять меню и передвигать их по экрану.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="Значки на кнопках">
+							<longdesc>Показывать ли значки в кнопках вместе с текстом.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="В меню показываются значки">
+							<longdesc>Показывать ли значки в пунктах меню.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Стиль панелей инструментов">
+							<longdesc>Стиль панелей инструментов. Возможные значения: «both», «both_horiz», «icon», «text».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Можно ли изменять комбинации клавиш">
+							<longdesc>Может ли пользователь динамически вводить новую комбинацию клавиш для пункта меню при указании на него.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="В меню есть линии разрыва">
+							<longdesc>Показывать ли линию отрыва в меню.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Включить анимацию">
+							<longdesc>Отображать ли анимацию. Обратите внимание: это глобальный ключ, его изменение повлияет на поведение оконного менеджера, панели и так далее.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Включить специальные возможности">
+							<longdesc>Поддерживать ли специальные возможности в приложениях.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Запускаемые при входе приложения специальных возможностей">
+								<longdesc>Список приложений для людей с ограниченными возможностями, запускаемых при входе в среду GNOME.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>Подавать сигнал, когда модификатор нажат.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Отключать, если две клавиши нажаты одновременно.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Минимальный интервал (в миллисекундах)">
+								<longdesc>Не принимать нажатие, если оно длилось менее @delay миллисекунд.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Начальная задержка (в миллисекундах)">
+								<longdesc>Сколько миллисекунд ожидать, прежде чем включать клавиши передвижения мыши.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Как долго ускоряться (в миллисекундах)">
+								<longdesc>Сколько миллисекунд требуется для набора скорости от 0 до максимальной.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Пикселей в секунду">
+								<longdesc>Сколько пикселей в секунду составляет максимальная скорость.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="Минимальный интервал (в миллисекундах)">
+								<longdesc>Игнорировать многократные нажатия одной клавиши в период @delay миллисекунд.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Включено ли блокирование клавиатуры">
+							<longdesc>Включено ли блокирование клавиатуры.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Разрешить откладывание перерыва">
+							<longdesc>Возможно ли отложить перерыв.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Период перерыва">
+							<longdesc>Продолжительность перерыва (в минутах).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Период активности">
+							<longdesc>Продолжительность периода активности до начала перерыва.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="Выключить обработчики ссылок и типов MIME">
+							<longdesc>Запретить запуск любых приложений для открытия ссылок и обрабоки файлов различных типов.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Отключить блокировку экрана">
+							<longdesc>Запретить пользователю блокировку экрана.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Отключить переключение пользователей">
+							<longdesc>Запрещает пользователю переключение на другую учётную запись, пока активен его сеанс.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Отключить настройку печати">
+							<longdesc>Запрещает пользователю изменение параметров печати. Например, будет отключён доступ к диалогу «Настройка печати» во всех приложениях.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Отключить печать">
+							<longdesc>Запрещает пользователю печать. Например, будет отключён доступ к диалогу «Печать» во всех приложениях.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Отключить сохранение файлов на диск">
+							<longdesc>Запрещает пользователю сохранение файлов на диск. Например, будет отключён доступ к диалогу «Сохранить как» во всех приложениях.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Отключить командную строку">
+							<longdesc>Запрещает пользователю доступ к терминалу и командной строке. Например, будет отключён доступ к диалогу «Запуск приложения» панели.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Тип цветового перехода">
+							<longdesc>Как изменять цвет фона. Возможные значения: «horizontal-gradient», «vertical-gradient» и «solid».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Вторичный цвет">
+							<longdesc>Правый или нижний цвета при отрисовке градиента. Не используется при сплошном цвете.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Первичный цвет">
+							<longdesc>Левый или верхний цвета при отрисовке градиента, либо сплошной цвет.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Непрозрачность картинки">
+							<longdesc>Непрозрачность, с которой следует отрисовывать фоновое изображение.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Имя файла картинки">
+							<longdesc>Файл, используемый в качестве фона рабочего стола.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Параметры картинки">
+							<longdesc>Определяет, как будет отрисовываться изображение, установленное ключом wallpaper_filename. Возможные значения: «none», «wallpaper», «centered», «scaled», «stretched», «zoom».</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Отрисовывать фон рабочего стола">
+							<longdesc>Должна ли среда GNOME отрисовывать рабочий стол.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>Максимальный размер кэша, в мегабайтах. Установите в -1 для выключения очистки кэша.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>Максимальная давность миниатюр в кэше, в днях. Установите в -1 для выключения очистки кэша.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Запоминать состояние NumLock">
+								<longdesc>Если этот ключ установлен, GNOME будет сохранять состояние переключателя NumLock между сеансами.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Имя файла клавиатурного гудка">
+								<longdesc>Имя файла для звука гудка.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>возможные значения: «on», «off» и «custom».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Размер курсора">
+								<longdesc>Размер курсора, на который ссылается ключ cursor_theme.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Тема курсоров">
+								<longdesc>Имя темы курсоров. Используется только с X-серверами, которые поддерживают расширение Xcursor — такими, как XFree86 4.3 и более поздние.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Шрифт курсора">
+								<longdesc>Название шрифта курсора. Если не установлено, будет использован шрифт по умолчанию. Это значение передаётся X-серверу только в начале сеанса, так что изменения, внесённые во время сеанса, не вступят в действие до следующего входа в систему.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Определять положение указателя">
+								<longdesc>Подсвечивать ли текущее положение указателя при нажатии и отпускании клавиши Control.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Время двойного щелчка">
+								<longdesc>Длительность двойного щелчка.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Порог перетаскивания">
+								<longdesc>Расстояние до начала перетаскивания.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Порог движения">
+								<longdesc>Расстояние в пикселах, на которое надо передвинуть указатель, прежде чем будет активировано ускорение движения мыши. Значение -1 является системным значением по умолчанию.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Одиночный щёлчок">
+								<longdesc>Множитель ускорения движения мыши. Значение -1 является системным значением по умолчанию.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Одиночный щёлчок">
+								<longdesc>Открывать значки одиночным щелчком.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Ориентация кнопок мыши">
+								<longdesc>Поменять местами правую и левую кнопки для мышей под левую руку.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Отключить все внешние миниатюризаторы">
+							<longdesc>Установите этот ключ, чтобы отключить все внешние программы миниатюризации, независимо от того, включены они или отключены другими способами.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="Команда создания образцов для документов PDF">
+								<longdesc>Команда и аргументы для запуска программы создания изображения документа PDF. Для получений дополнительной информации смотрите документацию по Nautilus.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Включить создание образцов для документов PDF">
+								<longdesc>Возможно логическое значение, true включает создание образцов, а false выключает</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="Команда создания образцов для документов PDF">
+								<longdesc>Команда и аргументы для запуска программы создания изображения документа PDF. Для получений дополнительной информации смотрите документацию по Nautilus.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Включить создание образцов для документов PDF">
+								<longdesc>Возможно логическое значение, true включает создание образцов, а false выключает</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="Команда создания образцов для документов PDF">
+								<longdesc>Команда и аргументы для запуска программы создания изображения документа PDF. Для получений дополнительной информации смотрите документацию по Nautilus.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Включить создание образцов для документов PDF">
+								<longdesc>Возможно логическое значение, true включает создание образцов, а false выключает</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="Задачам нужен терминал">
+								<longdesc>Нуждается ли приложение задач по умолчанию в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Задачи по умолчанию">
+								<longdesc>Приложение задач по умолчанию</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="Календарю нужен терминал">
+								<longdesc>Нуждается ли приложение календаря по умолчанию в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Календарь по умолчанию">
+								<longdesc>Приложение календаря по умолчанию</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Браузер понимает удалённые команды">
+								<longdesc>Понимает ли браузер по умолчанию удалённые команды netscape.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Браузеру нужен терминал">
+								<longdesc>Нуждается ли браузер по умолчанию в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Браузер по умолчанию">
+								<longdesc>Браузер по умолчанию для всех URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Имена рабочих областей (устарело)">
+								<longdesc>Список имён рабочих областей первого оконного менеджера. Этот ключ считается устаревшим начиная с GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Число рабочих областей (устарело)">
+								<longdesc>Число рабочих областей, которые следует иметь оконному менеджеру. Этот ключ является устаревшим начиная с GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Пользовательский оконный менеджер (устарело)">
+								<longdesc>Оконный менеджер, который необходимо пробовать первым. Этот ключ считается устаревшим начиная с GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Резервный оконный менеджер (устарело)">
+								<longdesc>Резервный оконный менеджер, если указанный пользователем не найден. Этот ключ является устаревшим начиная с GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Запускать предпочтительное приложение помощи передвижению">
+									<longdesc>Нужно ли запускать предпочтительное приложение помощи передвижению при входе в среду.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Предпочтительное приложение помощи передвижению">
+									<longdesc>Предпочтительное приложение помощи передвижению, которое следует использовать при входе в систему, в меню или в командной строке.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Запускать предпочтительное приложение помощи зрению">
+									<longdesc>Нужно ли запускать предпочтительное приложение помощи зрению при входе в среду.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Предпочтительное приложение помощи зрению">
+									<longdesc>Предпочтительное приложение помощи зрению, которое следует использовать при входе в систему, в меню или в командной строке.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Приложение просмотра компонентов по умолчанию">
+								<longdesc>Приложение, используемое для просмотра файлов, требующих компонента для просмотра. Параметр %s будет заменён адресом (URI) файла, параметр %c - идентификатором (IID) компонента.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Аргументы для ключа «exec»">
+								<longdesc>Аргумент, используемый при запуске программ в терминале по ключу «exec».</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Терминал">
+								<longdesc>Терминал, который используется для запуска нуждающихся в нём приложений.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;ymsgr&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;ymsgr&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;ymsgr&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;ymsgr&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;xmpp&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;xmpp&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;xmpp&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;xmpp&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;sip&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;sip&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;sip&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;sip&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;msnim&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;msnim&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;msnim&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;msnim&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;irc&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;irc&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;irc&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;irc&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;icq&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;icq&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;icq&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;icq&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;gg&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;gg&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;gg&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;gg&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа h232">
+								<longdesc>Команда, используемая для обработки URL типа h323, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа h323">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа h323.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа &quot;callto&quot;">
+								<longdesc>Команда, используемая для обработки URL типа &quot;callto&quot;, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа &quot;callto&quot;">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа &quot;callto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;aim&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;aim&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;aim&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;aim&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа &quot;mailto&quot;">
+								<longdesc>Команда, используемая для обработки URL типа &quot;mailto&quot;, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа &quot;mailto&quot;">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа &quot;mailto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа &quot;https&quot;">
+								<longdesc>Команда, используемая для обработки ссылок URL типа &quot;https&quot;, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа &quot;https&quot;">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа &quot;https&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа &quot;http&quot;">
+								<longdesc>Команда, используемая для обработки URL типа &quot;http&quot;, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа &quot;http&quot;">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа &quot;http&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа &quot;man&quot;">
+								<longdesc>Команда, используемая для обработки URL типа &quot;man&quot;, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа &quot;man&quot;">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа &quot;man&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа &quot;info&quot;">
+								<longdesc>Команда, используемая для обработки URL типа &quot;info&quot;, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа &quot;info&quot;">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа &quot;info&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа &quot;ghelp&quot;">
+								<longdesc>Команда, используемая для обработки URL типа &quot;ghelp&quot;, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа &quot;ghelp&quot;">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа &quot;ghelp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запускать программу в терминале">
+								<longdesc>Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик URL типа &quot;trash&quot;">
+								<longdesc>Команда, используемая для обработки URL типа &quot;trash&quot;, если ключ установлен</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Будет ли указанная команда обрабатывать ссылки (URL) типа &quot;trash&quot;">
+								<longdesc>Если этот ключ установлен, то программа, определённая в ключе &quot;command&quot;, будет обрабатывать ссылки (URL) типа &quot;trash&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Используется ли данный профиль">
+									<longdesc>Используется ли и отображается данный профиль.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Расширение файла по умолчанию для этого профиля">
+									<longdesc>Расширение файла, используемое для сохранения файлов, закодированных этим профилем.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Используемый частичный канал">
+									<longdesc>Частичный канал для использования с этим профилем.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Описание аудио-профиля">
+									<longdesc>Описание профиля, содержащее дополнительную информацию и использование профиля.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Краткое имя для этого аудио-профиля">
+									<longdesc>Краткое имя для этого аудио-профиля, используемое для выбора и уникальной идентификации профиля.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Используется ли данный профиль">
+										<longdesc>Используется ли и отображается данный профиль.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Расширение файла по умолчанию для этого профиля">
+										<longdesc>Расширение файла, используемое для сохранения файлов, закодированных этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Используемый частичный канал">
+										<longdesc>Частичный канал для использования с этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Описание аудио-профиля">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Краткое имя для этого аудио-профиля">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Расширение файла по умолчанию для этого профиля">
+										<longdesc>Расширение файла, используемое для сохранения файлов, закодированных этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Используемый частичный канал">
+										<longdesc>Частичный канал для использования с этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Описание аудио-профиля">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Краткое имя для этого аудио-профиля">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Расширение файла по умолчанию для этого профиля">
+										<longdesc>Расширение файла, используемое для сохранения файлов, закодированных этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Используемый частичный канал">
+										<longdesc>Частичный канал для использования с этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Описание аудио-профиля">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Краткое имя для этого аудио-профиля">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Расширение файла по умолчанию для этого профиля">
+										<longdesc>Расширение файла, используемое для сохранения файлов, закодированных этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Используемый частичный канал">
+										<longdesc>Частичный канал для использования с этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Описание аудио-профиля">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Краткое имя для этого аудио-профиля">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Расширение файла по умолчанию для этого профиля">
+										<longdesc>Расширение файла, используемое для сохранения файлов, закодированных этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Используемый частичный канал">
+										<longdesc>Частичный канал для использования с этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Описание аудио-профиля">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Краткое имя для этого аудио-профиля">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Расширение файла по умолчанию для этого профиля">
+										<longdesc>Расширение файла, используемое для сохранения файлов, закодированных этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Используемый частичный канал">
+										<longdesc>Частичный канал для использования с этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Описание аудио-профиля">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Краткое имя для этого аудио-профиля">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Расширение файла по умолчанию для этого профиля">
+										<longdesc>Расширение файла, используемое для сохранения файлов, закодированных этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Используемый частичный канал">
+										<longdesc>Частичный канал для использования с этим профилем.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Описание аудио-профиля">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Краткое имя для этого аудио-профиля">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Список профилей">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Рабочая группа SMB">
+						<longdesc>Рабочая группа или домен Windows, к которым относится пользователь. Чтобы изменение рабочей группы вступило в силу, возможно потребуется повторная регистрация в системе.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="Дополнительные домены, в которых осуществлять поиск сервисов типа DNS-SD">
+						<longdesc>Разделённый запятыми список доменов типа DNS-SD, которые должны быть видимы по адресу &quot;network:///&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="Как отображать локальный сервис типа DNS-SD">
+						<longdesc>Возможные значения &quot;merged&quot; (&quot;совместные&quot;), &quot;separate&quot; (&quot;раздельные&quot;) и &quot;disabled&quot; (&quot;отключено&quot;).</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="URL автоматической настройки прокси">
+						<longdesc>Ссылка (URL), предоставляющая значения для автоматической конфигурации прокси-серверов.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="Порт прокси-сервера для протокола SOCKS">
+						<longdesc>Порт на машине, определённой ключом &quot;/system/proxy/socks_host&quot; для сервиса прокси.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="Имя прокси-сервера для протокола SOCKS">
+						<longdesc>Имя машины прокси-сервера для протокола SOCKS.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="Порт прокси-сервера для протокола FTP">
+						<longdesc>Порт на машине, определённой ключом &quot;/system/proxy/ftp_host&quot; для сервиса прокси.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="Имя прокси-сервера для протокола FTP">
+						<longdesc>Имя машины прокси-сервера для протокола FTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Порт прокси-сервера для защищённого протокола HTTP">
+						<longdesc>Порт на машине, определённой ключом &quot;/system/proxy/secure_host&quot; для сервиса прокси.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Имя прокси-сервера для защищённого протокола HTTP">
+						<longdesc>Имя машины прокси-сервера для защищённого протокола HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Режим конфигурации прокси-серверов">
+						<longdesc>Режим конфигурации сервиса прокси. Возможные значения &quot;none&quot; (&quot;отсутствует&quot;), &quot;manual&quot; (&quot;ручной&quot;), &quot;auto&quot; (&quot;автоматический&quot;).</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Узлы, доступные без прокси">
+						<longdesc>Этот ключ содержит список узлов, соединение с которыми осуществляется напрямую, минуя прокси-сервер (если последний используется). Значения могут быть именами узлов, доменами (с использованием расширителей типа *.foo.com), адресами узлов протокола IP (в вариантах IPv4 и IPv6) и сетевыми адресами с использованием маски (наподобие 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="Пароль прокси-сервера для протокола HTTP">
+						<longdesc>Пароль для авторизации на прокси-сервере протокола HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="Имя пользователя прокси-сервера для протокола HTTP">
+						<longdesc>Имя пользователя для использования при авторизации на прокси-сервере для протокола HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Соединения с прокси-сервером требуют авторизации">
+						<longdesc>Если этот ключ установлен, то соединения с прокси-сервером требуют авторизации. Пара значений имя_пользователя/пароль определяется ключами &quot;/system/http_proxy/authentication_user&quot; и &quot;/system/http_proxy/authentication_password&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="Порт прокси-сервера для протокола HTTP">
+						<longdesc>Порт на машине, определённой ключом &quot;/system/http_proxy/host&quot; для сервиса прокси.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="Имя прокси-сервера для протокола HTTP">
+						<longdesc>Имя машины прокси-сервера для протокола HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Использовать прокси-сервер для протокола HTTP">
+						<longdesc>Включает установки прокси-сервера для протокола HTTP через Интернет.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,2047 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="ਤੇਜ਼ ਸਜੀਵਤਾ ਵਰਤੋਂ">
+						<longdesc>ਇਹ ਸੈਟਿੰਗ ਝੂਠ ਕਰਨ ਨਾਲ ਟੁਕੜੇ ਹੌਲੀ ਹੌਲੀ ਡਿੱਗਣਗੇ, ਪਰ ਧਿਆਨ ਨਾਲ। ਸੈਟਿੰਗ ਨੂੰ ਸੱਚ ਕਰਨ ਨਾਲ ਟੁੱਕੜੇ ਤੇਜ਼ੀ ਨਾਲ ਅਤੇ ਅਸਾਵਧਾਨੀ ਨਾਲ ਡਿੱਗਣਗੇ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="ਪਸੰਦੀਦਾ ਬੋਰਡ ਦੀ ਉਚਾਈ">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="ਪਸੰਦੀਦਾ ਬੋਰਡ ਦੀ ਚੌੜਾਈ">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="ਬੋਰਡ ਅਕਾਰ">
+						<longdesc>ਵਰਤਣ ਬੋਰਡ ਦਾ ਅਕਾਰ ਹੈ। 1 = ਪਸੰਦੀਦਾ, 2 = ਛੋਟਾ 3 = ਮੱਧਮ, 4 = ਸਭ ਤੋਂ ਵੱਡਾ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="ਵਰਤਣ ਲਈ ਥੀਮ">
+						<longdesc>ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਥੀਮ ਦਾ ਫਾਇਲ ਨਾਂ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="ਬੰਟਾ ਸੁੱਟੋ">
+						<longdesc>ਗੋਲੀ ਸੁੱਟਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="ਸੱਜੇ ਚੱਲੋ">
+						<longdesc>ਸੱਜੇ ਚੱਲਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="ਖੱਬੇ ਚੱਲੋ">
+						<longdesc>ਖੱਬੇ ਚੱਲਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="ਅਵਾਜ਼">
+						<longdesc>ਕੀ ਅਵਾਜ਼ ਖੇਡ ਖੇਡੀ ਜਾਵੇ ਜਾਂ ਨਹੀਂ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="ਸਜੀਵ">
+						<longdesc>ਕੀ ਸਜੀਵਤਾ ਵਰਤੀ ਜਾਵੇ ਜਾਂ ਨਹੀਂ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="ਥੀਮ ID">
+						<longdesc>ਤਰਜੀਹ ਵਾਲੇ ਥੀਮ ਨੂੰ ਦਰਸਾਉਂਦਾ ਨੰਬਰ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="ਦੂਜੇ ਖਿਡਾਰੀ ਦਾ ਪੱਧਰ">
+						<longdesc>ਜ਼ੀਰੋ ਮਨੁੱਖੀ ਹੈ; ਇੱਕ ਤੋਂ ਤਿੰਨ ਤੱਕ ਕੰਪਿਊਟਰ ਖਿਡਾਰੀਆਂ ਦੇ ਪੱਧਰ ਹਨ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="ਪਹਿਲੇ ਖਿਡਾਰੀ ਦਾ ਪੱਧਰ">
+						<longdesc>ਜ਼ੀਰੋ ਮਨੁੱਖੀ ਹੈ; ਇੱਕ ਤੋਂ ਤਿੰਨ ਤੱਕ ਕੰਪਿਊਟਰ ਖਿਡਾਰੀਆਂ ਦੇ ਪੱਧਰ ਹਨ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="ਖੇਡ ਦੀ ਅਸਲ ਦਿੱਖ">
+							<longdesc>ਸੰਭਾਲੇ ਹੋਏ ਪਿਛਲੇ ਅਜਲਾਸ ਵਿੱਚੋਂ ਖੇਡ ਦੀ ਅਸਲ ਦਿੱਖ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="ਖੇਡ ਦਾ ਮੈਦਾਨ">
+							<longdesc>ਸੰਭਾਲੇ ਹੋਏ ਪਿਛਲੇ ਅਜਲਾਸ ਵਿੱਚੋਂ ਖੇਡ ਦਾ ਮੈਦਾਨ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="ਖੇਡ ਸਕੋਰ">
+							<longdesc>ਸੰਭਾਲੇ ਹੋਏ ਪਿਛਲੇ ਅਜਲਾਸ ਵਿੱਚੋਂ ਖੇਡ ਸਕੋਰ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="ਚਾਲਾਂ ਵਿਚਕਾਰ ਸਮਾਂ">
+							<longdesc>ਮਿਲੀਸਕਿੰਟਾਂ ਵਿੱਚ ਚਾਲਾਂ ਵਿਚਕਾਰ ਸਮਾਂ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="ਪਿੱਠਭੂਮੀ ਰੰਗ">
+							<longdesc>ਪਿੱਠਭੂਮੀ ਰੰਗ ਹੈ। ਪਿੱਠਭੂਮੀ ਰੰਗ ਦਾ ਹੈਕਸ ਬਿਆਨ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="ਬਾਲ ਸ਼ੈਲੀ">
+							<longdesc>ਬਾਲ ਸ਼ੈਲੀ ਹੈ। ਬਾਲਾਂ ਲਈ ਵਰਤਣ ਵਾਲੇ ਚਿੱਤਰਾਂ ਦੀ ਫਾਇਲ ਦਾ ਨਾਂ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="ਖੇਡ ਖੇਤਰ ਆਕਾਰ">
+							<longdesc>ਖੇਡਣ ਖੇਤਰ ਅਕਾਰ: 1=ਛੋਟਾ, 2=ਮੱਧਮ, 3=ਵੱਡਾ। ਕੋਈ ਹੋਰ ਮੁੱਲ ਗਲਤ ਹੋਵੇਗਾ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="ਵੇਖਾਉਣ ਲਈ ਬੋਰਡ ਸਾਇਡ">
+						<longdesc>ਬੋਰਡ ਦੀ ਸਾਇਡ ਹੈ, ਜੋ ਕਿ ਬੈਕਗਰਾਊਂਡ &apos;ਚ ਹੈ, &apos;ਚਿੱਟਾ, &apos;ਕਾਲਾ, ਮੌਜੂਦਾ&apos; (ਮੌਜੂਦਾ ਖਿਡਾਰੀ) ਜਾਂ &apos;ਇਨਸਾਨ&apos; (ਮੌਜੂਦਾ ਖਿਡਾਰੀ ਪਲੇਅਰ ਦੀ ਸਾਇਡ ਹੈ)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="ਚਾਲਾਂ ਵੇਖਾਉਣ ਲਈ ਫਾਰਮੈਟ">
+						<longdesc>ਚਾਲਾਂ ਵੇਖਾਉਣ ਲਈ ਫਾਰਮੈਟ, ਇਹ &apos;ਵਿਅਕਤੀ&apos; (ਮਨੁੱਖ ਪੜ੍ਹਨਯੋਗ), &apos;lan&apos; (ਲਾਗ ਐਲਜ਼ਬਰਾ ਨੋਟੇਸ਼ਨ) ਜਾਂ &apos;san&apos; (ਸਟੈਂਡਰਡ ਐਲਜ਼ਬਰਾ ਨੋਟੇਸ਼ਨ) ਹੋ ਸਕਦਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="ਖੇਡ ਡਾਈਲਾਗ ਲੋਡ ਕਰਨ ਲਈ ਡਾਇਰੈਕਟਰੀ">
+						<longdesc>ਖੇਡ ਡਾਈਲਾਗ ਲੋਡ ਕਰਨ ਲਈ ਡਾਇਰੈਕਟਰੀ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="ਖੇਡ ਡਾਈਲਾਗ ਸੰਭਾਲਣ ਲਈ ਡਾਇਰੈਕਟਰੀ">
+						<longdesc>ਖੇਡ ਡਾਈਲਾਗ ਸੰਭਾਲਣ ਲਈ ਡਾਇਰੈਕਟਰੀ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="ਟੂਲਬਾਰ ਨੂੰ ਵਰਤਣ ਵਾਸਤੇ ਚੋਣ">
+						<longdesc>ਟੂਲਬਾਰ ਨੂੰ ਵਰਤਣ ਵਾਸਤੇ ਚੋਣ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="ਚਾਲ ਅਤੀਤ ਝਲਕਾਰੇ ਲਈ ਚੋਣ ਹੈ">
+						<longdesc>ਚਾਲ ਅਤੀਤ ਝਲਕਾਰੇ ਲਈ ਚੋਣ ਹੈ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="ਚਾਲ ਟਿੱਪਣੀ ਵੇਖਾਉਣ ਲਈ ਫਲੈਗ">
+						<longdesc>ਚਾਲ ਟਿੱਪਣੀ ਵੇਖਾਉਣ ਲਈ ਫਲੈਗ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="ਬੋਰਡ ਨੰਬਰਿੰਗ ਯੋਗ ਕਰਨ ਲਈ ਫਲੈਗ ਹੈ">
+						<longdesc>ਬੋਰਡ ਨੰਬਰਿੰਗ ਯੋਗ ਕਰਨ ਲਈ ਫਲੈਗ ਹੈ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="ਚਾਲ ਹਿੰਟ ਯੋਗ ਕਰਨ ਲਈ ਫਲੈਗ">
+						<longdesc>ਚਾਲ ਹਿੰਟ ਯੋਗ ਕਰਨ ਲਈ ਫਲੈਗ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="3D ਢੰਗ ਚਾਲੂ ਕਰਨ ਲਈ ਨਿਸ਼ਾਨ">
+						<longdesc>3D ਢੰਗ ਚਾਲੂ ਕਰਨ ਲਈ ਨਿਸ਼ਾਨ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="pawns ਪਰਮੋਟ ਕਰਨ ਲਈ ਟੁੱਕੜਾ">
+						<longdesc>ਪਰਚਾਰ ਲਈ ਟੁਕੜਾ ਹੈ, ਜਦੋਂ ਕਿ ਇਨਸਾਨ ਖਿਡਾਰੀ ਇੱਕ pawn ਨੂੰ ਫੇਅਰ ਰੈਂਕ &apos;ਚ ਚਲਾਏ। ਇਹ ਹੋ ਸਕਦਾ ਹੈ: &apos;ਰਾਣੀ&apos;, &apos;ਨਾਇਟ&apos;, &apos;ਰੂਕ&apos;, &apos;ਬਿਸਪ&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="ਨੈੱਟਵਰਕ ਖੇਡ ਸਹਿਯੋਗ ਯੋਗ ਕਰਨ ਲਈ ਫਲੈਗ">
+						<longdesc>ਨੈੱਟਵਰਕ ਖੇਡ ਸਹਿਯੋਗ ਯੋਗ ਕਰਨ ਲਈ ਫਲੈਗ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="ਇੱਕ ਚੋਣ, ਜੋ ਕਿ ਪੂਰੀ ਸਕਰੀਨ ਢੰਗ ਨੂੰ ਯੋਗ ਕਰਦੀ ਹੈ">
+						<longdesc>ਇੱਕ ਚੋਣ, ਜੋ ਕਿ ਪੂਰੀ ਸਕਰੀਨ ਢੰਗ ਨੂੰ ਯੋਗ ਕਰਦੀ ਹੈ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="ਵੱਧ-ਵੱਧ ਮੋਡ ਯੋਗ ਕਰਨ ਲਈ ਇੱਕ ਫਲੈਗ">
+						<longdesc>ਵੱਧ-ਵੱਧ ਮੋਡ ਯੋਗ ਕਰਨ ਲਈ ਇੱਕ ਫਲੈਗ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="ਵਿੰਡੋ ਦੀ ਉਚਾਈ">
+						<longdesc>ਮੁੱਖ ਵਿੰਡੋ ਦੀ ਉਚਾਈ ਪਿਕਸਲ ਵਿੱਚ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="ਵਿੰਡੋ ਦੀ ਚੌੜਾਈ">
+						<longdesc>ਮੁੱਖ ਵਿੰਡੋ ਦੀ ਚੌੜਾਈ ਪਿਕਸਲ &apos;ਚ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="ਇੱਕ ਨਿਸ਼ਾਨ, ਜੋ ਕਿ ਰਿਮੋਟ ਖਿਡਾਰੀਆਂ ਨੂੰ ਨਵੀਆਂ ਖੇਡਾਂ ਵੇਖਣ ਦਿੰਦਾ ਹੈ">
+							<longdesc>ਇੱਕ ਨਿਸ਼ਾਨ, ਜੋ ਕਿ ਰਿਮੋਟ ਖਿਡਾਰੀਆਂ ਨੂੰ ਨਵੀਆਂ ਖੇਡਾਂ ਵੇਖਣ ਦਿੰਦਾ ਹੈ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="ਨਵੀਂਆਂ ਖੇਡਾਂ &apos;ਚ ਚਾਲ ਲਈ ਹਰੇਕ ਖਿਡਾਰੀ ਵਾਸਤੇ ਸਮਾਂ">
+							<longdesc>ਨਵੀਂਆਂ ਖੇਡਾਂ &apos;ਚ ਚਾਲ ਲਈ ਹਰੇਕ ਖਿਡਾਰੀ ਵਾਸਤੇ ਸਮਾਂ</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="ਨਵੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਕਾਲੇ ਲਈ ਮੂਲ ਖਿਡਾਰੀ ਔਖ">
+								<longdesc>ਨਵੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਕਾਲੇ ਲਈ ਮੂਲ ਖਿਡਾਰੀ ਔਖ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="ਨਵੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਕਾਲੇ ਲਈ ਮੂਲ ਖਿਡਾਰੀ ਕਿਸਮ">
+								<longdesc>ਨਵੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਕਾਲੇ ਲਈ ਮੂਲ ਖਿਡਾਰੀ ਕਿਸਮ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="ਨਵੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਚਿੱਟੇ ਲਈ ਮੂਲ ਖਿਡਾਰੀ ਔਖ">
+								<longdesc>ਨਵੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਚਿੱਟੇ ਲਈ ਮੂਲ ਖਿਡਾਰੀ ਔਖ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="ਨਵੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਚਿੱਟੇ ਲਈ ਮੂਲ ਖਿਡਾਰੀ ਕਿਸਮ">
+								<longdesc>ਨਵੀਆਂ ਖੇਡਾਂ ਵਿੱਚ ਚਿੱਟੇ ਲਈ ਮੂਲ ਖਿਡਾਰੀ ਕਿਸਮ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="ਤਾਜ਼ਾ ਖੇਡੀਆਂ ਖੇਡਾਂ">
+						<longdesc>ਤਾਜ਼ਾ ਖੇਡੀਆਂ ਖੇਡਾਂ ਦੀ ਲਿਸਟ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="ਖੇਡੀ ਖੇਡ ਦੇ ਅੰਕੜੇ">
+						<longdesc>ਸਤਰਾਂ ਦੀ ਸੂਚੀ, ਜੋ ਕਿ ਚੌਭੁਜ ਤੋਂ ਆਏ ਹਨ: ਨਾਂ, ਜਿੱਤ, ਕੁੱਲ ਖੇਡੀਆਂ ਖੇਡਾਂ, ਉੱਤਮ ਸਮਾਂ (ਸਮਾਂ ਸਕਿੰਟਾਂ ਵਿੱਚ) ਅਤੇ ਬੁਰਾ ਸਮਾਂ (ਸਮਾਂ ਸਕਿੰਟਾਂ ਵਿੱਚ)। ਨਾ-ਖੇਡੀਆਂ ਖੇਡਾਂ ਪੇਸ਼ ਕਰਨ ਦਾ ਜਰੂਰਤ ਨਹੀਂ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="ਵਰਤਣ ਲਈ ਖੇਡ ਫਾਇਲ">
+						<longdesc>ਖੇਡਣ ਲਈ ਸੋਲੀਟਾਇਰ(solitaire) ਖੇਡ ਵਾਲੀ ਸਕੀਮ ਫਾਇਲ ਦਾ ਨਾਂ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="ਅਵਾਜ਼">
+						<longdesc>ਕੀ ਅਵਾਜ਼ ਖੇਡ ਖੇਡੀ ਜਾਵੇ ਜਾਂ ਨਹੀਂ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="ਕੰਟਰੋਲ ਦਾ ਸਟਾਈਲ ਚੁਣੋ">
+						<longdesc>ਚੁਣੋ ਕਿ ਪੱਤਾ ਚੁੱਕ ਕੇ ਲੈ ਜਾਣਾ ਹੈ ਜਾਂ ਸਰੋਤ ਤੇ ਕਲਿੱਕ ਕਰਨ ਉਪਰੰਤ ਸਰੋਤ ਨੂੰ ਦਬਾਉ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="ਟੂਲਬਾਰ ਹੋਵੇ ਜਾਂ ਨਹੀਂ">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="ਥੀਮ ਫਾਇਲ ਨਾਂ">
+						<longdesc>ਖੇਡਣ ਲਈ ਕਾਨੂੰਨਾਂ ਦੇ ਬਦਲਾਓ ਵਾਲੀ ਨਿਯਮ ਫਾਇਲ ਦਾ ਨਾਂ</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="ਇੰਤਜ਼ਾਰ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਉਡੀਕ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="ਟੈਲੀਪੋਰਟ ਰਲਵਾਂ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਟੈਲੀਪੋਰਟ ਰਲਵਾਂ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="ਟੈਲੀਪੋਰਟ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਟੈਲੀਪੋਰਟ ਰਲਵਾਂ ਸੁਰੱਖਿਅਤ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ(ਸੰਭਵ ਹੋਵੇ ਤਾਂ)। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="ਦੱਖਣ-ਪੂਰਬ ਚੱਲਣ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਦੱਖਣ-ਪੂਰਬ ਜਾਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="ਦੱਖਣ ਚੱਲਣ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਦੱਖਣ ਜਾਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="ਦੱਖਣ ਪੱਛਮ ਚੱਲਣ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਦੱਖਣ-ਪੱਛਮ ਜਾਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="ਪੂਰਬ ਚੱਲਣ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਪੂਰਬ ਜਾਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="ਪਕੜਨ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਸਥਿਰ ਰੱਖਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="ਪੱਛਮ ਚੱਲਣ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਪੱਛਮ ਜਾਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="ਉੱਤਰ-ਪੂਰਬ ਚੱਲਣ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਉੱਤਰ-ਪੂਰਬ ਜਾਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="ਉੱਤਰ ਚੱਲਣ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਉੱਤਰ ਜਾਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="ਉੱਤਰ-ਪੱਛਮ ਚੱਲਣ ਲਈ ਸਵਿੱਚ">
+							<longdesc>ਉੱਤਰ-ਪੱਛਮ ਜਾਣ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਸਵਿੱਚ ਦਾ ਨਾਂ। ਇਹ ਨਾਂ ਇੱਕ ਮਿਆਰੀ X ਸਵਿੱਚ ਨਾਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="ਉਡਾਣਾਂ ਯੋਗ">
+							<longdesc>ਉਡਾਣਾਂ ਯੋਗ ਕਰੋ। ਇੱਕ ਆਵਾਜ਼ ਚਲਾਓ ਅਤੇ ਪਰਦੇ ਉੱਤੇ ਇੱਕ &quot;ਉਡਾਣ&quot; ਵੇਖੋ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="ਖੇਡ ਆਵਾਜ਼ ਯੋਗ ਕਰੋ">
+							<longdesc>ਖੇਡ ਆਵਾਜ਼ ਯੋਗ ਕਰੋ। ਖੇਡ ਵਿਚਲੇ ਵੱਖਰੇ-ਵੱਖਰੇ ਭਾਗਾਂ ਲਈ ਆਵਾਜ਼ ਚਲਾਓ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="ਵਧੀਆ ਸੁਰੱਖਿਅਤ ਚਾਲਾਂ ਵਰਤੋਂ">
+							<longdesc>ਵਧੀਆ ਸੁਰੱਖਿਅਤ ਚਾਲਾਂ ਵਰਤੋ। ਜਦੋਂ ਕੋਈ ਸੁਰੱਖਿਅਤ ਚਾਲ ਨਾ ਹੋਵੇ ਖਿਡਾਰੀ ਬਦਲਦਾ ਹੈ ਅਤੇ ਸਿਰਫ ਟੈਲੀਪੋਰਟ ਬਾਹਰ ਕਰਨ ਦੀ ਚੋਣ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="ਸੁਰੱਖਿਅਤ ਚਾਲਾਂ ਵਰਤੋਂ">
+							<longdesc>ਸੁਰੱਖਿਅਤ ਚਾਲਾਂ ਵਰਤੋ। ਸੁਰੱਖਿਅਤ ਚਾਲ ਚੋਣ ਤੁਹਾਨੂੰ ਗਲਤੀ ਕਾਰਨ ਖਤਮ ਹੋਣ ਤੋਂ ਬਚਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗੀ। ਜੇ ਤੁਸੀਂ ਚਾਲ ਚੱਲਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹੋ ਜਿਹੜੀ ਤੁਹਾਡੇ ਖਾਤਮੇ ਦਾ ਕਾਰਨ ਬਣਦੀ ਹੈ ਜਦੋਂ ਉੱਥੇ ਸੁਰੱਖਿਅਤ ਚਾਲ ਉਪਲੱਬਧ ਹੋਵੇ ਤੁਹਾਨੂੰ ਅੱਗੇ ਜਾਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="ਖੇਡ ਕਿਸਮ">
+							<longdesc>ਖੇਡ ਕਿਸਮ ਹੈ। ਵਰਤਣ ਲਈ ਖੇਡ ਪਰਿਵਰਤਨ ਦਾ ਨਾਂ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="ਪਿੱਠਭੂਮੀ ਰੰਗ">
+							<longdesc>ਪਿੱਠਭੂਮੀ ਰੰਗ ਹੈ। ਪਿੱਠਭੂਮੀ ਰੰਗ ਦਾ ਹੈਕਸ ਬਿਆਨ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="ਰੋਬੋਟ ਚਿੱਤਰ ਥੀਮ">
+							<longdesc>ਰੋਬੋਟ ਚਿੱਤਰ ਥੀਮਾਂ ਰੋਬਟਾਂ ਲਈ ਵਰਤਣ ਵਾਲੇ ਪ੍ਰਤੀਬਿੰਬ ਦਾ ਨਾਂ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="ਟੂਲਬਾਰ ਵੇਖੋ">
+							<longdesc>ਟੂਲਬਾਰ ਵੇਖੋ। ਟੂਲਬਾਰ ਲਈ ਮਿਆਰੀ ਚੋਣ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="ਖੇਡਣ ਵਾਲੀਆਂ ਟਾਇਲਾਂ ਦਾ ਆਕਾਰ">
+							<longdesc>ਖੇਡਣ ਵਾਲੀਆਂ ਟਾਇਲਾਂ ਦਾ ਆਕਾਰ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="ਆਵਾਜ਼ਾਂ ਯੋਗ ਕਰੋ">
+							<longdesc>ਆਵਾਜ਼ਾਂ ਯੋਗ ਕਰੋ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="ਸ਼ੁਰੂਅਤ ਲਈ ਖੇਡ ਪੱਧਰ">
+							<longdesc>ਸ਼ੁਰੂਅਤ ਲਈ ਖੇਡ ਪੱਧਰ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="ਖੇਡਣ ਲਈ ਪੱਧਰ ਬੇਤਰਤੀਬੇ ਕਰਮ ਵਿੱਚ ਹੈ।">
+							<longdesc>ਖੇਡਣ ਲਈ ਪੱਧਰ ਬੇਤਰਤੀਬੇ ਕਰਮ ਵਿੱਚ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="ਨਕਲੀ ਲਾਭਾਂਸ਼ਾਂ ਨੂੰ ਯੋਗ ਕਰੋ">
+							<longdesc>ਨਕਲੀ ਲਾਭਾਂਸ਼ਾਂ ਨੂੰ ਯੋਗ ਕਰੋ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="ਖੇਡ ਗਤੀ">
+							<longdesc>ਖੇਡ ਗਤੀ (1=ਤੇਜ, 4=ਹੌਲੀ)।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="AI ਖਿਡਾਰੀਆਂ ਦੀ ਗਿਣਤੀ">
+							<longdesc>AI ਖਿਡਾਰੀਆਂ ਦੀ ਗਿਣਤੀ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="ਵਿਅਕਤੀ ਖਿਡਾਰੀਆਂ ਦੀ ਗਿਣਤੀ">
+							<longdesc>ਵਿਅਕਤੀ ਖਿਡਾਰੀਆਂ ਦੀ ਗਿਣਤੀ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="ਸੱਜੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਸੱਜੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ਖੱਬੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਖੱਬੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="ਹੇਠਾਂ ਲਿਜਾਓ">
+									<longdesc>ਗਤੀ ਹੇਠਾਂ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ਏਧਰ-ਓਧਰ">
+									<longdesc>ਗਤੀ ਉੱਤੇ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋਂ">
+									<longdesc>ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋ (ਜਿਵੇਂ ਕਿ ਸਿਰਫ ਖੱਬੇ ਜਾਂ ਸੱਜੇ)।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ">
+									<longdesc>ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="ਸੱਜੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਸੱਜੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ਖੱਬੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਖੱਬੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="ਹੇਠਾਂ ਲਿਜਾਓ">
+									<longdesc>ਗਤੀ ਹੇਠਾਂ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ਏਧਰ-ਓਧਰ">
+									<longdesc>ਗਤੀ ਉੱਤੇ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋਂ">
+									<longdesc>ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋ (ਜਿਵੇਂ ਕਿ ਸਿਰਫ ਖੱਬੇ ਜਾਂ ਸੱਜੇ)।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ">
+									<longdesc>ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="ਸੱਜੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਸੱਜੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ਖੱਬੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਖੱਬੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="ਹੇਠਾਂ ਲਿਜਾਓ">
+									<longdesc>ਗਤੀ ਹੇਠਾਂ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ਏਧਰ-ਓਧਰ">
+									<longdesc>ਗਤੀ ਉੱਤੇ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋਂ">
+									<longdesc>ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋ (ਜਿਵੇਂ ਕਿ ਸਿਰਫ ਖੱਬੇ ਜਾਂ ਸੱਜੇ)।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ">
+									<longdesc>ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="ਸੱਜੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਸੱਜੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ਖੱਬੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਖੱਬੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="ਹੇਠਾਂ ਲਿਜਾਓ">
+									<longdesc>ਗਤੀ ਹੇਠਾਂ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ਏਧਰ-ਓਧਰ">
+									<longdesc>ਗਤੀ ਉੱਤੇ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋਂ">
+									<longdesc>ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋ (ਜਿਵੇਂ ਕਿ ਸਿਰਫ ਖੱਬੇ ਜਾਂ ਸੱਜੇ)।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ">
+									<longdesc>ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="ਸੱਜੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਸੱਜੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ਖੱਬੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਖੱਬੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="ਹੇਠਾਂ ਲਿਜਾਓ">
+									<longdesc>ਗਤੀ ਹੇਠਾਂ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ਏਧਰ-ਓਧਰ">
+									<longdesc>ਗਤੀ ਉੱਤੇ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋਂ">
+									<longdesc>ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋ (ਜਿਵੇਂ ਕਿ ਸਿਰਫ ਖੱਬੇ ਜਾਂ ਸੱਜੇ)।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ">
+									<longdesc>ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="ਸੱਜੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਸੱਜੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="ਖੱਬੇ ਚੱਲੋ">
+									<longdesc>ਗਤੀ ਖੱਬੇ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="ਹੇਠਾਂ ਲਿਜਾਓ">
+									<longdesc>ਗਤੀ ਹੇਠਾਂ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ਏਧਰ-ਓਧਰ">
+									<longdesc>ਗਤੀ ਉੱਤੇ ਵੱਲ ਕਰਨ ਲਈ ਸਵਿੱਚ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋਂ">
+									<longdesc>ਸਬੰਧਤ ਸਥਾਨ ਪਰਿਵਰਤਨ ਵਰਤੋ (ਜਿਵੇਂ ਕਿ ਸਿਰਫ ਖੱਬੇ ਜਾਂ ਸੱਜੇ)।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ">
+									<longdesc>ਕੀੜੇ ਦੇ ਵਰਤਣ ਲਈ ਰੰਗ।</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="ਕੰਟਰੋਲ ਦਾ ਸਟਾਈਲ ਚੁਣੋ">
+						<longdesc>ਚੁਣੋ ਕਿ ਕੀ ਟਾਇਲ ਨੂੰ ਸੁੱਟਣਾ ਹੈ ਜਾਂ ਟਿਕਾਣੇ ਨਾਲੋਂ ਸਰੋਤ ਦਬਾਉਣਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="ਰੰਗਦਾਰ ਟਾਇਲ ਕੰਟਰੋਲ">
+						<longdesc>ਰੰਗਦਾਰ ਟਾਇਟਲਾਂ ਨੂੰ ਚਾਲੂ ਕਰਨ ਲਈ ਇੱਕ ਨਿਸ਼ਾਨ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="ਖੇਡਣ ਵਾਲੇ ਗਰਿੱਡ ਦਾ ਆਕਾਰ">
+						<longdesc>ਇਸ ਕੀ ਦੀ ਕੀਮਤ ਖੇਡ ਜੰਗਲੇ ਦਾ ਆਕਾਰ ਨਿਸਚਿਤ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ। ਯੋਗ ਕੀਮਤਾਂ ਹਨ 2 ਤੋਂ 8, ਹੋਰ ਸਭ ਕੁਝ 3 ਦਰਸਾ ਕੇ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="ਵਿਰਾਮ">
+							<longdesc>ਵਿਰਾਮ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="ਘੁੰਮਾਓ">
+							<longdesc>ਘੁੰਮਾਉਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="ਸੁੱਟੋ">
+							<longdesc>ਸੁੱਟਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="ਹੇਠਾਂ ਲਿਜਾਓ">
+							<longdesc>ਹੇਠਾਂ ਜਾਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="ਸੱਜੇ ਚੱਲੋ">
+							<longdesc>ਸੱਜੇ ਚੱਲਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="ਖੱਬੇ ਚੱਲੋ">
+							<longdesc>ਖੱਬੇ ਚੱਲਣ ਲਈ ਸਵਿੱਚ ਦਬਾਉ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="ਭਰੀਆਂ ਕਤਾਰਾਂ ਦੀ ਘਣਤਾ">
+							<longdesc>ਖੇਡ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਭਰੀਆਂ ਕਤਾਰਾਂ ਵਿੱਚ ਟੁਕੜਿਆਂ ਦੀ ਘਣਤਾ। ਕੀਮਤ 0 (ਕੋਈ ਟੁਕੜਾ ਨਾ ਹੋਣ ਲਈ) ਅਤੇ 10 (ਪੂਰੀ ਤਰਾਂ ਭਰੀ ਕਤਾਰ ਲਈ) ਵਿਚਕਾਰ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="ਭਰਨ ਲਈ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ">
+							<longdesc>ਖੇਡ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਬੇਤਰਤੀਬੇ ਬਲਾਕਾਂ ਨਾਲ ਭਰੀਆਂ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="ਕੀ ਖੱਬੇ ਦਾਅ ਘੁੰਮਾਇਆ ਜਾਵੇ">
+							<longdesc>ਕੀ ਖੱਬੇ ਦਾਅ ਘੁੰਮਾਇਆ ਜਾਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="ਕੀ ਬਲਾਕਾਂ ਨੂੰ ਰਲਵੇਂ ਰੰਗ ਦਿੱਤੇ ਜਾਣ">
+							<longdesc>ਕੀ ਬਲਾਕਾਂ ਨੂੰ ਰਲਵੇਂ ਰੰਗ ਦਿੱਤੇ ਜਾਣ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="ਕੀ ਇੱਕ ਨਿਸ਼ਾਨਾ ਦੇਣਾ ਹੈ">
+							<longdesc>ਕੀ ਬਲਾਕ ਉਤਾਰਨ ਵਾਲੀ ਥਾਂ ਇੱਕ ਗਰਾਫਿਕਲ ਢੰਗ ਨਾਲ ਵੇਖਾਇਆ ਜਾਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="ਕੀ ਅਗਲੇ ਬਲਾਕ ਦੀ ਝਲਕ ਵਿਖਾਈ ਜਾਵੇ">
+							<longdesc>ਕੀ ਅਗਲੇ ਬਲਾਕ ਨੂੰ ਵੇਖਿਆ ਜਾਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="ਪਿੱਠਭੂਮੀ ਰੰਗ">
+							<longdesc>ਪਿੱਠ ਭੂਮੀ ਰੰਗ ਜੋ ਕਿ format gdk_color_parse ਅਨੁਸਾਰ ਹੋਵੇ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="ਪਿੱਠਭੂਮੀ ਲਈ ਵਰਤਣ ਵਾਲਾ ਚਿੱਤਰ">
+							<longdesc>ਚੁਣੋ ਕਿ ਕੀ ਪਿੱਠਭੂਮੀ ਰੰਗ ਉੱਤੇ ਪਿੱਠਭੂਮੀ ਚਿੱਤਰ ਬਣਾਇਆ ਜਾਵੇ ਜਾਂ ਨਾ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਦਰਜਾ">
+							<longdesc>ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਦਰਜਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਥੀਮ">
+							<longdesc>ਬਲਾਕ ਅਤੇ ਪਿੱਠਭੂਮੀ ਵੇਖਾਉਣ ਲਈ ਥੀਮ ਦਾ ਨਾਂ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਚਿੱਤਰ">
+							<longdesc>ਬਲਾਕ ਉਲੀਕਣ ਲਈ ਵਰਤਣ ਵਾਲਾ ਚਿੱਤਰ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="ਕੰਪਿਊਟਰ ਦੇ ਵਿਚਾਰ ਵੇਖੋ">
+						<longdesc>ਜੇ ਠੀਕ ਠਹਿਰਾਇਆ ਹੈ, ਵਧੀਆ ਦਰਜੇ ਦੇ ਨਤੀਜੇ ਲਈ AI ਦੇ ਕੰਮ ਦੀ ਇਕੱਤਰਤਾ ਰੱਖੀ ਗਈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="ਵਲੇਟਣੀਆਂ ਕੱਢਣ ਵਿੱਚ ਵਕਫਾ">
+						<longdesc>ਚੁਣੋ ਕਿ ਕੀ ਕੰਪਿਊਟਰ ਦੀ ਗੀਟੀ ਵਲੇਟਣੀਆਂ ਵਿੱਚ ਵਕਫਾ ਰੱਖਣਾ ਹੈ ਜਾਂ ਨਹੀਂ ਤਾਂ ਕਿ ਖਿਡਾਰੀ ਅਮਲ ਕਰ ਸਕੇ ਕਿ ਇਹ ਕੀ ਕਰ ਰਿਹਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="ਪਹੇਲੀ ਜਾਰੀ ਹੈ">
+						<longdesc>ਖੇਡੀਆਂ ਪਹੇਲੀਆਂ ਦੀ ਗਿਣਤੀ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nm-applet">
+				<entry name="disable-wifi-create">
+					<local_schema short_desc="ਵਾਈ-ਫਾਈ ਬਣਾਉਣਾ ਆਯੋਗ ਕਰੋ">
+						<longdesc>ਜਦੋਂ ਐਪਲਿਟ ਵਰਤਣ ਦੌਰਾਨ ਐਡ-ਹਾਕ ਨੈੱਟਵਰਕ ਬਣਾਉਣ ਨੂੰ ਆਯੋਗ ਕਰਨ ਲਈ ਸਹੀਂ ਸੈੱਟ ਕਰੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="stamp">
+					<local_schema short_desc="ਸਟੈਂਪ">
+						<longdesc>ਪਤਾ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਸੈਟਿੰਗ ਨਵੇਂ ਵਰਜਨ ਲਈ ਮਾਈਗਰੇਟ ਕਰਨੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="suppress-wireless-networks-available">
+					<local_schema short_desc="ਨੈੱਟਵਰਕ ਉਪਲੱਬਧਤਾ ਸੂਚਨਾ ਨਾ ਦਿਓ">
+						<longdesc>ਜੇ ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਉਪਲੱਬਧ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਆਯੋਗ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-disconnected-notifications">
+					<local_schema short_desc="ਡਿਸ-ਕੁਨੈਕਟ ਹੋਣ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਯੋਗ ਕਰੋ">
+						<longdesc>ਜੇ ਨੈੱਟਵਰਕ ਨਾਲ ਡਿਸ-ਕੁਨੈਕਟ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਆਯੋਗ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-connected-notifications">
+					<local_schema short_desc="ਕੁਨੈਕਟ ਹੋਣ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਯੋਗ ਕਰੋ">
+						<longdesc>ਜੇ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋਣ ਦੇ ਦੌਰਾਨ ਸੂਚਨਾਵਾਂ ਨੂੰ ਆਯੋਗ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਸੱਚ ਸੈਟ ਕਰੋ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="ਅਵਾਜ਼">
+						<longdesc>ਕੀ ਅਵਾਜ਼ ਖੇਡ ਖੇਡੀ ਜਾਵੇ ਜਾਂ ਨਹੀਂ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="ਕੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਈਕਾਨ ਵੇਖਣਾ ਹੈ">
+						<longdesc>ਕੀ ਨੋਟੀਫਿਕੇਸ਼ਨ ਆਈਕਾਨ ਵੇਖਣਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="ਡੌਕੂਮੈਂਟ ਪਾਬੰਦੀਆਂ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰੋ">
+						<longdesc>ਡੌਕੂਮੈਂਟ ਪਾਬੰਦੀਆਂ, ਜਿਵੇਂ ਕਿ ਕਾਪੀ ਜਾਂ ਪਰਿੰਟ ਆਦਿ ਲਈ ਪਾਬੰਦੀ, ਨੂੰ ਅਣਡਿੱਠਾ ਕਰੋ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="ਨਿਸ਼ਾਨ ਆਟੋਮੈਟਿਕ ਨਿਸ਼ਾਨ ਲਗਾਉਣਾ ਚਾਲੂ">
+						<longdesc>ਚੁਣਨ ਨਾਲ ਗਨੋਮਾਈਨ ਆਟੋਮੈਟਿਕ ਨਿਸ਼ਾਨ ਵਰਗ ਨੂੰ ਮਾਈਨ ਬਣਾਇਆ ਜਾਵੇਗਾ, ਜਦੋਂ ਕਾਫ਼ੀ ਵਰਗ ਬਾਕੀ ਹੋਣ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="ਬਹੁਤੇ ਨਿਸ਼ਾਨਾ ਬਾਰੇ ਚੇਤਾਵਨੀ">
+						<longdesc>ਜਦੋਂ ਬਹੁਤ ਸਾਰੇ ਨਿਸ਼ਾਨ ਲਗਾਏ ਗਏ ਹੋਣ ਤਾਂ ਚੇਤਾਵਨੀ ਆਈਕਾਨ ਵੇਖਾਉਣ ਲਈ ਚੁਣੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="ਅਣਜਾਣ ਨਿਸ਼ਾਨ ਵਰਤੋਂ">
+						<longdesc>ਵਰਗ ਨੂੰ ਅਣਪਛਾਤਾ ਦਰਸਾਉਣ ਦੇ ਯੋਗ ਹੋਣ ਲਈ ਯੋਗ ਠਹਿਰਾਓ।</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="ਬੋਰਡ ਅਕਾਰ">
+							<longdesc>ਬੋਰਡ ਦਾ ਆਕਾਰ (0-2=ਛੋਟਾ-ਵੱਡਾ, 3=ਪਸੰਦੀਦਾ)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="ਇੱਕ ਪਸੰਦੀਦਾ ਖੇਡ &apos;ਚ ਸੁਰੰਗਾਂ ਦੀ ਗਿਣਤੀ">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="ਪਸੰਦੀਦਾ ਖੇਡ ਵਿੱਚ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="ਪਸੰਦੀਦਾ ਖੇਡ ਵਿੱਚ ਕਾਲਮਾਂ ਦੀ ਗਿਣਤੀ">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="ਟੂਲਬਾਰ ਹੋਵੇ ਜਾਂ ਨਹੀਂ">
+						<longdesc>ਟੂਲਬਾਰ ਹੋਵੇ ਜਾਂ ਨਹੀਂ।</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="ਤੁਹਾਡੀ ਬੈਂਕ ਵਿੱਚ ਧਨ ਦੀ ਮਾਤਰਾ">
+							<longdesc>ਤੁਹਾਡੀ ਬੈਂਕ ਵਿੱਚ ਧਨ ਦੀ ਮਾਤਰਾ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="ਥੀਮ ਫਾਇਲ ਨਾਂ">
+							<longdesc>ਖੇਡਣ ਲਈ ਕਾਨੂੰਨਾਂ ਦੇ ਬਦਲਾਓ ਵਾਲੀ ਨਿਯਮ ਫਾਇਲ ਦਾ ਨਾਂ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="ਨਾ-ਸੁਰੱਖਿਅਤ ਕਦੇ ਨਾ ਲਵੋਂ">
+							<longdesc>ਇੱਕ ਡੀਲਰ ਵਲੋਂ ਯੱਕਾ ਵੇਖਣਾ ਦਾ ਨਾ-ਸੁਰੱਖਿਅਤ ਖ਼ਤਰਾ ਮੁੱਲ ਕਦੇ ਨਾ ਲਵੋ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="ਤੇਜ਼ ਤਰਾਸ਼ ਵਰਤੋਂ">
+							<longdesc>ਹਰ ਪੱਤਾ ਵਿੱਚ ਬਗੈਰ ਕੋਈ ਵਕਫੇ ਤਤਕਾਲ ਤਰਾਸ਼ ਵਰਤੋ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="ਸੰਭਾਵਨਾਵਾਂ ਵੇਖੋ">
+							<longdesc>ਹਰੇਕ ਤਰਾਸ਼ਣ ਵਾਲੇ ਦਾ ਮੌਜੂਦ ਨਤੀਜਾ ਅਤੇ ਆਪਣੀ ਮੌਜੂਦ ਅੰਦਾਜਨ ਕੀਮਤ ਦੀਆਂ ਸੰਭਾਵਨਾਵਾਂ ਵੇਖੋ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="ਵਰਤਣ ਲਈ ਕਾਨੂੰਨ ਫਾਇਲ ਦਾ ਬਦਲਾਓ">
+							<longdesc>ਖੇਡਣ ਲਈ ਕਾਨੂੰਨਾਂ ਦੇ ਬਦਲਾਓ ਵਾਲੀ ਕਾਨੂੰਨ ਫਾਇਲ ਦਾ ਨਾਂ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="ਸੁਰੱਖਿਅਤ ਲਿਖਣ ਚੋਣ ਯੋਗ">
+						<longdesc>ਸੁਰੱਖਿਅਤ ਲਿਖਣ ਦੀ ਚੋਣ ਕੁਝ ਰਿਕਾਰਡਰਾਂ ਨਾਲ ਹੀ ਉਪਲੱਬਧ ਹੈ, ਕੀ ਇਸ ਨੂੰ ਵਰਤਣਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="ਜ਼ਿਆਦਾ ਲਿਖਣਾ ਯੋਗ">
+						<longdesc>ਕੀ ਅਸਲੀ ਡਿਸਕ ਥਾਂ ਤੋਂ ਜਿਆਦਾ ਲਿਖਣ ਲਈ ਡਾਟਾ ਨੂੰ ਇਜ਼ਾਜਤ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="ਡੀਬੱਗ ਯੋਗ">
+						<longdesc>ਕੀ CD ਰਿਕਾਰਡਿੰਗ ਲਈ ਡੀਬੱਗ ਯੋਗ ਕਰਨਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="ਮੂਲ ਲਿਖਣ ਗਤੀ">
+						<longdesc>ਮੂਲ ਗਤੀ, ਜਿਸ ਨਾਲ ਮੀਡਿਆ &apos;ਤੇ ਡਾਟਾ ਲਿਖਿਆ ਜਾਵੇ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="ਆਰਜ਼ੀ ਆਈਸੋ (ISO) ਪ੍ਰਤੀਬਿੰਬ ਲਈ ਡਾਇਰੈਕਟਰੀ">
+						<longdesc>ਕੰਪਿਊਟਰ ਦੀ ਆਰਜੀ ਡਾਇਰੈਕਟਰੀ ਵਰਤਣ ਲਈ; ਆਰਜ਼ੀ ਆਈਸੋ (ISO) ਪ੍ਰਤੀਬਿੰਬ ਲਈ ਡਾਇਰੈਕਟਰੀ, ਨੂੰ ਖਾਲੀ ਛੱਡ ਦਿਉ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="ਕੀ ਗਨੋਮ-ਕੀਰਿੰਗ PKCS#11 ਭਾਗ ਚਾਲੂ ਕਰਨਾ ਹੈ।">
+							<longdesc>ਇਹ ਚੋਣ ਚਾਲੂ ਕਰਨ ਨਾਲ PKCS#11 ਏਜੰਟ ਗਨੋਮ-ਕੀਰਿੰਗ ਡੈਮਨ ਵਿੱਚ ਚੱਲੇਗਾ। ਇਹ ਤਾਂ ਹੀ ਚਾਲੂ ਹੋਵੇਗਾ ਜਦੋਂ ਗਨੋਮ-ਕੀਰਿੰਗ-ਡੈਮਨ ਸ਼ੁਰੂ ਹੋਵੇਗੀ (ਜਿਵੇਂ ਯੂਜ਼ਰ ਲਾਗਇਨ ਕਰੇਗਾ)। ਇਹ ਸੈਟਿੰਗ ਨੂੰ ਡੈਮਨ ਨੂੰ ਕੁਝ ਕਮਾਂਡ ਲਾਈਨ ਆਰਗੂਮੈਂਟ ਦੇਣ ਦੌਰਾਨ ਅਣਡਿੱਠਾ ਕੀਤਾ ਜਾ ਸਕਗਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="ਕੀ ਗਨੋਮ-ਕੀਰਿੰਗ ਐਸ.ਐਸ.ਐਚ. ਏਜੰਟ ਯੋਗ ਕਰਨਾ ਹੈ।">
+							<longdesc>ਇਹ ਚੋਣ ਚਾਲੂ ਕਰਨ ਨਾਲ ਐਸ.ਐਸ.ਐਚ ਏਜੰਟ ਗਨੋਮ-ਕੀਰਿੰਗ ਡੈਮਨ ਵਿੱਚ ਚੱਲੇਗਾ। ਇਹ ਤਾਂ ਹੀ ਚਾਲੂ ਹੋਵੇਗਾ ਜਦੋਂ ਗਨੋਮ-ਕੀਰਿੰਗ-ਡੈਮਨ ਸ਼ੁਰੂ ਹੋਵੇਗੀ (ਜਿਵੇਂ ਯੂਜ਼ਰ ਲਾਗਇਨ ਕਰੇਗਾ)। ਇਹ ਸੈਟਿੰਗ ਨੂੰ ਡੈਮਨ ਨੂੰ ਕੁਝ ਕਮਾਂਡ ਲਾਈਨ ਆਰਗੂਮੈਂਟ ਦੇਣ ਦੌਰਾਨ ਅਣਡਿੱਠਾ ਕੀਤਾ ਜਾ ਸਕਗਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="ਫਾਇਲ ਆਈਕਾਨ ਥੀਮ">
+							<longdesc>ਥੀਮ, ਫਾਇਲ ਆਈਕਾਨ ਵੇਖਾਉਣ ਲਈ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="ਇੰਪੁੱਟ ਫੀਡਬੈਕ ਸਾਊਂਡ">
+							<longdesc>ਕੀ ਇੰਪੁੱਟ ਘਟਨਾਵਾਂ ਲਈ ਸਾਊਂਡ ਚਲਾਉਣੀ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="ਸਾਊਂਡ ਥੀਮ ਨਾਂ">
+							<longdesc>ਘਟਨਾਵਾਂ ਸਾਊਂਡ ਲਈ ਵਰਤਣ ਵਾਸਤੇ XDG ਸਾਊਂਡ ਥੀਮ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="ਘਟਨਾਵਾਂ ਲਈ ਆਵਾਜ਼">
+							<longdesc>ਕੀ ਯੂਜ਼ਰ ਘਟਨਾਵਾਂ ਲਈ ਅਵਾਜ਼ਾਂ ਨੂੰ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="ESD ਯੋਗ">
+							<longdesc>ਸ਼ੁਰੂਆਤ &apos;ਤੇ ਸਾਊਡ ਸਰਵਰ ਨੂੰ ਯੋਗ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="ਡਿਫਾਲਟ ਮਿਕਸਰ ਟਰੈਕ">
+							<longdesc>ਮਲਟੀਮੀਡਿਆ ਸਵਿੱਚ-ਬਾਈਡਿੰਗ ਰਾਹੀਂ ਵਰਤਣ ਲਈ ਡਿਫਾਲਟ ਮਿਕਸਰ ਟਰੈਕ ਹਨ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="ਡਿਫਾਲਟ ਮਿਕਸਰ ਜੰਤਰ">
+							<longdesc>ਮਲਟੀਮੀਡਿਆ ਸਵਿੱਚ-ਬਾਈਡਿੰਗ ਰਾਹੀਂ ਵਰਤਣ ਲਈ ਡਿਫਾਲਟ ਮਿਕਸਰ ਜੰਤਰ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="&apos;ਯੂਨੀਕੋਡ ਕੰਟਰੋਲ ਅੱਖਰ&apos; ਮੇਨੂ ਵੇਖੋ">
+							<longdesc>ਕੀ ਇੰਦਰਾਜ਼ਾਂ ਅਤੇ ਟੈਕਸਟ ਝਲਕ ਦੇ ਪਰਸੰਗ ਮੇਨੂ ਲਈ ਕੰਟਰੋਲ ਅੱਖਰ ਦੇਣ ਲਈ ਸਹਾਇਕ ਹੋਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="&apos;ਇੰਪੁੱਟ ਢੰਗ&apos; ਮੇਨੂ ਵੇਖੋ">
+							<longdesc>ਕੀ ਇੰਦਰਾਜ਼ਾਂ ਅਤੇ ਟੈਕਸਟ ਝਲਕ ਦੇ ਪਰਸੰਗ ਮੇਨੂ ਲਈ ਇੰਪੁੱਟ ਢੰਗ ਬਦਲਣਾ ਸਹਾਇਕ ਹੋਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="ਮੇਨੂ ਪੱਟੀ ਐਕਸਰਲੇਟਰ">
+							<longdesc>ਮੇਨੂ ਪੱਟੀਆਂ ਖੋਲ੍ਹਣ ਲਈ ਕੀ-ਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਹਨ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="ਜੀਟੀਕੇ ਫਾਇਲ ਚੋਣਕਾਰ ਲਈ ਮੋਡੀਊਲ">
+							<longdesc>GtkFileChooser ਵਿਦਗਿਟ ਲਈ ਫਾਇਲ ਸਿਸਟਮ ਵਰਤਣ ਲਈ ਮੋਡੀਊਲ ਸੰਭਵ ਮੁੱਲ &quot;gio&quot;, &quot;gnome-vfs&quot; ਅਤੇ &quot;gtk+&quot; ਹਨ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="ਸੱਜੇ ਪਾਸੇ ਹਾਲਤ-ਪੱਟੀ">
+							<longdesc>ਕੀ ਸੱਜੇ ਪਾਸੇ ਹਾਲਤ-ਪੱਟੀ ਮੀਟਰ ਵੇਖਾਏ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="ਸੋਧੇ ਫੋਂਟ ਵਰਤੋਂ">
+							<longdesc>ਕੀ gtk+ ਐਪਲੀਕੇਸ਼ਨਾਂ ਲਈ ਸੋਧੋ ਫੋਂਟ ਵਰਤਣੇ ਹਨ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="ਮੋਨੋਸਪੇਸ ਫੋਂਟ">
+							<longdesc>ਮੋਨੋਸਪੇਸਡ (ਨਿਸ਼ਚਿਤ ਚੌਡ਼ਾਈ) ਫੋਂਟ ਦਾ ਨਾਂ, ਟਰਮੀਨਲ ਆਦਿ ਸਥਿਤੀਆਂ ਵਿੱਚ ਵਰਤਣ ਲਈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="ਡੌਕੂਮੈਂਟ ਫੋਂਟ">
+							<longdesc>ਡੌਕੂਮੈਂਟ ਪੜ੍ਹਨ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਡਿਫਾਲਟ ਫੋਂਟਾਂ ਦਾ ਨਾਂ ਹੈ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="GTK IM ਮੋਡੀਊਲ">
+							<longdesc>GTK+ ਰਾਹੀਂ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਇੰਨਪੁੱਟ ਢੰਗ ਮੋਡੀਊਲ ਦਾ ਨਾਂ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM ਹਾਲਤ ਸਟਾਈਲ">
+							<longdesc>gtk+ ਰਾਹੀਂ ਵਰਤੇ ਜਾਣ ਵਾਲੇ GTK+ ਇੰਨਪੁੱਟ ਢੰਗ ਸਥਿਤੀ ਸਟਾਈਲ ਦਾ ਨਾਂ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM ਪਰੀਆਡਿਟ ਸਟਾਈਲ">
+							<longdesc>gtk+ ਰਾਹੀਂ ਵਰਤੇ ਜਾਣ ਵਾਲੇ GTK+ ਇੰਨਪੁੱਟ ਢੰਗ ਪਰੀਆਡਿਟ ਸਟਾਈਲ ਦਾ ਨਾਂ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="ਡਿਫਾਲਟ ਫੋਂਟ">
+							<longdesc>gtk+ ਵਲੋਂ ਵਰਤੇ ਜਾਂਦੇ ਡਿਫਾਲਟ ਫੋਂਟ ਦਾ ਨਾਂ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Gtk+ ਥੀਮ">
+							<longdesc>gtk+ ਰਾਹੀਂ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਡਿਫਾਲਟ ਥੀਮ ਲਈ ਆਧਾਰ-ਨਾਂ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Gtk+ ਥੀਮ">
+							<longdesc>gtk+ ਰਾਹੀਂ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਡਿਫਾਲਟ ਥੀਮ ਲਈ ਆਧਾਰ-ਨਾਂ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="ਆਈਕਾਨ ਥੀਮ">
+							<longdesc>ਪੈਨਲ, ਨਟਾਲਿਸ ਆਦਿ ਲਈ ਵਰਤਣ ਲਈ ਆਈਕਾਨ ਥੀਮ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="ਕਰਸਰ ਝਪਕਣ ਸਮਾਂ">
+							<longdesc>ਕਰਸਰ ਝਪਕਣ ਦੀ ਲੰਬਾਈ, ਮਿਲੀਸਕਿੰਟ ਵਿੱਚ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="ਝਪਕਦੀ ਕਰਸਰ">
+							<longdesc>ਕੀ ਕਰਸਰ ਝਪਕਣੀ ਚਾਹੀਦੀ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="ਟੂਲਬਾਰ ਆਈਕਾਨ ਅਕਾਰ">
+							<longdesc>ਟੂਲਬਾਰ ਵਿੱਚ ਆਈਕਾਨ ਦਾ ਸਾਈਜ਼, ਜਾਂ ਤਾਂ &quot;ਛੋਟਾ-ਟੂਲਬਾਰ&quot; ਜਂ &quot;ਵੱਡਾ-ਟੂਲਬਾਰ&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="ਟੂਲਬਾਰ ਵੱਖ ਹੋਣ ਯੋਗ">
+							<longdesc>ਕੀ ਯੂਜ਼ਰ ਟੂਲਬਾਰ ਨੂੰ ਵੱਖ ਕਰਕੇ ਅਤੇ ਏਧਰ-ਓਧਰ ਕਰ ਸਕੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="ਮੇਨੂ ਪੱਟੀ ਵੱਖ ਹੋਣ ਯੋਗ">
+							<longdesc>ਕੀ ਯੂਜ਼ਰ ਮੇਨੂ ਪੱਟੀ ਨੂੰ ਵੱਖ ਕਰਕੇ ਅਤੇ ਏਧਰ-ਓਧਰ ਕਰ ਸਕੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="ਬਟਨ &apos;ਚ ਆਈਕਾਨ">
+							<longdesc>ਕੀ ਬਟਨਾਂ ਵਿੱਚ ਬਟਨ ਟੈਕਸਟ ਨਾਲ ਆਈਕਾਨ ਵੇਖਾਇਆ ਜਾਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="ਮੇਨੂ ਵਿੱਚ ਆਈਕਾਨ ਹੋਣ">
+							<longdesc>ਕੀ ਮੇਨੂ ਵਿੱਚ ਮੇਨੂ-ਐਂਟਰੀ ਨਾਲ ਇੱਕ ਆਈਕਾਨ ਵੇਖਾਇਆ ਜਾਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="ਟੂਲਬਾਰ ਸਟਾਈਲ">
+							<longdesc>ਟੂਲਬਾਰ ਸਟਾਈਲ ਹੈ। ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;ਦੋਂਵੇ&quot;, &quot;ਦੋਂਵੇ ਲੇਟਵੇਂ&quot;, &quot;ਆਈਕਾਨ&quot; ਅਤੇ &quot;ਟੈਕਸਟ&quot;।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="ਐਸਲ ਤਬਦੀਲ ਕਰ ਸਕਦੇ ਹਨ">
+							<longdesc>ਕੀ ਯੂਜ਼ਰ ਮੌਕੇ ਤੇ ਨਵਾਂ ਐਕਸਲੇਟਰ ਬਣਾ ਸਕੇ, ਜਦੋਂ ਸਥਿਤੀ ਇੱਕ ਸਰਗਰਮ ਮੇਨੂ-ਆਈਟਮ ਉੱਤੇ ਹੋਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="ਮੇਨੂ ਵਿੱਚ ਭਾਗ ਹੋਣ">
+							<longdesc>ਕੇ ਮੀਨੂ ਵੱਖ ਹੋਣ ਯੋਗ ਹੋਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="ਐਨੀਮੇਸ਼ਨ ਯੋਗ ਕਰੋ">
+							<longdesc>ਕੀ ਸਜੀਵਤਾ ਵੇਖਾਈ ਜਾਵੇ। ਇਹ ਗਲੋਬ ਕੁੰਜੀ ਹੈ, ਇਹ ਵਿੰਡੋ ਮੈਨੇਜਰ, ਪੈਨਲ ਆਦਿ ਦਾ ਰਵੱਈਆ ਬਦਲ ਸਕਦੀ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="ਅਸੈਸਬਿਲਟੀ ਯੋਗ ਕਰੋ">
+							<longdesc>ਕੀ ਐਪਲੀਕੇਸ਼ਨ ਲਈ ਅਸੈਸਟਿਵ ਸਹਿਯੋਗ ਹੋਵੇ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="ਸ਼ੁਰੂਆਤੀ ਅਸੈੱਸਟਿਵ ਤਕਨਾਲੋਜੀ ਐਪਲੀਕੇਸ਼ਨ">
+								<longdesc>ਜਦੋਂ ਗਨੋਮ ਡੈਸਕਟਾਪ ਵਿੱਚ ਲਾਗਇਨ ਕਰਨ ਸਮੇਂ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲੇ ਅਸੈਸਟਿਵ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੀ ਲਿਸਟ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>ਬੀਪ (ਅਵਾਜ਼), ਜਦੋਂ ਕਿ ਸੋਧ ਦਬਾਈ ਜਾਵੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>ਅਯੋਗ, ਜਦੋਂ ਦੋ ਕੀ(ਬਟਨ) ਇੱਕਠੀਆਂ ਦਬਾਈਆਂ ਜਾਣ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="ਘੱਟੋ-ਘੱਟ ਅੰਤਰਾਲ ਮਿਲੀਸਕਿੰਟ ਵਿੱਚ">
+								<longdesc>ਕਿਸੇ ਕੁੰਜੀ ਨੂੰ ਮਾਨਤਾ ਨਾ ਦਿਓ, ਜਦੋਂ ਤੱਕ ਕਿ ਇਹਨਾਂ ਨੂੰ @delay ਮਿਲੀ ਸਕਿੰਟ ਲਈ ਦਬਾਇਆ ਨਹੀਂ ਜਾਂਦਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="ਮਿਲੀਸਕਿੰਟ &apos;ਚ ਸ਼ੁਰੂਆਤੀ ਦੇਰੀ">
+								<longdesc>ਮਾਊਸ-ਸਵਿੱਚ ਕੰਮ ਕਰਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕਿੰਨੇ ਮਿਲੀਸਕਿੰਟ ਉਡੀਕ ਕਰਨੀ ਪਵੇਗੀ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="ਐਲਸਰਲੇਟ ਲਈ ਕਿੰਨੇ ਮਿਲੀਸਕਿੰਟ ਚਾਹੀਦੇ ਹਨ">
+								<longdesc>0 ਤੋਂ ਅਧਿਕਤਮ ਗਤੀ ਉੱਤੇ ਜਾਣ ਲਈ ਇਹ ਕਿੰਨੇ ਮਿਲੀਸਕਿੰਟ ਲੈਂਦਾ ਹੈ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="ਪਿਕਸਲ ਪ੍ਰਤੀ ਸਕਿੰਟ">
+								<longdesc>ਅਧਿਕਤਮ ਗਤੀ ਤੇ ਕਿੰਨੇ ਪਿਕਸਲ ਪ੍ਰਤੀ ਸਕਿੰਟ ਲੋਡ਼ੀਦੇ ਹਨ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="ਘੱਟੋ-ਘੱਟ ਅੰਤਰਾਲ ਮਿਲੀਸਕਿੰਟ ਵਿੱਚ">
+								<longdesc>ਇਕੋਂ ਸਮੇਂ ਦੱਬੀ _ਇੱਕੋ_ ਸਵਿੱਚ ਨੂੰ ਕਈ ਵਾਰ ਦੱਬਣਾ @delay ਮਿਲੀਸਕਿੰਟ ਅੰਤਾਰਲ ਨਾਲ ਅਣਡਿੱਠਾ ਕਰੋ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="ਕੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਲਾਕ ਕਰਨ ਨੂੰ ਯੋਗ ਕਰਨਾ ਹੈ">
+							<longdesc>ਕੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਲਾਕ ਕਰਨ ਨੂੰ ਯੋਗ ਕਰਨਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="ਅੰਤਰਾਲ ਨੂੰ ਟਾਲਣ ਦੀ ਇਜ਼ਾਜਤ ਦਿਓ">
+							<longdesc>ਕੀ ਟਾਇਪਇੰਗ ਬਰੇਕ ਸਕਰੀਨ ਨੂੰ ਟਾਲਿਆ ਜਾ ਸਕੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="ਬਰੇਕ ਟਾਈਮ">
+							<longdesc>ਮਿੰਟਾਂ ਦੀ ਗਿਣਤੀ, ਜਦੋਂ ਕਿ ਟਾਇਪ ਅੰਤਰਾਲ ਰਹਿ ਸਕੇ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="ਟਾਇਪ ਸਮਾਂ">
+							<longdesc>ਮਿੰਟਾਂ ਦੀ ਗਿਣਤੀ, ਜਦੋਂ ਕਿ ਟਾਇਪ ਕਰਨ ਮਗਰੋਂ ਅੰਤਰਾਲ ਮੋਡ ਸ਼ੁਰੂ ਹੋ ਸਕੇ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="URL ਅਤੇ MIME ਟਾਈਪ ਹੈਂਡਲਰ ਆਯੋਗ">
+							<longdesc>ਕਿਸੇ ਵੀ URL ਜਾਂ MIME ਟਾਈਪ ਹੈਂਡਲਰ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣ ਤੋਂ ਪਾਬੰਦੀ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="ਸਕਰੀਨ ਲਾਕ ਆਯੋਗ">
+							<longdesc>ਯੂਜ਼ਰ ਵਲੋਂ ਆਪਣੀ ਸਕਰੀਨ ਤਾਲਾਬੰਦ ਕਰਨ ਤੋਂ ਰੋਕੋ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="ਯੂਜ਼ਰ ਸਵਿੱਚ ਕਰਨਾ ਆਯੋਗ">
+							<longdesc>ਯੂਜ਼ਰ ਨੂੰ ਆਪਣਾ ਸ਼ੈਸ਼ਨ ਸਰਗਰਮ ਰੱਖਣ ਦੌਰਾਨ ਹੋਰ ਅਕਾਊਂਟ ਵਿੱਚ ਬਦਲਣ ਤੋਂ ਰੋਕਦੀ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="ਪਰਿੰਟਰ ਸੈੱਟਅੱਪ ਆਯੋਗ">
+							<longdesc>ਯੂਜ਼ਰ ਨੂੰ ਪਰਿੰਟਰ ਦਾ ਸੈੱਟਅੱਪ ਨੂੰ ਸੋਧਣ ਤੋਂ ਰੋਕ ਦਿਓ। ਜਿਵੇਂ ਕਿ, ਹਰੇਕ ਕਾਰਜ ਵਿੱਚ &quot;ਪਰਿੰਟਰ ਸੈੱਟਅੱਪ&quot; ਡਾਈਲਾਗ ਨੂੰ ਅਯੋਗ ਕਰ ਦੇਵੇਗਾ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="ਪਰਿੰਟਿੰਗ ਅਯੋਗ ਕਰੋ">
+							<longdesc>ਯੂਜ਼ਰ ਨੂੰ ਪਰਿੰਟਿੰਗ ਤੋਂ ਰੋਕ ਦਿਉ। ਜਿਵੇਂ ਕਿ, ਹਰੇਕ ਐਪਲੀਕੇਸ਼ਨ ਵਿੱਚੋਂ &quot;ਪਰਿੰਟ ਕਰੋ&quot; ਡਾਈਲਾਗ ਲਈ ਅਸੈੱਸ ਆਯੋਗ ਕਰ ਦਿਓ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="ਫਾਇਲ ਨੂੰ ਡਿਸਕ &apos;ਤੇ ਸੰਭਾਲਣ ਅਯੋਗ ਕਰੋ">
+							<longdesc>ਯੂਜ਼ਰ ਨੂੰ ਫਾਇਲ ਨੂੰ ਡਿਸਕ ਉੱਤੇ ਸੰਭਾਲਣ ਤੋਂ ਰੋਕੇ। ਜਿਵੇਂ ਕਿ, ਹਰੇਕ ਐਪਲੀਕੇਸ਼ਨ ਵਿੱਚ &quot;ਇੰਜ ਸੰਭਾਲੋ&quot; ਡਾਈਲਾਗ ਲਈ ਪਹੁੰਚ ਆਯੋਗ ਕਰ ਦਿਓ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="ਕਮਾਂਡ ਲਾਇਨ ਨੂੰ ਅਯੋਗ ਕਰੋ">
+							<longdesc>ਯੂਜ਼ਰ ਨੂੰ ਟਰਮੀਨਲ ਜਾਂ ਖਾਸ ਕਮਾਂਡ ਲਾਈਨਾਂ ਨੂੰ ਚਲਾਉਣ ਨੂੰ ਸੋਧਣ ਤੋਂ ਰੋਕ ਦਿਓ ਜਿਵੇਂ ਕਿ, ਪੈਨਲ ਵਿੱਚ &quot;ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਓ&quot; ਡਾਈਲਾਗ ਤੋਂ ਪਹੁੰਚ ਨੂੰ ਅਯੋਗ ਕਰ ਦਿਓ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="ਰੰਗ ਸ਼ੇਡਿੰਗ ਕਿਸਮ">
+							<longdesc>ਬੈਕਗਰਾਊਂਡ ਦੇ ਰੰਗ ਦਾ ਸ਼ੇਡ ਕਿਵੇਂ ਹੋਵੇ ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;ਲੇਟਵਾਂ ਢਾਲਵਾਂ&quot;, &quot;ਲੰਬਕਾਰੀ ਢਾਲਵਾਂ&quot; ਅਤੇ &quot;ਇਕਸਾਰ&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="ਸੈਕੰਡਰੀ ਰੰਗ">
+							<longdesc>ਜਦੋਂ ਢਾਲਵਾਂ ਬਣਾਇਆ ਜਾਵੇ ਤਾਂ ਸੱਜਿਉ ਤੋਂ ਜਾਂ ਥੱਲਿਉ ਜਾਂ ਇਕਸਾਰ ਰੰਗ ਲਈ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="ਮੁੱਖ ਰੰਗ">
+							<longdesc>ਜਦੋਂ ਢਾਲਵਾਂ ਬਣਾਇਆ ਜਾਵੇ ਤਾਂ ਖੱਬੇ ਤੋਂ ਜਾਂ ਉਪੱਰੋ ਜਾਂ ਇਕਸਾਰ ਰੰਗ ਵਰਤਣਾ ਹੈ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="ਤਸਵੀਰ ਧੁੰਦਲਾਪਨ">
+							<longdesc>ਧੁੰਦਲਾਪਨ, ਜਿਸ ਨਾਲ ਬੈਕਗਰਾਊਂਡ ਦੀ ਤਸਵੀਰ ਨੂੰ ਬਣਾਇਆ ਜਾਵੇ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="ਤਸਵੀਰ ਫਾਇਲ-ਨਾਂ">
+							<longdesc>ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ ਦੇ ਤੌਰ ਤੇ ਵਰਤਣ ਲਈ ਫਾਇਲ</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="ਤਸਵੀਰ ਚੋਣਾਂ">
+							<longdesc>ਦੱਸੋ ਕਿ ਬੈਕਗਰਾਊਂਡ ਫਾਇਲ-ਨਾਂ ਦਾ ਚਿੱਤਰ ਨੂੰ ਕਿਵੇਂ ਪੇਸ਼ ਕਰਨਾ ਹੈ, ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;ਕੋਈ ਨਹੀਂ&quot;, &quot;ਕੰਧ-ਚਿੱਤਰ&quot;,&quot;ਕੇਂਦਰੀ&quot;,&quot;ਮਾਪ&quot;,&quot;ਤਣਿਆ&quot;, &quot;ਜ਼ੂਮ&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="ਡੈਸਕਟਾਪ ਬੈਕਗਰਾਊਂਡ ਬਣਾਓ">
+							<longdesc>ਕੀ ਗਨੋਮ ਡੈਸਕਟਾਪ ਬੈਕਗਰਾਊਂਡ ਬਣਾਏ</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>ਕੈਸ਼ ਵਿੱਚ ਥੰਮਨੇਲ ਲਈ ਵੱਧੋ-ਵੱਧ ਸਾਈਜ਼ ਮੈਗਾਬਾਈਟ (MB) ਵਿੱਚ। ਸਾਫ਼ ਕਰਨਾ ਆਯੋਗ ਕਰਨ ਵਾਸਤੇ -1 ਸੈੱਟ ਕਰੋ।</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>ਕੈਸ਼ ਵਿੱਚ ਥੰਮਨੇਲ ਲਈ ਵੱਧੋ-ਵੱਧ ਉਮਰ ਦਿਨਾਂ ਵਿੱਚ। ਸਾਫ਼ ਕਰਨਾ ਆਯੋਗ ਕਰਨ ਵਾਸਤੇ -1 ਸੈੱਟ ਕਰੋ।</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="ਨਮ-ਲਾਕ (NumLock) ਹਾਲਤ ਯਾਦ ਰੱਖੋ">
+								<longdesc>ਜਦੋਂ ਸਹੀਂ ਦਿੱਤਾ ਗਿਆ ਤਾਂ ਗਨੋਮ ਨਮ-ਲਾਕ LED ਦੀ ਹਾਲਤ ਸ਼ੈਸ਼ਨ ਦੌਰਾਨ ਯਾਦ ਰੱਖੇਗਾ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="ਕੀ-ਬੋਰਡ ਘੰਟੀ ਲਈ ਪਸੰਦੀਦਾ ਫਾਇਲ-ਨਾਂ">
+								<longdesc>ਘੰਟੀ ਦੀ ਅਵਾਜ਼ ਚਲਾਉਣ ਲਈ ਫਾਇਲ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;ਚਾਲੂ&quot;, &quot;ਬੰਦ&quot; ਅਤੇ &quot;ਪਸੰਦੀਦਾ&quot;।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="ਕਰਸਰ ਅਕਾਰ">
+								<longdesc>ਕਰਸਰ ਥੀਮ ਵਲੋਂ ਦਿੱਤਾ ਕਰਸਰ ਅਕਾਰ(_T)।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="ਕਰਸਰ ਥੀਮ">
+								<longdesc>ਕਰਸਰ ਥੀਮ ਨਾਂ। ਉਹਨਾਂ Xservers ਵਲੋਂ ਹੀ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, ਜੋ Xcursor ਸਹਿਯੋਗੀ ਹੋਵੇ, ਜਿਵੇਂ ਕਿ XFree86 4.3 ਅਤੇ ਨਵਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="ਕਰਸਰ ਫੋਂਟ">
+								<longdesc>ਕਰਸਰ ਲਈ ਫੋਂਟ ਨਾਂ, ਜੇਕਰ ਨਾ ਦਿੱਤਾ ਤਾਂ ਡਿਫਾਲਟ ਫੋਂਟ ਹੀ ਵਰਤੇ ਜਾਣਗੇ ਇਹ ਤਾਂ X ਸਰਵਰ ਨੂੰ ਸ਼ੁਰੂ ਵੇਲੇ ਹੀ ਮਿਲ ਜਾਂਦੇ ਹਨ, ਇਸ ਕਰਕੇ ਸ਼ੈਸ਼ਨ ਵਿੱਚਕਾਰ ਬਦਲਣ ਨਾਲ ਕੋਈ ਫਰਕ ਨਹੀਂ ਪੈਦਾ, ਜਦ ਤੱਕ ਮੁਡ਼ ਚਾਲੂ ਨਹੀ ਕਰਦੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="ਪੁਆਇੰਟਰ ਲੱਭੋ">
+								<longdesc>ਕਰਸਰ ਟਿਕਾਣੇ ਨੂੰ ਉਭਾਰਿਆ ਜਾਵੇ, ਜਦੋਂ ਕਿ Control ਦੱਬੀ ਅਤੇ ਛੱਡੀ ਜਾਵੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="ਦੋ ਵਾਰ ਦਬਾਉਣ ਦਾ ਸਮਾਂ">
+								<longdesc>ਡਬਲ-ਕਲਿੱਕ ਦੀ ਲੰਬਾਈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="ਚੱਕਣ ਦਾ ਥਰਸ਼ਹੋਲਡ">
+								<longdesc>ਚੁੱਕਣਾ ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਦੂਰੀ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="ਗਤੀ ਥਰੈਸ਼ਹੋਲਡ">
+								<longdesc>ਦੂਰੀ ਪਿਕਸਲਾਂ ਵਿੱਚ ਜੋ ਕਿ ਸੰਕੇਤਕ ਨੂੰ ਤਹਿ ਕਰਨੀ ਪਵੇ ਤਾਂਕਿ ਐਕਸਲੇਟਿਡ ਮਾਊਸ ਗਤੀ ਸਰਗਰਮ ਹੋ ਸਕੇ ਮੁੱਲ -1 ਮੁੱਲ ਸਿਸਟਮ ਦਾ ਡਿਫਾਲਟ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="ਸਿੰਗਲ ਕਲਿੱਕ">
+								<longdesc>ਮਾਊਸ ਗਤੀ ਲਈ ਐਕਸਲੇਸ਼ਨ ਬਹੁਲਕ ਹੈ। ਮੁੱਲ -1 ਸਿਸਟਮ ਦਾ ਮੂਲ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="ਸਿੰਗਲ ਕਲਿੱਕ">
+								<longdesc>ਆਈਕਾਨ ਖੋਲ੍ਹਣ ਲਈ ਸਿੰਗਲ ਕਲਿੱਕ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="ਮਾਊਸ ਬਟਨ ਦੀ ਸਥਿਤੀ">
+								<longdesc>ਖੱਬੇ-ਹੱਥ ਵਾਲੇ ਮਾਊਸ ਲਈ ਖੱਬਾ ਅਤੇ ਸੱਜਾ ਮਾਊਸ ਬਟਨਾਂ ਨੂੰ ਬਦਲੋ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="ਹਰੇਕ ਬਾਹਰੀ ਥੰਬਨੇਲਰ ਨੂੰ ਅਯੋਗ ਕਰੋ">
+							<longdesc>ਹਰੇਕ ਬਾਹਰੀ ਥੰਬਨੇਲਰ ਨੂੰ ਅਯੋਗ ਕਰੋ ਨੂੰ ਸੱਚ ਨਿਰਧਾਰਿਤ ਕਰਨ ਲਈ, ਇਹ ਵੇਖੇ ਬਿਨਾਂ ਕਿ ਇੱਕਲਾ-ਇੱਕਲਾ ਅਯੋਗ/ਯੋਗ ਹੈ ਜਾਂ ਨਹੀਂ।</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਕਮਾਂਡ">
+								<longdesc>PDF ਡੌਕੂਮੈਂਟ ਥੰਮਨੇਲਰ ਲਈ ਠੀਕ ਕਮਾਂਡ ਅਤੇ ਮੁੱਲ। ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਨਟਾਲਿਸ ਥੰਮਨੇਲਰ ਡੌਕੂਮੈਂਟ ਵੇਖੋ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਯੋਗ">
+								<longdesc>ਬੁਲੀਅਨ ਚੋਣਾਂ ਉਪਲੱਬਧ ਹਨ, ਸਹੀਂ ਨਾਲ ਥੰਮਨੇਲ ਯੋਗ ਹੋਵੇਗਾ ਅਤੇ ਗਲਤ ਨਾਲ ਨਵੇਂ ਥੰਮਨੇਲ ਨਹੀਂ ਬਣ ਸਕਣਗੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਕਮਾਂਡ">
+								<longdesc>PDF ਡੌਕੂਮੈਂਟ ਥੰਮਨੇਲਰ ਲਈ ਠੀਕ ਕਮਾਂਡ ਅਤੇ ਮੁੱਲ। ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਨਟਾਲਿਸ ਥੰਮਨੇਲਰ ਡੌਕੂਮੈਂਟ ਵੇਖੋ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਯੋਗ">
+								<longdesc>ਬੁਲੀਅਨ ਚੋਣਾਂ ਉਪਲੱਬਧ ਹਨ, ਸਹੀਂ ਨਾਲ ਥੰਮਨੇਲ ਯੋਗ ਹੋਵੇਗਾ ਅਤੇ ਗਲਤ ਨਾਲ ਨਵੇਂ ਥੰਮਨੇਲ ਨਹੀਂ ਬਣ ਸਕਣਗੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਕਮਾਂਡ">
+								<longdesc>PDF ਡੌਕੂਮੈਂਟ ਥੰਮਨੇਲਰ ਲਈ ਠੀਕ ਕਮਾਂਡ ਅਤੇ ਮੁੱਲ। ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਨਟਾਲਿਸ ਥੰਮਨੇਲਰ ਡੌਕੂਮੈਂਟ ਵੇਖੋ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਯੋਗ">
+								<longdesc>ਬੁਲੀਅਨ ਚੋਣਾਂ ਉਪਲੱਬਧ ਹਨ, ਸਹੀਂ ਨਾਲ ਥੰਮਨੇਲ ਯੋਗ ਹੋਵੇਗਾ ਅਤੇ ਗਲਤ ਨਾਲ ਨਵੇਂ ਥੰਮਨੇਲ ਨਹੀਂ ਬਣ ਸਕਣਗੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="ਟਾਸਕ ਨੂੰ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ">
+								<longdesc>ਕੀ ਡਿਫਾਲਟ ਟਾਸਕ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਚੱਲਣ ਲਈ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="ਡਿਫਾਲਟ ਟਾਸਕ">
+								<longdesc>ਡਿਫਾਲਟ ਟਾਸਕ ਐਪਲੀਕੇਸ਼ਨ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="ਕੈਲੰਡਰ ਨੂੰ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ">
+								<longdesc>ਕੀ ਡਿਫਾਲਟ ਕੈਲੰਡਰ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਚੱਲਣ ਲਈ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="ਡਿਫਾਲਟ ਕੈਲੰਡਰ">
+								<longdesc>ਡਿਫਾਲਟ ਕੈਲੰਡਰ ਐਪਲੀਕੇਸ਼ਨ</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="ਬਰਾਊਜ਼ਰ ਰਿਮੋਟ ਨੂੰ ਸਮਝਦਾ ਹੈ">
+								<longdesc>ਕੀ ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ ਨੈਟਸਕੇਪ ਰਿਮੋਟ ਨੂੰ ਸਮਝਦਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="ਬਰਾਊਜ਼ਰ ਨੂੰ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ">
+								<longdesc>ਕੀ ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ ਨੂੰ ਚੱਲਣ ਲਈ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ">
+								<longdesc>ਸਭ URL ਲਈ ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="ਵਰਕਸਪੇਸਾਂ ਦਾ ਨਾਂ (ਬਰਤਰਫ਼)">
+								<longdesc>ਪਹਿਲੇ ਵਰਕਸਪੇਸ ਵਿੱਚ ਵਿੰਡੋ ਮੈਨੇਜਰ ਦੀ ਨਾਂ ਸੂਚੀ ਹੈ। ਇਹ ਕੁੰਜੀ ਗਨੋਮ 2.12 ਵਿੱਚ ਬਰਤਰਫ਼ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="ਵਰਕਸਪੇਸਾਂ ਦੀ ਗਿਣਤੀ (ਬਰਤਰਫ਼)">
+								<longdesc>ਵਰਕਸਪੇਸਾਂ ਦੀ ਗਿਣਤੀ ਜੋ ਕਿ ਵਿੰਡੋ ਪਰਬੰਧਕ ਵਰਤ ਸਕਦੇ ਹਨ। ਇਹ ਕੁੰਜੀ ਨੂੰ ਗਨੋਮ 2.12 ਵਿੱਚ ਬਰਤਰਫ਼ ਕੀਤਾ ਜਾ ਚੁੱਕਿਆ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="ਯੂਜ਼ਰ ਵਿੰਡੋ ਮੈਨੇਜਰ (ਬਰਤਰਫ਼)">
+								<longdesc>ਵਿੰਡੋ ਮੈਨੇਜਰ ਨਾਲ ਪਹਿਲਾਂ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਇਹ ਕੁੰਜੀ ਨੂੰ ਗਨੋਮ 2.12 ਵਿੱਚ ਬਰਤਰਫ਼ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="ਫਾਲਬੈਕ ਵਿੰਡੋ ਮੈਨੇਜਰ (ਬਰਤਰਫ਼)">
+								<longdesc>ਫਾਲਬੈਕ ਵਿੰਡੋ ਮੈਨੇਜਰ, ਜੇਕਰ ਯੂਜ਼ਰ ਪਰਬੰਧਕ ਨਾ ਲੱਭਿਆ ਜਾ ਸਕੇ। ਇਹ ਕੁੰਜੀ ਗਨੋਮ 2.12 ਵਿੱਚ ਬਰਤਰਫ਼ ਕੀਤੀ ਜਾ ਚੁੱਕੀ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="ਪਸੰਦੀਦਾ ਮੋਬਾਇਲ ਅਸੈਸਟਿਵ ਤਕਨੀਕੀ ਕਾਰਜ ਚਾਲੂ">
+									<longdesc>ਲਾਗਇਨ ਦੌਰਾਨ ਪਸੰਦੀਦਾ ਮੋਬਾਇਲ ਅਸੈਸਟਿਵ ਤਕਨੀਕੀ ਕਾਰਜ ਗਨੋਮ ਵਲੋਂ ਸ਼ੁਰੂ ਕਰਨ ਲਈ</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="ਪਸੰਦੀਦਾ ਮੋਬਾਇਲ ਅਸੈਸਟਿਵ ਤਕਨੀਕੀ ਕਾਰਜ">
+									<longdesc>ਲਾਗਇਨ, ਮੇਨੂ ਜਾਂ ਕਮਾਂਡ ਲਾਇਨ ਵਾਸਤੇ ਪਸੰਦੀਦਾ ਮੋਬਾਇਲ ਅਸੈਸਟਿਵ ਤਕਨੀਕੀ ਕਾਰਜ</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="ਪਸੰਦੀਦਾ ਦਿੱਖ ਅਸੈਸਟਿਵ ਤਕਨੀਕੀ ਕਾਰਜ ਚਾਲੂ">
+									<longdesc>ਲਾਗਇਨ ਦੌਰਾਨ ਪਸੰਦੀਦਾ ਦਿੱਖ ਅਸੈਸਟਿਵ ਤਕਨੀਕੀ ਕਾਰਜ ਗਨੋਮ ਵਲੋਂ ਸ਼ੁਰੂ ਕਰਨ ਲਈ</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="ਪਸੰਦੀਦਾ ਦਿੱਖ ਅਸੈਸਟਿਵ ਤਕਨੀਕੀ ਕਾਰਜ">
+									<longdesc>ਲਾਗਇਨ, ਮੇਨੂ ਜਾਂ ਕਮਾਂਡ ਲਾਇਨ ਵਾਸਤੇ ਪਸੰਦੀਦਾ ਦਿੱਖ ਅਸੈਸਟਿਵ ਤਕਨੀਕੀ ਕਾਰਜ</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="ਡਿਫਾਲਟ ਭਾਗ ਦਰਸ਼ਕ ਐਪਲੀਕੇਸ਼ਨ">
+								<longdesc>ਫਾਇਲਾਂ ਨੂੰ ਵੇਖਣ ਲਈ ਵਰਤਣ ਵਾਲਾ ਕਾਰਜ, ਜੋ ਕਿ ਹਿੱਸੇ ਵੇਖਣ ਦੇ ਲਈ ਜ਼ਰੂਰੀ ਹੈ। ਪੈਰਾਮੀਟਰ %s ਨੂੰ ਫਾਇਲ ਦੇ URI ਨਾਲ ਤਬਦੀਲ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਪੈਰਾਮੀਟਰ %c ਨੂੰ ਹਿੱਸੇ IID ਨਾਲ ਤਬਦੀਲ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Exec ਆਰਗੂਮੈਂਟ">
+								<longdesc>ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲਣ ਵਾਲੇ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਆਰਗੂਮੈਂਟ &apos;exec&apos; ਕੀ ਨਾਲ ਪ੍ਰਭਾਸ਼ਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="ਟਰਮੀਨਲ ਐਪਲੀਕੇਸ਼ਨ">
+								<longdesc>ਵਰਤਣ ਲਈ ਟਰਮੀਨਲ ਕਾਰਜ, ਜਦੋਂ ਕਿ ਸ਼ੁਰੂਆਤੀ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਇਹ ਲੋਡ਼ੀਦਾ ਹੋਵੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;ymsgr&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;ymsgr&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;ymsgr&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;xmpp&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;xmpp&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;xmpp&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;sip&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;sip&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;sip&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;msnim&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;msnim&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;msnim&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;irc&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;irc&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;irc&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;icq&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;icq&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;icq&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;gg&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;gg&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;gg&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;h323&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;h323&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;h323&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;h323&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;callto&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;callto&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;callto&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;callto&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ|</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;aim&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;aim&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;aim&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;mailto&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;mailto&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;mailto&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;mailto&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;https&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;https&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;https&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;https&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;http&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;http&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;http&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;http&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;man&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;man&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;man&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;man&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;info&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;info&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;info&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;info&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ghelp&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;ghelp&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;ghelp&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;ghelp&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਕਮਾਂਡ ਟਰਮੀਨਲ ਵਿੱਚ ਚਲਾਓ">
+								<longdesc>ਸਹੀ, ਜੇਕਰ ਕਾਰਜ, ਜੋ ਕਿ ਇਸ URL ਨੂੰ ਵਰਤਦਾ ਹੈ, ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲੇ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;trash&quot; (ਰੱਦੀ) URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>ਜੇਕਰ ਯੋਗ ਕੀਤਾ ਤਾਂ ਕਮਾਂਡ ਲਾਈਨ &quot;trash&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇਗੀ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ ਨੂੰ &quot;trash (ਰੱਦੀ)&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ">
+								<longdesc>ਸਹੀ ਕਰ ਦਿਉ ਤਾਂ ਕਿ ਕਾਰਜ, ਜੋ ਕਿ &quot;command(ਕਮਾਂਡ)&quot; ਵਿੱਚ ਦਿੱਤਾ, &quot;trash&quot; URL ਨੂੰ ਵਰਤ ਸਕੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="ਕੀ ਇਹ ਪਰੋਫਾਇਲ ਨੂੰ ਵਰਤਣਾ ਹੈ ਜਾਂ ਨਹੀਂ">
+									<longdesc>ਕੀ ਇਹ ਪਰੋਫਾਇਲ ਨੂੰ ਵਰਤਣਾ ਤੇ ਵੇਖਾਉਣ ਹੈ ਜਾਂ ਨਹੀਂ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਮੂਲ ਫਾਇਲ ਐਕਸਟੇਸ਼ਨ">
+									<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨਾਲ ਇੰਕੋਡਿੰਡ ਫਾਇਲਾਂ ਸੰਭਾਲੀਆ ਜਾਣਗੀਆਂ ਤਾਂ ਫਾਇਲ ਦੀ ਐਕਟੇਸ਼ਨ ਜੋ ਵਰਤਣੀ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ">
+									<longdesc>ਇੱਕ ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ, ਜੋ ਕਿ ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਵਰਤਣ ਲਈ ਹੈ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਵੇਰਵਾ">
+									<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨੂੰ ਵਰਤਿਆ ਜਾਵੇ ਤਾਂ ਪਰੋਫਾਇਲ ਦਾ ਵੇਰਵਾ, ਜੋ ਕਿ ਹੋਰ ਜਾਣਕਾਰੀ ਤੇ ਵੇਰਵਾ ਰੱਖਦਾ ਹੋਵੇ।</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ">
+									<longdesc>ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ, ਜੋ ਕਿ ਚੋਣ ਲਈ ਵਰਤਿਆ ਜਾਵੇਗਾ ਅਤੇ ਪਰੋਫਾਇਲ ਦੀ ਸ਼ਨਾਖਤ ਦੇ ਕੰਮ ਆਵੇਗਾ।</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="ਕੀ ਇਹ ਪਰੋਫਾਇਲ ਨੂੰ ਵਰਤਣਾ ਹੈ ਜਾਂ ਨਹੀਂ">
+										<longdesc>ਕੀ ਇਹ ਪਰੋਫਾਇਲ ਨੂੰ ਵਰਤਣਾ ਤੇ ਵੇਖਾਉਣ ਹੈ ਜਾਂ ਨਹੀਂ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਮੂਲ ਫਾਇਲ ਐਕਸਟੇਸ਼ਨ">
+										<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨਾਲ ਇੰਕੋਡਿੰਡ ਫਾਇਲਾਂ ਸੰਭਾਲੀਆ ਜਾਣਗੀਆਂ ਤਾਂ ਫਾਇਲ ਦੀ ਐਕਟੇਸ਼ਨ ਜੋ ਵਰਤਣੀ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ">
+										<longdesc>ਇੱਕ ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ, ਜੋ ਕਿ ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਵਰਤਣ ਲਈ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਵੇਰਵਾ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਮੂਲ ਫਾਇਲ ਐਕਸਟੇਸ਼ਨ">
+										<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨਾਲ ਇੰਕੋਡਿੰਡ ਫਾਇਲਾਂ ਸੰਭਾਲੀਆ ਜਾਣਗੀਆਂ ਤਾਂ ਫਾਇਲ ਦੀ ਐਕਟੇਸ਼ਨ ਜੋ ਵਰਤਣੀ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ">
+										<longdesc>ਇੱਕ ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ, ਜੋ ਕਿ ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਵਰਤਣ ਲਈ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਵੇਰਵਾ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਮੂਲ ਫਾਇਲ ਐਕਸਟੇਸ਼ਨ">
+										<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨਾਲ ਇੰਕੋਡਿੰਡ ਫਾਇਲਾਂ ਸੰਭਾਲੀਆ ਜਾਣਗੀਆਂ ਤਾਂ ਫਾਇਲ ਦੀ ਐਕਟੇਸ਼ਨ ਜੋ ਵਰਤਣੀ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ">
+										<longdesc>ਇੱਕ ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ, ਜੋ ਕਿ ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਵਰਤਣ ਲਈ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਵੇਰਵਾ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਮੂਲ ਫਾਇਲ ਐਕਸਟੇਸ਼ਨ">
+										<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨਾਲ ਇੰਕੋਡਿੰਡ ਫਾਇਲਾਂ ਸੰਭਾਲੀਆ ਜਾਣਗੀਆਂ ਤਾਂ ਫਾਇਲ ਦੀ ਐਕਟੇਸ਼ਨ ਜੋ ਵਰਤਣੀ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ">
+										<longdesc>ਇੱਕ ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ, ਜੋ ਕਿ ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਵਰਤਣ ਲਈ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਵੇਰਵਾ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਮੂਲ ਫਾਇਲ ਐਕਸਟੇਸ਼ਨ">
+										<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨਾਲ ਇੰਕੋਡਿੰਡ ਫਾਇਲਾਂ ਸੰਭਾਲੀਆ ਜਾਣਗੀਆਂ ਤਾਂ ਫਾਇਲ ਦੀ ਐਕਟੇਸ਼ਨ ਜੋ ਵਰਤਣੀ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ">
+										<longdesc>ਇੱਕ ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ, ਜੋ ਕਿ ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਵਰਤਣ ਲਈ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਵੇਰਵਾ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਮੂਲ ਫਾਇਲ ਐਕਸਟੇਸ਼ਨ">
+										<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨਾਲ ਇੰਕੋਡਿੰਡ ਫਾਇਲਾਂ ਸੰਭਾਲੀਆ ਜਾਣਗੀਆਂ ਤਾਂ ਫਾਇਲ ਦੀ ਐਕਟੇਸ਼ਨ ਜੋ ਵਰਤਣੀ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ">
+										<longdesc>ਇੱਕ ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ, ਜੋ ਕਿ ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਵਰਤਣ ਲਈ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਵੇਰਵਾ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਮੂਲ ਫਾਇਲ ਐਕਸਟੇਸ਼ਨ">
+										<longdesc>ਜਦੋਂ ਇਸ ਪਰੋਫਾਇਲ ਨਾਲ ਇੰਕੋਡਿੰਡ ਫਾਇਲਾਂ ਸੰਭਾਲੀਆ ਜਾਣਗੀਆਂ ਤਾਂ ਫਾਇਲ ਦੀ ਐਕਟੇਸ਼ਨ ਜੋ ਵਰਤਣੀ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ ਵਰਤੀ ਜਾ ਰਹੀ ਹੈ">
+										<longdesc>ਇੱਕ ਅਧੂਰੀ GStreamer ਪਾਇਪਲਾਇਨ, ਜੋ ਕਿ ਇਸ ਪਰੋਫਾਇਲ ਲਈ ਵਰਤਣ ਲਈ ਹੈ।</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਵੇਰਵਾ">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="ਆਡੀਓ ਪਰੋਫਾਇਲ ਲਈ ਛੋਟਾ ਨਾਂ">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="ਪਰੋਫਾਇਲਾਂ ਦੀ ਲਿਸਟ">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="SMB ਵਰਕਗਰੁੱਪ">
+						<longdesc>Windows ਨੈੱਟਵਰਕ ਵਰਕਗਰੁੱਪ ਜਾਂ ਡੋਮੇਨ, ਜਿਸ ਦਾ ਯੂਜ਼ਰ ਭਾਗ ਹੈ। ਇੱਕ ਨਵੇਂ ਵਰਕਗਰੁੱਪ ਨੂੰ ਪੂਰੀ ਤਰਾਂ ਸਰਗਰਮ ਹੋਣ ਲਈ ਯੂਜ਼ਰ ਲਾਗਆਉਟ ਅਤੇ ਮੁੜ ਲਾਗਇਨ ਕਰ ਸਕਦਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="ਇਸ ਵਿੱਚ DNS-SD ਸਰਵਿਸਾਂ ਦੀ ਖੋਜ ਲਈ ਹੋਰ ਡੋਮੇਨਾਂ">
+						<longdesc>DNS-SD ਡੋਮੇਨਾਂ ਦੀ ਕਾਮਿਆਂ ਨਾਲ ਵੱਖ ਕੀਤੀ ਸੂਚੀ, ਜੋ ਕਿ &quot;network:///&quot; ਟਿਕਾਣੇ ਉੱਤੇ ਵਿਖਾਈ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="ਲੋਕਲ DNS-SD ਸਰਵਿਸ ਨੂੰ ਕਿਵੇਂ ਵੇਖਾਉਣਾ ਹੈ">
+						<longdesc>ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;merged (ਰਲਵੇਂ)&quot;, &quot;separate(ਵੱਖਰੇ)&quot; ਅਤੇ &quot;disabled(ਆਯੋਗ)&quot;</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="ਆਟੋਮੈਟਿਕ ਪਰਾਕਸੀ ਸੰਰਚਨਾ URL">
+						<longdesc>URL, ਜੋ ਕਿ ਪਰਾਕਸੀ ਸੰਰਚਨਾ ਮੁੱਲ ਉਪਲੱਬਧ ਕਰਵਾਉਦਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="SOCKS ਪਰਾਕਸੀ ਪੋਰਟ">
+						<longdesc>ਮਸ਼ੀਨ &apos;ਤੇ ਪੋਰਟ&quot;/system/proxy/socks_host&quot; ਨੇ ਦਿੱਤੀ ਹੈ, ਜਿਸ ਰਾਹੀਂ ਤੁਸੀਂ ਪਰਾਕਸੀ ਚਲਾ ਰਹੇ ਹੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="SOCKS ਪਰਾਕਸੀ ਹੋਸਟ ਨਾਂ">
+						<longdesc>ਪਰਾਕਸੀ ਸਾਕਟ ਲਈ ਮਸ਼ੀਨ ਨਾਂ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="FTP ਪਰਾਕਸੀ ਪੋਰਟ">
+						<longdesc>ਮਸ਼ੀਨ &apos;ਤੇ ਪੋਰਟ &quot;/system/proxy/ftp_host&quot; ਨੇ ਦਿੱਤੀ ਹੈ, ਜਿਸ ਰਾਹੀਂ ਤੁਸੀਂ ਪਰਾਕਸੀ ਚਲਾ ਰਹੇ ਹੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="FTP ਪਰਾਕਸੀ ਹੋਸਟ ਨਾਂ">
+						<longdesc>ਪਰਾਕਸੀ FTP ਕਰਨ ਵਾਲੀ ਮਸ਼ੀਨ ਦਾ ਨਾਂ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="ਸੁਰੱਖਿਅਤ HTTP ਪਰਾਕਸੀ ਪੋਰਟ">
+						<longdesc>ਮਸ਼ੀਨ &apos;ਤੇ ਪੋਰਟ &quot;/system/proxy/secure_host&quot; ਨੇ ਦਿੱਤੀ ਹੈ, ਜਿਸ ਰਾਹੀਂ ਤੁਸੀਂ ਪਰਾਕਸੀ ਚਲਾ ਰਹੇ ਹੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="ਸੁਰੱਖਿਅਤ HTTP ਪਰਾਕਸੀ ਹੋਸਟ ਨਾਂ">
+						<longdesc>ਮਸ਼ੀਨ ਦਾ ਨਾਂ, ਜਿਸ ਰਾਹੀ ਪਰਾਕਸੀ ਸੁਰੱਖਿਅਤ HTTP ਕਰਨੀ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="ਪਰਾਕਸੀ ਸੰਰਚਨਾ ਮੋਡ">
+						<longdesc>ਪਰਾਕਸੀ ਸੰਰਚਨਾ ਮੋਡ ਦੀ ਚੋਣ ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;ਕੁਝ ਨਹੀਂ&quot;, &quot;ਦਸਤੀ&quot;, &quot;ਆਟੋ&quot;।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="ਕੋਈ ਪਰਾਕਸੀ ਹੋਸਟ ਨਹੀਂ">
+						<longdesc>ਇਹ ਕੁੰਜੀ ਉਹਨਾਂ ਹੋਸਟਾਂ ਦੀ ਸੂਚੀ ਉਪਲੱਬਧ ਕਰਵਾਉਦੀ ਹੈ, ਜੋ ਸਿੱਧੇ ਜੁਡ਼ੇ ਹਨ, ਨਾ ਕਿ ਪਰਾਕਸੀ (ਜੇ ਸਰਗਰਮ ਹੈ)। ਮੁੱਲ ਹੋਸਟ ਨਾਂ, ਡੋਮੇਨ (ਸ਼ੁਰੂਆਤੀ wildcard ਜਿਵੇਂ ਕਿ *.foo.com ਵਰਤ ਕੇ ), IP ਹੋਸਟ ਐਡਰੈਸ (ਦੋਵੇਂ IPv4 ਅਤੇ IPv6) ਅਤੇ ਨੈਟਵਰਕ ਸਿਰਨਾਵੇਂ ਨਾਲ ਨੈੱਟਮਾਸਕ (ਜਿਵੇਂ ਕਿ 192.168.0.0/24)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="HTTP ਪਰਾਕਸੀ ਪਾਸਵਰਡ">
+						<longdesc>ਪਰਮਾਣਿਕਤਾ ਨੂੰ ਦੇਣ ਲਈ ਪਾਸਵਰਡ, ਜਦੋਂ ਕਿ HTTP ਪਰਾਕਸੀ ਦੀ ਕਾਰਵਾਈ ਕੀਤੀ ਜਾ ਰਹੀ ਹੋਵੇ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="HTTP ਪਰਾਕਸੀ ਯੂਜ਼ਰ ਨਾਂ">
+						<longdesc>ਯੂਜ਼ਰ ਨਾਂ, ਪਰਮਾਣਕਤਾ ਨੂੰ ਲੰਘਣ ਲਈ, ਜਦੋਂ ਕਿ HTTP ਪਰਾਕਸੀਇੰਗ ਕਰ ਰਹੇ ਹੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="ਪਰਮਾਣਿਤ ਪਰਾਕਸੀ ਸਰਵਰ ਕੁਨੈਕਸ਼ਨ">
+						<longdesc>ਜੇਕਰ ਸਹੀ ਹੈ ਤਾਂ, ਪਰਾਕਸੀ ਸਰਵਰ ਤੇ ਕੁਨੈਕਸ਼ਨ ਸਮੇ ਪਰਮਾਣਕਿਤਾ ਲਈ ਦੀ ਲੋਡ਼ ਪਵੇਗੀ। ਯੂਜ਼ਰ ਨਾਂ/ਪਾਸਵਰਡ ਡੱਬਾ &quot;/system/http_proxy/authentication_user&quot; ਅਤੇ &quot;/system/http_proxy/authentication_password&quot; ਨੇ ਦਿੱਤਾ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="HTTP ਪਰਾਕਸੀ ਪੋਰਟ">
+						<longdesc>ਮਸ਼ੀਨ &apos;ਤੇ ਪੋਰਟ &quot;/system/http_proxy/host&quot; ਦਿੱਤੀ ਹੈ, ਜਿਸ ਰਾਹੀਂ ਤੁਸੀਂ ਪਰਾਕਸੀ ਚਲਾ ਰਹੇ ਹੋ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="HTTP ਪਰਾਕਸੀ ਹੋਸਟ ਨਾਂ">
+						<longdesc>ਮਸ਼ੀਨ ਦਾ ਨਾਂ, ਜਿਸ ਰਾਹੀ ਪਰਾਕਸੀ HTTP ਕਰਨੀ ਹੈ।</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="HTTP ਪਰਾਕਸੀ ਵਰਤੋਂ">
+						<longdesc>ਪਰਾਕਸੀ ਸੈਟਿੰਗ ਯੋਗ ਕਰੋ, ਜਦੋ ਕਿ ਇੰਟਰਨੈੱਟ &apos;ਤੇ HTTP ਨੂੰ ਵਰਤਦੇ ਹੋ।</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

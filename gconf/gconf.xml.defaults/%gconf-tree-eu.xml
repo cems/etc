@@ -1,0 +1,2881 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="Erabili animazio bizkorra">
+						<longdesc>FALTSUA jarrita, poliki, baina ganoraz, eroriko dira piezak.  EGIAZKOA jarrita, berriz, bizkor eta oldarka eroriko dira piezak.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Taula pertsonalizatuaren altuera">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Taula pertsonalizatuaren zabalera">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="Taularen tamaina">
+						<longdesc>Erabili beharreko taularen tamaina. 1 = pertsonalizatua, 2 = txikia, 3 = tartekoa, 4 = handia.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="Erabili beharreko gaia">
+						<longdesc>Erabili beharreko fitxategi-izena edo gaia.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Jaregin puxtarriari">
+						<longdesc>Sakatu tekla puxtarriari jaregiteko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Mugitu eskuinera">
+						<longdesc>Sakatu tekla eskuinerantz joateko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Mugitu ezkerrera">
+						<longdesc>Sakatu tekla ezkerrerantz joateko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Soinua">
+						<longdesc>Gertaera-soinuak erreproduzituko diren ala ez adierazten du.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Animatu">
+						<longdesc>Animazioa erabiliko den ala ez adierazten du.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="Gaiaren IDa">
+						<longdesc>Gai hobetsia zehazten duen zenbakia.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="2. jokalariaren maila">
+						<longdesc>Zero giza jokalaria da; batetik hirura ordenagailu-jokalariaren maila da.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="1. jokalariaren maila">
+						<longdesc>Zero giza jokalaria da; batetik hirura ordenagailu-jokalariaren maila da.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Jokoaren aurrebista">
+							<longdesc>Azkena gordetako saioko jokoaren aurrebista.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Joko-eremua">
+							<longdesc>Azkena gordetako saioko joko-eremua.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Puntuazioa">
+							<longdesc>Azkena gordetako saioko puntuazioa.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Mugimenduen arteko denbora">
+							<longdesc>Mugimenduen arteko denbora (milisegundotan).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Atzeko planoaren kolorea">
+							<longdesc>Atzeko planoaren kolorea. Atzeko planoaren kolorearen balio hamaseitarra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Puxtarrien estiloa">
+							<longdesc>Puxtarrien estiloa. Puxtarrietan erabili beharreko irudien fitxategi-izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Joko-eremuaren tamaina">
+							<longdesc>Joko-eremuaren tamaina. 1=Txikia, 2=Ertaina, 3=Handia. Gainerako balioak ez dira baliozkoak.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="Taularen zein alde bistaratu behar den">
+						<longdesc>Aurreko planoko taularen aldea; izan daiteke &apos;zuria&apos;, &apos;beltza&apos;, &apos;unekoa&apos; (uneko jokalariarena) edo &apos;gizakia&apos; (giza jokalariaren aldea)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="Mugimenduak bistaratzeko formatua">
+						<longdesc>Hauek izan daitezke mugimenduak bistaratzeko formatuak: &apos;gizakiena&apos; (gizakiek irakurtzeko modukoa), &apos;nol&apos; (notazio aljebraiko luzea) edo &apos;nae&apos; (notazio aljebraiko estandarra)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="Jokoa kargatzeko elkarrizketa-koadroa irekitzeko direktorioa">
+						<longdesc>Jokoa kargatzeko elkarrizketa-koadroa irekitzeko direktorioa</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="Jokoa gordetzeko elkarrizketa-koadroa irekitzeko direktorioa">
+						<longdesc>Jokoa gordetzeko elkarrizketa-koadroa irekitzeko direktorioa</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Tresna-barra gaitzeko bandera">
+						<longdesc>Tresna-barra gaitzeko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="Historia-arakatzailea mugitzea gaitzeko bandera">
+						<longdesc>Historia-arakatzailea mugitzea gaitzeko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="Mugimenduen iruzkinak erakusteko bandera">
+						<longdesc>Mugimenduen iruzkinak erakusteko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="Taulei zenbakia jartzea gaitzeko bandera">
+						<longdesc>Taulei zenbakia jartzea gaitzeko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="Mugitzeko iradokizunak gaitzeko bandera">
+						<longdesc>Mugitzeko iradokizunak gaitzeko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="3Dko modua gaitzeko bandera">
+						<longdesc>3Dko modua gaitzeko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="Peoiak zein pieza bihurtu">
+						<longdesc>Giza jokalariek peoiak muturreko lauki batera eramatean peoia beste pieza bat bihurtuko da. Hauetako bat izan daiteke: &apos;erregina&apos;, &apos;zalduna&apos;, &apos;dorrea&apos;, &apos;alfila&apos;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="Sareko jokoa gaitzeko bandera">
+						<longdesc>Sareko jokoa gaitzeko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="Pantaila osoko modua gaitzeko bandera">
+						<longdesc>Pantaila osoko modua gaitzeko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="Modu maximizatua gaitzeko bandera">
+						<longdesc>Modu maximizatua gaitzeko bandera</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="Leihoaren altuera">
+						<longdesc>Leiho nagusiaren altuera (pixeletan)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Leihoaren zabalera">
+						<longdesc>Leiho nagusiaren zabalera (pixeletan)</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="Urruneko jokalariei joko berriak ikusten uzteko bandera">
+							<longdesc>Urruneko jokalariei joko berriak ikusten uzteko bandera</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="Joko berrietan mugitzeko jokalari bakoitzak duen denbora">
+							<longdesc>Joko berrietan mugitzeko jokalari bakoitzak duen denbora</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="Beltzen jokalari-zailtasun lehenetsia joko berrietarako">
+								<longdesc>Beltzen jokalari-zailtasun lehenetsia joko berrietarako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Beltzen jokalari mota lehenetsia joko berrietarako">
+								<longdesc>Beltzen jokalari mota lehenetsia joko berrietarako</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="Zurien jokalari-zailtasun lehenetsia joko berrietarako">
+								<longdesc>Zurien jokalari-zailtasun lehenetsia joko berrietarako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Zurien jokalari mota lehenetsia joko berrietarako">
+								<longdesc>Zurien jokalari mota lehenetsia joko berrietarako</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="Oraintsu jolastutako jokoak">
+						<longdesc>Oraintsu jolastutako jokoen zerrenda.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="Jolastutako jokoen estatistikak">
+						<longdesc>Boskoitz moduan etortzen den kate-zerrenda bat: izena, garaipenak, jolastutako partidak guztira, denbora onena (segundotan) eta denbora okerrena (hau ere segundotan). Jolastu gabeko partidak adierazi beharrik ez dago.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Erabili behar den joko-fitxategia">
+						<longdesc>Jolastu beharreko bakar-jokoa duen eskema-fitxategiaren izena.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Soinua">
+						<longdesc>Gertaera-soinuak erreproduzituko diren ala ez adierazten du.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Hautatu kontrol-estiloa">
+						<longdesc>Hautatu kartak arrastatu behar diren, ala lehenik jatorrian eta ondoren helburuan klik egin behar den.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_statusbar">
+					<local_schema short_desc="Egoera-barra erakutsiko den ala ez adierazten du.">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Tresna-barra erakutsiko den ala ez adierazten du.">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Gai-fitxategiaren izena">
+						<longdesc>Karten grafikoak dituen fitxategiaren izena.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Itxaroteko tekla">
+							<longdesc>Itxaroteko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Ausaz aldentzeko tekla">
+							<longdesc>Ausaz aldentzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Aldentzeko tekla">
+							<longdesc>Seguru (ahal bada) aldentzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Hego-ekialderantz mugitzeko tekla">
+							<longdesc>Hego-ekialderantz mugitzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Hegoalderantz mugitzeko tekla">
+							<longdesc>Hegoalderantz mugitzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Hego-mendebalderantz mugitzeko tekla">
+							<longdesc>Hego-mendebalderantz mugitzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Ekialderantz mugitzeko tekla">
+							<longdesc>Ekialderantz mugitzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Gelditzeko tekla">
+							<longdesc>Geldirik egoteko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Mendebalderantz mugitzeko tekla">
+							<longdesc>Mendebalderantz mugitzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Ipar-ekialderantz mugitzeko tekla">
+							<longdesc>Ipar-ekialderantz mugitzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Iparralderantz mugitzeko tekla">
+							<longdesc>Iparralderantz mugitzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Ipar-mendebalderantz mugitzeko tekla">
+							<longdesc>Ipar-mendebalderantz mugitzeko erabilitako teklaren izena. X tekla estandarrari dagokion izena da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Gaitu zanpaketak">
+							<longdesc>Gaitu zanpaketak. Erreproduzitu soinua eta erakutsi &quot;Zanpa!&quot; pantailan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Gaitu jokoaren soinuak">
+							<longdesc>Gaitu jokoaren soinuak. Erreproduzitu soinuak jokoko hainbat gertaeretan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Erabili mugimendu seguru-seguruak">
+							<longdesc>Erabili mugimendu seguru-seguruak. Jokalariari ohartarazi egingo zaio mugimendu segururik ez dagoenean eta aukera bakarra aldentzea denean.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Erabili mugimendu seguruak">
+							<longdesc>Erabili mugimendu seguruak. Mugimendu seguruen aukerak errore batengatik ez hiltzen lagunduko dizu. Heriotzara eramango zaituen mugimendu bat egiten saiatzen bazara eta mugimendu seguru bat erabilgarri badago, ezingo duzu aurrera jarraitu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Joko mota">
+							<longdesc>Joko mota. Erabili beharreko joko-aldaeraren izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Atzeko planoaren kolorea">
+							<longdesc>Atzeko planoaren kolorea. Atzeko planoaren kolorearen balio hamaseitarra.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Robotaren irudiaren gaia">
+							<longdesc>Robotaren irudiaren gaia. Robotetan erabili beharreko irudien gaia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="Erakutsi tresna-barra">
+							<longdesc>Erakutsi tresna-barra. Tresna-barren aukera estandarra.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Fitxen tamaina">
+							<longdesc>Fitxen tamaina.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Gaitu soinuak">
+							<longdesc>Gaitu soinuak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Jokoa zein mailatan hasiko den">
+							<longdesc>Jokoa zein mailatan hasiko den.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Jokoaren mailak ausazko hurrenkeran">
+							<longdesc>Jokoaren mailak ausazko hurrenkeran.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Gaitu sasigainordainak">
+							<longdesc>Gaitu sasigainordainak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Jokoaren abiadura">
+							<longdesc>Jokoaren abiadura (1=azkar, 4=motel).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="AAko jokalarien kopurua">
+							<longdesc>AAko jokalarien kopurua.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="Giza jokalarien kopurua">
+							<longdesc>Giza jokalarien kopurua.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Mugitu eskuinera">
+									<longdesc>Eskuinera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mugitu ezkerrera">
+									<longdesc>Ezkerrera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Eraman beherantz">
+									<longdesc>Behera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Eraman gorantz">
+									<longdesc>Gora joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Erabili mugimendu erlatiboa">
+									<longdesc>Erabili mugimendu erlatiboa (adib. ezkerrera edo eskuinera bakarrik).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Harraren kolorea">
+									<longdesc>Harraren kolorea.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Mugitu eskuinera">
+									<longdesc>Eskuinera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mugitu ezkerrera">
+									<longdesc>Ezkerrera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Eraman beherantz">
+									<longdesc>Behera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Eraman gorantz">
+									<longdesc>Gora joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Erabili mugimendu erlatiboa">
+									<longdesc>Erabili mugimendu erlatiboa (adib. ezkerrera edo eskuinera bakarrik).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Harraren kolorea">
+									<longdesc>Harraren kolorea.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Mugitu eskuinera">
+									<longdesc>Eskuinera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mugitu ezkerrera">
+									<longdesc>Ezkerrera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Eraman beherantz">
+									<longdesc>Behera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Eraman gorantz">
+									<longdesc>Gora joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Erabili mugimendu erlatiboa">
+									<longdesc>Erabili mugimendu erlatiboa (adib. ezkerrera edo eskuinera bakarrik).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Harraren kolorea">
+									<longdesc>Harraren kolorea.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Mugitu eskuinera">
+									<longdesc>Eskuinera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mugitu ezkerrera">
+									<longdesc>Ezkerrera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Eraman beherantz">
+									<longdesc>Behera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Eraman gorantz">
+									<longdesc>Gora joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Erabili mugimendu erlatiboa">
+									<longdesc>Erabili mugimendu erlatiboa (adib. ezkerrera edo eskuinera bakarrik).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Harraren kolorea">
+									<longdesc>Harraren kolorea.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Mugitu eskuinera">
+									<longdesc>Eskuinera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mugitu ezkerrera">
+									<longdesc>Ezkerrera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Eraman beherantz">
+									<longdesc>Behera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Eraman gorantz">
+									<longdesc>Gora joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Erabili mugimendu erlatiboa">
+									<longdesc>Erabili mugimendu erlatiboa (adib. ezkerrera edo eskuinera bakarrik).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Harraren kolorea">
+									<longdesc>Harraren kolorea.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Mugitu eskuinera">
+									<longdesc>Eskuinera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mugitu ezkerrera">
+									<longdesc>Ezkerrera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Eraman beherantz">
+									<longdesc>Behera joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Eraman gorantz">
+									<longdesc>Gora joateko tekla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Erabili mugimendu erlatiboa">
+									<longdesc>Erabili mugimendu erlatiboa (adib. ezkerrera edo eskuinera bakarrik).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Harraren kolorea">
+									<longdesc>Harraren kolorea.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Hautatu kontrol-estiloa">
+						<longdesc>Hautatu fitxak arrastatu behar diren, ala lehenik jatorrian eta ondoren helburuan klik egin behar den.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="Kontrolatu fitxa koloreztatuak">
+						<longdesc>Fitxa koloredunak gaitzeko bandera.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="Joko-saretaren tamaina">
+						<longdesc>Joko-saretaren tamaina ezartzeko erabiltzen da balio hori. Baliozko balioak 2tik 8ra bitartekoak dira, eta beste edozein balioren ordez 3 jarriko da.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Pausarazi">
+							<longdesc>Pausarazteko tekla.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Biratu">
+							<longdesc>Birarazteko tekla.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Jaregin">
+							<longdesc>Jaregiteko tekla.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Eraman beherantz">
+							<longdesc>Beherantz joateko tekla.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Mugitu eskuinera">
+							<longdesc>Sakatu tekla eskuinerantz joateko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Mugitu ezkerrera">
+							<longdesc>Sakatu tekla ezkerrerantz joateko.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Betetako errenkaden dentsitatea">
+							<longdesc>Joko-hasieran betetako errenkaden bloke-dentsitatea. Balioa 0 (blokerik ez) eta 10 (errenkada guztiz betea) bitartekoa da.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Bete beharreko errenkaden kopurua">
+							<longdesc>Jokoaren hasieran ausazko blokeekin betetako errenkaden kopurua.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Erloju-orratzen noranzkoan biratuko diren ala ez adierazten du">
+							<longdesc>Erloju-orratzen noranzkoan biratuko diren ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Blokeei ausazko koloreak emango zaizkien ala ez adierazten du">
+							<longdesc>Blokeei ausazko koloreak emango zaizkien ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="Jomuga eskuratuko den ala ez adierazten du">
+							<longdesc>Blokea nora helduko den grafikoki irudikatuko den ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Hurrengo blokea aurreikusiko den ala ez adierazten du.">
+							<longdesc>Hurrengo blokea aurreikusiko den ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Atzeko planoaren kolorea">
+							<longdesc>Atzeko planoaren kolorea, gdk_color_parse-k ulertzen duen formatu batean.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Atzeko planoko irudia erabili behar den edo ez adierazten du">
+							<longdesc>Atzeko planoko irudia atzeko planoaren kolorearen gainean marraztu behar den edo ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Hasteko maila">
+							<longdesc>Hasteko maila.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Blokeak errendatzeko erabilitako gaia">
+							<longdesc>Blokeak eta atzeko planoa errendatzeko erabilitako gaiaren izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Blokeak marrazteko erabili beharreko irudia">
+							<longdesc>Blokeak marrazteko erabili beharreko irudia.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Bistaratu ordenagailuaren pentsamenduak">
+						<longdesc>Egia ezartzen bada, AAren funtzionamenduaren iraulketa egingo da irteera estandarrean.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Jaurtialdien arteko atzerapena">
+						<longdesc>Aukeratu ordenagailuaren dado-jaurtialdien artean atzerapena sartu behar den, zer egiten ari den jarraitu ahal izan dezan jokalariak.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="Jokoan dagoen buru-hausgarria">
+						<longdesc>Jokoan dauden buru-hausgarri kopurua.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nm-applet">
+				<entry name="stamp">
+					<local_schema short_desc="Zigilua">
+						<longdesc>Ezarpenak bertsio berrira migratuko diren edo ez  ezartzeko erabiltzen da.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="suppress-wireless-networks-available">
+					<local_schema short_desc="Ezabatu sare erabilgarrien jakinarazpenak">
+						<longdesc>Ezarri hau TRUE (egia) gisa jakinarazpenak desgaitzeko haririk gabeko sareak erabilgarri daudenean.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-disconnected-notifications">
+					<local_schema short_desc="Desgaitu deskonektatutako jakinarazpenak">
+						<longdesc>Ezarri hau TRUE (egia) gisa jakinarazpenak desgaitzeko sare batetik deskonektatzean.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-connected-notifications">
+					<local_schema short_desc="Desgaitu konektatutako jakinarazpenak">
+						<longdesc>Ezarri hau TRUE (egia) gisa jakinarazpenak desgaitzeko sare batera konektatzean.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Soinua">
+						<longdesc>Gertaera-soinuak erreproduzituko diren ala ez adierazten du.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Tresna-barraren estiloa">
+							<longdesc>Tresna-barraren estiloa. Baliozko balioak: biak, biak_horiz, ikonoa eta testua.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Onartu fokurik gabeko barruti-hautapenak">
+								<longdesc>Elkarrizketa-koadro batzuk sarrera-eremu bakar bat izaten dute laneko orrian barruti-hautapenak egiteko. Aldagai honi EGIAZKOA balioa ezarriz gero, hautapenak sarrera horretara bideratuko ditu, nahiz eta sarrerak teklatu-fokurik ez eduki.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="Goiburu eta orri-oinen formatua (eskuineko zatia)">
+							<longdesc>Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="Goiburu eta orri-oinen formatua (erdiko zatia)">
+							<longdesc>Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="Goiburu eta orri-oinen formatua (ezkerreko zatia)">
+							<longdesc>Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paper-orientation">
+						<local_schema short_desc="Papera">
+							<longdesc>Hauxe da paperaren orientazio lehenetsia. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paper">
+						<local_schema short_desc="Papera">
+							<longdesc>Hauxe da paperaren zehaztapen lehenetsia. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="Beheko marjina lehenetsia">
+							<longdesc>Balio honek zehazten du orri baten eskuinaldetik hasi eta gorputzaren eskuinera arteko puntu kopuru lehenetsia. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-left">
+						<local_schema short_desc="Ezkerreko marjina lehenetsia">
+							<longdesc>Balio honek zehazten du orri baten ezkerraldetik hasi eta gorputzaren ezkerrera arteko puntu kopuru lehenetsia. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-top">
+						<local_schema short_desc="Goiko kanpo-marjina lehenetsia">
+							<longdesc>Balio honek zehazten du orri baten goialdetik hasi eta goiburuaren hasiera arteko puntu kopuru lehenetsia. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-bottom">
+						<local_schema short_desc="Beheko kanpo-marjina lehenetsia">
+							<longdesc>Balio honek zehazten du orri baten behealdetik hasi eta orri-oinaren amaiera arteko puntu kopuru lehenetsia. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="Beheko marjina lehenetsia">
+							<longdesc>Balio honek zehazten du orri baten behealdetik hasi eta gorputzaren amaiera arteko puntu kopuru lehenetsia. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="Goiko marjina lehenetsia">
+							<longdesc>Balio honek zehazten du orri baten goialdetik hasi eta gorputzaren hasiera arteko puntu kopuru lehenetsia. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preferred-unit">
+						<local_schema short_desc="Bistaratze-unitate hobetsia">
+							<longdesc>Orriak prestatzeko elkarrizketa-koadroan erabiltzeko unitate lehenetsia ematen du karaktere-kate honek.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="Ezkerreko gune errepikatu lehenetsia">
+							<longdesc>Inprimatzen den orri bakoitzaren ezkerraldean errepikatu beharreko zatia dauka karaktere-kate honek. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="Goialdeko gune errepikatu lehenetsia">
+							<longdesc>Inprimatzen den orri bakoitzaren goialdean errepikatu beharreko zatia dauka karaktere-kate honek. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="Eskala-altuera lehenetsia">
+							<longdesc>Uneko orria inprimatzean altueran zenbat orrialdetaraino hel daitekeen zehazten du balio honek. Orria txikiagotu daiteke altuera honetara doitzeko. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="Eskala-zabalera lehenetsia">
+							<longdesc>Uneko orria inprimatzean zabaleran zenbat orrialdetaraino hel daitekeen zehazten du balio honek. Orria txikiagotu daiteke zabalera honetara doitzeko. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="Eskalaren ehuneko lehenetsia">
+							<longdesc>Balio honek zehazten du zein ehuneko aplikatuko zaion inprimatutako orri bakoitzari eskala gisa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="Eskala mota lehenetsia">
+							<longdesc>Balio honen arabera, ea orriak ehuneko jakin bat aplikatuz eskalatuko diren edo ez zehazten da orriak prestatzeko elkarrizketa-koadroan. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="Inprimatzeko noranzko lehenetsia">
+							<longdesc>Balio honen arabera, ea lehendabizi eskuinekoa eta gero behekoa inprimatuko den zehazten da orriak prestatzeko elkarrizketa-koadroan. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="Izenburu-inprimatze lehenetsia">
+							<longdesc>Balio honen arabera, ea errenkaden eta zutabeen goiburuak inprimatuko diren edo ez zehazten da orriak prestatzeko elkarrizketa-koadroan. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="Lehenespenez zuri-beltzean inprimatu">
+							<longdesc>Balio honen arabera, zuri-beltzean bakarrik inprimatuko den edo ez zehazten da orriak prestatzeko elkarrizketa-koadroan. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="Lehenespenez estiloak bakarrik dituzten gelaxkak inprimatu">
+							<longdesc>Balio honen arabera, ea formatudun gelaxka hutsak inprimatuko diren edo ez zehazten da orriak prestatzeko elkarrizketa-koadroan. Balio hau editatzeko, erabili inprimatzeko prestatzeko elkarrizketa-koadroa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="Lehenespenez sareta-marrak inprimatu">
+							<longdesc>&gt;Balio honek inprimatzeko prestatzeko elkarrizketa-koadroko balio lehenetsia ezartzen du, sareta-marrak inprimatuko diren edo ez zehaztuz. Erabili inprimatzeko prestatzeko elkarrizketa-koadroa balio hau editatzeko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="Zentratze bertikal lehenetsia">
+							<longdesc>&gt;Balio honek inprimatzeko prestatzeko elkarrizketa-koadroko balio lehenetsia ezartzen du, orriak bertikalki zentratu diren edo ez zehaztuz.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="Zentratze horizontal lehenetsia">
+							<longdesc>Balio honen arabera, ea orriak horizontalki zentratuko diren edo ez zehazten da orriak prestatzeko elkarrizketa-koadroan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="Goiburu eta orri-oinen letra lehenetsia etzana da.">
+							<longdesc>Balio honek zehazten du ea goiburuen eta orri-oinen letra etzana izango den edo ez.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="Goiburu eta orri-oinen letra lehenetsia lodia da.">
+							<longdesc>Balio honek zehazten du ea goiburuen eta orri-oinen letra lodia izango den edo ez.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="Goiburu eta orri-oinetako letra-tipo lehenetsia">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="Goiburu eta orri-oinen letra-tamaina lehenetsia">
+							<longdesc>Goiburuen eta orri-oinen letra-tamaina lehenetsia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Orri-oina">
+							<longdesc>Dokumentu berrietarako orri-oin lehenetsia alda daiteke orriak prestatzeko elkarrizketa-koadroa erabiliz.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Orri-goiburua">
+							<longdesc>Dokumentu berrietarako goiburu lehenetsia alda daiteke orriak prestatzeko elkarrizketa-koadroa erabiliz.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-setting">
+						<local_schema short_desc="GTK inprimatze-ezarpenak">
+							<longdesc>GTK inprimatze-ezarpenen konfigurazioa. Ez editatu aldagai hau.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Aplikatu inprimatze-konfigurazioa orri guztiei">
+							<longdesc>Balio honen arabera, inprimatzeko prestatzeko elkarrizketa-koadroan zehazten diren ezarpenak aldi berean orri guztiei aplikatuko zaizkien zehazten da.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Autoformatuentzako erabiltzaile-direktorioa">
+							<longdesc>Erabiltzailearen autoformatu-txantiloi espezifikoen direktorio nagusia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Autoformatuentzako sistema-direktorioa">
+							<longdesc>Aurrez instalatutako autoformatu-txantiloiak daude direktorio honetan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="Autoformatuen direktorio gehigarrien zerrenda.">
+							<longdesc>Autoformatu-txantiloiak dituzten direktorio gehigarri guztiak daude zerrenda honetan.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Pluginen direktorio gehigarrien zerrenda.">
+							<longdesc>Pluginak dituzten direktorio gehigarri guztiak daude zerrenda honetan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Plugin-fitxategien egoeren zerrenda.">
+							<longdesc>Plugin-fitxategien egoera guztiak zehazten dira zerrenda honetan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Plugin ezagunen zerrenda.">
+							<longdesc>Plugin ezagun guztiak daude zerrenda honetan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Plugin aktiboen zerrenda.">
+							<longdesc>Automatikoki aktibatzekoak diren plugin guztiak daude zerrenda honetan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Aktibatu plugin berriak">
+							<longdesc>Aldagai honek zehazten du ea aurkitzen den plugin bakoitza aktibatu egingo den edo ez.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Zuzenketa automatikoaren ordezpena">
+							<longdesc>Zuzenketa automatikoaren ordezpena</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Zuzendu automatikoki egunen izenak">
+							<longdesc>Zuzendu automatikoki egunen izenak</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="Lehen letrako salbuespenen zerrenda">
+							<longdesc>Zuzenketa automatikoaren motorrak ez ditu zuzentzen zerrenda honetako hitzen lehen letrak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Zuzendu automatikoki lehen letra">
+							<longdesc>Zuzendu automatikoki lehen letra</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="Hasierako maiuskulen salbuespenen zerrenda">
+							<longdesc>Zuzenketa automatikoaren motorrak ez ditu zuzentzen zerrenda honetako hitzen hasierako maiuskulak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Zuzendu automatikoki hasierako maiuskulak">
+							<longdesc>Zuzendu automatikoki hasierako maiuskulak</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Duela gutxi erabilitako funtzioen zerrendaren gehieneko luzera">
+							<longdesc>Duela gutxi erabilitako funtzioen zerrenda bat edukitzen du funtzio-hautatzaileak. Hauxe da aipatutako zerrendaren gehieneko luzera.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Duela gutxi erabilitako funtzioen zerrenda.">
+							<longdesc>Duela gutxi erabilitako funtzioen zerrenda bat edukitzen du funtzio-hautatzaileak. Hauxe duzu aipatutako zerrenda.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="Hobetsi ARBELA hautapen NAGUSIaren gain">
+							<longdesc>Balioa EGIAZKOA bada, Gnumeric-ek  nahiago izango du ARBEL hautapen modernoa hautapen PRIMARIO heredatua baino. Ezarri FALTSUA aplikazio zaharrak erabili behar badituzu, Xterm edo Emacs esaterako, hautapen PRIMARIOA erabiltzen baitute.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Agindu automatikoen kopurua">
+									<longdesc>Ordenatzeko elkarrizketa-koadroan ordenatze-eremu bat hautatzean, automatikoki gehitzen dira bilaketa-baldintzak. Automatikoki gehituko diren baldintzen gehieneko kopurua adierazten du zenbaki honek.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Ordenatu gorantz">
+									<longdesc>Aukera honek zehazten du ordenatzeko elkarrizketa-koadroko ordenatze-hurrenkeraren botoiaren hasierako egoera.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Ordenatze-prozesuak formatuak mantentzen ditu">
+									<longdesc>Aukera hau hautatuz gero, tresna-barrako ordenatze-botoiek mantendu egingo dituzte gelaxken formatuak ordenatze-prozesuan, eta formatuak mantentzeko kontrol-laukia hautatua agertuko da ordenatzeko elkarrizketa-koadroan.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Ordenatze-funtzioak maiuskulak eta minuskulak bereizten ditu">
+									<longdesc>Aukera hau hautatuz gero, tresna-barrako ordenatze-botoiek maiuskulak eta minuskulak bereiziz ordenatuko dituzte elementuak, eta hautatuta geratuko da maiuskulak eta minuskulak bereizteko kontrol-laukia ordenatzeko elkarrizketa-koadroan.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Fitxategiak gainidazteko lehenespena">
+									<longdesc>Fitxategi bat gainidatzi aurretik, gnumeric-ek abisu bat bistaratuko du. Aukera hau hautatuz gero, abisuaren elkarrizketa-koadroan lehenetsita agertuko da gainidazteko botoia.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Abisatu orri bakarreko formatura esportatzean">
+									<longdesc>Fitxategi-formatu batzuek orri bakarra izan dezakete. Aldagai honek zehazten du ea erabiltzaileari abisatu egingo zaion orri anitzeko lan-liburu bateko orri bakarra ari dela gordetzen.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Gnumeric fitxategietarako konpresio-maila lehenetsia">
+								<longdesc>Osoko zenbaki honek (0 eta 9 artekoak) zehazten du Gnumeric-ek fitxategi-formatu lehenetsian aplikatzen duen konpresioa. 0 da konpresiorik txikiena, eta 9 handiena.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Zoom-faktore lehenetsia">
+									<longdesc>Laneko liburu berrietarako hasierako zoom-faktorea.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Leiho bertikalen tamaina lehenetsia">
+									<longdesc>Zenbaki honek (0,25 eta 1,00 artekoak) zehazten du leiho nagusiak hartzen duen pantaila-tamainaren frakzio bertikala.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Leiho horizontalen tamaina lehenetsia">
+									<longdesc>Zenbaki honek (0,25 eta 1,00 artekoak) zehazten du leiho nagusiak hartzen duen pantaila-tamainaren frakzio horizontala.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="Trantsizio-teklak">
+									<longdesc>Aldagai honek zehazten du trantsizio-teklak aktibatuta dauden edo ez. Trantsizio-teklak gertaera-maneiatzeko 1-2-3 estilora itzultzeko erabiltzen dira. Ktrl-gezia orri-mugimendu bihurtzen da, serieko hasierara/amaierara salto egin ordez.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="recalclag">
+								<local_schema short_desc="Adierazpenak automatikoki birkalkulatzeko atzerapena">
+									<longdesc>&apos;Atzerapena&apos; 0 bada, gnumeric-ek berehala birkalkulatuko ditu adierazpen automatiko guztiak aldaketa bakoitzaren ondoren. `Atzerapena&apos;ren balioa 0 ez den balio bat bada, aldaketa gehiago metatuko ditu birkalkulatze bakoitzaren aurretik. ‘Atzerapena’ren balioa positiboa bada, aldaketa bat agertzen den bakoitzean milisegundo batzuetako &apos;atzerapena&apos; itxarongo du, eta ondoren birkalkulatu; denbora horretan aldaketa gehiago egiten badira, une horretan prozesatuko dira. ‘Atzerapena’ negatiboa bada, orduan birkalkulatzea |Atzerapena| milisegundoko geldialdi baten ondoren egingo da.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Zuzeneko korritzea">
+									<longdesc>Aldagai honek zehazten du zuzeneko korritzea (atzeratua ez dena) egingo den edo ez.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Osatze automatikoa">
+									<longdesc>Aldagai honek zehazten du osatze automatikoa aktibatuta dagoen edo ez.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar-position">
+								<local_schema short_desc="Objektuen tresna-barraren posizioa">
+									<longdesc>Aldagai honek zehazten du non bistaratuko den objektuen tresna-barra. 0 balioak ezkerrean adierazten du, 1 balioak eskuinean eta 2 balioak goian.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="Objektuen tresna-barra ikusgai">
+									<longdesc>Aldagai honek zehazten du objektuen tresna-barra hasieran ikusgai egongo den edo ez.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="LongFormatToolbar-position">
+								<local_schema short_desc="Formatu luzearen tresna-barraren posizioa">
+									<longdesc>Aldagai honek zehazten du non bistaratuko den formatu luzearen tresna-barra. 0 balioak ezkerrean adierazten du, 1 balioak eskuinean eta 2 balioak goian.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="LongFormatToolbar">
+								<local_schema short_desc="Formatu luzearen tresna-barra ikusgai">
+									<longdesc>Aldagai honek zehazten du formatu luzearen tresna-barra hasieran ikusgai egongo den edo ez.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar-position">
+								<local_schema short_desc="Formatuaren tresna-barraren posizioa">
+									<longdesc>Aldagai honek zehazten du non bistaratuko den formatuaren tresna-barra. 0 balioak ezkerrean adierazten du, 1 balioak eskuinean eta 2 balioak goian.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="Formatuaren tresna-barra ikusgai">
+									<longdesc>Aldagai honek zehazten du formatuaren tresna-barra hasieran ikusgai egongo den edo ez.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar-position">
+								<local_schema short_desc="Tresna-barra estandarraren posizioa">
+									<longdesc>Aldagai honek zehazten du non bistaratuko den tresna-barra estandarra. 0 balioak ezkerrean adierazten du, 1 balioak eskuinean eta 2 balioak goian.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="Tresna-barra estandarra ikusgai">
+									<longdesc>Aldagai honek zehazten du tresna-barra estandarra hasieran ikusgai egongo den edo ez.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="DPI bertikala">
+									<longdesc>Pantaila-bereizmena noranzko bertikalean.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="DPI horizontala">
+									<longdesc>Pantaila-bereizmena noranzko horizontalean.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="autosave_time">
+							<local_schema short_desc="Automatikoki gordetzeko maiztasuna">
+								<longdesc>Automatikoki gordetzeko segundo kopurua.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="n-cols">
+							<local_schema short_desc="Zutabe kopuru lehenetsia orri batean">
+								<longdesc>Orri bakoitzeko zutabe kopurua. Ezarpen hau gnumeric-eko saio barrian soilik  erabiliko da. Hemen edozein balio eman daitekeen arren, benetako zutabe kopurua 2ren berreketa izango da, 256 eta 4096 artekoa.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="n-rows">
+							<local_schema short_desc="Errenkada kopuru lehenetsia orri batean">
+								<longdesc>Orri bakoitzeko errenkada kopurua. Ezarpen hau gnumeric-eko saio barrian soilik  erabiliko da. Hemen edozein balio eman daitekeen arren, benetako errenkada kopurua 2ren berreketa izango da, 65539 eta 16777216 artekoa.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="n-sheet">
+							<local_schema short_desc="Orri kopuru lehenetsia">
+								<longdesc>Laneko liburu berri batean hasieran sortzen den orri kopurua.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Letra lehenetsia etzana da.">
+								<longdesc>Balio honek zehazten du ea laneko liburu berri baten letra etzana izango den edo ez.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Letra lehenetsia lodia da.">
+								<longdesc>Balio honek zehazten du ea laneko liburu berri baten letra lodia izango den edo ez.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Letra-tipo lehenetsia">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Letra-tipo lehenetsia">
+								<longdesc>Laneko liburu berrietarako letra-tamaina lehenetsia.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Desegiteko deskriptoreen luzera">
+							<longdesc>Balio honek zehazten du desegiteko eta berregiteko kateetako komando-deskriptoreen gehieneko luzera.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="Desegiteko elementuen kopurua">
+							<longdesc>Balio honek zehazten du desegiteko/berregiteko zerrendako gehieneko elementu kopurua.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Desegiteko gehieneko tamaina">
+							<longdesc>Balio honek zehazten du desegite-katearen luzera. Editatze-ekintza bakoitzak tamaina bat du asoziatuta, gelaxka bakarreko edizio sinple baten (1 tamaina) memoria-eskakizunarekin konparatzeko. Desegite-zerrenda trunkatu egingo da guztira duen tamainak gainditu egiten badu balio konfiguragarri hau.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Erakutsi orriaren izena desegite-zerrendan">
+							<longdesc>Balio honek zehazten du ea orri-izenak erakutsiko diren desegiteko eta berregiteko zerrendetan.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="Erabili UTF-8 LaTeX esportazioan">
+								<longdesc>Sortutako LaTeX fitxategiek UTF-8 (unicode) edo ISO-8859-1 (Latin1) kodeketa erabiltzen duten zehazten du ezarpen honek. UTF-8 fitxategiak erabiltzeko, instalatuta eduki behar duzu ucs LaTeX paketea.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="Jakinarazpeneko ikonoa erakutsiko den edo ez">
+						<longdesc>Jakinarazpeneko ikonoa erakutsiko den edo ez.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Jaramonik ez egin dokumentuaren murriztapenei">
+						<longdesc>Jaramonik ez egin dokumentuaren kopiatzeko edo inprimatzeko bezalako murriztapenei</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="Gaitu banderen kokapen automatikoa">
+						<longdesc>Ezarri egia, nahikoa lauki bistaratu direnean gnomine-k automatikoki mina bandera jartzeko</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="Bandera gehiegi badaude abisatzea">
+						<longdesc>Ezarri egia bandera gehiegi jarri direnean abisu-ikonoak gaitzeko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="Erabili bandera ezezaguna">
+						<longdesc>Ezarri egia laukiak ezezagun gisa markatu ahal izateko.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="Taularen tamaina">
+							<longdesc>Taularen tamaina (0-2 = txikia-handia; 3 = pertsonalizatua)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="Joko pertsonalizatuaren mina kopurua">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="Joko pertsonalizatuaren errenkada kopurua">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="Joko pertsonalizatuaren zutabe kopurua">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Tresna-barra erakutsiko den ala ez adierazten du.">
+						<longdesc>Tresna-barra erakutsiko den ala ez adierazten du.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Bankuan duzun diru kopurua">
+							<longdesc>Bankuan duzun diru kopurua.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Gai-fitxategiaren izena">
+							<longdesc>Karten grafikoak dituen fitxategiaren izena.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Ez inoiz hartu asegururik">
+							<longdesc>Ez inoiz hartu asegurutik banatzaileak batekoa erakustean.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Erabili banaketa bizkorra">
+							<longdesc>Erabili banaketa bizkorra, karta batetik besterako atzerapenik gabe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Bistaratu probabilitateak">
+							<longdesc>Banatzaile bakoitzaren eskuko emaitzaren eta zure eskuan espero zenuen balioaren probabilitateak bistaratzen ditu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Erabili beharreko arau-fitxategiaren aldaera">
+							<longdesc>Joko-arauen aldaera duen arau-fitxategiaren izena.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Gaitu BurnProof">
+						<longdesc>Grabagailu batzuek eskaintzen duten BurnProof aukera gaitu ala ez.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Gaitu mugatik gora grabatzea">
+						<longdesc>Datuek euskarri fisikoaren tamaina gainditu dezaketen ala ez.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Gaitu arazketa">
+						<longdesc>CDaren grabazioaren arazketa gaitu ala ez.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Grabatzeko abiadura lehenetsia">
+						<longdesc>Euskarria grabatzeko erabiliko den abiadura lehenentsia.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Behin-behineko ISO irudientzako direktorioa">
+						<longdesc>Aldi bateko ISO irudientzako direktorioa, utzi hutsik sistemaren aldi baterako direktorio lehenentsia erabiltzeko.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="&apos;Gnome-keyring&apos;-en PKCS#11 osagaia gaitu behar den ala ez.">
+							<longdesc>Aukera honek PKCS#11 osagaia gaitzen du gnome-keyring daemonean. gnome-keyring-daemon abiaraztean soilik hartzen da eragina (adib. erabiltzaileak saioa hastean). Ezarpen hau gainidatzi egingo da komando-lerroko argumentu batzuk daemonari ematean.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="&apos;Gnome-keyring&apos;-en SSH agentea gaitu behar den ala ez.">
+							<longdesc>Aukera honek SSH agentea gaitzen du gnome-keyring daemonean. gnome-keyring-daemon abiaraztean soilik hartzen da eragina (adib. erabiltzaileak saioa hastean). Ezarpen hau gainidatzi egingo da komando-lerroko argumentu batzuk daemonari ematean.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Fitxategi-ikonoen gaia">
+							<longdesc>Fitxategietako ikonoak bistaratzeko erabiltzen den gaia.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="Sarrerako berrelikaduren soinuak">
+							<longdesc>Sarrerako gertaeretan soinuak erreproduzitu ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="Soinu gaiaren izena">
+							<longdesc>XDG soinu gaia gertaeren soinuetan erabiltzeko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="Gertaeren soinuak">
+							<longdesc>Erabiltzailearen gertaeretan soinuak erreproduzitu ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Gaitu ESD">
+							<longdesc>Gaitu soinu-zerbitzaria abiaraztea.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="Pista-nahasgailu lehenetsia">
+							<longdesc>Multimediako laster-teklek erabiltzen duten pista-nahasgailu lehenetsia</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="Nahasgailu lehenetsia">
+							<longdesc>Multimediako laster-teklek erabiltzen duten nahasgailu lehenetsia</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Erakutsi &apos;Unicode karaktere-kontrola&apos; menua">
+							<longdesc>Sarrerako eta testuen ikuspegiko testuinguruko menuak kontroleko karaktereak txertatzea utzi behar duen edo ez.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Erakutsi &apos;Sarrerako metodak&apos; menua">
+							<longdesc>Sarrerako eta testuen ikuspegiko testuinguruko menuak sarrerako metodoa aldatzea utzi behar duen edo ez.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Menu-barrako tekla bizkortzailea">
+							<longdesc>Teklatuaren laster-tekla menu-barrak irekitzeko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="GtkFileChooser-en modulua">
+							<longdesc>Modulua fitxategi-sistema modelo gisa erabiltzeko, GtkFileChooser trepetarentzako. Balio erabilgarriak: &quot;gio&quot;, &quot;gnome-vfs&quot; eta &quot;gtk+&quot; dira.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Egoera-barra eskuinean">
+							<longdesc>Egoera-barraren neurgailua eskuinean bistaratu behar den ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Erabili letra-tipo pertsonalizatua">
+							<longdesc>gtk+ aplikazioetan letra-tipo lehenetsia erabiliko den ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Tarte bakarreko letra-tipoa">
+							<longdesc>Helbideetan, adibidez terminaletan, erabiltzeko tarte bakarreko (zabalera finkoko) letra-tipoaren izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Dokumentuaren letra-tipoa">
+							<longdesc>Dokumentuak irakurtzeko erabiltzen den letra-tipo lehenetsiaren izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="GTK IM modulua">
+							<longdesc>GTK+-ek erabiltzen duen sarrerako metodoaren moduloaren izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM Egoera estiloa">
+							<longdesc>Gtk+-ek erabiltzen duen GTK+-en egoera-estiloko sarrerako metodoaren izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IMen Preedit estiloa">
+							<longdesc>Gtk+-ek erabiltzen duen GTK+-en Preedit estiloko sarrerako metodoaren izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Letra-tipo lehenetsia">
+							<longdesc>gtk+-ek erabiltzen duen letra-tipo lehenetsiaren izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Gtk+ gaia">
+							<longdesc>gtk+-ek erabiltzen duen gai lehenetsiaren oinarri-izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Gtk+ gaia">
+							<longdesc>gtk+-ek erabiltzen duen gai lehenetsiaren oinarri-izena.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Ikonoen gaia">
+							<longdesc>Ikonoen gaia (panelean, nautilusen eta beste aplikazioetan erabiltzeko).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Kurtsorearen keinuaren denbora">
+							<longdesc>Kurtsorearen keinu egiteko zikloaren iraupena (milisegundotan).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Kurtsorearen keinua">
+							<longdesc>Kurtsoreak keinu egin behar duen ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Tresna-barrako ikonoen tamaina">
+							<longdesc>Ikonoen tamaina tresna-barretan, &quot;small-toolbar&quot; (tresna-barra txikia) edo &quot;large-toolbar&quot; (tresna-barra handia) izan daiteke.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Tresna-barra askagarria">
+							<longdesc>Erabiltzaileak tresna-barrak askatu eta lekuz alda ditzakeen ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Menu-barra askagarria">
+							<longdesc>Erabiltzaileak menu-barrak askatu eta lekuz alda ditzakeen ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="Botoiek ikonoak dituzte">
+							<longdesc>Botoiek botoiaren testuaz gain ikonoa bistaratu behar duten ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Menuek ikonoak dituzte">
+							<longdesc>Menuek menu-sarreren ondoan ikonoa bistaratu behar duten ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Tresna-barraren estiloa">
+							<longdesc>Tresna-barraren estiloa. Balio hauek onartzen dira: &quot;both&quot;, &quot;both_horiz&quot;, &quot;icons&quot; eta &quot;text&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Bizkortzaileak alda ditzake">
+							<longdesc>Erabiltzaileak menua aktibatuta dagoenean bizkortzaile berri bat dinamikoki idatz dezakeen ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Menuak askagarriak dira">
+							<longdesc>Menuak askagarriak izan behar duten ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Gaitu animazioak">
+							<longdesc>Animazioak bistaratu egin behar diren ala ez adierazten du. Oharra: hori gako orokorra da, leiho-kudeatzailearen, panelaren eta abarraren portaera aldatzen du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Gaitu erabilerraztasuna">
+							<longdesc>Aplikazioek erabilerraztasun-euskarria eduki behar duten ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Laguntza-teknologien aplikazioen abioa">
+								<longdesc>GNOMEren mahaigainean saioa hastean abiarazi beharreko laguntza-teknologien aplikazio-zerrenda.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>Jo soinu-seinalea aldatzailea sakatutakoan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Desgaitu bi tekla aldi berean sakatzen direnean.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Gutxieneko tartea (milisegundotan)">
+								<longdesc>Ez onartu tekla bat sakatutzat @delay milisegundoz sakatuta edukitzen ez bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Hasierako atzerapena (milisegundotan)">
+								<longdesc>Sagua mugitzeko tresnak funtzionatzen hasi baino lehen itxaron behar den denbora (milisegundotan).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Bizkortzeko denbora (milisegundotan)">
+								<longdesc>0tik gehienezko abiadurara iristeko behar duen denbora (milisegundotan).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Pixel segundoko">
+								<longdesc>Gehienezko abiaduran mugitzeko segunduko behar den pixel-kopurua.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="gutxieneko tartea (milisegundotan)">
+								<longdesc>Ez egin jaramonik tekla _bera_ hainbat aldiz sakatzen bada @delay milisegundotan.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Teklatuaren blokeoa gaituta dagoen ala ez adierazten du">
+							<longdesc>Teklatuaren blokeoa gaituta dagoen ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Baimendu atsedenak atzeratzea">
+							<longdesc>Idazteko atsedenaldiaren pantaila atzeratu daitekeen ala ez adierazten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Atsedenaldia">
+							<longdesc>Idazteko atsedenaldiak iraun behar dituen minutuak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Idazteko denbora">
+							<longdesc>Idazteko denborako minutuak atseden-modua abiarazi aurretik.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="Desgaitu URL eta MIME moten kudeatzaileak">
+							<longdesc>Saihestu edozein URL edo MIME moten aplikazio-kudeatzaileak exekutatzea.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Desgaitu pantaila blokeatzea">
+							<longdesc>Erabiltzaileak pantaila hau blokeatzea saihesten du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Desgaitu erabiltzailez aldatzea">
+							<longdesc>Honek erabiltzailea beste baten kontura aldatzea saihesten du saioa aktibo duen bitartean.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Desgaitu inprimagailuaren konfigurazioa">
+							<longdesc>Erabiltzaileak inprimagailuaren ezarpenak aldatzea eragozten du. Adibidez, honek aplikazio guztietako &quot;Inprimagailuaren ezarpenak&quot; elkarrizketa-koadroak irekitzea desgaitzen du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Desgaitu inprimatzea">
+							<longdesc>Erabiltzaileak inprimatzea eragozten du. Adibidez, honek aplikazio guztietako &quot;Inprimatu&quot; elkarrizketa-koadroa irekitzea desgaitzen du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Desgaitu fitxategiak diskoan gordetzea">
+							<longdesc>Erabiltzaileak fitxategiak diskoan gordetzea eragozten du. Adibidez, honek aplikazio guztietako &quot;Gorde honela&quot; elkarrizketa-koadroak irekitzea desgaitzen du.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Desgaitu komando-lerroa">
+							<longdesc>Erabiltzaileak terminal batera sarbidetzea edo komando-lerro bat exekutatzeko zehaztea eragozten du. Adibidez, honek paneleko &quot;Exekutatu aplikazioa&quot; elkarrizketa-koadroa desgaitzen du.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Koloreen itzaldura-mota">
+							<longdesc>Nola itzaleztatu atzeko planoaren kolorea. Hauek dira balio posibleak: &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, eta &quot;solid&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Bigarren mailako kolorea">
+							<longdesc>Eskuineko edo beheko kolorea gradienteak marraztean; ez da erabiltzen kolore lisoentzat.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Lehen mailako kolorea">
+							<longdesc>Ezkerreko edo goiko kolorea gradienteak marraztean, edo kolore lisoa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Irudiaren opakutasuna">
+							<longdesc>Atzeko planoaren irudia marrazteko opakutasuna.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Irudiaren fitxategi-izena">
+							<longdesc>Atzeko planoaren irudirako erabiliko den fitxategia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Irudiaren aukerak">
+							<longdesc>wallpaper_filename-k ezarritako irudia nola errendatzen den zehazten du. Balio posibleak hauek dira: &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Marraztu mahaigainaren atzeko planoa">
+							<longdesc>GNOMEk marraztu behar du mahaigainaren atzeko planoa.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>Cacheko koadro txikien gehienezko tamaina (MB). Ezarri -1 balioa garbitzea desgaitzeko.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>Cacheko koadro txikien gehienezko antzinatasuna (egunetan). Ezarri -1 balioa garbitzea desgaitzeko.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Gogoratu blok.zenb.-ren egoera">
+								<longdesc>Egia balioarekin ezartzean GNOMEk blokeo numerikoaren LED argiaren egoera saioen artean gogoratuko du.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Teklatuaren kanpaiaren fitxategi-izen pertsonalizatua">
+								<longdesc>Erreproduzitu beharreko kanpai-hotsaren fitxategi-izena.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>hauek dira balio posibleak: &quot;on&quot;, &quot;off&quot;, eta &quot;custom&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Kurtsorearen tamaina">
+								<longdesc>Tamaina (kurtsore-gaiak zehazten duen kurtsorearena).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Kurtsorearen gaia">
+								<longdesc>Kurtsore-gaiaren izena. X kurtsorea onartzen duten X zerbitzarietan soilik erabilgarri (XFree86 4.3 bertiosa edo garatuagoa).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Kurtsorearen letra-tipoa">
+								<longdesc>Kurtsorearen letra-tipoaren izena. Ezarri gabe badago, letra-tipo lehenetsia erabiliko da. Balio hori X zerbitzarira bakarrik zabalduko da saio bakoitzaren hasieran; beraz, saio erdian aldatzen bada, ez du eraginik izango beste saio bat hasi arte.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Kokatu erakuslea">
+								<longdesc>Erakuslearen uneko kokalekua nabarmentzen du Kontrol tekla sakatutakoan eta askatutakoan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Klik bikoitzaren denbora">
+								<longdesc>Klik bikoitzaren iraupena.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Arrastatu muga">
+								<longdesc>Arrastatze bat hasi aurreko distantzia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Mugimendu-muga">
+								<longdesc>Sagu bizkortuaren mugimendua aktibatu baino lehen erakusleak egin behar duen distantzia pixeletan. -1 balioa sistemaren balio lehenetsia da.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Klik bakarra">
+								<longdesc>Saguaren mugimendurako azelerazio biderkatzailea. -1 balioa sistemaren balio lehenetsia da.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Klik bakarra">
+								<longdesc>Ikonoak irekitzeko klik bakarra.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Saguaren botoiaren orientazioa">
+								<longdesc>Saguaren ezkerreko eta eskuineko botoiak trukatu sagua ezkertiarrentzako prestatzeko.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Desgaitu kanpoko koadro txikitzaileak">
+							<longdesc>Ezarri egia kanpoko koadro txikitzaileen programa guztiak desgaitzeko, beren kabuz gaituta/desgaituta dauden kontuan hartu gabe.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF dokumentuen koadro txikiak sortzeko komandoa">
+								<longdesc>Komando baliagarria gei argumentuak PDF dokumentutako koadro txikiak sortzeko. Ikusi nautilus-en koadro txikien dokumentazioa informazio gehiagorako.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu PDF dokumentuen koadro txikiak">
+								<longdesc>Eskuragarri dauden aukera boolearrak, egiak koadro txikiak gaitzen ditu eta faltsuak koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF dokumentuen koadro txikiak sortzeko komandoa">
+								<longdesc>Komando baliagarria gei argumentuak PDF dokumentutako koadro txikiak sortzeko. Ikusi nautilus-en koadro txikien dokumentazioa informazio gehiagorako.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu PDF dokumentuen koadro txikiak">
+								<longdesc>Eskuragarri dauden aukera boolearrak, egiak koadro txikiak gaitzen ditu eta faltsuak koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="PDF dokumentuen koadro txikiak sortzeko komandoa">
+								<longdesc>Komando baliagarria gei argumentuak PDF dokumentutako koadro txikiak sortzeko. Ikusi nautilus-en koadro txikien dokumentazioa informazio gehiagorako.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu PDF dokumentuen koadro txikiak">
+								<longdesc>Eskuragarri dauden aukera boolearrak, egiak koadro txikiak gaitzen ditu eta faltsuak koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.math">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Math dokumentuentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x Math dokumentuen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Math dokumentuentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.draw">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Calc kalkulu-orrientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x marrazkien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Calc kalkulu-orriarentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.draw.template">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Draw marrazkien txantiloientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x marrazkien txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Draw txantiloientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.writer">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Writer dokumentuentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x Writer dokumentuen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Writer dokumentuentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.writer.template">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Writer txantiloientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x Writer txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Writer txantiloientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.writer.global">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Writer txantiloi globalentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x Writer txantiloi globalen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Writer txantiloi globalentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.calc">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Calc kalkulu-orrientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x kalkulu-orrien txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Calc kalkulu-orriarentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.calc.template">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x kalkulu-orrientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x Writer txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x kalkulu-orriaren txantiloientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.impress">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Impress aurkezpenentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x Impress aurkezpenen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Impress aurkezpenentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.impress.template">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenOffice 1.x Impress aurkezpenen txantiloientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenOffice 1.x Impress aurkezpenen txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenOffice 1.x Impress aurkezpeneko txantiloientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.formula">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument formulentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument formulen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument formulentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.image">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument irudientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument irudien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument irudientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.chart">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument diagramentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument diagramen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument diagramentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.graphics">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument marrazkientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument marrazkien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument marrazkientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.graphics-template">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument marrazkien txantiloientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument marrazkien txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument marrazkien txantiloientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.text">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument testu-dokumentuentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument testu-dokumentuen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument testu-dokumentuentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.text-master">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument testu-dokumentu maisuentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument testu-dokumentu maisuen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument testu-dokumentu maisuentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.text-template">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument testu-dokumentuen txantiloientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument testu-dokumentuen txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument testu-dokumentuen txantiloientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.spreadsheet">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument kalkulu-orrientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument kalkulu-orrien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument kalkulu-orrientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.spreadsheet-template">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument kalkulu-orrien txantiloientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument kalkulu-orrien txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument kalkulu-orrien txantiloientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.presentation">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument aurkezpenentzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument aurkezpenen koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument aurkezpenentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.presentation-template">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa OpenDocument aurkezpenen txantiloientzako">
+								<longdesc>Baliozko komandoa argumentuekin OpenDocument aurkezpenen txantiloien koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea OpenDocument aurkezpenen txantiloientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.openxmlformats-officedocument.wordprocessingml.document">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa Microsoft Word 2007 dokumentuentzako">
+								<longdesc>Baliozko komandoa argumentuekin Microsoft Word 2007 koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea Microsoft Word 2007 dokumentuentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@msword">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa Microsoft Word dokumentuentzako">
+								<longdesc>Baliozko komandoa argumentuekin Microsoft Word koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea Microsoft Word dokumentuentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa Microsoft Excel 2007 kalkulu-orrientzako">
+								<longdesc>Baliozko komandoa argumentuekin Microsoft Excel 2007 kalkulu-orrientzako.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea Microsoft Excel 2007 kalkulu-orrientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.ms-excel">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa Microsoft Excel kalkulu-orrientzako">
+								<longdesc>Baliozko komandoa argumentuekin Microsoft Excel kalkulu-orrientzako.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea Microsoft Excel kalkulu-orrientzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.openxmlformats-officedocument.presentationml.presentation">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa Microsoft PowerPoint 2007 aurkezpenentzako">
+								<longdesc>Baliozko komandoa argumentuekin Microsoft PowerPoint 2007 koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea Microsoft PowerPoint 2007 aurkezpenentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.ms-powerpoint">
+						<entry name="command">
+							<local_schema short_desc="Koadro txikiak sortzeko komandoa Microsoft PowerPoint aurkezpenentzako">
+								<longdesc>Baliozko komandoa argumentuekin Microsoft PowerPoint koadro txikien sortzailearentzako</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Gaitu koadro txikiak sortzea Microsoft PowerPoint aurkezpenentzako">
+								<longdesc>Aukera boolear erabilgarriak, TRUE (egia) ezartzeak koadro txikiak gaitzen ditu, eta FALSEk (faltsua) berriz koadro txiki berriak sortzea desgaitzen du.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="Zereginak terminala behar du">
+								<longdesc>Zereginen aplikazio lehenetsia exekutatzeko terminal bat behar den ala ez adierazten du.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Zeregin lehenetsiak">
+								<longdesc>Zereginen aplikazio lehenetsia</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="Egutegiak terminala behar du">
+								<longdesc>Egutegiaren aplikazio lehenetsia exekutatzeko terminal bat behar den ala ez adierazten du.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Egutegi lehenetsia">
+								<longdesc>Egutegiaren aplikazio lehenetsia</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Arakatzaileak urrunekoa ulertzen du">
+								<longdesc>Arakatzaile lehenetsiak urruneko netscape ulertzen duen ala ez adierazten du.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Arakatzaileak terminala behar du">
+								<longdesc>Arakatzaile lehenetsiak exekutatzeko terminal bat behar duen ala ez adierazten du.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Arakatzaile lehenetsia">
+								<longdesc>URL guztientzako arakatzaile lehenetsia.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Laneko areen izenak (zaharkitua)">
+								<longdesc>Leiho-kudeatzailearen lehen laneko areak biltzen dituen zerrenda. Gako hau zaharkitua gelditu da GNOME 2.12 bertsiotik.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Laneko area-kopurua (zaharkitua)">
+								<longdesc>Leiho-kudeatzaileak erabili behar duen laneko area-kopurua. Gako hau zaharkitua gelditu da GNOME 2.12 bertsiotik.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Erabiltzailearen leiho-kudeatzailea (zaharkitua)">
+								<longdesc>Leiho-kudeatzailea aurrenik saiatzeko. Gako hau zaharkitua gelditu da GNOME 2.12 bertsiotik.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Laguntzako leiho-kudeatzailea (zaharkitua)">
+								<longdesc>Laguntzako leiho-kudeatzailea erabiltzailearen leiho-kudeatzailea aurkitu ezin bada. Gako hau zaharkitua gelditu da GNOME 2.12 bertsiotik.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Abiarazi laguntza-teknologien aplikazio hobetsia">
+									<longdesc>GNOMEk abiaraziko duen laguntza-teknologien aplikazio hobetsia saio-hasieran.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Laguntza-teknologien aplikazio hobetsia">
+									<longdesc>Laguntza-teknologien aplikazio hobetsia saio-hasieran, menuan edo komando-lerroan erabiltzeko.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Abiarazi bisual-teknologien aplikazio hobetsia">
+									<longdesc>GNOMEk abiaraziko duen bisual-teknologien aplikazio hobetsia saio-hasieran.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Bisual-teknologien aplikazio hobetsia">
+									<longdesc>Bisual-teknologien aplikazio hobetsia saio-hasieran, menuan edo komando-lerroan erabiltzeko.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Osagai lehenetsia, bistaratzaile aplikazioarena.">
+								<longdesc>Fitxategiak bistaratzeko eta hauek ikusteko behar duen osagaia eskatzen duen aplikazioa. %s parametroa fitxategiaren URIagatik, eta %c parametroa IID osagaiatik ordeztuko dira.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Exekutatzeko argumentuak">
+								<longdesc>&apos;exec&apos; teklak definitutako terminalean programak exekutatzeko erabilitako argumentua.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Terminalaren aplikazioak">
+								<longdesc>Terminala behar duten aplikazioak abiaraztean erabili beharreko terminal- programa.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLen kudeatzailea">
+								<longdesc>&quot;ymsgr&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;ymsgr&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;ymsgr&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLen kudeatzailea">
+								<longdesc>&quot;xmpp&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;xmpp&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;xmpp&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLen kudeatzailea">
+								<longdesc>&quot;sip&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;sip&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;sip&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLen kudeatzailea">
+								<longdesc>&quot;msnim&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;msnim&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;msnim&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLen kudeatzailea">
+								<longdesc>&quot;irc&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;irc&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;irc&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLen kudeatzailea">
+								<longdesc>&quot;icq&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;icq&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;icq&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLen kudeatzailea">
+								<longdesc>&quot;gg&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;gg&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;gg&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;h323&quot; URLen kudeatzailea">
+								<longdesc>&quot;h323&quot; URLak kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;h323&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;h323&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;callto&quot; URLen kudeatzailea">
+								<longdesc>&quot;callto&quot; URLak kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;callto&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;callto&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLen kudeatzailea">
+								<longdesc>&quot;aim&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;aim&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;aim&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;mailto&quot; URLen kudeatzailea">
+								<longdesc>&quot;mailto&quot; URLak kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;mailto&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;mailto&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;https&quot; URLen kudeatzailea">
+								<longdesc>&quot;https&quot; komandoa kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;https&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;https&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;http&quot; URLen kudeatzailea">
+								<longdesc>&quot;http&quot; URLak kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;http&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;http&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;man&quot; URLen kudeatzailea">
+								<longdesc>&quot;man&quot; URLak kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;man&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;man&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;info&quot; URLen kudeatzailea">
+								<longdesc>&quot;info&quot; URLak kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;info&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;info&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ghelp&quot; URLen kudeatzailea">
+								<longdesc>&quot;ghelp&quot; URLak kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;ghelp&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;ghelp&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Exekutatu komandoa terminalean">
+								<longdesc>Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;trash&quot; URLen kudeatzailea">
+								<longdesc>&quot;trash&quot; komandoa kudeatzeko komandoa, gaituta egonez gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hemen zehaztutako komandoak &quot;trash&quot; URLak kudeatuko ditu.">
+								<longdesc>Ezarri egi gisa (true) &quot;komandoa&quot; gakoan zehaztutako komandoak &quot;trash&quot; URLak kudeatuko baditu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Profila hau erabiliko den edo ez">
+									<longdesc>Profila hau erabili eta bistaratuko den edo ez.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Profilaren fitxategi-luzapen lehenetsia">
+									<longdesc>Erabiliko den fitxategiaren luzapena profila honekin kodetutako fitxategiak gordetzean.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Erabilitako GStreamer kanalizazio partziala">
+									<longdesc>Profila honekin erabiliko den GStreamer-en kanalizazio partziala.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Audio-profilaren azalpena">
+									<longdesc>Profilaren azalpena, profila hau noiz erabili eta beste xehetasunei buruzko informazioa du.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Audio-profilaren izen laburra">
+									<longdesc>Audio-profilaren izen laburra, hautapenetan erabiltzeko eta profila modu bakarrean identifikatzeko.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Profila hau erabiliko den edo ez">
+										<longdesc>Profila hau erabili eta bistaratuko den edo ez.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Profilaren fitxategi-luzapen lehenetsia">
+										<longdesc>Erabiliko den fitxategiaren luzapena profila honekin kodetutako fitxategiak gordetzean.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Erabilitako GStreamer kanalizazio partziala">
+										<longdesc>Profila honekin erabiliko den GStreamer-en kanalizazio partziala.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio-profilaren azalpena">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio-profilaren izen laburra">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Profilaren fitxategi-luzapen lehenetsia">
+										<longdesc>Erabiliko den fitxategiaren luzapena profila honekin kodetutako fitxategiak gordetzean.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Erabilitako GStreamer kanalizazio partziala">
+										<longdesc>Profila honekin erabiliko den GStreamer-en kanalizazio partziala.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio-profilaren azalpena">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio-profilaren izen laburra">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Profilaren fitxategi-luzapen lehenetsia">
+										<longdesc>Erabiliko den fitxategiaren luzapena profila honekin kodetutako fitxategiak gordetzean.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Erabilitako GStreamer kanalizazio partziala">
+										<longdesc>Profila honekin erabiliko den GStreamer-en kanalizazio partziala.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio-profilaren azalpena">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio-profilaren izen laburra">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Profilaren fitxategi-luzapen lehenetsia">
+										<longdesc>Erabiliko den fitxategiaren luzapena profila honekin kodetutako fitxategiak gordetzean.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Erabilitako GStreamer kanalizazio partziala">
+										<longdesc>Profila honekin erabiliko den GStreamer-en kanalizazio partziala.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio-profilaren azalpena">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio-profilaren izen laburra">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Profilaren fitxategi-luzapen lehenetsia">
+										<longdesc>Erabiliko den fitxategiaren luzapena profila honekin kodetutako fitxategiak gordetzean.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Erabilitako GStreamer kanalizazio partziala">
+										<longdesc>Profila honekin erabiliko den GStreamer-en kanalizazio partziala.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio-profilaren azalpena">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio-profilaren izen laburra">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Profilaren fitxategi-luzapen lehenetsia">
+										<longdesc>Erabiliko den fitxategiaren luzapena profila honekin kodetutako fitxategiak gordetzean.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Erabilitako GStreamer kanalizazio partziala">
+										<longdesc>Profila honekin erabiliko den GStreamer-en kanalizazio partziala.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio-profilaren azalpena">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio-profilaren izen laburra">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Profilaren fitxategi-luzapen lehenetsia">
+										<longdesc>Erabiliko den fitxategiaren luzapena profila honekin kodetutako fitxategiak gordetzean.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Erabilitako GStreamer kanalizazio partziala">
+										<longdesc>Profila honekin erabiliko den GStreamer-en kanalizazio partziala.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Audio-profilaren azalpena">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Audio-profilaren izen laburra">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Profil-zerrenda">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="SMB lan-taldea">
+						<longdesc>Erabiltzailea harpidetuta dagoen Windows sareko lan-taldea edo domeinua. Lan-talde berri batek erabateko eragina edukitzeko erabiltzaileak saioa amaitu eta berriro saioa hasi beharko du.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="Domeinu gehigarriak DNS-SD zerbitzuetan bilatzeko">
+						<longdesc>Komaz bereiztutako DNS-SD domeinuen zerrenda, &quot;network:///&quot; helbidean ikusgai izango dena.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="DNS-SD zerbitzua bistaratzeko modua">
+						<longdesc>Balio erabilgarriak &quot;merged&quot;, &quot;separate&quot; eta &quot;disabled&quot; dira.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="Proxy konfigurazio automatikoaren URLa">
+						<longdesc>URLa proxy-aren konfigurazioko balioak eskaintzeko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="SOCKS proxy-aren ataka">
+						<longdesc>Ordenagailuaren ataka, &quot;/system/proxy/socks_host&quot;-ean definituta proxy-arena egiteko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="SOCKS proxy ostalariaren izena">
+						<longdesc>Ordenagailuaren izena, proxy socks egiten duenarena.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="FTP proxy-aren ataka">
+						<longdesc>Ordenagailuaren ataka, &quot;/system/proxy/ftp_host&quot;-ean definituta proxy-arena egiteko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="FTP proxy ostalariaren izena">
+						<longdesc>Ordenagailuaren izena, proxy FTPa egiten duenarena.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="HTTP Seguruaren proxy -aren ataka">
+						<longdesc>Ordenagailuaren ataka, &quot;/system/proxy/secure_host&quot;-ean definituta proxy-arena egiteko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="HTTP Seguruaren proxy ostalariaren izena">
+						<longdesc>Ordenagailuaren izena, proxy HTTP segurua egiten duenarena.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Proxy-aren konfigurazio modua">
+						<longdesc>Hautatu proxy-aren konfigurazio modua. Onartutako balioak &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Proxy-rik gabe konektatuko diren ostalariak">
+						<longdesc>Gako honek zuzenean konektatzen diren hostalarien zerrenda dauka, proxy-aren bitartez egin beharrean (nahiz eta abioan egon). Balioak hostalarien izenak, domeinuak (*.lelo.com bezalako hasierako komodina erabiliz), IP helbideak (bai IPv4 bai IPv6) eta sareko helbideak, sare-maskarekin, (192.168.0.0/24 bezalakoak).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="HTTP proxy-aren pasahitza">
+						<longdesc>Pasahitza, HTTP proxy-a erabiltzean autentifikatzeko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="HTTP proxy-ko erabiltzaile-izena">
+						<longdesc>Erabiltzaile-izena HTTP proxy-a egiterakoan egiaztatzeko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Autentifikatu proxy zerbitzariaren konexioak">
+						<longdesc>Egia bada, proxy zerbitzarira konektatzeko autentifikazioa eskatuko da. Erabiltzailea/pasahitza bikotea &quot;/system/http_proxy/authentication_user&quot;-ean eta &quot;/system/http_proxy/authentication_password&quot;-ean definitzen dira.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="HTTP proxy-aren ataka">
+						<longdesc>Ordenagailuaren ataka, &quot;/system/http_proxy/host&quot;-ean definituta proxy-arena egiteko.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="HTTP proxy ostalariaren izena">
+						<longdesc>Ordenagailuaren izena, proxy HTTPa egiten duenarena.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Erabili HTTP proxy-a">
+						<longdesc>Proxy-aren konfigurazioa gaitzen du HTTP internet bidez sarbidetzean</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

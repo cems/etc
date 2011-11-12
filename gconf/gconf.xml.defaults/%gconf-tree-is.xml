@@ -1,0 +1,866 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Sleppa kúlu">
+						<longdesc>Lykill til að sleppa kúlu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Færa til hægri">
+						<longdesc>Lykill til að hreyfa til hægri.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Færa til vinstri">
+						<longdesc>Lykill til að hreyfa til vinstri.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Hljóð">
+						<longdesc>Hvort spila á leikhljóð eða ekki.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Sýna hreyfingar">
+						<longdesc>Hvort sýna á hreyfingar eða ekki.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="Þemakenni">
+						<longdesc>Númer sem tilgreinir valið þema.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Geta leikmanns númer tvö">
+						<longdesc>Núll er mennskur leikmaður; einn til þrír samsvara getu tölvustýrðsleikmanns.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Geta leikmanns númer eitt">
+						<longdesc>Núll er mennskur leikmaður; einn til þrír samsvara getu tölvustýrðsleikmanns.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Forsýn">
+							<longdesc>Forsýn á síðustu vistuðu lotu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Spilaborð">
+							<longdesc>Spilaborð síðustu vistuðu lotu</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Stig">
+							<longdesc>Stig frá síðustu vistuðu lotu</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Tími milli leikja">
+							<longdesc>Tími milli leikja, í millisekúndum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Bakgrunnslitur">
+							<longdesc>Bakgrunnslitur. Sextándugildi bakgrunnslitar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Stíll bolta">
+							<longdesc>Stíll bolta. Skráin sem geymir myndirnar fyrir boltana.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="height">
+					<local_schema short_desc="Hæð glugga">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Breidd glugga">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="statistics">
+					<local_schema short_desc="Tölfræði spilaðra leikja">
+						<longdesc>Listi af strengjum sem koma í fimmfeldi: nafn, vinningar, samtalsfjöldi leikja, besti tími (í sekúndum) og versti tími (líka í sekúndum).Óleiknir leikir eru ekki sýndir.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Hvaða leikjaskrá á að nota">
+						<longdesc>Nafn skema-skrárinnar með kaplinum sem á að spila.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Hljóð">
+						<longdesc>Hvort spila á leikhljóð eða ekki.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Hvort sýna á hnappastikuna eða ekki">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Heiti þemaskráar">
+						<longdesc>Heiti skráarinnar sem geymir myndir fyrir spilin.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Lykill til að bíða">
+							<longdesc>Nafn lykils til að bíða. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Lykill til að stökkva af handahófi">
+							<longdesc>Nafn lykils til að stökkva eitthvað. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Lykill til að stökkva">
+							<longdesc>Nafn lykils til að stökkva á öruggan stað (ef það er mögulegt). Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Lykill til að fara suðaustur">
+							<longdesc>Nafn lykils til að hreyfa suðaustur. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Lykill til að fara suður">
+							<longdesc>Nafn lykils til að hreyfa suður. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Lykill til að fara suðvestur">
+							<longdesc>Nafn lykils til að hreyfa suðvestur. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Lykill til að fara austur">
+							<longdesc>Nafn lykils til að hreyfa austur. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Lykill til að bíða">
+							<longdesc>Nafn lykils til að standa kyrr. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Lykill til að fara vestur">
+							<longdesc>Nafn lykils til að hreyfa vestur. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Lykill til að fara norðaustur">
+							<longdesc>Nafn lykils til að hreyfa norðaustur. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Lykill til að fara norður">
+							<longdesc>Nafn lykils til að hreyfa norður. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Lykill til að fara norðvestur">
+							<longdesc>Nafn lykils til að hreyfa norðvestur. Nafnið er staðlað X-lyklanafn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Virkja klessur">
+							<longdesc>Virkja klessur. Spila hljóð og sýna &quot;Splat!&quot; á skjánum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Virkja leikhljóð">
+							<longdesc>Virkja leikhljóð. Spila hljóð fyrir ýmis atvik allan leikinn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Nota ofurörugga leiki">
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Nota öruggar hreyfingar">
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Tegund leiks">
+							<longdesc>Tegund spils. Hvaða útgáfu af spilinu á að nota.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Bakgrunnslitur">
+							<longdesc>Bakgrunnslitur. Sextándugildi bakgrunnslitar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Robots myndaþema">
+							<longdesc>Myndaþema Robot. Hvaða myndir á að nota fyrir vélmennin.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Stærð kubba">
+							<longdesc>Stærð kubba.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Virkja hljóð">
+							<longdesc>Virkja hljóð.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Upphafsborð leiks">
+							<longdesc>Upphafsborð leiks.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Spila borðin í handahófsröð">
+							<longdesc>Spila borðin í handahófsröð.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Nota falska bónusa">
+							<longdesc>Nota falska bónusa</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Hraði">
+							<longdesc>Hraði leiks (1=hraður, 4=hægur).</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Færa til hægri">
+									<longdesc>Lykill til að hreyfa til hægri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Færa til vinstri">
+									<longdesc>Lykill til að hreyfa til vinstri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa niður</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa upp.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Nota afstæðar hreyfingar">
+									<longdesc>Nota afstæðar hreyfingar (þ.e. aðeins til hægri og vinstri).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Litur ormsins">
+									<longdesc>Litur ormsins</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Færa til hægri">
+									<longdesc>Lykill til að hreyfa til hægri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Færa til vinstri">
+									<longdesc>Lykill til að hreyfa til vinstri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa niður</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa upp.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Nota afstæðar hreyfingar">
+									<longdesc>Nota afstæðar hreyfingar (þ.e. aðeins til hægri og vinstri).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Litur ormsins">
+									<longdesc>Litur ormsins</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Færa til hægri">
+									<longdesc>Lykill til að hreyfa til hægri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Færa til vinstri">
+									<longdesc>Lykill til að hreyfa til vinstri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa niður</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa upp.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Nota afstæðar hreyfingar">
+									<longdesc>Nota afstæðar hreyfingar (þ.e. aðeins til hægri og vinstri).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Litur ormsins">
+									<longdesc>Litur ormsins</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Færa til hægri">
+									<longdesc>Lykill til að hreyfa til hægri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Færa til vinstri">
+									<longdesc>Lykill til að hreyfa til vinstri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa niður</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa upp.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Nota afstæðar hreyfingar">
+									<longdesc>Nota afstæðar hreyfingar (þ.e. aðeins til hægri og vinstri).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Litur ormsins">
+									<longdesc>Litur ormsins</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Færa til hægri">
+									<longdesc>Lykill til að hreyfa til hægri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Færa til vinstri">
+									<longdesc>Lykill til að hreyfa til vinstri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa niður</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa upp.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Nota afstæðar hreyfingar">
+									<longdesc>Nota afstæðar hreyfingar (þ.e. aðeins til hægri og vinstri).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Litur ormsins">
+									<longdesc>Litur ormsins</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Færa til hægri">
+									<longdesc>Lykill til að hreyfa til hægri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Færa til vinstri">
+									<longdesc>Lykill til að hreyfa til vinstri</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa niður</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema>
+									<longdesc>Lykill til að hreyfa upp.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Nota afstæðar hreyfingar">
+									<longdesc>Nota afstæðar hreyfingar (þ.e. aðeins til hægri og vinstri).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Litur ormsins">
+									<longdesc>Litur ormsins</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="grid_size">
+					<local_schema short_desc="Stærð spilaborðsins">
+						<longdesc>Þetta gildi er notað til að ákvarða stærð spilaborðsins. Gildar tölureru frá 2 til 8, allar aðrar tölur verða stilltar á 3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Hlé">
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Færa til hægri">
+							<longdesc>Lykill til að hreyfa til hægri.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Færa til vinstri">
+							<longdesc>Lykill til að hreyfa til vinstri.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Þéttleiki fylltra raða">
+							<longdesc>Þéttni kubba í röðum sem eru fylltar í upphafi leiks. Gildið er á milli 0(fyrir enga kubba) og 10 (fyrir fulla röð).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Fjöldi raða sem á að fylla">
+							<longdesc>Fjöldi lína sem á að fylla með handahófskenndum kubbum við upphaf leiks.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Hvort á að láta ganga öfugan sólarhring">
+							<longdesc>Hvort á að láta ganga í öfugan sólarhring.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Hvort kubbarnir eigi að vera breytilegir að lit">
+							<longdesc>Hvort kubbarnir eigi að vera breyilegir að lit.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Hvort forsýna á næsta kubb">
+							<longdesc>Hvort forsýna á næsta kubb.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Upphafsborð">
+							<longdesc>Upphafsborð.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Hvaða mynd á að nota til að teikna kubba">
+							<longdesc>Hvaða mynd á að nota til að teikna kubba</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Sýna hugsanir tölvunnar">
+						<longdesc>Ef stillt á satt verður vinnuferli gervigreindar skrifað í staðlað úttak.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Hlé milli kasta">
+						<longdesc>Velja hvort á að setja hik á milli kasta tölvunnar svo leikmaðurinn geti fylgst meðþví hvað er hún er að gera.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Hljóð">
+						<longdesc>Hvort spila á leikhljóð eða ekki.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_question_marks">
+					<local_schema short_desc="Nota &quot;óþekkt&quot;-flaggið">
+						<longdesc>Hakaðu til að geta merkt reiti sem óþekkta.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Hvort sýna á hnappastikuna eða ekki">
+						<longdesc>Hvort sýna á tækjastikuna eða ekki</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Upphæð í bankanum þínum">
+							<longdesc>Upphæð í bankanum þínum.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Heiti þemaskráar">
+							<longdesc>Heiti skráarinnar sem geymir myndir fyrir spilin.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="quick_deal">
+						<local_schema short_desc="Nota hraða gjöf">
+							<longdesc>Nota hraða gjöf án hiks milli spila.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Sýna líkur">
+							<longdesc>Sýna líkurnar á hverri hönd gjafara og væntanlegt gildi þinnar handar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Hvaða útgáfu af reglunum skal nota">
+							<longdesc>Nafn skrárinnar með spilareglunum.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="default_speed">
+					<local_schema short_desc="Sjálfgefinn skrifhraði">
+						<longdesc>Sjálfgefinn hraði skriftar á miðilinn.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Mappa fyrir bráðabirgða ISO myndir">
+						<longdesc>Mappa fyrir bráðabirgða ISO myndir. Skilja eftir autt ef á að nota sjálfgefna bráðabirgðamöppu stýrikerfisins.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Skráartáknmyndaþema">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="Hljóð fyrir atburði">
+							<longdesc>Á að spila hljóð við atburði notenda.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Virkja ESD">
+							<longdesc>Virjka hljóð þjón við ræsingu</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Upplýsingastika til hægri">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Nota annað letur">
+							<longdesc>Hvort nota eigi sérvalið letur í gtk+ forritum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Jafnbreitt letur">
+							<longdesc>Heiti jafnbreiðs leturs sem á að nota í hlutum eins og skjáhermum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM stöðu stíll">
+							<longdesc>Heiti GTK+ inngangsaðgerðarinnar Status Style sem gtk+ notar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM Preedit stíll">
+							<longdesc>Heiti GTK+ inngangsaðgerðarinnar Preedit Style sem gtk+ notar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Sjálfgefið letur">
+							<longdesc>Heiti sjálfgefna letursins sem gtk+ notar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Gtk+ þema">
+							<longdesc>Grunnheiti sjálfgefinnar þemu gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Gtk+ þema">
+							<longdesc>Grunnheiti sjálfgefinnar þemu gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Táknmyndaþema">
+							<longdesc>Táknmyndaþema sem nota á í spjaldinu, nautilus of svo framvegis.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Blikktíðni bendils">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Bendill blikkar">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Stærð smátáknmynda á tólstiku">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Hægt er að flytja tólstiku">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Hægt er að flytja valmyndastiku">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Smátáknmyndir á valmynd">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Stíll tólstiku">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Getur breytt flytilyklum">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Hægt er að rífa valmyndir af">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Virkja hreyfimyndir">
+							<longdesc>Stillir hvort birta skuli hreyfimyndir. Ath: Þetta er víðvær stilling sem hefur áhrif á gluggastjórann, spjaldið og svo framvegis.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Virkja aukið aðgengi">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Hjálpartólalisti">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Afvirkja ef stutt er á tvo hnappa samtímis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="lágmarks bil í millisekúndum">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Hvort lyklaborðslæsing sé virk eða ekki">
+							<longdesc>Hvort lyklaborðslæsing sé virk eða ekki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Leyfa frestun pásu">
+							<longdesc>Hvort fresta megi pásugluggunum eða ekki.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Pásutími">
+							<longdesc>Lengd pásu í mínútum.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Vélritunartími">
+							<longdesc>Lengd lotu við lyklaborðið áður en pása hefst.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Gerð skuggalits">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Auka litur">
+							<longdesc>Hægri eða neðsti litur þegar &apos;gradients&apos; eru teiknaðir eða heill litur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Aðallitur">
+							<longdesc>Vinstri eða efsti litur þegar &apos;gradients&apos; eru teiknaðir eða heill litur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Ógagnsæi myndar">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Skráarnafn myndar">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Valmöguleikar myndar">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Teikna bakgrunn skjáborðs">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Skráarnafn fyrir sérvalda lyklaborðsbjöllu">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>möguleg gildi eru &quot;á&quot;, &quot;af&quot; og &quot;sérsniðið&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Stærð bendils">
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Þema bendils">
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Letur bendils">
+								<longdesc>Heiti leturs í bendlinum. Þetta gildi er einungis sent áfram til X þjóns við ræsingu hverrar setu, þannig að breytingar í miðri setu munu ekki hafa áhrif fyrr en næst þegar þú skráir þig inn.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Finna bendil">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Tvísmellitími">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Skynjunarmörk dreginna hluta">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Skynjunarmörk hreyfingar">
+								<longdesc>Fjarlægð í myndeiningum sem bendillinn þarf að fara áður en hröðun hefst. Gildið -1 er sjálfgefna kerfisgildið</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Einfalt músarklikk">
+								<longdesc>Margföldunarstuðull músarhröðunar. Gildið -1 er sjálfgefna kerfisgildið.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Einfalt músarklikk">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Staða músartakka">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Nota engin útvær smámyndatól">
+							<longdesc>Hakaðu við þetta til þess að koma í veg fyrir að öll útvær smámyndatól verði notuð, hvernig sem hvert þeirra er stillt.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Vafri skilur fjarstýringu">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Vafrari þarf skél">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Sjálfgefinn vafrari">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Ræsiviðföng">
+								<longdesc>Viðföng notuð til þess að ræsa forrit í skel skilgreind með &apos;exec&apos; lykli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Skeljarforrit">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

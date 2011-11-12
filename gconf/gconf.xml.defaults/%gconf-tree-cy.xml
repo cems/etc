@@ -1,0 +1,1740 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="Defnyddio animeiddio cyflym">
+						<longdesc>Mae gosod hwn yn FFALS yn peri i&apos;r darnau gwympo&apos;n araf, ond yn osgeiddig. Mae gosod hwn yn WIR yn peri i&apos;r darnau gwympo&apos;n gyflym a herciog.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Uchder y bwrdd addasedig">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Lled y bwrdd addasedig">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="Maint y bwrdd">
+						<longdesc>Maint y bwrdd i&apos;w ddefnyddio. 1 = Addasedig, 2 = Bach, 3 = Canolig, 4 = Mawr.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="Y thema i&apos;w defnyddio">
+						<longdesc>Enw&apos;r ffeil thema i&apos;w ddefnyddio.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Gollwng marblen">
+						<longdesc>Y fysell i&apos;w gwasgu er mwyn gollwng marblen.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Symud i&apos;r dde">
+						<longdesc>Y fysell i&apos;w gwasgu er mwyn symud i&apos;r dde.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Symud i&apos;r chwith">
+						<longdesc>Y fysell i&apos;w gwasgu er mwyn symud i&apos;r chwith.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Sain">
+						<longdesc>A ddylid chwarae seiniau digwyddiadau.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Animeiddio">
+						<longdesc>A ddylid defnyddio animeiddiad.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="ID Thema">
+						<longdesc>Rhif yn nodi&apos;r hoff thema.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Lefel Chwaraewr Dau">
+						<longdesc>Mae sero yn golygu person; mae un, dau a tri yn cyfateb i lefel chwaraewr y cyfrifiadur.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Lefel Chwaraewr Un">
+						<longdesc>Mae sero yn golygu person; mae un, dau a tri yn cyfateb i lefel chwaraewr y cyfrifiadur.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Rhagolwg gêm">
+							<longdesc>Y rhagolwg gêm o&apos;r sesiwn a gafodd ei gadw diwethaf.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Maes y gêm">
+							<longdesc>Maes y gêm i&apos;r sesiwn a gafodd ei gadw diwethaf.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Sgôr gêm">
+							<longdesc>Sgôr o&apos;r sesiwn a gafodd ei gadw diwethaf.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Amser rhwng symudiadau">
+							<longdesc>Yr amser rhwng symudiadau mewn milfedau eiliad.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Lliw cefndir">
+							<longdesc>Lliw cefndir. Penodiad hecs y lliw cefndir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Arddull pêl">
+							<longdesc>Arddull pêl. Enw ffeil y delweddau i&apos;w defnyddio ar gyfer y peli.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Maint maes chwarae">
+							<longdesc>Maint maes chwarae. 1=Bach, 2=Canolig, 3=Mawr. Mae pob gwerth arall yn annilys.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="move_format">
+					<local_schema short_desc="Ym mha ffurf i ddangos symudiadau">
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="Ym mha gyfeiriadur i agor y ddeialog llwytho gêm">
+						<longdesc>Ym mha gyfeiriadur i agor y ddeialog llwytho gêm</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="Ym mha gyfeiriadur i agor y ddeialog cadw gêm">
+						<longdesc>Ym mha gyfeiriadur i agor y ddeialog cadw gêm</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Fflag i alluogi&apos;r bar offer">
+						<longdesc>Fflag i alluogi&apos;r bar offer</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="Fflag i alluogi&apos;r porwr hanes symud">
+						<longdesc>Fflag i alluogi&apos;r porwr hanes symud</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="Fflag i alluogi modd 3D">
+						<longdesc>Fflag i alluogi modd 3D</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="Fflag i alluogi&apos;r modd sgrin lawn">
+						<longdesc>Fflag i alluogi&apos;r modd sgrin lawn</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="Uchder y ffenest">
+						<longdesc>Uchder y brif ffenest, mewn picseli.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Lled y ffenest">
+						<longdesc>Lled y brif ffenest, mewn picseli.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="Fflag i adael i chwaraewyr pell wylio gemau newydd">
+							<longdesc>Fflag i adael i chwaraewyr pell wylio gemau newydd</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="Mewn gemau newydd, faint o amser sydd ar gael i chwaraewr symud">
+							<longdesc>Mewn gemau newydd, faint o amser sydd ar gael i chwaraewr symud</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="Mewn gemau newydd, lefel anhawster rhagosodedig chwaraewr y darnau du">
+								<longdesc>Mewn gemau newydd, lefel anhawster rhagosodedig chwaraewr y darnau du</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Mewn gemau newydd, math chwaraewr rhagosodedig y darnau du">
+								<longdesc>Mewn gemau newydd, math chwaraewr rhagosodedig y darnau du</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="Mewn gemau newydd, lefel anhawster rhagosodedig chwaraewr y darnau gwyn">
+								<longdesc>Mewn gemau newydd, lefel anhawster rhagosodedig chwaraewr y darnau gwyn</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Mewn gemau newydd, math chwaraewr rhagosodedig y darnau gwyn">
+								<longdesc>Mewn gemau newydd, math chwaraewr rhagosodedig y darnau gwyn</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="statistics">
+					<local_schema short_desc="Ystadegau o&apos;r gemau a chwaraewyd">
+						<longdesc>Rhestr o linynnau sydd yn dod mewn ffurf pumhlyg: enw, enillion, cyfanswm gemau chwaraewyd, amser gorau (mewn eiliadau) a&apos;r amser gwaethaf (hefyd eiliadau). Nid oes rhaid cynrychioli gemau heb ei chwarae.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Y ffeil gêm i&apos;w ddefnyddio">
+						<longdesc>Enw&apos;r ffeil scheme yn cynnwys y gêm amynedd i&apos;w chwarae.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Sain">
+						<longdesc>A ddylid chwarae seiniau digwyddiadau.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Dewis y math o reoli">
+						<longdesc>Dewis a ddylid llusgo&apos;r cardiau neu i glicio ar y tardd ac yna ar y cyrchfan.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="A ddylid dangos y bar offer">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Enw&apos;r ffeil thema">
+						<longdesc>Enw&apos;r ffeil sy&apos;n cynnwys y delweddau ar gyfer y cardiau.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Bysell i aros">
+							<longdesc>Enw&apos;r fysell i aros. Dylai&apos;r enw fod yn enw bysell safonol yn X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Bysell i lamu ar hap">
+							<longdesc>Enw&apos;r fysell i delegludo ar hap. Dylai&apos;r enw fod yn enw bysell safonol yn X</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Bysell i lamu">
+							<longdesc>Enw&apos;r fysell i delegludo yn saff (os yn bosib). Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Bysell i symud DeDdw">
+							<longdesc>Enw&apos;r fysell i symud i&apos;r de-ddwyrain. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Bysell i symud De">
+							<longdesc>Enw&apos;r fysell i symud i&apos;r de. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Bysell i symud DeOrll">
+							<longdesc>Enw&apos;r fysell i symud i&apos;r de-orllewin. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Bysell i symud Dw">
+							<longdesc>Enw&apos;r fysell i symud i&apos;r dwyrain. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Bysell i ddal">
+							<longdesc>Enw&apos;r fysell i aros yn llonydd. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Bysell i symud Gorll">
+							<longdesc>Enw&apos;r fysell i symud i&apos;r gorllewin. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Bysell i symud GogDdw">
+							<longdesc>Enw&apos;r fysell i symud i&apos;r gogledd-ddwyrain. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Bysell i symud Gog">
+							<longdesc>Enw&apos;r fysell i symud i&apos;r gogledd. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Bysell i symud GogOrll">
+							<longdesc>Enw&apos;r fysell i symud i&apos;r gogledd-orllewin. Dylai&apos;r enw fod yn enw bysell safonol yn X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Galluogi sblatiau">
+							<longdesc>Galluogi sblatiau. Chwarae sain a dangos &quot;Sblat!&quot; ar y sgrin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Galluogi seiniau gêm">
+							<longdesc>Galluogi seiniau gêm. Chwarae synau ar gyfer amryw ddigwyddiadau drwy&apos;r gêm.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Defnyddio symudiadau diogel iawn">
+							<longdesc>Defnyddio symudiadau diogel iawn. Caiff y chwaraewr ei hysbysu pan nad oes symudiad diogel a&apos;r unig opsiwn yw llamu allan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Defnyddio symudiadau diogel">
+							<longdesc>Defnyddio symudiadau diogel. Mae&apos;r opsiwn hwn yn eich cynorthwyo i osgoi cael eich lladd gan gamgymeriad. Os ydych chi&apos;n ceisio gwneud symudiad a fysai’n arwain ar eich marwolaeth pan mae symudiad diogel ar gael yna ni chewch barhau.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Math Gêm:">
+							<longdesc>Math gêm. Enw&apos;r amrywiad gêm i&apos;w ddefnyddio.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Lliw cefndir">
+							<longdesc>Lliw cefndir. Penodiad hecs y lliw cefndir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Y thema delweddau robot">
+							<longdesc>Y thema delweddau robot. Y thema delweddau i&apos;w ddefnyddio ar gyfer y robotiaid.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="Dangos y bar offer">
+							<longdesc>Dangos bar offer. Opsiwn safonol ar gyfer barrau offer.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Maint teils y gêm">
+							<longdesc>Maint teils y gêm.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Galluogi synau">
+							<longdesc>Galluogi synau.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Lefel y gêm i ddechrau arno">
+							<longdesc>Lefel y gêm i ddechrau arno.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Chwarae&apos;r lefelau mewn trefn ar hap">
+							<longdesc>Chwarae&apos;r lefelau mewn trefn ar hap.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Galluogi bonysau ffug">
+							<longdesc>Galluogi bonysau ffug.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Cyflymder y gêm">
+							<longdesc>Cyflymder y gêm (1=cyflym, 4=araf).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="Nifer y chwaraewyr cyfrifiadurol">
+							<longdesc>Nifer y chwaraewyr cyfrifiadurol.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="Nifer y chwaraewyr dynol">
+							<longdesc>Nifer y chwaraewyr dynol.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Symud i&apos;r dde">
+									<longdesc>Y fysell er mwyn symud i&apos;r dde.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Symud i&apos;r chwith">
+									<longdesc>Y fysell er mwyn symud i&apos;r chwith.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Symud i lawr">
+									<longdesc>Y fysell ar gyfer symud i lawr.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Symud i fyny">
+									<longdesc>Y fysell er mwyn symud i fyny.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Defnyddio symudiad perthnasol">
+									<longdesc>Defnyddio symudiad perthnasol (h.y. chwith neu de yn unig).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Y lliw i&apos;w ddefnyddio ar gyfer mwydyn">
+									<longdesc>Y lliw i&apos;w ddefnyddio ar gyfer mwydyn.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Symud i&apos;r dde">
+									<longdesc>Y fysell er mwyn symud i&apos;r dde.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Symud i&apos;r chwith">
+									<longdesc>Y fysell er mwyn symud i&apos;r chwith.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Symud i lawr">
+									<longdesc>Y fysell ar gyfer symud i lawr.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Symud i fyny">
+									<longdesc>Y fysell er mwyn symud i fyny.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Defnyddio symudiad perthnasol">
+									<longdesc>Defnyddio symudiad perthnasol (h.y. chwith neu de yn unig).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Y lliw i&apos;w ddefnyddio ar gyfer mwydyn">
+									<longdesc>Y lliw i&apos;w ddefnyddio ar gyfer mwydyn.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Symud i&apos;r dde">
+									<longdesc>Y fysell er mwyn symud i&apos;r dde.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Symud i&apos;r chwith">
+									<longdesc>Y fysell er mwyn symud i&apos;r chwith.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Symud i lawr">
+									<longdesc>Y fysell ar gyfer symud i lawr.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Symud i fyny">
+									<longdesc>Y fysell er mwyn symud i fyny.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Defnyddio symudiad perthnasol">
+									<longdesc>Defnyddio symudiad perthnasol (h.y. chwith neu de yn unig).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Y lliw i&apos;w ddefnyddio ar gyfer mwydyn">
+									<longdesc>Y lliw i&apos;w ddefnyddio ar gyfer mwydyn.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Symud i&apos;r dde">
+									<longdesc>Y fysell er mwyn symud i&apos;r dde.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Symud i&apos;r chwith">
+									<longdesc>Y fysell er mwyn symud i&apos;r chwith.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Symud i lawr">
+									<longdesc>Y fysell ar gyfer symud i lawr.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Symud i fyny">
+									<longdesc>Y fysell er mwyn symud i fyny.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Defnyddio symudiad perthnasol">
+									<longdesc>Defnyddio symudiad perthnasol (h.y. chwith neu de yn unig).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Y lliw i&apos;w ddefnyddio ar gyfer mwydyn">
+									<longdesc>Y lliw i&apos;w ddefnyddio ar gyfer mwydyn.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Symud i&apos;r dde">
+									<longdesc>Y fysell er mwyn symud i&apos;r dde.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Symud i&apos;r chwith">
+									<longdesc>Y fysell er mwyn symud i&apos;r chwith.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Symud i lawr">
+									<longdesc>Y fysell ar gyfer symud i lawr.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Symud i fyny">
+									<longdesc>Y fysell er mwyn symud i fyny.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Defnyddio symudiad perthnasol">
+									<longdesc>Defnyddio symudiad perthnasol (h.y. chwith neu de yn unig).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Y lliw i&apos;w ddefnyddio ar gyfer mwydyn">
+									<longdesc>Y lliw i&apos;w ddefnyddio ar gyfer mwydyn.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Symud i&apos;r dde">
+									<longdesc>Y fysell er mwyn symud i&apos;r dde.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Symud i&apos;r chwith">
+									<longdesc>Y fysell er mwyn symud i&apos;r chwith.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Symud i lawr">
+									<longdesc>Y fysell ar gyfer symud i lawr.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Symud i fyny">
+									<longdesc>Y fysell er mwyn symud i fyny.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Defnyddio symudiad perthnasol">
+									<longdesc>Defnyddio symudiad perthnasol (h.y. chwith neu de yn unig).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Y lliw i&apos;w ddefnyddio ar gyfer mwydyn">
+									<longdesc>Y lliw i&apos;w ddefnyddio ar gyfer mwydyn.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Dewis y math o reoli">
+						<longdesc>Dewis a ddylid llusgo&apos;r teils, neu&apos;n hytrach glicio ar y tardd yna&apos;r cyrchfan.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="Rheoli&apos;r teils sydd wedi&apos;u lliwio">
+						<longdesc>Fflag i alluogi teils wedi&apos;u lliwio.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="Maint y grid chwarae">
+						<longdesc>Defnyddir gwerth yr allwedd hon i benderfynu maint y grid chwarae. Gwerthoedd dilys: 2 i 8, caiff unrhyw beth arall ei osod i 3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Atal">
+							<longdesc>Y fysell i wasgu er mwyn seibio.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Troelli">
+							<longdesc>Y fysell i wasgu er mwyn troelli.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Gollwng">
+							<longdesc>Y fysell i wasgu er mwyn gollwng.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Symud i lawr">
+							<longdesc>Y fysell i wasgu er mwyn symud i lawr.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Symud i&apos;r dde">
+							<longdesc>Y fysell i&apos;w gwasgu er mwyn symud i&apos;r dde.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Symud i&apos;r chwith">
+							<longdesc>Y fysell i&apos;w gwasgu er mwyn symud i&apos;r chwith.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Dwysedd y rhesi a lenwir">
+							<longdesc>Dwysedd y blociau mewn rhesi a lenwir ar ddechrau&apos;r gêm. Mae&apos;r gwerth hwn rhwng 0 (dim bloc) a 10 (rhes lawn).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Y nifer o resi i&apos;w llenwi">
+							<longdesc>Y nifer o resi a lenwir a blociau ar hap ar ddechrau&apos;r gêm.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="A ddylid troi&apos;r cownter clocwedd">
+							<longdesc>A ddylid troi&apos;r cownter clocwedd.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="A ddylid rhoi lliwiau ar hap i flociau">
+							<longdesc>A ddylid rhoi lliwiau ar hap i flociau.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="A ddylid darparu targed">
+							<longdesc>A ddylid dangos gyda graffeg y man lle fydd bloc yn glanio.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="A ddylid rhagweld y bloc nesaf">
+							<longdesc>A ddylid rhagweld y bloc nesaf.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Y lliw cefndir">
+							<longdesc>Y lliw cefndir, mewn fformat mae gdk_color_parse yn deall.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="A ddylid defnyddio&apos;r ddelwedd cefndir.">
+							<longdesc>Mae hwn yn dewis a ydy&apos;r ddelwedd cefndir yn cael ei harlunio dros y lliw cefndir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Y lefel i gychwyn">
+							<longdesc>Y lefel i gychwyn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Y thema i&apos;w defnyddio ar gyfer arlunio blociau">
+							<longdesc>Enw&apos;r thema a ddefnyddir i rendro&apos;r blociau a&apos;r cefndir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Y ddelwedd i&apos;w ddefnyddio ar gyfer arlunio blociau">
+							<longdesc>Y ddelwedd i&apos;w ddefnyddio ar gyfer arlunio blociau.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Dangos meddyliau&apos;r cyfrifiadur">
+						<longdesc>Os yn wir, gollyngir gweithio&apos;r AI i&apos;r allbwn safonol.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Saib rhwng tafliadau">
+						<longdesc>Dewis a ddylid defnyddio saib rhwng rholiai dis y cyfrifiadur fel gall y chwaraewr ddilyn beth mae&apos;n ei wneud.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="Y pos yn ystod y chwarae">
+						<longdesc>Rhif y pos sy&apos;n cael ei chwarae.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Sain">
+						<longdesc>A ddylid chwarae seiniau digwyddiadau.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Gwrthwneud cyfyngiadau&apos;r ddogfen">
+						<longdesc>Gwrthwneud cyfyngiadau&apos;r ddogfen, er enghraifft, cyfyngiad rhag copïo neu brintio.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="Galluogi gosod baneri&apos;n awtomatig">
+						<longdesc>Gosod yn wir er mwyn i gnomine osod baneri&apos;n awtomatig ar sgwariau ar ôl i ddigon o sgwariau o&apos;u cwmpas fod wedi clirio</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="Rhybudd am ormod o faneri">
+						<longdesc>Gosod yn wir er mwyn cael eicon i rybuddio pan fo gormod o faneri wedi&apos;u gosod.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="Defnyddio&apos;r faner anhysbys">
+						<longdesc>Gosod yn wir er mwyn gallu marcio sgwariau&apos;n anhysbys</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="Maint y bwrdd">
+							<longdesc>Maint y bwrdd (0-2 = bach-mawr, 3=addasedig)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="Sawl ffrwydryn fydd mewn gêm addasedig">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="Y nifer o resi mewn gêm addasedig">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="Y nifer o golofnau mewn gêm addasedig">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="A ddylid dangos y bar offer">
+						<longdesc>A ddylid dangos y bar offer.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Faint o arian sydd yn eich bank">
+							<longdesc>Faint o arian sydd yn eich banc.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Enw&apos;r ffeil thema">
+							<longdesc>Enw&apos;r ffeil sy&apos;n cynnwys y delweddau ar gyfer y cardiau.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Peidio byth â chymryd yswiriant">
+							<longdesc>Peidio byth â chymryd yswiriant pan fo&apos;r deliwr yn dangos âs.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Defnyddio delio cyflym">
+							<longdesc>Defnyddio deliad cyflym efo dim oediad rhwng bob cerdyn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Dangos tebygolrwyddau">
+							<longdesc>Dangos tebygolrwyddau pob canlyniad dyrnaid y deliwr a gwerth disgwyliedig eich dyrnaid.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Yr amrywiad o&apos;r ffeil rheolau i&apos;w ddefnyddio">
+							<longdesc>Enw&apos;r ffeil rheolau sy&apos;n cynnwys yr amrywiad rheolau i&apos;w chwarae.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Galluogi opsiwn &quot;Burnproof&quot;">
+						<longdesc>A ddylid defnyddio&apos;r opsiwn &quot;Burnproof&quot; sydd ar gael ar recordwyr.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Galluogi troslosgi">
+						<longdesc>A ddylid caniatáu i&apos;r data fynd dros faint y cyfrwng corfforol.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Galluogi datnamu">
+						<longdesc>A ddylid galluogi datnamu ar gyfer recordio CD.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Cyflymdra llosgi rhagosod">
+						<longdesc>Y cyflymder rhagosod ar gyfer ysgrifennu at gyfrwng.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Cyfeiriadur ar gyfer y delweddau ISO dros dro">
+						<longdesc>Y cyfeiriadur a ddefnyddir ar gyfer y delweddau ISO dros dro. Gadewch yn wag er mwyn defnyddio cyfeiriadur dros dro rhagosod y system.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Thema Eiconau Ffeiliau">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="Synau ar gyfer digwyddiadau">
+							<longdesc>Dylid chwarae synau ar gyfer digwyddiadau defnyddiwr.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Galluogi ESD">
+							<longdesc>Galluogi cychwyn y gweinydd sain.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="Traciau rhagosodedig y cymysgwr">
+							<longdesc>Y traciau cymysgu rhagosodedig ddefnyddir gan y rhwymiadau bysell amlgyfrwng.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="Dyfais gymysgu ragosodedig">
+							<longdesc>Y ddyfais gymysgu ragosodedig ddefnyddir gan y rhwymiadau bysell amlgyfrwng.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Dangos y ddewislen &apos;Nod Rheoli Unicode&apos;">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Dangos y ddewislen &apos;Modd Mewnbwn&apos;">
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Cyflymydd bar dewis">
+							<longdesc>Byrlwybr y bysellfwrdd er mwyn agor y barrau dewis.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modiwl ar gyfer GtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Bar Statws ar y Dde">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Defnyddio Ffont Addasedig">
+							<longdesc>A ddylid defnyddio ffont addasedig mewn rhaglenni gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Ffont unlled">
+							<longdesc>Enw ffont unlled (lled gosodedig) er mwyn defnyddio mewn llefydd fel terfynellau.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Ffont dogfen">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="Arddull Statws Modd Mewnbwn GTK">
+							<longdesc>Enw&apos;r arddull statws modd mewnbwn GTK+ a ddefnyddir gan gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="Arddull Cyn-olygu Modd Mewnbwn GTK">
+							<longdesc>Enw&apos;r arddull cyn-olygu modd mewnbwn GTK+ a ddefnyddir gan gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Ffont rhagosodedig">
+							<longdesc>Enw&apos;r ffont rhagosodedig a ddefnyddir gan gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Thema Gtk+">
+							<longdesc>Sylfaen enw&apos;r thema rhagosodedig a ddefnyddir gan gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Thema Gtk+">
+							<longdesc>Sylfaen enw&apos;r thema rhagosodedig a ddefnyddir gan gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Thema Eiconau">
+							<longdesc>Thema eiconau i&apos;w ddefnyddio ar gyfer y panel, nautilus, a.y.b.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Amser Chwincio&apos;r Cyrchydd">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Chwincio&apos;r Cyrchydd">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Maint Eiconau Bar Offer">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Bar Offer Datgysylltadwy">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Bar Dewislen Datgysylltadwy">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Mae Gan Ddewislenni Eiconau">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Arddull Bar Offer">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Gellir Newid Cyflymwyr">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Mae gan Ddewislenni Far Rhwygo">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Galluogi Animeiddiadau">
+							<longdesc>A ddylid dangos animeiddiadau. Noder: Mae hyn yn allwedd eang, ac mae&apos;n newid ymddygiad y rheolwr ffenestri, y panel, a.y.b.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Galluogi Hygyrchedd">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Rhaglenni Technoleg Gynorthwyol Wrth Gychwyn">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Analluogi os gwasgir dwy fysell yr un pryd.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Ysbaid lleiaf, mewn milfedau eiliad">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Saib cychwynnol, mewn milfedau eiliad">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Pa mor hir i gyflymu, mewn milfedau eiliad">
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Picseli&apos;r eiliad">
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="ysbaid lleiaf mewn milfedau eiliad">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="A ydy cloi&apos;r bysellfwrdd wedi ei alluogi">
+							<longdesc>A ydy cloi&apos;r bysellfwrdd wedi ei alluogi ai peidio.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Caniatáu gohirio seibiau">
+							<longdesc>A ellir gohirio&apos;r sgrin gorffwys teipio ai peidio</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Amser gorffwys">
+							<longdesc>Y nifer o funudau dylai&apos;r gorffwys teipio bara.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Amser teipio">
+							<longdesc>Nifer o funudau o amser teipio cyn mae&apos;r modd gorffwys yn cychwyn.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Analluogi cloi&apos;r sgrin">
+							<longdesc>Atal y defnyddiwr rhag cloi ei sgrin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Analluogi newid defnyddwyr">
+							<longdesc>Atal y defnyddiwr rhag newid i gyfrif arall tra fo&apos;i sesiwn ar waith.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Analluogi cyflunio argraffwyr">
+							<longdesc>Rhwystro&apos;r defnyddiwr rhag newid gosodiadau argraffydd. Er enghraifft, byddai hyn yn rhwystro mynediad at ddeialogau &quot;Gosodiadau Argraffu&quot; pob rhaglen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Analluogi argraffu">
+							<longdesc>Rhwystro&apos;r defnyddiwr rhag argraffu. Er enghraifft, byddai hyn yn rhwystro mynediad at ddeialogau &quot;Argraffu&quot; pob rhaglen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Analluogi cadw ffeiliau at ddisg">
+							<longdesc>Rhwystro&apos;r defnyddiwr rhag arbed ffeiliau at ddisg. Er enghraifft, byddai hyn yn rhwystro mynediad at ddeialogau &quot;Cadw fel&quot; pob rhaglen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Analluogi&apos;r llinell orchymyn">
+							<longdesc>Rhwystro&apos;r defnyddiwr rhag defnyddio&apos;r derfynell na phenodi llinell
+gorchymyn i&apos;w weithredu. Er enghraifft, byddai hyn yn analluogi defnyddio
+deialog &quot;Rhedeg Rhaglen&quot; y panel.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Math Cysgodi Lliw">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Lliw Eilaidd">
+							<longdesc>Y lliw de neu waelod wrth arlunio graddiannau, ni ddefnyddir ar gyfer lliw unffurf.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Lliw Cynradd">
+							<longdesc>Y lliw chwith neu frig wrth arlunio graddiannau, neu&apos;r lliw unffurf</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Didreiddiad y Darlun">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Enw Ffeil y Darlun">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Opsiynau’r Darlun">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Arlunio Cefndir y Penbwrdd">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Cofio cyflwr NumLock">
+								<longdesc>Os wedi&apos;i osod yn wir, bydd GNOME yn cofio cyflwr yr LED NumLock o un sesiwn i&apos;r llall.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Enw Ffeil Sain Cloch Addasedig">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>gwerthoedd caniataol: &quot;on&quot;, &quot;off&quot;, &quot;custom&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Maint cyrchydd">
+								<longdesc>Maint y cyrchwr y cyfeirir ato gan y thema cyrchwr.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Thema cyrchydd">
+								<longdesc>Enw thema cyrchwr. Caiff ddim ond ei ddefnyddio gan weinyddion X sy&apos;n cynnal Xcursor, er enghraifft XFree86 4.3 neu&apos;n hwyrach.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Ffont cyrchydd">
+								<longdesc>Enw ffont y cyrchydd. Os heb ei osod, caiff y ffont rhagosodedig ei ddefnyddio. Caiff y gwerth hwn ei gyflwyno i&apos;r gweinydd X ar ddechrau pob sesiwn, felly fe fydd ei newid yng nghanol sesiwn yn cael dim effaith tan y tro nesaf rydych chi&apos;n mewngofnodi.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Lleoli&apos;r Pwyntydd">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Amser Clic Dwbl">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Trothwy Llusgo">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Trothwy Symudiad">
+								<longdesc>Y pellter mewn picseli mae&apos;n rhaid i&apos;r pwyntydd symud cyn mae symudiad llygoden wedi ei gyflymu yn cael ei weithredu. -1 yw gwerth rhagosodedig y system.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Clic Sengl">
+								<longdesc>Lluosydd cyflymu ar gyfer symudiad llygoden. -1 yw gwerth rhagosodedig y system.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Clic Sengl">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Gogwydd botymau&apos;r llygoden">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Analluogi pob teclyn allanol i greu braslun">
+							<longdesc>Gosod yn wir er mwyn analluogi pob rhaglen allanol i greu brasluniau, a ydynt wedi eu galluogi/analluogi yn unigol ai peidio.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="Gorchymyn rhaglen creu lluniau cryno i ddogfennau PDF">
+								<longdesc>Gorchymyn dilys ag ymresymiadau i&apos;r rhaglen creu lluniau cryno i ddogfennau PDF. Gweler dogfennau &quot;nautilus thumbnailer&quot; am wybodaeth bellach.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Galluogi lluniau cryno o ddogfennau PDF">
+								<longdesc>Opsiynau Boole ar gael, gwir yn galluogi creu lluniau cryno a ffug yn analluogi creu lluniau cryno</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="Gorchymyn rhaglen creu lluniau cryno i ddogfennau PDF">
+								<longdesc>Gorchymyn dilys ag ymresymiadau i&apos;r rhaglen creu lluniau cryno i ddogfennau PDF. Gweler dogfennau &quot;nautilus thumbnailer&quot; am wybodaeth bellach.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Galluogi lluniau cryno o ddogfennau PDF">
+								<longdesc>Opsiynau Boole ar gael, gwir yn galluogi creu lluniau cryno a ffug yn analluogi creu lluniau cryno</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="Gorchymyn rhaglen creu lluniau cryno i ddogfennau PDF">
+								<longdesc>Gorchymyn dilys ag ymresymiadau i&apos;r rhaglen creu lluniau cryno i ddogfennau PDF. Gweler dogfennau &quot;nautilus thumbnailer&quot; am wybodaeth bellach.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Galluogi lluniau cryno o ddogfennau PDF">
+								<longdesc>Opsiynau Boole ar gael, gwir yn galluogi creu lluniau cryno a ffug yn analluogi creu lluniau cryno</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Mae&apos;r porwr yn deall &quot;remote&quot;">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Mae&apos;r porwr angen terfynell">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Porwr rhagosodedig">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Enwau&apos;r gweithfannau (anghymeradwyir)">
+								<longdesc>Rhestr yn cynnwys enwau gweithfannau cyntaf y rheolwr ffenestri. Mae&apos;r allwedd hon wedi ei anghymeradwyo ers GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Nifer y gweithfannau (anghymeradwyir)">
+								<longdesc>Faint o weithfannau dylai&apos;r rheolwr ffenestri ddefnyddio. Mae&apos;r allwedd hon wedi ei anghymeradwyo ers GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Rheolwr ffenestri&apos;r defnyddiwr (anghymeradwyir)">
+								<longdesc>Y rheolwr ffenestri i&apos;w geisio&apos;n gyntaf. Mae&apos;r allwedd hon wedi ei anghymeradwyo ers GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Rheolwr ffenestri wrth gefn (anghymeradwyir)">
+								<longdesc>Rheolwr ffenestri wrth gefn os methir canfod rheolwr ffenestri&apos;r defnyddiwr. Mae&apos;r allwedd hon wedi ei anghymeradwyo ers GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Cychwyn yr hoff raglen dechnoleg gynorthwyol Symudedd">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Hoff Raglen Dechnoleg Gynorthwyol Symudedd">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Cychwyn yr hoff raglen dechnoleg gynorthwyol Weledol">
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Hoff Raglen Dechnoleg Gynorthwyol Weledol">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Porwr cydran rhagosodedig">
+								<longdesc>Y rhaglen i&apos;w ddefnyddio i bori ffeiliau sydd angen cydran er mwyn eu gwylio. Amnewidir y paramedr %s gan URI y ffeil, ac amnewidir y paramedr %c gan IID y gydran.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Ymresymiadau Exec">
+								<longdesc>Ymresymiad a ddefnyddir er mwyn rhedeg rhaglenni yn y derfynell fe ddiffiniwyd gan yr allwedd &apos;exec&apos;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Rhaglen terfynell">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;h323&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;h323&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;h323&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;h323&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;callto&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;callto&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;callto&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;callto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;aim&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;aim&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;aim&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;mailto&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;mailto&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;mailto&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;mailto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;https&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;https&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;https&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;https&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;http&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;http&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;http&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;http&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;man&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;man&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;man&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;man&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;info&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;info&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;info&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;info&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;ghelp&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;ghelp&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;ghelp&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;ghelp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Rhedeg y gorchymyn mewn terfynell">
+								<longdesc>Gwir os dylid rhedeg y gorchymyn sy&apos;n delio â&apos;r math yma o LAU mewn terfynell.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Y trinydd ar gyfer LAU &quot;trash&quot;">
+								<longdesc>Y gorchymyn a ddefnyddir i ymdrin â LAU &quot;trash&quot;, os yn alluog.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A ddylai&apos;r gorchymyn penodedig ymdrin â LAU &quot;trash&quot;">
+								<longdesc>Gwir os ddylai&apos;r gorchymyn a benodir yn yr allwedd &quot;command&quot; ymdrin â LAU &quot;trash&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Defnyddio&apos;r proffil yma neu beidio">
+									<longdesc>Dangos y proffil yma neu beidio.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Yr estyniad ffeil diofyn i&apos;r proffil hwn">
+									<longdesc>Estyniad enw ffeil i&apos;w ddefnyddio wrth gadw ffeiliau wedi&apos;u hamgodio gyda&apos;r proffil hwn.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Y bibell GStreamer a ddefnyddiwyd">
+									<longdesc>Pibell Gstreamer rhannol i&apos;w ddefnyddio ar gyfer y proffil hwn.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Disgrifiad i&apos;r proffil sain">
+									<longdesc>Disgrifiad o&apos;r proffil, yn cynnwys mwy o wybodaeth ac yn disgrifio pryd i ddefnyddio&apos;r proffil hwn.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Enw byr ar gyfer y proffil sain">
+									<longdesc>Enw byr ar gyfer y proffil sain, i&apos;w ddefnyddio mewn rhestrau dewis ac yn rhoi adnabyddiaeth unigryw i&apos;r proffil.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Defnyddio&apos;r proffil yma neu beidio">
+										<longdesc>Dangos y proffil yma neu beidio.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Yr estyniad ffeil diofyn i&apos;r proffil hwn">
+										<longdesc>Estyniad enw ffeil i&apos;w ddefnyddio wrth gadw ffeiliau wedi&apos;u hamgodio gyda&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Y bibell GStreamer a ddefnyddiwyd">
+										<longdesc>Pibell Gstreamer rhannol i&apos;w ddefnyddio ar gyfer y proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Disgrifiad i&apos;r proffil sain">
+										<longdesc>Disgrifiad o&apos;r proffil, yn cynnwys mwy o wybodaeth ac yn disgrifio pryd i ddefnyddio&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Enw byr ar gyfer y proffil sain">
+										<longdesc>Enw byr ar gyfer y proffil sain, i&apos;w ddefnyddio mewn rhestrau dewis ac yn rhoi adnabyddiaeth unigryw i&apos;r proffil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Yr estyniad ffeil diofyn i&apos;r proffil hwn">
+										<longdesc>Estyniad enw ffeil i&apos;w ddefnyddio wrth gadw ffeiliau wedi&apos;u hamgodio gyda&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Y bibell GStreamer a ddefnyddiwyd">
+										<longdesc>Pibell Gstreamer rhannol i&apos;w ddefnyddio ar gyfer y proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Disgrifiad i&apos;r proffil sain">
+										<longdesc>Disgrifiad o&apos;r proffil, yn cynnwys mwy o wybodaeth ac yn disgrifio pryd i ddefnyddio&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Enw byr ar gyfer y proffil sain">
+										<longdesc>Enw byr ar gyfer y proffil sain, i&apos;w ddefnyddio mewn rhestrau dewis ac yn rhoi adnabyddiaeth unigryw i&apos;r proffil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Yr estyniad ffeil diofyn i&apos;r proffil hwn">
+										<longdesc>Estyniad enw ffeil i&apos;w ddefnyddio wrth gadw ffeiliau wedi&apos;u hamgodio gyda&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Y bibell GStreamer a ddefnyddiwyd">
+										<longdesc>Pibell Gstreamer rhannol i&apos;w ddefnyddio ar gyfer y proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Disgrifiad i&apos;r proffil sain">
+										<longdesc>Disgrifiad o&apos;r proffil, yn cynnwys mwy o wybodaeth ac yn disgrifio pryd i ddefnyddio&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Enw byr ar gyfer y proffil sain">
+										<longdesc>Enw byr ar gyfer y proffil sain, i&apos;w ddefnyddio mewn rhestrau dewis ac yn rhoi adnabyddiaeth unigryw i&apos;r proffil.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Yr estyniad ffeil diofyn i&apos;r proffil hwn">
+										<longdesc>Estyniad enw ffeil i&apos;w ddefnyddio wrth gadw ffeiliau wedi&apos;u hamgodio gyda&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Y bibell GStreamer a ddefnyddiwyd">
+										<longdesc>Pibell Gstreamer rhannol i&apos;w ddefnyddio ar gyfer y proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Disgrifiad i&apos;r proffil sain">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Enw byr ar gyfer y proffil sain">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Yr estyniad ffeil diofyn i&apos;r proffil hwn">
+										<longdesc>Estyniad enw ffeil i&apos;w ddefnyddio wrth gadw ffeiliau wedi&apos;u hamgodio gyda&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Y bibell GStreamer a ddefnyddiwyd">
+										<longdesc>Pibell Gstreamer rhannol i&apos;w ddefnyddio ar gyfer y proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Disgrifiad i&apos;r proffil sain">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Enw byr ar gyfer y proffil sain">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Yr estyniad ffeil diofyn i&apos;r proffil hwn">
+										<longdesc>Estyniad enw ffeil i&apos;w ddefnyddio wrth gadw ffeiliau wedi&apos;u hamgodio gyda&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Y bibell GStreamer a ddefnyddiwyd">
+										<longdesc>Pibell Gstreamer rhannol i&apos;w ddefnyddio ar gyfer y proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Disgrifiad i&apos;r proffil sain">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Enw byr ar gyfer y proffil sain">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Yr estyniad ffeil diofyn i&apos;r proffil hwn">
+										<longdesc>Estyniad enw ffeil i&apos;w ddefnyddio wrth gadw ffeiliau wedi&apos;u hamgodio gyda&apos;r proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Y bibell GStreamer a ddefnyddiwyd">
+										<longdesc>Pibell Gstreamer rhannol i&apos;w ddefnyddio ar gyfer y proffil hwn.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Disgrifiad i&apos;r proffil sain">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Enw byr ar gyfer y proffil sain">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Rhestr o broffiliau">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Grŵp gwaith SMB">
+						<longdesc>Y grŵp gwaith neu&apos;r parth rhwydweithio Windows mae&apos;r defnyddiwr yn rhan ohono. Cyn i grŵp gwaith newydd ddod i rym, efallai bydd rhaid i&apos;r defnyddiwr allgofnodi a mewngofnodi eto.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="Parthau ychwanegol i chwilio am wasanaethau DNS-SD ynddynt">
+						<longdesc>Rhestr o barthau DNS-SD, wedi&apos;u gwahanu gan gomáu, a ddylai fod yn weladwy yn y lleoliad &quot;network:///&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="Sut i ddangos gwasanaeth DNS-SD lleol">
+						<longdesc>Gwerthoedd posib: &quot;merged&quot;, &quot;separate&quot; a &quot;disabled&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="LAU i gyflunio&apos;r dirprwy&apos;n awtomatig">
+						<longdesc>URL sy&apos;n rhoi manylion cyflunio&apos;r dirprwy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="Porth gweinydd dirprwy SOCKS">
+						<longdesc>Y porth ar y peiriant a ddiffinnir gan &quot;/system/proxy/socks_host&quot; yr ydych yn ei ddefnyddio fel dirprwy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="Enw gweinydd y dirprwy SOCKS">
+						<longdesc>Enw&apos;r peiriant i&apos;w ddefnyddio fel dirprwy SOCKS.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="Porth gweinydd dirprwy FTP">
+						<longdesc>Y porth ar y peiriant a ddiffinnir gan &quot;/system/proxy/ftp_host&quot; yr ydych yn ei ddefnyddio fel dirprwy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="Enw&apos;r gweinydd dirprwy FTP">
+						<longdesc>Enw&apos;r peiriant i&apos;w ddefnyddio fel dirprwy FTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Porth gweinydd dirprwy HTTP diogel">
+						<longdesc>Y porth ar y peiriant a ddiffinnir gan &quot;/system/proxy/secure_host&quot; yr ydych yn ei ddefnyddio fel dirprwy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Enw&apos;r gweinydd dirprwy HTTP diogel">
+						<longdesc>Enw&apos;r peiriant i&apos;w ddefnyddio fel dirprwy HTTP diogel.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Modd cyfluniad y dirprwy">
+						<longdesc>Dewiswch fodd rhagosod y dirprwy. Y gwerthoedd caniateir yw &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Gweinyddion di-ddirprwy">
+						<longdesc>Mae&apos;r allwedd hon yn cynnwys rhestr o weinyddion y cysylltir â hwy yn uniongyrchol, yn hytrach na thrwy&apos;r dirprwy (os defnyddir). Medrwch roi fan hyn enwau gweinyddion, parth-enwau (gan ddefnyddio gwylltnod i ddechrau, fel *.foo.com), rhifau IP gweinyddion (IPv6 yn ogystal â IPv4) a rhifau rhwydwaith gyda masg rhwydwaith (tebyg i 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="Cyfrinair y dirprwy HTTP">
+						<longdesc>Cyfrinair i&apos;w basio i&apos;r dirprwy HTTP wrth ddilysu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="Enw defnyddiwr y dirprwy HTTP">
+						<longdesc>Enw&apos;r defnyddiwr i&apos;w basio i&apos;r dirprwy HTTP wrth ddilysu</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Dilysu cysylltiadau â&apos;r gweinydd dirprwy">
+						<longdesc>Os yn wir, bydd angen dilysu cysylltiadau â&apos;r gweinydd dirprwy. Defnyddir y pâr enw defnyddiwr/cyfrinair a benodir gan &quot;/system/http_proxy/authentication_user&quot; a &quot;/system/http_proxy/authentication_password&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="Porth gweinydd dirprwy HTTP">
+						<longdesc>Y porth ar y peiriant a ddiffinnir gan &quot;/system/http_proxy/host&quot; yr ydych yn ei ddefnyddio fel dirprwy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="Enw&apos;r gweinydd dirprwy HTTP">
+						<longdesc>Enw&apos;r peiriant i&apos;w ddefnyddio fel dirprwy HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Defnyddio dirprwy HTTP">
+						<longdesc>Galluogi&apos;r gosodiadau dirprwy wrth gyrchu HTTP dros y Rhyngrwyd.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

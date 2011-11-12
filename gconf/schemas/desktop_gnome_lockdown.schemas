@@ -1,0 +1,2918 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+
+    <schema>
+      <key>/schemas/desktop/gnome/lockdown/disable_command_line</key>
+      <applyto>/desktop/gnome/lockdown/disable_command_line</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Disable command line</short>
+        <long>
+          Prevent the user from accessing the terminal or specifying
+          a command line to be executed. For example, this would
+          disable access to the panel's "Run Application" dialog.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عطّل سطر الأوامر</short>
+        <long>يمنع المستخدم من النّفاذ إلى الطّرفيّة أو تحديد سطر أوامر لتنفيذه. يمنع هذا مثلًا المستخدم من النّفاذ إلى حوار الشّريط &quot;شغّل تطبيق&quot;.</long>
+      </locale>
+
+      <locale name="as">
+        <short>আদেশ লাইন নিষ্ক্ৰিয় কৰা হ&apos;ব</short>
+        <long>ব্যৱহাৰকৰ্তাৰ দ্বাৰা টাৰ্মিনেল বা কোনো আদেশ-লাইন চলোৱা প্ৰতিৰোধ কৰা হ&apos;ব । উদাহৰণস্বৰূপ, ইয়াৰ ফলত পেনেলৰ &quot;অনুপ্ৰয়োগ চালনা&quot; সম্বাদৰ ব্যৱহাৰ বন্ধ হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Desactivar llinia de comandos</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>Əmr sətirini bağla</short>
+        <long>Əmr icra etməyə ya da terminalı işlətməyə icazə vermə. Məsələn &quot;Proqram İcra Et&quot; dialoqlarını qeyri-fəallaşdır.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Выключыць загадны радок</short>
+        <long>Забараняе карыстальніку доступ да тэрмінала й загаднага радка. Напрыклад, гэта забароніць дыялёг панэлі &quot;Выканаць дастасаваньне&quot;.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на командния интерпретатор</short>
+        <long>Ограничаване на достъпа на потребителя до терминала или определяне на команда, която да бъде изпълнена. Например, това ще забрани достъпа до „Стартиране на програма…“ в панела.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>কমান্ড লাইন নিস্ক্রিয় করো</short>
+        <long>ব্যবহারকারীকে টার্মিনালে প্রবেশের সুযোগ থেকে বা চালানোর জন্য কোন কমান্ড লাইন উল্লেখ করা থেকে বিরত রাখো। উদাহরণস্বরূপ, এটি প্যানেলের &quot;অ্যাপলিকেশন চালাও&quot; ডায়ালগে প্রবেশের সুযোগ নিস্ক্রিয় করবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>কমান্ড লাইন নিষ্ক্রিয় করা হবে</short>
+        <long>ব্যবহারকারীর দ্বারা টার্মিনাল অথবা কোনো কমান্ড-লাইন চালনা প্রতিরোধ করা হবে। উদাহরণস্বরূপ, এর ফলে প্যানেলের &quot;অ্যাপ্লিকেশন চালনা&quot; ডায়লগের ব্যবহার বন্ধ হবে।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Isključi komandnu liniju</short>
+        <long>Spriječi korisnikov pristup terminalu ili navođenje izvršne naredbe. Naprimjer, ovo bi onemogućilo pristup dijalogu &quot;Run Application&quot; na panelu.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita la línia d&apos;ordres</short>
+        <long>Evita que l&apos;usuari pugui accedir al terminal o pugui especificar una línia d&apos;ordres per a ser executada. Per exemple, això inhabilitaria l&apos;accés al diàleg «Executa una aplicació» del quadre.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita la línia d&apos;ordes</short>
+        <long>Evita que l&apos;usuari puga accedir al terminal o puga especificar una línia d&apos;ordes per a ser executada. Per exemple, això inhabilitaria l&apos;accés al diàleg «Executa una aplicació» del quadre.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Emir satrını ğayrı qabilleştir</short>
+        <long>Qullanıcınıñ terminalğa irişüvine yaki ifa etilecek emir satrını belirtüvine mania ol. Meselâ, bu, panelniñ &quot;Uyğulamanı Çaptır&quot; dialogına irişimni ğayrı qabilleştirir edi.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zakázat příkazový řádek</short>
+        <long>Znemožnit uživateli přistupovat k terminálu nebo určovat příkazový řádek pro spuštění. To například zakáže přístup k dialogu panelu &quot;Spustit aplikaci&quot;.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Analluogi&apos;r llinell orchymyn</short>
+        <long>Rhwystro&apos;r defnyddiwr rhag defnyddio&apos;r derfynell na phenodi llinell
+gorchymyn i&apos;w weithredu. Er enghraifft, byddai hyn yn analluogi defnyddio
+deialog &quot;Rhedeg Rhaglen&quot; y panel.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér kommandolinje</short>
+        <long>Forhindr brugeren i at tilgå terminalen eller angive en kommandolinje der skal køres. Dette vil f.eks. forhindre tilgangen til panelets &quot;Kør program&quot;-vindue.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Befehlszeile deaktivieren</short>
+        <long>Den Benutzer daran hindern, auf das Terminal zuzugreifen oder eine auszuführende Befehlszeile anzugeben. Dies verhindert beispielsweise den Zugriff auf den Panel-Dialog »Anwendung ausführen«.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>བཀོད་ལམ་ལྕོགས་མིན་བཟོ།</short>
+        <long>ལག་ལེན་པ་དེ་ ཊར་མི་ནཱལ་ནང་ འཛུལ་སྤྱོད་འབད་ནི་ལས་ བཀག་ཐབས་འབདཝ་ཨིན། ཡང་ཅིན་ ལག་ལེན་འཐབ་དགོ་པའི་ བཀོད་ལམ་ཅིག་ གསལ་བཀོད་འབདཝ་ཨིན། དཔེར་ན་ འདི་གིས་པེ་ནཱལ་གྱི&quot;Run Application&quot; ཌའི་ལོག་ལུ་ འཛུལ་སྤྱོད་ལྕོགས་མིན་བཟོ་འོང༌།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση γραμμής εντολών</short>
+        <long>Αποτρέπει την πρόσβαση από το χρήστη στο τερματικό ή καθορίζει την εκτέλεση μιας συγκεκριμένης εντολής. Για παράδειγμα, αυτό δεν θα επιτρέπει την πρόσβαση στο διάλογο του πίνακα εφαρμογών &quot;Εκτέλεση εφαρμογής&quot;.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Disable command line</short>
+        <long>Prevent the user from accessing the terminal or specifying a command line to be executed. For example, this would disable access to the panel&apos;s &quot;Run Application&quot; dialogue.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable command line</short>
+        <long>Prevent the user from accessing the terminal or specifying a command line to be executed. For example, this would disable access to the panel&apos;s &quot;Run Application&quot; dialogue.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Malŝaltu komandlinion</short>
+        <long>Preventu ke la uzanto atingas la terminalon aŭ specifas komandlinion por ruliĝi. Ekzemple, ĉi tio malŝaltus atingon al la panela dialogo &quot;Rulu aplikaĵon&quot;.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar línea de comandos</short>
+        <long>Impide que el usuario acceda al terminal o especifique una línea de comandos para ser ejecutada. Por ejemplo, esto podría desactivar el acceso al diálogo del panel «Ejecutar aplicación».</long>
+      </locale>
+
+      <locale name="et">
+        <short>Käsurea keelamine</short>
+        <long>Kasutajal terminalile ja käsureale ligipääsu keelamine. Sellega on näiteks võimalik keelata paneeli &quot;Käivita rakendus...&quot; dialoog.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu komando-lerroa</short>
+        <long>Erabiltzaileak terminal batera sarbidetzea edo komando-lerro bat exekutatzeko zehaztea eragozten du. Adibidez, honek paneleko &quot;Exekutatu aplikazioa&quot; elkarrizketa-koadroa desgaitzen du.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>از کار انداختن خط فرمان</short>
+        <long>جلوگیری از دسترسی کاربر به پایانه یا مشخص کردن خط فرمان برای اجرا. برای مثال، ممکن است دسترسی به محاوره‌ی «اجرای برنامه» در تابلو را از کار بیاندازد.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Poista komentorivi käytöstä</short>
+        <long>Estä käyttäjää käyttämästä päätettä tai antamasta suoritettavaa komentoriviä. Tämä poistaa esimerkiksi paneelin &quot;Suorita sovellus&quot;-toiminnon käytöstä.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver la ligne de commande</short>
+        <long>Interdit à l&apos;utilisateur d&apos;accéder à un terminal ou d&apos;indiquer une ligne de commande à exécuter. Par exemple, cela désactive l&apos;accès à la boîte de dialogue « Lancer une application » du tableau de bord.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Díchumasaigh líne na n-orduithe</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar a liña de comandos</short>
+        <long>Impide que o usuario acceda ao terminal ou especifique unha liña de comandos para ser executada. Por exemplo, isto poderá desactivar o acceso ao panel de diálogo &quot;Run Application&quot;.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>આદેશ વાક્ય નિષ્ક્રિય કરો</short>
+        <long>વપરાશકર્તાને ટર્મિનલ વાપરવાથી બચાવો અથવા ચલાવવા માટેનું આદેશ વાક્ય સ્પષ્ટ કરો. દા.ત. &quot;કાર્યક્રમ ચલાવો&quot; સંવાદ કદાચ પેનલને ચલાવવાનું નિષ્ક્રિય કરશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable command line</short>
+        <long>Prevent the user from accessing the terminal or specifying a command line to be executed. For example, this would disable access to the panel&apos;s &quot;Run Application&quot; dialog.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>कमांड पंक्ति अक्षम करें</short>
+        <long>उपयोगकर्ता को टर्मिनर पर पहुँच से या कमांड लाइन चलाने से रोकें. उदाहरण के लिए, यह फ़लक के &quot;अनुप्रयोग चलाएँ&quot; संवाद पर पहुँच को अक्षम कर देता है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Onemogući naredbeni redak</short>
+        <long>Onemogući korisniku pristup terminalu ili određivanje naredbe za izvršavanje u naredbenom retku. Na primjer, ovo će onemogućiti pristup dijalogu ploče &quot;Pokreni program&quot;.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Parancssor letiltása</short>
+        <long>A felhasználó megakadályozása a terminálhoz való hozzáférésben vagy egy végrehajtandó parancssor megadásában. Például, ez letiltja a hozzáférést a panel „Alkalmazás futtatása” párbeszédablakához.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Matikan baris perintah</short>
+        <long>Mencegah pemakai untuk mengakses terminal atau menjalankan program. Ini juga akan mematikan fasilitas &quot;Jalankan Aplikasi&quot; pada panel.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilita riga di comando</short>
+        <long>Impedisce all&apos;utente di accedere al terminale o di specificare una riga di comando da eseguire. Per esempio, questo disabiliterebbe l&apos;accesso alla finestra di dialogo &quot;Esegui applicazione&quot; del pannello.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>コマンドラインを利用不可にする</short>
+        <long>ユーザからの端末のアクセス、または実行コマンド・ラインの指定を利用不可にします。たとえば、これはパネルの &quot;アプリケーションの実行&quot; ダイアログへのアクセスを利用できなくします。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ბრძანების სტრიქონის ამორთვა</short>
+        <long>მომხმარებლისთვის ტერმინალის ან ბრძანების გამოყენების აკრძალვა. მაგალითად, ამ შემთხვევაში გაუქმდება პანელიდან &quot;პროგრამის შესრულების&quot; დიალოგის გამოყენების უფლება.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಆಜ್ಞಾ ಸಾಲನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಬಳಕೆದಾರರು ಟರ್ಮಿನಲ್‌ ಅನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಥವ ಕಾರ್ಯಗತಗೊಳಿಸಲು ಒಂದು ಆಜ್ಞಾ ಸಾಲನ್ನು ಸೂಚಿಸದಂತೆ ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಫಲಕದ &quot;ಅನ್ವಯವನ್ನು ಚಲಾಯಿಸು&quot; ಸಂವಾದವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>명령 행 사용하지 않기</short>
+        <long>사용자가 터미널에 접근하거나 실행할 명령을 직접 지정하지 못하도록 합니다. 예를 들어서, 패널의 &quot;프로그램 실행&quot; 대화 상자에 접근을 막습니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Rêzika Fermanan Betal Bike</short>
+        <long>Asteng bike ku bila bikarhêner xwe negihîne termînalê an jî rêzika fermanan.Wekî mînak, gihîştina &quot;Sepanê Bixebitîne&quot; ya di panelê de ye wê were betalkirin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Atjungti komandinę eilutę</short>
+        <long>Užkirsti kelią naudotojui pasiekti terminalą arba nurodyti vykdomą komandinę eilutę. Pvz., naudojant šį nustatymą priėjimas prie skydelio dialogo „Paleisti programą“ bus uždraustas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Atspējot komandrindu</short>
+        <long>Neļauj lietotājam piekļūt terminālim vai likt izpildīt komandrindu. Piemēram, tas atspējotu pieeju paneļa logam &quot;Palaist aplikāciju&quot;.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>कमाण्ड पंक्ति अक्षम करू</short>
+        <long>प्रयोक्ताकेँ टर्मिनल पर पहुँचसँ अथवा कमाण्ड लाइन चलाबैसँ रोकू. उदाहरण क&apos; लेल, ई फलक क&apos; &quot;अनुप्रयोग चलाबू&quot; समाद पर पहुँचकेँ अक्षम कए दैत अछि.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Aza alefa ny lazam-baiko</short>
+        <long>Manakana ny fampiasana ny terminal na fampidirana lazam-baiko hotanterahina. Izany, ohatra, dia hanafoana ny fahafahan&apos;ny mpampiasa manokatra ny takila &quot;Handefa rindranasa&quot;.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Оневозможи ја командната линија</short>
+        <long>Спречи го корисникот да пристапува на терминалот или да одредува команда за извршување. На пример, ова ќе го оневозможи пристапот до дијалогот &quot;Изврши апликација&quot;.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>കമാന്‍ഡ് ലൈന്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക</short>
+        <long>ടെര്‍മിനല്‍ എടുക്കാന്നതില്‍ നിന്നോ പ്രവര്‍ത്തിപ്പിയ്ക്കാന്‍ ഒരു ആജ്ഞ നല്‍കുന്നതില്‍ നിന്നോ ഒരു ഉപയോക്താവിനെ തടയുക. ഉദാഹരണത്തിനു്, ഇതു് പാനലിലെ &quot;പ്രയോഗം പ്രവര്‍ത്തിപ്പിയ്ക്കുക&quot; എന്ന ചെറുജാലകം എടുക്കുന്നതു് പ്രാവര്‍ത്തികമല്ലാതാക്കും.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Тушаалын мөр идэвхгүйжүүлэх</short>
+        <long>Терминал эсвэл тушаалын мөрөөс хандахыг хориглох. Жишээлбэл, &quot;Програм ажиллуулах&quot; диалог руу хандахыг хаана.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>आदेशओळ अकार्यान्वीत करा</short>
+        <long>वापरकर्त्याला टर्मिनल किंवा आदेश ओळ कार्यान्वीत करण्यापासून थांबवा. उदाहरणार्थ, यामुळे पटलावरील &quot;अनुप्रयोग चालवा&quot; संवाद अकार्यान्वीत होईल.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Deaktiver kommandolinjen</short>
+        <long>Forhindre bruker fra å aksessere terminalen eller oppgi en kommandolinje som skal kjøres. Dette vil for eksempel deaktivere tilgang til panelets «Kjør program»-dialog.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>आदेश लाइन अक्षम पार्नुहोस्</short>
+        <long>प्रयोगकर्तालाई टर्मिनलमा जाने सुविधाबाट वा कार्यान्वयन गरिने आदेश लाइन निर्दिष्ट गर्नबाट रोक्नुहोस् । उदाहरणका लागि यसले समूहका &quot;अनुप्रयोग चलाउनुहोस् &quot; संवादलाई पहुँच गर्नअक्षम पार्नेछ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Opdrachtregel uitschakelen</short>
+        <long>De gebruiker verhinderen om toegang tot de terminal te krijgen of om een uit te voeren opdrachtregel op te geven. Dit schakelt bijvoorbeeld de toegang uit tot het ‘Toepassing uitvoeren’-dialoogvenster van het paneel.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Kopla ut kommandolinje</short>
+        <long>Hindra brukaren i å bruka ein terminal eller å oppgje ei kommandolinje å køyra. Til dømes vil dette hindra adgang til «Køyr program»-valet i panelet.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Desactivar la linha de comandas</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ପାଠ୍ଯ ନିର୍ଦ୍ଦେଶକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ବ୍ଯବହାରକାରୀକୁ ଟର୍ମିନାଲ ଖୋଲିବା ବା ନିଷ୍ପାଦନ ପାଇଁ ପାଠ୍ଯ ନିର୍ଦ୍ଦେଶ ଉଲ୍ଲେଖିତ କରିବାରୁ ଅଟକାନ୍ତୁ. ଉଦାହରଣ ସ୍ବରୂପ, ଏହା ଫଲକର &quot;ପ୍ରୟୋଗ ଚଳାନ୍ତୁ&quot; ସଂଳାପ ପାଇଁ ପ୍ରବେଶାନୂମତି ନିଷ୍କ୍ରିୟ କରିଦେବ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਕਮਾਂਡ ਲਾਇਨ ਨੂੰ ਅਯੋਗ ਕਰੋ</short>
+        <long>ਯੂਜ਼ਰ ਨੂੰ ਟਰਮੀਨਲ ਜਾਂ ਖਾਸ ਕਮਾਂਡ ਲਾਈਨਾਂ ਨੂੰ ਚਲਾਉਣ ਨੂੰ ਸੋਧਣ ਤੋਂ ਰੋਕ ਦਿਓ ਜਿਵੇਂ ਕਿ, ਪੈਨਲ ਵਿੱਚ &quot;ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਓ&quot; ਡਾਈਲਾਗ ਤੋਂ ਪਹੁੰਚ ਨੂੰ ਅਯੋਗ ਕਰ ਦਿਓ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłączenie wiersza poleceń</short>
+        <long>Blokuje użytkownikowi dostęp do terminala lub podania polecenia do uruchomienia. Na przykład, zablokuje dostęp do okna panelu &quot;Uruchom program&quot;.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar a linha de comando</short>
+        <long>Impedir o utilizador de aceder à consola ou especificar uma linha de comando a ser executada. Por exemplo, isto irá desactivar o acesso ao diálogo de painel &quot;Executar Aplicação&quot;.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar linha de comando</short>
+        <long>Evita que o usuário acesse o terminal ou especifique uma linha de comando para ser executada. Por exemplo, isso desabilitaria o acesso ao diálogo &quot;Executar aplicativo&quot; do painel.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare linie de comandă</short>
+        <long>Previne accesarea terminalului sau lansarea în execuție a unei comenzi de către utilizator. De exemplu, se interzice astfel accesul prin panou la dialogul „Pornire aplicații”.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Отключить командную строку</short>
+        <long>Запрещает пользователю доступ к терминалу и командной строке. Например, будет отключён доступ к диалогу «Запуск приложения» панели.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Deaktivovať príkazový riadok</short>
+        <long>Nepovoliť používateľovi prístup k terminálu alebo zadať príkazový riadok na spustenie. Napríklad, toto by deaktivovalo prístup k dialógovému oknu panela &quot;Spustiť aplikáciu&quot;.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči ukazno vrstico</short>
+        <long>Uporabniku prepreči dostop do terminala ali izvajanje določenih ukazov. Tako mu bo na primer onemogočen dostop do pogovornega okna &quot;Zaženi program&quot;.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Çaktivizo rreshtin e komandës</short>
+        <long>Bllokon mundësinë e përdorimit të terminalit nga ana e përdoruesit apo ekzekutimin e një komande në rresht. Për shembull, do të ç&apos;aktivojë hyrjen tek dritarja e dialogut &quot;Zbato Programin&quot; tek paneli.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Искључи ред наредби</short>
+        <long>Спречи корисника да приступа терминалу или да издаје наредбу за извршење.  На пример, ово ће онемогућити приступ прозорчету „Покрени програм“ са панела.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Онемогући ред наредби</short>
+        <long>Спријечи корисника да приступа терминалу или да издаје наредбу за извршење.  На пример, ово ће онемогућити приступ прозорчету „Покрени програм“ са панела.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Isključi red naredbi</short>
+        <long>Spreči korisnika da pristupa terminalu ili da izdaje naredbu za izvršenje.  Na primer, ovo će onemogućiti pristup prozorčetu „Pokreni program“ sa panela.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera kommandorad</short>
+        <long>Förhindra att användaren kommer åt terminalfönster eller kan ange en kommandorad som ska köras. Detta kan till exempel inaktivera åtkomst till panelens &quot;Kör program&quot;-dialogfönster.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கட்டளை வரிசையை முடக்குக</short>
+        <long>பயனீட்டாளர் முனையத்தை பயன்படுத்துவதை தடுக்க அதற்காக கட்டளைவரியை உள்ளிடவும். உதாரணம், &quot;Run Application&quot; உரையாடல் பலகத்தை அணுகுவதை செயலிழக்க செய்யும்</long>
+      </locale>
+
+      <locale name="te">
+        <short>ఆదేశ వరుసను అచేతనము చేయాలి</short>
+        <long>వినియోగదారిని టెర్మినల్ వాడుకొనుటనుండి లేదా నిర్వర్తించుటకు అదేశ వరుసను తెలుపుటనుండి నిరోధించుము. ఉదాహరమకు, యిది &quot;అనువర్తనం నడిపించు&quot; డైలాగుయొక్క ప్యానల్ వాడుకను అచేతనం చేస్తుంది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดใช้บรรทัดคำสั่ง</short>
+        <long>ป้องกันไม่ให้ผู้ใช้เรียกใช้เทอร์มินัล หรือเรียกใช้คำสั่งจากบรรทัดคำสั่ง ผลคือ หน้าต่าง &quot;เรียกโปรแกรม&quot; ในพาเนลจะหายไป เป็นต้น</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Komut satırını iptal et</short>
+        <long>Kullanıcının uçbirim ya da komut satırına erişmesini engelle. Örneğin, Paneldeki &quot;Uygulama çalıştır&quot;a erişim iptal edilecektir.</long>
+      </locale>
+
+      <locale name="tt">
+        <short>Boyırıq yulın sünderü</short>
+        
+      </locale>
+
+      <locale name="uk">
+        <short>Вимкнути командний рядок</short>
+        <long>Забороняє користувачу доступ до термінала або командного рядка. Наприклад доступ до діалогового вікна панелі &quot;Виконання програми&quot; буде вимкнено.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Vô hiệu hoá dòng lệnh.</short>
+        <long>Ngăn cản người dùng truy cập thiết bị cuối hoặc thực hiện lệnh bằng dòng lệnh. Ví dụ, nó sẽ vô hiệu hoá hộp thoại « Chạy ứng dụng » của bảng điều khiển.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Dismete li roye di cmande</short>
+        
+      </locale>
+
+      <locale name="xh">
+        <short>Vala umgca wemiyalelo</short>
+        <long>Ikhusela umsebenzisi ekufikeleleni kwitheminali okanye ekubaluleni umgca wemiyalelo ekufuneka usetyenzisiwe. Umzekelo, oku kuya kuvala ufikelelo kuzo zonke iinkqubo&apos; &quot;Qhuba iNkqubo&quot; iibhokisi.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>禁用命令行</short>
+        <long>避免用户表单访问终端或指定要执行的命令行。例如，这将禁止访问面板的“运行应用程序”对话框。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>禁止使用指令列</short>
+        <long>禁止用戶使用虛擬終端機或者從指令列執行指令。譬如說，本設定會令面板中的「執行程式」對話方塊失效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>禁止使用指令列</short>
+        <long>禁止用戶使用虛擬終端機或者從指令列執行指令。譬如說，本設定會令面板中的「執行程式」對話方塊失效。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/lockdown/disable_save_to_disk</key>
+      <applyto>/desktop/gnome/lockdown/disable_save_to_disk</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Disable saving files to disk</short>
+        <long>
+          Prevent the user from saving files to disk. For example,
+          this would disable access to all applications' "Save as"
+          dialogs.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عطّل حفظ الملفّات على القرص</short>
+        <long>لمنع المستخدم من حفط الملفّات على القرص. يمنع هذا مثلًا المستخدم من النّفاذ إلى حوارات &quot;احفظ ك‍&quot; في جميع التّطبيقات.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ডিস্কত নথিপত্ৰ সংৰক্ষণ ব্যৱস্থা নিষ্ক্ৰিয় কৰা হ&apos;ব</short>
+        <long>ব্যৱহাৰকৰ্তাক ডিস্কত নথিপত্ৰ সংৰক্ষণত বাধা দিয়া হ&apos;ব । উদাহৰণস্বৰূপ, ইয়াৰ ফলত সৰ্বধৰনৰ অনুপ্ৰয়োগৰ &quot;নতুন ৰূপে সংৰক্ষণ&quot; সম্বাদ ব্যৱহাৰ কৰা নাযাব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Desactivar el guardáu de ficheros nel discu</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>Diskə fayl qeyd etmə imkanını bağla</short>
+        <long>Diskə qeyd etməyə icazə vermə. Məsələn proqramların &quot;Fərqli Qeyd Et&quot; dialoqlarını qeyri-fəallaşdır.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Выключыць захаваньне файлаў на дыск</short>
+        <long>Забараняе карыстальніку захоўваць файлы на дыск. Напрыклад, гэта забароніць доступ да дыялёга &quot;Захаваць як&quot; усіх дастасаваньняў.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на запазването на файлове на диска</short>
+        <long>Ограничаване на потребителя от записване на файлове. Например, това ще забрани достъпа до всички диалогови прозорци „Запазване като…“ в програмите.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ডিস্কে ফাইল সংরক্ষণ নিস্ক্রিয় করো</short>
+        <long>ব্যবহারকারীকে ডিস্কে সংরক্ষণ করা থেকে বিরত রাখো। উদাহরণস্বরূপ, এটি সমস্ত অ্যাপলিকেশনের &quot;save as&quot; ডায়ালগে প্রবেশের সুযোগ নিস্ক্রিয় করবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ডিস্কে ফাইল সংরক্ষণ ব্যবস্থা নিষ্ক্রিয় করা হবে</short>
+        <long>ব্যবহারকারীকে ডিস্কে ফাইল সংরক্ষণে বাধা দেওয়া হবে।. উদাহরণস্বরূপ, এর ফলে সর্বধরনের অ্যাপ্লিকেশনের &quot;নতুন রূপে সংরক্ষণ&quot; ডায়লগ ব্যবহার করা যাবে না।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Isključi snimanje datoteka na disk</short>
+        <long>Spriječi korisnika da snima datoteke na disk. Ovo bi, naprimjer, onemogućilo pristup dijalozima &quot;Save as&quot; u svim aplikacijama.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita el desat de fitxers al disc</short>
+        <long>Evita que l&apos;usuari pugui desar fitxers al disc. Per exemple, això inhabilitaria l&apos;accés als diàlegs «Anomena i desa» de totes les aplicacions.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita l&apos;alçat de fitxers al disc</short>
+        <long>Evita que l&apos;usuari puga alçar fitxers al disc. Per exemple, això inhabilitaria l&apos;accés als diàlegs «Anomena i alça» de totes les aplicacions.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Dosyelerniñ diskke saqlanuvını ğayrı qabilleştir</short>
+        <long>Qullanıcınıñ dosyelerni diskke saqlavına mania ol. Meselâ, bu, uyğulamalarnıñ episiniñ &quot;Şöyle saqla&quot; dialoglarına irişimni ğayrı qabilleştirir edi.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zakázat ukládání souborů na disk</short>
+        <long>Znemožnit uživateli ukládat soubory na disk. To například zakáže přístup k dialogům &quot;Uložit jako&quot; všech aplikací.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Analluogi cadw ffeiliau at ddisg</short>
+        <long>Rhwystro&apos;r defnyddiwr rhag arbed ffeiliau at ddisg. Er enghraifft, byddai hyn yn rhwystro mynediad at ddeialogau &quot;Cadw fel&quot; pob rhaglen.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér gemning af filer på disken</short>
+        <long>Forhindr brugeren i at gemme filer på disken. Dette vil f.eks. deaktivere tilgang til alle progammers &quot;Gem som&quot;-vinduer.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Speichern von Dateien auf Platte deaktivieren</short>
+        <long>Den Benutzer am Speichern von Dateien auf Platte hindern. Dies verhindert beispielsweise den Zugriff auf den »Speichern unter«-Dialog aller Anwendungen.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཡིག་སྣོད་ཚུ་ ཌིཀསི་ལུ་བསྲུང་ནི་ ལྕོགས་མིན་བཟོ།</short>
+        <long>ལག་ལེན་པ་དེ་ ཡིག་སྣོད་ཚུ་ ཌིཀསི་ནང་བསྲུང་ནི་ལས་ བཀག་ཐབས་འབདཝ་ཨིན། དཔེར་ན་ འདི་གིས་གློག་རིམ་ཆ་མཉམ་ལུ་ &quot;Save as&quot; ཌའི་ལོག་ཚུ་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་ ལྕོགས་མིན་བཟོཝ་ཨིན།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση αποθήκευσης αρχείων στο δίσκο</short>
+        <long>Δεν επιτρέπει στο χρήστη την αποθήκευση αρχείων στο δίσκο. Για παράδειγμα αυτό θα  αποτρέψει την  πρόσβαση στους διαλόγους &quot;Αποθήκευση ως&quot; σε όλες τις εφαρμογές.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Disable saving files to disk</short>
+        <long>Prevent the user from saving files to disk. For example, this would disable access to all applications&apos; &quot;Save as&quot; dialogues.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable saving files to disk</short>
+        <long>Prevent the user from saving files to disk. For example, this would disable access to all applications&apos; &quot;Save as&quot; dialogues.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Malŝaltu konservadon de dosieroj sur diskon</short>
+        <long>Preventu ke la uzanto konservas dosierojn sur diskon. Ekzemple, ĉi tio malŝaltus atingon al la dialogo &quot;Konservu kiel&quot; de ĉiuj aplikaĵoj.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar guardado de archivos al disco</short>
+        <long>Impide que el usuario pueda guardar archivos en el disco. Por ejemplo, esto podría desactivar el acceso a todos los diálogos «Guardar como» de todas las aplicaciones.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Failide kettalesalvestamise keelamine</short>
+        <long>Kasutajal failide kettale salvestamise keelamine. Sellega on näiteks võimalik keelata kõigi rakenduste &quot;Salvesta kui&quot; dialoogid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu fitxategiak diskoan gordetzea</short>
+        <long>Erabiltzaileak fitxategiak diskoan gordetzea eragozten du. Adibidez, honek aplikazio guztietako &quot;Gorde honela&quot; elkarrizketa-koadroak irekitzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>از کار انداختن ذخیره‌ی پرونده‌ها در دیسک</short>
+        <long>جلوگیری از ذخیره‌ی پرونده‌ها در دیسک توسط کاربر. برای مثال، ممکن است دسترسی به محاوره‌ی «ذخیره به نام» را در تمام برنامه‌ها از کار بیاندازد.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Poista tiedostojen levylle tallentaminen käytöstä</short>
+        <long>Estä käyttäjää tallentamasta tiedostoja levylle. Tämä poistaa esimerkiksi kaikkien sovellusten &quot;Tallenna nimellä&quot;-ikkunat käytöstä.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver l&apos;enregistrement des fichiers sur le disque</short>
+        <long>Interdit à l&apos;utilisateur d&apos;enregistrer des fichiers sur le disque. Par exemple, cela désactive l&apos;accès aux boîtes de dialogue « Enregistrer sous » de toutes les applications.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar a gravación de ficheiros en disco</short>
+        <long>Impide que o usuario garde ficheiros en disco. Por exemplo, isto poderá desactivar o acceso a todos os diálogos &quot;Save as&quot; de todas as aplicacións.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ડિસ્કમાં ફાઈલો સંગ્રહવાનું નિષ્ક્રિય કરો</short>
+        <long>વપરાશકર્તાને ડિસ્કમાં ફાઈલો સંગ્રહવાથી બચાવો. દા.ત. આ કદાચ બધા કાર્યક્રમોના &quot;આ રીતે સંગ્રહો&quot; સંવાદને નિષ્ક્રિય કરશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable saving files to disk</short>
+        <long>Prevent the user from saving files to disk. For example, this would disable access to all applications&apos; &quot;Save as&quot; dialogs.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>डिस्क पर फ़ाइलें सहेजना अक्षम करें</short>
+        <long>उपयोगकर्ता को डिस्क में फ़ाइल सहेजने से रोकें. उदाहरण के लिए, यह सभी अनुप्रयोगों के &quot;इस रूप में सहेजें&quot; संवादों पर पहुँच को अक्षम कर देता है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Onemogući spremanje datoteka na disk</short>
+        <long>Onemogući korisniku spremanje datoteka na disk. Na primjer, ovo će onemogućiti pristup svim dijalozima programa &quot;Spremi kao&quot;.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Fájlok lemezre mentésének letiltása</short>
+        <long>A felhasználó megakadályozása fájlok lemezre mentésében. Például, ez letiltja a hozzáférést az alkalmazások „Mentés másként” párbeszédablakaihoz.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Matikan fasilitas penyimpanan file ke disk</short>
+        <long>Mencegah pemakai untuk menyimpan file ke disk. Ini juga akan mematikan semua menu &quot;Simpan dengan nama lain&quot;.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilita salvataggio file su disco</short>
+        <long>Impedisce all&apos;utente di salvare i file su disco. Per esempio questo disabiliterebbe l&apos;accesso alle finestre di dialogo &quot;Salva come&quot; di tutte le applicazioni.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ファイル保存の機能を利用不可にする</short>
+        <long>ユーザによるファイルの保存を不可にします。たとえば、全てのアプリケーションが提供する &quot;別名で保存&quot; ダイアログへのアクセスを利用できなくします。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ფაილიების დისკზე შენახვის ამორთვა</short>
+        <long>მომხმარებლისთვის ფაილების დისკზე შენახვის აკრძალვა. მაგალითად, ამ შემთხვევაში გაუქმდება პროგრამებიდან &quot;შენახვა როგორც&quot; დიალოგის გამოყენების უფლება.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಕಡತಗಳನ್ನು ಡಿಸ್ಕಿಗೆ ಉಳಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಬಳಕೆದಾರರು ಕಡತಗಳನ್ನು ಡಿಸ್ಕಿಗೆ ಉಳಿಸಿದಂತೆ ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಎಲ್ಲಾ ಅನ್ವಯಗಳ &quot;ಹೀಗೆ ಉಳಿಸು&quot; ಸಂವಾದಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>디스크에 파일 저장하지 않기</short>
+        <long>사용자가 디스크에 파일을 저장하지 못하도록 합니다. 예를 들어서, 모든 프로그램에서 &quot;다른 이름으로 저장&quot; 대화 상자에 접근하지 못하게 합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Nivîsandina dosyeyan ya li ser dîskê betal bike</short>
+        <long>Asteng bike ku bila bikarhêner nikaribe dosyeyan li ser dîskê binivîse. Wekî mînak, vebijêrka &quot;Cuda tomar bike&quot; ya di hemû sepanan de ye wê were betalkirin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Atjungti failų saugojimą į diską</short>
+        <long>Užkirsti kelią naudotojui išsaugoti failus į diską. Pvz., naudojant šį nustatymą visose programose dialogas „Išsaugoti kaip“ bus neprieinamas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Atspējot failu saglabāšanu diskā</short>
+        <long>Neļauj lietotājam saglabāt failus diskā. Piemēram, tiks astpējota pieeja &quot;Saglabāt kā&quot; logam visās aplikācijās.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>डिस्क पर फाइलसभ सहेजनाइ अक्षम करू</short>
+        <long>प्रयोक्ताकेँ डिस्कमे फाइल सहेजबासँ रोकू. उदाहरण क&apos; लेल, ई सबहि अनुप्रयोगसभ क&apos; &quot;ई रूपमे सहेजू&quot; समादसभ पर पहुँचकेँ अक्षम कए ैदैछ.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Aza alefa ny fahafahana mandraikitra rakitra amin&apos;ny kapila</short>
+        <long>Manakana ny fandraiketana rakitra amin&apos;ny kapila. Izany, ohatra, dia hanafoana ny fahafahan&apos;ny mpampiasa manokatra ny takila &quot;Raiketo toy izao&quot; amin&apos;ny rindranasa rehetra.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Оневозможи зачувување на датотеки на дискот</short>
+        <long>Спречи го корисникот да зачувува датотеки на дискот. На пример, ова ќе го оневозможи пристапот до дијалозите &quot;Зачувај како&quot; на сите апликации.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ഡിസ്കില്‍ ഫയല്‍ സൂക്ഷിക്കുന്നത് പ്രവര്‍ത്തന രഹിതമാക്കുക</short>
+        <long>ഫയലുകള്‍ ഡിസ്കില്‍ സൂക്ഷിയ്ക്കുന്നതു് തടയുക. ഉദാഹരണത്തിനു്, ഇതു് എല്ലാ പ്രയോഗങ്ങളിലും &quot;പേരു് മാറ്റി സൂക്ഷിയ്ക്കുക&quot; എന്ന ചെറുജാലകമുപയോഗിയ്ക്കുന്നതു് പ്രവര്‍ത്തനക്ഷമമല്ലാതാക്കും.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Диск рүү файл хадгалахыг идэвхгүйжүүлэх</short>
+        <long>Хэрэглэгч диск рүү файл хадгалахаас сэрэмжилэх. Жишээлбэл, Бүх програмын &quot;Өөрөөр хадгалах&quot; диалогийн хандалт хаагдана.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>डीस्कवर फाइल संचयन अकार्यान्वीत करा</short>
+        <long>वापरकर्त्यांना डीस्कवर फाइल संचयीत करण्यापासून थांबवा. उदाहरणार्थ, यामुळे सर्व अनुप्रयोगांचे &quot;असे संचयन करा&quot; संवाद अकार्यान्वीत होईल.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Deaktiver lagring av filer til disk</short>
+        <long>Hindre at bruker lagrer filer til disk. Dette vil for eksempel deaktivere «Lagre som»-dialogen i alle programmer.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>डिस्कमा फाइल बचत गर्न अक्षम पार्नुहोस्</short>
+        <long>प्रयोगकर्तालाई फाइल डिस्कमा बचत गर्नबाट रोक्नुहोस् । उदाहरणका लागि, यसले सबै अनुप्रयोगमा &quot;यस रुपमा बचत गर्नुहोस्&quot; संवादलाई पहुँच गर्न अक्षम पार्छ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Opslaan van bestanden naar schijf uitschakelen</short>
+        <long>De gebruiker verhinderen om bestanden naar schijf op te slaan. Dit schakelt bijvoorbeeld de toegang uit tot de ‘Opslaan als’-dialoogvensters van alle toepassingen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Kopla ut lagring av filer</short>
+        <long>Hindra brukaren i å lagra filer på disken. Dette vil til dømes kopla ut alle «Lagra som»-vala.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଡିସ୍କରେ ଫାଇଲ ସଂରକ୍ଷଣ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ବ୍ଯବହାରକାରୀକୁ ଡିସ୍କରେ ଫାଇଲ ସଂରକ୍ଷଣ କରିବାରୁ ଅଟକାନ୍ତୁ. ଉଦାହରଣ ସ୍ବରୂପ, ଏହା ସବୁ ପ୍ରୟୋଗର &quot;ନୂଆ ନାଁରେ ସଂରକ୍ଷଣ&quot; ସଂଳାପ ପାଇଁ ପ୍ରବେଶାନୂମତି ନିଷ୍କ୍ରିୟ କରିଦେବ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਫਾਇਲ ਨੂੰ ਡਿਸਕ &apos;ਤੇ ਸੰਭਾਲਣ ਅਯੋਗ ਕਰੋ</short>
+        <long>ਯੂਜ਼ਰ ਨੂੰ ਫਾਇਲ ਨੂੰ ਡਿਸਕ ਉੱਤੇ ਸੰਭਾਲਣ ਤੋਂ ਰੋਕੇ। ਜਿਵੇਂ ਕਿ, ਹਰੇਕ ਐਪਲੀਕੇਸ਼ਨ ਵਿੱਚ &quot;ਇੰਜ ਸੰਭਾਲੋ&quot; ਡਾਈਲਾਗ ਲਈ ਪਹੁੰਚ ਆਯੋਗ ਕਰ ਦਿਓ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłączenie zapisu plików na dysk</short>
+        <long>Blokuje użytkownikowi możliwość zapisu plików na dysk. Na przykład, zablokuje dostęp we wszystkich programach do okna &quot;Zapisz jako&quot;.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar a gravação de ficheiros em disco</short>
+        <long>Impedir o utilizador de gravar ficheiros em disco. Por exemplo, desactivaria o acesso aos diálogos &quot;Gravar como&quot; de todas as aplicações.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar gravação de arquivos em disco</short>
+        <long>Evita que o usuário salve arquivos no disco. Por exemplo, isso desabilitaria o acesso ao diálogo &quot;Salvar como&quot; em todos os aplicativos.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare salvare fișiere</short>
+        <long>Previne salvarea pe disc a fișierelor de către utilizator. De exemplu, se interzice astfel accesul la comenzile de salvare ale aplicațiilor.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Отключить сохранение файлов на диск</short>
+        <long>Запрещает пользователю сохранение файлов на диск. Например, будет отключён доступ к диалогу «Сохранить как» во всех приложениях.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Deaktivovať ukladanie súborov na disk</short>
+        <long>Zamedziť používateľovi ukladať súbory na disk. Napríklad, toto by znemožnilo prístup k dialógovým oknám &quot;Uložiť ako&quot; všetkých aplikácií.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči shranjevanje na disk</short>
+        <long>Uporabniku prepreči shranjevanje datotek na disk. Tako mu bo na primer onemogočen dostop do pogovornega okna &quot;Shrani kot&quot;.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Çaktivizo ruajtjen e files në disk</short>
+        <long>Ndalon ruajtjen e files në disk nga ana e përdoruesve. Për shembull, do të ç&apos;aktivojë hyrjen tek të gjitha dritaret e dialogut &quot;Ruaje si&quot; të programeve.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Искључи чување датотека на диск</short>
+        <long>Спречи корисника да чува датотеке на диску.  На пример, ово ће онемогућити приступ прозорчету „Сачувај као“ из сваког програма.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Онемогући чување датотека на диск</short>
+        <long>Спријечи корисника да чува датотеке на диску.  На пример, ово ће онемогућити приступ прозорчету „Сачувај као“ из сваког програма.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Isključi čuvanje datoteka na disk</short>
+        <long>Spreči korisnika da čuva datoteke na disku.  Na primer, ovo će onemogućiti pristup prozorčetu „Sačuvaj kao“ iz svakog programa.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera sparande av filer till disk</short>
+        <long>Förhindra att användaren sparar filer på hårddisken. Detta kan till exempel inaktivera åtkomst till alla programs &quot;Spara som&quot;-dialogfönster.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கோப்புகளை வட்டுவில் சேமிப்பதை முடக்குக</short>
+        <long>பயனீட்டாளர் கோப்பை வட்டில் சேமிப்பதை தடுக்கும். உதாரணம், இது &quot;எனச்சேமி&quot; உரையாடலை செயலிழக்க செய்யும்</long>
+      </locale>
+
+      <locale name="te">
+        <short>దస్త్రములను డిస్కుకు భద్రపరుచుటను అచేతనము చేయుము</short>
+        <long>వినియోగదారిని దస్త్రములు డిస్కుకు భద్రపరచుటనుండి నిరోధించుము. ఉదాహరణకు, యిది అన్ని అనువర్తనములయొక్క &quot;యిలా దాచు&quot; డైలాగుల వాడుకను నిరోధిస్తుంది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดใช้การบันทึกแฟ้ม</short>
+        <long>ป้องกันไม่ให้ผู้ใช้บันทึกแฟ้มลงดิสก์ ผลคือ เมนู &quot;บันทึกเป็น&quot; ในโปรแกรมต่างๆ จะใช้ไม่ได้ เป็นต้น</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Dosyaların diske yazılmasını iptal et</short>
+        <long>Kullanıcının dosyaları diske yazmasını engelle.Örneğin,tüm uygulamalardaki &quot;Farklı Kaydet&quot; seçeneği iptal edilecektir.</long>
+      </locale>
+
+      <locale name="tt">
+        <short>Disk bireme saqlawın sünderü</short>
+        
+      </locale>
+
+      <locale name="uk">
+        <short>Вимкнути збереження файлів на диск</short>
+        <long>Забороняє користувачу збереження файлів на диск. Наприклад, доступ до діалогового вікна &quot;Зберегти як&quot; буде вимкнено у всіх програмах.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Vô hiệu hoá lưu lên đĩa.</short>
+        <long>Ngăn cản người dùng lưu vào đĩa. Ví dụ, nó sẽ vô hiệu hoá hộp thoại « Lưu là » trong mọi ứng dụng.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Dismete li schapaedje des fitchîs sol deure plake</short>
+        
+      </locale>
+
+      <locale name="xh">
+        <short>Vala ugcino lweefayili kwidisk</short>
+        <long>Ikhusela umsebenzisi ekugcineni iifayili kwidisk. Umzekelo, oku kungavala ufikelelo kuzo zonke iinkqubo&apos; &quot;Gcina njenge&quot; iibhokisi.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>禁止将文件保存到磁盘</short>
+        <long>避免用户将文件保存到磁盘。例如，这将禁止访问全部应用程序的“另存为”对话框。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>禁止將檔案儲存至磁碟</short>
+        <long>禁止用戶將檔案儲存進磁碟。譬如說，本設定會令所有應用軟件的「另存新檔」對話方塊失效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>禁止將檔案儲存至磁碟</short>
+        <long>禁止用戶將檔案儲存進磁碟。譬如說，本設定會令所有應用軟體的「另存新檔」對話方塊失效。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/lockdown/disable_printing</key>
+      <applyto>/desktop/gnome/lockdown/disable_printing</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Disable printing</short>
+        <long>
+          Prevent the user from printing. For example, this would
+          disable access to all applications' "Print" dialogs.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عطّل الطّباعة</short>
+        <long>يمنع المستخدم من الطّباعة. يمنع هذا مثلًا المستخدم من النّفاذ إلى حوارات &quot;اطبع&quot; في جميع التّطبيقات.</long>
+      </locale>
+
+      <locale name="as">
+        <short>প্ৰিন্ট ব্যৱস্থা নিষ্ক্ৰিয় কৰা হ&apos;ব</short>
+        <long>ব্যৱহাৰকৰ্তাক প্ৰিন্ট কৰিবলৈ বাধা দিয়া হ&apos;ব । উদাহৰণস্বৰূপ, ইয়াৰ ফলত সৰ্বধৰনৰ অনুপ্ৰয়োগৰ &quot;প্ৰিন্ট&quot; সম্বাদ ব্যৱহাৰ কৰা নাযাব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Desactivar imprentación</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>Çap imkanını bağla</short>
+        <long>Çap etmə icazə vermə. Məsələn proqramların &quot;Çap Et&quot; dialoqlarını qeyri-fəallaşdır.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Выключыць друк</short>
+        <long>Забараняе карыстальніку друкаваць. Напрыклад, гэта забароніць доступ да дыялёга &quot;Друк&quot; усіх дастасаваньняў.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на печата</short>
+        <long>Ограничаване на потребителя от възможността за печат. Например, това ще спре достъпа до всички диалогови прозорци „Печат…“ в програмите.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>মুদ্রণ নিস্ক্রিয় করো</short>
+        <long>ব্যবহারকারীকে মুদ্রণ করা থেকে বিরত রাখো। উদাহরণস্বরূপ, এটি সমস্ত অ্যাপলিকেশনের &quot;মুদ্রন&quot; ডায়ালগে প্রবেশের সুযোগ নিস্ক্রিয় করবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>প্রিন্ট ব্যবস্থা নিষ্ক্রিয় করা হবে</short>
+        <long>ব্যবহারকারীকে প্রিন্ট করতে বাধা দেওয়া হবে। উদাহরণস্বরূপ, এর ফলে সর্বধরনের অ্যাপ্লিকেশনের &quot;প্রিন্ট&quot; ডায়লগ ব্যবহার করা যাবে না।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Isključi štampanje</short>
+        <long>Spriječi korisnika da štampa. Ovo bi, naprimjer, onemogućilo pristup dijalozima &quot;Print&quot; u svim aplikacijama.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita la impressió</short>
+        <long>Evita que l&apos;usuari pugui imprimir. Per exemple, això inhabilitaria l&apos;accés al diàleg «Imprimeix» de totes les aplicacions.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita la impressió</short>
+        <long>Evita que l&apos;usuari puga imprimir. Per exemple, això inhabilitaria l&apos;accés al diàleg «Imprimeix» de totes les aplicacions.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Bastıruvnı ğayrı qabilleştir</short>
+        <long>Qullanıcınıñ bastıruvına mania ol. Meselâ, bu, uyğulamalarnıñ episiniñ &quot;Bastır&quot; dialoglarına irişimni ğayrı qabilleştirir edi.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zakázat tisk</short>
+        <long>Znemožnit uživateli tisknout. To například zakáže přístup k dialogům &quot;Vytisknout&quot; všech aplikací.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Analluogi argraffu</short>
+        <long>Rhwystro&apos;r defnyddiwr rhag argraffu. Er enghraifft, byddai hyn yn rhwystro mynediad at ddeialogau &quot;Argraffu&quot; pob rhaglen.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér udskrivning</short>
+        <long>Forhindr brugeren i at udskrive. Dette vil f.eks. forhindre tilgang til alle programmers &quot;Udskriv&quot;-vinduer.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Drucken deaktivieren</short>
+        <long>Den Benutzer am Drucken hindern. Dies verhindert beispielsweise den Zugriff auf den Druckdialog aller Anwendungen.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>དཔར་བསྐྲུན་ལྕོགས་མིན་བཟོ།</short>
+        <long>ལག་ལེན་པ་དེ་ དཔར་བསྐྲུན་འབད་ནི་ལས་ བཀག་ཐབས་འབདཝ་ཨིན། དཔེར་ན་ འདི་གིས་གློག་རིམ་ཆ་མཉམ་ལུ་&quot;Print&quot; ་ཌའི་ལོག་ཚུ་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་ ལྕོགས་མིན་བཟོཝ་ཨིན།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση εκτύπωσης</short>
+        <long>Δεν επιτρέπει στο χρήστη να εκτυπώσει. Για παράδειγμα αυτό θα αποτρέψει την  πρόσβαση στους διαλόγους &quot;Εκτύπωση&quot; σε όλες τις εφαρμογές.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Disable printing</short>
+        <long>Prevent the user from printing. For example, this would disable access to all applications&apos; &quot;Print&quot; dialogues.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable printing</short>
+        <long>Prevent the user from printing. For example, this would disable access to all applications&apos; &quot;Print&quot; dialogues.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Malŝaltu presadon</short>
+        <long>Preventu ke la uzanto presas. Ekzemple, ĉi tio malŝaltus atingon al la dialogo &quot;Presu&quot; de ĉiuj aplikaĵoj.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar impresión</short>
+        <long>Impide que el usuario imprima. Por ejemplo, esto podría desactivar el acceso a todos los diálogos «Imprimir» de todas las aplicaciones.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Printimise keelamine</short>
+        <long>Kasutajal printimise keelamine. Sellega on näiteks võimalik keelata kõigi rakenduste printimisdialoogid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu inprimatzea</short>
+        <long>Erabiltzaileak inprimatzea eragozten du. Adibidez, honek aplikazio guztietako &quot;Inprimatu&quot; elkarrizketa-koadroa irekitzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>از کار انداختن چاپ</short>
+        <long>جلوگیری از چاپ توسط کاربر. برای مثال، ممکن است دسترسی به محاوره‌ی «چاپ» را در تمام برنامه‌ها از کار بیاندازد.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Poista tulostus käytöstä</short>
+        <long>Estä käyttäjää tulostamasta. Tämä poistaa esimerkiksi kaikkien sovellusten &quot;Tulosta&quot;-ikkunat käytöstä.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver l&apos;impression</short>
+        <long>Interdit à l&apos;utilisateur d&apos;imprimer. Par exemple, cela désactive l&apos;accès aux boîtes de dialogue « Imprimer » de toutes les applications.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Díchumasaigh priontáil</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar a impresión</short>
+        <long>Impide que o usuario imprima. Por exemplo, isto poderá desactivar o acceso a todos os diálogos &quot;Print&quot; de todas as aplicacións.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>છાપવાનું નિષ્ક્રિય કરો</short>
+        <long>વપરાશકર્તાને છાપવાના કામથી બચાવો. દા.ત. આ કદાચ બધા કાર્યક્રમોના &quot;છાપો&quot; સંવાદોને નિષ્ક્રિય કરશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable printing</short>
+        <long>Prevent the user from printing. For example, this would disable access to all applications&apos; &quot;Print&quot; dialogs.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>मुद्रण अक्षम करें</short>
+        <long>उपयोगकर्ता को मुद्रण से रोकें. उदाहरण के लिए, यह सभी अनुप्रयोगों के &quot;मुद्रण&quot; संवादों पर पहुँच को अक्षम कर देता है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Onemogući ispisivanje</short>
+        <long>Onemogući korisniku ispis na pisaču. Na primjer, ovo će onemogućiti pristup svim dijalozima programa &quot;Ispis&quot;.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Nyomtatás letiltása</short>
+        <long>A felhasználó megakadályozása a nyomtatásban. Például, ez letiltja a hozzáférést az alkalmazások „Nyomtatás” párbeszédablakaihoz.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Matikan fasilitas cetak</short>
+        <long>Mencegah pemakai untuk mencetak. Ini akan mematikan semua menu ke dialog &quot;Cetak&quot;.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilita stampa</short>
+        <long>Impedisce all&apos;utente di stampare. Per esempio questo disabiliterebbe l&apos;accesso alle finestre di dialogo &quot;Stampa&quot; di tutte le applicazioni.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>印刷機能を利用不可にする</short>
+        <long>ユーザからの印刷実行を不可にします。たとえば、全てのアプリケーションが提供する &quot;印刷&quot; ダイアログへのアクセスを利用できなくします。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ბეჭდვის გათიშვა</short>
+        <long>მომხმარებლისთვის ბეჭდვის აკრძალვა. მაგალითად, ამ შემთხვევაში გაუქმდება პროგრამებიდან &quot;ბეჭდვის&quot; დიალოგის გამოყენების უფლება.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಮುದ್ರಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಬಳಕೆದಾರರು ಮುದ್ರಿಸದಂತೆ ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಎಲ್ಲಾ ಅನ್ವಯಗಳ &quot;ಮುದ್ರಣ&quot; ಸಂವಾದಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>인쇄하지 않기</short>
+        <long>사용자가 인쇄를 하지 못하도록 합니다. 예를 들어서, 모든 프로그램에서 &quot;인쇄&quot; 대화 상자에 접근하지 못하게 합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Çapkirinê betal bike</short>
+        <long>Asteng bike ku bila bikarhêner xwe negihîne çaperê. Wekî mînak, vebijêrka &quot;Bide Çaperê&quot; ya di hemû bernameyan de heye wê were betalkirin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Atjungti spausdinimą</short>
+        <long>Užkirsti kelią naudotojui spausdinti. Pvz., naudojant šį nustatymą, visose programose dialogas „Spausdinti“ bus neprieinamas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Atspējot drukāšanu</short>
+        <long>Neļauj lietotājam drukāt. Piemēram, tiks apstējota pieeja visu aplikāciju &quot;Drukāt&quot; logam.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>मुद्रण अक्षम करू</short>
+        <long>प्रयोक्ताकेँ मुद्रणसँ रोकू. उदाहरण क&apos; लेल, ई सबहि अनुप्रयोगसभ क&apos; &quot;मुद्रण&quot; समादसभ पर पहुँचकेँ अक्षम कए दैत अछि.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Aza alefa ny fanontana</short>
+        <long>Manakana ny fanontana. Izany, ohatra, dia hanafoana ny fahafahan&apos;ny mpampiasa manokatra ny takila &quot;Atontay&quot; amin&apos;ny rindranasa rehetra.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Оневозможи печатење</short>
+        <long>Спречи го корисникот да печати. На пример, ова ќе го спречи пристапот до дијалозите за &quot;Печатење&quot;на сите апликации.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>അച്ചടിയ്ക്കുന്നതു് പ്രവര്‍ത്തന രഹിതമാക്കുക</short>
+        <long>ഉപയോക്താവിനെ അച്ചടിയ്ക്കുന്നതില്‍ നിന്നും തടയുക. ഉദാഹരണത്തിനു്, ഇതു് എല്ലാ പ്രയോഗങ്ങളിലും &quot;അച്ചടിയ്ക്കുക&quot; എന്ന ചറുജാലകമുപയോഗിയ്ക്കുന്നതു് പ്രവര്‍ത്തനക്ഷമമല്ലാതാക്കും.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Хэвлэхийг идэвхгүйжүүлэх</short>
+        <long>Хэрэглэгч хэвлэхийг хориглох. Жишээлбэл, Бүх програмын &quot;Хэвлэх&quot; диалогийн хандалт хаагдана.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>छपाई अकार्यान्वीत करा</short>
+        <long>वापरकर्त्यास छपाई करण्यापासून थांबवा. उदाहरणार्थ, यामुळे सर्व अनुप्रयोगांचे &quot;छपाई&quot; संवाद अकार्यान्वीत होईल.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Deaktiver utskrift</short>
+        <long>Hindre at bruker skriver ut dokumenter. Dette vil for eksempel deaktivere tilgang til «Skriv ut»-dialogene i alle programmer.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>मुद्रण अक्षम पार्नुहोस्</short>
+        <long>प्रयोगकर्तालाई मुद्रण कार्य गर्न रोक्नुहोस् । उदाहरणका लागि, यसले सबै अनुप्रयोगमा &quot;मुद्रण गर्नुहोस्&quot; संवादलाई पहुँच गर्न अक्षम पार्दछ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Afdrukken uitschakelen</short>
+        <long>De gebruiker verhinderen af te drukken. Dit schakelt bijvoorbeeld de toegang uit tot de &quot;Afdrukken&quot;-dialoogvensters van alle toepassingen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Kopla ut utskrift</short>
+        <long>Hindra brukaren i å skriva ut. Dette vil til dømes hindra adgang til utskriftsdialogane.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Desactivar l&apos;estampatge</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ମୂଦ୍ରଣ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ବ୍ଯବହାରକାରୀକୁ ମୂଦ୍ରଣ କରିବାରୁ ଅଟକାନ୍ତୁ. ଉଦାହରଣ ସ୍ବରୂପ, ଏହା ସବୁ ପ୍ରୟୋଗର &quot;ମୂଦ୍ରଣ&quot; ସଂଳାପ ପାଇଁ ପ୍ରବେଶାନୂମତି ନିଷ୍କ୍ରିୟ କରିଦେବ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪਰਿੰਟਿੰਗ ਅਯੋਗ ਕਰੋ</short>
+        <long>ਯੂਜ਼ਰ ਨੂੰ ਪਰਿੰਟਿੰਗ ਤੋਂ ਰੋਕ ਦਿਉ। ਜਿਵੇਂ ਕਿ, ਹਰੇਕ ਐਪਲੀਕੇਸ਼ਨ ਵਿੱਚੋਂ &quot;ਪਰਿੰਟ ਕਰੋ&quot; ਡਾਈਲਾਗ ਲਈ ਅਸੈੱਸ ਆਯੋਗ ਕਰ ਦਿਓ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłączenie drukowania</short>
+        <long>Blokuje użytkownikowi możliwość drukowania. Na przykład, zablokuje dostęp we wszystkich programach do okna &quot;Wydrukuj&quot;.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar a impressão</short>
+        <long>Impedir o utilizador de imprimir. Por exemplo, desactivaria o acesso ao diálogo &quot;Imprimir&quot; de todas as aplicações.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar impressão</short>
+        <long>Evita que o usuário imprima. Por exemplo, isso desabilitaria o acesso ao diálogo &quot;imprimir&quot; em todos os aplicativos.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare tipărire</short>
+        <long>Previne tipărirea de către utilizator. De exemplu, se interzice accesul la comenzile de tipărire ale aplicațiilor.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Отключить печать</short>
+        <long>Запрещает пользователю печать. Например, будет отключён доступ к диалогу «Печать» во всех приложениях.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Deaktivovať tlač</short>
+        <long>Zamedziť používateľovi tlačiť. Napríklad, toto by znemožnilo prístup k dialógovým oknám &quot;Tlačiť&quot; všetkých aplikácií.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči tiskanje</short>
+        <long>Uporabniku prepreči tiskanje. Tako mu bo na primer onemogočen dostop do pogovornega okna &quot;Natisni&quot;.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Çaktivizo printimin</short>
+        <long>Nuk lejon printimin nga ana e përdoruesit. Për shembull, do të ç&apos;aktivojë hyrjen tek të gjitha dritaret e dialogut &quot;Printo&quot; të programeve.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Искључи штампу</short>
+        <long>Спречи корисника да штампа.  На пример, ово ће онемогућити приступ прозорчету „Штампај“ из сваког програма.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Онемогући штампу</short>
+        <long>Спријечи корисника да штампа.  На пример, ово ће онемогућити приступ прозорчету „Штампај“ из сваког програма.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Isključi štampu</short>
+        <long>Spreči korisnika da štampa.  Na primer, ovo će onemogućiti pristup prozorčetu „Štampaj“ iz svakog programa.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera utskrifter</short>
+        <long>Förhindra att användaren skriver ut. Detta kan till exempel inaktivera åtkomst till alla programs &quot;Skriv ut&quot;-dialogfönster.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>அச்சிடுவதை முடக்குக</short>
+        <long>பயனீட்டாளர் அச்சடிப்பதை தடுக்கும். உதாரணமாக , இது அனைத்து பயன்பாட்டிலும் உள்ள &quot;அச்சடி&quot; உரையாடல் பெட்டியை செயல்நீக்கம் செய்யாது</long>
+      </locale>
+
+      <locale name="te">
+        <short>ముద్రణను అచేతనముచేయి</short>
+        <long>వినియోగదారిని ముద్రించుటనుండి నిరోధించుము. ఉదాహరణకు, యిది అన్ని అనువర్తనములయొక్క &quot;ముద్రణ&quot; డైలాగుల వాడుకను నిరోధిస్తుంది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดใช้การพิมพ์</short>
+        <long>ป้องกันไม่ให้ผู้ใช้พิมพ์ออกเครื่องพิมพ์ ผลคือ เมนู &quot;พิมพ์&quot; ในโปรแกรมต่างๆ จะใช้ไม่ได้ เป็นต้น</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Yazdırmayı iptal et</short>
+        <long>Kullanıcınınyazıcıerişmesiniengelle.Örneğin,Tüm programlardaki &quot;Yazdır&quot; seçeneği iptal edilecektir.</long>
+      </locale>
+
+      <locale name="tt">
+        <short>Bastırunı sünderü</short>
+        
+      </locale>
+
+      <locale name="uk">
+        <short>Вимкнути друк</short>
+        <long>Забороняє користувачу друк. Наприклад, доступ до діалогового вікна &quot;Друк&quot; буде вимкнено у всіх програмах.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Vô hiệu hoá in.</short>
+        <long>Ngăn cản người dùng in. Ví dụ, nó sẽ vô hiệu hoá truy câp hộp thoại « In » trong mọi ứng dụng.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Dismete l&apos; imprimaedje</short>
+        
+      </locale>
+
+      <locale name="xh">
+        <short>Vala ushicilelo</short>
+        <long>Ikhusela umsebenzisi ekushicileleni. Umzekelo, oku kuya kuvala ufikelelo kuzo zonke iinkqubo&apos; &quot;Shicilela&quot; iibhokisi.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>禁用打印</short>
+        <long>避免用户进行打印。例如，这将禁止访问全部应用程序的“打印”对话框。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>禁止打印</short>
+        <long>禁止用戶打印。譬如說，本設定會令所有應用軟件的「打印」對話方塊失效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>禁止列印</short>
+        <long>禁止用戶列印。譬如說，本設定會令所有應用軟體的「列印」對話方塊失效。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/lockdown/disable_print_setup</key>
+      <applyto>/desktop/gnome/lockdown/disable_print_setup</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Disable print setup</short>
+        <long>
+         Prevent the user from modifying print settings. For example,
+         this would disable access to all applications' "Print Setup"
+         dialogs.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عطّل تهيئة الطّباعة</short>
+        <long>يمنع المستخدم من تعديل إعدادات الطّباعة. يمنع هذا مثلًا المستخدم من النّفاذ لحوارات &quot;إعداد الطّباعة&quot; في جميع التّطبيقات.</long>
+      </locale>
+
+      <locale name="as">
+        <short>প্ৰিন্ট ব্যৱস্থাৰ বৈশিষ্ট্য নিষ্ক্ৰিয় কৰা হ&apos;ব</short>
+        <long>ব্যৱহাৰকৰ্তাৰ দ্বাৰা প্ৰিন্ট সংক্ৰান্ত বৈশিষ্ট্য পৰিবৰ্তনে প্ৰতিৰোধ কৰা হ&apos;ব । উদাহৰণস্বৰূপ, ইয়াৰ ফলত সৰ্বধৰনৰ অনুপ্ৰয়োগৰ &quot;প্ৰিন্ট কৰ্মৰ বৈশিষ্ট্য&quot; শীৰ্ষক সম্বাদ ব্যৱহাৰ কৰা নাযাব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Desactivar la configuración de la imprentadora</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>Çap qurğularını bağla</short>
+        <long>Çap qurğularını dəyişdirməyə icazə vermə. Məsələn proqramların &quot;Çap Qurğuları&quot; dialoqlarını qeyri-fəallaşdır.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Выключыць наладкі друку</short>
+        <long>Забараняе карыстальніку зьмяняць наладкі друку. Напрыклад, гэта забароніць доступ да дыялёга &quot;Наладкі друку&quot; усіх дастасаваньняў.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на настройките на печата</short>
+        <long>Ограничаване на потребителя да не променя на настройките за печат. Например, това ще спре достъпа до всички диалогови прозорци „Настройки на печат“ в програмите.&quot;</long>
+      </locale>
+
+      <locale name="bn">
+        <short>মুদ্রণ ব্যবস্থাপনা নিস্ক্রিয় করো</short>
+        <long>ব্যবহারকারীকে মুদ্রণ বৈশিষ্ট্যাবলী পরিবর্তন করা থেকে বিরত রাখো। উদাহরণস্বরূপ, এটি সমস্ত অ্যাপলিকেশনের &quot;মুদ্রন ব্যবস্থাপনা&quot; ডায়ালগে প্রবেশের সুযোগ নিস্ক্রিয় করবে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>প্রিন্ট ব্যবস্থার বৈশিষ্ট্য নিষ্ক্রিয় করা হবে</short>
+        <long>ব্যবহারকারীর দ্বারা প্রিন্ট সংক্রান্ত বৈশিষ্ট্য পরিবর্তনে প্রতিরোধ করা হবে। উদাহরণস্বরূপ, এর ফলে সর্বধরনের অ্যাপ্লিকেশনের &quot;প্রিন্ট কর্মের বৈশিষ্ট্য&quot; শীর্ষক ডায়লগ ব্যবহার করা যাবে না।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Isključi podešavanje štampača</short>
+        <long>Spriječi korisnika da mijenja postavke za štampanje. Ovo bi, naprimjer, onemogućilo pristup dijalozima &quot;Print Setup&quot; u svim aplikacijama.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita la configuració de la impressió</short>
+        <long>Evita que l&apos;usuari pugui modificar la configuració de la impressió. Per exemple, això inhabilitaria l&apos;accés al diàleg «Configuració de la impressió» de totes les aplicacions.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita la configuració de la impressió</short>
+        <long>Evita que l&apos;usuari puga modificar la configuració de la impressió. Per exemple, això inhabilitaria l&apos;accés al diàleg «Configuració de la impressió» de totes les aplicacions.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Bastıruv tesbitini ğayrı qabilleştir</short>
+        <long>Qullanıcınıñ bastıruv tesbitlerini başqalaştıruvına mania ol. Meselâ, bu, uyğulamalarnıñ episiniñ &quot;Bastıruv Tesbiti&quot; dialoglarına irişimni ğayrı qabilleştirir edi.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zakázat nastavení tisku</short>
+        <long>Znemožnit uživateli měnit nastavení tisku. To například zakáže přístup k dialogům &quot;Nastavení tisku&quot; všech aplikací.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Analluogi cyflunio argraffwyr</short>
+        <long>Rhwystro&apos;r defnyddiwr rhag newid gosodiadau argraffydd. Er enghraifft, byddai hyn yn rhwystro mynediad at ddeialogau &quot;Gosodiadau Argraffu&quot; pob rhaglen.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér udskriftsopsætning</short>
+        <long>Forhindr brugeren i at ændre udskriftsindstillingerne. Dette vil f.eks. forhindre tilgang til alle programmers &quot;Udskriftsopsætning&quot;-vinduer.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Druckeinstellungen deaktivieren</short>
+        <long>Den Benutzer daran hindern, die Druckeinstellungen zu verändern. Dies verhindert beispielsweise den Zugriff auf den Druckeinstellungsdialog aller Anwendungen.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>དཔར་བསྐྲུན་གཞི་སྒྲིག་ལྕོགས་མིན་བཟོ།</short>
+        <long>ལག་ལེན་པ་དེ་ དཔར་བསྐྲུན་གཞི་སྒྲིག་ ལེགས་བཅོས་འབད་ནི་ལས་ བཀག་ཐབས་འབདཝ་ཨིན། དཔེར་ན་ འདི་གིས་གློག་རིམ་ཆ་མཉམ་ལུ་ &quot;Print Setup&quot; ཌའི་ལོག་ལུ་ འཛུལ་སྤྱོད་འབད་ནི་ ལྕོགས་མིན་བཟོཝ་ཨིན།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση διαμόρφωσης εκτύπωσης</short>
+        <long>Δεν επιτρέπει στο χρήστη να τροποποιήσει τις ρυθμίσεις εκτύπωσης. Για παράδειγμα αυτό θα αποτρέψει την πρόσβαση στους διαλόγους &quot;Διαμόρφωση εκτύπωσης&quot; σε όλες τις εφαρμογές.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Disable print setup</short>
+        <long>Prevent the user from modifying print settings. For example, this would disable access to all applications&apos; &quot;Print Setup&quot; dialogues.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable print setup</short>
+        <long>Prevent the user from modifying print settings. For example, this would disable access to all applications&apos; &quot;Print Setup&quot; dialogues.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Malŝaltu presilan agordaron</short>
+        <long>Preventu ke la uzanto modifas presan agordaron. Ekzemple, ĉi tio malŝaltus atingon al la dialogo &quot;Presila agordaro&quot; de ĉiuj aplikaĵoj.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar configuración de impresora</short>
+        <long>Impide que el usuario pueda modificar los ajustes de impresión. Por ejemplo, esto podría desactivar el acceso a todos los diálogos «Configurar impresión» de todas las aplicaciones.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Printeri seadistamise keelamine</short>
+        <long>Kasutajal printeri sätete muutmise keelamine. Sellega on näiteks võimalik keelata kõigi rakenduste printeri sätete dialoogid.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu inprimagailuaren konfigurazioa</short>
+        <long>Erabiltzaileak inprimagailuaren ezarpenak aldatzea eragozten du. Adibidez, honek aplikazio guztietako &quot;Inprimagailuaren ezarpenak&quot; elkarrizketa-koadroak irekitzea desgaitzen du.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>از کار انداختن برپاسازی چاپ</short>
+        <long>جلوگیری از تغییر تنظیمات چاپ توسط کاربر. برای مثال، ممکن است دسترسی به محاوره‌ی «برپاسازی چاپ» را در تمام برنامه‌ها از کار بیاندازد.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Poista tulostusasetukset käytöstä</short>
+        <long>Estä käyttäjää muuttamasta tulostusasetuksia. Tämä poistaa esimerkiksi kaikkien sovellusten &quot;Tulostusasetukset&quot;-ikkunan käytöstä.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver la configuration de l&apos;impression</short>
+        <long>Interdit à l&apos;utilisateur de modifier les réglages de l&apos;impression. Par exemple, cela désactive l&apos;accès aux boîtes de dialogue « Configuration de l&apos;impression » de toutes les applications.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Díchumasaigh socrú priontála</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar a configuración de impresora</short>
+        <long>Impide que o usuario modifique as configuracións de impresión. Por exemplo, isto poderá desactivar o acceso a todos os diálogos &quot;Print Setup&quot; de todas as aplicacións.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>છાપણી સુયોજનો નિષ્ક્રિય કરો</short>
+        <long>વપરાશકર્તાને છાપણી સુયોજનો સુધારવાથી બચાવો. દા.ત. આ કદાચ બધા કાર્યક્રમોના &quot;છાપણી સુયોજનો&quot; નિષ્ક્રિય કરશે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable print setup</short>
+        <long>Prevent the user from modifying print settings. For example, this would disable access to all applications&apos; &quot;Print Setup&quot; dialogs.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>मुद्रण सेटअप अक्षम करें</short>
+        <long>उपयोगकर्ता को मुद्रण विन्यास में परिवर्धन करने से रोकें. उदाहरण के लिए, यह सभी अनुप्रयोगों के &quot;मुद्रण सेटअप&quot; संवादों पर पहुँच को अक्षम कर देता है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Onemogući postavljanje pisača</short>
+        <long>Onemogući korisnika u mijenjanju postavki pisača. Na primjer, ovo će onemogućiti pristup svim dijalozima programa &quot;Postavke pisača&quot;.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Nyomtatóbeállítás letiltása</short>
+        <long>A felhasználó megakadályozása a nyomtatás beállításainak módosításában. Például, ez letiltja a hozzáférést az alkalmazások „Nyomtatás beállításai” párbeszédablakaihoz.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Matikan setup cetakan</short>
+        <long>Mencegah pemakai untuk mengganti konfigurasi cetakan. Hal ini akan mematikan akses ke semua dialog &quot;Atur Cetakan&quot;.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilita impostazione stampa</short>
+        <long>Impedisce all&apos;utente di modificare le impostazioni di stampa. Per esempio questo disabiliterebbe l&apos;accesso alle finestre di dialogo &quot;Imposta stampa&quot; di tutte le applicazioni.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>印刷設定を利用不可にする</short>
+        <long>ユーザによる印刷設定の変更を不可にします。たとえば、これは全てのアプリケーションが提供する &quot;印刷設定&quot; ダイアログへのアクセスを利用できなくします。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ბეჭდვის მორგების ამორთვა</short>
+        <long>მომხმარებლისთვის ბეჭდვის პარამეტრების მითითების აკრძალვა. მაგალითად, ამ შემთხვევაში გაუქმდება პროგრამებიდან &quot;ბეჭდვის პარამეტრების&quot; დიალოგის გამოყენების უფლება.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಮುದ್ರಣದ ಸಿದ್ಧತೆಯನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಬಳಕೆದಾರರು ಮುದ್ರಣ ಸಿದ್ಧತೆಗಳನ್ನು ಮಾರ್ಪಡಿಸುವುದನ್ನು ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಎಲ್ಲಾ ಅನ್ವಯಗಳ &quot;ಮುದ್ರಣ ಸಿದ್ಧತೆಗಳನ್ನು&quot; ಸಂವಾದಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>인쇄 설정하지 않기</short>
+        <long>사용자가 인쇄 설정을 수정하지 못하도록 합니다. 예를 들어서, 모든 프로그램에서 &quot;인쇄 설정&quot; 대화 상자에 접근하지 못하도록 합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Veavakirina çaperê betal bike</short>
+        <long>Destûrê nede bila bikarhêner mîhengên çaperê biguherîne. Wekî mînak; Wê gihiştinên &quot;Mîhengên Çaperê&quot; yên di hemû bernameyan de ye werine astengkirin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Atjungti spausdinimo nustaymus</short>
+        <long>Užkirsti kelią naudotojui keisti spausdinimo nustatymus. Pvz., naudojant šį nustatymą visose programose dialogas „Spausdinimo nustatymai“ bus neprieinamas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Atspējot drukāšanas iestatīšanu</short>
+        <long>Neļauj lietotājam izmainīt drukāšanas iestatījumus. Piemēram, tiks atspējota &quot;Drukāšanas iestatīšana&quot; visos aplikāciju logos.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>मुद्रण सेटअप अक्षम करू</short>
+        <long>प्रयोक्ताकेँ मुद्रण बिन्यासमे परिवर्धन करबासँ रोकू. उदाहरण क&apos; लेल, ई सबहि अनुप्रयोगसभ क&apos; &quot;मुद्रण सेटअप&quot; समादसभ पर पहुँचकेँ अक्षम कए दैछ.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Aza alefa ny fikirakirana ny fanontana</short>
+        <long>Manakana ny fanovana ireo kirakiran&apos;ny fanontana. Izany, ohatra, dia hanafoana ny fahafahan&apos;ny mpampiasa manokatra ny takila &quot;Fikirakirana ny fanontana&quot; amin&apos;ny rindranasa rehetra.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Оневозможи поставување за печатење</short>
+        <long>Спречи го корисникот да ги менува подесувањата за печатење. На пример, ова ќе го оневозможи пристапот до дијалогот за &quot;Подесувањата за печатење&quot; на сите апликации.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>അച്ചടി സജ്ജീകരണം പ്രവര്‍ത്തന രഹിതമാക്കുക</short>
+        <long>അച്ചടിയുടെ സജ്ജീകരണങ്ങള്‍ മാറ്റുന്നതില്‍ നിന്നും ഉപയോക്താവിനെ തടയുക. ഉദാഹരണത്തിനു്, ഇതു് എല്ലാ പ്രയോഗങ്ങളിലുമുള്ള &quot;അച്ചടിയുടെ സജ്ജീകരണം&quot; എന്ന ചെറുജാലകമുപയോഗിയ്ക്കുന്നതു് പ്രവര്‍ത്തനക്ഷമമല്ലാതാക്കും.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Хэвлэх тохиргоог идэвхгүйжүүлэх</short>
+        <long>Хэрэглэгч хэвлэх тохиргоо өөрчлөхөөс сэрэмжилэх. Жишээлбэл, Бүх програмын &quot;Хэвлэх тохиргоо&quot; диалог руу хандалт хаагдана.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>छपाई मांडणी अकार्यान्वीत करा</short>
+        <long>वापरकर्त्याला छपाई संरचना संपादित करण्यापासून थांबवा. उदाहरणार्थ, यामुळे सर्व अनुप्रयोगांचे &quot;छपाई रचना&quot; संवाद अकार्यान्वीत होईल.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Dekativer skriveroppsett</short>
+        <long>Hindre at bruker endrer innstillinger for skrivere. Dette vil for eksempel deaktivere tilgang til «Skriveroppsett»-dialoger i alle programmer.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>मुद्रण सेटअप अक्षम पार्नुहोस्</short>
+        <long>प्रयोगकर्तालाई मुद्रण सेटिङ परिमार्जन गर्न रोक्नुहोस् । उदाहरणका, लागि यसले सबै अनुप्रयोगका &quot;मुद्रण सेटअप&quot; संवादलाई पहुँच गर्न अक्षम बनाउदछ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Afdrukinstellingen uitschakelen</short>
+        <long>De gebruiker verhinderen om de afdrukinstellingen aan te passen. Dit schakelt bijvoorbeeld de toegang uit tot de ‘Afdrukinstellingen’-dialoogvensters van alle toepassingen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Kopla ut utskriftsoppsett</short>
+        <long>Hindra brukaren i å endra utskriftsinnstillingar. Dette vil til dømes hindra adgang til utskriftsoppsett-dialogane.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ମୂଦ୍ରଣ ବ୍ଯବସ୍ଥାକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ବ୍ଯବହାରକାରୀକୁ ମୂଦ୍ରଣ ବିନ୍ଯାସ ବଦଳାଇବାରୁ ଅଟକାନ୍ତୁ. ଉଦାହରଣ ସ୍ବରୂପ, ଏହା ସବୁ ପ୍ରୟୋଗର &quot;ମୂଦ୍ରଣ ବ୍ଯବସ୍ଥା&quot; ସଂଳାପ ପାଇଁ ପ୍ରବେଶାନୂମତି ନିଷ୍କ୍ରିୟ କରିଦେବ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪਰਿੰਟਰ ਸੈੱਟਅੱਪ ਆਯੋਗ</short>
+        <long>ਯੂਜ਼ਰ ਨੂੰ ਪਰਿੰਟਰ ਦਾ ਸੈੱਟਅੱਪ ਨੂੰ ਸੋਧਣ ਤੋਂ ਰੋਕ ਦਿਓ। ਜਿਵੇਂ ਕਿ, ਹਰੇਕ ਕਾਰਜ ਵਿੱਚ &quot;ਪਰਿੰਟਰ ਸੈੱਟਅੱਪ&quot; ਡਾਈਲਾਗ ਨੂੰ ਅਯੋਗ ਕਰ ਦੇਵੇਗਾ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłączenie ustawień drukarki</short>
+        <long>Blokuje użytkownikowi możliwość modyfikacji ustawień drukowania. Na przykład, zablokuje dostęp we wszystkich programach do okna &quot;Ustawienia drukowania&quot;.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar a configuração de impressora</short>
+        <long>Impedir o utilizador de alterar as configurações da impressora. Por exemplo, desactivaria o acesso aos diálogos de &quot;Configuração de Impressão&quot; de todas as aplicações.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar configuração de impressão</short>
+        <long>Evita que o usuário modifique as configurações de impressão. Por exemplo, isso desabilitaria o acesso ao diálogo &quot;Configuração de impressão&quot; de todos os aplicativos.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare opțiuni de tipărire</short>
+        <long>Previne schimbarea de către utilizator a opțiunilor de tipărire. De exemplu, se interzice astfel accesul la opțiunile de tipărire ale aplicațiilor.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Отключить настройку печати</short>
+        <long>Запрещает пользователю изменение параметров печати. Например, будет отключён доступ к диалогу «Настройка печати» во всех приложениях.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Deaktivovať nastavenie tlače</short>
+        <long>Nepovoliť používateľovi upravovať nastavenia tlače. Napríklad, toto by deaktivovalo prístup k dialógovým oknám &quot;Nastavenie tlače&quot; všetkých aplikácií.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči nastavitve tiskanja</short>
+        <long>Uporabniku prepreči spreminjanje nastavitev tiskanja. Tako mu bo na primer onemogočen dostop do pogovornega okna &quot;Nastavitve tiskanja&quot;.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Çaktivizo konfigurimin e printimit</short>
+        <long>Nuk lejon ndryshimin e rregullimeve të printerit nga ana e përdoruesit. Për shembull, do të ç&apos;aktivojë hyrjen tek të gjitha dritaret e dialogut &quot;Rregullimi i Printerit&quot; të programeve.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Искључи подешавање штампе</short>
+        <long>Спречи корисника да мења подешавања штампе.  На пример, ово ће онемогућити приступ прозорчету „Подешавање штампе“ из сваког програма.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Онемогући подешавање штампе</short>
+        <long>Спријечи корисника да мења подешавања штампе.  На пример, ово ће онемогућити приступ прозорчету „Подешавање штампе“ из сваког програма.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Isključi podešavanje štampe</short>
+        <long>Spreči korisnika da menja podešavanja štampe.  Na primer, ovo će onemogućiti pristup prozorčetu „Podešavanje štampe“ iz svakog programa.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera utskriftskonfiguration</short>
+        <long>Förhindra att användaren ändrar utskriftsinställningar. Detta kan till exempel inaktivera åtkomst till alla programs &quot;Utskriftskonfiguration&quot;-dialogfönster.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>அச்சிடும் அமைப்பை முடக்குக</short>
+        <long>பயனீட்டாளர் அச்சுப்பொறி அமைப்பை மாற்றுவதை தடுக்கும். உதாரணம் , இது அனைத்து பயன்பாட்டிலும் உள்ள &quot;அச்சுப்பொறி அமைப்பு&quot; உரையாடல் பெட்டியை செயலிழக்க செய்யும்</long>
+      </locale>
+
+      <locale name="te">
+        <short>ముద్రణ అమర్పును అచేతనము చేయాలి</short>
+        <long>వినియోగదారిని ముద్రణ అమరికలను మార్చుటనుండి నిరోధించుము. ఉదాహరణకు, యిది అన్ని అనువర్తనములయొక్క &quot;ముద్రణ అమర్పు&quot; డైలాగుల వాడుకను నిరోధిస్తుంది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดใช้การปรับแต่งการพิมพ์</short>
+        <long>ป้องกันไม่ให้ผู้ใช้ปรับแต่งการพิมพ์ ผลคือ เมนู &quot;ปรับแต่งการพิมพ์&quot; ในโปรแกรมต่างๆ จะใช้ไม่ได้ เป็นต้น</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Yazıcı yapılandırmayı iptal et</short>
+        <long>Kullanıcının yazıcı ayarlarını değiştirmesine izin verme. Örneğin, Tüm programlardaki &quot;Yazıcı Ayarları&quot;na erişim engellenecektir.</long>
+      </locale>
+
+      <locale name="tt">
+        <short>Bastıru caylawın sünderü</short>
+        
+      </locale>
+
+      <locale name="uk">
+        <short>Вимкнути налаштовування друку</short>
+        <long>Забороняє користувачу змінювати параметри друку. Наприклад, доступ до діалогового вікна &quot;Налаштовування друку&quot; буде вимкнено у всіх програмах.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Vô hiệu hoá thiết lập in.</short>
+        <long>Ngăn cản người dùng hiệu chỉnh thiết lập máy in. Ví dụ, nó sẽ vô hiệu hoá truy cập hộp thoại « Thiết lập in » trong mọi ứng dụng.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Dismete l&apos; apontiaedje del sicrirece</short>
+        
+      </locale>
+
+      <locale name="xh">
+        <short>Vala umiselo loshicilelo</short>
+        <long>Ikhusela umsebenzisi ekulungiseni useto lokushicilela. Umzekelo, oku kuya kuvala ufikelelo kuzo zonke iinkqubo&apos; &quot;Useto loShicilelo&quot; iibhokisi.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>禁用打印设置</short>
+        <long>避免用户修改打印设置。例如，这将禁止访问全部应用程序的“打印设置”对话框。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>禁止更改打印設定</short>
+        <long>禁止用戶修改打印設定。譬如說，本設定會令所有應用軟件的「打印設定」對話方塊失效。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>禁止更改列印設定</short>
+        <long>禁止用戶修改列印設定。譬如說，本設定會令所有應用軟體的「列印設定」對話方塊失效。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/lockdown/disable_user_switching</key>
+      <applyto>/desktop/gnome/lockdown/disable_user_switching</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Disable user switching</short>
+        <long>
+         Prevent the user from switching to another account while his
+         session is active.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عطّل تبديل المستخدم</short>
+        <long>امنع المستخدم من التحوّل لحساب آخر حال نشاط هذه الجلسة.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ব্যৱহাৰকৰ্তা পৰিবৰ্তনৰ প্ৰক্ৰিয়া নিষ্ক্ৰিয় কৰা হ&apos;ব</short>
+        <long>সক্ৰিয় অধিবেশনত ব্যৱহাৰকৰ্তাক ভিন্ন হিচাপ পৰিবৰ্তন কৰিবলৈ দিয়া ন&apos;হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Desactivar el trueque d&apos;usuariu</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на смяната на потребител</short>
+        <long>Ограничаване на потребителя да не може да преминава към друга регистрация, когато сесията му е активна.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>নিষ্ক্রিয় ব্যবহারকারী পরিবর্তন</short>
+        <long>ব্যবহারকারীকে অন্য অ্যাকাউন্টে  পরিবর্তন করতে বাধা প্রদান করে যখন সেশন সক্রিয় থাকে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ব্যবহারকারী পরিবর্তনের প্রক্রিয়া নিষ্ক্রিয় করা হবে</short>
+        <long>সক্রিয় সেশানের মধ্যে ব্যবহারকারীকে ভিন্ন অ্যাকউন্ট পরিবর্তন করতে দেওয়া হবে না।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita el canvi d&apos;usuari</short>
+        <long>Evita que es canviï d&apos;usuari mentre la sessió estigui activa.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita el canvi d&apos;usuari</short>
+        <long>Evita que es canvie d&apos;usuari mentre la sessió estiga activa.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Qullanıcı almaşuvını ğayrı qabilleştir</short>
+        <long>Qullanıcınıñ oturımı faal olğanda başqa bir esapqa almaşuvına mania ol.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zakázat přepínání uživatelů</short>
+        <long>Zabránit uživateli přepínat na jiný účet, pokud je jeho sezení aktivní.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Analluogi newid defnyddwyr</short>
+        <long>Atal y defnyddiwr rhag newid i gyfrif arall tra fo&apos;i sesiwn ar waith.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér brugerskift</short>
+        <long>Forhindr brugeren i at skifte til en anden konto mens hans session er aktiv.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Benutzerwechsel deaktivieren</short>
+        <long>Den Benutzer am Wechsel in andere Benutzerkonten hindern, solange seine Sitzung aktiv ist.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ལག་ལེན་པ་སོར་བསྒྱུར་འབད་ནི་ལྕོགས་མིན་བཟོ་</short>
+        <long>ལག་ལེན་པ་ཅིག་ལུ་ ཁོ་གི་ལཱ་ཡུན་དེ་ ཤུགས་ལྡན་ཨིན་པའི་སྐབས་ རྩིས་ཐོ་གཞན་མི་ཅིག་ལུ་ སོར་བསྒྱུར་འབད་ནི་འདི་ལས་སྔོན་བཀག་འབད།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση εναλλαγής χρήστη</short>
+        <long>Αποτροπή του χρήστη να εναλλάσσει σε άλλο λογαριασμό όταν έχει ενεργή συνεδρία</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Disable user switching</short>
+        <long>Prevent the user from switching to another account while his session is active.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable user switching</short>
+        <long>Prevent the user from switching to another account while his session is active.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar selección de usuario</short>
+        <long>Previene que el usuario seleccione otra cuenta mientras su sesión está activa.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kasutajate vahel lülitumise keelamine</short>
+        <long>Kasutajal teisele kasutajale lülitumise keelamine kui tal on seanss aktiivne.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu erabiltzailez aldatzea</short>
+        <long>Honek erabiltzailea beste baten kontura aldatzea saihesten du saioa aktibo duen bitartean.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Poista käyttäjän vaihto käytöstä</short>
+        <long>Estä käyttäjää kirjautumata toisena käyttäjänä sisään aktiivisesta istunnosta.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver le changement d&apos;utilisateur</short>
+        <long>Empêche l&apos;utilisateur de changer de compte alors que sa session est active.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar o intercambio de usuario</short>
+        <long>Impide que o usuario seleccione outra conta mentres a súa sesión está activa.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>વપરાશકર્તા બદલવાનું નિષ્ક્રિય કરો</short>
+        <long>વપરાશકર્તાને અન્ય ખાતામાં પ્રવેશવાથી અટકાવો જ્યારે તેનો સત્ર સક્રિય હોય.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable user switching</short>
+        <long>Prevent the user from switching to another account while his session is active.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>उपयोक्ता परिवर्तन निष्क्रिय करें</short>
+        <long>उपयोक्ता को किसी दूसरे खाते में जाना रोकें जब यह सत्र सक्रिय है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Onemogući promjenu korisnika</short>
+        <long>Spriječi promjenu korisnika dok je njegova prijava aktivna.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Felhasználóváltás letiltása</short>
+        <long>A felhasználó ne válthasson más fiókra, miközben saját munkamenete aktív.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilita cambio utente</short>
+        <long>Impedisce all&apos;utente di passare a un altro account fin quando la sua sessione è attiva.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>アカウントの切り換えを不可にする</short>
+        <long>ユーザが使用しているセッションが有効な間は他のアカウントへ切り換えることができないようにします</long>
+      </locale>
+
+      <locale name="ka">
+        <short>მომხმარებლების გადართვის გამორთვა</short>
+        <long>სხვა ანგარიშზე გადართვის შესაძლებლობის აღმოფხვრა, როდესაც სხვა მომხმარებლის სეანსია აქტიური.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಬಳಕೆದಾರರನ್ನು ಬದಲಾಯಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಅಧಿವೇಶನವು ಸಕ್ರಿಯವಾಗಿದ್ದಾಗ ಬಳಕೆದಾರರು ಬೇರೊಂದು ಖಾತೆಗೆ ಬದಲಾಯಿಸದಂತೆ ನಿರ್ಬಂಧಿಸು.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>사용자 바꾸지 않기</short>
+        <long>사용자가 세션 도중에 다른 계정으로 바꾸지 못하게 합니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Atjungti naudotojų perjungimą</short>
+        <long>Neleisti naudotojui persijungti prie kito abonento, kol jo sesija aktyvi.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Atspējot lietotāju nomaiņu</short>
+        <long>Neļaut lietotājam pārslēgties uz cita lietotāja kontu, kamēr viņa paša sesija ir aktīva.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Оневозможи сменување на корисник</short>
+        <long>Оневозможи го корисникот да ја смени сметката додека неговата сесија е активна.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>യൂസര്‍ സ്വിച്ചിങ് പ്രവര്‍ത്തന രഹിതമാക്കുക</short>
+        <long>സ്വന്തം സെഷന്‍ സജിവമായിരിയ്ക്കുമ്പോള്‍ വേറൊരു അക്കൌണ്ടിലേയ്ക്കു് മാറുന്നതില്‍ നിന്നും ഉപയോക്താവിനെ തടയുക.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Хэрэглэгчийн сэлгээг идэвхгүйжүүлэх</short>
+        <long>Суулт идэвхтэй байх үед хэрэглэгч өөр данс руу сэлгэхийг саатуулах.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>वापरकर्ता बदलणे अकार्यान्वीत करा</short>
+        <long>सत्र सक्रीय असल्यास वापरकर्त्यास इतर खाते उघडण्यापासून थांबवा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Deaktiver brukerbytting</short>
+        <long>Hindre bruker fra å bytte til en annen konto mens sesjonen er aktiv.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>प्रयोगकर्ता स्विचिङ अक्षम पार्नुहोस्</short>
+        <long>प्रयोगकर्ताको सत्र सक्रिय हुदा उसलाई अन्य खातामा स्विच गर्नबाट रोक्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Wisselen van gebruiker uitschakelen</short>
+        <long>Voorkomen dat van gebruiker gewisseld kan worden als de sessie actief is</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Kopla ut brukarbyte</short>
+        <long>Hindra brukaren i å byta til ein annan konto medan han har ei aktiv økt.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଚାଳକ ପରିବର୍ତ୍ତନ ପ୍ରକ୍ରିୟାକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ଚାଳକର ଅଧିବେଶନ ସକ୍ରିୟ ଥିବା ସମୟରେ ତାହାକୁ ଅନ୍ଯ ଗୋଟିଏ ଖାତାକୁ ପରିବର୍ତ୍ତନ କରିବାରୁ ଅଟକାନ୍ତୁ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਯੂਜ਼ਰ ਸਵਿੱਚ ਕਰਨਾ ਆਯੋਗ</short>
+        <long>ਯੂਜ਼ਰ ਨੂੰ ਆਪਣਾ ਸ਼ੈਸ਼ਨ ਸਰਗਰਮ ਰੱਖਣ ਦੌਰਾਨ ਹੋਰ ਅਕਾਊਂਟ ਵਿੱਚ ਬਦਲਣ ਤੋਂ ਰੋਕਦੀ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłączenie przełączania użytkowników</short>
+        <long>Zapobiega przed przełączeniem na inne konto użytkownika w trakcie trwania jego sesji.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar a alternância de utilizadores</short>
+        <long>Impedir o utilizador de alternar para outra conta enquanto esta sessão estiver activa.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar a troca de usuários</short>
+        <long>Evitar que o usuário alterne para outra conta enquanto sua sessão estiver ativa.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare schimbare utilizator</short>
+        <long>Nu permite utilizatorului schimbarea contului înainte de terminarea sesiunii.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Отключить переключение пользователей</short>
+        <long>Запрещает пользователю переключение на другую учётную запись, пока активен его сеанс.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Deaktivovať prepínanie používateľov</short>
+        <long>Zamedziť používateľovi prepnúť na iný účet, kým je jeho sedenie aktívne.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči zamenjave uporabnikov</short>
+        <long>Prepreči uporabniku preklop na drug račun, ko je seja še aktivna.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Çaktivizo kalimin nga një përdorues tek tjetri</short>
+        <long>Nuk lejon përdoruesin të kalojë në një përdorues tjetër kur seanca e tij është aktive.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Искључи промену корисника</short>
+        <long>Спречи корисника да се пријави под другим налогом док је његова сесија у току.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Isključi promenu korisnika</short>
+        <long>Spreči korisnika da se prijavi pod drugim nalogom dok je njegova sesija u toku.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera användarväxling</short>
+        <long>Förhindra användaren från att växla till ett annat konto under tiden dennes session är aktiv.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>அச்சிடுவதை முடக்குக</short>
+        <long>பயனருடைய அமர்வு செயலிலிருக்கும் போது வேறு கணக்கிற்கு மாற்றுவதை தடுக்கிறது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>వినియోగదారి మారికను అచేతనము చేయుము</short>
+        <long>వినియోగదారి అతని సెషన్ క్రియాశీలముగా వున్నప్పుడు వేరొక ఖాతాకు మారుటను నిరోధించుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดการสลับผู้ใช้</short>
+        <long>ป้องกันไม่ให้ผู้ใช้สลับไปใช้บัญชีผู้ใช้อื่นขณะที่วาระยังดำเนินอยู่</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Kullanıcı geçişini kapat</short>
+        <long>Kullanıcının oturumu etkinken başka bir kullanıcı hesabına geçmesini engeller.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Вимкнути перемикання користувачів</short>
+        <long>Перешкоджати перемиканню на інший реєстраційний запис, якщо його сеанс - активний.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tắt khả năng chuyển đổi người dùng</short>
+        <long>Ngăn cản người dùng chuyển đổi sang tài khoản khác trong khi phiên đang chạy.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>禁用用户切换</short>
+        <long>禁止用户在本人会话活动时切换到另外一个账户。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>停用使用者切換</short>
+        <long>當作業階段正在使用時，防止使用者切換到另一個帳戶。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>停用使用者切換</short>
+        <long>當作業階段正在使用時，防止使用者切換到另一個帳戶。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/lockdown/disable_lock_screen</key>
+      <applyto>/desktop/gnome/lockdown/disable_lock_screen</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Disable lock screen</short>
+        <long>
+         Prevent the user to lock his screen.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عطّل قفل الشاشة</short>
+        <long>امنع المستخدم من قفل هذه الشاشة.</long>
+      </locale>
+
+      <locale name="as">
+        <short>পৰ্দা লক কৰাৰ প্ৰক্ৰিয় নিষ্ক্ৰিয় কৰা হ&apos;ব</short>
+        <long>ব্যৱহাৰকৰ্তাক পৰ্দা লক কৰিবলৈ দিয়া ন&apos;হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Desactivar el candáu de pantalla</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на заключването на екрана</short>
+        <long>Ограничаване на потребителя да не може да заключва екрана си.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>নিষ্ক্রিয় পর্দা লক</short>
+        <long>ব্যবহারকারীকে তার পর্দা লক করতে বাধা প্রদান করে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>পর্দা লক করার প্রক্রিয় নিষ্ক্রিয় করা হবে</short>
+        <long>ব্যবহারকারীকে পর্দা লক করতে দেওয়া হবে না।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita el blocatge de la pantalla</short>
+        <long>Evita que l&apos;usuari bloqui la pantalla.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita el blocatge de la pantalla</short>
+        <long>Evita que l&apos;usuari bloquege la pantalla.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Ekran kilitlemesini ğayrı qabilleştir</short>
+        <long>Qullanıcınıñ ekranını kilitlevine mania ol.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zakázat zamykání obrazovky</short>
+        <long>Zabránit uživateli v zamčení obrazovky.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Analluogi cloi&apos;r sgrin</short>
+        <long>Atal y defnyddiwr rhag cloi ei sgrin.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér låsning af skærm</short>
+        <long>Forhindr brugeren i at låse skærmen.</long>
+      </locale>
+
+      <locale name="de">
+        <short>»Bildschirm sperren« deaktivieren</short>
+        <long>Den Benutzer am Sperren seines Bildschirms hindern.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>གསལ་གཞི་ལྡེ་མིག་རྐྱབས་ནི་ལྕོགས་མིན་བཟོ་</short>
+        <long>ལག་ལེན་པ་དེ་ལུ་ ཁོ་གི་གསལ་གཞི་ལྡེ་མིག་རྐྱབས་ནི་སྔོན་བཀག་འབད།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση κλειδώματος οθόνης</short>
+        <long>Αποτροπή του χρήστη να κλειδώνει την οθόνη.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Disable lock screen</short>
+        <long>Prevent the user from locking his screen.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable lock screen</short>
+        <long>Prevent the user to lock his screen.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar el bloqueo de la pantalla</short>
+        <long>Previene que el usuario bloquee su pantalla.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Ekraani lukustamise keelamine</short>
+        <long>Kasutajal oma ekraani lukustamise keelamine.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu pantaila blokeatzea</short>
+        <long>Erabiltzaileak pantaila hau blokeatzea saihesten du.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Estä näytön lukitseminen</short>
+        <long>Estä käyttäjää lukitsemasta näyttöä.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver le verrouillage d&apos;écran</short>
+        <long>Empêche l&apos;utilisateur de verrouiller son écran.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Díchumasaigh glasáil scáileáin</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar o bloqueo da pantalla</short>
+        <long>Impide que o usuario bloquee a súa pantalla.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>સ્ક્રીનનું તાળું નિષ્ક્રિયા કરો</short>
+        <long>વપરાશકર્તાને તેની સ્ક્રીનને તાળું મારવાથી અટકાવો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable lock screen</short>
+        <long>Prevent the user to lock his screen.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>लॉक स्क्रीन निष्क्रिय करें</short>
+        <long>इस उपयोक्ता को अपना स्क्रीन लॉक करने से रोकें.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Onemogući zaključavanje zaslona</short>
+        <long>Spriječi korisnika za zzaključa zaslon.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Képernyő zárolásának letiltása</short>
+        <long>A felhasználó nem zárolhatja a képernyőjét.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilita blocco schermo</short>
+        <long>Impedisce all&apos;utente di bloccare lo schermo.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>画面のロックを利用不可にする</short>
+        <long>画面をロックできないようにします。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ეკრანის ბლოკირების გამორთვა</short>
+        <long>არ მისცე მომხმარებელს მისივე ეკრანის დაბლოკვის საშუალება.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ತೆರೆಯನ್ನು ಲಾಕ್‌ ಮಾಡುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಬಳಕೆದಾರನು ತನ್ನ ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡದಂತೆ ತಡೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>화면 잠그지 않기</short>
+        <long>사용자가 화면을 잠그지 못하게 합니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Atjungti ekrano užrakinimą</short>
+        <long>Neleisti naudotojui užrakinti jo ekrano.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Deaktivizēt ekrāna bloķēšanas iespēju</short>
+        <long>Neļaut lietotājam aizslēgt savu ekrānu.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Оневозможи заклучување на екранот</short>
+        <long>Оневозможи го корисникот да го заклучи неговиот екран.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സ്ക്രീന്‍ പൂട്ടുന്ന സംവിധാനം പ്രവര്‍ത്തന രഹിതമാക്കുക</short>
+        <long>സ്ക്രീന്‍ പൂട്ടുന്നതിന് യൂസറിനെ അനുവദിക്കാതിരിക്കുക.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Дэлгэц түгжилт идэвхгүйжүүлэх</short>
+        <long>Хэрэглэгчийг дэлгэцээ түгжихийг саатуулах.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>पडदा कुलूप बंद करणे अकार्यान्वीत करा</short>
+        <long>वापरकर्त्यास पडदा कुलूप बंद करण्यापासून थांबवा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Slå av låsing av skjermen</short>
+        <long>Hindre brukeren i å låse skjermen.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>पर्दामा ताल्चा लगाउन अक्षम पार्नुहोस्</short>
+        <long>प्रयोगकर्तालाई उसको पर्दामा ताल्चा लगाउन रोक्नुहोस् ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Schermvergrendeling uitschakelen</short>
+        <long>Voorkomen dat de gebruiker het scherm kan vergrendelen</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Slå av bruk av skjermlåsing</short>
+        <long>Hindra brukaren i å låsa skjermen.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ପରଦା ତାଳକନ ପ୍ରକ୍ରିୟାକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ</short>
+        <long>ଏହି ପରଦାକୁ ତାଳକନ କରିବାରୁ ଚାଳକକୁ ଅଟକାନ୍ତୁ।</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਸਕਰੀਨ ਲਾਕ ਆਯੋਗ</short>
+        <long>ਯੂਜ਼ਰ ਵਲੋਂ ਆਪਣੀ ਸਕਰੀਨ ਤਾਲਾਬੰਦ ਕਰਨ ਤੋਂ ਰੋਕੋ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłączenie blokowania ekranu</short>
+        <long>Zapobiega przed zablokowaniem ekranu przez użytkownika.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar o trancar de ecrã</short>
+        <long>Impedir o utilizador de trancar o seu ecrã.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar o bloqueio de tela</short>
+        <long>Evitar que o usuário bloqueie sua tela.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare blocare ecran</short>
+        <long>Nu permite blocarea ecranului.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Отключить блокировку экрана</short>
+        <long>Запретить пользователю блокировку экрана.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zakázať uzamykaciu obrazovku</short>
+        <long>Zamedziť používateľovi uzamknúž obrazovku.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči zaklepanje zaslona</short>
+        <long>Prepreči uporabniku zaklepanje zaslona.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Çaktivizo bllokimin e ekranit</short>
+        <long>Nuk lejon përdoruesin të bllokojë ekranin e tij.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Искључи закључавање екрана</short>
+        <long>Спречи корисника да закључа екран.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Isključi zaključavanje ekrana</short>
+        <long>Spreči korisnika da zaključa ekran.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera skärmlåsning</short>
+        <long>Förhindra användaren från att låsa skärmen.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>திரை பூட்டை செயல்நீக்கு</short>
+        <long>இந்த திரையை பயனர் பூட்டுவதை தடுக்கிறது</long>
+      </locale>
+
+      <locale name="te">
+        <short>లాక్ తెరను అచేతనము చేయాలి</short>
+        <long>వినియోగదారిని తన తెరను లాక్‌చేయుటనుండి నిరోధించుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดการล็อคหน้าจอ</short>
+        <long>ป้องกันไม่ให้ผู้ใช้ล็อคจอภาพ</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Ekran kilitlemeyi kapat</short>
+        <long>Kullanıcının ekranını kilitlemesini engeller.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Вимкнути блокування екрану</short>
+        <long>Не давати користувачу можливість заблокувати екран.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tắt khả năng khoá màn hình</short>
+        <long>Ngăn cản người dùng khoá màn hình.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>禁止锁定屏幕</short>
+        <long>禁止用户锁定自己的屏幕。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>停用畫面上鎖</short>
+        <long>防止使用者鎖定螢幕。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>停用畫面上鎖</short>
+        <long>防止使用者鎖定螢幕。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/lockdown/disable_application_handlers</key>
+      <applyto>/desktop/gnome/lockdown/disable_application_handlers</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Disable URL and MIME type handlers</short>
+        <long>
+         Prevent running any URL or MIME type handler applications.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عطّل مداولي النوعين URL و MIME</short>
+        <long>يمنع تشغيل أي تطبيق مداول النوعين URL أو MIME.</long>
+      </locale>
+
+      <locale name="as">
+        <short>URL আৰু MIME type handlers নিষ্ক্ৰিয় কৰক</short>
+        <long>কোনো URL বা MIME type handler অনুপ্ৰয়োগ চলাব নিদিব ।</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на поддръжката на адреси и видове MIME</short>
+        <long>Ограничаване на стартирането на програми за обработката на адреси и видове MIME.</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>URL ও MIME টাইপ হ্যান্ডলার নিষ্ক্রিয় করা হবে</short>
+        <long>কোনো ধরনের URL অথবা MIME টাইপ হ্যান্ডলার অ্যাপ্লিকেশনের সঞ্চালন বন্ধ করা হবে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita els gestors d&apos;URL i de tipus MIME</short>
+        <long>Evita que s&apos;executi cap aplicació de gestió d&apos;URL o de tipus MIME.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita els gestiors d&apos;URL i de tipus MIME</short>
+        <long>Evita que s&apos;execute cap aplicació de gestió d&apos;URL o de tipus MIME.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>URL ve MIME tür qollayıcılarını ğayrı qabilleştir</short>
+        <long>Er angi bir URL yaki MIME tür qollayıcı uyğulamalarnıñ çapuvına mania ol.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zakázat obsluhu URL a typů MIME</short>
+        <long>Znemožnit běh jakýchkoliv aplikací obsluhujících URL nebo typy MIME.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér URL- og MIME-typehåndtering</short>
+        <long>Forhindr kørsel af URL- og MIME-typehåndteringsprogrammer.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Verarbeitung von URL- und MIME-Typen verhinden</short>
+        <long>Verhindert, dass Anwendungen zum Verarbeiten von URL- oder MIME-Typen gestartet werden.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση των χειριστών URL και τύπων MIME</short>
+        <long>Να εμποδίζεται οι εκτέλεση εφαρμογών χειριστών URL ή τύπων MIME</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable URL and MIME type handlers</short>
+        <long>Prevent running any URL or MIME type handler applications.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar los manejadores de URL y tipos MIME</short>
+        <long>Prevenir que cualquier aplicación ejecute cualquier manejador URL o tipo MIME.</long>
+      </locale>
+
+      <locale name="et">
+        <short>URL-ide ja MIME käsitlejate keelamine</short>
+        <long>URL-ide ja MIME-tüüpide käsitlemise rakenduste käivitamise keelamine.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu URL eta MIME moten kudeatzaileak</short>
+        <long>Saihestu edozein URL edo MIME moten aplikazio-kudeatzaileak exekutatzea.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Poista URL- ja MIME-tyyppien käsittelijät käytöstä</short>
+        <long>Estä URL- tai MIME-tyyppien käsittelijäohjelmien suoritus.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver les gestionnaires d&apos;URL et de type MIME</short>
+        <long>Empêcher le lancement d&apos;applications gérant les URL et les types MIME.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar os manipuladores de tipo URL e MIME</short>
+        <long>Impedir a execución de calquera aplicación de manipulación de tipo URL ou MIME.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>URL અને MIME પ્રકાર નિયંત્રકો નિષ્ક્રિય કરો</short>
+        <long>કોઈપણ URL અથવા MIME પ્રકાર નિયંત્રક કાર્યક્રમો ચલાવવાથી અટકાવો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable URL and MIME type handlers</short>
+        <long>Prevent running any URL or MIME type handler applications.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>यूआरएल और MIME प्रकार नियंत्रक निष्क्रिय करें</short>
+        <long>किसी URL अथवा MIME प्रकार नियंत्रक अनुप्रयोग का चलाया जाना रोकें.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>URL és MIME kezelők letiltása</short>
+        <long>Az URL vagy MIME típuskezelő alkalmazások futtatásának megakadályozása.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilitare i gestori degli URL e dei tipi MIME</short>
+        <long>Impedisce l&apos;esecuzione di qualsiasi applicazione di gestione URL o tipo MIME.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>URL と MIME 型のハンドラを無効にする</short>
+        <long>URL または MIME 型に対応したハンドラのアプリケーションを起動しないようにします。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>URL ಹಾಗು MIME ಬಗೆಯ ಹ್ಯಾಂಡ್ಲರುಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಯಾವುದೆ URL ಅಥವ MIME ಬಗೆಯ ಹ್ಯಾಂಡ್ಲರ್ ಅನ್ವಯಗಳನ್ನು ಚಲಾಯಿಸುವುದಂತೆ ತಡೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>URL 및 MIME 핸들러 사용하지 않기</short>
+        <long>URL이나 MIME 핸들러 프로그램을 사용하지 않습니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Išjungti URL ir MIME tipo dorokles</short>
+        <long>Neleisti vykdyti URL ar MIME tipų apdorojimo programų.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Исклучи справувачи за URL и MIME типови.</short>
+        <long>Спречи извршување на справувачот за апликации за било кое URL или MIME тип.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>URL, MIME തരത്തിലുള്ള ഹാന്‍ഡിലറുകളെ പ്രവര്‍ത്ത രഹിതമാക്കുക</short>
+        <long>ഏതു് തരത്തിലുമുള്ള URL അല്ലെങ്കില്‍ MIME തരത്തിലുള്ള ഹാന്‍ഡിലര്‍ പ്രയോഗങ്ങളുടെ പ്രവര്‍ത്തനം തടയുക.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>URL ба MIME төрөл боловсруулагчийг хаах</short>
+        <long>Ажиллаж буй URL эсвэл MIME төрөл боловсруулагч програмыг саатуулах.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>URL व MIME प्रकार हाताळणी अकार्यान्वीत करायचे</short>
+        <long>कुठलेही URL किंवा MIME प्रकार हॅन्डलर अनुप्रयोग चालविण्यापासून रोखा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Slå av URL- og MIME-håndterere</short>
+        <long>Forhindre kjøring av håndterere for URL og MIME-type.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>URL- en MIME-type afhandeling uitschakelen</short>
+        <long>Voorkomen dat bepaalde toepassingen gestart worden voor het afhandelen van URL- of MIME-types.</long>
+      </locale>
+
+      <locale name="or">
+        <short>URL ଏବଂ MIME ପ୍ରକାର ନିୟନ୍ତ୍ରକକୁ ନିଷ୍ଟ୍ରିୟ କରନ୍ତୁ</short>
+        <long>କୌଣସି URL ଏବଂ MIME ପ୍ରକାର ନିୟନ୍ତ୍ରକ ପ୍ରୟୋଗକୁ ଚାଲିବାରୁ ପ୍ରତିରୋଧ କରନ୍ତୁ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>URL ਅਤੇ MIME ਟਾਈਪ ਹੈਂਡਲਰ ਆਯੋਗ</short>
+        <long>ਕਿਸੇ ਵੀ URL ਜਾਂ MIME ਟਾਈਪ ਹੈਂਡਲਰ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣ ਤੋਂ ਪਾਬੰਦੀ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłącz obsługę typów MIME i adresów URL</short>
+        <long>Wyłącza uruchamianie programów obsługujących adresy URL lub typy MIME.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar os manipuladores de URLs e tipos MIME</short>
+        <long>Impedir a execução de quaisquer aplicações de manipulação de URLs ou tipos MIME.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar manipuladores de URL e tipo MIME</short>
+        <long>Evita a execução de quaisquer aplicativos manipuladores de URL ou tipo MIME.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare a aplicațiilor asociate URL-ulilor și tipurilor MIME</short>
+        <long>Previne pornirea oricărei aplicații asociate unui URL sau tip MIME</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Выключить обработчики ссылок и типов MIME</short>
+        <long>Запретить запуск любых приложений для открытия ссылок и обрабоки файлов различных типов.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Deaktivovať ovládače URL a MIME typu</short>
+        <long>Zabráni spusteniu ovládacej aplikácie pre URL alebo MIME typ.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči upravljavce URL in vrst MIME.</short>
+        <long>Prepreči zagona kateregakoli programa, ki upravlja naslove URL ali vrste MIME.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Çaktivizon menazhuesit e URL dhe llojeve MIME</short>
+        <long>Parandalo zbatimin e çfarëdolloj aplikativi që menazhon URL apo llojet MIME.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Унемогући баратање УРЛ адресама и МИМЕ врстама</short>
+        <long>Спречи покретање програма који прихватају УРЛ адресе и МИМЕ типове.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Unemogući baratanje URL adresama i MIME vrstama</short>
+        <long>Spreči pokretanje programa koji prihvataju URL adrese i MIME tipove.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera hanterare för URL- och MIME-typer</short>
+        <long>Förhindra att hanterarprogram för URL- eller MIME-typer körs.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>URL மற்றும் MIME வகை கையாளர்கள் செயல்நீக்கு</short>
+        <long>எந்த URL அல்லது MIME வகை கையாளுதல் பயன்பாடுகளையும் தடுக்கிறது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>URL మరియు MIME రకము సంభాలికలను అచేతనము చేయాలి</short>
+        <long>ఎటువంటి URL లేదా MIME రకము సంభాలిక అనువర్తనములు నడువుటనైనా నిరోధించుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดใช้การดำเนินการ URL และชนิด MIME</short>
+        <long>ไม่ต้องเรียกโปรแกรมจัดการ URL หรือชนิด MIME ใดๆ</long>
+      </locale>
+
+      <locale name="tr">
+        <short>URL ve MIME tür işleyicilerini etkinsizleştir</short>
+        <long>Herhangibir URL ya da MIME tür işleyici uygulamasının çalışmasını engelle.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Вимкнути обробники URL чи MIME</short>
+        <long>Запобігати запуску будь-якоих програм обробки типів URL чи MIME.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tắt các bộ quản lý địa chỉ URL và dạng MIME</short>
+        <long>Ngăn cản chạy bất cứ ứng dụng quản lý địa chỉ URL hay dạng MIME.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>禁用 URL 和 MIME 类型处理器</short>
+        <long>阻止运行任何 URL 或 MIME 类型处理程序。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>停用 URL 與 MIME 類型處理程式</short>
+        <long>避免執行任何 URL 與 MIME 類型處理程式。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>停用 URL 與 MIME 類型處理程式</short>
+        <long>避免執行任何 URL 與 MIME 類型處理程式。</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/desktop/gnome/lockdown/disable_application_handlers</key>
+      <applyto>/desktop/gnome/lockdown/disable_application_handlers</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Disable URL and MIME type handlers</short>
+        <long>
+         Prevent running any URL or MIME type handler applications.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عطّل مداولي النوعين URL و MIME</short>
+        <long>يمنع تشغيل أي تطبيق مداول النوعين URL أو MIME.</long>
+      </locale>
+
+      <locale name="as">
+        <short>URL আৰু MIME type handlers নিষ্ক্ৰিয় কৰক</short>
+        <long>কোনো URL বা MIME type handler অনুপ্ৰয়োগ চলাব নিদিব ।</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Изключване на поддръжката на адреси и видове MIME</short>
+        <long>Ограничаване на стартирането на програми за обработката на адреси и видове MIME.</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>URL ও MIME টাইপ হ্যান্ডলার নিষ্ক্রিয় করা হবে</short>
+        <long>কোনো ধরনের URL অথবা MIME টাইপ হ্যান্ডলার অ্যাপ্লিকেশনের সঞ্চালন বন্ধ করা হবে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inhabilita els gestors d&apos;URL i de tipus MIME</short>
+        <long>Evita que s&apos;executi cap aplicació de gestió d&apos;URL o de tipus MIME.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Inhabilita els gestiors d&apos;URL i de tipus MIME</short>
+        <long>Evita que s&apos;execute cap aplicació de gestió d&apos;URL o de tipus MIME.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>URL ve MIME tür qollayıcılarını ğayrı qabilleştir</short>
+        <long>Er angi bir URL yaki MIME tür qollayıcı uyğulamalarnıñ çapuvına mania ol.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zakázat obsluhu URL a typů MIME</short>
+        <long>Znemožnit běh jakýchkoliv aplikací obsluhujících URL nebo typy MIME.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Deaktivér URL- og MIME-typehåndtering</short>
+        <long>Forhindr kørsel af URL- og MIME-typehåndteringsprogrammer.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Verarbeitung von URL- und MIME-Typen verhinden</short>
+        <long>Verhindert, dass Anwendungen zum Verarbeiten von URL- oder MIME-Typen gestartet werden.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Απενεργοποίηση των χειριστών URL και τύπων MIME</short>
+        <long>Να εμποδίζεται οι εκτέλεση εφαρμογών χειριστών URL ή τύπων MIME</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Disable URL and MIME type handlers</short>
+        <long>Prevent running any URL or MIME type handler applications.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Desactivar los manejadores de URL y tipos MIME</short>
+        <long>Prevenir que cualquier aplicación ejecute cualquier manejador URL o tipo MIME.</long>
+      </locale>
+
+      <locale name="et">
+        <short>URL-ide ja MIME käsitlejate keelamine</short>
+        <long>URL-ide ja MIME-tüüpide käsitlemise rakenduste käivitamise keelamine.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Desgaitu URL eta MIME moten kudeatzaileak</short>
+        <long>Saihestu edozein URL edo MIME moten aplikazio-kudeatzaileak exekutatzea.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Poista URL- ja MIME-tyyppien käsittelijät käytöstä</short>
+        <long>Estä URL- tai MIME-tyyppien käsittelijäohjelmien suoritus.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Désactiver les gestionnaires d&apos;URL et de type MIME</short>
+        <long>Empêcher le lancement d&apos;applications gérant les URL et les types MIME.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Desactivar os manipuladores de tipo URL e MIME</short>
+        <long>Impedir a execución de calquera aplicación de manipulación de tipo URL ou MIME.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>URL અને MIME પ્રકાર નિયંત્રકો નિષ્ક્રિય કરો</short>
+        <long>કોઈપણ URL અથવા MIME પ્રકાર નિયંત્રક કાર્યક્રમો ચલાવવાથી અટકાવો.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Disable URL and MIME type handlers</short>
+        <long>Prevent running any URL or MIME type handler applications.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>यूआरएल और MIME प्रकार नियंत्रक निष्क्रिय करें</short>
+        <long>किसी URL अथवा MIME प्रकार नियंत्रक अनुप्रयोग का चलाया जाना रोकें.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>URL és MIME kezelők letiltása</short>
+        <long>Az URL vagy MIME típuskezelő alkalmazások futtatásának megakadályozása.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Disabilitare i gestori degli URL e dei tipi MIME</short>
+        <long>Impedisce l&apos;esecuzione di qualsiasi applicazione di gestione URL o tipo MIME.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>URL と MIME 型のハンドラを無効にする</short>
+        <long>URL または MIME 型に対応したハンドラのアプリケーションを起動しないようにします。</long>
+      </locale>
+
+      <locale name="kn">
+        <short>URL ಹಾಗು MIME ಬಗೆಯ ಹ್ಯಾಂಡ್ಲರುಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸು</short>
+        <long>ಯಾವುದೆ URL ಅಥವ MIME ಬಗೆಯ ಹ್ಯಾಂಡ್ಲರ್ ಅನ್ವಯಗಳನ್ನು ಚಲಾಯಿಸುವುದಂತೆ ತಡೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>URL 및 MIME 핸들러 사용하지 않기</short>
+        <long>URL이나 MIME 핸들러 프로그램을 사용하지 않습니다.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Išjungti URL ir MIME tipo dorokles</short>
+        <long>Neleisti vykdyti URL ar MIME tipų apdorojimo programų.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Исклучи справувачи за URL и MIME типови.</short>
+        <long>Спречи извршување на справувачот за апликации за било кое URL или MIME тип.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>URL, MIME തരത്തിലുള്ള ഹാന്‍ഡിലറുകളെ പ്രവര്‍ത്ത രഹിതമാക്കുക</short>
+        <long>ഏതു് തരത്തിലുമുള്ള URL അല്ലെങ്കില്‍ MIME തരത്തിലുള്ള ഹാന്‍ഡിലര്‍ പ്രയോഗങ്ങളുടെ പ്രവര്‍ത്തനം തടയുക.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>URL ба MIME төрөл боловсруулагчийг хаах</short>
+        <long>Ажиллаж буй URL эсвэл MIME төрөл боловсруулагч програмыг саатуулах.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>URL व MIME प्रकार हाताळणी अकार्यान्वीत करायचे</short>
+        <long>कुठलेही URL किंवा MIME प्रकार हॅन्डलर अनुप्रयोग चालविण्यापासून रोखा.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Slå av URL- og MIME-håndterere</short>
+        <long>Forhindre kjøring av håndterere for URL og MIME-type.</long>
+      </locale>
+
+      <locale name="nl">
+        <short>URL- en MIME-type afhandeling uitschakelen</short>
+        <long>Voorkomen dat bepaalde toepassingen gestart worden voor het afhandelen van URL- of MIME-types.</long>
+      </locale>
+
+      <locale name="or">
+        <short>URL ଏବଂ MIME ପ୍ରକାର ନିୟନ୍ତ୍ରକକୁ ନିଷ୍ଟ୍ରିୟ କରନ୍ତୁ</short>
+        <long>କୌଣସି URL ଏବଂ MIME ପ୍ରକାର ନିୟନ୍ତ୍ରକ ପ୍ରୟୋଗକୁ ଚାଲିବାରୁ ପ୍ରତିରୋଧ କରନ୍ତୁ.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>URL ਅਤੇ MIME ਟਾਈਪ ਹੈਂਡਲਰ ਆਯੋਗ</short>
+        <long>ਕਿਸੇ ਵੀ URL ਜਾਂ MIME ਟਾਈਪ ਹੈਂਡਲਰ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣ ਤੋਂ ਪਾਬੰਦੀ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyłącz obsługę typów MIME i adresów URL</short>
+        <long>Wyłącza uruchamianie programów obsługujących adresy URL lub typy MIME.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Desactivar os manipuladores de URLs e tipos MIME</short>
+        <long>Impedir a execução de quaisquer aplicações de manipulação de URLs ou tipos MIME.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Desabilitar manipuladores de URL e tipo MIME</short>
+        <long>Evita a execução de quaisquer aplicativos manipuladores de URL ou tipo MIME.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Dezactivare a aplicațiilor asociate URL-ulilor și tipurilor MIME</short>
+        <long>Previne pornirea oricărei aplicații asociate unui URL sau tip MIME</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Выключить обработчики ссылок и типов MIME</short>
+        <long>Запретить запуск любых приложений для открытия ссылок и обрабоки файлов различных типов.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Deaktivovať ovládače URL a MIME typu</short>
+        <long>Zabráni spusteniu ovládacej aplikácie pre URL alebo MIME typ.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Onemogoči upravljavce URL in vrst MIME.</short>
+        <long>Prepreči zagona kateregakoli programa, ki upravlja naslove URL ali vrste MIME.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Çaktivizon menazhuesit e URL dhe llojeve MIME</short>
+        <long>Parandalo zbatimin e çfarëdolloj aplikativi që menazhon URL apo llojet MIME.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Унемогући баратање УРЛ адресама и МИМЕ врстама</short>
+        <long>Спречи покретање програма који прихватају УРЛ адресе и МИМЕ типове.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Unemogući baratanje URL adresama i MIME vrstama</short>
+        <long>Spreči pokretanje programa koji prihvataju URL adrese i MIME tipove.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Inaktivera hanterare för URL- och MIME-typer</short>
+        <long>Förhindra att hanterarprogram för URL- eller MIME-typer körs.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>URL மற்றும் MIME வகை கையாளர்கள் செயல்நீக்கு</short>
+        <long>எந்த URL அல்லது MIME வகை கையாளுதல் பயன்பாடுகளையும் தடுக்கிறது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>URL మరియు MIME రకము సంభాలికలను అచేతనము చేయాలి</short>
+        <long>ఎటువంటి URL లేదా MIME రకము సంభాలిక అనువర్తనములు నడువుటనైనా నిరోధించుము.</long>
+      </locale>
+
+      <locale name="th">
+        <short>ปิดใช้การดำเนินการ URL และชนิด MIME</short>
+        <long>ไม่ต้องเรียกโปรแกรมจัดการ URL หรือชนิด MIME ใดๆ</long>
+      </locale>
+
+      <locale name="tr">
+        <short>URL ve MIME tür işleyicilerini etkinsizleştir</short>
+        <long>Herhangibir URL ya da MIME tür işleyici uygulamasının çalışmasını engelle.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Вимкнути обробники URL чи MIME</short>
+        <long>Запобігати запуску будь-якоих програм обробки типів URL чи MIME.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tắt các bộ quản lý địa chỉ URL và dạng MIME</short>
+        <long>Ngăn cản chạy bất cứ ứng dụng quản lý địa chỉ URL hay dạng MIME.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>禁用 URL 和 MIME 类型处理器</short>
+        <long>阻止运行任何 URL 或 MIME 类型处理程序。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>停用 URL 與 MIME 類型處理程式</short>
+        <long>避免執行任何 URL 與 MIME 類型處理程式。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>停用 URL 與 MIME 類型處理程式</short>
+        <long>避免執行任何 URL 與 MIME 類型處理程式。</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

@@ -1,0 +1,1523 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/window_manager/default</key>
+      <applyto>/desktop/gnome/applications/window_manager/default</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <locale name="C">
+        <short>Fallback window manager (deprecated)</short>
+        <long>
+          Fallback window manager if user window manager can't be found.
+          This key has been deprecated since GNOME 2.12.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>مدير النوافذ البديل (لاغِ)</short>
+        <long>مدير النوافذ البديل إذا لم يوجد مدير نوافذ للمستخدم. ألغي هذا المفتاح منذ جنوم 2.12.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ফলবেক সংযোগক্ষেত্ৰ পৰিচালন ব্যৱস্থা (অবচিত)</short>
+        <long>ব্যৱহাৰকৰ্তাৰ সংযোগক্ষেত্ৰ পৰিচালনব্যৱস্থা অনুপস্থিত থাকিলে ব্যৱহৃত ফলবেক সংযোগক্ষেত্ৰ পৰিচালন ব্যৱস্থা । GNOME 2.12 সংস্কৰণৰ পিছত এই চাবি অবচিত হৈছে ।</long>
+      </locale>
+
+      <locale name="be">
+        <short>Аварыйны кіраўнік вокнаў (асуджанае)</short>
+        <long>Аварыйны кіраўнік вокнаў, які будзе выкарыстоўвацца калі прадвызначаны адсутнічае. Гэты ключ асуджаны пачынаючы з вэрсіі GNOME 2.12.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Резервен мениджър на прозорци (остаряла настройка, да не се използва)</short>
+        <long>Резервен мениджър на прозорци в случай, че потребителският не е открит. Този ключ е остарял и не се препоръчва да се ползва от GNOME 2.12 насам.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ফলব্যাক উইন্ডো ম্যানেজার (আর ব্যবহার করা হয় না)</short>
+        <long>ব্যবহারকারী যদি উইন্ডো ম্যানেজার খুঁজে না পায় সেক্ষেত্রে ব্যবহৃত ফলব্যাক উইন্ডো ম্যানেজার। এ কীটি GNOME 2.12 থেকে আর ব্যবহার করা হয় না।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ফলব্যাক উইন্ডো পরিচালন ব্যবস্থা (অবচিত)</short>
+        <long>ব্যবহারকারীর উইন্ডো পরিচালনব্যবস্থা অনুপস্থিত থাকলে ব্যবহৃত ফলব্যাক উইন্ডো পরিচালন ব্যবস্থা। GNOME ২.১২ সংস্করণের পরে এই কি অবচিত হয়েছে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Gestor de finestres d&apos;emergència (en desús)</short>
+        <long>Gestor de finestres d&apos;emergència si no es pot executar el gestor de finestres de l&apos;usuari. Aquesta clau està en desús des del GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Gestor de finestres d&apos;emergència (en desús)</short>
+        <long>Gestor de finestres d&apos;emergència si no es pot executar el gestor de finestres de l&apos;usuari. Esta clau està en desús des del GNOME 2.12.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Keri-tüşme pencere idarecisi (takbih etilgen)</short>
+        <long>Qullanıcı pencere idarecisi tapılamasa, keri-tüşme pencere idarecisi. Bu anahtar GNOME 2.12&apos;den itibaren takbih etilgendir.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Náhradní manažer oken (zastaralé)</short>
+        <long>Náhradní manažer oken, pokud nelze najít uživatelského manažera oken. Tento klíč byl od GNOME 2.12 zastaralý.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Rheolwr ffenestri wrth gefn (anghymeradwyir)</short>
+        <long>Rheolwr ffenestri wrth gefn os methir canfod rheolwr ffenestri&apos;r defnyddiwr. Mae&apos;r allwedd hon wedi ei anghymeradwyo ers GNOME 2.12.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Vindueshåndtering at falde tilbage på (forældet)</short>
+        <long>Den vindueshåndtering der skal faldes tilbage på hvis brugerens vindueshåndtering ikke kan findes. Denne nøgle har været forældet siden Gnome 2.12.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Fenster-Manager im Problemfall (veraltet)</short>
+        <long>Fenster-Manager, der verwendet werden soll, wenn der bevorzugte Fenster-Manager nicht gefunden werden konnte. Dieser Schlüssel ist seit GNOME 2.12 veraltet.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>གློ་བུར་རྒྱབ་ཐག་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ།(ངོས་ལེན་མེདཔ)</short>
+        <long>ལག་ལེན་པའི་ སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་ འཚོལ་མ་ཐོབ་པ་ཅིན་ གློ་བུར་རྒྱབ་ཐག་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ། ལྡེ་མིག་འདི་ ཇི་ནོམ་ ༢.༡༢ ཐོན་ཞིནམ་ལས་ ངོས་ལེན་མེདཔ་བཟོ་ཡི།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εφεδρικός διαχειριστής παραθύρων (ξεπερασμένο)</short>
+        <long>Εφεδρικός διαχειριστής παραθύρων αν ο διαχειριστής παραθύρων του χρήστη δε μπορεί να βρεθεί, Αυτό το κλειδί είναι ξεπερασμένο στο GNOME 2.12.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Fallback window manager (deprecated)</short>
+        <long>Fallback window manager if user&apos;s window manager cannot be found. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Fallback window manager (deprecated)</short>
+        <long>Fallback window manager if user window manager can&apos;t be found. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Rezerva fenestra administrilo (malrekomendite)</short>
+        <long>Rezerva fenestra administrilo se fenestra administrilo de uzanto ne troveblas. Ĉi tiu ŝlosilo estas malrekomendita ekde GNOMO 2.12.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Gestor de ventanas auxiliar (obsoleto)</short>
+        <long>Gestor de ventanas auxiliar si el gestor de ventanas del usuario no puede encontrarse. Esta clave es obsoleta desde GNOME 2.12.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Tagavara-aknahaldur (aegunud)</short>
+        <long>Aknahaldur, mis käivitatakse juhul, kui kasutaja aknahaldurit ei leita. See võti on alates GNOME 2.12 versioonist aegunud.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Laguntzako leiho-kudeatzailea (zaharkitua)</short>
+        <long>Laguntzako leiho-kudeatzailea erabiltzailearen leiho-kudeatzailea aurkitu ezin bada. Gako hau zaharkitua gelditu da GNOME 2.12 bertsiotik.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Varaikkunointiohjelma (vanhentunut)</short>
+        <long>Varaikkunointiohjelma, jos käyttäjän määrittelemää ei löydy. Tämä avain on vanhentunut versiosta Gnome 2.12 alkaen.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Gestionnaire de fenêtres de secours (déconseillé)</short>
+        <long>Gestionnaire de fenêtres de secours si le gestionnaire de fenêtres de l&apos;utilisateur ne peut être trouvé. Cette clé est déconseillée depuis GNOME 2.12.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Window manager di ripiego (deprecât)</short>
+        <long>Window manager di doprâ come ripiego se chel sielt da l&apos;utent nol ven cjatât. Cheste clâf je stade deprecade a partì di Gnome 2.12.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>Modo de emerxencia do xestor de xanelas (obsoleto)</short>
+        <long>Modo de emerxencia do xestor de xanelas se non se pode localizar o xestor de xanelas do usuario. Esta chave volveuse obsoleta desde o Gnome 2.12.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ફોલબેક વિન્ડો વ્યવસ્થાપક (ઊતારી પડાયેલ)</short>
+        <long>ફોલબેક વિન્ડો વ્યવસ્થાપક જો વપરાશકર્તા વિન્ડો વ્યવસ્થાપક શોધી શકય નહિં. આ કી GNOME 2.12 આવ્યું ત્યારથી ઊતારી પડાયેલ છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Fallback window manager (deprecated)</short>
+        <long>Fallback window manager if user window manager can&apos;t be found. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>फालबैक विंडो प्रबंधक (पदावनत)</short>
+        <long>यदि उपयोगकर्ता विंडो प्रबंधक नहीं मिलेगा तो फ़ालबैक विंडो प्रबंधक पाया नहीं जा सकता. इस कुंजी को GNOME 2.12 के बाद पदावनत किया जा रहा है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Rezervni upravitelj prozorima (zastarjelo)</short>
+        <long>Rezervni upravitelj prozorima ako korisnički upravitelj prozorima ne može biti nađen. Ovaj ključ je zastario od GNOME-a verzije 2.12.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Tartalék ablakkezelő (elavult)</short>
+        <long>Tartalék ablakkezelő, ha a felhasználói ablakkezelő nem használható. Ez a kulcs a GNOME 2.12 óta elavultnak számít.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Pengatur jendela awal</short>
+        <long>Pengatur jendela asal bila pengatur jendela yang ditentukan tidak ditemukan. Kunci ini tidak digunakan lagi sejak GNOME 2.12.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Window manager di ripiego (deprecata)</short>
+        <long>Window manager da usare come ripiego se quello scelto dall&apos;utente non viene trovato. Questa chiave è stata resa deprecata a partire da GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>代替のウィンドウ・マネージャ (破棄の予定)</short>
+        <long>指定したウィンドウ・マネージャが見つからなかった場合の代替のウィンドウ・マネージャです (このキーは GNOME 2.12 から破棄される予定です)。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ფანჯრების სამარაგო მმართველი (გაუქმდა)</short>
+        <long>ფანჯრების სამარაგო მმართველი თუ მომხმარებლის ფანჯრების მმართველი ვერ მოიძებნა. ეს კლავიში გაუქმდა GNOME 2.12-ის შემდეგ.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಹಿಮ್ಮರಳಿಕೆಯ ವಿಂಡೋ ವ್ಯವಸ್ಥಾಪಕ (ಬಳಕೆಯಲ್ಲಿಲ್ಲ)</short>
+        <long>ಬಳಕೆದಾರರ ವಿಂಡೋ ವ್ಯವಸ್ಥಾಪಕವು ಕಂಡುಬರದೆ ಇದ್ದಲ್ಲಿ ಹಿಮ್ಮರಳಬೇಕಿರುವ ವಿಂಡೋ ವ್ಯವಸ್ಥಾಪಕ. ಈ ಕೀಲಿಯು GNOME 2.12 ಯ ನಂತರದಿಂದ ಬಳಕೆಯಲ್ಲಿಲ್ಲ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>예비 창 관리자 (사용하지 말 것 권장)</short>
+        <long>사용자의 창 관리자를 찾을 수 없는 경우의 예비 창 관리자. 이 키는 그놈 2.12부터 사용하지 말 것을 권장합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Çareya dawî gerînendeyê paceyan (nayê bikaranîn)</short>
+        <long>Heke gerînendeyê paceyan neyê dîtin weke çareya dawî gerînendeyê paceyan ya wê were bikaranîn. Ev mifte piştî GNOME 2.12 nayê bikaranîn.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Atsarginė langų tvarkyklė (nebenaudojama)</short>
+        <long>Atsarginė langų tvarkyklė, kurią reiktų naudoti, jei vartotojo pasirinkta tvarkyklė nerandama. Šis raktas nuo GNOME 2.12 nebenaudojamas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Logu rezerves pārvaldnieks (novecojis)</short>
+        <long>Logu rezerves pārvaldnieks gadījumam, ja lietotāja logu pārvaldnieks nav atrodams. Šī atslēga vairs netiek lietota kopš GNOME 2.12.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>फालबैक विंडो प्रबंधक (पदावनत)</short>
+        <long>जँ प्रयोक्ता विंडो प्रबंधक नहि भेटैत अछि तँ फालबैक विंडो प्रबंधक पएल नहि जाए सकैत अछि. ई कुँजीकेँ GNOME 2.12 क&apos; बाद पदावनत कएल जाए रहल अछि.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Mpandrindra fikandrana fiandry (tsy ampiasaina intsony)</short>
+        <long>Mpandrindra fikandrana azo ampiasaina raha tsy hita ny mpandrindra fikandran&apos;ny mpampiasa. Efa hatramin&apos;ny GNOME 2.12 no tsy nampisana io famaha io intsony.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Враќачки менаџер на прозорци (заостанат)</short>
+        <long>Враќачки менаџер на прозорци ако ако не може да биде пронајден корисничкиот менаџер на прозорци. Ова копче е заостанато во GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ഫോള്‍ബാക്ക് ജാലക മാനേജര്‍</short>
+        <long>ഉപയോക്താവിന്റെ ജാലകങ്ങളുടെ നടത്തിപ്പുകാരനെ കണ്ടില്ലെങ്കില്‍ പകരമുപയോഗിയ്ക്കേണ്ട ജാലകങ്ങളുടെ നടത്തിപ്പുകാരന്‍. ഗ്നോമിന്റെ 2.12 പതിപ്പു് മുതല്‍ ഇതു് നിരുത്സാഹപ്പെടുത്തിയിരിയ്ക്കുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Ослын үе дэх цонхны менежер (хуучирсан)</short>
+        <long>Хэрэглэгч цонхны менежер олохгүй үед хэрэглэх &quot;ослын&quot; үеийн цонхны менежер. Энэ түлхүүр GNOME 2.12 -оос хойш хуучирсан.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>विश्वासर्ह विंडो व्यवस्थापक (वापरणीत नाही)</short>
+        <long>वापरकर्ता चौकट व्यवस्थापक न आढळल्यास विश्वासर्ह विंडो व्यवस्थापक. ही किल्ली GNOME 2.12 पासून वापरल्या जात नाही.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Reserve-vindushåndterer (fases ut)</short>
+        <long>Reserve-vindushåndterer hvis brukerens vindushåndterer ikke kan finnes. Denne nøkkelen skal fases ut etter GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>सञ्झ्याल प्रबन्धकलाई पछाडि धकेल्नुहोस् (अमान्य)</short>
+        <long>प्रयोगकर्ता सञ्झ्याल प्रबन्धक फेला परेन भने सञ्झ्याल प्रबन्धकलाई पछाडि धकेल्नुहोस् । यो कुञ्जीलाई GNOME २.१२ देखि अमान्य बनाइएको छ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Terugval-window manager (ontraden)</short>
+        <long>Windowmanager om op terug te vallen als de gebruikers-windowmanager onvindbaar is. Deze sleutel is ontraden sinds Gnome 2.12.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Reservevindaugehandsamar (forelda)</short>
+        <long>Vindaugehandsamar som skal brukast dersom standardhandsamaren ikkje er å finna. Denne nøkkelen har vore forelda sidan GNOME 2.12.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଶେଷ ଅବଲମ୍ବିତ ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ (ଅପସନ୍ଦ)</short>
+        <long>ଶେଷ ଅବଲମ୍ବିତ ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ, ଯଦି ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ ମିଳିଲା ନାହିଁ.ଏହି ଚାବି ନୋମର 2.12 ସଂସ୍କରଣଠାରୁ ଅପସନ୍ଦ କରାଯାଇଛି.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਫਾਲਬੈਕ ਵਿੰਡੋ ਮੈਨੇਜਰ (ਬਰਤਰਫ਼)</short>
+        <long>ਫਾਲਬੈਕ ਵਿੰਡੋ ਮੈਨੇਜਰ, ਜੇਕਰ ਯੂਜ਼ਰ ਪਰਬੰਧਕ ਨਾ ਲੱਭਿਆ ਜਾ ਸਕੇ। ਇਹ ਕੁੰਜੀ ਗਨੋਮ 2.12 ਵਿੱਚ ਬਰਤਰਫ਼ ਕੀਤੀ ਜਾ ਚੁੱਕੀ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Zastępczy menedżer okien (przestarzały)</short>
+        <long>Zastępczy menedżer okien jeśli menedżer okien użytkownika nie może zostać odnaleziony. Klucz ten jest przestarzały od czasu GNOME 2.12.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Gestor de janelas de recurso (obsoleta)</short>
+        <long>Gestor de janelas de recurso se o gestor de janelas do utilizador não for encontrado. Esta chave tornou-se obsoleta a partir do GNOME 2.12.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Gerenciador de janelas reserva (obsoleto)</short>
+        <long>Gerenciador de janelas reserva, caso o gerenciador de janelas do usuário não for localizado. Essa chave ficou obsoleta desde o GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Administrator de ferestre de rezervă (opțiune învechită)</short>
+        <long>Administrator de ferestre secundar pornit în cazul în care cel principal lipsește. Această cheie nu mai este utilizată începând cu GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Резервный оконный менеджер (устарело)</short>
+        <long>Резервный оконный менеджер, если указанный пользователем не найден. Этот ключ является устаревшим начиная с GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Predvolený správca okien (zastaralé)</short>
+        <long>Predvolený správca okien, ak správca okien zvolený používateľom nebol nájdený. Tento kľúč je zastaralý od GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Rezervni upravitelj oken (opuščen)</short>
+        <long>Rezervni upravitelj oken, če uporabnikovega upravitelja ni mogoče najti. Ta ključ je opuščen od GNOME 2.12 naprej.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Organizuesi i dritares palosës (nuk përdoret më)</short>
+        <long>Organizuesi i dritareve që duhet përdorur si palosës nëse ai i zgjedhur nga përdoruesi nuk arrin të gjendet. Kjo vlerë nuk përdoret më me GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Резервни управник прозора (застарело)</short>
+        <long>Резервни управник прозора уколико не може да пронађе корисников управник. Овај кључ је застарео почевши од Гнома 2.12.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Rezervni upravnik prozora (zastarelo)</short>
+        <long>Rezervni upravnik prozora ukoliko ne može da pronađe korisnikov upravnik. Ovaj ključ je zastareo počevši od Gnoma 2.12.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Alternativ fönsterhanterare (föråldrat)</short>
+        <long>Alternativ fönsterhanterare om användarfönsterhanteraren inte kan hittas. Denna nyckel har föråldrats sedan GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>பின்சார்ந்த சாளரமேலாளர் (எதிரிடையானது)</short>
+        <long>பயனர் சாளரமேலாளர் காணாவிட்டால், பின்சார்ந்த சாளரமேலாளர். GNOME 2.12லிருந்து இந்த விசை எதிரிடையானது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>ఫాల్‌బ్యాక్ విండో నిర్వాహకి (నిలిపివేయబడింది)</short>
+        <long>వినియోగదారి విండో నిర్వాహిక కనుగొనలేకపోతే ఫాల్‌బ్యాక్ విండో నిర్వాహిక. ఈ కీ GNOME 2.12 నుండి నిలిపివేయబడింది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>โปรแกรมจัดการหน้าต่างสำรอง (เลิกใช้แล้ว)</short>
+        <long>โปรแกรมจัดการหน้าต่างที่ใช้เมื่อหาโปรแกรมจัดการหน้าต่างที่ผู้ใช้เลือกไม่พบ  คีย์นี้เลิกใช้แล้วตั้งแต่ GNOME 2.12 เป็นต้นไป</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Son çare pencere yöneticisi (kullanılmıyor)</short>
+        <long>Eğer pencere yöneticisi bulunmazsa son çare olarak kullanılacak pencere yöneticisi. Bu anahtar GNOME 2.12 sonrası kullanılmıyor.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Аварійний віконний менеджер (застарілий)</short>
+        <long>Аварійний віконний менеджер, на випадок, коли не вдасться знайти вказаний користувачем. Цей ключ позначений застарілим починаючи з GNOME 2.12.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bộ quản lý cửa sổ dự phòng (bị phản đối)</short>
+        <long>Bộ quản lý cửa sổ dự phòng trong trường hợp không tìm thấy bộ quản lý cửa sổ của người dùng. Khóa này đã bị phản đối kể từ Gnome 2.12.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>默认窗口管理器(不推荐)</short>
+        <long>用户窗口管理器无法找到时使用的默认窗口管理器。此键自 GNOME 2.12 之后不再推荐使用。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>後備視窗總管（不鼓勵再使用）</short>
+        <long>當找不到用戶首選的視窗總管時，執行這裏指定的後備視窗總管。這設定鍵自 GNOME 2.12 已不鼓勵再使用。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>後備視窗總管（不鼓勵再使用）</short>
+        <long>當找不到用戶首選的視窗總管時，執行這裡指定的後備視窗總管。這設定鍵自 GNOME 2.12 已不鼓勵再使用。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/window_manager/current</key>
+      <applyto>/desktop/gnome/applications/window_manager/current</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <locale name="C">
+        <short>User window manager (deprecated)</short>
+        <long>
+          Window manager to try first.
+          This key has been deprecated since GNOME 2.12.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>مدير نوافذ المستخدم (لاغِ)</short>
+        <long>مدير النوافذ الذي سيجرب أولا. ألغي هذا المفتاح منذ جنوم 2.12.</long>
+      </locale>
+
+      <locale name="as">
+        <short>ব্যৱহাৰকৰ্তাৰ সংযোগক্ষেত্ৰ পৰিচালন ব্যৱস্থা (অবচিত)</short>
+        <long>প্ৰথমে ব্যৱহাৰৰ বাবে চিহ্নিত সংযোগক্ষেত্ৰ পৰিচালনব্যৱস্থা । GNOME 2.12 সংস্কৰণৰ পিছত এই চাবি অবচিত হৈছে ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Xestor de ventanes del usuariu (obsoletu)</short>
+        
+      </locale>
+
+      <locale name="be">
+        <short>Кіраўнік вокнаў абраны карыстальнікам (асуджанае)</short>
+        <long>Кіраўнік вокнаў, які будзе паспрабаваны першым. Гэты ключ асуджаны пачынаючы з вэрсіі GNOME 2.12.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Потребителски мениджър на прозорци (остаряла настройка, да не се използва)</short>
+        <long>Мениджър за прозорци, който да се използва с приоритет. Този ключ е остарял и не се препоръчва да се ползва от GNOME 2.12 насам.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ব্যবহারকারীর উইন্ডো ম্যানেজার (আর ব্যবহার করা হয় না)</short>
+        <long>উইন্ডো ব্যবস্থাপক প্রথমে চেষ্টা করা হবে। এই কী-টি গুনোম ২.১২ থেকে বর্জন করা হচ্ছে।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ব্যবহারকারীর উইন্ডো পরিচালন ব্যবস্থা (অবচিত)</short>
+        <long>প্রথমে ব্যবহারের জন্য চিহ্নিত উইন্ডো পরিচালনব্যবস্থা। GNOME ২.১২ সংস্করণের পরে এই কি অবচিত হয়েছে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Gestor de finestres de l&apos;usuari (en desús)</short>
+        <long>El gestor de finestres que s&apos;ha de provar en primer lloc. Aquesta clau està en desús des del GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Gestor de finestres de l&apos;usuari (en desús)</short>
+        <long>El gestor de finestres que s&apos;ha de provar en primer lloc. Esta clau està en desús des del GNOME 2.12.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Qullanıcınıñ pencere idarecisi (takbih etilgen)</short>
+        <long>İlk deñelecek pencere idarecisi. Bu anahtar GNOME 2.12&apos;den itibaren takbih etilgendir.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Uživatelský manažer oken (zastaralé)</short>
+        <long>Manažer oken, který zkusit nejdřív. Tento klíč byl od GNOME 2.12 zastaralý.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Rheolwr ffenestri&apos;r defnyddiwr (anghymeradwyir)</short>
+        <long>Y rheolwr ffenestri i&apos;w geisio&apos;n gyntaf. Mae&apos;r allwedd hon wedi ei anghymeradwyo ers GNOME 2.12.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Brugervindueshåndtering (forældet)</short>
+        <long>Den vindueshåndtering der skal prøves først. Denne nøgle har være forældet siden Gnome 2.12.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Bevorzugter Fenster-Manager (veraltet)</short>
+        <long>Der Fenster-Manager der als erster versucht werden soll. Dieser Schlüssel ist seit GNOME 2.12 veraltet.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ལག་ལེན་པའི་སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ།(ངོས་ལེན་མེདཔ)</short>
+        <long>དང་པ་ར་ སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་ ལག་ལུན་འཐབ། ལྡེ་མིག་འདི་ ཇི་ནོམ་༢.༡༢ ཐོན་ཞིནམ་ལས་ ངོས་ལེན་མེདཔ་བཟོ་ཡི།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Διαχειριστής παραθύρων χρήστη (ξεπερασμένο)</short>
+        <long>Διαχειριστής παραθύρων που θα δοκιμαστεί πρώτος. Αυτό το κλειδί είναι ξεπερασμένο στο GNOME 2.12.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>User window manager (deprecated)</short>
+        <long>Window manager to try first. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>User window manager (deprecated)</short>
+        <long>Window manager to try first. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Uzanta fenestra administrilo (malrekomendita)</short>
+        <long>Fenestra administrilo por provi unue. Ĉi tiu ŝlosilo estas malrekomendita ekde GNOMO 2.12.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Gestor de ventanas del usuario (obsoleto)</short>
+        <long>Gestor de ventanas que se probará primero. Esta clave es obsoleta desde GNOME 2.12.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Kasutaja aknahaldur (aegunud)</short>
+        <long>Aknahaldur, mida proovitakse esimesena. See võti on alates GNOME 2.12-st aegunud.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Erabiltzailearen leiho-kudeatzailea (zaharkitua)</short>
+        <long>Leiho-kudeatzailea aurrenik saiatzeko. Gako hau zaharkitua gelditu da GNOME 2.12 bertsiotik.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Käyttäjän määrittelemä ikkunointiohjelma (vanhentunut)</short>
+        <long>Ensimmäiseksi yritettävä ikkunointiohjelma. Tämä avain on vanhentunut versiosta Gnome 2.12 alkaen.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Gestionnaire de fenêtres de l&apos;utilisateur (déconseillé)</short>
+        <long>Gestionnaire de fenêtres à essayer en premier. Cette clé est déconseillée depuis GNOME 2.12.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Window manager da l&apos;utent (deprecât)</short>
+        <long>Window manager di doprâ par prin. Cheste clâf je stade deprecade a partì di Gnome 2.12.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Bainisteoir fuinneog úsáideora (lochtach)</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Xestor de xanelas do usuario (obsoleto)</short>
+        <long>Xestor de xanelas que se probará primeiro. Esta chave é obsoleta desde o Gnome 2.12.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>વપરાશકર્તા વિન્ડો વ્યવસ્થાપક (ઊતારી પડાયેલ)</short>
+        <long>પ્રથમ પ્રયાસ કરવાનું વિન્ડો વ્યવસ્થાપક. આ કી GNOME 2.12 આવ્યું ત્યારથી ઊતારી પડાયેલ છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>User window manager (deprecated)</short>
+        <long>Window manager to try first. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>उपयोगकर्ता विंडो प्रबंधक (पदावनत)</short>
+        <long>विंडो प्रबंधक को पहले कोशिश करनी चाहिये. इस कुंजी को GNOME 2.12 के बाद पदावनत किया गया है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Korisnički upravitelj prozorima (zastarjelo)</short>
+        <long>Upravitelj prozorima koji će se prvi koristiti. Ovaj ključ je zastario od GNOME-a verzije 2.12.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Felhasználói ablakkezelő (elavult)</short>
+        <long>Az elsőként próbálandó ablakkezelő. Ez a kulcs a GNOME 2.12 óta elavultnak számít.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Pengatur Jendela</short>
+        <long>Pengatur jendela yang dijalankan pertama kali. Kunci ini tidak digunakan lagi sejak GNOME 2.12</long>
+      </locale>
+
+      <locale name="it">
+        <short>Window manager dell&apos;utente (deprecata)</short>
+        <long>Window manager da provare per primo. Questa chiave è stata resa deprecata a partire da GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ユーザ指定のウィンドウ・マネージャ (破棄の予定)</short>
+        <long>最初に起動してみるウィンドウ・マネージャです (このキーは GNOME 2.12 から破棄される予定です)。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>მომხმარებლის ფანჯრების მმართველი (უარყოფილია)</short>
+        <long>ფანჯრების პირველადი მმართველი. კლავიში უარყოფილია GNOME 2.12-ის შემდეგ.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಬಳಕೆದಾರ ವಿಂಡೊ ವ್ಯವಸ್ಥಾಪಕ (ಬಳಕೆಯಲ್ಲಿಲ್ಲ)</short>
+        <long>ಮೊದಲು ಪ್ರಯತ್ನಿಸಬೇಕಿರುವ ವಿಂಡೋ ವ್ಯವಸ್ಥಾಪಕ. ಈ ಕೀಲಿಯನ್ನು GNOME 2.12 ಯ ನಂತರದಿಂದ ಬಳಕೆಯಲ್ಲಿಲ್ಲ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>사용자 창 관리자 (사용하지 말 것 권장)</short>
+        <long>처음 시도할 창 관리자. 이 키는 그놈 2.12부터 사용하지 말 것을 권장합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Gerînendeyê paceyên bikarhêner (nayê bikaranîn)</short>
+        <long>Gerînendeyê paceyan yê weke carê pêşîn divê were ceribandin. Ev mifte piştî 2.12 nayê bikaranîn.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Vartotojo langų tvarkyklė (nebenaudojama)</short>
+        <long>Pirmiausiai bandoma langų tvarkyklė. Šis raktas nuo GNOME 2.12 nebenaudojamas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Lietotāja logu pārvaldnieks (novecojis)</short>
+        <long>Vispirms mēģināmais logu pārvaldnieks. Šī atslēga netiek izmantota kopš GNOME 2.12.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>प्रयोक्ता विंडो प्रबंधक (पदावनत)</short>
+        <long>विंडो प्रबंधककेँ पहिने कोसिस कएनाइ चाही. ई कुँजी केँ GNOME 2.12 क&apos; बाद पदावनत कएल गेल अछि.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Mpandrindra fikandran&apos;ny mpampiasa (tsy ampiasaina intsony)</short>
+        <long>Ny mpandrindra fikandrana andramana voalohany. Efa hatramin&apos;ny GNOME 2.12 no tsy nampiasana io famaha io intsony.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Кориснички менаџер на прозорци (заостанато)</short>
+        <long>Менаџер на прозорци за прва употреба. Ова копче е заостанато од GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ഉപയോക്താവിന്റെ ജാലക നിരീക്ഷകന്‍</short>
+        <long>ആദ്യം ശ്രമിച്ചുനോക്കേണ്ട ജാലകങ്ങളുടെ നടത്തിപ്പുകാരന്‍. ഗ്നോമിന്റെ 2.12 പതിപ്പു് മുതല്‍ ഇതു് നിരുത്സാഹപ്പെടുത്തിയിരിയ്ക്കുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Хэрэглэгчийн цонхны менежер (хуучирсан)</short>
+        <long>Эхэлж оролдох цонхны менежер. Энэ түлхүүр GNOME 2.12 -оос хойш хуучирсан.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>वापरकर्ता चौकट व्यवस्थापक (लहान)</short>
+        <long>पहिल्यांदा वापरून बघायचा चौकट व्यवस्थापक. GNOME 2.12 पासून ही किल्ली वापरणीत नाही.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Brukers vindushåndterer (fases ut)</short>
+        <long>Vindushåndterer som skal prøves først. Denne nøkkelen skal fases ut etter GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>प्रयोगकर्ता सञ्झ्याल प्रबन्धक (अमान्य)</short>
+        <long>पहिला प्रयास गरिने सञ्झ्याल प्रबन्धक । यो कुञ्जीलाई GNOME २.१२ देखि अमान्य ठानिएको छ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Gebruikers-windowmanager (ontraden)</short>
+        <long>Als eerste te proberen windowmanager. Deze sleutel is ontraden sinds Gnome 2.12.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Brukar sin vindaugehandsamar (forelda)</short>
+        <long>Vindaugehandsamar å bruka fyrst. Denne nøkkelen har vore forelda sidan GNOME 2.12.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Gestionari de fenèstras personalisat (obsolet)</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ବ୍ଯବହାରକାରୀ ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ (ଅପସନ୍ଦ)</short>
+        <long>ବ୍ଯବହାର ପାଇଁ ପ୍ରଥମ ଖୋଜାଯିବା ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ.ଏହି ଚାବି ନୋମର 2.12 ସଂସ୍କରଣଠାରୁ ଅପସନ୍ଦ କରାଯାଇଛି.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਯੂਜ਼ਰ ਵਿੰਡੋ ਮੈਨੇਜਰ (ਬਰਤਰਫ਼)</short>
+        <long>ਵਿੰਡੋ ਮੈਨੇਜਰ ਨਾਲ ਪਹਿਲਾਂ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਇਹ ਕੁੰਜੀ ਨੂੰ ਗਨੋਮ 2.12 ਵਿੱਚ ਬਰਤਰਫ਼ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Menedżer okien użytkownika (przestarzałe)</short>
+        <long>Pierwszy w kolejności do wypróbowania menedżer okien. Klucz ten jest przestarzały od czasu GNOME 2.12.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Gestor de janelas do utilizador (obsoleta)</short>
+        <long>Gestor de janelas a tentar primeiro. Esta chave tornou-se obsoleta a partir do GNOME 2.12.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Gerenciador de janelas do usuário (obsoleto)</short>
+        <long>Primeiro gerenciador de janelas. Essa chave ficou obsoleta desde o GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Administrator de ferestre al utilizatorului (opțiune învechită)</short>
+        <long>Administrator de ferestre de încercat prima dată. Această cheie nu mai este utilizată începând cu GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Пользовательский оконный менеджер (устарело)</short>
+        <long>Оконный менеджер, который необходимо пробовать первым. Этот ключ считается устаревшим начиная с GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Správca okien používateľa (zastaralé)</short>
+        <long>Správca okien, ktorý skúsiť najskôr. Tento kľúč je zastaralý od GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Uporabnikov upravitelj oken (opuščen)</short>
+        <long>Upravitelj oken najprej za preizkus. Ta ključ je opuščen od GNOME 2.12 naprej.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Organizuesi i dritareve të përdoruesit (nuk përdoret më)</short>
+        <long>Organizuesi i dritareve që duhet provuar i pari Kjo vlerë nuk përdoret më me GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Корисников управник прозора (застарело)</short>
+        <long>Први управник прозора који пробати. Овај кључ је застарео почевши од Гнома 2.12.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Korisnikov upravnik prozora (zastarelo)</short>
+        <long>Prvi upravnik prozora koji probati. Ovaj ključ je zastareo počevši od Gnoma 2.12.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Användarfönsterhanterare (föråldrat)</short>
+        <long>Fönsterhanterare att prova först. Denna nyckel har föråldrats sedan GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>பயனர் சாளரமேலாளர் (எதிரிடையானது)</short>
+        <long>சாளர மேலாளர் முதலில் முயற்சிக்கட்டும். GNOME 2.12லிருந்து இந்த விசை எதிரிடையானது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>వినియోగదారి విండో నిర్వాహిక (నిలిపివేయబడింది)</short>
+        <long>ముందుల ప్రయత్నించుటకు విండో నిర్వాహిక. ఈ కీ GNOME 2.12నుండి నిలిపివేయబడింది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>โปรแกรมจัดการหน้าต่างของผู้ใช้ (เลิกใช้แล้ว)</short>
+        <long>โปรแกรมจัดการหน้าต่างที่จะลองใช้ก่อน  คีย์นี้เลิกใช้แล้วตั้งแต่ GNOME 2.12 เป็นต้นไป</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Kullanıcı pencere yöneticisi (kullanılmıyor)</short>
+        <long>İlk olarak denenecek pencere yöneticisi. Bu anahtar GNOME 2.12 sonrası kullanılmıyor.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Віконний менеджер, визначений користувачем (застарілий)</short>
+        <long>Менеджер вікон, що пробується першим. Цей ключ позначений застарілим починаючи з GNOME 2.12.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bộ quản lý cửa sổ người dùng (bị phản đối)</short>
+        <long>Bộ quản lý cửa sổ cần thử đầu tiên. Khóa này đã bị phản đối kể từ Gnome 2.12.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>用户窗口管理器(不推荐)</short>
+        <long>首先尝试的窗口管理器。此键自 GNOME 2.12 之后不再推荐使用。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>用戶首選的視窗總管（不鼓勵再使用）</short>
+        <long>首選的視窗總管。這設定鍵自 GNOME 2.12 已不鼓勵再使用。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>用戶首選的視窗總管（不鼓勵再使用）</short>
+        <long>首選的視窗總管。這設定鍵自 GNOME 2.12 已不鼓勵再使用。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/window_manager/number_of_workspaces</key>
+      <applyto>/desktop/gnome/applications/window_manager/number_of_workspaces</applyto>
+      <owner>gnome</owner>
+      <type>int</type>
+      <locale name="C">
+        <short>The number of workspaces (deprecated)</short>
+        <long>
+          The number of workspaces the window manager should use
+          This key has been deprecated since GNOME 2.12.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>عدد مساحات العمل (لاغِ)</short>
+        <long>عدد مساحات العمل الذي من المفروض أن يستخدمها مدير النوافذ. ألغي هذا المفتاح منذ جنوم 2.12.</long>
+      </locale>
+
+      <locale name="as">
+        <short>কৰ্মক্ষেত্ৰতৰ সংখ্যা (অবচিত)</short>
+        <long>সংযোগক্ষেত্ৰ পৰিচালনব্যৱস্থাৰ দ্বাৰা ব্যৱহৃত কৰ্মক্ষেত্ৰতৰ সংখ্যা । GNOME 2.12 সংস্কৰণৰ পিছত এই চাবি অবচিত হৈছে ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>El númberu d&apos;espacios de trabayu (obsoletu)</short>
+        <long>El númberu d&apos;espacios de trabayu que&apos;l xesto de ventanes habría usar. Esta clave ta obsoleta dende GNOME 2.12.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Колькасьць працоўных прастораў (асуджанае)</short>
+        <long>Колькасьць працоўных прастораў якія будуць выкарыстоўвацца кіраўніком вокнаў. Гэты ключ асуджаны пачынаючы з вэрсіі GNOME 2.12.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Брой на работните плотове (остаряла настройка, да не се използва)</short>
+        <long>Брой на работните плотове, които мениджърът на прозорци да използва. Този ключ е остарял и не се препоръчва да се ползва от GNOME 2.12 насам.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ওয়ার্কস্পেসগুলোর সংখ্যা (আর ব্যবহার করা হয় না)</short>
+        <long>উইন্ডো ম্যানেজারের যতগুলো ওয়ার্কস্পেস ব্যবহার করা উচিত</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>কর্মক্ষেত্রের সংখ্যা (অবচিত)</short>
+        <long>উইন্ডো পরিচালনব্যবস্থার দ্বারা ব্যবহৃত কর্মক্ষেত্রের সংখ্যা। GNOME ২.১২ সংস্করণের পরে এই কি অবচিত হয়েছে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Nombre d&apos;espais de treball (en desús)</short>
+        <long>El nombre d&apos;espais de treball que pot utilitzar el gestor de finestres. Aquesta clau està en desús des del GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Nombre d&apos;espais de treball (en desús)</short>
+        <long>El nombre d&apos;espais de treball que pot utilitzar el gestor de finestres. Esta clau està en desús des del GNOME 2.12.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>İş-fezaları sayısı (takbih etilgen)</short>
+        <long>Pencere idarecisiniñ qullanacağı iş-fezaları sayısı. Bu anahtar GNOME 2.12&apos;den itibaren takbih etilgendir.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Počet pracovních ploch (zastaralé)</short>
+        <long>Počet pracovních ploch, které má manažer oken používat. Tento klíč byl od GNOME 2.12 zastaralý.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Nifer y gweithfannau (anghymeradwyir)</short>
+        <long>Faint o weithfannau dylai&apos;r rheolwr ffenestri ddefnyddio. Mae&apos;r allwedd hon wedi ei anghymeradwyo ers GNOME 2.12.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Antallet af arbejdsområder (forældet)</short>
+        <long>Antallet af arbejdsområder som vindueshåndteringen skal benytte. Denne nøgle har været forældet siden Gnome-2.12.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Die Anzahl der Arbeitsflächen (veraltet)</short>
+        <long>Die Anzahl der Arbeitsflächen, die der Fenster-Manager verwenden soll. Dieser Schlüssel ist seit GNOME 2.12 veraltet.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ལཱ་གི་ས་ཁོངས་ཚུ་གི་གྱངས་ཁ།(ངོས་ལེན་མེདཔ)</short>
+        <long>སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་གིས་ ལག་ལེན་འཐབ་དགོ་པའི་ ལཱ་གི་ས་ཁོངས་ཚུ་གི་གྱངས་ཁ། ལྡེ་མིག་འདི་ ཇི་ནོམ་ ༢.༡༢ ཐོན་ཞིནམ་ལས་ ངོས་ལེན་མེདཔ་བཟོ་ཡི།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ο αριθμός των χώρων εργασίας (ξεπερασμένο)</short>
+        <long>Ο αριθμός των χώρων εργασίας που θα χρησιμοποιεί ο διαχειριστής παραθύρων.Αυτό το κλειδί είναι ξεπερασμένο στο GNOME 2.12.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>The number of workspaces (deprecated)</short>
+        <long>The number of workspaces the window manager should use This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>The number of workspaces (deprecated)</short>
+        <long>The number of workspaces the window manager should use This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>La nombro de laborspacoj (malrekomendite)</short>
+        <long>La nombro de laborspacoj kiujn la fenestra administrilo uzu. Ĉi tiu ŝlosilo estas malrekomendita ekde GNOMO 2.12.</long>
+      </locale>
+
+      <locale name="es">
+        <short>El número de áreas de trabajo (obsoleto)</short>
+        <long>El número de áreas de trabajo que el gestor de ventanas debe usar. Esta entrada es obsoleta desde GNOME 2.12.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Tööalade arv (aegunud)</short>
+        <long>Aknahalduri poolt kasutatavate tööalade arv. See valik on alates GNOME 2.12 versioonist aegunud.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Laneko area-kopurua (zaharkitua)</short>
+        <long>Leiho-kudeatzaileak erabili behar duen laneko area-kopurua. Gako hau zaharkitua gelditu da GNOME 2.12 bertsiotik.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Työtilojen lukumäärä (vanhentunut)</short>
+        <long>Työtilojen lukumäärä, jota ikkunointiohjelman tulisi noudattaa. Tämä avain on vanhentunut versiosta Gnome 2.12 alkaen.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Le nombre d&apos;espaces de travail (déconseillé)</short>
+        <long>Le nombre d&apos;espaces de travail que le gestionnaire de fenêtres doit utiliser. Cette clé est déconseillée depuis GNOME 2.12.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Il numar dai spazis di lavôr (deprecât)</short>
+        <long>Il numar dai spazis di lavôr che il window manager al vares di doprâ. Cheste clâf je stade deprecade a partì di Gnome 2.12.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Líon spásanna oibre (lochtach)</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>O número de espazos de traballo (obsoleto)</short>
+        <long>O número de espazos de traballo que o xestor de xanelas debe usar. Esta chave é obsoleta desde o Gnome 2.12.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>કામ કરવાની જગ્યાની સંખ્યા (ઊતારી પડાયેલ)</short>
+        <long>વિન્ડો વ્યવસ્થાપકે વાપરવી જોઈએ તે કામ કરવાની જગ્યાઓની સંખ્યા. આ કી GNOME 2.12 આવ્યું ત્યારથી ઊતારી પડાયેલ છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>The number of workspaces (deprecated)</short>
+        <long>The number of workspaces the window manager should use This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>कार्यस्थानों की संख्या (पदावनत)</short>
+        <long>कार्यस्थानों की संख्या जिसका उपयोग विंडो प्रबंधक प्रयोग करेगा. इस कुंजी को GNOME 2.12 के बाद पदावनत किया जा रहा है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Broj radnih površina (zastarjelo)</short>
+        <long>Broj radnih površina koji bi upravitelj prozorima trebao koristiti. Ovaj ključ je zastario od GNOME verzije 2.12.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A munkaterületek száma (elavult)</short>
+        <long>Az ablakkezelő által használandó munkaterületek száma. Ez a kulcs a GNOME 2.12 óta elavultnak számít.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Jumlah area kerja</short>
+        <long>Jumlah area kerja yang harus digunakan pengatur jendela.. Kunci ini tidak digunakan lagi sejak GNOME 2.12.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Il numero delle aree di lavoro (deprecata)</short>
+        <long>Il numero delle aree di lavoro che il window manager dovrebbe usare. Questa chiave è stata resa deprecata a partire da GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ワークスペースの数 (破棄の予定)</short>
+        <long>ウィンドウ・マネージャが使用するワークスペースの数です (このキーは GNOME 2.12 から破棄される予定です)</long>
+      </locale>
+
+      <locale name="ka">
+        <short>სამუშაო არეთა რაოდენობა (უარყოფილია)</short>
+        <long>ფანჯერბის მმართველის მიერ გამოყენებული სამუშაო არეთა რაოდენობა. ეს კლავიში უარყოფილია GNOME 2.12-ის შემდეგ.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಕಾರ್ಯಕ್ಷೇತ್ರಗಳ ಸಂಖ್ಯೆ (ಬಳಕೆಯಲ್ಲಿಲ್ಲ)</short>
+        <long>ವಿಂಡೋ ವ್ಯವಸ್ಥಾಪಕವು ಬಳಸಬೇಕಿರುವ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳ ಸಂಖ್ಯೆ. ಈ ಕೀಲಿಯು GNOME 2.12 ಯ ನಂತರದಿಂದ ಬಳಕೆಯಲ್ಲಿಲ್ಲ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>작업공간 수 (사용하지 말 것 권장)</short>
+        <long>창 관리자가 사용할 작업공간 수. 이 키는 그놈 2.12부터 사용하지 말 것을 권장합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Hejmara qadên xebatê (nayê bikaranîn)</short>
+        <long>Hejmara qadên xebatê yên divê gerînendeyê paceyan bikar bîne. Ev mifte piştî GNOME 2.12 nayê bikaranîn.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Darbo laukų kiekis (nebenaudojama)</short>
+        <long>Darbo laukų skaičius, kuris turi būti sukurtas langų tvarkyklėje. Šis raktas nuo GNOME 2.12 nebenaudojamas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Darba vietu skaits (novecojis)</short>
+        <long>Darba vietu skaits, ko logu pārvaldniekam būtu jāizmanto. Šī atslēga netiek izmantota kopš GNOME 2.12.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>कार्यस्थानसभक सँख्या (पदावनत)</short>
+        <long>कार्यस्थानसभक सँख्या जकर विंडो प्रबंधक प्रयोग करताह. ई कुँजीकेँ GNOME 2.12 क&apos; बाद पदावनत कएल जाए रहल अछि.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Ny isan&apos;ireo sehatr&apos;asa (tsy ampisaina intsony)</short>
+        <long>Ny isan&apos;ireo sehatr&apos;asa tokony hampisain&apos;ny mpandrindra fikandrana. Efa hatramin&apos;ny GNOME 2.12 no tsy nampisana io famaha io intsony.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Број на работните простори (заостанато)</short>
+        <long>Број на работните простори кои ги користи менаџерот на прозорци. Ова копче е заостанато од GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>പണിയറകളുടെ എണ്ണം </short>
+        <long>ജാലകങ്ങളുടെ നടത്തിപ്പുകാരന്‍ ഉപയോഗിയ്ക്കേണ്ട പണിസ്ഥലങ്ങളുടെ എണ്ണം.  ഗ്നോമിന്റെ 2.12 പതിപ്പു് മുതല്‍ ഇതു് നിരുത്സാഹപ്പെടുത്തിയിരിയ്ക്കുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Ажлын талбаруудын тоо (хуучирсан)</short>
+        <long>Цонхны менежер хэрэглэх ёстой ажлын талбарын тоо. Энэ түлхүүр GNOME 2.12 -оос хойш хуучирсан.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>कार्यस्थळांची संख्या (वापरणीत नाही)</short>
+        <long>चौकट व्यव्सथापकाने जे कार्यस्थळ वापरण्याची संख्या ही किल्ली GNOME 2.12 पासून वापरल्या जात नाही.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Antall arbeidsområder (fases ut)</short>
+        <long>Antall arbeidsområder vindushåntereren skal bruke. Denne nøkkelen skal fases ut etter GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>कार्यस्थानका सङ्ख्या (अमान्य)</short>
+        <long>सञ्झ्याल प्रबन्धकले प्रयोग गर्नुपर्ने कार्यस्थानको सङ्ख्या, यो कुञ्जी GNOME २.१२ देखि अमान्य ठानिएको छ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Aantal werkbladen (ontraden)</short>
+        <long>Het aantal werkbladen dat de window manager moet gebruiken. Deze sleutel is ontraden sinds Gnome 2.12.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Tal på arbeidsområde (forelda)</short>
+        <long>Kor mange arbeidsområde vindaugehandsamaren skal bruka. Denne nøkkelen har vore forelda sidan GNOME 2.12.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Lo nombre d&apos;espacis de trabalh (obsolet)</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>କାର୍ଯ୍ଯକ୍ଷେତ୍ରର ସଂଖ୍ଯା (ଅପସନ୍ଦ)</short>
+        <long>ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ ଦ୍ବାରା ବ୍ଯବହୃତ କାର୍ଯ୍ଯକ୍ଷେତ୍ରର ସଂଖ୍ଯାଏହି ଚାବି ନୋମର 2.12 ସଂସ୍କରଣଠାରୁ ଅପସନ୍ଦ କରାଯାଇଛି.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਵਰਕਸਪੇਸਾਂ ਦੀ ਗਿਣਤੀ (ਬਰਤਰਫ਼)</short>
+        <long>ਵਰਕਸਪੇਸਾਂ ਦੀ ਗਿਣਤੀ ਜੋ ਕਿ ਵਿੰਡੋ ਪਰਬੰਧਕ ਵਰਤ ਸਕਦੇ ਹਨ। ਇਹ ਕੁੰਜੀ ਨੂੰ ਗਨੋਮ 2.12 ਵਿੱਚ ਬਰਤਰਫ਼ ਕੀਤਾ ਜਾ ਚੁੱਕਿਆ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Liczba obszarów roboczych (przestarzałe)</short>
+        <long>Liczba obszarów roboczych, które powinien obsługiwać menedżer okien. Klucz ten jest przestarzały od czasu GNOME 2.12.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>O número de áreas de trabalho (obsoleta)</short>
+        <long>O número de áreas de trabalho que o gestor de janelas deverá utilizar. Esta chave tornou-se obsoleta a partir do GNOME 2.12.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>O número de espaços de trabalho (obsoleto)</short>
+        <long>O número de espaços de trabalho que o gerenciador de janelas deve usar. Essa chave ficou obsoleta desde o GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Numărul spațiilor de lucru (opțiune învechită)</short>
+        <long>Numărul spațiilor de lucru utilizate de administratorul de ferestre. Această cheie nu mai este utilizată începând cu GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Число рабочих областей (устарело)</short>
+        <long>Число рабочих областей, которые следует иметь оконному менеджеру. Этот ключ является устаревшим начиная с GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Počet pracovných plôch (zastaralé)</short>
+        <long>Počet pracovných plôch, ktoré má použiť správca okien. Tento kľúč je zastaralý od GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Število delovnih površin (opuščen)</short>
+        <long>Število delovnih površin, ki naj jih uporabi upravitelj oken. Ta ključ je opuščen od GNOME 2.12 naprej.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Numri i hapësirave të punës (nuk përdoret më)</short>
+        <long>Numri i hapësirave të punës që organizuesi i dritareve duhet të përdorë. Kjo vlerë nuk përdoret më me GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Број радних површина (застарело)</short>
+        <long>Број радних површина које користи управник прозора. Овај кључ је застарео почевши од Гнома 2.12.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Broj radnih površina (zastarelo)</short>
+        <long>Broj radnih površina koje koristi upravnik prozora. Ovaj ključ je zastareo počevši od Gnoma 2.12.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Antalet arbetsytor (föråldrat)</short>
+        <long>Antalet arbetsytor som fönsterhanteraren ska använda. Denna nyckel har föråldrats sedan GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>எத்தனை பணிஇடங்கள் (எதிரிடையானது)</short>
+        <long>சாளரமேலாளர் எத்தனை பணிஇடங்களை பயன்படுத்தவேண்டும். GNOME 2.12லிருந்து இந்த விசை எதிரிடையானது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>పనితలముల యొక్క సంఖ్య (నిలిపివేయబడింది)</short>
+        <long>విండో నిర్వాహిక వుపయోగించవలసిన పనితలముల యొక్క సంఖ్య ఈ కీ GNOME 2.12 నుండి నిలిపివేయబడింది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>จำนวนพื้นที่ทำงาน (เลิกใช้แล้ว)</short>
+        <long>จำนวนพื้นที่ทำงานที่โปรแกรมจัดการหน้าต่างควรจะใช้  คียนี้เลิกใช้แล้วตั้งแต่ GNOME 2.12 เป็นต้นไป</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Çalışma alanlarının sayısı (kullanılmıyor)</short>
+        <long>Pencere yöneticisinin kullanması gereken çalışma alanlarının sayısı. Bu anahtar GNOME 2.12 sonrası kullanılmıyor.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Кількість робочих областей (застарілий)</short>
+        <long>Кількість робочих областей, що має використовувати віконний менеджер. Цей ключ позначений застарілим починаючи з GNOME 2.12.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Số các vùng làm việc (bị phản đối).</short>
+        <long>Số vùng làm việc bộ quản lý cửa sổ nên dùng. Khóa này đã bị phản đối kể từ Gnome 2.12.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>工作区数目(不推荐)</short>
+        <long>窗口管理器应该使用的工作区数目。此键自 GNOME 2.12 之后不再推荐使用。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>工作區數目（不鼓勵再使用）</short>
+        <long>視窗總管應開啟的工作區數目，這設定鍵自 GNOME 2.12 已不鼓勵再使用。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>工作區數目（不鼓勵再使用）</short>
+        <long>視窗總管應開啟的工作區數目，這設定鍵自 GNOME 2.12 已不鼓勵再使用。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/window_manager/workspace_names</key>
+      <applyto>/desktop/gnome/applications/window_manager/workspace_names</applyto>
+      <owner>gnome</owner>
+      <type>list</type>
+      <list_type>string</list_type>
+      <locale name="C">
+        <short>Names of the workspaces (deprecated)</short>
+        <long>
+          A list with names of the first window manager workspaces.
+          This key has been deprecated since GNOME 2.12.
+        </long>
+      </locale>
+
+      <locale name="ar">
+        <short>أسماء مساحات العمل (لاغِ)</short>
+        <long>قائمة بأسماء مساحات عمل مدير النوافذ الأول. ألغي هذا المفتاح منذ جنوم 2.12.</long>
+      </locale>
+
+      <locale name="as">
+        <short>কৰ্মক্ষেত্ৰতৰ নাম (অবচিত)</short>
+        <long>প্ৰথম সংযোগক্ষেত্ৰ পৰিচালন ব্যৱস্থাৰ কৰ্মক্ষেত্ৰতৰ নাম এটা তালিকা । GNOME 2.12 সংস্কৰণৰ পিছত এই চাবি অবচিত হৈছে ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Nomes de los espacios de trabayu (obsoletu)</short>
+        <long>Una llista con nomes de los primeros espacios de trabayu del xestor de ventanes. Esta clave ta obsoleta dende GNOME 2.12.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Назвы працоўных прастораў (асуджанае)</short>
+        <long>Сьпіс з назвамі працоўных прастораў першага кіраўніка вокнаў. Гэты ключ асуджаны пачынаючы з вэрсіі GNOME 2.12.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Имената на работните плотове (остаряла настройка, да не се използва)</short>
+        <long>Списък с имената на работните места на първия мениджър на прозорци. Този ключ е остарял и не се препоръчва да се ползва от GNOME 2.12 насам.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ওয়ার্কস্পেসগুলোর নাম (আর ব্যবহার করা হয় না)</short>
+        <long>প্রথম উইন্ডো ম্যানেজার ওয়ার্কস্পেসের নামসহ তালিকা। এ কীটি GNOME 2.12 থেকে আর ব্যবহার করা হয় না।</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>কর্মক্ষেত্রের নাম (অবচিত)</short>
+        <long>প্রথম উইন্ডো পরিচালনব্যবস্থার কর্মক্ষেত্রের নামসহ একটি তালিকা। GNOME ২.১২ সংস্করণের পরে এই কি অবচিত হয়েছে।</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Noms dels espais de treball (en desús)</short>
+        <long>Una llista amb noms dels primers espais de treball del gestor de finestres. Aquesta clau està en desús des del GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Noms dels espais de treball (en desús)</short>
+        <long>Una llista amb noms dels primers espais de treball del gestor de finestres. Esta clau està en desús des del GNOME 2.12.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>İş-fezaları isimleri (takbih etilgen)</short>
+        <long>İlk pencere idarecisiniñ iş-fezaları isimleri cedveli. Bu anahtar GNOME 2.12&apos;den itibaren takbih etilgendir.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Názvy pracovních ploch (zastaralé)</short>
+        <long>Seznam názvů pracovních ploch prvního manažera oken. Tento klíč byl od GNOME 2.12 zastaralý.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Enwau&apos;r gweithfannau (anghymeradwyir)</short>
+        <long>Rhestr yn cynnwys enwau gweithfannau cyntaf y rheolwr ffenestri. Mae&apos;r allwedd hon wedi ei anghymeradwyo ers GNOME 2.12.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Navne på arbejdsområderne (forældet)</short>
+        <long>En liste med navne over de første arbejdsområder. Denne nøgle har været forældet siden Gnome 2.12.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Namen der Arbeitsflächen (veraltet)</short>
+        <long>Eine Liste mit den Namen der ersten, vom Fenster-Manager verwendeten Arbeitsflächen. Dieser Schlüssel ist seit GNOME 2.12 veraltet.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ལཱ་གི་ས་ཁོངས་ཚུ་གི་མིང་ཚུ།(ངོས་ལེན་མེདཔ)</short>
+        <long>སྒོ་སྒྲིག་འཛིན་སྐྱོང་པ་དང་པའི་ ལཱ་གི་ས་ཁོངས་ཀྱི་ མིང་ཚུ་དང་བཅས་པའི་ཐོ་ཡིག་ཅིག ལྡེ་མིག་འདི་ ཇི་ནོམ་ ༢.༡༢ ཐོན་ཞིནམ་ལས་ ངོས་ལེན་མེདཔ་བཟོ་ཡི།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ονόματα των χώρων εργασίας (ξεπερασμένο)</short>
+        <long>Μια λίστα με ονόματα των χώρων εργασίας του πρώτου διαχειριστή παραθύρων. Αυτό το κλειδί είναι ξεπερασμένο στο GNOME 2.12.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Names of the workspaces (deprecated)</short>
+        <long>A list with names of the first window manager workspaces. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Names of the workspaces (deprecated)</short>
+        <long>A list with names of the first window manager workspaces. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Nomoj de la laborspacoj (malrekomendite)</short>
+        <long>Listo de nomoj de la laborspacoj de la unua fenestra administrilo. Ĉi tiu ŝlosilo estas malrekomendita ekde GNOMO 2.12.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Nombres de las áreas de trabajo (obsoleta)</short>
+        <long>Una lista con nombres de las primeras áreas de trabajo del gestor de ventanas. Esta clave se ha hecho obsoleta desde GNOME 2.12.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Tööalade nimed (aegunud)</short>
+        <long>Esmase aknahalduri tööalade nimede loend. See valik on alates GNOME 2.12 versioonist aegunud.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Laneko areen izenak (zaharkitua)</short>
+        <long>Leiho-kudeatzailearen lehen laneko areak biltzen dituen zerrenda. Gako hau zaharkitua gelditu da GNOME 2.12 bertsiotik.</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Työtilojen nimet (vanhentunut)</short>
+        <long>Luettelo, jossa on ensimmäisen ikkunointiohjelman työtilojen nimet. Tämä avain on vanhentunut versiosta Gnome 2.12 alkaen.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Noms des espaces de travail (déconseillé)</short>
+        <long>Une liste avec les noms des espaces de travail du premier gestionnaire de fenêtres. Cette clé est déconseillée depuis GNOME 2.12.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Noms dai spazis di lavôr (deprecât)</short>
+        <long>Une liste cui noms dai spazis di lavôr dal window manager primari. Cheste clâf je stade deprecade a partì di Gnome 2.12.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Ainmneacha na spásanna oibre (lochtach)</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Nomes dos espazos de traballo (obsoleto)</short>
+        <long>Unha lista cos nomes dos primeiros espazos de traballo do xestor de xanelas. Esta chave volveuse obsoleta desde o Gnome 2.12.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>કામ કરવાની જગ્યાના નામો (ઊતારી પડાયેલ)</short>
+        <long>પ્રથમ વિન્ડો વ્યવસ્થાપક કામ કરવાની જગ્યાઓના નામો સાથેની યાદી. આ કી GNOME 2.12 આવ્યું ત્યારથી ઊતારી પડાયેલ છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Names of the workspaces (deprecated)</short>
+        <long>A list with names of the first window manager workspaces. This key has been deprecated since GNOME 2.12.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>कार्यस्थानों के नाम (पदावनत)</short>
+        <long>प्रथम विंडो प्रबंधक कार्यस्थानों के नाम सहित सूची. इस कुंजी को GNOME 2.12 के बाद पदावनत किया जा रहा है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Imena radnih površina (zastarjelo)</short>
+        <long>Popis imena prvih radnih površina upravitelja prozorima. Ovaj ključ je zastario od GNOME-a verzije 2.12.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A munkaterületek nevei (elavult)</short>
+        <long>Az első ablakkezelő munkaterületeinek neveit tartalmazó lista. Ez a kulcs a GNOME 2.12 óta elavultnak számít.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Nama area kerja</short>
+        <long>Daftar nama area kerja pada pengatur jendela pertama.. Kunci ini tidak digunakan lagi sejak GNOME 2.12.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Nomi delle aree di lavoro (deprecata)</short>
+        <long>Una lista con i nomi delle aree di lavoro del window manager primario. Questa chiave è stata resa deprecata a partire da GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ワークスペースの名前 (破棄の予定)</short>
+        <long>ウィンドウマネージャの最初のワークスペースの名前のリストです (このキーは GNOME 2.12 から破棄される予定です)。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>სამუშაო არეთა სახელები (უარყოფილია)</short>
+        <long>ფანჯრების პირველადი მმართველების სამუშაო არეთა სახელების სია. ეს კლავიში გაუქმდა GNOME 2.12-ის შემდეგ.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>ಕಾರ್ಯಕ್ಷೇತ್ರಗಳ ಹೆಸರುಗಳು (ಬಳಕೆಯಲ್ಲಿಲ್ಲ)</short>
+        <long>ಮೊದಲ ವಿಂಡೋ ವ್ಯವಸ್ಥಾಪಕನ ಕಾರ್ಯಸ್ಥಳಗಳ ಹೆಸರುಗಳ ಒಂದು ಪಟ್ಟಿ. ಈ ಕೀಲಿಯು GNOME 2.12 ಯ ನಂತರದಿಂದ ಬಳಕೆಯಲ್ಲಿಲ್ಲ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>작업공간 이름 (사용하지 말 것 권장)</short>
+        <long>첫번째 창 관리자 작업공간의 이름 목록. 이 키는 그놈 2.12부터 사용하지 말 것을 권장합니다.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Navên qadên xebatê (nayê bikaranîn)</short>
+        <long>Lîsteya navên qadên xebatê ya gerînendeyê paceya pêşîn. Ev mifte piştî GNOME 2.12 nayê bikaranîn.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Darbo laukų vardai (nebenaudojama)</short>
+        <long>Sąrašas, kuris įvardina pirmosios langų tvarkyklės darbo laukus. Šis raktas nuo GNOME 2.12 nebenaudojamas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Darba vietu vārdi (novecojis)</short>
+        <long>Pirmā logu pārvaldnieka nosaukumu saraksts. Šī atslēga netiek lietota kopš GNOME 2.12.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>कार्यस्थानसभ क&apos; नाम (पदावनत)</short>
+        <long>पहिल विंडो प्रबंधक कार्यस्थानसभक नाम सहित सूची. ई कुँजीकेँ GNOME 2.12 क&apos; बाद पदावनत कएल जाए रहल अछि.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Ny anaran&apos;ireo sehatr&apos;asa (tsy ampiasaina intsony)</short>
+        <long>Lisitra misy ny anaran&apos;ny sehatr&apos;asan&apos;ny mpandrindra fikandrana voalohany. Efa hatramin&apos;ny GNOME 2.12 no tsy nampisana io famaha io intsony.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Имиња на работните простори (заостанато)</short>
+        <long>Листа со имиња на работните простори на првиот управувач со прозорци. Ова копче е заостанато од GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>പണിയറകളുടെ പേരുകള്‍</short>
+        <long>ആദ്യത്തെ ജാലകങ്ങളുടെ നടത്തിപ്പുകാരന്റെ പണിസ്ഥലങ്ങളുടെ പേരുള്ള പട്ടിക. ഈ കീ ഗ്നോം 2.12 മുതല്‍ നിരുത്സാഹപ്പെടുത്തിയിരിയ്ക്കുന്നു.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Ажлын талбаруудын нэрс (хуучирсан)</short>
+        <long>Эхний цонхны менежерт хэрэглэгдэх нэрийн жагсаалт. Энэ түлхүүр GNOME 2.12 -оос хойш хуучирсан.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>कार्यस्थळांची नावे (वापरणीत नाही)</short>
+        <long>चौकट व्सवस्थापक कार्यस्थळ नावांची यादी. ही किल्ली GNOME 2.12 पासून वापरल्या जात नाही.</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Navn på arbeidsområder (fases ut)</short>
+        <long>En liste med navn for de første arbeidsområdene i vindushåndtereren. Denne nøkkelen er ikke anbefalt brukt etter GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>कार्यस्थानका नामहरू (अमान्य)</short>
+        <long>पहिलो सञ्झ्याल प्रबन्धक कार्यस्थानको नामहरुको एउटा सूची । यो कुञ्जी  GNOME २.१२ देखि अमान्य छ ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Werkbladnamen (ontraden)</short>
+        <long>Een namenlijst van de eerste window manager-werkbladen. Deze sleutel is ontraden sinds Gnome 2.12.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Namn på arbeidsområda (forelda)</short>
+        <long>Ei liste med namn på dei fyrste arbeidsområda til vindaugehandsamaren. Denne nøkkelen har vore forelda sidan GNOME 2.12.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Noms dels espacis de trabalh (obsolet)</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>କାର୍ଯ୍ଯକ୍ଷେତ୍ରଗୁଡ଼ିକର ନାମ (ଅପସନ୍ଦ)</short>
+        <long>ପ୍ରଥମ ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ କାର୍ଯ୍ଯକ୍ଷେତ୍ରଗୁଡ଼ିକର ନାମର ତାଲିକା.ଏହି ଚାବି ନୋମର 2.12 ସଂସ୍କରଣଠାରୁ ଅପସନ୍ଦ କରାଯାଇଛି.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਵਰਕਸਪੇਸਾਂ ਦਾ ਨਾਂ (ਬਰਤਰਫ਼)</short>
+        <long>ਪਹਿਲੇ ਵਰਕਸਪੇਸ ਵਿੱਚ ਵਿੰਡੋ ਮੈਨੇਜਰ ਦੀ ਨਾਂ ਸੂਚੀ ਹੈ। ਇਹ ਕੁੰਜੀ ਗਨੋਮ 2.12 ਵਿੱਚ ਬਰਤਰਫ਼ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Nazwy obszarów roboczych (przestarzałe)</short>
+        <long>Lista z nazwami biurek pierwszego menedżera okien. Klucz ten jest przestarzały od czasu GNOME 2.12.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Nomes das áreas de trabalho (obsoleta)</short>
+        <long>Uma lista com os nomes das primeiras áreas de trabalho do gestor de janelas. Esta chave tornou-se obsoleta a partir do GNOME 2.12.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Nomes dos espaços de trabalho (obsoleto)</short>
+        <long>Uma lista de nomes dos primeiros espaços de trabalho do gerenciador de janelas. Essa chave ficou obsoleta desde o GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Numele spațiilor de lucru (opțiune învechită)</short>
+        <long>O listă cu numele primelor spații de lucru ale administratorului de ferestre. Această cheie nu mai este utilizată începând cu GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Имена рабочих областей (устарело)</short>
+        <long>Список имён рабочих областей первого оконного менеджера. Этот ключ считается устаревшим начиная с GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Mená pracovných plôch (zastaralé)</short>
+        <long>Zoznam mien prvých pracovných plôch správcu okien. Tento kľúč je zastaralý od GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Imena delovnih površin (opuščen)</short>
+        <long>Seznam imen delovnih površin prvega upravitelja oken. Ta ključ je opuščen od GNOME 2.12 naprej.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Emrat e hapësirave të punës (nuk përdoret më)</short>
+        <long>Një listë me emrat e hapësirave të punës së organizuesit kryesor të dritareve. Kjo vlerë nuk përdoret më me GNOME 2.12.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Имена радних површина (застарело)</short>
+        <long>Списак имена првих радних површина управника прозора. Овај кључ је застарео почевши од Гнома 2.12.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Imena radnih površina (zastarelo)</short>
+        <long>Spisak imena prvih radnih površina upravnika prozora. Ovaj ključ je zastareo počevši od Gnoma 2.12.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Namn på arbetsytorna (föråldrat)</short>
+        <long>En lista med namn på de första fönsterhanterararbetsytorna. Denna nyckel har föråldrats sedan GNOME 2.12.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>பணிஇடங்களின் பெயர்கள் (எதிரிடையானது)</short>
+        <long>முதல் சாளர மேலாளர் பணியிடங்களின் பெயர்களிடங்கிய பட்டியல். GNOME 2.12லிருந்து இந்த விசை எதிரிடையானது.</long>
+      </locale>
+
+      <locale name="te">
+        <short>పనితలముల యొక్క నామములు (నిలిపివేయబడింది)</short>
+        <long>మొదటి విండో నిర్వాహకి పనితలముల నామములతో జాబితా. ఈ కీ GNOME 2.12నుండి నిలిపివేయబడింది.</long>
+      </locale>
+
+      <locale name="th">
+        <short>รายชื่อพื้นที่ทำงาน (เลิกใช้แล้ว)</short>
+        <long>รายชื่อพื้นที่ทำงานของโปรแกรมจัดการหน้าต่างแรก  คีย์นี้เลิกใช้แล้วตั้งแต่ GNOME 2.12 เป็นต้นไป</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Çalışma alanlarının adları (kullanılmıyor)</short>
+        <long>İlk pencere yöneticisinin çalışma alanları isimleri listesi. Bu anahtar GNOME 2.12 sonrası kullanılmamaktadır.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Назви робочих областей (застарілий)</short>
+        <long>Список з назвами робочих областей першого віконного менеджера. Цей ключ позначений застарілим починаючи з GNOME 2.12.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tên các vùng làm việc (bị phản đối).</short>
+        <long>Danh sách kèm tên vùng làm việc của bộ quản lý cửa sổ đầu tiên. Khóa này đã bị phản đối kể từ Gnome 2.12.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>工作区名称(不推荐)</short>
+        <long>第一个窗口管理器工作区名称的列表。此键自 GNOME 2.12 之后不再推荐使用。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>工作區名稱（不鼓勵再使用）</short>
+        <long>一系列視窗總管預設使用的工作區名稱。這設定鍵自 GNOME 2.12 已不鼓勵再使用。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>工作區名稱（不鼓勵再使用）</short>
+        <long>一系列視窗總管預設使用的工作區名稱。這設定鍵自 GNOME 2.12 已不鼓勵再使用。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

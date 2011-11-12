@@ -1,0 +1,32 @@
+#!/bin/sh
+
+if [ -z "`which chkhinge 2>/dev/null`" ]; then
+   # not a clamshell zaurus or we have kernel 2.6
+   # no rotation status check available
+   CHCK=true
+else
+   CHCK=chkhinge
+fi
+
+. /etc/init.d/functions
+
+$CHCK -e
+if [ $? = 12 ]; then
+   case `machine_id` in
+   	*spitz | *akita | *borzoi)
+   		DIRECTION="normal" ;;
+        *)
+                DIRECTION="right" ;;
+   esac
+else
+   case `machine_id` in
+   	*spitz | *akita | *borzoi)
+		# Xfbdev needs to settle
+		sleep 2
+   		DIRECTION="right" ;;
+        *)
+                DIRECTION="normal" ;;
+   esac
+fi
+
+xrandr -o $DIRECTION

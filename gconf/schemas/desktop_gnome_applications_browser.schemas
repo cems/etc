@@ -1,0 +1,1238 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/browser/exec</key>
+      <applyto>/desktop/gnome/applications/browser/exec</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default>mozilla</default>
+      <locale name="C">
+        <short>Default browser</short>
+        <long>Default browser for all URLs.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>المتصفح المبدئي</short>
+        <long>المتصفح المبدئي لجميع العناوين.</long>
+      </locale>
+
+      <locale name="as">
+        <short>অবিকল্পিত চৰক</short>
+        <long>সমস্ত URL ৰ বাবে ব্যৱহৃত অবিকল্পিত চৰক</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Navegador predetermináu</short>
+        <long>Navegador predetermináu pa toles URL.</long>
+      </locale>
+
+      <locale name="az">
+        <short>Əsas Səyyah</short>
+        
+      </locale>
+
+      <locale name="be">
+        <short>Прадвызначаны вандроўнік</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Стандартен браузър</short>
+        <long>Стандартен браузър за всички адреси.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ডিফল্ট ব্রাউজার</short>
+        
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ডিফল্ট ব্রাউজার</short>
+        <long>সমস্ত URL&apos;র জন্য ব্যবহৃত ডিফল্ট ব্রাউজার।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Uobičajeni preglednik</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Navegador predeterminat</short>
+        <long>Navegador predeterminat per a tots els URL.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Navegador predeterminat</short>
+        <long>Navegador predeterminat per a tots els URL.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Ög-belgilengen kezici</short>
+        <long>URL&apos;lerniñ episi içün ög-belgilengen kezici.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Implicitní prohlížeč</short>
+        <long>Výchozí prohlížeč pro všechna URL.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Porwr rhagosodedig</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Standardbrowser</short>
+        <long>Standardbrowser for alle URL&apos;er.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Vorgabe-Browser</short>
+        <long>Für alle URLs voreingestellter Browser.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>སྔོན་སྒྲིག་བརའུ་ཟར།</short>
+        
+      </locale>
+
+      <locale name="el">
+        <short>Προεπιλεγμένος περιηγητής </short>
+        <long>Προεπιλεγμένος περιηγητής για όλα τα URLs.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Default browser</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Default browser</short>
+        <long>Default browser for all URLs.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Defaŭlta foliumilo</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>Navegador predeterminado</short>
+        <long>Navegador predeterminado para todos los URL.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Vaikimisi veebilehitseja</short>
+        <long>Vaikimisi veebilehitseja kõikide URL-ide jaoks.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Arakatzaile lehenetsia</short>
+        <long>URL guztientzako arakatzaile lehenetsia.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>مرورگر پیش‌فرض</short>
+        
+      </locale>
+
+      <locale name="fi">
+        <short>Oletusselain</short>
+        <long>Kaikkien URL:ien oletusselain.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Navigateur par défaut</short>
+        <long>Navigateur par défaut pour toutes les URL.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Browser predefinît</short>
+        
+      </locale>
+
+      <locale name="ga">
+        <short>an Líonléitheoir atá loiceadh</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Navegador predeterminado</short>
+        <long>Navegador predeterminado para todos os URL.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>મૂળભૂત બ્રાઉઝર</short>
+        <long>બધી URL માટે મૂળભૂત બ્રાઉઝર.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Default browser</short>
+        <long>Default browser for all URLs.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>तयशुदा ब्राउज़र</short>
+        <long>सभी यूआरएल के लिए तयशुदा ब्राउज़र.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Uobičajeni pretraživač</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>Alapértelmezett böngésző</short>
+        <long>Alapértelmezett böngésző minden URL címhez.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Browser standar</short>
+        
+      </locale>
+
+      <locale name="is">
+        <short>Sjálfgefinn vafrari</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>Browser predefinito</short>
+        <long>Browser predefinito per ogni URL.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>デフォルトのブラウザ</short>
+        <long>全ての URL で利用するデフォルトのブラウザです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ნაგულისხმები ბრაუზერი</short>
+        
+      </locale>
+
+      <locale name="kn">
+        <short>ಪೂರ್ವನಿಯೋಜಿತ ವೀಕ್ಷಕ</short>
+        <long>ಎಲ್ಲಾ URL ಗಳಿಗಾಗಿನ ಪೂರ್ವನಿಯೋಜಿತ ವೀಕ್ಷಕ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>기본 브라우저</short>
+        <long>모든 URL에 대한 기본 브라우저.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Lêgeroka pêşdanasînî</short>
+        
+      </locale>
+
+      <locale name="lt">
+        <short>Numatytoji naršyklė</short>
+        <long>Numatytoji naršyklė, apdorojanti visus adresus.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Noklusētais pārlūks</short>
+        <long>Noklusētais pārlūks visām adresēm.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>मूलभूत ब्राउजर</short>
+        
+      </locale>
+
+      <locale name="mg">
+        <short>Mpitety lasitra</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Стандарден прелистувач</short>
+        <long>Стандарден прелистувач сите URL.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>സഹജമായ ബ്രൈസര്‍</short>
+        <long>എല്ലാ യുആര്‍എല്ലുകള്‍ക്കും ഉപയോഗിയ്ക്കേണ്ട സഹജമായ ബ്രൌസര്‍.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Өгөгдмөл-хөтөч</short>
+        <long>Бүх URL-ийн хувьд өгөгдмөл вэб хөтөч.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>मुलभूत ब्राउजर</short>
+        <long>सर्व URL करीता मुलभूत ब्राउजर.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Pelungsur default</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Forvalgt nettleser</short>
+        <long>Forvalgt nettleser for alle URLer.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>पूर्वनिर्धारित ब्राउजर</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Standaardbrowser</short>
+        <long>Standaardbrowser voor alle URL&apos;s.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Standardnettlesar</short>
+        <long>Standardnettlesar for alle URL-ar.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Navegador per defaut</short>
+        <long>Navegador per defaut per totas las URL</long>
+      </locale>
+
+      <locale name="or">
+        <short>ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଖୋଜାଳି</short>
+        <long>ସମସ୍ତ URL ପାଇଁ ପୂର୍ବନିର୍ଦ୍ଧାବ୍ରାଉଜର ଖୋଜାଳି.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ</short>
+        <long>ਸਭ URL ਲਈ ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Domyślna przeglądarka</short>
+        <long>Domyślna przeglądarka dla wszystkich adresów URL.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Navegador por omissão</short>
+        <long>Navegador por omissão para todos os URLs.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Navegador padrão</short>
+        <long>Navegador padrão para todos as URLs.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Navigator implicit</short>
+        <long>Navigatorul implicit pentru toate URL-urile.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Браузер по умолчанию</short>
+        <long>Браузер по умолчанию для всех URL.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Predvolený prehliadač</short>
+        <long>Predvolený prehliadač pre všetky URL.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Privzet brskalnik</short>
+        <long>Privzet brskalnik za vse URL naslove.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Shfletuesi i paracaktuar</short>
+        <long>Shfletuesi i paracaktuar për çdo URL.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Уобичајени читач</short>
+        <long>Уобичајени читач за све адресе.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Уобичајени читач</short>
+        
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Uobičajeni čitač</short>
+        <long>Uobičajeni čitač za sve adrese.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Standardwebbläsare</short>
+        <long>Standardwebbläsare för alla URL:er.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>கொடாநிலை மேலோடி</short>
+        <long>அனைத்து URLகளுக்கும் முன்னிருப்பு உலாவி.</long>
+      </locale>
+
+      <locale name="te">
+        <short>అప్రమేయ అన్వేషణి</short>
+        <long>అన్ని URLలకు అప్రమేయ అన్వేషణి.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เบราว์เซอร์ปริยาย</short>
+        <long>เบราว์เซอร์ที่ใช้สำหรับเปิด URL ถ้าไม่ได้เจาะจงใช้เบราว์เซอร์อื่น</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Öntanımlı tarayıcı</short>
+        <long>Tüm URL&apos;ler için öntanımlı tarayıcı.</long>
+      </locale>
+
+      <locale name="tt">
+        <short>Töp gizgeç</short>
+        
+      </locale>
+
+      <locale name="uk">
+        <short>Типовий переглядач</short>
+        <long>Типовий переглядач для всіх типів URL.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Trình duyệt mặc định</short>
+        <long>Trình duyệt mặc định cho mọi URL.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Isikhangeli esimiyo</short>
+        
+      </locale>
+
+      <locale name="zh_CN">
+        <short>默认浏览器</short>
+        <long>全部 URL 的默认浏览器。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>預設瀏覽器</short>
+        <long>所有 URL 的預設瀏覽器。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>預設瀏覽器</short>
+        <long>所有 URL 的預設瀏覽器。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/browser/needs_term</key>
+      <applyto>/desktop/gnome/applications/browser/needs_term</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Browser needs terminal</short>
+        <long>Whether the default browser needs a terminal to run.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>يحتاج المتصفح لطرفية</short>
+        <long>ما إذا كان المتصفح المبدئي يحتاج طرفية للعمل.</long>
+      </locale>
+
+      <locale name="as">
+        <short>চৰকৰ ক্ষেত্ৰত টাৰ্মিনেল আৱশ্যক</short>
+        <long>অবিকল্পিত চৰক ব্যৱহাৰৰ বাবে টাৰ্মিনেল প্ৰয়োগ কৰা আৱশ্যক নে নহয়</long>
+      </locale>
+
+      <locale name="ast">
+        <short>El navegador necesita un terminal</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>Səyyahın terminala ehtiyacı var</short>
+        
+      </locale>
+
+      <locale name="be">
+        <short>Вандроўніку патрэбны тэрмінал</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Браузърът се нуждае от терминал</short>
+        <long>Дали стандартният браузър се нуждае от терминал.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ব্রাউজারের টার্মিনাল প্রয়োজন</short>
+        
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ব্রাউজারের ক্ষেত্রে টার্মিনাল আবশ্যক</short>
+        <long>ডিফল্ট ব্রাউজার ব্যবহারের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Preglednik treba terminal</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>El navegador necessita un terminal</short>
+        <long>Si el navegador predeterminat necessita un terminal per a executar-se.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>El navegador necessita un terminal</short>
+        <long>Si el navegador predeterminat necessita un terminal per a executar-se.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Kezici terminalğa muhtac</short>
+        <long>Ög-belgilengen keziciniñ çapmaq içün terminalğa muhtac olıp olmağanı.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Prohlížeč potřebuje terminál</short>
+        <long>Zda výchozí prohlížeč potřebuje ke běhu terminál.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Mae&apos;r porwr angen terfynell</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Browser kræver terminal</short>
+        <long>Om standardbrowseren skal bruge en terminal for at køre.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Browser benötigt Terminal</short>
+        <long>Legt fest, ob der Vorgabe-Browser ein Terminal benötigt, um ausgeführt zu werden.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>བརའུ་ཟར་ལུ་ ཊར་མི་ནཱལ་དགོ་པས།</short>
+        
+      </locale>
+
+      <locale name="el">
+        <short>Ο περιηγητής χρειάζεται τερματικό</short>
+        <long>Αν ο προεπιλεγμένος περιηγητής χρειάζεται τερματικό για να εκτελεσθεί.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Browser needs terminal</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Browser needs terminal</short>
+        <long>Whether the default browser needs a terminal to run.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Foliumilo bezonas terminalon</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>El navegador necesita un terminal</short>
+        <long>Indica si el navegador predeterminado necesita un terminal para ejecutarse.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Veebilehitseja vajab terminali</short>
+        <long>Kas veebilehitseja vajab töötamiseks terminali.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Arakatzaileak terminala behar du</short>
+        <long>Arakatzaile lehenetsiak exekutatzeko terminal bat behar duen ala ez adierazten du.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>مرورگر به پایانه نیاز دارد</short>
+        
+      </locale>
+
+      <locale name="fi">
+        <short>Selain tarvitsee päätteen</short>
+        <long>Tarvitseeko oletusselain päätteen toimiakseen.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Le navigateur a besoin d&apos;un terminal</short>
+        <long>Indique si le navigateur par défaut a besoin d&apos;un terminal pour fonctionner.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Al browser al covente il terminâl</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>O navegador precisa un terminal</short>
+        <long>Indica se o navegador predeterminado precisa dun terminal para executarse.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>બ્રાઉઝરને ટર્મિનલ જરુરી છે</short>
+        <long>શું મૂળભૂત બ્રાઉઝરને ચાલવા માટે ટર્મિનલ જરુરી છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Browser needs terminal</short>
+        <long>Whether the default browser needs a terminal to run.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>ब्राउज़र को टर्मिनल की आवश्यकता है</short>
+        <long>क्या तयशुदा ब्राउज़र चलाने के लिए टर्मिनल की आवश्यकता है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Pretraživač zahtijeva terminal</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>A böngészőnek szüksége van-e terminálra?</short>
+        <long>Az alapértelmezett böngészőnek szüksége van-e terminálra a futáshoz?</long>
+      </locale>
+
+      <locale name="id">
+        <short>Browser menggunakan terminal</short>
+        
+      </locale>
+
+      <locale name="is">
+        <short>Vafrari þarf skél</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>Il browser necessita del terminale</short>
+        <long>Indica se il browser predefinito necessita di un terminale per essere eseguito.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ブラウザを端末から起動する</short>
+        <long>デフォルトのブラウザを実行するのに端末が必要かどうかです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ბრაუზერი საჭიროებს ტერმინალს</short>
+        
+      </locale>
+
+      <locale name="kn">
+        <short>ವೀಕ್ಷಕಕ್ಕೆ ಟರ್ಮಿನಲ್‌ನ ಅಗತ್ಯವಿದೆ</short>
+        <long>ಪೂರ್ವನಿಯೋಜಿತ ವೀಕ್ಷಕವು ಚಲಾಯಿತಗೊಳ್ಳಲು ಒಂದು ಟರ್ಮಿನಲ್‌ನ ಅಗತ್ಯವಿದೆಯೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>브라우저가 터미널을 필요로 합니다</short>
+        <long>기본 브라우저를 터미널에서 실행할 지 여부.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Pêdiviya lêgerokê bi termînalê heye</short>
+        
+      </locale>
+
+      <locale name="lt">
+        <short>Naršyklei reikia terminalo</short>
+        <long>Ar numatytajai naršyklei yra būtinas terminalas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Pārlūkam nepieciešams terminālis</short>
+        <long>Vai noklusētajam pārlūkam ir nepieciešama komandrinda, lai darbotos.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>ब्राउजरकेँ टर्मिनल क&apos; आवश्यकता अछि</short>
+        
+      </locale>
+
+      <locale name="mg">
+        <short>Mila terminal ny mpitety</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Прелистувачот бара терминал</short>
+        <long>Дали на стандардниот прелистувач му треба терминал за да работи.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>അന്വേഷകന് ടെര്‍മിനല്‍ ആവശ്യമുണ്ട്</short>
+        <long>സഹജമായ ബ്രൌസര്‍ പ്രവര്‍ത്തിക്കുന്നതിനായി ടെര്‍മിനല്‍ വേണമോ എന്നു്</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Хөтөч терминал шаардаж байна</short>
+        <long>Өгөгдмөл хөтөч ажиллахдаа терминал шаардах эсэх</long>
+      </locale>
+
+      <locale name="mr">
+        <short>ब्राउजरकरीता टर्मीनल आवश्य आहे</short>
+        <long>मुलभूत ब्राउजर कार्यरत करीता टर्मीनल आवश्यक आहे का.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Pelungsur memerlukan terminal</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Nettleser trenger terminal</short>
+        <long>Om forvalgt leser trenger en terminal for å kjøre.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>ब्राउजरलाई टर्मिनल चाहिन्छ</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Browser heeft terminalvenster nodig</short>
+        <long>Of de standaardbrowser voor het uitvoeren een terminalvenster vereist.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Nettlesaren treng terminal</short>
+        <long>Om standardnettlesaren treng ein terminal for å køyra.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Lo navegador deu aver un terminal</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ଖୋଜାଳି ପାଇଁ ଟର୍ମିନାଲ ଆବଶ୍ଯକ</short>
+        <long>ପୂର୍ବନିର୍ଦ୍ଧାରିତ ବ୍ରାଉଡର ଚାଲିବା ପାଇଁ ଟର୍ମିନାଲ ଆବଶ୍ଯକ କରେ କି.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਬਰਾਊਜ਼ਰ ਨੂੰ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ</short>
+        <long>ਕੀ ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ ਨੂੰ ਚੱਲਣ ਲਈ ਟਰਮੀਨਲ ਲੋਡ਼ੀਦਾ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Przeglądarka wymaga terminala</short>
+        <long>Określa, czy domyślna przeglądarka wymaga terminala do działania.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Navegador necessita de consola</short>
+        <long>Se o navegador por omissão necessita de uma consola para ser executado.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Navegador precisa de terminal</short>
+        <long>O navegador padrão precisa de um terminal para ser executado.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Navigatorul necesită terminal</short>
+        <long>Specifică dacă navigatorul implicit are nevoie de terminal la pornire.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Браузеру нужен терминал</short>
+        <long>Нуждается ли браузер по умолчанию в терминале.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Prehliadač potrebuje terminál</short>
+        <long>Či predvolený prehliadač potrebuje terminál pre svoj beh.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Brskalnik potrebuje terminal</short>
+        <long>Ali privzet brskalnik za zagon potrebuje terminal.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Shfletuesi ka nevojë për terminalin  </short>
+        <long>Tregon nëse shfletuesi i paracaktuar ka nevojë për një terminal që të zbatohet.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Читач захтева терминал</short>
+        <long>Да ли је уобичајеном читачу неопходан терминал за извршавање.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Читач захтјева терминал</short>
+        
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Čitač zahteva terminal</short>
+        <long>Da li je uobičajenom čitaču neophodan terminal za izvršavanje.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Webbläsaren behöver terminal</short>
+        <long>Huruvida standardwebbläsaren behöver en terminal för att köra.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>மேலோடிக்கு முனையம் வேண்டும்</short>
+        <long>முன்னிருப்பு உலாவியை இயக்குவதற்கு முனையம் வேண்டுமா</long>
+      </locale>
+
+      <locale name="te">
+        <short>అన్వేషణికి టెర్మినల్ అవసరము</short>
+        <long>నడుపుటకు అప్రమేయ అన్వేషణికి టెర్మినల్ అవసరమా.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เบราว์เซอร์ต้องใช้เทอร์มินัล</short>
+        <long>เบราว์เซอร์ปริยายต้องใช้เทอร์มินัลหรือไม่</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Tarayıcı uçbirime ihtiyaç duyuyor</short>
+        <long>Öntanımlı tarayıcının çalışması için bir uçbirime ihtiyaç duyup duymadığı.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Програмі перегляду потрібен термінал</short>
+        <long>Чи типовому переглядачу потрібен термінал для запуску.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Trình duyệt cần thiết bị cuối.</short>
+        <long>Trình duyệt mặc định có cần thiết bị cuối để chạy không.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Isikhangeli sifuna itheminali</short>
+        
+      </locale>
+
+      <locale name="zh_CN">
+        <short>浏览器需要终端</short>
+        <long>默认的浏览器是否需要终端来运行。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>瀏覽器需要終端機方可運作</short>
+        <long>預設的瀏覽器是否需要終端機方可運行。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>瀏覽器需要終端機方可運作</short>
+        <long>預設的瀏覽器是否需要終端機方可運行。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/browser/nremote</key>
+      <applyto>/desktop/gnome/applications/browser/nremote</applyto>
+      <owner>gnome</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Browser understands remote</short>
+        <long>Whether the default browser understands netscape remote.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>يفهم المتصفح التحكم عن بعد</short>
+        <long>ما إذا كان المتصفح يفهم التحكم عن بعد لنتسكيب.</long>
+      </locale>
+
+      <locale name="as">
+        <short>চৰকৰ দ্বাৰা দূৰবৰ্তী কৰ্ম বোধগম্য</short>
+        <long>অবিকল্পিত চৰক দ্বাৰা netscape ৰ দূৰবৰ্তী কৰ্ম বোধগম্য নে নহয়</long>
+      </locale>
+
+      <locale name="ast">
+        <short>El ñavegador entiende la opción remota</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>Səyyah uzaqdakini başa düşür</short>
+        
+      </locale>
+
+      <locale name="be">
+        <short>Вандроўнік разумее адлеглае</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Браузърът разбира опцията remote</short>
+        <long>Дали стандартният браузър разбира опцията remote на netscape.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>ব্রাউজার রিমোট উপলব্ধি করে</short>
+        
+      </locale>
+
+      <locale name="bn_IN">
+        <short>ব্রাউজারের দ্বারা দূরবর্তী কর্ম বোধগম্য</short>
+        <long>ডিফল্ট ব্রাউজার দ্বারা netscape&apos;র দূরবর্তী কর্ম বোধগম্য কিনা।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Preglednik razumije mrežne naredbe</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>El navegador permet ordres remotes</short>
+        <long>Si el navegador predeterminat permet «netscape remot».</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>El navegador permet ordes remotes</short>
+        <long>Si el navegador predeterminat permet «netscape remot».</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Kezici uzaqtan muraqabeni añlay</short>
+        <long>Ög-belgilengen keziciniñ Netscape uzaqtan muraqabesini añlap añlamağanı.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Prohlížeč rozumí remote</short>
+        <long>Zda výchozí prohlížeč rozumí &quot;netscape remote&quot;.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Mae&apos;r porwr yn deall &quot;remote&quot;</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Browser forstår fjernbetjening</short>
+        <long>Om standardbrowseren forstår Netscape-fjernbetjening.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Kann der Browser fernbedient werden?</short>
+        <long>Legt fest, ob sich der Vorgabe-Browser mittels »netscape remote« fernbedienen lässt.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>བརའུ་ཟར་གྱིས་ ཐག་རིང་ཧ་གོ་ཚུགས་པས།</short>
+        
+      </locale>
+
+      <locale name="el">
+        <short>Ο περιηγητής κατανοεί αποκακρυσμένο</short>
+        <long>Αν ο προεπιλεγμένος περιηγητής κατανοεί το netscape remote.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Browser understands remote</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Browser understands remote</short>
+        <long>Whether the default browser understands netscape remote.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Foliumilo komprenas foran</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>El navegador implementa la opción «remote»</short>
+        <long>Indica si el navegador predeterminado implementa «netscape remote».</long>
+      </locale>
+
+      <locale name="et">
+        <short>Veebilehitseja mõistab kaugkorraldusi</short>
+        <long>Kas veebilehitseja mõistab netscape kaugkorraldusi.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Arakatzaileak urrunekoa ulertzen du</short>
+        <long>Arakatzaile lehenetsiak urruneko netscape ulertzen duen ala ez adierazten du.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>مرورگر دوردست را می‌فهمد</short>
+        
+      </locale>
+
+      <locale name="fi">
+        <short>Selain ymmärtää hallintakomentoja</short>
+        <long>Ymmärtääkö oletusselain netscapen hallintakomentoja.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Le navigateur est contrôlable à distance</short>
+        <long>Indique si le navigateur par défaut comprend le protocole de commande à distance de Netscape.</long>
+      </locale>
+
+      <locale name="gl">
+        <short>O navegador entende a opción remote</short>
+        <long>Indica se o navegador predeterminado entende o netscape remote.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>બ્રાઉઝર દૂરસ્થને સમજે છે</short>
+        <long>શું મૂળભૂત બ્રાઉઝર નેટસ્કેપ દૂરસ્થને સમજે છે.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Browser understands remote</short>
+        <long>Whether the default browser understands netscape remote.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>ब्राउज़र रिमोट को समझता है</short>
+        <long>क्या तयशुदा ब्राउज़र नेटस्केप दूरस्थ को समझता है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Pretraživač razumije udaljenosti</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>A böngésző távirányítható-e?</short>
+        <long>Az alapértelmezett böngésző távirányítható-e „netscape remote” segítségével?</long>
+      </locale>
+
+      <locale name="id">
+        <short>Browser mengerti remote</short>
+        
+      </locale>
+
+      <locale name="is">
+        <short>Vafri skilur fjarstýringu</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>Il browser gestisce file remoti</short>
+        <long>Indica se il browser predefinito gestisce l&apos;opzione &apos;remote&apos; di Netscape.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ブラウザはリモートを理解する</short>
+        <long>デフォルトのブラウザが Netscape リモートを理解するかどうかです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ბრაუზერი აღიქვამს გარე მართვას</short>
+        
+      </locale>
+
+      <locale name="kn">
+        <short>ವೀಕ್ಷಕವು ದೂರದಲ್ಲಿರುವುದನ್ನು ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳುತ್ತದೆ</short>
+        <long>ಪೂರ್ವನಿಯೋಜಿತ ವೀಕ್ಷಕವು ನೆಟ್‌ಸ್ಕೇಪ್ ರಿಮೋಟ್ ಅನ್ನು ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳುತ್ತದೆಯೆ.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>브라우저가 remote를 이해합니다</short>
+        <long>기본 브라우저가 네트스케이프 리모트 기능을 지원하는 지 여부.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Lêgerok pergala dûr fahm dike</short>
+        
+      </locale>
+
+      <locale name="lt">
+        <short>Naršyklė gali apdoroti nutolusius adresus</short>
+        <long>Ar numatytoji naršyklė gali apdoroti netscape nutolusias komandas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Pārlūks saprot attālināti</short>
+        <long>Vai noklusētais pārlūks saprot netskape tālvadību.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>ब्राउजर रिमोट केँ समझैत अछि</short>
+        
+      </locale>
+
+      <locale name="mg">
+        <short>Azo baikoana avy lavitra ny mpitety</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Прелистувачот може да се управува далечински</short>
+        <long>Дали стандардниот пребарувач поддржува netscape оддалечена контрола.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>അന്വേഷകന്‍ വിദൂരതയിലുളളത് മനസ്സിലാക്കുന്നു</short>
+        <long>സഹജമായ ബ്രൌസര്‍ നെറ്റ്സ്കേപ്പ് റിമോട്ട് മനസ്സിലാക്കുന്നുവോ എന്നു്.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Хөтөч алсаас удирдуулна</short>
+        <long>Өгөгдмөл хөтөч »netscape remote« хэрэгсэл ашиглан алсаас удирдагдах эсэх.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>ब्राउजरला दुरस्त समझते</short>
+        <long>मुलभूत ब्राउजरासाठी नेटस्केप दूरस्थरित्या समझते का.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Pelungsur memahami jauh</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Nettleser forstår eksterne kommandoer</short>
+        <long>Om forvalgt leser forstår netscape remote-protokollen.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>ब्राउजरले टाढाको बुझ्दछ</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Browser begrijpt &apos;remote&apos;</short>
+        <long>Of de standaardbrowser de Netscape &apos;remote&apos;-opdracht begrijpt.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Nettlesaren forstår fjernstyring</short>
+        <long>Om standardnettlesaren skjønar netscape remote-protokollen.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଖୋଜାଳି ଦୂର ତନ୍ତ୍ରକୁ ବୁଝି ପାରେ</short>
+        <long>ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଖୋଜାଳି ନେଟସ୍କେପ୍ ଦୂରତ୍ବକୁ ବୁଝିପାରେ କି.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਬਰਾਊਜ਼ਰ ਰਿਮੋਟ ਨੂੰ ਸਮਝਦਾ ਹੈ</short>
+        <long>ਕੀ ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ ਨੈਟਸਕੇਪ ਰਿਮੋਟ ਨੂੰ ਸਮਝਦਾ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Przeglądarka obsługuje protokół zdalnego sterowania</short>
+        <long>Określa, czy domyślna przeglądarka obsługuje protokół Netscape do zdalnego sterowania.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Navegador compreende remoto</short>
+        <long>Se o navegador por omissão compreende netscape remoto.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Navegador entende protocolo remote</short>
+        <long>O navegador padrão entende o protocolo remote do Netscape.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Navigatorul recunoaște comenzile la distanță</short>
+        <long>Specifică dacă navigatorul implicit înțelege comenzile la distanță Netscape.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Браузер понимает удалённые команды</short>
+        <long>Понимает ли браузер по умолчанию удалённые команды netscape.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Prehliadač vie pracovať vzdialene</short>
+        <long>Či predvolený prehliadač ovláda netscape remote.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Brskalnik razume klice upravljanja</short>
+        <long>Ali privzet brskalnik razume netscape oddaljeno upravljanje.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Shfletuesi trajton files remotë</short>
+        <long>Tregon nëse shfletuesi i paracaktuar manazhon opsionin &quot;remote&quot; të netscape.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Читач разуме удаљено</short>
+        <long>Да ли уобичајени читач разуме удаљене Нетскејп наредбе.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Читач разумије удаљено</short>
+        
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Čitač razume udaljeno</short>
+        <long>Da li uobičajeni čitač razume udaljene Netskejp naredbe.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Webbläsaren förstår fjärr</short>
+        <long>Huruvida standardwebbläsaren förstår netscape-fjärr.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>மேலோடிக்கு தொலைவு விளங்கும்</short>
+        <long>முன்னிருப்பு உலாவிக்கு நெட்ஸ்கேப் தொலைகருவி புரியுமா</long>
+      </locale>
+
+      <locale name="te">
+        <short>అన్వేషణి రిమోట్‌ను అర్దముచేసుకుంటుంది</short>
+        <long>అప్రమేయ అన్వేషణి నెట్‌స్కేప్ రిమోట్‌ను అర్ధంచేసుకోవాలా.</long>
+      </locale>
+
+      <locale name="th">
+        <short>เบราว์เซอร์เข้าใจรีโมต</short>
+        <long>กำหนดว่าเบราว์เซอร์ปริยายเข้าใจ netscape remote หรือไม่</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Tarayıcı uzaktaki sistemi anlar</short>
+        <long>Öntanımlı tarayıcının uzaktan netscape anlayıp anlamayacağı.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Переглядач підтримує віддалене керування</short>
+        <long>Чи типовий переглядач підтримує інтерфейс віддаленого керування Netscape.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Trình duyệt điều khiển từ xa.</short>
+        <long>Trình duyệt mặc định có hiểu netscape remote không.</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Isikhangeli siyayiqonda enye indawo</short>
+        
+      </locale>
+
+      <locale name="zh_CN">
+        <short>浏览器理解远程命令</short>
+        <long>默认的浏览器是否理解 netscape 远程控制命令。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>瀏覽器可辨認 remote 協定</short>
+        <long>預設的瀏覽器可否辨認 netscape remote 協定。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>瀏覽器可辨認 remote 協定</short>
+        <long>預設的瀏覽器可否辨認 netscape remote 協定。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

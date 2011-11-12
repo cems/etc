@@ -1,0 +1,1223 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="استفاده از پویانمایی سریع">
+						<longdesc>تنظیم این روی نادرست به معنای آهسته اما با وقار افتادن قطعه‌هاست. تنظیم درست باعث می‌شود قطعه‌ها به تندی و شلنگ‌اندازان بیافتند.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="ارتفاع صفحه‌ی سفارشی">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="عرض صفحه‌ی سفارشی">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="اندازه‌ی صفحه">
+						<longdesc>اندازه‌ی صفحه‌ی مورد استفاده. ۱ = سفارشی، ۲ = کوچک، ۳ = متوسط، ۴ = بزرگ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="تم مورد استفاده">
+						<longdesc>نام پرونده‌ی تم مورد استفاده.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="رها کردن تیله">
+						<longdesc>فشردن کلید برای رها کردن تیله.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="جابه‌جایی به راست">
+						<longdesc>فشردن کلید برای جابه‌جایی به راست.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="جابه‌جایی به چپ">
+						<longdesc>فشردن کلید برای جابه‌جایی به چپ.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="صدا">
+						<longdesc>این که صدای رویدادهای پخش شود یا نه.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="پویانماسازی">
+						<longdesc>این که از پویانمایی استفاده شود یا نه.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="شناسه‌ی تم">
+						<longdesc>عدد مشخص کننده‌ی تم ترجیح داده شده.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="سطح بازیکن دو">
+						<longdesc>صفر انسان است؛ یک تا سه متناظر با سطح بازیکن کامپیوتری است.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="سطح بازیکن یک">
+						<longdesc>صفر انسان است؛ یک تا سه متناظر با سطح بازیکن کامپیوتری است.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="پیش‌نمایش بازی">
+							<longdesc>پیش‌نمایش بازی آخرین نشست ذخیره شده.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="زمین بازی">
+							<longdesc>زمین بازی آخرین نشست ذخیره شده.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="امتیاز بازی">
+							<longdesc>امتیاز بازی آخرین نشست ذخیره شده.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="زمان بین حرکات">
+							<longdesc>زمان بین جابه‌جایی به میلی ثانیه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="رنگ پس‌زمینه">
+							<longdesc>رنگ پس‌زمینه. نمایش شانزده شانزدهی رنگ پس‌زمینه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="طرح توپ">
+							<longdesc>طرح توپ. نام پرونده‌ی تصاویر استفاده شونده برای توپ‌ها.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="اندازه زمین بازی">
+							<longdesc>اندازه‌ی زمین بازی. 1=کوچک، 2=متوسط، 3=بزرگ. هر مقدار دیگری نامعتبر است.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="height">
+					<local_schema short_desc="ارتفاع پنجره">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="عرض پنجره">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="statistics">
+					<local_schema short_desc="آمار بازی‌های انجام شده">
+						<longdesc>فهرستی از رشته‌ها که به شکل پنج‌تایی هستند: نام، بردها، ‌مجموع بازی‌های انجام شده، بهترین زمان (به ثانیه) و بدترین زمان (آن هم به ثانیه). باز‌‌ی‌های بازی نشده نمایش داده نمی‌شوند.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="پرونده‌ی بازی مورد استفاده">
+						<longdesc>نام پرونده‌ی شِمای حاوی بازی‌های یک نفره برای بازی.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="صدا">
+						<longdesc>این که صدای رویدادهای پخش شود یا نه.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="انتخاب سبک کنترل">
+						<longdesc>انتخاب این که کارت‌ها کشیده شوند یا این که اول روی مبداء و بعد روی مقصد کلیک شود</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="این که نوار ابزار نشان داده شود یا نه">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="نام پرونده‌ی تم">
+						<longdesc>نام پرونده‌ی گرافیک کارت‌ها.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="کلید انتظار">
+							<longdesc>نام کلید مورد استفاده برای انتظار. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="کلید دوربری تصادفی">
+							<longdesc>نام کلید مورد استفاده برای دوربری تصادفی. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="کلید دوربری">
+							<longdesc>نام کلید مورد استفاده برای دوربری امن (اگر ممکن بود). نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="کلید جابه‌جایی به جنوب شرقی">
+							<longdesc>نام کلید مورد استفاده برای جابه‌جایی به جنوب شرقی. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="کلید جابه‌جایی به جنوب">
+							<longdesc>نام کلید مورد استفاده برای جابه‌جایی به جنوب. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="کلید جابه‌جایی به جنوب غربی">
+							<longdesc>نام کلید مورد استفاده برای جابه‌جایی به جنوب غربی. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="کلید جابه‌جایی به شرق">
+							<longdesc>نام کلید مورد استفاده برای جابه‌جایی به شرق. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="کلید نگه داشتن">
+							<longdesc>نام کلید مورد استفاده برای ثابت ماندن. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="کلید جابه‌جایی به غرب">
+							<longdesc>نام کلید مورد استفاده برای جابه‌جایی به غرب. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="کلید جابه‌جایی شمال شرقی">
+							<longdesc>نام کلید مورد استفاده برای جابه‌جایی به شمال شرقی. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="کلید جابه‌جایی به شمال">
+							<longdesc>نام کلید مورد استفاده برای جابه‌جایی به شمال. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="کلید جابه‌جایی به شمال غربی">
+							<longdesc>نام کلید مورد استفاده برای جابه‌جایی به شمال غربی. نام یک نام کلید X استاندارد است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="به کار انداختن شِلِپ">
+							<longdesc>به کار انداختن صدای شلپ. بخش یک صدا و نشان دادن «شلپ!» روی صفحه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="به کار انداختن صداهای بازی">
+							<longdesc>به کار انداختن صداهای بازی. پخش صدا برای رویدادهای مختلف در طول بازی</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="استفاده از حرکت‌های کاملاً امن">
+							<longdesc>استفاده از حرکت‌های کاملاً امن. زمانی که هیچ جابه‌جایی امنی وجود ندارد و تنها گزینه دوربری به بیرون است به بازیکن اخطار داده می‌شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="استفاده از حرکت‌های امن">
+							<longdesc>استفاده از حرکت‌های امن. گزینه‌ی حرکت‌های امن به شما کمک خواهد کرد از کشته شدن به خاطر اشتباه جلوگیری کنید. اگر زمانی که جابه‌جایی امنی وجود دارد سعی کنید جابه‌جایی‌ای انجام دهید که به مرگ شما منجر شود، اجازه‌ی ادامه دادن به شما داده نخواهد شد.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="نوع بازی">
+							<longdesc>نوع بازی. نام گونه‌ی بازی مورد استفاده</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="رنگ پس‌زمینه">
+							<longdesc>رنگ پس‌زمینه. نمایش شانزده شانزدهی رنگ پس‌زمینه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="تم تصویری روبات">
+							<longdesc>تم تصویری روبات. تم تصویرها استفاده شده برای روبات‌ها</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="نمایش نوار ابزار">
+							<longdesc>نمایش نوار ابزار. یک گزینه‌ی استاندارد برای نوارهای ابزار</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="اندازه‌ی کاشی‌های بازی">
+							<longdesc>اندازه‌ی کاشی‌های بازی</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="به کار انداختن صداها">
+							<longdesc>به کار انداختن صداها.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="مرحله‌ی بازی هنگام شروع">
+							<longdesc>مرحله‌ی بازی هنگام شروع.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="بازی مرحله‌ها با ترتیب تصادفی">
+							<longdesc>بازی مرحله‌ها با ترتیب تصادفی</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="به کار انداختن جایزه‌های تقلبی">
+							<longdesc>به کار انداختن جایزه‌های تقلبی.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="سرعت بازی">
+							<longdesc>سرعت بازی (۱=سریع،۴=آرام)</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="جابه‌جایی به راست">
+									<longdesc>کلید مورد استفاده برای هدایت به راست.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="جابه‌جایی به چپ">
+									<longdesc>کلید مورد استفاده برای هدایت به چپ.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="جابه‌جایی به پایین">
+									<longdesc>کلید مورد استفاده برای هدایت به پایین.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="جابه‌جایی به بالا">
+									<longdesc>کلید مورد استفاده برای هدایت به بالا.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="استفاده از حرکت نسبی">
+									<longdesc>استفاده از حرکت نسبی (مثلاً فقط راست یا چپ).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="رنگ مورد استفاده برای کِرم">
+									<longdesc>رنگ مورد استفاده برای کِرم.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="جابه‌جایی به راست">
+									<longdesc>کلید مورد استفاده برای هدایت به راست.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="جابه‌جایی به چپ">
+									<longdesc>کلید مورد استفاده برای هدایت به چپ.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="جابه‌جایی به پایین">
+									<longdesc>کلید مورد استفاده برای هدایت به پایین.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="جابه‌جایی به بالا">
+									<longdesc>کلید مورد استفاده برای هدایت به بالا.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="استفاده از حرکت نسبی">
+									<longdesc>استفاده از حرکت نسبی (مثلاً فقط راست یا چپ).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="رنگ مورد استفاده برای کِرم">
+									<longdesc>رنگ مورد استفاده برای کِرم.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="جابه‌جایی به راست">
+									<longdesc>کلید مورد استفاده برای هدایت به راست.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="جابه‌جایی به چپ">
+									<longdesc>کلید مورد استفاده برای هدایت به چپ.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="جابه‌جایی به پایین">
+									<longdesc>کلید مورد استفاده برای هدایت به پایین.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="جابه‌جایی به بالا">
+									<longdesc>کلید مورد استفاده برای هدایت به بالا.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="استفاده از حرکت نسبی">
+									<longdesc>استفاده از حرکت نسبی (مثلاً فقط راست یا چپ).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="رنگ مورد استفاده برای کِرم">
+									<longdesc>رنگ مورد استفاده برای کِرم.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="جابه‌جایی به راست">
+									<longdesc>کلید مورد استفاده برای هدایت به راست.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="جابه‌جایی به چپ">
+									<longdesc>کلید مورد استفاده برای هدایت به چپ.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="جابه‌جایی به پایین">
+									<longdesc>کلید مورد استفاده برای هدایت به پایین.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="جابه‌جایی به بالا">
+									<longdesc>کلید مورد استفاده برای هدایت به بالا.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="استفاده از حرکت نسبی">
+									<longdesc>استفاده از حرکت نسبی (مثلاً فقط راست یا چپ).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="رنگ مورد استفاده برای کِرم">
+									<longdesc>رنگ مورد استفاده برای کِرم.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="جابه‌جایی به راست">
+									<longdesc>کلید مورد استفاده برای هدایت به راست.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="جابه‌جایی به چپ">
+									<longdesc>کلید مورد استفاده برای هدایت به چپ.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="جابه‌جایی به پایین">
+									<longdesc>کلید مورد استفاده برای هدایت به پایین.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="جابه‌جایی به بالا">
+									<longdesc>کلید مورد استفاده برای هدایت به بالا.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="استفاده از حرکت نسبی">
+									<longdesc>استفاده از حرکت نسبی (مثلاً فقط راست یا چپ).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="رنگ مورد استفاده برای کِرم">
+									<longdesc>رنگ مورد استفاده برای کِرم.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="جابه‌جایی به راست">
+									<longdesc>کلید مورد استفاده برای هدایت به راست.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="جابه‌جایی به چپ">
+									<longdesc>کلید مورد استفاده برای هدایت به چپ.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="جابه‌جایی به پایین">
+									<longdesc>کلید مورد استفاده برای هدایت به پایین.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="جابه‌جایی به بالا">
+									<longdesc>کلید مورد استفاده برای هدایت به بالا.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="استفاده از حرکت نسبی">
+									<longdesc>استفاده از حرکت نسبی (مثلاً فقط راست یا چپ).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="رنگ مورد استفاده برای کِرم">
+									<longdesc>رنگ مورد استفاده برای کِرم.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="انتخاب سبک کنترل">
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="اندازه‌ی توری بازی">
+						<longdesc>مقدار این کلید برای تعیین اندازه‌ی توری بازی را به کار می‌رود. مقدار معتبر بین ۲ تا ۸ است، هر چیز دیگری به باعث تنظیم روی ۳ می‌شود.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="مکث">
+							<longdesc>کلیدی که برای مکث فشرده می‌شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="چرخاندن">
+							<longdesc>کلیدی که برای چرخاندن فشرده می‌شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="انداختن">
+							<longdesc>کلیدی که برای انداختن فشرده می شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="جابه‌جایی به پایین">
+							<longdesc>کلیدی که برای جابه‌جایی به پایین فشرده می‌شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="جابه‌جایی به راست">
+							<longdesc>فشردن کلید برای جابه‌جایی به راست.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="جابه‌جایی به چپ">
+							<longdesc>فشردن کلید برای جابه‌جایی به چپ.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="فشردگی سطر‌های پر شده">
+							<longdesc>فشردگی بلوک‌ها در سطرهای پرشده در ابتدای بازی. مقدار بین ۰ (برای بدون بلوک) و ۱۰ (برای سطرهای کاملاً پر شده) است.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="تعداد سطرهایی که باید پر شوند">
+							<longdesc>تعداد سطرهای پر شده با بلوک‌های تصادفی در ابتدای بازی.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="این که چرخاندن پادساعت‌گرد باشد یا نه">
+							<longdesc>این که چرخاندن پادساعت‌گرد باشد یا نه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="این که بلوک‌ها رنگ‌های تصادفی داشته باشند یا نه">
+							<longdesc>این که بلوک‌ها رنگ‌های تصادفی داشته باشند. یا نه</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="این که بلوک بعدی پیش‌نمایش شود یا نه">
+							<longdesc>این که بلوک بعدی پیش‌نمایش شود یا نه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="رنگ پس‌زمینه">
+							<longdesc>رنگ پس‌زمینه، در قالبی که gdk_color_parse می‌فهمد.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="این که از تصویر پس‌زمینه استفاده شود یا نه">
+							<longdesc>این انتخاب می‌کند که تصویر پس‌زمینه روی رنگ پس‌زمینه ترسیم شود یا نه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="مرحله‌ی شروع">
+							<longdesc>مرحله‌ی شروع </longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="تم مورد استفاده برای ترسیم بلوک‌ها">
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="تصویر مورد استفاده برای ترسیم بلوک‌ها">
+							<longdesc>تصویر مورد استفاده برای ترسیم بلوک‌ها.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="نشان دادن افکار کامپیوتر">
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="تأخیر بین تاس ریختن‌ها">
+						<longdesc>انتخاب این که تأخیری بین تاس ریختن‌های کامپیوتر باشد یا نه تا بازیکن بتواند کار آن را دنبال کند.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="جورچین در حال بازی">
+						<longdesc>تعداد جورچین‌های بازی شده.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="صدا">
+						<longdesc>این که صدای رویدادهای پخش شود یا نه.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="نادیده گرفتن محدودیت‌های نوشتار">
+						<longdesc>نادیده گرفتن محدودیت‌های نوشتار، مثل محدودیت نسخه‌برداری یا چاپ.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_question_marks">
+					<local_schema short_desc="استفاده از پرچم نامعلوم">
+						<longdesc>برای علامت‌گذاری مربع‌ها به عنوان نامعلوم روی درست تنظیم شود.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="این که نوار ابزار نشان داده شود یا نه">
+						<longdesc>این که نوار ابزار نشان داده شود یا نه.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="مقدار پول بانک شما">
+							<longdesc>مقدار پول بانک شما.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="نام پرونده‌ی تم">
+							<longdesc>نام پرونده‌ی گرافیک کارت‌ها.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="quick_deal">
+						<local_schema short_desc="استفاده از گرفتن سریع">
+							<longdesc>استفاده از گرفتن سریع بدون تأخیر بین گرفتن کارت‌ها</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="نمایش احتمالات">
+							<longdesc>نمایش احتمالات هر دست داده شده و مقدار مورد انتظار از دست شما.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema>
+							<longdesc>نام پرونده‌ی قوانین شامل صورت‌های مختلف بازی</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="به کار انداختن گزینهٔ Burnproof">
+						<longdesc>این که آیا از گزینه Burnproof که در بعضی ضبط کننده‌ها موجود است استفاده بشود یا نه.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="به کار انداختن نوشتن بیش از ظرفیت">
+						<longdesc>این که آیا اجازه داده بشود که اندازهٔ داده‌ها از اندازهٔ رسانهٔ فیزیکی بیشتر شود یا نه.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="به کار انداختن اشکال‌زدا">
+						<longdesc>این که آیا اشکال‌زدا برای ضبط سی‌دی به کار انداخته بشود یا نه.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="سرعت نوشتن پیش‌فرض">
+						<longdesc>سرعت پیش‌فرض نوشتن رسانه.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="شاخهٔ تصاویر ISO موقتی">
+						<longdesc>شاخه‌ای که پرونده‌های تصویر ISO موقت در آن قرار می‌گیرند، برای استفاده از پیش‌فرض سیستم می‌توانید خالی رهایش کنید.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="تم شمایل پرونده">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="صدا برای رویدادها">
+							<longdesc>این که آیا برای رویدادهای کاربر صدا پخش بشود یا نه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="به کار انداختن ESD">
+							<longdesc>به کار انداختن راه‌اندازی کارگزار صوت</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="پیمانه برای GtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="نوار وضعیت در راست">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="استفاده از قلم سفارشی">
+							<longdesc>این که آیا در برنامه‌های gtk+ از قلم سفارشی استفاده بشود یا نه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="قلم تک عرض">
+							<longdesc>نام قلم تک‌ عرض برای استفاده در مکان‌هایی مانند پایانه‌ها</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="سبک وضعیت GTK IM">
+							<longdesc>نام روش ورودی GTK+، سبک وضعیت که توسط gtk+ استفاده می‌شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="سبک GTK IM Preedit">
+							<longdesc>نام روش ورودی GTK+، سبک پیش‌ویرایش که توسط gtk+ استفاده می‌شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="قلم پیش‌فرض">
+							<longdesc>نام قلم پیش‌فرض که توسط gtk+ استفاده می‌شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="تم Gtk+">
+							<longdesc>اسم مبنا برای تم پیش‌فرضی که  gtk+ استفاده می‌کند.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="تم Gtk+">
+							<longdesc>اسم مبنا برای تم پیش‌فرضی که  gtk+ استفاده می‌کند.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="تم شمایل">
+							<longdesc>تم شمایل مورد استفاده‌ی تابلو، ناتیلوس و غیره.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="زمان چشمک زدن مکان‌نما">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="چشمک زدن مکان‌نما">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="اندازه‌ی شمایل نوار ابزار">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="نوار ابزار جداشدنی">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="نوار منوی جداشدنی">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="منوها شمایل دارند">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="سبک نوار ابزار">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="می‌تواند شتاب‌ده‌ها را عوض کند">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="منوها آژدار دارند">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="به کار انداختن پویانمایی‌ها">
+							<longdesc>این که آیا پویانمایی نمایش داده بشود یا نه. توجه: این یک کلید سراسری است، رفتار مدیر پنجره‌ها، تابلو و غیره را تغییر می‌دهد.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="به کار انداختن دسترسی‌پذیری">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="برنامه‌های فن‌آوری کمکی راه‌اندازی">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>از کار افتادن اگر دو کلید همزمان فشار داده شود.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="بازه‌ی حداقل به میلی‌ثانیه">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="این که آیا قفل صفحه کلید به کار انداخته شود یا نه.">
+							<longdesc>این که آیا قفل صفحه کلید به کار انداخته شود یا نه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="اجازه‌ی تعویق استراحت‌ها">
+							<longdesc>این که آیا بشود صفحه‌ی استراحت تایپ را به تعویق انداخت یا نه.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="زمان استراحت">
+							<longdesc>تعداد دقایقی که استراحت تایپ ادامه می‌یابد.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="زمان تایپ">
+							<longdesc>تعداد دقایق زمان تایپ کردن قبل از شروع حالت استراحت.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_print_setup">
+						<local_schema short_desc="از کار انداختن برپاسازی چاپ">
+							<longdesc>جلوگیری از تغییر تنظیمات چاپ توسط کاربر. برای مثال، ممکن است دسترسی به محاوره‌ی «برپاسازی چاپ» را در تمام برنامه‌ها از کار بیاندازد.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="از کار انداختن چاپ">
+							<longdesc>جلوگیری از چاپ توسط کاربر. برای مثال، ممکن است دسترسی به محاوره‌ی «چاپ» را در تمام برنامه‌ها از کار بیاندازد.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="از کار انداختن ذخیره‌ی پرونده‌ها در دیسک">
+							<longdesc>جلوگیری از ذخیره‌ی پرونده‌ها در دیسک توسط کاربر. برای مثال، ممکن است دسترسی به محاوره‌ی «ذخیره به نام» را در تمام برنامه‌ها از کار بیاندازد.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="از کار انداختن خط فرمان">
+							<longdesc>جلوگیری از دسترسی کاربر به پایانه یا مشخص کردن خط فرمان برای اجرا. برای مثال، ممکن است دسترسی به محاوره‌ی «اجرای برنامه» در تابلو را از کار بیاندازد.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="نوع پرده‌ی رنگ">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="رنگ‌ فرعی ">
+							<longdesc>رنگ راست یا پایین برای وقتی شیب‌ها رسم می‌شوند، برای رنگ یکدست استفاده نمی‌شود.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="رنگ اصلی">
+							<longdesc>رنگ چپ یا بالا وقتی با شیب‌ها کشیده می‌شود، یا رنگ یکدست.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="کدری عکس">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="نام پرونده‌ی عکس">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="گزینه‌های عکس">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="رسم پس‌زمینه‌ی رومیزی">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="bell_custom_file">
+							<local_schema short_desc="نام پرونده‌ی ‌زنگ سفارشی صفحه‌کلید">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>مقادیر ممکن عبارتند از «روشن»، «خاموش» و «سفارشی».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="اندازه‌ی مکان‌نما">
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="تم مکان‌نما">
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="قلم مکان‌نما">
+								<longdesc>نام قلم مکان‌نما. اگر تنظیم نشده باشد، قلم پیش‌فرض استفاده می‌شود. این مقدار فقط در شروع هر نشست به کارگزار X رد می‌شود، بنابراین، تغییر آن در میانه‌ی نشست تا زمان ورود بعدی شما به سیستم اثری ندارد.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="تعیین مکان اشاره‌گر">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="زمان دوبار کلیک ">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="آستانه‌ی کشیدن">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="آستانه‌ی حرکت">
+								<longdesc>فاصله‌ای (به نقطه) که اشاره‌گر باید حرکت کند تا آنکه حرکت شتابدار موشی فعال شود. مقدار پیش‌فرض سیستم ۱- است.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="تک کلیک">
+								<longdesc>ضرب‌کننده‌ی شتابدهنده برای حرکت موشی. پیش‌فرض سیستم ۱- است.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="تک کلیک">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="جهت دکمه‌ی موشی">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="فرمان مسطوره برای نوشتارهای PDF">
+								<longdesc>فرمان معتبر به همراه آرگومان‌هایی برای نوشتار PDF. برای اطلاعات بیشتر مستندات مسطوره‌ساز ناتیلوس را ببینید.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="به کار انداختن مسطوره‌سازی برای نوشتارهای PDF">
+								<longdesc>دو گزینهٔ بولی ممکن است، درست مسطوره‌سازی را به کار می‌اندازد و نادرست ایجاد مسطوره‌های جدید را قطع می‌کند</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="فرمان مسطوره برای نوشتارهای PDF">
+								<longdesc>فرمان معتبر به همراه آرگومان‌هایی برای نوشتار PDF. برای اطلاعات بیشتر مستندات مسطوره‌ساز ناتیلوس را ببینید.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="به کار انداختن مسطوره‌سازی برای نوشتارهای PDF">
+								<longdesc>دو گزینهٔ بولی ممکن است، درست مسطوره‌سازی را به کار می‌اندازد و نادرست ایجاد مسطوره‌های جدید را قطع می‌کند</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="فرمان مسطوره برای نوشتارهای PDF">
+								<longdesc>فرمان معتبر به همراه آرگومان‌هایی برای نوشتار PDF. برای اطلاعات بیشتر مستندات مسطوره‌ساز ناتیلوس را ببینید.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="به کار انداختن مسطوره‌سازی برای نوشتارهای PDF">
+								<longdesc>دو گزینهٔ بولی ممکن است، درست مسطوره‌سازی را به کار می‌اندازد و نادرست ایجاد مسطوره‌های جدید را قطع می‌کند</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="مرورگر دوردست را می‌فهمد">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="مرورگر به پایانه نیاز دارد">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="مرورگر پیش‌فرض">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="آرگومان‌های Exec">
+								<longdesc>آرگومان استفاده شده برای اجرای برنامه‌ها در پایانه تعریف شده با کلید «exec».</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="برنامه‌ی پایانه">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="این که از این مجموعه تنظیمات استفاده بشود یا نه">
+									<longdesc>این که این مجموعه وظایف نمایش داده و به کار گرفته شود یا نه.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="پسوند پرونده‌ی پیش‌فرض برای این مجموعه تنظیمات">
+									<longdesc>یک پسوند نام پرونده که هنگام ذخیره کردن پرونده‌هایی که با این مجموعه تنظیمات کدگذاری شده‌اند استفاده شود.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="خط لوله‌ی جزئی GStreamer استفاده شده">
+									<longdesc>یک خط لوله‌ی جزئی GStreamer برای استفاده‌ی این مجموعه تنظیمات.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="شرحی برای مجموعه تنظیمات صوتی">
+									<longdesc>شرحی بر مجموعه تنظیمات، حاوی اطلاعات بیشتری است و توضیح می‌دهد چه زمان‌هایی از این مجموعه تنظیمات استفاده شود.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="یک نام کوتاه برای مجموعه تنظیمات صوتی">
+									<longdesc>یک نام کوتاه برای مجموعه تنظیمات صوتی، که در انتخاب‌ها و تعیین هویت یکتای مجموعه تنظیمات استفاده شود.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="این که از این مجموعه تنظیمات استفاده بشود یا نه">
+										<longdesc>این که این مجموعه وظایف نمایش داده و به کار گرفته شود یا نه.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="پسوند پرونده‌ی پیش‌فرض برای این مجموعه تنظیمات">
+										<longdesc>یک پسوند نام پرونده که هنگام ذخیره کردن پرونده‌هایی که با این مجموعه تنظیمات کدگذاری شده‌اند استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="خط لوله‌ی جزئی GStreamer استفاده شده">
+										<longdesc>یک خط لوله‌ی جزئی GStreamer برای استفاده‌ی این مجموعه تنظیمات.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="شرحی برای مجموعه تنظیمات صوتی">
+										<longdesc>شرحی بر مجموعه تنظیمات، حاوی اطلاعات بیشتری است و توضیح می‌دهد چه زمان‌هایی از این مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="یک نام کوتاه برای مجموعه تنظیمات صوتی">
+										<longdesc>یک نام کوتاه برای مجموعه تنظیمات صوتی، که در انتخاب‌ها و تعیین هویت یکتای مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="پسوند پرونده‌ی پیش‌فرض برای این مجموعه تنظیمات">
+										<longdesc>یک پسوند نام پرونده که هنگام ذخیره کردن پرونده‌هایی که با این مجموعه تنظیمات کدگذاری شده‌اند استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="خط لوله‌ی جزئی GStreamer استفاده شده">
+										<longdesc>یک خط لوله‌ی جزئی GStreamer برای استفاده‌ی این مجموعه تنظیمات.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="شرحی برای مجموعه تنظیمات صوتی">
+										<longdesc>شرحی بر مجموعه تنظیمات، حاوی اطلاعات بیشتری است و توضیح می‌دهد چه زمان‌هایی از این مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="یک نام کوتاه برای مجموعه تنظیمات صوتی">
+										<longdesc>یک نام کوتاه برای مجموعه تنظیمات صوتی، که در انتخاب‌ها و تعیین هویت یکتای مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="پسوند پرونده‌ی پیش‌فرض برای این مجموعه تنظیمات">
+										<longdesc>یک پسوند نام پرونده که هنگام ذخیره کردن پرونده‌هایی که با این مجموعه تنظیمات کدگذاری شده‌اند استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="خط لوله‌ی جزئی GStreamer استفاده شده">
+										<longdesc>یک خط لوله‌ی جزئی GStreamer برای استفاده‌ی این مجموعه تنظیمات.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="شرحی برای مجموعه تنظیمات صوتی">
+										<longdesc>شرحی بر مجموعه تنظیمات، حاوی اطلاعات بیشتری است و توضیح می‌دهد چه زمان‌هایی از این مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="یک نام کوتاه برای مجموعه تنظیمات صوتی">
+										<longdesc>یک نام کوتاه برای مجموعه تنظیمات صوتی، که در انتخاب‌ها و تعیین هویت یکتای مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="پسوند پرونده‌ی پیش‌فرض برای این مجموعه تنظیمات">
+										<longdesc>یک پسوند نام پرونده که هنگام ذخیره کردن پرونده‌هایی که با این مجموعه تنظیمات کدگذاری شده‌اند استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="خط لوله‌ی جزئی GStreamer استفاده شده">
+										<longdesc>یک خط لوله‌ی جزئی GStreamer برای استفاده‌ی این مجموعه تنظیمات.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="شرحی برای مجموعه تنظیمات صوتی">
+										<longdesc>شرحی بر مجموعه تنظیمات، حاوی اطلاعات بیشتری است و توضیح می‌دهد چه زمان‌هایی از این مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="یک نام کوتاه برای مجموعه تنظیمات صوتی">
+										<longdesc>یک نام کوتاه برای مجموعه تنظیمات صوتی، که در انتخاب‌ها و تعیین هویت یکتای مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="پسوند پرونده‌ی پیش‌فرض برای این مجموعه تنظیمات">
+										<longdesc>یک پسوند نام پرونده که هنگام ذخیره کردن پرونده‌هایی که با این مجموعه تنظیمات کدگذاری شده‌اند استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="خط لوله‌ی جزئی GStreamer استفاده شده">
+										<longdesc>یک خط لوله‌ی جزئی GStreamer برای استفاده‌ی این مجموعه تنظیمات.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="شرحی برای مجموعه تنظیمات صوتی">
+										<longdesc>شرحی بر مجموعه تنظیمات، حاوی اطلاعات بیشتری است و توضیح می‌دهد چه زمان‌هایی از این مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="یک نام کوتاه برای مجموعه تنظیمات صوتی">
+										<longdesc>یک نام کوتاه برای مجموعه تنظیمات صوتی، که در انتخاب‌ها و تعیین هویت یکتای مجموعه تنظیمات استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="پسوند پرونده‌ی پیش‌فرض برای این مجموعه تنظیمات">
+										<longdesc>یک پسوند نام پرونده که هنگام ذخیره کردن پرونده‌هایی که با این مجموعه تنظیمات کدگذاری شده‌اند استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="خط لوله‌ی جزئی GStreamer استفاده شده">
+										<longdesc>یک خط لوله‌ی جزئی GStreamer برای استفاده‌ی این مجموعه تنظیمات.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="شرحی برای مجموعه تنظیمات صوتی">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="یک نام کوتاه برای مجموعه تنظیمات صوتی">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="پسوند پرونده‌ی پیش‌فرض برای این مجموعه تنظیمات">
+										<longdesc>یک پسوند نام پرونده که هنگام ذخیره کردن پرونده‌هایی که با این مجموعه تنظیمات کدگذاری شده‌اند استفاده شود.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="خط لوله‌ی جزئی GStreamer استفاده شده">
+										<longdesc>یک خط لوله‌ی جزئی GStreamer برای استفاده‌ی این مجموعه تنظیمات.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="شرحی برای مجموعه تنظیمات صوتی">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="یک نام کوتاه برای مجموعه تنظیمات صوتی">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="فهرست مجموعه‌های تنظیمات">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,860 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Saltase les restricciones del documentu">
+						<longdesc>Saltase les restricciones del documentu, como restricción pa copiar o imprentar.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="Conseña si&apos;l componente PKCS#11 del depósitu de claves ta activáu">
+							<longdesc>Esta opción activa el componente PKCS#11 nel demoniu del Depósitu de claves. Namái toma efeutu cuando s&apos;anicia gnome-keyring-daemon, (ex: cuando l&apos;usuariu entra nel sistema). Esti axuste pue sobreescribisae al pasar ciertos parámetros al demoniu a traviés de la llinia de comandos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="Conseña si l&apos;axente SSH del depósitu de claves ta activáu">
+							<longdesc>Esta opción activa l&apos;axente SSH nel demoniu del Depósitu de claves. Namái toma efeutu cuando s&apos;anicia gnome-keyring-daemon, (ex: cuando l&apos;usuariu entra nel sistema). Esti axuste pue sobreescribisae al pasar ciertos parámetros al demoniu a traviés de la llinia de comandos.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Tema d&apos;iconos de ficheros">
+							<longdesc>Tema usáu p&apos;amosar los iconos de ficheros.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="theme_name">
+						<local_schema short_desc="Nome del tema de soníos">
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="Soníos pa los eventos">
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Activar l&apos;ESD">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Amosar el menú &apos;Caráuter de control Unicode&apos;">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Amosar el menú &apos;Métodos d&apos;entrada&apos;">
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Acelerador de barra de menú">
+							<longdesc>Atayu de tecláu p&apos;abrir les barres de menú.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Barra d&apos;estáu a mandrecha">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Usar fonte personalizada">
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Triba de lletra monoespaciada">
+							<longdesc>Nome d&apos;una triba de lletra monoespaciada (anchor fixu) pa usar en llugares como los terminales.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Fonte del documentu">
+							<longdesc>Nome de la triba de lletra por defeutu usada pa lleer documentos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="Módulu GTK IM">
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Fonte por defeutu">
+							<longdesc>Nome de la triba de lletra por defeutu usada por gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Tema Gtk+">
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Tema Gtk+">
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Tema d&apos;iconos">
+							<longdesc>Tema d&apos;iconos que se van usar pal panel, nautilus, etc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Tiempu de parpaguéu del cursor">
+							<longdesc>Llonxitú del ciclu de parpaguéu del cursor, en milisegundos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Parpaguéu del cursor">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Tamañu de los iconos de la barra de ferramientes">
+							<longdesc>Tamañu de los iconos nes barres de ferramientes, pue ser &quot;small-toolbar&quot; o &quot;large-toolbar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Barra de ferramientes separtable">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Barra de menú separtable">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Los menús tienen iconos">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Estilu de la barra de ferramientes">
+							<longdesc>Estilu de la barra de ferramientes. Los valores válidos son &quot;both&quot;, &quot;both-horiz&quot;, &quot;icons&quot; y &quot;text&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Los menús tienen un tirador">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Activar animaciones">
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Activar accesibilidá">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Desactivar si se calquen dos tecles al empar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Intervalu mínimu en milisegundos">
+								<longdesc>Nun aceutar una tecla como calcada a nun ser que se caltenga más de @delay milisegundos.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Allancia anicial en milisegundos">
+								<longdesc>Cuántos milisegundo esperar enantes de que les tecles de movimientu del ratón entamen a furrular.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Cuánto acelerar en milisegundos">
+								<longdesc>Cuántos milisegundos lleva dir dende 0 hasta la velocidá máxima.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Píxeles per segundu">
+								<longdesc>Cuántos píxeles per segundu se mueven a velocidá máxima.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="intervalu mínimu en milisegundos">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="type_time">
+						<local_schema short_desc="Tiempu de tecléu">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Desactivar el candáu de pantalla">
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Desactivar el trueque d&apos;usuariu">
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Desactivar la configuración de la imprentadora">
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Desactivar imprentación">
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Desactivar el guardáu de ficheros nel discu">
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Desactivar llinia de comandos">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="secondary_color">
+						<local_schema short_desc="Color secundariu">
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Color primariu">
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Opacidá de la imaxe">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Nome del ficheru d&apos;imaxe">
+							<longdesc>Ficheru que se va usar pa la imaxe de fondu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Opciones d&apos;imaxe">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Dibuxar fondu d&apos;escritoriu">
+							<longdesc>Facer que GNOME dibuxe&apos;l fondu l&apos;escritoriu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Recordar l&apos;estáu de BloqNum">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>los valores posibles con &quot;on&quot;, &quot;off&quot; y &quot;custom&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Tamañu del cursor">
+								<longdesc>Tamañu del cursor indicáu por cursor_theme.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Tema del cursor">
+								<longdesc>Nome del tema del cursor. Usáu namái polos servidores X que soporten Xcursor, como XFree86 4.3 y posteriores.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Fonte del cursor">
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Llocalizar el punteru">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Tiempu de doble clic">
+								<longdesc>Duración d&apos;un doble clic.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Umbral d&apos;arrastre">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Umbral de movimientu">
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Clic simple">
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Clic simple">
+								<longdesc>Clic simple p&apos;abrir iconos.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Orientación de los botones del ratón">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="Comandu pa sacar les miniatures pa los documentos PDF">
+								<longdesc>Comandu válidu y argumentos pal miniaturizador de documentos PDF. Llea la documentación pal miniaturizador de Nautilus pa más información.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Activar miniatures de documentos PDF">
+								<longdesc>Hai opciones Booleanas, braero habilita entever, y falso deshabilita la criación de nueves vistes en miniatura</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="Comandu pa sacar les miniatures pa los documentos PDF">
+								<longdesc>Comandu válidu y argumentos pal miniaturizador de documentos PDF. Llea la documentación pal miniaturizador de Nautilus pa más información.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Activar miniatures de documentos PDF">
+								<longdesc>Hai opciones Booleanas, braero habilita entever, y falso deshabilita la criación de nueves vistes en miniatura</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="Comandu pa sacar les miniatures pa los documentos PDF">
+								<longdesc>Comandu válidu y argumentos pal miniaturizador de documentos PDF. Llea la documentación pal miniaturizador de Nautilus pa más información.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Activar miniatures de documentos PDF">
+								<longdesc>Hai opciones Booleanas, braero habilita entever, y falso deshabilita la criación de nueves vistes en miniatura</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="Les xeres necesiten un terminal">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Xeres por defeutu">
+								<longdesc>Aplicación de xeres por defeutu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="El repertoriu necesita un terminal">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Repertoriu predetermináu">
+								<longdesc>Aplicación de repertoriu predeterminada</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="El ñavegador entiende la opción remota">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="El navegador necesita un terminal">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Navegador predetermináu">
+								<longdesc>Navegador predetermináu pa toles URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Nomes de los espacios de trabayu (obsoletu)">
+								<longdesc>Una llista con nomes de los primeros espacios de trabayu del xestor de ventanes. Esta clave ta obsoleta dende GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="El númberu d&apos;espacios de trabayu (obsoletu)">
+								<longdesc>El númberu d&apos;espacios de trabayu que&apos;l xesto de ventanes habría usar. Esta clave ta obsoleta dende GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Xestor de ventanes del usuariu (obsoletu)">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Aplicación visualizadora del componente">
+								<longdesc>L&apos;aplicación que s&apos;usará p&apos;adicar ficheros que requieren un componente pa velos. El parámetru %s podrá ser reemplazáu polos URIs del ficheru, el parámetru %c sedrá reemplazáu pol IID del componente.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Argumentos d&apos;execución">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Aplicación de terminal">
+								<longdesc>Programa de terminal a usar al aniciar aplicaciones que necesiten ún.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «h323»">
+								<longdesc>El comandu usáu pa remanar les URLs «h323», si tan activaes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «h323»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «h323».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «callto»">
+								<longdesc>El comandu usáu pa remanar les URLs «callto», si ta habilitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «callto»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «callto».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «mailto»">
+								<longdesc>El comandu usáu pa remanar les URLs «mailto», si tan activaes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «mailto»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «mailto».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «https»">
+								<longdesc>El comandu usáu pa remanar les URLs «https», si tan activaes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «https»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «https».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «http»">
+								<longdesc>El comandu usáu pa remanar les URLs «http», si tan activaes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «http»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «http».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «man»">
+								<longdesc>El comandu usáu pa remanar les URLs «man», si tan activaes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «man»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «man».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «info»">
+								<longdesc>El comandu usáu pa remanar les URLs «info», si tan activaes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «info»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «info».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «ghelp»">
+								<longdesc>El comandu usáu pa remanar los URLs «ghelp», si tan activaos.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «ghelp»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «ghelp».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nún terminal">
+								<longdesc>Afitar a «true» si&apos;l programa que remana esta URL tien d&apos;executase nún terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El remanador pa les URLs «trash»">
+								<longdesc>El comandu usáu pa remanar les URLs «trash», si tan activaes.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Conseña si&apos;l comandu especificáu tien de remanar les URLs «trash»">
+								<longdesc>Afitar a «true» si&apos;l programa especificáu na clave «comandu» tendría de remanar les URLs «trash».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Diz si esti perfil úsase o non">
+									<longdesc>Diz si esti perfil úsase y amuésase o non.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="La estensión del ficheru predeterminada pa esti perfil">
+									<longdesc>La estensión del ficheru qu&apos;usarase pa guardar los ficheros codificaos con esti perfil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="La tubería parcial del GStreamer pa usar">
+									<longdesc>Una tubería parcial de GStreamer pa usar con esti perfil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Una descripción pal perfil d&apos;audiu">
+									<longdesc>Una descripción del perfil que caltién más información al rodiu de cuándo usar esti perfil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Un nome curtiu pal perfil d&apos;audiu">
+									<longdesc>Un nome curtiu pal perfil d&apos;audiu que s&apos;usará nes seleiciones y que identifica&apos;l perfil de mena única.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Diz si esti perfil úsase o non">
+										<longdesc>Diz si esti perfil úsase y amuésase o non.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="La estensión del ficheru predeterminada pa esti perfil">
+										<longdesc>La estensión del ficheru qu&apos;usarase pa guardar los ficheros codificaos con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="La tubería parcial del GStreamer pa usar">
+										<longdesc>Una tubería parcial de GStreamer pa usar con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Una descripción pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nome curtiu pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="La estensión del ficheru predeterminada pa esti perfil">
+										<longdesc>La estensión del ficheru qu&apos;usarase pa guardar los ficheros codificaos con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="La tubería parcial del GStreamer pa usar">
+										<longdesc>Una tubería parcial de GStreamer pa usar con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Una descripción pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nome curtiu pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="La estensión del ficheru predeterminada pa esti perfil">
+										<longdesc>La estensión del ficheru qu&apos;usarase pa guardar los ficheros codificaos con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="La tubería parcial del GStreamer pa usar">
+										<longdesc>Una tubería parcial de GStreamer pa usar con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Una descripción pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nome curtiu pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="La estensión del ficheru predeterminada pa esti perfil">
+										<longdesc>La estensión del ficheru qu&apos;usarase pa guardar los ficheros codificaos con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="La tubería parcial del GStreamer pa usar">
+										<longdesc>Una tubería parcial de GStreamer pa usar con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Una descripción pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nome curtiu pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="La estensión del ficheru predeterminada pa esti perfil">
+										<longdesc>La estensión del ficheru qu&apos;usarase pa guardar los ficheros codificaos con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="La tubería parcial del GStreamer pa usar">
+										<longdesc>Una tubería parcial de GStreamer pa usar con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Una descripción pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nome curtiu pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="La estensión del ficheru predeterminada pa esti perfil">
+										<longdesc>La estensión del ficheru qu&apos;usarase pa guardar los ficheros codificaos con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="La tubería parcial del GStreamer pa usar">
+										<longdesc>Una tubería parcial de GStreamer pa usar con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Una descripción pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nome curtiu pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="La estensión del ficheru predeterminada pa esti perfil">
+										<longdesc>La estensión del ficheru qu&apos;usarase pa guardar los ficheros codificaos con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="La tubería parcial del GStreamer pa usar">
+										<longdesc>Una tubería parcial de GStreamer pa usar con esti perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Una descripción pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nome curtiu pal perfil d&apos;audiu">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Llista de perfiles">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Grea de trabayu SMB">
+						<longdesc>La grea/grupu de trabayu de rede de Windows o el dominiu del que l&apos;usuariu ye parte. Pa que un grupu nuevu tenga efeutu, l&apos;usuariu pue necesitar zarrar la sesión y entrar de nuevu.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="Dominios adicionales nos que buscar servicios DNS-SD">
+						<longdesc>Llista separtada por comes de dominios DNS-SD que tendríen de ser adicables nel llugar «network:///».</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="Cómo amosar el serviciu DNS-SD llocal">
+						<longdesc>Los valores dables son «merged», «separate» y «disabled».</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="URL de configuración automática del proxy">
+						<longdesc>URL que proporciona valores de configuración de proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="Puertu del proxy SOCKS">
+						<longdesc>El puertu de la máquina definía por &quot;/system/proxy/socks_host&quot; que fai de proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="Nome del host del proxy SOCKS">
+						<longdesc>El nome de la máquina pela que se fai proxy socks.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="Puertu del proxy FTP">
+						<longdesc>El puertu de la máquina definía por &quot;/system/proxy/ftp_host&quot; que fai de proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="Nome del host del proxy FTP">
+						<longdesc>El nome de la máquina pola que se fai proxy FTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Puertu del proxy HTTP seguru">
+						<longdesc>El puertu de la máquina definía por &quot;/system/proxy/secure_host&quot; que fai de proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Nome del host del proxy HTTP seguru">
+						<longdesc>El nome de la máquina pola que se fai proxy HTTP seguru.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Mou de configuración del proxy">
+						<longdesc>Seleicione el mou de configuración del proxy.  Los valores sofitaos son &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Hosts ensin proxy">
+						<longdesc>Esta clave contién una llista de hosts colos que ta coneutado direutamente, n&apos;arróu de per aciu del proxy (si ta activu). Los valores puen ser nomes de anfitrión, dominios (usando un comodín auxiliar como *.foo.com), direiciones IP de hosts (tantu IPv4 como IPv6) y direiciones de rede con una máscara (daqué como 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="Contraseña del proxy HTTP">
+						<longdesc>Contraseña pa usar como autenticación al coneutar col proxy HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="Usuariu del proxy HTTP">
+						<longdesc>Nome d&apos;usuariu pa pasar como autenticación al facer proxy HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Autenticar conexones col servidor proxy">
+						<longdesc>Si ye «true» (braero), les conexones al servidor proxy requieren d&apos;autenticación. La combinación usuariu/contraseña defínses en &quot;/system/http_proxy/authentication_user&quot; y &quot;/system/http_proxy/authentication_password&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="Puertu del proxy HTTP">
+						<longdesc>El puertu de la máquina definía por &quot;/system/HTTP_proxy/host&quot; que fai de proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="Nome del host del proxy HTTP">
+						<longdesc>El nome de la máquina pola que se fai proxy HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Usar proxy HTTP">
+						<longdesc>Activa los axustes del proxy al acceder per HTTP a Internet.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

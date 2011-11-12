@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Temo de dosiera ikono">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="Sonoj por eventoj">
+							<longdesc>Ĉu ludi sonojn je uzantoeventoj.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Ŝaltu ESD">
+							<longdesc>Ŝaltu sonservilan lanĉon.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Montru la menuon &apos;Unikoda stirsigno&apos;">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Montru la menuon &apos;Enigaj metodoj&apos;">
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Menulistela akcelilo">
+							<longdesc>Fulmoklavo por malfermi la menuajn bretojn.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modulo por GtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Stata breto dekstre">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Uzu propran tiparon">
+							<longdesc>Ĉu uzi propran tiparon en gtk+-aplikaĵoj.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Egallarĝa tiparo">
+							<longdesc>Nomo de egallarĝa (fikslarĝa) tiparo uzata en lokoj kiel terminaloj.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Dokumenta tiparo">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM stata stilo">
+							<longdesc>Nomo de la GTK+-eniga metodo Stata stilo uzata de gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM antaŭredakta stilo">
+							<longdesc>Nomo de la GTK+-eniga metodo Antaŭredakta stilo uzata de gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Defaŭlta tiparo">
+							<longdesc>Nomo de la defaŭlta tiparo uzota de gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Temo Gtk+">
+							<longdesc>Bazonomo de la implicita etoso uzata de gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Temo Gtk+">
+							<longdesc>Bazonomo de la implicita etoso uzata de gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Ikona temo">
+							<longdesc>Ikona temo uzota en panelo, nautilus, ktp.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Tempo de kursora pulsado">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Kursora pulsado">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Ilolistela piktograma grando">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Ilolistelo malkonektebla">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Menulistelo malkonektebla">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Menuoj havas ikonojn">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Ilobreta stilo">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Povas ŝanĝi akcelojn">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Menuoj havas deŝiraĵojn">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Ŝaltu animacioj">
+							<longdesc>Ĉu animacioj estu vidigataj. Notu: Ĉi tio estas globala ŝlosilo, ĝi ŝanĝas la konduton de la fenestra administrilo, la panelo k.t.p.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Ŝaltu akceseblo">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Lanĉu asistajn teknologiajn aplikaĵojn">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Malŝaltu se du klavoj estas samtempe presataj.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="minimuma intervalo en milisekundoj">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Ĉu aŭ ĉu ne klavara ŝlosado estas ŝaltita">
+							<longdesc>Ĉu aŭ ĉu ne klavara ŝlosado estas ŝaltita.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Permesu prokrastadon de paŭzoj">
+							<longdesc>Ĉu aŭ ĉu ne la ekrano de tajpa paŭzo estas prokrastebla.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Paŭza periodo">
+							<longdesc>Nombro de minutoj kiom longe la tajpa paŭzo daŭru.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Tajpa tempo">
+							<longdesc>Nombro de minutoj de tajpotempo antaŭ ol paŭza reĝimo komencas.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Malŝaltu presilan agordaron">
+							<longdesc>Preventu ke la uzanto modifas presan agordaron. Ekzemple, ĉi tio malŝaltus atingon al la dialogo &quot;Presila agordaro&quot; de ĉiuj aplikaĵoj.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Malŝaltu presadon">
+							<longdesc>Preventu ke la uzanto presas. Ekzemple, ĉi tio malŝaltus atingon al la dialogo &quot;Presu&quot; de ĉiuj aplikaĵoj.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Malŝaltu konservadon de dosieroj sur diskon">
+							<longdesc>Preventu ke la uzanto konservas dosierojn sur diskon. Ekzemple, ĉi tio malŝaltus atingon al la dialogo &quot;Konservu kiel&quot; de ĉiuj aplikaĵoj.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Malŝaltu komandlinion">
+							<longdesc>Preventu ke la uzanto atingas la terminalon aŭ specifas komandlinion por ruliĝi. Ekzemple, ĉi tio malŝaltus atingon al la panela dialogo &quot;Rulu aplikaĵon&quot;.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Kolora ombra tipo">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Duaranga koloro">
+							<longdesc>Koloro de dekstro aŭ malsupro pentrante laŭgradan koloron, ne uzata por solida koloro.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Ĉefa koloro">
+							<longdesc>Koloro de maldekstro aŭ supro pentrante laŭgradan, aŭ solidan koloron.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Bilda netravidebleco">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Bilda dosiernomo">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Bildaj agordaĵoj">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Desegni labortablan fonon">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Memorigu NumerBaskulan (NumLock) staton">
+								<longdesc>Kiam agordita al vera, GNOMO memorigos la staton de la NumerBaskula LED inter seancoj.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Klavara sonorila propra dosiernomo">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>eblaj valoroj estas &quot;on&quot;, &quot;off&quot;, kaj &quot;custom&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Kursora grando">
+								<longdesc>Grando de la kursoro referencita de cursor_theme.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Kursora etoso">
+								<longdesc>Nomo de kursora etoso. Nur uzata de X-serviloj kiuj subtenas Xcursor, kiel XFree86 4.3 kaj pli postaj.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Kursora tiparo">
+								<longdesc>Tipara nomo de la kursoro. Se malagordita, la implicita tiparo estas uzata. Ĉi tiu valoro nur estas transportata al la X-servila lanĉo de ĉiu seanco, do ŝanĝi ĝin ne efikos ĝis la sekva fojo kiam vi ensalutas.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Lokiga indikilo">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Duobla alklaka tempo">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Ŝova sojlo">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Mova sojlo">
+								<longdesc>Distanco en bilderoj kiun la indikilo movu antaŭ ol akcelita musmovo estas aktivigata. Valoro de -1 estas la sistema implicita valoro.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Sola alklako">
+								<longdesc>Akcela faktoro por musmovado. Valoro de -1 estas la sistema implicita valoro.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Sola alklako">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Musbutona orientado">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Malŝaltu ĉiujn eksterajn miniaturigilojn">
+							<longdesc>Agordu al vera por malŝalti ĉiujn eksterajn miniaturigajn programojn, sendepende de tio ĉu ili estas unuope malŝaltitaj/ŝaltitaj.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Foliumilo komprenas foran">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Foliumilo bezonas terminalon">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Defaŭlta foliumilo">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Nomoj de la laborspacoj (malrekomendite)">
+								<longdesc>Listo de nomoj de la laborspacoj de la unua fenestra administrilo. Ĉi tiu ŝlosilo estas malrekomendita ekde GNOMO 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="La nombro de laborspacoj (malrekomendite)">
+								<longdesc>La nombro de laborspacoj kiujn la fenestra administrilo uzu. Ĉi tiu ŝlosilo estas malrekomendita ekde GNOMO 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Uzanta fenestra administrilo (malrekomendita)">
+								<longdesc>Fenestra administrilo por provi unue. Ĉi tiu ŝlosilo estas malrekomendita ekde GNOMO 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Rezerva fenestra administrilo (malrekomendite)">
+								<longdesc>Rezerva fenestra administrilo se fenestra administrilo de uzanto ne troveblas. Ĉi tiu ŝlosilo estas malrekomendita ekde GNOMO 2.12.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Exec-argumentoj">
+								<longdesc>Argumento uzata por ruli programojn en la terminalo difinita per la ŝlosilo &apos;exec&apos;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Terminala aplikaĵo">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;ymsgr&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;ymsgr&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;ymsgr&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;ymsgr&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;xmpp&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;xmpp&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;xmpp&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;xmpp&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;sip&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;sip&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;sip&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;sip&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;msnim&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;msnim&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;msnim&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;msnim&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;irc&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;irc&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;irc&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;irc&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;icq&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;icq&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;icq&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;icq&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;gg&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;gg&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;gg&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;gg&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;aim&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;aim&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;aim&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;aim&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

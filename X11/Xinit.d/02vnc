@@ -1,0 +1,2 @@
+#!/bin/sh
+x11vnc  -q -bg -display :0 -forever -avahi

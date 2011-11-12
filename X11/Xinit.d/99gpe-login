@@ -1,0 +1,14 @@
+#!/bin/sh
+
+. /etc/sysconfig/gpelogin
+
+if [ "$AUTOLOGIN" = "true" ] ; then
+	exec /etc/X11/Xsession
+else
+	#HARD=--hard
+	
+	/usr/X11R6/bin/xmodmap -e "keycode 135 = Mode_switch Multi_key"
+	
+	export GTK2_RC_FILES=/etc/X11/gpe-login.gtkrc
+	exec /usr/bin/gpe-login $HARD
+fi

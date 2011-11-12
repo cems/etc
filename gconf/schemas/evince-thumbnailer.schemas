@@ -1,0 +1,2246 @@
+<gconfschemafile>
+    <schemalist>
+
+        <schema>
+            <key>/schemas/desktop/gnome/thumbnailers/application@pdf/enable</key>
+            <applyto>/desktop/gnome/thumbnailers/application@pdf/enable</applyto>
+            <owner>evince</owner>
+            <type>bool</type>
+            <default>true</default>
+            <locale name="C">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="af">
+                <short>Aktiveer duimnaelsketse van PDF-dokumente</short>
+                <long>Boolese opsies beskikbaar, waar aktiveer duimnaelsketse en vals deaktiveer die skepping van nuwe duimnaelsketse</long>
+            </locale>
+
+            <locale name="ar">
+                <short>مكّن إنشاء مُصغّرات من مستندات PDF</short>
+                <long>الخيارات المنطقية متوفرة، &quot;صحيح&quot; تمكن المُصغّرات و &quot;خطأ&quot; تعطل إنشاء مُصغّرات جديدة</long>
+            </locale>
+
+            <locale name="as">
+                <short>PDF ডকুমেন্টৰ থাম্ব-নাইল নিৰ্মাণ সক্ৰিয় কৰা হ&apos;ব</short>
+                <long>বুলিয়াল মান প্ৰযোজ্য, true (সত্য) হলে থাম্ব-নাইল সক্ৰিয় কৰা হ&apos;ব ও মান false (সত্য নহয়) হলে নতুন থাম্ব-নাইল নিৰ্মাণ বন্ধ কৰা হ&apos;ব</long>
+            </locale>
+
+            <locale name="ast">
+                <short>Activar miniatures de documentos PDF</short>
+                <long>Hai opciones Booleanas, braero habilita entever, y falso deshabilita la criación de nueves vistes en miniatura</long>
+            </locale>
+
+            <locale name="be">
+                <short>Ствараць мініятуры для PDF дакумэнтаў</short>
+                <long>Дазволеныя лягічныя значэньні, true: ствараць мініятуры,false: не ствараць.</long>
+            </locale>
+
+            <locale name="be@latin">
+                <short>Uklučy minijatury dla dakumentaŭ PDF</short>
+                <long>Dastupnyja lohikavyja opcyi: true ŭklučaje stvareńnie minijaturaŭ, false adklučaje</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Мини изображения за документите от вид PDF</short>
+                <long>Налични булеви опции — „true“ включва създаването на мини изображения, а „false“ го изключва</long>
+            </locale>
+
+            <locale name="bn">
+                <short>PDF নথি থাম্বনেইল তৈরির প্রক্রিয়া সক্রিয় করুন</short>
+                <long>বুলিয়ান অপশন বিদ্যমান; সত্য হলে থাম্বলেইল দেখা যাবে এবং মিথ্যা হলে নতুন থাম্বনেইল তৈরি হবে না</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>PDF ডকুমেন্টের থাম্ব-নেইল নির্মাণ সক্রিয় করা হবে</short>
+                <long>বুলিয়াল মান প্রযোজ্য, true (সত্য) হলে থাম্ব-নেইল সক্রিয় করা হবে ও মান false (সত্য নয়) হলে নতুন থাম্ব-নেইল নির্মাণ বন্ধ করা হবে</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Habilita les miniatures per als documents PDF</short>
+                <long>Opcions booleanes disponibles, cert habilita les miniatures i fals inhabilita la creació de noves miniatures</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Habilita les miniatures per als documents PDF</short>
+                <long>Opcions booleanes disponibles, cert habilita les miniatures i fals inhabilita la creació de noves miniatures</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Povolit tvorbu náhledů dokumentů PDF</short>
+                <long>Dostupné logické hodnoty; pravdivá hodnota povoluje tvorbu náhledů a nepravdivá hodnota zakazuje tvorbu nových náhledů.</long>
+            </locale>
+
+            <locale name="cy">
+                <short>Galluogi lluniau cryno o ddogfennau PDF</short>
+                <long>Opsiynau Boole ar gael, gwir yn galluogi creu lluniau cryno a ffug yn analluogi creu lluniau cryno</long>
+            </locale>
+
+            <locale name="da">
+                <short>Aktivér miniaturer for PDF-dokumenter</short>
+                <long>Kan have boolske værdier: Hvis sand aktiveres generering af miniaturer, hvis falsk deaktiveres genereringen af nye</long>
+            </locale>
+
+            <locale name="de">
+                <short>Vorschaubilder von PDF-Dokumenten aktivieren</short>
+                <long>Wahr (true) aktiviert die Erstellung von Vorschaubildern, während unwahr (false) das Erzeugen neuer Vorschaubilder deaktiviert.</long>
+            </locale>
+
+            <locale name="dz">
+                <short>པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་ལུ་ མཐེ་གཟེར་བརྡབ་ནི་ལྕོགས་ཅན་བཟོ།</short>
+                <long>འཐོབ་ཚུགས་པའི་བུ་ལིན་གྱི་གདམ་ཁ། བདེན་པ་གིས་མཐེ་གཟེར་བརྡབ་ཚུགསཔ་བཟོ་ནི་དང་ རྫུན་པ་གིས་མཐེ་གཟེར་གསར་བསྐྲུན་འབད་མ་ཚུགསཔ་བཟོཝ་ཨིན།</long>
+            </locale>
+
+            <locale name="el">
+                <short>Ενεργοποίηση μικρογραφιών για έγγραφα τύπου PDF</short>
+                <long>Διαθέσιμη επιλογή boolean: true ενεργοποιεί τη δημιουργία μικρογραφιών ενώ false απενεργοποιεί τη δημιουργία νέων μικρογραφιών</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available: true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="es">
+                <short>Activar miniaturas de documentos PDF</short>
+                <long>Opciones booleanas disponibles, &quot;true&quot; activa las miniaturas y &quot;false&quot; desactiva la creación de miniaturas nuevas</long>
+            </locale>
+
+            <locale name="et">
+                <short>Luba PDF-dokumentidest pisipiltide tegemine</short>
+                <long>Tõeväärtusvalikud olemas, tõene lubab pisipiltide tegemise ja väär keelab selle</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Gaitu PDF dokumentuen koadro txikiak</short>
+                <long>Eskuragarri dauden aukera boolearrak, egiak koadro txikiak gaitzen ditu eta faltsuak koadro txiki berriak sortzea desgaitzen du.</long>
+            </locale>
+
+            <locale name="fa">
+                <short>به کار انداختن مسطوره‌سازی برای نوشتارهای PDF</short>
+                <long>دو گزینهٔ بولی ممکن است، درست مسطوره‌سازی را به کار می‌اندازد و نادرست ایجاد مسطوره‌های جدید را قطع می‌کند</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Ota PDF-asiakirjojen pienoiskuvat käyttöön</short>
+                <long>Mahdolliset vaihtoehdot: &quot;true&quot; ottaa pienoiskuvat käyttöön, &quot;false&quot; poistaa pienoiskuvien luomisen käytöstä</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Active la création de vignettes pour les documents PDF</short>
+                <long>Valeurs booléennes disponibles, VRAI active la création de vignettes et FAUX désactive la création de nouvelles vignettes</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Activar as miniaturas dos documentos PDF</short>
+                <long>Opcións booleanas dispoñíbeis: &quot;true&quot; activa as miniaturas e &quot;false&quot; desactiva a creación de novas miniaturas</long>
+            </locale>
+
+            <locale name="gu">
+                <short>PDF દસ્તાવેજોનું થમ્બનેઈલ કરવાનું સક્રિય કરો</short>
+                <long>બુલિયન વિકલ્પો ઉપલબ્ધ છે, સાચું થમ્બનેઈલીંગને સક્રિય કરે છે અને ખોટું નવા થમ્બનેઈલની બનાવટને નિષ્ક્રિય કરે છે</long>
+            </locale>
+
+            <locale name="he">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="hi">
+                <short>PDF का थंबनेल सक्षम करें</short>
+                <long>बूलियन विकल्प उपलब्ध, सही थंबनेल को सक्रिय करता है औऱ गलत नये थंबनेल के निर्माण को निष्क्रिय</long>
+            </locale>
+
+            <locale name="hu">
+                <short>PDF dokumentumokról bélyegképek készítésének engedélyezése</short>
+                <long>Igaz hatására a bélyegképek készítése engedélyezve lesz, hamis hatására pedig nem.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Aktifkan cuplikan kecil dari dokumen PDF</short>
+                <long>Pilihan boolean tersedia, benar akan membolehkan cuplikan kecil dan salah akan mematikan pembuatan cuplikan kecil</long>
+            </locale>
+
+            <locale name="it">
+                <short>Abilita la miniatura dei documenti PDF</short>
+                <long>Opzioni booleane disponibili, &quot;true&quot; abilita la creazione delle miniature e &quot;false&quot; disabilita la creazione di nuove miniature</long>
+            </locale>
+
+            <locale name="ja">
+                <short>PDF ドキュメントのサムネイル表示</short>
+                <long>論理型のオプションが利用可能で、TRUE にするとサムネイル表示になります。</long>
+            </locale>
+
+            <locale name="ka">
+                <short>PDF დოკუმენტების დაესკიზების ჩართვა</short>
+                <long>ჩართულია ლოგიკური ოპერატორი, true გააქტიურებს ესკიზურ რეჟიმს, ხოლო false ამორთავს ამ ფუნქციას.</long>
+            </locale>
+
+            <locale name="kn">
+                <short>PDF ದಸ್ತಾವೇಜುಗಳು ತಂಬ್‍ನೈಲಿಂಗ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು</short>
+                <long>ಲಭ್ಯವಿರುವ ಬೂಲಿಯನ್ ಆಯ್ಕೆಗಳೆಂದರೆ, ನಿಜವು ತಂಬ್‌ನೈಲಿಂಗ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಹಾಗು ತಪ್ಪು ಎನ್ನುವುದು ಹೊಸ ತಂಬ್‌ನೈಲ್ ಅನ್ನು ನಿರ್ಮಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ</long>
+            </locale>
+
+            <locale name="ko">
+                <short>PDF 문서의 미리보기 만들기 가능</short>
+                <long>참/거짓으로 설정 가능, 참이면 미리보기 만들기, 거짓이면 미리보기 만들기를 하지 않음</long>
+            </locale>
+
+            <locale name="ks">
+                <short>पीडीएफयूक थंबनेल चालू कर।</short>
+                <long>बूलियन छु सही थंबनेलन ठिक करान त: गल्त थंबनेलन बंद करान।</long>
+            </locale>
+
+            <locale name="ku">
+                <short>Çalakiya wêneyên biçûk yên Pelên PDF</short>
+                
+            </locale>
+
+            <locale name="lt">
+                <short>Įjungti PDF dokumentų miniatiūras</short>
+                <long>Prieinamos loginės parinktys: teigiama – įjungia miniatiūras, neigiama – išjungia</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Aktivizēt PDF dokumentu sīktēlu veidošanu</short>
+                <long>Pieejama loģikā opcija, patiess aktivizē sīktēlošanu, bet nepatiess atslēdz sīktēlu veidošanu</long>
+            </locale>
+
+            <locale name="mai">
+                <short>PDF क&apos; थंबनेल सक्षम करू</short>
+                <long>बूलियन विकल्प उपलब्ध, सही थंबनेलकेँ सक्रिय करैत अछि आओर गलत नवीन थंबनेल क&apos; निर्माणकेँ निष्क्रिय करैत अछि</long>
+            </locale>
+
+            <locale name="mg">
+                <short>Mandefa ny fanaovan-tsary madinika ho an&apos;ny tahirin-kevitra PDF</short>
+                <long>Misy safidy bolenina; ny marina mamela ny fanaovan-tsary madinika ary ny diso mampitsahatra ny famoronana sary madinika vaovao</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Вклучи правење на сликичи од PDF документи</short>
+                <long>Достапни се boolean опции, штиклирано вклучува сликички, одштиклирано исклучува креирање на нови сликички</long>
+            </locale>
+
+            <locale name="ml">
+                <short>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയിലിങ് സജ്ജമാക്കുക</short>
+                <long>ബൂളിയന്‍ ഉപാധികള്‍ ലഭ്യമാണ്, ട്രൂ എന്നാല്‍ തംബ്നെയിലിങ് സജ്ജമാക്കുന്നു, ഫാള്‍സ് എന്നാല്‍ പുതിയ തംബ്നെയില്‍ ഉണ്ടാക്കുന്നത് നിര്‍ജ്ജീവമാക്കുന്നു</long>
+            </locale>
+
+            <locale name="mr">
+                <short>PDF दस्तऐवजांच्या छोट्या प्रतीमा करा</short>
+                <long>द्विस्थीती पर्याय उपलब्ध, खरे निवडल्यास छोट्या प्रतीमा तयार केल्या जातात आणि खोटे  छोट्या प्रतीमा तयार करण्यास प्रतिबंध करते</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Aktiver generering av miniatyrer for PDF-dokumenter</short>
+                <long>To boolske verdier er tilgjengelig. «true» aktiverer miniatyrer og «false» deaktiverer oppretting av nye miniatyrer.</long>
+            </locale>
+
+            <locale name="ne">
+                <short>पि डि एफ कागजातहरुको थम्बनेल गर्ने सक्षम पार्नुहोस्</short>
+                <long>बुलियन विकल्पहरू उपलब्ध छ, थम्बनेलको सत्य सक्षमहरू र गलत अक्षमहरूले नयाँ थम्बनेलहरुको सिर्जना गर्दछ </long>
+            </locale>
+
+            <locale name="nl">
+                <short>Miniaturen aanzetten voor PDF-documenten</short>
+                <long>Boolese opties beschikbaar, true zet miniaturen aan en bij false worden er geen nieuwe miniaturen gemaakt</long>
+            </locale>
+
+            <locale name="nn">
+                <short>Slå på miniatyrikon av PDF-dokument</short>
+                <long>Boolske val tilgjengelege. TRUE slår på miniatyrar og FALSE slår dei av.</long>
+            </locale>
+
+            <locale name="or">
+                <short>PDF ଦଲିଲର କ୍ଷୁଦ୍ର ଚିତ୍ରଣ ପ୍ରକ୍ରିୟାକୁ ସକ୍ରିୟ କରନ୍ତୁ</short>
+                <long>ବୁଲିଆନ ବିକଳ୍ପ ଉପଲବ୍ଧ, ସତ କ୍ଷୁଦ୍ରଚିତ୍ରକୁ ସକ୍ରିୟ କରିଥାଏ ଏବଂ ମିଛ ନୂତନ କ୍ଷୁଦ୍ରଚିତ୍ର ନିର୍ମାଣକୁ ନିଷ୍କ୍ରିୟ କରିଥାଏ</long>
+            </locale>
+
+            <locale name="pa">
+                <short>PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਯੋਗ</short>
+                <long>ਬੁਲੀਅਨ ਚੋਣਾਂ ਉਪਲੱਬਧ ਹਨ, ਸਹੀਂ ਨਾਲ ਥੰਮਨੇਲ ਯੋਗ ਹੋਵੇਗਾ ਅਤੇ ਗਲਤ ਨਾਲ ਨਵੇਂ ਥੰਮਨੇਲ ਨਹੀਂ ਬਣ ਸਕਣਗੇ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Tworzenie miniatur dokumentów PDF</short>
+                <long>Dostępne są dwie opcje: &quot;true&quot; włącza miniatury, &quot;false&quot; wyłącza tworzenie nowych miniatur</long>
+            </locale>
+
+            <locale name="ps">
+                <short>لاسوندونو بټه نوکونه توانول PDF د</short>
+                
+            </locale>
+
+            <locale name="pt">
+                <short>Activar as imagens de referência de Documentos PDF</short>
+                <long>Opções boleanas disponíveis, verdadeiro activa as imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Habilitar a miniaturização de documentos PDF</short>
+                <long>Opções booleanas disponíveis: verdadeiro habilita a miniaturização e falso desabilita a criação de novas miniaturas</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Activare miniaturi pentru documente PDF</short>
+                <long>Opțiuni disponibile: „true” permite crearea de noi miniaturi, „false” dezactivează crearea de noi miniaturi</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Включить создание образцов для документов PDF</short>
+                <long>Возможно логическое значение, true включает создание образцов, а false выключает</long>
+            </locale>
+
+            <locale name="sk">
+                <short>Povoliť vytváranie náhľadov PDF dokumentov</short>
+                <long>Dostupné booleanovské možnosti, true povolí náhľady a false zakáže vytváranie nových náhľadov</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Omogoči sličice dokumentov PDF</short>
+                <long>Na voljo sta Boolovi vrednosti: resnično omogoča izdelavo sličic, napačno pa onemogoča</long>
+            </locale>
+
+            <locale name="sq">
+                <short>Aktivo krijimin e miniaturave të dokumentëve PDF</short>
+                <long>Opcionet booleane në dispozicion, true aktivon krijimin e miniaturave dhe false çaktivon krijimin e miniaturave të reja</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Укључи прављење сличица за PDF документе</short>
+                <long>Доступне истинитосне вредности, постављање укључује приказ сличица за стране, а искључивање зауставља прављење нових сличица</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Uključi pravljenje sličica za PDF dokumente</short>
+                <long>Dostupne istinitosne vrednosti, postavljanje uključuje prikaz sličica za strane, a isključivanje zaustavlja pravljenje novih sličica</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Aktivera miniatyrbilder för PDF-dokument.</short>
+                <long>Booleska alternativ tillgängliga, sant aktiverar skapande av miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+            </locale>
+
+            <locale name="ta">
+                <short>PDF ஆவணங்களுக்கு சிறுபடத்தை செயல்படுத்துகிறது</short>
+                <long>பூலியன் விருப்பங்கள் உள்ளன, சரி சிறுபடத்தை செயல்படுத்துகிறது மற்றும் தவறு புதிய சிறுபடங்கள்உருவாக்கத்தை செயல்நீக்குகிறது</long>
+            </locale>
+
+            <locale name="te">
+                <short>PDF పత్రాలను చిరుచిత్రాలుగా క్రియాశీలీకరించు</short>
+                <long>బూలియన్ ఐచ్చికాలు అందుబాటులో వున్నయి, true అనునది థంబ్‌నెయిలింగ్ చేతనపరుస్తుంది మరియు false కొత్త థంబ్‌నెయిల్ సృష్టీకరణిని అచేతనము చేస్తుంది</long>
+            </locale>
+
+            <locale name="th">
+                <short>เปิดใช้การแสดงภาพย่อของเอกสาร PDF</short>
+                <long>ค่าบูลีน ค่าจริงหมายถึงเปิดใช้การแสดงภาพย่อ และค่าเท็จหมายถึงปิดการแสดงภาพย่อภาพใหม่</long>
+            </locale>
+
+            <locale name="tr">
+                <short>PDF Belgelerin küçük resimlerinin etkinliği</short>
+                <long>Mantıksal değerler geçerlidir, seçili ise küçük resimler etkindir ve eğer seçili değilse küçük resim oluşturma devre dışı olur</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Увімкнути перегляд документів PDF</short>
+                <long>Можливе логічне значення. true вмикає створення зображення, а false вимикає</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Hiển thị hình thu nhỏ của tài liệu PDF</short>
+                <long>Giá trị logic: &apos;đúng&apos; hiển thị hình thu nhỏ và &apos;sai&apos; ẩn hình thu nhỏ</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>启用 PDF 文档的缩略图</short>
+                <long>布尔值选项，TRUE 代表允许缩略图，FALSE 代表禁止创建新缩略图</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>啟動 PDF 文件的縮圖功能</short>
+                <long>可用的邏輯選項中，“true”開啟縮圖功能，而“false”停止建立新的縮圖</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>啟動 PDF 文件的縮圖功能</short>
+                <long>可用的布林選項中，“true”開啟縮圖功能，而“false”停止建構新的縮圖</long>
+            </locale>
+        </schema>
+
+
+        <schema>
+            <key>/schemas/desktop/gnome/thumbnailers/application@pdf/command</key>
+            <applyto>/desktop/gnome/thumbnailers/application@pdf/command</applyto>
+            <owner>evince</owner>
+            <type>string</type>
+            <default>evince-thumbnailer -s %s %u %o</default>
+            <locale name="C">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="af">
+                <short>Duimnaelskets opdrag vir PDF-dokumente</short>
+                <long>Geldige opdrag plus argumente vir die duimnaelsketser vir PDF-dokumente. Verwys na die dokumentasie vir nautilus se duimnaelsketser vir verdere inligting.</long>
+            </locale>
+
+            <locale name="ar">
+                <short>أمر المُصغّرات لمستندات PDF</short>
+                <long>أمر صالِح بالإضافة إلى متغيرات لمصغّر الصور الخاص بمستندات PDF. راجع توثيق مصغّر الصور لنوتلس للمزيد من المعلومات</long>
+            </locale>
+
+            <locale name="as">
+                <short>PDF ডকুমেন্টৰ জন্য ব্যৱহাৰযোগ্য থাম্ব-নাইল আদেশ</short>
+                <long>PDF ডকুমেন্টৰৰ জন্য থাম্ব-নাইল নিৰ্মাণে ব্যৱহৃত বৈধ আদেশ ও আৰ্গুমেন্ট  । অধিক জানতে nautilus thumbnailer সংক্ৰান্ত নথিপত্ৰ পড়ুন  ।</long>
+            </locale>
+
+            <locale name="ast">
+                <short>Comandu pa sacar les miniatures pa los documentos PDF</short>
+                <long>Comandu válidu y argumentos pal miniaturizador de documentos PDF. Llea la documentación pal miniaturizador de Nautilus pa más información.</long>
+            </locale>
+
+            <locale name="be">
+                <short>Загад стварэньня мініатураў для PDF дакумэнтаў</short>
+                <long>Рэчаісны загад і аргумэнты для стваральніка мініятураў для PDF дакумэнтаў. Гл. дакумэнтацыю для nautilus thumbnailer.</long>
+            </locale>
+
+            <locale name="be@latin">
+                <short>Zahad stvareńnia minijaturaŭ dla dakumentaŭ PDF</short>
+                <long>Pravilny zahad i arhumenty dla stvareńnia minijaturaŭ dla dakumentaŭ PDF. Hladzi dakumentacyju na stvareńnie minijaturaŭ dla Nautilusa dziela padrabiaznaściaŭ.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Команда за създаване на мини изображения в документите от вид PDF</short>
+                <long>Валидна команда заедно с аргументите си за създаването на мини изображения от документи от вид PDF. За повече информация прегледайте документацията на nautilus за мини изображенията.</long>
+            </locale>
+
+            <locale name="bn">
+                <short>PDF নথির থাম্বনেইল তৈরির কমান্ড</short>
+                <long>PDF নথির থাম্বনেইল তৈরির জন্য সঠিক কমান্ড ও কমান্ড-আর্গুমেন্ট। এ ব্যাপারে বিস্তারিত জানার জন্য নটিলাস এর থাম্বনেইল প্রস্তুত প্রক্রিয়ার ডকুমেন্টেশন দেখুন।</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>PDF ডকুমেন্টের জন্য ব্যবহারযোগ্য থাম্ব-নেইল কমান্ড</short>
+                <long>PDF ডকুমেন্টেরর জন্য থাম্ব-নেইল নির্মাণে ব্যবহৃত বৈধ কমান্ড ও আর্গুমেন্ট। অধিক জানতে nautilus thumbnailer সংক্রান্ত নথিপত্র পড়ুন।</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Ordre de miniatura per als documents PDF</short>
+                <long>Ordre vàlida amb arguments addicionals per al miniaturitzador de documents PDF. Per a més informació vegeu la documentació del miniaturitzador del nautilus.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Orde de miniatura per als documents PDF</short>
+                <long>Orde vàlida amb arguments addicionals per al miniaturitzador de documents PDF. Per a més informació vegeu la documentació del miniaturitzador del nautilus.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Příkaz náhledů pro dokumenty PDF</short>
+                <long>Platný příkaz a argumenty pro tvůrce náhledů dokumentu PDF. Chcete-li se dovědět více informací, podívejte se do dokumentace tvůrce náhledů Nautilu.</long>
+            </locale>
+
+            <locale name="cy">
+                <short>Gorchymyn rhaglen creu lluniau cryno i ddogfennau PDF</short>
+                <long>Gorchymyn dilys ag ymresymiadau i&apos;r rhaglen creu lluniau cryno i ddogfennau PDF. Gweler dogfennau &quot;nautilus thumbnailer&quot; am wybodaeth bellach.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Miniature-kommando til PDF-dokumenter</short>
+                <long>Gyldig kommando plus parametre til miniaturegenerering af PDF-dokumenter. Se dokumentationen for Nautilus&apos; miniaturegenerering for flere oplysninger.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Vorschaubefehl für PDF-Dokumente</short>
+                <long>Zulässiges Kommando plus Argumente für die PDF-Dokumentenvorschau. Bitte schauen Sie für weiterführende Informationen in der Dokumentation der Nautilus-Dokumentvorschau nach.</long>
+            </locale>
+
+            <locale name="dz">
+                <short>པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་གི་དོན་ལུ་ མཐེ་གཟེར་གྱི་བརྡ་བཀོད།</short>
+                <long>པི་ཌི་ཨེཕ་ཡིག་ཆ་ལུ་མཐེ་གཟེར་བརྡབས་མིའི་ ནུས་ཅན་བརྡ་བཀོད་དང་སྒྲུབ་རྟགས་ཚུ། བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་ ནའུ་ཊི་ལཱསི་མཐེ་གཟེར་བརྡབས་མིའི་ཡིག་ཆ་ལུ་བལྟ།</long>
+            </locale>
+
+            <locale name="el">
+                <short>Εντολή για δημιουργία μικρογραφιών εγγράφων PDF</short>
+                <long>Έγκυρη εντολή και επιλογές για τη δημιουργία μικρογραφιών εγγράφων τύπου
+PDF. Δείτε την τεκμηριώση των μικρογραφιών του Ναυτίλου για περισσότερες
+πληροφορίες.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Comando para sacar las miniaturas para los documentos PDF</short>
+                <long>Comando válido y argumentos para el miniaturizador de documentos PDF. Vea la documentación para el miniaturizador de Nautilus para más información.</long>
+            </locale>
+
+            <locale name="et">
+                <short>PDF-dokumentidest pisipildi tegemise käsk</short>
+                <long>PDF-dokumentide pisipilditegija käsk koos argumentidega. Lähema teabe saamiseks vaata nautiluse pisipilditegija dokumentatsiooni.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>PDF dokumentuen koadro txikiak sortzeko komandoa</short>
+                <long>Komando baliagarria gei argumentuak PDF dokumentutako koadro txikiak sortzeko. Ikusi nautilus-en koadro txikien dokumentazioa informazio gehiagorako.</long>
+            </locale>
+
+            <locale name="fa">
+                <short>فرمان مسطوره برای نوشتارهای PDF</short>
+                <long>فرمان معتبر به همراه آرگومان‌هایی برای نوشتار PDF. برای اطلاعات بیشتر مستندات مسطوره‌ساز ناتیلوس را ببینید.</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Pienoiskuvakomento PDF-asiakirjoille</short>
+                <long>Komento sekä argumentit PDF-asiakirjan pienoiskuvien tuottamiseen. Katso lisätietoja nautiluksen pienoiskuvien tuottajan ohjeista.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Commande pour la création des vignettes des documents PDF</short>
+                <long>Commande valide et ses paramètres pour le créateur de vignettes des documents PDF. Consultez la documentation de Nautilus thumbnailer pour plus d&apos;informations.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Orde para crear miniaturas nos documentos PDF</short>
+                <long>Orde válida e argumentos para o creador de miniaturas de documentos PDF. Para máis información vexa a documentación sobre o miniaturizador do Nautilus.</long>
+            </locale>
+
+            <locale name="gu">
+                <short>PDF દસ્તાવેજો માટે થમ્બનેઈલ આદેશ</short>
+                <long>PDF દસ્તાવેજ થમ્બનેઈલ બનાવનાર માટે માન્ય આદેશ વત્તા દલીલો. વધુ જાણકારી માટે નોટીલસ થમ્બનેઈલ બનાવનાર દસ્તાવેજીકરણ જુઓ.</long>
+            </locale>
+
+            <locale name="he">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="hi">
+                <short>पीडीएफ के लिये लघु छवि दस्तावेज दस्तावेज़</short>
+                <long>PDF दस्तावेज थंबनेलर के लिये वैध समादेश के साथ तर्क. nautilus थंबनेलर दस्तावजेन को ज्यादा जानकारी के लिये देखें.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Bélyegkép-készítő parancs PDF-dokumentumokhoz</short>
+                <long>Érvényes parancs paraméterekkel a PDF dokumentumokból való bélyegkép-készítéshez. További információkért lásd a nautilus bélyegkép-készítőjének dokumentációját.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Perintah cuplikan kecil untuk dokumen PDF</short>
+                <long>Perintah dan argumen yang benar untuk pencuplik kecil Dokumen PDF. Lihat dokumentasi pencuplik kecil nautilus untuk informasi lebih lanjutnya.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Comando di miniatura per i documenti PDF</short>
+                <long>Un comando valido e gli argomenti per le miniature dei documenti PDF. Per maggiori informazioni consultare la documentazione relativa alle miniature di nautilus.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>PDF ドキュメントのサムネイル表示コマンド</short>
+                <long>PDF ドキュメントをサムネイル表示するための妥当なコマンドと引数です。詳細は Nautilus のサムネイル関連のドキュメントを参照して下さい。</long>
+            </locale>
+
+            <locale name="ka">
+                <short>PDF დოკუმენტების ესკიზების ბრძანება </short>
+                <long>PDF დოკუმენტების ესკიზების დამატებითი ბრძანებების შესახებ ინფორმაცია შეგიძლია იხილოთ Nautilus-ის ფაილ მენეჯერის დოკუმენტაციაში.</long>
+            </locale>
+
+            <locale name="kn">
+                <short>PDF ದಸ್ತಾವೇಜುಗಳಿಗಾಗಿ ತಂಬ್‍ನೈಲಿಂಗ್ ಆಜ್ಞೆ</short>
+                <long>PDF ದಸ್ತಾವೇಜು ತಂಬ್‌ನೈಲರಿಗಾಗಿನ ಮಾನ್ಯವಾದ ಆಜ್ಞೆ ಮತ್ತು ಆರ್ಗ್ಯುಮೆಂಟ್‌ಗಳು. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ನಾಟಿಲಸ್ ತಂಬ್‌ನೈಲರ್ ದಸ್ತಾವೇಜನ್ನು ನೋಡಿ.</long>
+            </locale>
+
+            <locale name="ko">
+                <short>PDF 문서의 미리보기 만들기 명령</short>
+                <long>PDF문서 미리보기 만들기의 올바른 명령과 인자. nautilus 미리보기 만들기 문서의 자세한 정보 참조.</long>
+            </locale>
+
+            <locale name="ks">
+                <short>पीडीएफ कागज़ात खत्तर निशान कमांड।</short>
+                <long>कमांड त दलील पीडीएफ कागज़ात निशान खत्तर।  ज्यादह् दलिलखत्तर वुछिव थंबनेल कागज़ात।</long>
+            </locale>
+
+            <locale name="ku">
+                <short>Ji bo belgehên PDF fermana wêneyên biçûk</short>
+                <long>Ji bo wênekerê biçûk yê Pelê PDF parametreyên zêdek yên fermanên derbasdar. Ji bo agahiyên berfireh li belgeya wênekerên biçûk yên nautilusê binihêre.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Miniatiūrų komanda PDF dokumentams</short>
+                <long>Tinkama PDF dokumentų miniatiūrų kūrimo komanda su argumentais. Žiūrėkite Nautilus miniatiūrų generatoriaus dokumentaciją.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>PDF dokumentu sīktēlu komanda</short>
+                <long>PDF sīktēlu veidotāja komandu un tās argumentus. Papildus informācijai aplūkojiet nautilus sīktēlu veidotāja dokumentāciju.</long>
+            </locale>
+
+            <locale name="mai">
+                <short>PDF दस्ताबेज क&apos;लेल लघु चित्र कमांड</short>
+                <long>PDF दस्ताबेज थंबनेलर क&apos;लेल वैध कमांड क&apos; सँग तर्क. नॉटिलस थंबनेलर दस्ताबेजनकेँ बेसीसूचना क&apos;लेल देखू.</long>
+            </locale>
+
+            <locale name="mg">
+                <short>Baikon&apos;ny fanaovana sary madinika ho an&apos;ny tahirin-kevitra PDF</short>
+                <long>Baiko mitombina miaraka amin&apos;ny tondriky ny mpanao sary madinika ho an&apos;ny tahirin-kevitra PDF. Vakio ny loharanon-kevitry ny nautilus thumbnailer hahalalanao azy bebe kokoa.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Команда за сликички во PDF</short>
+                <long>Валидна командата плус аргументите за сликичките во PDF документ. Проверете ја документацијата на Наутилус за повеќе информации.</long>
+            </locale>
+
+            <locale name="ml">
+                <short>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയില്‍ കമാന്‍ഡ്</short>
+                <long>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയിലറിനുള്ള ശരിയായ കമാന്‍ഡുകളും ആര്‍ഗ്യുമെന്റുകളും. കൂടുതല്‍ വിവരങ്ങള്‍ക്കായി നോട്ടിലസ് തംബ്നെയിലര്‍ രേഖകള്‍ കാണുക.</long>
+            </locale>
+
+            <locale name="mr">
+                <short>PDF दस्तऐवजांच्या छोट्या प्रतीमा करण्याचा आदेश</short>
+                <long>PDF दस्तऐवज थंबनेलर करीताचे वैध आदेश व तर्क. अधिक माहिती करीता नॉटिलस थंबनेलर दस्तऐवज पहा.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Miniatyrbildekommando for PDF-dokumenter</short>
+                <long>Gyldig kommando pluss argumenter for PDF-dokument miniatyrbilder. Se i nautilus sin miniatyrbildedokumentasjon for mer informasjon.</long>
+            </locale>
+
+            <locale name="ne">
+                <short>पि डि एफ कागजातहरुका लागि थम्बनेल्स आदेश</short>
+                <long>PDF कागजात थम्बनेलरका लागि वैध आदेश र तर्कहरू । धेरै जानकारीका लागि नटिलस थम्बनेलर मिसिलीकरण हर्नुहोस् ।</long>
+            </locale>
+
+            <locale name="nl">
+                <short>Opdracht voor miniaturen bij PDF-documenten</short>
+                <long>Geldige opdracht plus argumenten voor de maker van miniaturen van PDF-documenten. Zie de documentatie voor nautilus miniaturen voor meer informatie.</long>
+            </locale>
+
+            <locale name="nn">
+                <short>Miniatyrkommando for PDF-dokument</short>
+                <long>Gyldig kommando pluss argument for miniatyrgeneratoren for PDF-dokument. Sjå dokumentasjonen for «Nautilus Thumbnailer» for meir informasjon.</long>
+            </locale>
+
+            <locale name="or">
+                <short>PDF ଦଲିଲ ପାଇଁ କ୍ଷୁଦ୍ର ଚିତ୍ର ନିର୍ଦ୍ଦେଶ</short>
+                <long>PDF ଦଲିଲ କ୍ଷୁଦ୍ରଚିତ୍ରଣ ପାଇଁ ବୈଧ ନିର୍ଦ୍ଦେଶ ସହିତ ସ୍ୱତନ୍ତ୍ରଚର. ନଟିଲସ କ୍ଷୁଦ୍ରଚିତ୍ରଣ ଦଲିଲିକରଣ ପାଇଁ ଅଧିକ ସୂଚନା.</long>
+            </locale>
+
+            <locale name="pa">
+                <short>PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਕਮਾਂਡ</short>
+                <long>PDF ਡੌਕੂਮੈਂਟ ਥੰਮਨੇਲਰ ਲਈ ਠੀਕ ਕਮਾਂਡ ਅਤੇ ਮੁੱਲ। ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਨਟਾਲਿਸ ਥੰਮਨੇਲਰ ਡੌਕੂਮੈਂਟ ਵੇਖੋ</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Polecenie tworzenia miniatur dla dokumentów PDF</short>
+                <long>Prawidłowe polecenie wraz z parametrami dla generatora miniatur PDF. Więcej informacji można znaleźć w dokumentacji generatora miniatur programu Nautilus.</long>
+            </locale>
+
+            <locale name="ps">
+                <short>لاسوندونو لپاره بټه نوکی بولۍ PDF د</short>
+                
+            </locale>
+
+            <locale name="pt">
+                <short>Comando de criação de imagens de referência para Documentos PDF</short>
+                <long>Comando válido e argumentos para a aplicação de geração de imagens de referência de Documentos PDF. Consulte a documentação de imagens de referência do nautilus para mais informações.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Comando de miniatura para documentos PDF</short>
+                <long>Um comando válido e argumentos para o miniaturizador de documentos PDF. Veja a documentação do miniaturizador do nautilus para mais informações.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Program pentru crearea de miniaturi ale documentelor PDF</short>
+                <long>Comandă validă și argumente necesare pentru crearea de miniaturi ale documentelor PDF. Pentru detalii, consultați documentația Nautilus thumbnailer.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Команда создания образцов для документов PDF</short>
+                <long>Команда и аргументы для запуска программы создания изображения документа PDF. Для получений дополнительной информации смотрите документацию по Nautilus.</long>
+            </locale>
+
+            <locale name="sk">
+                <short>Príkaz náhľadu pre PDF dokumenty</short>
+                <long>Platný príkaz s parametrami pre náhľady PDF dokumentu. Pre ďalšie informácie si pozrite dokumentáciu náhľadov k Nautilu.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Ukaz za sličice dokumentov PDF</short>
+                <long>Veljaven ukaz z argumenti za izdelovalca sličic dokumentov PDF. Za več informacij si oglejte dokumentacijo izdelovalca sličic v Nautilusu.</long>
+            </locale>
+
+            <locale name="sq">
+                <short>Komanda për miniaturat e dokumentëve PDF</short>
+                <long>Komanda e vlefshme plus argumentët për krijimin e miniaturave të dokumentit PDF. Shiko dokumentet e krijuesit të miniaturave nautilus për informacione të mëtejshme.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Наредба за прављење сличица за PDF документе</short>
+                <long>Исправна наредба уз аргументе за прављење сличица за PDF документе. Погледајте документацију за сличице из Наутилуса за више података.</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Naredba za pravljenje sličica za PDF dokumente</short>
+                <long>Ispravna naredba uz argumente za pravljenje sličica za PDF dokumente. Pogledajte dokumentaciju za sličice iz Nautilusa za više podataka.</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Miniatyrbildskommando för PDF-dokument</short>
+                <long>Giltigt kommando plus argument för skaparen av miniatyrbilder av PDF-dokument. Se nautilus-dokumentationen om miniatyrbildsskapare för mer information.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>PDF ஆவணங்களுக்கான சிறுபட கட்டளைகள்</short>
+                <long>PDF ஆவண சிறு படங்களுக்கு சரியான கட்டளை மற்றும் மதிப்புகள் உள்ளன. மேலும் தகவல்களுக்கு nautilus சிறுபட ஆவணமாக்கத்தை பார்க்கவும்.</long>
+            </locale>
+
+            <locale name="te">
+                <short>PDF పత్రాలకు చిరుచిత్ర ఆదేశం</short>
+                <long>PDF పత్ర చిరుచిత్రానికి వర్తించదగిన ఆదేశాలు. ఎక్కువ సమాచారం కోసం నాటిలస్ చిరుచిత్ర పత్రాన్ని చూడండి</long>
+            </locale>
+
+            <locale name="th">
+                <short>คำสั่งย่อภาพสำหรับเอกสาร PDF</short>
+                <long>คำสั่งพร้อมอาร์กิวเมนต์สำหรับการแสดงภาพย่อของเอกสาร PDF อ่านข้อมูลเพิ่มเติมได้จากเอกสารตัวแสดงภาพย่อของ Nautilus</long>
+            </locale>
+
+            <locale name="tr">
+                <short>PDF Belgeleri için küçük resim komutu</short>
+                <long>PDF Belge küçük resimleyicisi için geçerli komut artı parametreleri. Daha fazla bilgi için nautilus küçük resimleyici belgesine bakın.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Команда створення мініатюр для документів PDF</short>
+                <long>Команда та аргументи для запуску команди створення мініатюр документа PDF. Додаткову інформацію дивіться у документації з nautilus.</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Lệnh tạo hình thu nhỏ cho tài liệu PDF</short>
+                <long>Lệnh hợp lệ cộng với đối số cho bộ tạo hình thu nhỏ tài liệu PDF. Xem tài liệu hướng dẫn Nautilus về hình thu nhỏ để biết thêm thông tin.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>PDF 文档的缩略图命令</short>
+                <long>生成 PDF 文档缩略图的有效命令及参数。请参看 nautilus 的缩略图生成文档中的更多信息。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>PDF 文件的縮圖命令</short>
+                <long>正確的指令加上代表 PDF 文件縮圖的選項。請參見 nautilus 縮圖文件以得到更多資訊。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>PDF 文件的縮圖命令</short>
+                <long>正確的指令加上代表 PDF 文件縮圖的選項。請參見 nautilus 縮圖文件以得到更多資訊。</long>
+            </locale>
+        </schema>
+
+        <schema>
+            <key>/schemas/desktop/gnome/thumbnailers/application@x-bzpdf/enable</key>
+            <applyto>/desktop/gnome/thumbnailers/application@x-bzpdf/enable</applyto>
+            <owner>evince</owner>
+            <type>bool</type>
+            <default>true</default>
+            <locale name="C">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="af">
+                <short>Aktiveer duimnaelsketse van PDF-dokumente</short>
+                <long>Boolese opsies beskikbaar, waar aktiveer duimnaelsketse en vals deaktiveer die skepping van nuwe duimnaelsketse</long>
+            </locale>
+
+            <locale name="ar">
+                <short>مكّن إنشاء مُصغّرات من مستندات PDF</short>
+                <long>الخيارات المنطقية متوفرة، &quot;صحيح&quot; تمكن المُصغّرات و &quot;خطأ&quot; تعطل إنشاء مُصغّرات جديدة</long>
+            </locale>
+
+            <locale name="as">
+                <short>PDF ডকুমেন্টৰ থাম্ব-নাইল নিৰ্মাণ সক্ৰিয় কৰা হ&apos;ব</short>
+                <long>বুলিয়াল মান প্ৰযোজ্য, true (সত্য) হলে থাম্ব-নাইল সক্ৰিয় কৰা হ&apos;ব ও মান false (সত্য নহয়) হলে নতুন থাম্ব-নাইল নিৰ্মাণ বন্ধ কৰা হ&apos;ব</long>
+            </locale>
+
+            <locale name="ast">
+                <short>Activar miniatures de documentos PDF</short>
+                <long>Hai opciones Booleanas, braero habilita entever, y falso deshabilita la criación de nueves vistes en miniatura</long>
+            </locale>
+
+            <locale name="be">
+                <short>Ствараць мініятуры для PDF дакумэнтаў</short>
+                <long>Дазволеныя лягічныя значэньні, true: ствараць мініятуры,false: не ствараць.</long>
+            </locale>
+
+            <locale name="be@latin">
+                <short>Uklučy minijatury dla dakumentaŭ PDF</short>
+                <long>Dastupnyja lohikavyja opcyi: true ŭklučaje stvareńnie minijaturaŭ, false adklučaje</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Мини изображения за документите от вид PDF</short>
+                <long>Налични булеви опции — „true“ включва създаването на мини изображения, а „false“ го изключва</long>
+            </locale>
+
+            <locale name="bn">
+                <short>PDF নথি থাম্বনেইল তৈরির প্রক্রিয়া সক্রিয় করুন</short>
+                <long>বুলিয়ান অপশন বিদ্যমান; সত্য হলে থাম্বলেইল দেখা যাবে এবং মিথ্যা হলে নতুন থাম্বনেইল তৈরি হবে না</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>PDF ডকুমেন্টের থাম্ব-নেইল নির্মাণ সক্রিয় করা হবে</short>
+                <long>বুলিয়াল মান প্রযোজ্য, true (সত্য) হলে থাম্ব-নেইল সক্রিয় করা হবে ও মান false (সত্য নয়) হলে নতুন থাম্ব-নেইল নির্মাণ বন্ধ করা হবে</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Habilita les miniatures per als documents PDF</short>
+                <long>Opcions booleanes disponibles, cert habilita les miniatures i fals inhabilita la creació de noves miniatures</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Habilita les miniatures per als documents PDF</short>
+                <long>Opcions booleanes disponibles, cert habilita les miniatures i fals inhabilita la creació de noves miniatures</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Povolit tvorbu náhledů dokumentů PDF</short>
+                <long>Dostupné logické hodnoty; pravdivá hodnota povoluje tvorbu náhledů a nepravdivá hodnota zakazuje tvorbu nových náhledů.</long>
+            </locale>
+
+            <locale name="cy">
+                <short>Galluogi lluniau cryno o ddogfennau PDF</short>
+                <long>Opsiynau Boole ar gael, gwir yn galluogi creu lluniau cryno a ffug yn analluogi creu lluniau cryno</long>
+            </locale>
+
+            <locale name="da">
+                <short>Aktivér miniaturer for PDF-dokumenter</short>
+                <long>Kan have boolske værdier: Hvis sand aktiveres generering af miniaturer, hvis falsk deaktiveres genereringen af nye</long>
+            </locale>
+
+            <locale name="de">
+                <short>Vorschaubilder von PDF-Dokumenten aktivieren</short>
+                <long>Wahr (true) aktiviert die Erstellung von Vorschaubildern, während unwahr (false) das Erzeugen neuer Vorschaubilder deaktiviert.</long>
+            </locale>
+
+            <locale name="dz">
+                <short>པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་ལུ་ མཐེ་གཟེར་བརྡབ་ནི་ལྕོགས་ཅན་བཟོ།</short>
+                <long>འཐོབ་ཚུགས་པའི་བུ་ལིན་གྱི་གདམ་ཁ། བདེན་པ་གིས་མཐེ་གཟེར་བརྡབ་ཚུགསཔ་བཟོ་ནི་དང་ རྫུན་པ་གིས་མཐེ་གཟེར་གསར་བསྐྲུན་འབད་མ་ཚུགསཔ་བཟོཝ་ཨིན།</long>
+            </locale>
+
+            <locale name="el">
+                <short>Ενεργοποίηση μικρογραφιών για έγγραφα τύπου PDF</short>
+                <long>Διαθέσιμη επιλογή boolean: true ενεργοποιεί τη δημιουργία μικρογραφιών ενώ false απενεργοποιεί τη δημιουργία νέων μικρογραφιών</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available: true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="es">
+                <short>Activar miniaturas de documentos PDF</short>
+                <long>Opciones booleanas disponibles, &quot;true&quot; activa las miniaturas y &quot;false&quot; desactiva la creación de miniaturas nuevas</long>
+            </locale>
+
+            <locale name="et">
+                <short>Luba PDF-dokumentidest pisipiltide tegemine</short>
+                <long>Tõeväärtusvalikud olemas, tõene lubab pisipiltide tegemise ja väär keelab selle</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Gaitu PDF dokumentuen koadro txikiak</short>
+                <long>Eskuragarri dauden aukera boolearrak, egiak koadro txikiak gaitzen ditu eta faltsuak koadro txiki berriak sortzea desgaitzen du.</long>
+            </locale>
+
+            <locale name="fa">
+                <short>به کار انداختن مسطوره‌سازی برای نوشتارهای PDF</short>
+                <long>دو گزینهٔ بولی ممکن است، درست مسطوره‌سازی را به کار می‌اندازد و نادرست ایجاد مسطوره‌های جدید را قطع می‌کند</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Ota PDF-asiakirjojen pienoiskuvat käyttöön</short>
+                <long>Mahdolliset vaihtoehdot: &quot;true&quot; ottaa pienoiskuvat käyttöön, &quot;false&quot; poistaa pienoiskuvien luomisen käytöstä</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Active la création de vignettes pour les documents PDF</short>
+                <long>Valeurs booléennes disponibles, VRAI active la création de vignettes et FAUX désactive la création de nouvelles vignettes</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Activar as miniaturas dos documentos PDF</short>
+                <long>Opcións booleanas dispoñíbeis: &quot;true&quot; activa as miniaturas e &quot;false&quot; desactiva a creación de novas miniaturas</long>
+            </locale>
+
+            <locale name="gu">
+                <short>PDF દસ્તાવેજોનું થમ્બનેઈલ કરવાનું સક્રિય કરો</short>
+                <long>બુલિયન વિકલ્પો ઉપલબ્ધ છે, સાચું થમ્બનેઈલીંગને સક્રિય કરે છે અને ખોટું નવા થમ્બનેઈલની બનાવટને નિષ્ક્રિય કરે છે</long>
+            </locale>
+
+            <locale name="he">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="hi">
+                <short>PDF का थंबनेल सक्षम करें</short>
+                <long>बूलियन विकल्प उपलब्ध, सही थंबनेल को सक्रिय करता है औऱ गलत नये थंबनेल के निर्माण को निष्क्रिय</long>
+            </locale>
+
+            <locale name="hu">
+                <short>PDF dokumentumokról bélyegképek készítésének engedélyezése</short>
+                <long>Igaz hatására a bélyegképek készítése engedélyezve lesz, hamis hatására pedig nem.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Aktifkan cuplikan kecil dari dokumen PDF</short>
+                <long>Pilihan boolean tersedia, benar akan membolehkan cuplikan kecil dan salah akan mematikan pembuatan cuplikan kecil</long>
+            </locale>
+
+            <locale name="it">
+                <short>Abilita la miniatura dei documenti PDF</short>
+                <long>Opzioni booleane disponibili, &quot;true&quot; abilita la creazione delle miniature e &quot;false&quot; disabilita la creazione di nuove miniature</long>
+            </locale>
+
+            <locale name="ja">
+                <short>PDF ドキュメントのサムネイル表示</short>
+                <long>論理型のオプションが利用可能で、TRUE にするとサムネイル表示になります。</long>
+            </locale>
+
+            <locale name="ka">
+                <short>PDF დოკუმენტების დაესკიზების ჩართვა</short>
+                <long>ჩართულია ლოგიკური ოპერატორი, true გააქტიურებს ესკიზურ რეჟიმს, ხოლო false ამორთავს ამ ფუნქციას.</long>
+            </locale>
+
+            <locale name="kn">
+                <short>PDF ದಸ್ತಾವೇಜುಗಳು ತಂಬ್‍ನೈಲಿಂಗ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು</short>
+                <long>ಲಭ್ಯವಿರುವ ಬೂಲಿಯನ್ ಆಯ್ಕೆಗಳೆಂದರೆ, ನಿಜವು ತಂಬ್‌ನೈಲಿಂಗ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಹಾಗು ತಪ್ಪು ಎನ್ನುವುದು ಹೊಸ ತಂಬ್‌ನೈಲ್ ಅನ್ನು ನಿರ್ಮಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ</long>
+            </locale>
+
+            <locale name="ko">
+                <short>PDF 문서의 미리보기 만들기 가능</short>
+                <long>참/거짓으로 설정 가능, 참이면 미리보기 만들기, 거짓이면 미리보기 만들기를 하지 않음</long>
+            </locale>
+
+            <locale name="ks">
+                <short>पीडीएफयूक थंबनेल चालू कर।</short>
+                <long>बूलियन छु सही थंबनेलन ठिक करान त: गल्त थंबनेलन बंद करान।</long>
+            </locale>
+
+            <locale name="ku">
+                <short>Çalakiya wêneyên biçûk yên Pelên PDF</short>
+                
+            </locale>
+
+            <locale name="lt">
+                <short>Įjungti PDF dokumentų miniatiūras</short>
+                <long>Prieinamos loginės parinktys: teigiama – įjungia miniatiūras, neigiama – išjungia</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Aktivizēt PDF dokumentu sīktēlu veidošanu</short>
+                <long>Pieejama loģikā opcija, patiess aktivizē sīktēlošanu, bet nepatiess atslēdz sīktēlu veidošanu</long>
+            </locale>
+
+            <locale name="mai">
+                <short>PDF क&apos; थंबनेल सक्षम करू</short>
+                <long>बूलियन विकल्प उपलब्ध, सही थंबनेलकेँ सक्रिय करैत अछि आओर गलत नवीन थंबनेल क&apos; निर्माणकेँ निष्क्रिय करैत अछि</long>
+            </locale>
+
+            <locale name="mg">
+                <short>Mandefa ny fanaovan-tsary madinika ho an&apos;ny tahirin-kevitra PDF</short>
+                <long>Misy safidy bolenina; ny marina mamela ny fanaovan-tsary madinika ary ny diso mampitsahatra ny famoronana sary madinika vaovao</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Вклучи правење на сликичи од PDF документи</short>
+                <long>Достапни се boolean опции, штиклирано вклучува сликички, одштиклирано исклучува креирање на нови сликички</long>
+            </locale>
+
+            <locale name="ml">
+                <short>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയിലിങ് സജ്ജമാക്കുക</short>
+                <long>ബൂളിയന്‍ ഉപാധികള്‍ ലഭ്യമാണ്, ട്രൂ എന്നാല്‍ തംബ്നെയിലിങ് സജ്ജമാക്കുന്നു, ഫാള്‍സ് എന്നാല്‍ പുതിയ തംബ്നെയില്‍ ഉണ്ടാക്കുന്നത് നിര്‍ജ്ജീവമാക്കുന്നു</long>
+            </locale>
+
+            <locale name="mr">
+                <short>PDF दस्तऐवजांच्या छोट्या प्रतीमा करा</short>
+                <long>द्विस्थीती पर्याय उपलब्ध, खरे निवडल्यास छोट्या प्रतीमा तयार केल्या जातात आणि खोटे  छोट्या प्रतीमा तयार करण्यास प्रतिबंध करते</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Aktiver generering av miniatyrer for PDF-dokumenter</short>
+                <long>To boolske verdier er tilgjengelig. «true» aktiverer miniatyrer og «false» deaktiverer oppretting av nye miniatyrer.</long>
+            </locale>
+
+            <locale name="ne">
+                <short>पि डि एफ कागजातहरुको थम्बनेल गर्ने सक्षम पार्नुहोस्</short>
+                <long>बुलियन विकल्पहरू उपलब्ध छ, थम्बनेलको सत्य सक्षमहरू र गलत अक्षमहरूले नयाँ थम्बनेलहरुको सिर्जना गर्दछ </long>
+            </locale>
+
+            <locale name="nl">
+                <short>Miniaturen aanzetten voor PDF-documenten</short>
+                <long>Boolese opties beschikbaar, true zet miniaturen aan en bij false worden er geen nieuwe miniaturen gemaakt</long>
+            </locale>
+
+            <locale name="nn">
+                <short>Slå på miniatyrikon av PDF-dokument</short>
+                <long>Boolske val tilgjengelege. TRUE slår på miniatyrar og FALSE slår dei av.</long>
+            </locale>
+
+            <locale name="or">
+                <short>PDF ଦଲିଲର କ୍ଷୁଦ୍ର ଚିତ୍ରଣ ପ୍ରକ୍ରିୟାକୁ ସକ୍ରିୟ କରନ୍ତୁ</short>
+                <long>ବୁଲିଆନ ବିକଳ୍ପ ଉପଲବ୍ଧ, ସତ କ୍ଷୁଦ୍ରଚିତ୍ରକୁ ସକ୍ରିୟ କରିଥାଏ ଏବଂ ମିଛ ନୂତନ କ୍ଷୁଦ୍ରଚିତ୍ର ନିର୍ମାଣକୁ ନିଷ୍କ୍ରିୟ କରିଥାଏ</long>
+            </locale>
+
+            <locale name="pa">
+                <short>PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਯੋਗ</short>
+                <long>ਬੁਲੀਅਨ ਚੋਣਾਂ ਉਪਲੱਬਧ ਹਨ, ਸਹੀਂ ਨਾਲ ਥੰਮਨੇਲ ਯੋਗ ਹੋਵੇਗਾ ਅਤੇ ਗਲਤ ਨਾਲ ਨਵੇਂ ਥੰਮਨੇਲ ਨਹੀਂ ਬਣ ਸਕਣਗੇ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Tworzenie miniatur dokumentów PDF</short>
+                <long>Dostępne są dwie opcje: &quot;true&quot; włącza miniatury, &quot;false&quot; wyłącza tworzenie nowych miniatur</long>
+            </locale>
+
+            <locale name="ps">
+                <short>لاسوندونو بټه نوکونه توانول PDF د</short>
+                
+            </locale>
+
+            <locale name="pt">
+                <short>Activar as imagens de referência de Documentos PDF</short>
+                <long>Opções boleanas disponíveis, verdadeiro activa as imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Habilitar a miniaturização de documentos PDF</short>
+                <long>Opções booleanas disponíveis: verdadeiro habilita a miniaturização e falso desabilita a criação de novas miniaturas</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Activare miniaturi pentru documente PDF</short>
+                <long>Opțiuni disponibile: „true” permite crearea de noi miniaturi, „false” dezactivează crearea de noi miniaturi</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Включить создание образцов для документов PDF</short>
+                <long>Возможно логическое значение, true включает создание образцов, а false выключает</long>
+            </locale>
+
+            <locale name="sk">
+                <short>Povoliť vytváranie náhľadov PDF dokumentov</short>
+                <long>Dostupné booleanovské možnosti, true povolí náhľady a false zakáže vytváranie nových náhľadov</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Omogoči sličice dokumentov PDF</short>
+                <long>Na voljo sta Boolovi vrednosti: resnično omogoča izdelavo sličic, napačno pa onemogoča</long>
+            </locale>
+
+            <locale name="sq">
+                <short>Aktivo krijimin e miniaturave të dokumentëve PDF</short>
+                <long>Opcionet booleane në dispozicion, true aktivon krijimin e miniaturave dhe false çaktivon krijimin e miniaturave të reja</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Укључи прављење сличица за PDF документе</short>
+                <long>Доступне истинитосне вредности, постављање укључује приказ сличица за стране, а искључивање зауставља прављење нових сличица</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Uključi pravljenje sličica za PDF dokumente</short>
+                <long>Dostupne istinitosne vrednosti, postavljanje uključuje prikaz sličica za strane, a isključivanje zaustavlja pravljenje novih sličica</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Aktivera miniatyrbilder för PDF-dokument.</short>
+                <long>Booleska alternativ tillgängliga, sant aktiverar skapande av miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+            </locale>
+
+            <locale name="ta">
+                <short>PDF ஆவணங்களுக்கு சிறுபடத்தை செயல்படுத்துகிறது</short>
+                <long>பூலியன் விருப்பங்கள் உள்ளன, சரி சிறுபடத்தை செயல்படுத்துகிறது மற்றும் தவறு புதிய சிறுபடங்கள்உருவாக்கத்தை செயல்நீக்குகிறது</long>
+            </locale>
+
+            <locale name="te">
+                <short>PDF పత్రాలను చిరుచిత్రాలుగా క్రియాశీలీకరించు</short>
+                <long>బూలియన్ ఐచ్చికాలు అందుబాటులో వున్నయి, true అనునది థంబ్‌నెయిలింగ్ చేతనపరుస్తుంది మరియు false కొత్త థంబ్‌నెయిల్ సృష్టీకరణిని అచేతనము చేస్తుంది</long>
+            </locale>
+
+            <locale name="th">
+                <short>เปิดใช้การแสดงภาพย่อของเอกสาร PDF</short>
+                <long>ค่าบูลีน ค่าจริงหมายถึงเปิดใช้การแสดงภาพย่อ และค่าเท็จหมายถึงปิดการแสดงภาพย่อภาพใหม่</long>
+            </locale>
+
+            <locale name="tr">
+                <short>PDF Belgelerin küçük resimlerinin etkinliği</short>
+                <long>Mantıksal değerler geçerlidir, seçili ise küçük resimler etkindir ve eğer seçili değilse küçük resim oluşturma devre dışı olur</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Увімкнути перегляд документів PDF</short>
+                <long>Можливе логічне значення. true вмикає створення зображення, а false вимикає</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Hiển thị hình thu nhỏ của tài liệu PDF</short>
+                <long>Giá trị logic: &apos;đúng&apos; hiển thị hình thu nhỏ và &apos;sai&apos; ẩn hình thu nhỏ</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>启用 PDF 文档的缩略图</short>
+                <long>布尔值选项，TRUE 代表允许缩略图，FALSE 代表禁止创建新缩略图</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>啟動 PDF 文件的縮圖功能</short>
+                <long>可用的邏輯選項中，“true”開啟縮圖功能，而“false”停止建立新的縮圖</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>啟動 PDF 文件的縮圖功能</short>
+                <long>可用的布林選項中，“true”開啟縮圖功能，而“false”停止建構新的縮圖</long>
+            </locale>
+        </schema>
+
+
+        <schema>
+            <key>/schemas/desktop/gnome/thumbnailers/application@x-bzpdf/command</key>
+            <applyto>/desktop/gnome/thumbnailers/application@x-bzpdf/command</applyto>
+            <owner>evince</owner>
+            <type>string</type>
+            <default>evince-thumbnailer -s %s %u %o</default>
+            <locale name="C">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="af">
+                <short>Duimnaelskets opdrag vir PDF-dokumente</short>
+                <long>Geldige opdrag plus argumente vir die duimnaelsketser vir PDF-dokumente. Verwys na die dokumentasie vir nautilus se duimnaelsketser vir verdere inligting.</long>
+            </locale>
+
+            <locale name="ar">
+                <short>أمر المُصغّرات لمستندات PDF</short>
+                <long>أمر صالِح بالإضافة إلى متغيرات لمصغّر الصور الخاص بمستندات PDF. راجع توثيق مصغّر الصور لنوتلس للمزيد من المعلومات</long>
+            </locale>
+
+            <locale name="as">
+                <short>PDF ডকুমেন্টৰ জন্য ব্যৱহাৰযোগ্য থাম্ব-নাইল আদেশ</short>
+                <long>PDF ডকুমেন্টৰৰ জন্য থাম্ব-নাইল নিৰ্মাণে ব্যৱহৃত বৈধ আদেশ ও আৰ্গুমেন্ট  । অধিক জানতে nautilus thumbnailer সংক্ৰান্ত নথিপত্ৰ পড়ুন  ।</long>
+            </locale>
+
+            <locale name="ast">
+                <short>Comandu pa sacar les miniatures pa los documentos PDF</short>
+                <long>Comandu válidu y argumentos pal miniaturizador de documentos PDF. Llea la documentación pal miniaturizador de Nautilus pa más información.</long>
+            </locale>
+
+            <locale name="be">
+                <short>Загад стварэньня мініатураў для PDF дакумэнтаў</short>
+                <long>Рэчаісны загад і аргумэнты для стваральніка мініятураў для PDF дакумэнтаў. Гл. дакумэнтацыю для nautilus thumbnailer.</long>
+            </locale>
+
+            <locale name="be@latin">
+                <short>Zahad stvareńnia minijaturaŭ dla dakumentaŭ PDF</short>
+                <long>Pravilny zahad i arhumenty dla stvareńnia minijaturaŭ dla dakumentaŭ PDF. Hladzi dakumentacyju na stvareńnie minijaturaŭ dla Nautilusa dziela padrabiaznaściaŭ.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Команда за създаване на мини изображения в документите от вид PDF</short>
+                <long>Валидна команда заедно с аргументите си за създаването на мини изображения от документи от вид PDF. За повече информация прегледайте документацията на nautilus за мини изображенията.</long>
+            </locale>
+
+            <locale name="bn">
+                <short>PDF নথির থাম্বনেইল তৈরির কমান্ড</short>
+                <long>PDF নথির থাম্বনেইল তৈরির জন্য সঠিক কমান্ড ও কমান্ড-আর্গুমেন্ট। এ ব্যাপারে বিস্তারিত জানার জন্য নটিলাস এর থাম্বনেইল প্রস্তুত প্রক্রিয়ার ডকুমেন্টেশন দেখুন।</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>PDF ডকুমেন্টের জন্য ব্যবহারযোগ্য থাম্ব-নেইল কমান্ড</short>
+                <long>PDF ডকুমেন্টেরর জন্য থাম্ব-নেইল নির্মাণে ব্যবহৃত বৈধ কমান্ড ও আর্গুমেন্ট। অধিক জানতে nautilus thumbnailer সংক্রান্ত নথিপত্র পড়ুন।</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Ordre de miniatura per als documents PDF</short>
+                <long>Ordre vàlida amb arguments addicionals per al miniaturitzador de documents PDF. Per a més informació vegeu la documentació del miniaturitzador del nautilus.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Orde de miniatura per als documents PDF</short>
+                <long>Orde vàlida amb arguments addicionals per al miniaturitzador de documents PDF. Per a més informació vegeu la documentació del miniaturitzador del nautilus.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Příkaz náhledů pro dokumenty PDF</short>
+                <long>Platný příkaz a argumenty pro tvůrce náhledů dokumentu PDF. Chcete-li se dovědět více informací, podívejte se do dokumentace tvůrce náhledů Nautilu.</long>
+            </locale>
+
+            <locale name="cy">
+                <short>Gorchymyn rhaglen creu lluniau cryno i ddogfennau PDF</short>
+                <long>Gorchymyn dilys ag ymresymiadau i&apos;r rhaglen creu lluniau cryno i ddogfennau PDF. Gweler dogfennau &quot;nautilus thumbnailer&quot; am wybodaeth bellach.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Miniature-kommando til PDF-dokumenter</short>
+                <long>Gyldig kommando plus parametre til miniaturegenerering af PDF-dokumenter. Se dokumentationen for Nautilus&apos; miniaturegenerering for flere oplysninger.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Vorschaubefehl für PDF-Dokumente</short>
+                <long>Zulässiges Kommando plus Argumente für die PDF-Dokumentenvorschau. Bitte schauen Sie für weiterführende Informationen in der Dokumentation der Nautilus-Dokumentvorschau nach.</long>
+            </locale>
+
+            <locale name="dz">
+                <short>པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་གི་དོན་ལུ་ མཐེ་གཟེར་གྱི་བརྡ་བཀོད།</short>
+                <long>པི་ཌི་ཨེཕ་ཡིག་ཆ་ལུ་མཐེ་གཟེར་བརྡབས་མིའི་ ནུས་ཅན་བརྡ་བཀོད་དང་སྒྲུབ་རྟགས་ཚུ། བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་ ནའུ་ཊི་ལཱསི་མཐེ་གཟེར་བརྡབས་མིའི་ཡིག་ཆ་ལུ་བལྟ།</long>
+            </locale>
+
+            <locale name="el">
+                <short>Εντολή για δημιουργία μικρογραφιών εγγράφων PDF</short>
+                <long>Έγκυρη εντολή και επιλογές για τη δημιουργία μικρογραφιών εγγράφων τύπου
+PDF. Δείτε την τεκμηριώση των μικρογραφιών του Ναυτίλου για περισσότερες
+πληροφορίες.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Comando para sacar las miniaturas para los documentos PDF</short>
+                <long>Comando válido y argumentos para el miniaturizador de documentos PDF. Vea la documentación para el miniaturizador de Nautilus para más información.</long>
+            </locale>
+
+            <locale name="et">
+                <short>PDF-dokumentidest pisipildi tegemise käsk</short>
+                <long>PDF-dokumentide pisipilditegija käsk koos argumentidega. Lähema teabe saamiseks vaata nautiluse pisipilditegija dokumentatsiooni.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>PDF dokumentuen koadro txikiak sortzeko komandoa</short>
+                <long>Komando baliagarria gei argumentuak PDF dokumentutako koadro txikiak sortzeko. Ikusi nautilus-en koadro txikien dokumentazioa informazio gehiagorako.</long>
+            </locale>
+
+            <locale name="fa">
+                <short>فرمان مسطوره برای نوشتارهای PDF</short>
+                <long>فرمان معتبر به همراه آرگومان‌هایی برای نوشتار PDF. برای اطلاعات بیشتر مستندات مسطوره‌ساز ناتیلوس را ببینید.</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Pienoiskuvakomento PDF-asiakirjoille</short>
+                <long>Komento sekä argumentit PDF-asiakirjan pienoiskuvien tuottamiseen. Katso lisätietoja nautiluksen pienoiskuvien tuottajan ohjeista.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Commande pour la création des vignettes des documents PDF</short>
+                <long>Commande valide et ses paramètres pour le créateur de vignettes des documents PDF. Consultez la documentation de Nautilus thumbnailer pour plus d&apos;informations.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Orde para crear miniaturas nos documentos PDF</short>
+                <long>Orde válida e argumentos para o creador de miniaturas de documentos PDF. Para máis información vexa a documentación sobre o miniaturizador do Nautilus.</long>
+            </locale>
+
+            <locale name="gu">
+                <short>PDF દસ્તાવેજો માટે થમ્બનેઈલ આદેશ</short>
+                <long>PDF દસ્તાવેજ થમ્બનેઈલ બનાવનાર માટે માન્ય આદેશ વત્તા દલીલો. વધુ જાણકારી માટે નોટીલસ થમ્બનેઈલ બનાવનાર દસ્તાવેજીકરણ જુઓ.</long>
+            </locale>
+
+            <locale name="he">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="hi">
+                <short>पीडीएफ के लिये लघु छवि दस्तावेज दस्तावेज़</short>
+                <long>PDF दस्तावेज थंबनेलर के लिये वैध समादेश के साथ तर्क. nautilus थंबनेलर दस्तावजेन को ज्यादा जानकारी के लिये देखें.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Bélyegkép-készítő parancs PDF-dokumentumokhoz</short>
+                <long>Érvényes parancs paraméterekkel a PDF dokumentumokból való bélyegkép-készítéshez. További információkért lásd a nautilus bélyegkép-készítőjének dokumentációját.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Perintah cuplikan kecil untuk dokumen PDF</short>
+                <long>Perintah dan argumen yang benar untuk pencuplik kecil Dokumen PDF. Lihat dokumentasi pencuplik kecil nautilus untuk informasi lebih lanjutnya.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Comando di miniatura per i documenti PDF</short>
+                <long>Un comando valido e gli argomenti per le miniature dei documenti PDF. Per maggiori informazioni consultare la documentazione relativa alle miniature di nautilus.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>PDF ドキュメントのサムネイル表示コマンド</short>
+                <long>PDF ドキュメントをサムネイル表示するための妥当なコマンドと引数です。詳細は Nautilus のサムネイル関連のドキュメントを参照して下さい。</long>
+            </locale>
+
+            <locale name="ka">
+                <short>PDF დოკუმენტების ესკიზების ბრძანება </short>
+                <long>PDF დოკუმენტების ესკიზების დამატებითი ბრძანებების შესახებ ინფორმაცია შეგიძლია იხილოთ Nautilus-ის ფაილ მენეჯერის დოკუმენტაციაში.</long>
+            </locale>
+
+            <locale name="kn">
+                <short>PDF ದಸ್ತಾವೇಜುಗಳಿಗಾಗಿ ತಂಬ್‍ನೈಲಿಂಗ್ ಆಜ್ಞೆ</short>
+                <long>PDF ದಸ್ತಾವೇಜು ತಂಬ್‌ನೈಲರಿಗಾಗಿನ ಮಾನ್ಯವಾದ ಆಜ್ಞೆ ಮತ್ತು ಆರ್ಗ್ಯುಮೆಂಟ್‌ಗಳು. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ನಾಟಿಲಸ್ ತಂಬ್‌ನೈಲರ್ ದಸ್ತಾವೇಜನ್ನು ನೋಡಿ.</long>
+            </locale>
+
+            <locale name="ko">
+                <short>PDF 문서의 미리보기 만들기 명령</short>
+                <long>PDF문서 미리보기 만들기의 올바른 명령과 인자. nautilus 미리보기 만들기 문서의 자세한 정보 참조.</long>
+            </locale>
+
+            <locale name="ks">
+                <short>पीडीएफ कागज़ात खत्तर निशान कमांड।</short>
+                <long>कमांड त दलील पीडीएफ कागज़ात निशान खत्तर।  ज्यादह् दलिलखत्तर वुछिव थंबनेल कागज़ात।</long>
+            </locale>
+
+            <locale name="ku">
+                <short>Ji bo belgehên PDF fermana wêneyên biçûk</short>
+                <long>Ji bo wênekerê biçûk yê Pelê PDF parametreyên zêdek yên fermanên derbasdar. Ji bo agahiyên berfireh li belgeya wênekerên biçûk yên nautilusê binihêre.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Miniatiūrų komanda PDF dokumentams</short>
+                <long>Tinkama PDF dokumentų miniatiūrų kūrimo komanda su argumentais. Žiūrėkite Nautilus miniatiūrų generatoriaus dokumentaciją.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>PDF dokumentu sīktēlu komanda</short>
+                <long>PDF sīktēlu veidotāja komandu un tās argumentus. Papildus informācijai aplūkojiet nautilus sīktēlu veidotāja dokumentāciju.</long>
+            </locale>
+
+            <locale name="mai">
+                <short>PDF दस्ताबेज क&apos;लेल लघु चित्र कमांड</short>
+                <long>PDF दस्ताबेज थंबनेलर क&apos;लेल वैध कमांड क&apos; सँग तर्क. नॉटिलस थंबनेलर दस्ताबेजनकेँ बेसीसूचना क&apos;लेल देखू.</long>
+            </locale>
+
+            <locale name="mg">
+                <short>Baikon&apos;ny fanaovana sary madinika ho an&apos;ny tahirin-kevitra PDF</short>
+                <long>Baiko mitombina miaraka amin&apos;ny tondriky ny mpanao sary madinika ho an&apos;ny tahirin-kevitra PDF. Vakio ny loharanon-kevitry ny nautilus thumbnailer hahalalanao azy bebe kokoa.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Команда за сликички во PDF</short>
+                <long>Валидна командата плус аргументите за сликичките во PDF документ. Проверете ја документацијата на Наутилус за повеќе информации.</long>
+            </locale>
+
+            <locale name="ml">
+                <short>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയില്‍ കമാന്‍ഡ്</short>
+                <long>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയിലറിനുള്ള ശരിയായ കമാന്‍ഡുകളും ആര്‍ഗ്യുമെന്റുകളും. കൂടുതല്‍ വിവരങ്ങള്‍ക്കായി നോട്ടിലസ് തംബ്നെയിലര്‍ രേഖകള്‍ കാണുക.</long>
+            </locale>
+
+            <locale name="mr">
+                <short>PDF दस्तऐवजांच्या छोट्या प्रतीमा करण्याचा आदेश</short>
+                <long>PDF दस्तऐवज थंबनेलर करीताचे वैध आदेश व तर्क. अधिक माहिती करीता नॉटिलस थंबनेलर दस्तऐवज पहा.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Miniatyrbildekommando for PDF-dokumenter</short>
+                <long>Gyldig kommando pluss argumenter for PDF-dokument miniatyrbilder. Se i nautilus sin miniatyrbildedokumentasjon for mer informasjon.</long>
+            </locale>
+
+            <locale name="ne">
+                <short>पि डि एफ कागजातहरुका लागि थम्बनेल्स आदेश</short>
+                <long>PDF कागजात थम्बनेलरका लागि वैध आदेश र तर्कहरू । धेरै जानकारीका लागि नटिलस थम्बनेलर मिसिलीकरण हर्नुहोस् ।</long>
+            </locale>
+
+            <locale name="nl">
+                <short>Opdracht voor miniaturen bij PDF-documenten</short>
+                <long>Geldige opdracht plus argumenten voor de maker van miniaturen van PDF-documenten. Zie de documentatie voor nautilus miniaturen voor meer informatie.</long>
+            </locale>
+
+            <locale name="nn">
+                <short>Miniatyrkommando for PDF-dokument</short>
+                <long>Gyldig kommando pluss argument for miniatyrgeneratoren for PDF-dokument. Sjå dokumentasjonen for «Nautilus Thumbnailer» for meir informasjon.</long>
+            </locale>
+
+            <locale name="or">
+                <short>PDF ଦଲିଲ ପାଇଁ କ୍ଷୁଦ୍ର ଚିତ୍ର ନିର୍ଦ୍ଦେଶ</short>
+                <long>PDF ଦଲିଲ କ୍ଷୁଦ୍ରଚିତ୍ରଣ ପାଇଁ ବୈଧ ନିର୍ଦ୍ଦେଶ ସହିତ ସ୍ୱତନ୍ତ୍ରଚର. ନଟିଲସ କ୍ଷୁଦ୍ରଚିତ୍ରଣ ଦଲିଲିକରଣ ପାଇଁ ଅଧିକ ସୂଚନା.</long>
+            </locale>
+
+            <locale name="pa">
+                <short>PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਕਮਾਂਡ</short>
+                <long>PDF ਡੌਕੂਮੈਂਟ ਥੰਮਨੇਲਰ ਲਈ ਠੀਕ ਕਮਾਂਡ ਅਤੇ ਮੁੱਲ। ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਨਟਾਲਿਸ ਥੰਮਨੇਲਰ ਡੌਕੂਮੈਂਟ ਵੇਖੋ</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Polecenie tworzenia miniatur dla dokumentów PDF</short>
+                <long>Prawidłowe polecenie wraz z parametrami dla generatora miniatur PDF. Więcej informacji można znaleźć w dokumentacji generatora miniatur programu Nautilus.</long>
+            </locale>
+
+            <locale name="ps">
+                <short>لاسوندونو لپاره بټه نوکی بولۍ PDF د</short>
+                
+            </locale>
+
+            <locale name="pt">
+                <short>Comando de criação de imagens de referência para Documentos PDF</short>
+                <long>Comando válido e argumentos para a aplicação de geração de imagens de referência de Documentos PDF. Consulte a documentação de imagens de referência do nautilus para mais informações.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Comando de miniatura para documentos PDF</short>
+                <long>Um comando válido e argumentos para o miniaturizador de documentos PDF. Veja a documentação do miniaturizador do nautilus para mais informações.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Program pentru crearea de miniaturi ale documentelor PDF</short>
+                <long>Comandă validă și argumente necesare pentru crearea de miniaturi ale documentelor PDF. Pentru detalii, consultați documentația Nautilus thumbnailer.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Команда создания образцов для документов PDF</short>
+                <long>Команда и аргументы для запуска программы создания изображения документа PDF. Для получений дополнительной информации смотрите документацию по Nautilus.</long>
+            </locale>
+
+            <locale name="sk">
+                <short>Príkaz náhľadu pre PDF dokumenty</short>
+                <long>Platný príkaz s parametrami pre náhľady PDF dokumentu. Pre ďalšie informácie si pozrite dokumentáciu náhľadov k Nautilu.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Ukaz za sličice dokumentov PDF</short>
+                <long>Veljaven ukaz z argumenti za izdelovalca sličic dokumentov PDF. Za več informacij si oglejte dokumentacijo izdelovalca sličic v Nautilusu.</long>
+            </locale>
+
+            <locale name="sq">
+                <short>Komanda për miniaturat e dokumentëve PDF</short>
+                <long>Komanda e vlefshme plus argumentët për krijimin e miniaturave të dokumentit PDF. Shiko dokumentet e krijuesit të miniaturave nautilus për informacione të mëtejshme.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Наредба за прављење сличица за PDF документе</short>
+                <long>Исправна наредба уз аргументе за прављење сличица за PDF документе. Погледајте документацију за сличице из Наутилуса за више података.</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Naredba za pravljenje sličica za PDF dokumente</short>
+                <long>Ispravna naredba uz argumente za pravljenje sličica za PDF dokumente. Pogledajte dokumentaciju za sličice iz Nautilusa za više podataka.</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Miniatyrbildskommando för PDF-dokument</short>
+                <long>Giltigt kommando plus argument för skaparen av miniatyrbilder av PDF-dokument. Se nautilus-dokumentationen om miniatyrbildsskapare för mer information.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>PDF ஆவணங்களுக்கான சிறுபட கட்டளைகள்</short>
+                <long>PDF ஆவண சிறு படங்களுக்கு சரியான கட்டளை மற்றும் மதிப்புகள் உள்ளன. மேலும் தகவல்களுக்கு nautilus சிறுபட ஆவணமாக்கத்தை பார்க்கவும்.</long>
+            </locale>
+
+            <locale name="te">
+                <short>PDF పత్రాలకు చిరుచిత్ర ఆదేశం</short>
+                <long>PDF పత్ర చిరుచిత్రానికి వర్తించదగిన ఆదేశాలు. ఎక్కువ సమాచారం కోసం నాటిలస్ చిరుచిత్ర పత్రాన్ని చూడండి</long>
+            </locale>
+
+            <locale name="th">
+                <short>คำสั่งย่อภาพสำหรับเอกสาร PDF</short>
+                <long>คำสั่งพร้อมอาร์กิวเมนต์สำหรับการแสดงภาพย่อของเอกสาร PDF อ่านข้อมูลเพิ่มเติมได้จากเอกสารตัวแสดงภาพย่อของ Nautilus</long>
+            </locale>
+
+            <locale name="tr">
+                <short>PDF Belgeleri için küçük resim komutu</short>
+                <long>PDF Belge küçük resimleyicisi için geçerli komut artı parametreleri. Daha fazla bilgi için nautilus küçük resimleyici belgesine bakın.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Команда створення мініатюр для документів PDF</short>
+                <long>Команда та аргументи для запуску команди створення мініатюр документа PDF. Додаткову інформацію дивіться у документації з nautilus.</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Lệnh tạo hình thu nhỏ cho tài liệu PDF</short>
+                <long>Lệnh hợp lệ cộng với đối số cho bộ tạo hình thu nhỏ tài liệu PDF. Xem tài liệu hướng dẫn Nautilus về hình thu nhỏ để biết thêm thông tin.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>PDF 文档的缩略图命令</short>
+                <long>生成 PDF 文档缩略图的有效命令及参数。请参看 nautilus 的缩略图生成文档中的更多信息。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>PDF 文件的縮圖命令</short>
+                <long>正確的指令加上代表 PDF 文件縮圖的選項。請參見 nautilus 縮圖文件以得到更多資訊。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>PDF 文件的縮圖命令</short>
+                <long>正確的指令加上代表 PDF 文件縮圖的選項。請參見 nautilus 縮圖文件以得到更多資訊。</long>
+            </locale>
+        </schema>
+
+        <schema>
+            <key>/schemas/desktop/gnome/thumbnailers/application@x-gzpdf/enable</key>
+            <applyto>/desktop/gnome/thumbnailers/application@x-gzpdf/enable</applyto>
+            <owner>evince</owner>
+            <type>bool</type>
+            <default>true</default>
+            <locale name="C">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="af">
+                <short>Aktiveer duimnaelsketse van PDF-dokumente</short>
+                <long>Boolese opsies beskikbaar, waar aktiveer duimnaelsketse en vals deaktiveer die skepping van nuwe duimnaelsketse</long>
+            </locale>
+
+            <locale name="ar">
+                <short>مكّن إنشاء مُصغّرات من مستندات PDF</short>
+                <long>الخيارات المنطقية متوفرة، &quot;صحيح&quot; تمكن المُصغّرات و &quot;خطأ&quot; تعطل إنشاء مُصغّرات جديدة</long>
+            </locale>
+
+            <locale name="as">
+                <short>PDF ডকুমেন্টৰ থাম্ব-নাইল নিৰ্মাণ সক্ৰিয় কৰা হ&apos;ব</short>
+                <long>বুলিয়াল মান প্ৰযোজ্য, true (সত্য) হলে থাম্ব-নাইল সক্ৰিয় কৰা হ&apos;ব ও মান false (সত্য নহয়) হলে নতুন থাম্ব-নাইল নিৰ্মাণ বন্ধ কৰা হ&apos;ব</long>
+            </locale>
+
+            <locale name="ast">
+                <short>Activar miniatures de documentos PDF</short>
+                <long>Hai opciones Booleanas, braero habilita entever, y falso deshabilita la criación de nueves vistes en miniatura</long>
+            </locale>
+
+            <locale name="be">
+                <short>Ствараць мініятуры для PDF дакумэнтаў</short>
+                <long>Дазволеныя лягічныя значэньні, true: ствараць мініятуры,false: не ствараць.</long>
+            </locale>
+
+            <locale name="be@latin">
+                <short>Uklučy minijatury dla dakumentaŭ PDF</short>
+                <long>Dastupnyja lohikavyja opcyi: true ŭklučaje stvareńnie minijaturaŭ, false adklučaje</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Мини изображения за документите от вид PDF</short>
+                <long>Налични булеви опции — „true“ включва създаването на мини изображения, а „false“ го изключва</long>
+            </locale>
+
+            <locale name="bn">
+                <short>PDF নথি থাম্বনেইল তৈরির প্রক্রিয়া সক্রিয় করুন</short>
+                <long>বুলিয়ান অপশন বিদ্যমান; সত্য হলে থাম্বলেইল দেখা যাবে এবং মিথ্যা হলে নতুন থাম্বনেইল তৈরি হবে না</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>PDF ডকুমেন্টের থাম্ব-নেইল নির্মাণ সক্রিয় করা হবে</short>
+                <long>বুলিয়াল মান প্রযোজ্য, true (সত্য) হলে থাম্ব-নেইল সক্রিয় করা হবে ও মান false (সত্য নয়) হলে নতুন থাম্ব-নেইল নির্মাণ বন্ধ করা হবে</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Habilita les miniatures per als documents PDF</short>
+                <long>Opcions booleanes disponibles, cert habilita les miniatures i fals inhabilita la creació de noves miniatures</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Habilita les miniatures per als documents PDF</short>
+                <long>Opcions booleanes disponibles, cert habilita les miniatures i fals inhabilita la creació de noves miniatures</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Povolit tvorbu náhledů dokumentů PDF</short>
+                <long>Dostupné logické hodnoty; pravdivá hodnota povoluje tvorbu náhledů a nepravdivá hodnota zakazuje tvorbu nových náhledů.</long>
+            </locale>
+
+            <locale name="cy">
+                <short>Galluogi lluniau cryno o ddogfennau PDF</short>
+                <long>Opsiynau Boole ar gael, gwir yn galluogi creu lluniau cryno a ffug yn analluogi creu lluniau cryno</long>
+            </locale>
+
+            <locale name="da">
+                <short>Aktivér miniaturer for PDF-dokumenter</short>
+                <long>Kan have boolske værdier: Hvis sand aktiveres generering af miniaturer, hvis falsk deaktiveres genereringen af nye</long>
+            </locale>
+
+            <locale name="de">
+                <short>Vorschaubilder von PDF-Dokumenten aktivieren</short>
+                <long>Wahr (true) aktiviert die Erstellung von Vorschaubildern, während unwahr (false) das Erzeugen neuer Vorschaubilder deaktiviert.</long>
+            </locale>
+
+            <locale name="dz">
+                <short>པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་ལུ་ མཐེ་གཟེར་བརྡབ་ནི་ལྕོགས་ཅན་བཟོ།</short>
+                <long>འཐོབ་ཚུགས་པའི་བུ་ལིན་གྱི་གདམ་ཁ། བདེན་པ་གིས་མཐེ་གཟེར་བརྡབ་ཚུགསཔ་བཟོ་ནི་དང་ རྫུན་པ་གིས་མཐེ་གཟེར་གསར་བསྐྲུན་འབད་མ་ཚུགསཔ་བཟོཝ་ཨིན།</long>
+            </locale>
+
+            <locale name="el">
+                <short>Ενεργοποίηση μικρογραφιών για έγγραφα τύπου PDF</short>
+                <long>Διαθέσιμη επιλογή boolean: true ενεργοποιεί τη δημιουργία μικρογραφιών ενώ false απενεργοποιεί τη δημιουργία νέων μικρογραφιών</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available: true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="es">
+                <short>Activar miniaturas de documentos PDF</short>
+                <long>Opciones booleanas disponibles, &quot;true&quot; activa las miniaturas y &quot;false&quot; desactiva la creación de miniaturas nuevas</long>
+            </locale>
+
+            <locale name="et">
+                <short>Luba PDF-dokumentidest pisipiltide tegemine</short>
+                <long>Tõeväärtusvalikud olemas, tõene lubab pisipiltide tegemise ja väär keelab selle</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Gaitu PDF dokumentuen koadro txikiak</short>
+                <long>Eskuragarri dauden aukera boolearrak, egiak koadro txikiak gaitzen ditu eta faltsuak koadro txiki berriak sortzea desgaitzen du.</long>
+            </locale>
+
+            <locale name="fa">
+                <short>به کار انداختن مسطوره‌سازی برای نوشتارهای PDF</short>
+                <long>دو گزینهٔ بولی ممکن است، درست مسطوره‌سازی را به کار می‌اندازد و نادرست ایجاد مسطوره‌های جدید را قطع می‌کند</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Ota PDF-asiakirjojen pienoiskuvat käyttöön</short>
+                <long>Mahdolliset vaihtoehdot: &quot;true&quot; ottaa pienoiskuvat käyttöön, &quot;false&quot; poistaa pienoiskuvien luomisen käytöstä</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Active la création de vignettes pour les documents PDF</short>
+                <long>Valeurs booléennes disponibles, VRAI active la création de vignettes et FAUX désactive la création de nouvelles vignettes</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Activar as miniaturas dos documentos PDF</short>
+                <long>Opcións booleanas dispoñíbeis: &quot;true&quot; activa as miniaturas e &quot;false&quot; desactiva a creación de novas miniaturas</long>
+            </locale>
+
+            <locale name="gu">
+                <short>PDF દસ્તાવેજોનું થમ્બનેઈલ કરવાનું સક્રિય કરો</short>
+                <long>બુલિયન વિકલ્પો ઉપલબ્ધ છે, સાચું થમ્બનેઈલીંગને સક્રિય કરે છે અને ખોટું નવા થમ્બનેઈલની બનાવટને નિષ્ક્રિય કરે છે</long>
+            </locale>
+
+            <locale name="he">
+                <short>Enable thumbnailing of PDF Documents</short>
+                <long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+            </locale>
+
+            <locale name="hi">
+                <short>PDF का थंबनेल सक्षम करें</short>
+                <long>बूलियन विकल्प उपलब्ध, सही थंबनेल को सक्रिय करता है औऱ गलत नये थंबनेल के निर्माण को निष्क्रिय</long>
+            </locale>
+
+            <locale name="hu">
+                <short>PDF dokumentumokról bélyegképek készítésének engedélyezése</short>
+                <long>Igaz hatására a bélyegképek készítése engedélyezve lesz, hamis hatására pedig nem.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Aktifkan cuplikan kecil dari dokumen PDF</short>
+                <long>Pilihan boolean tersedia, benar akan membolehkan cuplikan kecil dan salah akan mematikan pembuatan cuplikan kecil</long>
+            </locale>
+
+            <locale name="it">
+                <short>Abilita la miniatura dei documenti PDF</short>
+                <long>Opzioni booleane disponibili, &quot;true&quot; abilita la creazione delle miniature e &quot;false&quot; disabilita la creazione di nuove miniature</long>
+            </locale>
+
+            <locale name="ja">
+                <short>PDF ドキュメントのサムネイル表示</short>
+                <long>論理型のオプションが利用可能で、TRUE にするとサムネイル表示になります。</long>
+            </locale>
+
+            <locale name="ka">
+                <short>PDF დოკუმენტების დაესკიზების ჩართვა</short>
+                <long>ჩართულია ლოგიკური ოპერატორი, true გააქტიურებს ესკიზურ რეჟიმს, ხოლო false ამორთავს ამ ფუნქციას.</long>
+            </locale>
+
+            <locale name="kn">
+                <short>PDF ದಸ್ತಾವೇಜುಗಳು ತಂಬ್‍ನೈಲಿಂಗ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸು</short>
+                <long>ಲಭ್ಯವಿರುವ ಬೂಲಿಯನ್ ಆಯ್ಕೆಗಳೆಂದರೆ, ನಿಜವು ತಂಬ್‌ನೈಲಿಂಗ್ ಅನ್ನು ಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಹಾಗು ತಪ್ಪು ಎನ್ನುವುದು ಹೊಸ ತಂಬ್‌ನೈಲ್ ಅನ್ನು ನಿರ್ಮಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ</long>
+            </locale>
+
+            <locale name="ko">
+                <short>PDF 문서의 미리보기 만들기 가능</short>
+                <long>참/거짓으로 설정 가능, 참이면 미리보기 만들기, 거짓이면 미리보기 만들기를 하지 않음</long>
+            </locale>
+
+            <locale name="ks">
+                <short>पीडीएफयूक थंबनेल चालू कर।</short>
+                <long>बूलियन छु सही थंबनेलन ठिक करान त: गल्त थंबनेलन बंद करान।</long>
+            </locale>
+
+            <locale name="ku">
+                <short>Çalakiya wêneyên biçûk yên Pelên PDF</short>
+                
+            </locale>
+
+            <locale name="lt">
+                <short>Įjungti PDF dokumentų miniatiūras</short>
+                <long>Prieinamos loginės parinktys: teigiama – įjungia miniatiūras, neigiama – išjungia</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Aktivizēt PDF dokumentu sīktēlu veidošanu</short>
+                <long>Pieejama loģikā opcija, patiess aktivizē sīktēlošanu, bet nepatiess atslēdz sīktēlu veidošanu</long>
+            </locale>
+
+            <locale name="mai">
+                <short>PDF क&apos; थंबनेल सक्षम करू</short>
+                <long>बूलियन विकल्प उपलब्ध, सही थंबनेलकेँ सक्रिय करैत अछि आओर गलत नवीन थंबनेल क&apos; निर्माणकेँ निष्क्रिय करैत अछि</long>
+            </locale>
+
+            <locale name="mg">
+                <short>Mandefa ny fanaovan-tsary madinika ho an&apos;ny tahirin-kevitra PDF</short>
+                <long>Misy safidy bolenina; ny marina mamela ny fanaovan-tsary madinika ary ny diso mampitsahatra ny famoronana sary madinika vaovao</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Вклучи правење на сликичи од PDF документи</short>
+                <long>Достапни се boolean опции, штиклирано вклучува сликички, одштиклирано исклучува креирање на нови сликички</long>
+            </locale>
+
+            <locale name="ml">
+                <short>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയിലിങ് സജ്ജമാക്കുക</short>
+                <long>ബൂളിയന്‍ ഉപാധികള്‍ ലഭ്യമാണ്, ട്രൂ എന്നാല്‍ തംബ്നെയിലിങ് സജ്ജമാക്കുന്നു, ഫാള്‍സ് എന്നാല്‍ പുതിയ തംബ്നെയില്‍ ഉണ്ടാക്കുന്നത് നിര്‍ജ്ജീവമാക്കുന്നു</long>
+            </locale>
+
+            <locale name="mr">
+                <short>PDF दस्तऐवजांच्या छोट्या प्रतीमा करा</short>
+                <long>द्विस्थीती पर्याय उपलब्ध, खरे निवडल्यास छोट्या प्रतीमा तयार केल्या जातात आणि खोटे  छोट्या प्रतीमा तयार करण्यास प्रतिबंध करते</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Aktiver generering av miniatyrer for PDF-dokumenter</short>
+                <long>To boolske verdier er tilgjengelig. «true» aktiverer miniatyrer og «false» deaktiverer oppretting av nye miniatyrer.</long>
+            </locale>
+
+            <locale name="ne">
+                <short>पि डि एफ कागजातहरुको थम्बनेल गर्ने सक्षम पार्नुहोस्</short>
+                <long>बुलियन विकल्पहरू उपलब्ध छ, थम्बनेलको सत्य सक्षमहरू र गलत अक्षमहरूले नयाँ थम्बनेलहरुको सिर्जना गर्दछ </long>
+            </locale>
+
+            <locale name="nl">
+                <short>Miniaturen aanzetten voor PDF-documenten</short>
+                <long>Boolese opties beschikbaar, true zet miniaturen aan en bij false worden er geen nieuwe miniaturen gemaakt</long>
+            </locale>
+
+            <locale name="nn">
+                <short>Slå på miniatyrikon av PDF-dokument</short>
+                <long>Boolske val tilgjengelege. TRUE slår på miniatyrar og FALSE slår dei av.</long>
+            </locale>
+
+            <locale name="or">
+                <short>PDF ଦଲିଲର କ୍ଷୁଦ୍ର ଚିତ୍ରଣ ପ୍ରକ୍ରିୟାକୁ ସକ୍ରିୟ କରନ୍ତୁ</short>
+                <long>ବୁଲିଆନ ବିକଳ୍ପ ଉପଲବ୍ଧ, ସତ କ୍ଷୁଦ୍ରଚିତ୍ରକୁ ସକ୍ରିୟ କରିଥାଏ ଏବଂ ମିଛ ନୂତନ କ୍ଷୁଦ୍ରଚିତ୍ର ନିର୍ମାଣକୁ ନିଷ୍କ୍ରିୟ କରିଥାଏ</long>
+            </locale>
+
+            <locale name="pa">
+                <short>PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਯੋਗ</short>
+                <long>ਬੁਲੀਅਨ ਚੋਣਾਂ ਉਪਲੱਬਧ ਹਨ, ਸਹੀਂ ਨਾਲ ਥੰਮਨੇਲ ਯੋਗ ਹੋਵੇਗਾ ਅਤੇ ਗਲਤ ਨਾਲ ਨਵੇਂ ਥੰਮਨੇਲ ਨਹੀਂ ਬਣ ਸਕਣਗੇ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Tworzenie miniatur dokumentów PDF</short>
+                <long>Dostępne są dwie opcje: &quot;true&quot; włącza miniatury, &quot;false&quot; wyłącza tworzenie nowych miniatur</long>
+            </locale>
+
+            <locale name="ps">
+                <short>لاسوندونو بټه نوکونه توانول PDF د</short>
+                
+            </locale>
+
+            <locale name="pt">
+                <short>Activar as imagens de referência de Documentos PDF</short>
+                <long>Opções boleanas disponíveis, verdadeiro activa as imagens de referência e falso desactiva a criação de novas imagens de referência</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Habilitar a miniaturização de documentos PDF</short>
+                <long>Opções booleanas disponíveis: verdadeiro habilita a miniaturização e falso desabilita a criação de novas miniaturas</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Activare miniaturi pentru documente PDF</short>
+                <long>Opțiuni disponibile: „true” permite crearea de noi miniaturi, „false” dezactivează crearea de noi miniaturi</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Включить создание образцов для документов PDF</short>
+                <long>Возможно логическое значение, true включает создание образцов, а false выключает</long>
+            </locale>
+
+            <locale name="sk">
+                <short>Povoliť vytváranie náhľadov PDF dokumentov</short>
+                <long>Dostupné booleanovské možnosti, true povolí náhľady a false zakáže vytváranie nových náhľadov</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Omogoči sličice dokumentov PDF</short>
+                <long>Na voljo sta Boolovi vrednosti: resnično omogoča izdelavo sličic, napačno pa onemogoča</long>
+            </locale>
+
+            <locale name="sq">
+                <short>Aktivo krijimin e miniaturave të dokumentëve PDF</short>
+                <long>Opcionet booleane në dispozicion, true aktivon krijimin e miniaturave dhe false çaktivon krijimin e miniaturave të reja</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Укључи прављење сличица за PDF документе</short>
+                <long>Доступне истинитосне вредности, постављање укључује приказ сличица за стране, а искључивање зауставља прављење нових сличица</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Uključi pravljenje sličica za PDF dokumente</short>
+                <long>Dostupne istinitosne vrednosti, postavljanje uključuje prikaz sličica za strane, a isključivanje zaustavlja pravljenje novih sličica</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Aktivera miniatyrbilder för PDF-dokument.</short>
+                <long>Booleska alternativ tillgängliga, sant aktiverar skapande av miniatyrbilder och falskt inaktiverar skapandet av nya miniatyrbilder</long>
+            </locale>
+
+            <locale name="ta">
+                <short>PDF ஆவணங்களுக்கு சிறுபடத்தை செயல்படுத்துகிறது</short>
+                <long>பூலியன் விருப்பங்கள் உள்ளன, சரி சிறுபடத்தை செயல்படுத்துகிறது மற்றும் தவறு புதிய சிறுபடங்கள்உருவாக்கத்தை செயல்நீக்குகிறது</long>
+            </locale>
+
+            <locale name="te">
+                <short>PDF పత్రాలను చిరుచిత్రాలుగా క్రియాశీలీకరించు</short>
+                <long>బూలియన్ ఐచ్చికాలు అందుబాటులో వున్నయి, true అనునది థంబ్‌నెయిలింగ్ చేతనపరుస్తుంది మరియు false కొత్త థంబ్‌నెయిల్ సృష్టీకరణిని అచేతనము చేస్తుంది</long>
+            </locale>
+
+            <locale name="th">
+                <short>เปิดใช้การแสดงภาพย่อของเอกสาร PDF</short>
+                <long>ค่าบูลีน ค่าจริงหมายถึงเปิดใช้การแสดงภาพย่อ และค่าเท็จหมายถึงปิดการแสดงภาพย่อภาพใหม่</long>
+            </locale>
+
+            <locale name="tr">
+                <short>PDF Belgelerin küçük resimlerinin etkinliği</short>
+                <long>Mantıksal değerler geçerlidir, seçili ise küçük resimler etkindir ve eğer seçili değilse küçük resim oluşturma devre dışı olur</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Увімкнути перегляд документів PDF</short>
+                <long>Можливе логічне значення. true вмикає створення зображення, а false вимикає</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Hiển thị hình thu nhỏ của tài liệu PDF</short>
+                <long>Giá trị logic: &apos;đúng&apos; hiển thị hình thu nhỏ và &apos;sai&apos; ẩn hình thu nhỏ</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>启用 PDF 文档的缩略图</short>
+                <long>布尔值选项，TRUE 代表允许缩略图，FALSE 代表禁止创建新缩略图</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>啟動 PDF 文件的縮圖功能</short>
+                <long>可用的邏輯選項中，“true”開啟縮圖功能，而“false”停止建立新的縮圖</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>啟動 PDF 文件的縮圖功能</short>
+                <long>可用的布林選項中，“true”開啟縮圖功能，而“false”停止建構新的縮圖</long>
+            </locale>
+        </schema>
+
+
+        <schema>
+            <key>/schemas/desktop/gnome/thumbnailers/application@x-gzpdf/command</key>
+            <applyto>/desktop/gnome/thumbnailers/application@x-gzpdf/command</applyto>
+            <owner>evince</owner>
+            <type>string</type>
+            <default>evince-thumbnailer -s %s %u %o</default>
+            <locale name="C">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="af">
+                <short>Duimnaelskets opdrag vir PDF-dokumente</short>
+                <long>Geldige opdrag plus argumente vir die duimnaelsketser vir PDF-dokumente. Verwys na die dokumentasie vir nautilus se duimnaelsketser vir verdere inligting.</long>
+            </locale>
+
+            <locale name="ar">
+                <short>أمر المُصغّرات لمستندات PDF</short>
+                <long>أمر صالِح بالإضافة إلى متغيرات لمصغّر الصور الخاص بمستندات PDF. راجع توثيق مصغّر الصور لنوتلس للمزيد من المعلومات</long>
+            </locale>
+
+            <locale name="as">
+                <short>PDF ডকুমেন্টৰ জন্য ব্যৱহাৰযোগ্য থাম্ব-নাইল আদেশ</short>
+                <long>PDF ডকুমেন্টৰৰ জন্য থাম্ব-নাইল নিৰ্মাণে ব্যৱহৃত বৈধ আদেশ ও আৰ্গুমেন্ট  । অধিক জানতে nautilus thumbnailer সংক্ৰান্ত নথিপত্ৰ পড়ুন  ।</long>
+            </locale>
+
+            <locale name="ast">
+                <short>Comandu pa sacar les miniatures pa los documentos PDF</short>
+                <long>Comandu válidu y argumentos pal miniaturizador de documentos PDF. Llea la documentación pal miniaturizador de Nautilus pa más información.</long>
+            </locale>
+
+            <locale name="be">
+                <short>Загад стварэньня мініатураў для PDF дакумэнтаў</short>
+                <long>Рэчаісны загад і аргумэнты для стваральніка мініятураў для PDF дакумэнтаў. Гл. дакумэнтацыю для nautilus thumbnailer.</long>
+            </locale>
+
+            <locale name="be@latin">
+                <short>Zahad stvareńnia minijaturaŭ dla dakumentaŭ PDF</short>
+                <long>Pravilny zahad i arhumenty dla stvareńnia minijaturaŭ dla dakumentaŭ PDF. Hladzi dakumentacyju na stvareńnie minijaturaŭ dla Nautilusa dziela padrabiaznaściaŭ.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Команда за създаване на мини изображения в документите от вид PDF</short>
+                <long>Валидна команда заедно с аргументите си за създаването на мини изображения от документи от вид PDF. За повече информация прегледайте документацията на nautilus за мини изображенията.</long>
+            </locale>
+
+            <locale name="bn">
+                <short>PDF নথির থাম্বনেইল তৈরির কমান্ড</short>
+                <long>PDF নথির থাম্বনেইল তৈরির জন্য সঠিক কমান্ড ও কমান্ড-আর্গুমেন্ট। এ ব্যাপারে বিস্তারিত জানার জন্য নটিলাস এর থাম্বনেইল প্রস্তুত প্রক্রিয়ার ডকুমেন্টেশন দেখুন।</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>PDF ডকুমেন্টের জন্য ব্যবহারযোগ্য থাম্ব-নেইল কমান্ড</short>
+                <long>PDF ডকুমেন্টেরর জন্য থাম্ব-নেইল নির্মাণে ব্যবহৃত বৈধ কমান্ড ও আর্গুমেন্ট। অধিক জানতে nautilus thumbnailer সংক্রান্ত নথিপত্র পড়ুন।</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Ordre de miniatura per als documents PDF</short>
+                <long>Ordre vàlida amb arguments addicionals per al miniaturitzador de documents PDF. Per a més informació vegeu la documentació del miniaturitzador del nautilus.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Orde de miniatura per als documents PDF</short>
+                <long>Orde vàlida amb arguments addicionals per al miniaturitzador de documents PDF. Per a més informació vegeu la documentació del miniaturitzador del nautilus.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Příkaz náhledů pro dokumenty PDF</short>
+                <long>Platný příkaz a argumenty pro tvůrce náhledů dokumentu PDF. Chcete-li se dovědět více informací, podívejte se do dokumentace tvůrce náhledů Nautilu.</long>
+            </locale>
+
+            <locale name="cy">
+                <short>Gorchymyn rhaglen creu lluniau cryno i ddogfennau PDF</short>
+                <long>Gorchymyn dilys ag ymresymiadau i&apos;r rhaglen creu lluniau cryno i ddogfennau PDF. Gweler dogfennau &quot;nautilus thumbnailer&quot; am wybodaeth bellach.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Miniature-kommando til PDF-dokumenter</short>
+                <long>Gyldig kommando plus parametre til miniaturegenerering af PDF-dokumenter. Se dokumentationen for Nautilus&apos; miniaturegenerering for flere oplysninger.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Vorschaubefehl für PDF-Dokumente</short>
+                <long>Zulässiges Kommando plus Argumente für die PDF-Dokumentenvorschau. Bitte schauen Sie für weiterführende Informationen in der Dokumentation der Nautilus-Dokumentvorschau nach.</long>
+            </locale>
+
+            <locale name="dz">
+                <short>པི་ཌི་ཨེཕ་ཡིག་ཆ་ཚུ་གི་དོན་ལུ་ མཐེ་གཟེར་གྱི་བརྡ་བཀོད།</short>
+                <long>པི་ཌི་ཨེཕ་ཡིག་ཆ་ལུ་མཐེ་གཟེར་བརྡབས་མིའི་ ནུས་ཅན་བརྡ་བཀོད་དང་སྒྲུབ་རྟགས་ཚུ། བརྡ་དོན་ཧེང་བཀལ་གྱི་དོན་ལུ་ ནའུ་ཊི་ལཱསི་མཐེ་གཟེར་བརྡབས་མིའི་ཡིག་ཆ་ལུ་བལྟ།</long>
+            </locale>
+
+            <locale name="el">
+                <short>Εντολή για δημιουργία μικρογραφιών εγγράφων PDF</short>
+                <long>Έγκυρη εντολή και επιλογές για τη δημιουργία μικρογραφιών εγγράφων τύπου
+PDF. Δείτε την τεκμηριώση των μικρογραφιών του Ναυτίλου για περισσότερες
+πληροφορίες.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Comando para sacar las miniaturas para los documentos PDF</short>
+                <long>Comando válido y argumentos para el miniaturizador de documentos PDF. Vea la documentación para el miniaturizador de Nautilus para más información.</long>
+            </locale>
+
+            <locale name="et">
+                <short>PDF-dokumentidest pisipildi tegemise käsk</short>
+                <long>PDF-dokumentide pisipilditegija käsk koos argumentidega. Lähema teabe saamiseks vaata nautiluse pisipilditegija dokumentatsiooni.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>PDF dokumentuen koadro txikiak sortzeko komandoa</short>
+                <long>Komando baliagarria gei argumentuak PDF dokumentutako koadro txikiak sortzeko. Ikusi nautilus-en koadro txikien dokumentazioa informazio gehiagorako.</long>
+            </locale>
+
+            <locale name="fa">
+                <short>فرمان مسطوره برای نوشتارهای PDF</short>
+                <long>فرمان معتبر به همراه آرگومان‌هایی برای نوشتار PDF. برای اطلاعات بیشتر مستندات مسطوره‌ساز ناتیلوس را ببینید.</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Pienoiskuvakomento PDF-asiakirjoille</short>
+                <long>Komento sekä argumentit PDF-asiakirjan pienoiskuvien tuottamiseen. Katso lisätietoja nautiluksen pienoiskuvien tuottajan ohjeista.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Commande pour la création des vignettes des documents PDF</short>
+                <long>Commande valide et ses paramètres pour le créateur de vignettes des documents PDF. Consultez la documentation de Nautilus thumbnailer pour plus d&apos;informations.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Orde para crear miniaturas nos documentos PDF</short>
+                <long>Orde válida e argumentos para o creador de miniaturas de documentos PDF. Para máis información vexa a documentación sobre o miniaturizador do Nautilus.</long>
+            </locale>
+
+            <locale name="gu">
+                <short>PDF દસ્તાવેજો માટે થમ્બનેઈલ આદેશ</short>
+                <long>PDF દસ્તાવેજ થમ્બનેઈલ બનાવનાર માટે માન્ય આદેશ વત્તા દલીલો. વધુ જાણકારી માટે નોટીલસ થમ્બનેઈલ બનાવનાર દસ્તાવેજીકરણ જુઓ.</long>
+            </locale>
+
+            <locale name="he">
+                <short>Thumbnail command for PDF Documents</short>
+                <long>Valid command plus arguments for the PDF Document thumbnailer. See nautilus thumbnailer documentation for more information.</long>
+            </locale>
+
+            <locale name="hi">
+                <short>पीडीएफ के लिये लघु छवि दस्तावेज दस्तावेज़</short>
+                <long>PDF दस्तावेज थंबनेलर के लिये वैध समादेश के साथ तर्क. nautilus थंबनेलर दस्तावजेन को ज्यादा जानकारी के लिये देखें.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Bélyegkép-készítő parancs PDF-dokumentumokhoz</short>
+                <long>Érvényes parancs paraméterekkel a PDF dokumentumokból való bélyegkép-készítéshez. További információkért lásd a nautilus bélyegkép-készítőjének dokumentációját.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Perintah cuplikan kecil untuk dokumen PDF</short>
+                <long>Perintah dan argumen yang benar untuk pencuplik kecil Dokumen PDF. Lihat dokumentasi pencuplik kecil nautilus untuk informasi lebih lanjutnya.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Comando di miniatura per i documenti PDF</short>
+                <long>Un comando valido e gli argomenti per le miniature dei documenti PDF. Per maggiori informazioni consultare la documentazione relativa alle miniature di nautilus.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>PDF ドキュメントのサムネイル表示コマンド</short>
+                <long>PDF ドキュメントをサムネイル表示するための妥当なコマンドと引数です。詳細は Nautilus のサムネイル関連のドキュメントを参照して下さい。</long>
+            </locale>
+
+            <locale name="ka">
+                <short>PDF დოკუმენტების ესკიზების ბრძანება </short>
+                <long>PDF დოკუმენტების ესკიზების დამატებითი ბრძანებების შესახებ ინფორმაცია შეგიძლია იხილოთ Nautilus-ის ფაილ მენეჯერის დოკუმენტაციაში.</long>
+            </locale>
+
+            <locale name="kn">
+                <short>PDF ದಸ್ತಾವೇಜುಗಳಿಗಾಗಿ ತಂಬ್‍ನೈಲಿಂಗ್ ಆಜ್ಞೆ</short>
+                <long>PDF ದಸ್ತಾವೇಜು ತಂಬ್‌ನೈಲರಿಗಾಗಿನ ಮಾನ್ಯವಾದ ಆಜ್ಞೆ ಮತ್ತು ಆರ್ಗ್ಯುಮೆಂಟ್‌ಗಳು. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ನಾಟಿಲಸ್ ತಂಬ್‌ನೈಲರ್ ದಸ್ತಾವೇಜನ್ನು ನೋಡಿ.</long>
+            </locale>
+
+            <locale name="ko">
+                <short>PDF 문서의 미리보기 만들기 명령</short>
+                <long>PDF문서 미리보기 만들기의 올바른 명령과 인자. nautilus 미리보기 만들기 문서의 자세한 정보 참조.</long>
+            </locale>
+
+            <locale name="ks">
+                <short>पीडीएफ कागज़ात खत्तर निशान कमांड।</short>
+                <long>कमांड त दलील पीडीएफ कागज़ात निशान खत्तर।  ज्यादह् दलिलखत्तर वुछिव थंबनेल कागज़ात।</long>
+            </locale>
+
+            <locale name="ku">
+                <short>Ji bo belgehên PDF fermana wêneyên biçûk</short>
+                <long>Ji bo wênekerê biçûk yê Pelê PDF parametreyên zêdek yên fermanên derbasdar. Ji bo agahiyên berfireh li belgeya wênekerên biçûk yên nautilusê binihêre.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Miniatiūrų komanda PDF dokumentams</short>
+                <long>Tinkama PDF dokumentų miniatiūrų kūrimo komanda su argumentais. Žiūrėkite Nautilus miniatiūrų generatoriaus dokumentaciją.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>PDF dokumentu sīktēlu komanda</short>
+                <long>PDF sīktēlu veidotāja komandu un tās argumentus. Papildus informācijai aplūkojiet nautilus sīktēlu veidotāja dokumentāciju.</long>
+            </locale>
+
+            <locale name="mai">
+                <short>PDF दस्ताबेज क&apos;लेल लघु चित्र कमांड</short>
+                <long>PDF दस्ताबेज थंबनेलर क&apos;लेल वैध कमांड क&apos; सँग तर्क. नॉटिलस थंबनेलर दस्ताबेजनकेँ बेसीसूचना क&apos;लेल देखू.</long>
+            </locale>
+
+            <locale name="mg">
+                <short>Baikon&apos;ny fanaovana sary madinika ho an&apos;ny tahirin-kevitra PDF</short>
+                <long>Baiko mitombina miaraka amin&apos;ny tondriky ny mpanao sary madinika ho an&apos;ny tahirin-kevitra PDF. Vakio ny loharanon-kevitry ny nautilus thumbnailer hahalalanao azy bebe kokoa.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Команда за сликички во PDF</short>
+                <long>Валидна командата плус аргументите за сликичките во PDF документ. Проверете ја документацијата на Наутилус за повеќе информации.</long>
+            </locale>
+
+            <locale name="ml">
+                <short>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയില്‍ കമാന്‍ഡ്</short>
+                <long>പിഡിഎഫ് രേഖകള്‍ക്കുള്ള തംബ്നെയിലറിനുള്ള ശരിയായ കമാന്‍ഡുകളും ആര്‍ഗ്യുമെന്റുകളും. കൂടുതല്‍ വിവരങ്ങള്‍ക്കായി നോട്ടിലസ് തംബ്നെയിലര്‍ രേഖകള്‍ കാണുക.</long>
+            </locale>
+
+            <locale name="mr">
+                <short>PDF दस्तऐवजांच्या छोट्या प्रतीमा करण्याचा आदेश</short>
+                <long>PDF दस्तऐवज थंबनेलर करीताचे वैध आदेश व तर्क. अधिक माहिती करीता नॉटिलस थंबनेलर दस्तऐवज पहा.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Miniatyrbildekommando for PDF-dokumenter</short>
+                <long>Gyldig kommando pluss argumenter for PDF-dokument miniatyrbilder. Se i nautilus sin miniatyrbildedokumentasjon for mer informasjon.</long>
+            </locale>
+
+            <locale name="ne">
+                <short>पि डि एफ कागजातहरुका लागि थम्बनेल्स आदेश</short>
+                <long>PDF कागजात थम्बनेलरका लागि वैध आदेश र तर्कहरू । धेरै जानकारीका लागि नटिलस थम्बनेलर मिसिलीकरण हर्नुहोस् ।</long>
+            </locale>
+
+            <locale name="nl">
+                <short>Opdracht voor miniaturen bij PDF-documenten</short>
+                <long>Geldige opdracht plus argumenten voor de maker van miniaturen van PDF-documenten. Zie de documentatie voor nautilus miniaturen voor meer informatie.</long>
+            </locale>
+
+            <locale name="nn">
+                <short>Miniatyrkommando for PDF-dokument</short>
+                <long>Gyldig kommando pluss argument for miniatyrgeneratoren for PDF-dokument. Sjå dokumentasjonen for «Nautilus Thumbnailer» for meir informasjon.</long>
+            </locale>
+
+            <locale name="or">
+                <short>PDF ଦଲିଲ ପାଇଁ କ୍ଷୁଦ୍ର ଚିତ୍ର ନିର୍ଦ୍ଦେଶ</short>
+                <long>PDF ଦଲିଲ କ୍ଷୁଦ୍ରଚିତ୍ରଣ ପାଇଁ ବୈଧ ନିର୍ଦ୍ଦେଶ ସହିତ ସ୍ୱତନ୍ତ୍ରଚର. ନଟିଲସ କ୍ଷୁଦ୍ରଚିତ୍ରଣ ଦଲିଲିକରଣ ପାଇଁ ଅଧିକ ସୂଚନା.</long>
+            </locale>
+
+            <locale name="pa">
+                <short>PDF ਡੌਕੂਮੈਂਟ ਲਈ ਥੰਮਨੇਲ ਕਮਾਂਡ</short>
+                <long>PDF ਡੌਕੂਮੈਂਟ ਥੰਮਨੇਲਰ ਲਈ ਠੀਕ ਕਮਾਂਡ ਅਤੇ ਮੁੱਲ। ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ ਨਟਾਲਿਸ ਥੰਮਨੇਲਰ ਡੌਕੂਮੈਂਟ ਵੇਖੋ</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Polecenie tworzenia miniatur dla dokumentów PDF</short>
+                <long>Prawidłowe polecenie wraz z parametrami dla generatora miniatur PDF. Więcej informacji można znaleźć w dokumentacji generatora miniatur programu Nautilus.</long>
+            </locale>
+
+            <locale name="ps">
+                <short>لاسوندونو لپاره بټه نوکی بولۍ PDF د</short>
+                
+            </locale>
+
+            <locale name="pt">
+                <short>Comando de criação de imagens de referência para Documentos PDF</short>
+                <long>Comando válido e argumentos para a aplicação de geração de imagens de referência de Documentos PDF. Consulte a documentação de imagens de referência do nautilus para mais informações.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Comando de miniatura para documentos PDF</short>
+                <long>Um comando válido e argumentos para o miniaturizador de documentos PDF. Veja a documentação do miniaturizador do nautilus para mais informações.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Program pentru crearea de miniaturi ale documentelor PDF</short>
+                <long>Comandă validă și argumente necesare pentru crearea de miniaturi ale documentelor PDF. Pentru detalii, consultați documentația Nautilus thumbnailer.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Команда создания образцов для документов PDF</short>
+                <long>Команда и аргументы для запуска программы создания изображения документа PDF. Для получений дополнительной информации смотрите документацию по Nautilus.</long>
+            </locale>
+
+            <locale name="sk">
+                <short>Príkaz náhľadu pre PDF dokumenty</short>
+                <long>Platný príkaz s parametrami pre náhľady PDF dokumentu. Pre ďalšie informácie si pozrite dokumentáciu náhľadov k Nautilu.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Ukaz za sličice dokumentov PDF</short>
+                <long>Veljaven ukaz z argumenti za izdelovalca sličic dokumentov PDF. Za več informacij si oglejte dokumentacijo izdelovalca sličic v Nautilusu.</long>
+            </locale>
+
+            <locale name="sq">
+                <short>Komanda për miniaturat e dokumentëve PDF</short>
+                <long>Komanda e vlefshme plus argumentët për krijimin e miniaturave të dokumentit PDF. Shiko dokumentet e krijuesit të miniaturave nautilus për informacione të mëtejshme.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Наредба за прављење сличица за PDF документе</short>
+                <long>Исправна наредба уз аргументе за прављење сличица за PDF документе. Погледајте документацију за сличице из Наутилуса за више података.</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Naredba za pravljenje sličica za PDF dokumente</short>
+                <long>Ispravna naredba uz argumente za pravljenje sličica za PDF dokumente. Pogledajte dokumentaciju za sličice iz Nautilusa za više podataka.</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Miniatyrbildskommando för PDF-dokument</short>
+                <long>Giltigt kommando plus argument för skaparen av miniatyrbilder av PDF-dokument. Se nautilus-dokumentationen om miniatyrbildsskapare för mer information.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>PDF ஆவணங்களுக்கான சிறுபட கட்டளைகள்</short>
+                <long>PDF ஆவண சிறு படங்களுக்கு சரியான கட்டளை மற்றும் மதிப்புகள் உள்ளன. மேலும் தகவல்களுக்கு nautilus சிறுபட ஆவணமாக்கத்தை பார்க்கவும்.</long>
+            </locale>
+
+            <locale name="te">
+                <short>PDF పత్రాలకు చిరుచిత్ర ఆదేశం</short>
+                <long>PDF పత్ర చిరుచిత్రానికి వర్తించదగిన ఆదేశాలు. ఎక్కువ సమాచారం కోసం నాటిలస్ చిరుచిత్ర పత్రాన్ని చూడండి</long>
+            </locale>
+
+            <locale name="th">
+                <short>คำสั่งย่อภาพสำหรับเอกสาร PDF</short>
+                <long>คำสั่งพร้อมอาร์กิวเมนต์สำหรับการแสดงภาพย่อของเอกสาร PDF อ่านข้อมูลเพิ่มเติมได้จากเอกสารตัวแสดงภาพย่อของ Nautilus</long>
+            </locale>
+
+            <locale name="tr">
+                <short>PDF Belgeleri için küçük resim komutu</short>
+                <long>PDF Belge küçük resimleyicisi için geçerli komut artı parametreleri. Daha fazla bilgi için nautilus küçük resimleyici belgesine bakın.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Команда створення мініатюр для документів PDF</short>
+                <long>Команда та аргументи для запуску команди створення мініатюр документа PDF. Додаткову інформацію дивіться у документації з nautilus.</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Lệnh tạo hình thu nhỏ cho tài liệu PDF</short>
+                <long>Lệnh hợp lệ cộng với đối số cho bộ tạo hình thu nhỏ tài liệu PDF. Xem tài liệu hướng dẫn Nautilus về hình thu nhỏ để biết thêm thông tin.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>PDF 文档的缩略图命令</short>
+                <long>生成 PDF 文档缩略图的有效命令及参数。请参看 nautilus 的缩略图生成文档中的更多信息。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>PDF 文件的縮圖命令</short>
+                <long>正確的指令加上代表 PDF 文件縮圖的選項。請參見 nautilus 縮圖文件以得到更多資訊。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>PDF 文件的縮圖命令</short>
+                <long>正確的指令加上代表 PDF 文件縮圖的選項。請參見 nautilus 縮圖文件以得到更多資訊。</long>
+            </locale>
+        </schema>
+
+    </schemalist>
+</gconfschemafile>

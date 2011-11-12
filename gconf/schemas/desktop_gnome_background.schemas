@@ -1,0 +1,2957 @@
+<gconfschemafile>
+    <schemalist>
+      <schema>
+        <key>/schemas/desktop/gnome/background/draw_background</key>
+        <applyto>/desktop/gnome/background/draw_background</applyto>
+        <owner>gnome</owner>
+        <type>bool</type>
+        <default>true</default>
+        <locale name="C">
+        <short>Draw Desktop Background</short>
+        <long>Have GNOME draw the desktop background.</long>
+        </locale>
+
+        <locale name="ar">
+        <short>ارسم خلفية سطح المكتب</short>
+        <long>اترك جنوم يرسم خلفية سطح المكتب.</long>
+        </locale>
+
+        <locale name="as">
+        <short>ডেস্কটপেৰ পটভূমি আঁকক</short>
+        <long>GNOME&apos;ৰ দ্বাৰা পটভূমিৰ ছবি আঁকা হ&apos;ব ।</long>
+        </locale>
+
+        <locale name="ast">
+        <short>Dibuxar fondu d&apos;escritoriu</short>
+        <long>Facer que GNOME dibuxe&apos;l fondu l&apos;escritoriu.</long>
+        </locale>
+
+        <locale name="az">
+        <short>Masa Üstü Arxa Planını Çək</short>
+        
+        </locale>
+
+        <locale name="be">
+        <short>Рысаваць тло стальца</short>
+        
+        </locale>
+
+        <locale name="bg">
+        <short>Изчертаване на фона на работния плот</short>
+        <long>GNOME да изчертава фона на работния плот.</long>
+        </locale>
+
+        <locale name="bn">
+        <short>ডেস্কটপের পটভূমি আঁকুন</short>
+        
+        </locale>
+
+        <locale name="bn_IN">
+        <short>ডেস্কটপের পটভূমি আঁকুন</short>
+        <long>GNOME&apos;র দ্বারা পটভূমির ছবি আঁকা হবে।</long>
+        </locale>
+
+        <locale name="bs">
+        <short>Iscrtaj pozadinu desktopa</short>
+        
+        </locale>
+
+        <locale name="ca">
+        <short>Dibuixa el fons de l&apos;escriptori</short>
+        <long>Fes que el GNOME dibuixi el fons de l&apos;escriptori.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+        <short>Dibuixa el fons de l&apos;escriptori</short>
+        <long>Fes que el GNOME dibuixe el fons de l&apos;escriptori.</long>
+        </locale>
+
+        <locale name="crh">
+        <short>Masaüstü Arqa-zeminini Sız</short>
+        <long>GNOME masaüstü arqa-zeminini sızsın.</long>
+        </locale>
+
+        <locale name="cs">
+        <short>Kreslit pozadí pracovní plochy</short>
+        <long>Nechat GNOME kreslit pozadí pracovní plochy.</long>
+        </locale>
+
+        <locale name="cy">
+        <short>Arlunio Cefndir y Penbwrdd</short>
+        
+        </locale>
+
+        <locale name="da">
+        <short>Optegn skrivebordsbaggrund</short>
+        <long>Lad Gnome optegne skrivebordsbaggrunden.</long>
+        </locale>
+
+        <locale name="de">
+        <short>Desktop-Hintergrund zeichnen</short>
+        <long>Legt fest, ob GNOME den Desktop-Hintergrund zeichnet.</long>
+        </locale>
+
+        <locale name="dz">
+        <short>ཌེཀསི་ཊོཔ་ རྒྱབ་གཞི་བྲིས།</short>
+        
+        </locale>
+
+        <locale name="el">
+        <short>Σχεδίαση παρασκηνίου επιφάνειας εργασίας</short>
+        <long>Χρήση του GNOME για τη σχεδίαση του παρασκηνίου επιφάνειας εργασίας.</long>
+        </locale>
+
+        <locale name="en_CA">
+        <short>Draw Desktop Background</short>
+        
+        </locale>
+
+        <locale name="en_GB">
+        <short>Draw Desktop Background</short>
+        <long>Have GNOME draw the desktop background.</long>
+        </locale>
+
+        <locale name="eo">
+        <short>Desegni labortablan fonon</short>
+        
+        </locale>
+
+        <locale name="es">
+        <short>Dibujar fondo del escritorio</short>
+        <long>Hacer que GNOME dibuje el fondo del escritorio.</long>
+        </locale>
+
+        <locale name="et">
+        <short>Töölaua tausta joonistamine</short>
+        <long>Kas GNOME joonistab töölaua tausta.</long>
+        </locale>
+
+        <locale name="eu">
+        <short>Marraztu mahaigainaren atzeko planoa</short>
+        <long>GNOMEk marraztu behar du mahaigainaren atzeko planoa.</long>
+        </locale>
+
+        <locale name="fa">
+        <short>رسم پس‌زمینه‌ی رومیزی</short>
+        
+        </locale>
+
+        <locale name="fi">
+        <short>Piirrä työpöydän tausta</short>
+        <long>Anna Gnomen piirtää työpöydän tausta.</long>
+        </locale>
+
+        <locale name="fr">
+        <short>Dessiner l&apos;arrière-plan du bureau</short>
+        <long>GNOME prend en charge l&apos;affichage de l&apos;arrière-plan du bureau.</long>
+        </locale>
+
+        <locale name="fur">
+        <short>Disegne fondâl dal desktop</short>
+        
+        </locale>
+
+        <locale name="ga">
+        <short>Tarraingt an Cúlra</short>
+        
+        </locale>
+
+        <locale name="gl">
+        <short>Debuxar o fondo de escritorio</short>
+        <long>Facer que o Gnome debuxe o fondo do escritorio.</long>
+        </locale>
+
+        <locale name="gu">
+        <short>ડેસ્કટોપનો પાશ્વ ભાગ દોરો</short>
+        <long>જીનોમને ડેસ્કટોપ પાશ્વભાગ દોરવા દો.</long>
+        </locale>
+
+        <locale name="he">
+        <short>Draw Desktop Background</short>
+        <long>Have GNOME draw the desktop background.</long>
+        </locale>
+
+        <locale name="hi">
+        <short>डेस्कटॉप पृष्ठभूमि आरेखित करें</short>
+        <long>गनोम को डेस्कटॉप पृष्ठभूमि आरेखित करने दें</long>
+        </locale>
+
+        <locale name="hr">
+        <short>Crtaj pozadinu radne površine</short>
+        
+        </locale>
+
+        <locale name="hu">
+        <short>Asztal hátterének megjelenítése</short>
+        <long>A GNOME megrajzolja-e az asztal hátterét?</long>
+        </locale>
+
+        <locale name="id">
+        <short>Gambar latar belakang desktop</short>
+        
+        </locale>
+
+        <locale name="is">
+        <short>Teikna bakgrunn skjáborðs</short>
+        
+        </locale>
+
+        <locale name="it">
+        <short>Disegna sfondo scrivania</short>
+        <long>Indica se GNOME debba disegnare lo sfondo della scrivania.</long>
+        </locale>
+
+        <locale name="ja">
+        <short>デスクトップの背景を描画する</short>
+        <long>GNOME にデスクトップの背景を描画させるかどうかです。</long>
+        </locale>
+
+        <locale name="ka">
+        <short>სამუშაო დაფის ფონის ასახვა</short>
+        
+        </locale>
+
+        <locale name="kn">
+        <short>ಗಣಕತೆರೆ ಹಿನ್ನಲೆಯನ್ನು ಚಿತ್ರಿಸು</short>
+        <long>GNOME ಗಣಕತೆರೆ ಹಿನ್ನಲೆಯನ್ನು ಚಿತ್ರಿಸಿದೆಯೆ.</long>
+        </locale>
+
+        <locale name="ko">
+        <short>데스크탑 배경 그리기</short>
+        <long>그놈 데스크탑에서 데스크탑 배경을 그립니다.</long>
+        </locale>
+
+        <locale name="ku">
+        <short>Rûerdê Sermaseyê Xêz Bike</short>
+        
+        </locale>
+
+        <locale name="lt">
+        <short>Piešti darbalaukio foną</short>
+        <long>Ar GNOME turi piešti darbalaukio foną.</long>
+        </locale>
+
+        <locale name="lv">
+        <short>Zīmēt darbvirsmas fonu</short>
+        
+        </locale>
+
+        <locale name="mai">
+        <short>डेस्कटाप पृष्ठभूमि आरेखित करू</short>
+        
+        </locale>
+
+        <locale name="mg">
+        <short>Hamboatra ny sary afaran&apos;ny sehatrasa</short>
+        
+        </locale>
+
+        <locale name="mk">
+        <short>Исцртај ја позадината на работната површина</short>
+        <long>Дозволи GNOME да ја исцрта позадината на работната површина.</long>
+        </locale>
+
+        <locale name="ml">
+        <short>പണിയിട പശ്ചാത്തലം വരയ്കുക</short>
+        <long>ഗ്നോം തന്നെ പണിയിട പശ്ചാത്തലം വരയ്കുക.</long>
+        </locale>
+
+        <locale name="mn">
+        <short>Дэлгэцийн ар дэвсгэр зурах</short>
+        <long>GNOME дэлгэцийн дэвсгэрийг зурах шаардлагатай эсэх.</long>
+        </locale>
+
+        <locale name="mr">
+        <short>डेस्कटॉपची पार्श्वभूमी तयार करा</short>
+        <long>GNOME ला डेस्कटॉप पार्श्वभूमी रेखाटू द्या.</long>
+        </locale>
+
+        <locale name="ms">
+        <short>Lukis LatarBelakang Desktop</short>
+        
+        </locale>
+
+        <locale name="nb">
+        <short>Tegn skrivebordsbakgrunn</short>
+        <long>La GNOME tegne skrivebordsbakgrunnen.</long>
+        </locale>
+
+        <locale name="ne">
+        <short>डेस्कटप पृष्ठभूमि कोर्नुहोस्</short>
+        
+        </locale>
+
+        <locale name="nl">
+        <short>Bureaubladachtergrond tekenen</short>
+        <long>Laat Gnome de werkbladachtergrond tekenen.</long>
+        </locale>
+
+        <locale name="nn">
+        <short>Teikn skrivebordsbakgrunn</short>
+        <long>La GNOME teikna skrivebordsbakgrunnen.</long>
+        </locale>
+
+        <locale name="or">
+        <short>ଡେସ୍କଟପ୍  ପୃଷ୍ଠଭୂମି ଅଙ୍କନ କରନ୍ତୁ</short>
+        <long>GNOMEମ ଡେସ୍କଟପ୍ ପୃଷ୍ଠଭୂମି ଅଙ୍କନ କରଛିବ କ.ି</long>
+        </locale>
+
+        <locale name="pa">
+        <short>ਡੈਸਕਟਾਪ ਬੈਕਗਰਾਊਂਡ ਬਣਾਓ</short>
+        <long>ਕੀ ਗਨੋਮ ਡੈਸਕਟਾਪ ਬੈਕਗਰਾਊਂਡ ਬਣਾਏ</long>
+        </locale>
+
+        <locale name="pl">
+        <short>Rysowanie tła pulpitu</short>
+        <long>Powoduje rysowanie tła pulpitu przez GNOME.</long>
+        </locale>
+
+        <locale name="pt">
+        <short>Desenhar Fundo de Ambiente de Trabalho</short>
+        <long>Permitir que o GNOME desenhe o fundo do ambiente.</long>
+        </locale>
+
+        <locale name="pt_BR">
+        <short>Desenhar plano de fundo da área de trabalho</short>
+        <long>Fazer com que o GNOME desenhe o plano de fundo da área de trabalho.</long>
+        </locale>
+
+        <locale name="ro">
+        <short>Gestionează fundalul desktopului</short>
+        <long>Mediul GNOME gestionează fundalul desktopului.</long>
+        </locale>
+
+        <locale name="ru">
+        <short>Отрисовывать фон рабочего стола</short>
+        <long>Должна ли среда GNOME отрисовывать рабочий стол.</long>
+        </locale>
+
+        <locale name="sk">
+        <short>Vykresliť pozadie pracovnej plochy</short>
+        <long>Má GNOME vykresliť pozadie pracovnej plochy.</long>
+        </locale>
+
+        <locale name="sl">
+        <short>Riši ozadje namizja</short>
+        <long>Naj Gnome izriše ozadje namizja.</long>
+        </locale>
+
+        <locale name="sq">
+        <short>Vizato sfondin e desktop</short>
+        <long>Tregon nëse GNOME duhet të vizatojë sfondin e desktop.</long>
+        </locale>
+
+        <locale name="sr">
+        <short>Исцртај позадину радне површине</short>
+        <long>Да ли да Гном исцрта позадину радне површине.</long>
+        </locale>
+
+        <locale name="sr@ije">
+        <short>Исцртај позадину радне површине</short>
+        
+        </locale>
+
+        <locale name="sr@latin">
+        <short>Iscrtaj pozadinu radne površine</short>
+        <long>Da li da Gnom iscrta pozadinu radne površine.</long>
+        </locale>
+
+        <locale name="sv">
+        <short>Rita skrivbordsbakgrund</short>
+        <long>Låt GNOME rita ut skrivbordsbakgrunden.</long>
+        </locale>
+
+        <locale name="ta">
+        <short>பின்னணி கணிமேசையை வரையவும்</short>
+        <long>பணிமேடை பின்னணியை கனோம் வரையட்டும்</long>
+        </locale>
+
+        <locale name="te">
+        <short>డెస్కుటాప్ బ్యాక్‌గ్రౌండును గీయుము</short>
+        <long>GNOME కలిగి డెస్కుటాప్ బ్యాక్‌గ్రౌండును గీయుము.</long>
+        </locale>
+
+        <locale name="th">
+        <short>วาดพื้นหลังของพื้นโต๊ะ</short>
+        <long>ให้ GNOME เป็นผู้วาดพื้นหลังของพื้นโต๊ะ</long>
+        </locale>
+
+        <locale name="tr">
+        <short>Masaüstü Arkaplanını Çiz</short>
+        <long>GNOME&apos;un masaüstü arkaplanının olması.</long>
+        </locale>
+
+        <locale name="tt">
+        <short>Östäl Asyağın Sızıpçığu</short>
+        
+        </locale>
+
+        <locale name="uk">
+        <short>Малювати тло робочого столу</short>
+        <long>Чи має GNOME малювати тло робочого столу.</long>
+        </locale>
+
+        <locale name="vi">
+        <short>Vẽ nền mặt bàn</short>
+        <long>Để GNOME vẽ ảnh nền.</long>
+        </locale>
+
+        <locale name="xh">
+        <short>Zoba uMva weDesktop</short>
+        
+        </locale>
+
+        <locale name="zh_CN">
+        <short>绘制桌面背景</short>
+        <long>让 GNOME 绘制桌面背景。</long>
+        </locale>
+
+        <locale name="zh_HK">
+        <short>繪畫桌布</short>
+        <long>顯示 GNOME 桌面的桌布。</long>
+        </locale>
+
+        <locale name="zh_TW">
+        <short>繪畫桌布</short>
+        <long>顯示 GNOME 桌面的桌布。</long>
+        </locale>
+      </schema>
+      <schema>
+        <key>/schemas/desktop/gnome/background/picture_options</key>
+        <applyto>/desktop/gnome/background/picture_options</applyto>
+        <owner>gnome</owner>
+        <type>string</type>
+        <default>zoom</default>
+        <locale name="C">
+        <short>Picture Options</short>
+        <long>Determines how the image set by wallpaper_filename is
+    rendered.  Possible values are "none", "wallpaper", "centered", "scaled",
+    "stretched", "zoom".</long>
+        </locale>
+
+        <locale name="am">
+        <short>የሥዕል ምርጫዎችን</short>
+        
+        </locale>
+
+        <locale name="ar">
+        <short>خيارات الصورة</short>
+        <long>ضبط كيفية رسم الصورة الموضوعة من قبل wallpaper_filename. القيم الممكنة هي &quot;none&quot;، &quot;wallpaper&quot;، &quot;centered&quot;، &quot;scaled&quot;، &quot;stretched&quot;، &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="as">
+        <short>ছবি সংক্ৰান্ত বিকল্প</short>
+        <long>wallpaper_filename এ নিৰ্ধাৰণ কৰা প্ৰতিমূৰ্তি কেনেদৰে ৰেণ্ডাৰ হয় সেইটো নিৰ্ধাৰণ কৰে । সম্ভাব্য মান হ&apos;ল &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot; ।</long>
+        </locale>
+
+        <locale name="ast">
+        <short>Opciones d&apos;imaxe</short>
+        
+        </locale>
+
+        <locale name="az">
+        <short>Rəsmin Seçənəkləri</short>
+        
+        </locale>
+
+        <locale name="be">
+        <short>Можнасьці карцінкі</short>
+        
+        </locale>
+
+        <locale name="bg">
+        <short>Настройки на изображението</short>
+        <long>Указване как да се изобразява изображението указано от wallpaper_filename. Възможни стойности са „none“ (без изобразяване), „wallpaper“ (нормално изобразяване), „centered“ (центриране), „scaled“ (пропорционално мащабиране), „stretched“ (непропорционално разтегляне).</long>
+        </locale>
+
+        <locale name="bn">
+        <short>শিল্পকর্ম বেছে নেবার ক্ষমতা</short>
+        <long>ওয়ালপেপারের মাধ্যমে কোন চিত্র নির্দিষ্টভাবে উপস্থাপিত হওয়ার পদ্ধতিসঠিকভাবে নির্ণয় করুন। সম্ভাব্য মানগুলো হলো &quot;কোনটিই নয়&quot;, &quot;ওয়ালপেপার&quot;,&quot;কেন্দ্রীভূত&quot;,&quot;জবুথবু&quot;,&quot;বিস্তৃত&quot;।</long>
+        </locale>
+
+        <locale name="bn_IN">
+        <short>ছবি সংক্রান্ত বিকল্প</short>
+        <long>wallpaper_filename&apos;র মান দ্বারা চিহ্নিত প্রদর্শনের পদ্ধতি নির্ধারণ করতে ব্যবহৃত হয়। সম্ভাব্য মান &quot;none (শূণ্য)&quot;, &quot;wallpaper (ওয়ালপেপার)&quot;, &quot;centered (কেন্দ্রস্থিত)&quot;, &quot;scaled (মাপ অনুসারে)&quot;, &quot;stretched (প্রসারিত)&quot;, &quot;zoom (বর্ধিত)&quot;।</long>
+        </locale>
+
+        <locale name="bs">
+        <short>Opcije slike</short>
+        
+        </locale>
+
+        <locale name="ca">
+        <short>Opcions de la imatge</short>
+        <long>Determina com es representa la imatge establerta per la clau «wallpaper_filename». Els valors possibles són «none» (cap), «wallpaper» (fons de pantalla), «centered» (centrat), «scaled» (escalat), «stretched» (ajustat) i «zoom» (ampliaciat).</long>
+        </locale>
+
+        <locale name="ca@valencia">
+        <short>Opcions de la imatge</short>
+        <long>Determina com es representa la imatge establerta per la clau «wallpaper_filename». Els valors possibles són «none» (cap), «wallpaper» (fons de pantalla), «centered» (centrat), «scaled» (escalat), «stretched» (ajustat) i «zoom» (ampliat).</long>
+        </locale>
+
+        <locale name="crh">
+        <short>Resim İhtiyariyatı</short>
+        <long>wallpaper_filename ile tesbit etilgen suretniñ nasıl qılınacağını belgiley. Caiz qıymetleri: &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot; , &quot;stretched&quot; ve &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="cs">
+        <short>Možnosti obrázku</short>
+        <long>Určuje, jak je vykreslen obrázek nastavený v wallpaper_filename. Možné hodnoty jsou &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="cy">
+        <short>Opsiynau’r Darlun</short>
+        
+        </locale>
+
+        <locale name="da">
+        <short>Billedindstillinger</short>
+        <long>Afgør hvordan billedet der er sat af wallpaper_filename optegnes. Mulige værdier er &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="de">
+        <short>Bildoptionen</short>
+        <long>Legt fest, wie das von »wallpaper_filename« festgelegte Bild dargestellt werden soll. Zulässige Werte: »none« (Keins), »wallpaper« (Tapete), »centered« (zentriert), »scaled« (skaliert), »stretched« (gestreckt) sowie »zoom« (Zoom).</long>
+        </locale>
+
+        <locale name="dz">
+        <short>པར་གྱི་གདམ་ཁ་ཚུ།</short>
+        
+        </locale>
+
+        <locale name="el">
+        <short>Επιλογές εικόνας</short>
+        <long>Καθορίζει τον τρόπο με τον οποίο εμφανίζεται η εικόνα από το όνομα αρχείο της ταπετσαρίας. Οι πιθανές τιμές είναι  &quot;καμία&quot;, &quot;ταπετσαρία&quot;, &quot;κεντραρισμένη&quot;, &quot;σε κλίμακα&quot;, &quot;τεντωμένη&quot;.</long>
+        </locale>
+
+        <locale name="en_CA">
+        <short>Picture Options</short>
+        <long>Determines how the image set by wallpaper_filename is rendered. Possible values are &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="en_GB">
+        <short>Picture Options</short>
+        <long>Determines how the image set by wallpaper_filename is rendered. Possible values are &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="eo">
+        <short>Bildaj agordaĵoj</short>
+        
+        </locale>
+
+        <locale name="es">
+        <short>Opciones de la imagen</short>
+        <long>Determina cómo se renderiza la imagen establecida por «nombre_de_la_imagen_de_fondo_de_pantalla». Los valores posibles son &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot; y &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="et">
+        <short>Pildi valikud</short>
+        <long>Võtmega wallpaper_filename määratud pilti renderdamise määramine. Võimalikud väärtused on &quot;none&quot; (taustapilt puudub), &quot;wallpaper&quot; (tavaline), &quot;centered&quot; (keskel), &quot;scaled&quot; (skaleeritud), &quot;stretched&quot; (venitatud) või &quot;zoom&quot; (suurendatud).</long>
+        </locale>
+
+        <locale name="eu">
+        <short>Irudiaren aukerak</short>
+        <long>wallpaper_filename-k ezarritako irudia nola errendatzen den zehazten du. Balio posibleak hauek dira: &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="fa">
+        <short>گزینه‌های عکس</short>
+        
+        </locale>
+
+        <locale name="fi">
+        <short>Kuva-asetukset</short>
+        <long>Määrittää, kuinka avaimessa wallpaper_filename määritelty kuva esitetään. Mahdollisia arvoja ovat &quot;none&quot; (ei näytetä), &quot;wallpaper&quot; (taustakuva), &quot;centered&quot; (keskitetty), &quot;scaled&quot; (skaalattu), &quot;stretched&quot; (venytetty) ja &quot;zoom&quot; (lähennetty)</long>
+        </locale>
+
+        <locale name="fr">
+        <short>Options de l&apos;image</short>
+        <long>Détermine la manière dont l&apos;image définie par wallpaper_filename est rendue. Les valeurs possible sont « none » (aucun), « wallpaper » (mosaïque), « centered » (centré), « scaled » (redimensionné), « stretched » (étiré).</long>
+        </locale>
+
+        <locale name="fur">
+        <short>Opzions da l&apos;imagjine</short>
+        <long>Al dîs cemût gjestì l&apos;imagjine impostade in &quot;wallpaper_filename&quot;. Valôrs pussibî a son &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="ga">
+        <short>Roghanna ag an Pictiúr</short>
+        
+        </locale>
+
+        <locale name="gl">
+        <short>Opcións da imaxe</short>
+        <long>Determina como se renderiza a imaxe definida por wallpaper_filename. Os valores posíbeis son &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="gu">
+        <short>ચિત્રના વિકલ્પો</short>
+        <long>wallpaper_filename દ્વારા સુયોજીત થયેલ ઈમેજ કેવી રીતે રેન્ડર થાય તે નક્કી કરે છે. &quot;કંઈ નહિં&quot;, &quot;વોલપેપર&quot;, &quot;કેન્દ્રિયકૃત&quot;, &quot;માપ અપાયેલ&quot;, &quot;ખેંચાયેલ&quot;, &quot;નાનુંમોટું&quot; શક્ય કિંમતો છે.</long>
+        </locale>
+
+        <locale name="he">
+        <short>Picture Options</short>
+        <long>Determines how the image set by wallpaper_filename is rendered. Possible values are &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="hi">
+        <short>छवि विकल्प</short>
+        <long>निश्चित करता है कि कैसे wallpaper_filename के द्वारा छवि रेंडर किए जाते हैं. &quot;कुछ नहीं&quot;, &quot;वालपेपर&quot;, &quot;केंद्रित&quot;, &quot;अनुमापित&quot;, &quot;विस्तारित&quot; संभावित मान हैं.</long>
+        </locale>
+
+        <locale name="hr">
+        <short>Opcije slike</short>
+        <long>Određuje kako će se prikazati slika postavljena kao pozadina zaslona. Moguće su vrijednosti &apos;ništa&apos;, &apos;wallpapaer&apos;, &apos;centrirano&apos;, &apos;skalirano&apos;, &apos;rastegnuto&apos; i &apos;zumirano&apos;.</long>
+        </locale>
+
+        <locale name="hu">
+        <short>Kép beállításai</short>
+        <long>Meghatározza a wallpaper_filename kulcsban beállított képernyővédő megjelenését. Lehetséges értékek: „none” (nincs) „wallpaper” (mozaik), „centered” (középre igazított), „scaled” (kifeszített), „stretched” (nyújtott), „zoom” (nagyítás).</long>
+        </locale>
+
+        <locale name="id">
+        <short>Pilihan gambar</short>
+        
+        </locale>
+
+        <locale name="is">
+        <short>Valmöguleikar myndar</short>
+        
+        </locale>
+
+        <locale name="it">
+        <short>Opzioni immagine</short>
+        <long>Determina come è gestita l&apos;immagine impostata in &quot;wallpaper_filename&quot;. Valori ammessi sono: &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot; e &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="ja">
+        <short>画像のオプション</short>
+        <long>wallpaper_filename で指定した画像をどのように描画するか設定します。設定可能な値: &quot;none&quot;、&quot;wallpaper&quot;、&quot;centered&quot;、&quot;scaled&quot;、&quot;stretched&quot;、&quot;zoom&quot;</long>
+        </locale>
+
+        <locale name="ka">
+        <short>ნახატის პარამეტრები</short>
+        <long>განსაზღვრავს თუ როგორ აისახება ნახატები შპალერის მიერ. შესაძლო მნიშვნელობებია &quot;არავითარი&quot;, &quot;შპალერი&quot;, &quot;ცენტრში&quot;, &quot;მასშტაბირებული&quot;, &quot;გაჭიმული&quot;.</long>
+        </locale>
+
+        <locale name="kn">
+        <short>ಚಿತ್ರದ ಆಯ್ಕೆಗಳು</short>
+        <long>wallpaper_filename ಇಂದ ಹೊಂದಿಸಲಾದ ಚಿತ್ರವನ್ನು ಹೇಗೆ ರೆಂಡರ್ ಮಾಡಬೇಕು ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ &quot;none&quot;(ಯಾವುದೂ ಇಲ್ಲ), &quot;wallpaper&quot;(ವಾಲ್‌ಪೇಪರ್), &quot;centered&quot;(ಮಧ್ಯಕ್ಕೆ ಹೊಂದಿಸಲಾದ), &quot;scaled&quot;, &quot;stretched&quot;(ಎಳೆಯಲಾದ), &quot;zoom&quot;(ಹಿಗ್ಗಿಸಿದ) ಆಗಿರುತ್ತವೆ.</long>
+        </locale>
+
+        <locale name="ko">
+        <short>그림 옵션</short>
+        <long>wallpaper_filename에 설정한 그림을 어떻게 표현할 것인 지 결정합니다. 가능한 값은 &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;입니다.</long>
+        </locale>
+
+        <locale name="ku">
+        <short>Vebijêrkên Wêne</short>
+        
+        </locale>
+
+        <locale name="lt">
+        <short>Paveikslėlio nustatymai</short>
+        <long>Nustato, kaip turi būti apdorojamas fono paveikslėlis, nurodytas wallpaper_filename raktu. Galimos reikšmės: „none“, „wallpaper“, „centered“, „scaled“, „stretched“, „zoom“.</long>
+        </locale>
+
+        <locale name="lv">
+        <short>Attēla opcijas</short>
+        
+        </locale>
+
+        <locale name="mai">
+        <short>चित्र विकल्प</short>
+        
+        </locale>
+
+        <locale name="mg">
+        <short>Safidy momba ilay sary</short>
+        
+        </locale>
+
+        <locale name="mk">
+        <short>Опции за слика</short>
+        <long>Одредува како сликата подесена од wallpaper_filename ќе се рендерира. Можни вредности се &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="ml">
+        <short>ചിത്രത്തിന്റെ ഉപാധികള്‍</short>
+        <long>ചുമര്‍ചിത്രത്തിന്റെ ഫയല്‍ (wallpaper_filename) എന്നതില്‍ പറഞ്ഞ ചിത്രം എങ്ങനെയാണു് ചിത്രീകരിയ്ക്കുന്നതെന്നു് തീരുമാനിയ്ക്കുന്നു. സാധ്യമായ വിലകള്‍ &quot;ഒന്നുംവേണ്ട&quot;, &quot;ചുമര്‍ചിത്രം&quot;, &quot;നടുവില്‍&quot;, &quot;തോതനുസരിച്ചു്&quot;, &quot;വലിച്ചുനീട്ടി&quot;, &quot;വലുതാക്കി&quot; എന്നിവയാണു്.</long>
+        </locale>
+
+        <locale name="mn">
+        <short>Зургийн сонголтууд</short>
+        <long>»wallpaper_filename« -ийн тодорхойлсон зургийг хэрхэн үзүүлэхийг тохируулна.Боломжит сонголтууд нь »none« (Байхгүй), »wallpaper« (Туурга), »centered« (голлуулсан), »scaled« (хуваарилсан) ба »streched« (сунгасан).</long>
+        </locale>
+
+        <locale name="mr">
+        <short>चित्र पर्याय</short>
+        <long>पार्श्वभूमी_फाइलनाव द्वारे निश्चित प्रतिमा कसे दर्शवायचे ते ठरवितो. संभाव्य मुल्य आहे &quot;काहीच नाही&quot;, &quot;पार्श्वभूमी चित्र&quot;, &quot;मध्य&quot;, &quot;इच्छिक प्रमाण&quot;, &quot;ताणलेले&quot;, &quot;लहान मोठे&quot;.</long>
+        </locale>
+
+        <locale name="ms">
+        <short>Opsyen Gambar</short>
+        
+        </locale>
+
+        <locale name="nb">
+        <short>Alternativer for bilde</short>
+        <long>Bestemmer hvordan bildet satt av wallpaper_filename skal rendres. Mulige verdier er «none», «wallpaper», «centered», «scaled», «stretched» og «zoom».</long>
+        </locale>
+
+        <locale name="ne">
+        <short>तस्बिर विकल्प</short>
+        <long>वालपेपर फाइलनामद्वारा सेट गरिएका छवि कसरी प्रदान गर्ने निर्धारण गर्दछ । सम्भावित मानहरू &quot;कुनै पनि होइन&quot;, &quot;वालपेपर&quot;, &quot;केन्द्रित&quot;, &quot;स्केल गरिएको&quot;, &quot;फैलिएको&quot;, &quot;जूम&quot; आदि हुन् ।</long>
+        </locale>
+
+        <locale name="nl">
+        <short>Opties van afbeelding</short>
+        <long>Bepaalt hoe de afbeeldingen welke gezet is met wallpaper_filename wordt weergegeven. Mogelijke waarden zijn ‘none’ (niet), ‘wallpaper’ (behang), ‘centered’ (gecentreerd), ‘scaled’ (geschaald), ‘stretched’ (uitgerekt).</long>
+        </locale>
+
+        <locale name="nn">
+        <short>Alternativ for biletet</short>
+        <long>Avgjer korleis biletet satt i wallpaper_filename vert teikna. Moglege verdiar er «none», «wallpaper», «centered», «scaled», «stretched» og  «zoom».</long>
+        </locale>
+
+        <locale name="oc">
+        <short>Opcions de l&apos;imatge</short>
+        
+        </locale>
+
+        <locale name="or">
+        <short>ଚିତ୍ର ପସନ୍ଦ</short>
+        <long>ସ୍ଥିର କରେ ପ୍ରାଚୀରଚିତ୍ର ଫାଇଲନାମ (_f) ଦ୍ବାରା ବିନ୍ଯାସ କରାଯାଇଥିବା ଚିତ୍ର କି ପରି ଚିତ୍ରଣ କରାଯିବ.ସମ୍ଭାବ୍ଯ ମୂଲ୍ଯଗୁଡ଼ିକ ହେଲା &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;. &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="pa">
+        <short>ਤਸਵੀਰ ਚੋਣਾਂ</short>
+        <long>ਦੱਸੋ ਕਿ ਬੈਕਗਰਾਊਂਡ ਫਾਇਲ-ਨਾਂ ਦਾ ਚਿੱਤਰ ਨੂੰ ਕਿਵੇਂ ਪੇਸ਼ ਕਰਨਾ ਹੈ, ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;ਕੋਈ ਨਹੀਂ&quot;, &quot;ਕੰਧ-ਚਿੱਤਰ&quot;,&quot;ਕੇਂਦਰੀ&quot;,&quot;ਮਾਪ&quot;,&quot;ਤਣਿਆ&quot;, &quot;ਜ਼ੂਮ&quot;</long>
+        </locale>
+
+        <locale name="pl">
+        <short>Opcje obrazu</short>
+        <long>Określa sposób wyświetlania obrazu opisanego przez wartość wallpaper_filename. Dopuszczalnymi wartościami są: &quot;none&quot; (brak), &quot;wallpaper&quot; (tapeta), &quot;centered&quot; (wyśrodkowany), &quot;scaled&quot; (przeskalowany), &quot;stretched&quot; (rozciągnięty) i &quot;zoom&quot; (powiększony).</long>
+        </locale>
+
+        <locale name="pt">
+        <short>Opções da Imagem</short>
+        <long>Determina como é renderizada a imagem definida pelo wallpaper_filename. Valores possíveis são &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot; e &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="pt_BR">
+        <short>Opções da figura</short>
+        <long>Determina como a imagem definida por arquivo_papel_de_parede é renderizada. Os valores possíveis são &quot;none&quot; (nenhum), &quot;wallpaper&quot; (papel de parede), &quot;centered&quot; (centralizado), &quot;scaled&quot; (dimensionado),  &quot;stretched&quot; (esticado), e &quot;zoom&quot; (ampliado).</long>
+        </locale>
+
+        <locale name="ro">
+        <short>Opțiuni imagine</short>
+        <long>Determină cum este afișată imaginea setată de „wallpaper_filename”. Valorile posibile sunt „none”, „wallpaper”, „centered”, „scaled”, „stretched” și „zoom”.</long>
+        </locale>
+
+        <locale name="ru">
+        <short>Параметры картинки</short>
+        <long>Определяет, как будет отрисовываться изображение, установленное ключом wallpaper_filename. Возможные значения: «none», «wallpaper», «centered», «scaled», «stretched», «zoom».</long>
+        </locale>
+
+        <locale name="sk">
+        <short>Voľby obrázka</short>
+        <long>Určuje, ako je vykreslený obrázok nastavený cez wallpaper_filename. Možné hodnoty sú &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="sl">
+        <short>Možnosti slike</short>
+        <long>Določa kako naj se slika nastavljena kot wallpaper_filename izriše. Mogoče vrednosti so &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;..</long>
+        </locale>
+
+        <locale name="sq">
+        <short>Opcionet e figurës</short>
+        <long>Përcakton se si do të paraqitet figura e përcaktuar nga wallpaper_filename. Vlerat e mundëshme janë &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="sr">
+        <short>Избори за слику</short>
+        <long>Одређује како се исцртава слика постављена помоћу wallpaper_filename. Могуће вредности су „none“, „wallpaper“, „centered“, „scaled“, „stretched“, „zoom“.</long>
+        </locale>
+
+        <locale name="sr@ije">
+        <short>Избори за слику</short>
+        
+        </locale>
+
+        <locale name="sr@latin">
+        <short>Izbori za sliku</short>
+        <long>Određuje kako se iscrtava slika postavljena pomoću wallpaper_filename. Moguće vrednosti su „none“, „wallpaper“, „centered“, „scaled“, „stretched“, „zoom“.</long>
+        </locale>
+
+        <locale name="sv">
+        <short>Bildalternativ</short>
+        <long>Avgör hur bilden som är angiven i wallpaper_filename renderas. Möjliga värden är &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="ta">
+        <short>ஓவியம் விருப்பங்கள்</short>
+        <long>வால் பேப்பர் கோப்பு பெயரில் உள்ள பிம்பம் எவ்வாறு சீரமைக்கப்பட்டது என்பதை கண்டுபிடிக்கும். மதிப்புகள் &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot; ஆக இருக்கும் (_f)</long>
+        </locale>
+
+        <locale name="te">
+        <short>చిత్రము ఐచ్చికాలు</short>
+        <long>wallpaper_filenameతో అమర్చిన ప్రతిబింబము యెలా ప్రస్పుటించాలో నిర్ణయిస్తుంది. సాధ్యమగు విలువలు &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="th">
+        <short>ตัวเลือกของรูป</short>
+        <long>ตั้งว่ารูปที่เลือกใน wallpaper_filename จะถูกแสดงอย่างไร  สามารถตั้งเป็น &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot;, &quot;zoom&quot;</long>
+        </locale>
+
+        <locale name="tr">
+        <short>Resim Seçenekleri</short>
+        <long>wallpaper_filename ile atanmış resimlerin nasıl taranacağını belirtir. Geçerli değerler &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot; , &quot;stretched&quot; ve &quot;zoom&quot;dur.</long>
+        </locale>
+
+        <locale name="tt">
+        <short>Sürät Köyläwe</short>
+        
+        </locale>
+
+        <locale name="uk">
+        <short>Параметри малюнка</short>
+        <long>Визначає метод візуалізації зображення встановленого параметром &quot;wallpaper_filename&quot;. Можливі значення: &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot;, &quot;stretched&quot; та &quot;zoom&quot;.</long>
+        </locale>
+
+        <locale name="vi">
+        <short>Tùy chọn ảnh</short>
+        <long>Xác định ảnh đặt bởi « wallpaper_filename » (tên tập tin ảnh nền) được vẽ như thế nào. Giá trị hợp lệ là:
+ • none — không có,
+ • wallpaper — ảnh nền,
+ • centered — đã canh giữa,
+ • scaled — đã co dãn,
+ • stretched — đã kéo dãn,
+ • zoom — thu/phóng.</long>
+        </locale>
+
+        <locale name="wa">
+        <short>Tchuzes del imådje</short>
+        
+        </locale>
+
+        <locale name="xh">
+        <short>Okunye kuMfanekiso</short>
+        
+        </locale>
+
+        <locale name="zh_CN">
+        <short>图片选项</short>
+        <long>决定如何显示墙纸文件名指定的图片。可用的值有：“none”, “wallpaper”, “centered”, “scaled”, “stretched”和“zoom”。</long>
+        </locale>
+
+        <locale name="zh_HK">
+        <short>圖案選項</short>
+        <long>決定 wallpaper_filename 中指定的圖像如何顯示。可使用的值為：“none”、“wallpaper”、“centered”、“scaled”、“stretched”、“zoom”。</long>
+        </locale>
+
+        <locale name="zh_TW">
+        <short>圖案選項</short>
+        <long>決定 wallpaper_filename 中指定的圖像如何顯示。可使用的值為：“none”、“wallpaper”、“centered”、“scaled”、“stretched”、“zoom”。</long>
+        </locale>
+      </schema>
+      <schema>
+        <key>/schemas/desktop/gnome/background/picture_filename</key>
+        <applyto>/desktop/gnome/background/picture_filename</applyto>
+        <owner>gnome</owner>
+        <type>string</type>
+	<default>/usr/share/pixmaps/backgrounds/gnome/background-default.jpg</default>
+        <locale name="C">
+        <short>Picture Filename</short>
+        <long>File to use for the background image.</long>
+        </locale>
+
+        <locale name="ar">
+        <short>اسم ملف الصورة</short>
+        <long>الملف الذي سيستعمل لصورة الخلفية.</long>
+        </locale>
+
+        <locale name="as">
+        <short>ছবিৰ নথিপত্ৰৰ নাম</short>
+        <long>পটভূমিৰ ছবি ৰূপে ব্যৱহাৰৰ বাবে নথিপত্ৰ ।</long>
+        </locale>
+
+        <locale name="ast">
+        <short>Nome del ficheru d&apos;imaxe</short>
+        <long>Ficheru que se va usar pa la imaxe de fondu.</long>
+        </locale>
+
+        <locale name="az">
+        <short>Rəsmin fayl adı</short>
+        
+        </locale>
+
+        <locale name="be">
+        <short>Назва файла карцінкі</short>
+        
+        </locale>
+
+        <locale name="bg">
+        <short>Име на изображението</short>
+        <long>Файл, който да се използва като фон.</long>
+        </locale>
+
+        <locale name="bn">
+        <short>শিল্পকর্মের নাম</short>
+        
+        </locale>
+
+        <locale name="bn_IN">
+        <short>ছবির ফাইলের নাম</short>
+        <long>পটভূমির ছবি রূপে ব্যবহারের জন্য চিহ্নিত ফাইল।</long>
+        </locale>
+
+        <locale name="bs">
+        <short>Ime datoteke slike</short>
+        
+        </locale>
+
+        <locale name="ca">
+        <short>Nom del fitxer de la imatge</short>
+        <long>Fitxer a utilitzar per a la imatge de fons.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+        <short>Nom del fitxer de la imatge</short>
+        <long>Fitxer a utilitzar per a la imatge de fons.</long>
+        </locale>
+
+        <locale name="crh">
+        <short>Resim Dosye-adı</short>
+        <long>Arqa-zemin sureti olaraq qullanılacaq dosye.</long>
+        </locale>
+
+        <locale name="cs">
+        <short>Jméno souboru obrázku</short>
+        <long>Soubor, který chcete použít pro obrázek na pozadí.</long>
+        </locale>
+
+        <locale name="cy">
+        <short>Enw Ffeil y Darlun</short>
+        
+        </locale>
+
+        <locale name="da">
+        <short>Billedfilnavn</short>
+        <long>Fil der skal bruges som baggrundsbillede.</long>
+        </locale>
+
+        <locale name="de">
+        <short>Dateiname des Bildes</short>
+        <long>Als Hintergrundbild zu verwendende Datei.</long>
+        </locale>
+
+        <locale name="dz">
+        <short>པར་གྱི་ཡིག་སྣོད་མིང༌།</short>
+        
+        </locale>
+
+        <locale name="el">
+        <short>Όνομα αρχείου εικόνας</short>
+        <long>Αρχείο που θα χρησιμοποιείται για την εικόνα παρασκηνίου.</long>
+        </locale>
+
+        <locale name="en_CA">
+        <short>Picture Filename</short>
+        
+        </locale>
+
+        <locale name="en_GB">
+        <short>Picture Filename</short>
+        <long>File to use for the background image.</long>
+        </locale>
+
+        <locale name="eo">
+        <short>Bilda dosiernomo</short>
+        
+        </locale>
+
+        <locale name="es">
+        <short>Archivo de la imagen</short>
+        <long>Archivo que utilizar como tapiz.</long>
+        </locale>
+
+        <locale name="et">
+        <short>Pildi failinimi</short>
+        <long>Taustapildiks kasutatav fail.</long>
+        </locale>
+
+        <locale name="eu">
+        <short>Irudiaren fitxategi-izena</short>
+        <long>Atzeko planoaren irudirako erabiliko den fitxategia.</long>
+        </locale>
+
+        <locale name="fa">
+        <short>نام پرونده‌ی عکس</short>
+        
+        </locale>
+
+        <locale name="fi">
+        <short>Kuvan tiedostonimi</short>
+        <long>Taustakuvana käytettävän tiedoston nimi.</long>
+        </locale>
+
+        <locale name="fr">
+        <short>Nom du fichier de l&apos;image</short>
+        <long>Fichier à utiliser comme image d&apos;arrière-plan.</long>
+        </locale>
+
+        <locale name="fur">
+        <short>Nom dal file di imagjine</short>
+        
+        </locale>
+
+        <locale name="ga">
+        <short>Ainm-Comhad an Pictiúr</short>
+        
+        </locale>
+
+        <locale name="gl">
+        <short>Ficheiro de imaxe</short>
+        <long>Ficheiro para usar para a imaxe de fondo.</long>
+        </locale>
+
+        <locale name="gu">
+        <short>ચિત્રનું ફાઈલ નામ</short>
+        <long>પાશ્વ ભાગના ચિત્ર માટે વાપરવાની ફાઈલ.</long>
+        </locale>
+
+        <locale name="he">
+        <short>Picture Filename</short>
+        <long>File to use for the background image.</long>
+        </locale>
+
+        <locale name="hi">
+        <short>छवि फ़ाइल नाम</short>
+        <long>पृष्ठभूमि छवि में उपयोग हेतु फ़ाइल</long>
+        </locale>
+
+        <locale name="hr">
+        <short>Ime datoteke s slikom</short>
+        
+        </locale>
+
+        <locale name="hu">
+        <short>Kép fájlneve</short>
+        <long>A háttérképként használandó fájl.</long>
+        </locale>
+
+        <locale name="id">
+        <short>Nama file Gambar</short>
+        
+        </locale>
+
+        <locale name="is">
+        <short>Skráarnafn myndar</short>
+        
+        </locale>
+
+        <locale name="it">
+        <short>Nome del file di immagine</short>
+        <long>File da usare come immagine di sfondo.</long>
+        </locale>
+
+        <locale name="ja">
+        <short>画像のファイル名</short>
+        <long>背景の画像に使用するファイルです。</long>
+        </locale>
+
+        <locale name="ka">
+        <short>ნახატის ფაილის სახელი</short>
+        
+        </locale>
+
+        <locale name="kn">
+        <short>ಚಿತ್ರ ಕಡತದ ಹೆಸರು</short>
+        <long>ಹಿನ್ನಲೆ ಚಿತ್ರಕ್ಕಾಗಿ ಬಳಸಬೇಕಿರುವ ಕಡತ.</long>
+        </locale>
+
+        <locale name="ko">
+        <short>그림 이름</short>
+        <long>배경 그림으로 사용할 파일.</long>
+        </locale>
+
+        <locale name="ku">
+        <short>NavêDosyeya Wêne</short>
+        
+        </locale>
+
+        <locale name="lt">
+        <short>Paveikslėlio failo pavadinimas</short>
+        <long>Failas, naudotinas fono paveikslėliui.</long>
+        </locale>
+
+        <locale name="lv">
+        <short>Attēla faila nosaukums</short>
+        
+        </locale>
+
+        <locale name="mai">
+        <short>चित्र फाइल नाम</short>
+        
+        </locale>
+
+        <locale name="mg">
+        <short>Anaran-drakitr&apos;ilay sary</short>
+        <long>Rakitra ho ampiasaina amin&apos;ny sary afara</long>
+        </locale>
+
+        <locale name="mk">
+        <short>Датотека за слика</short>
+        <long>Датотека која се користи за позадинската слика.</long>
+        </locale>
+
+        <locale name="ml">
+        <short>ചിത്രത്തിന്റെ ഫയല്‍നെയിം</short>
+        <long>പശ്ചാത്തലചിത്രത്തിനുപയോഗിയ്ക്കേണ്ട ഫയല്‍.</long>
+        </locale>
+
+        <locale name="mn">
+        <short>Зургийн файлын нэр</short>
+        <long>Дэвсгэрийн зургаар ашиглах файл.</long>
+        </locale>
+
+        <locale name="mr">
+        <short>चित्र फाइलनाव</short>
+        <long>पार्श्वभूमीतील प्रतिमाकरीताचे फाइल.</long>
+        </locale>
+
+        <locale name="ms">
+        <short>Namafail Gambar</short>
+        
+        </locale>
+
+        <locale name="nb">
+        <short>Filnavn for bilde</short>
+        <long>Fil som skal brukes som bakgrunnsbilde.</long>
+        </locale>
+
+        <locale name="ne">
+        <short>तस्बिर फाइलनाम</short>
+        
+        </locale>
+
+        <locale name="nl">
+        <short>Bestandsnaam van afbeelding</short>
+        <long>Bestand voor achtergrondafbeelding.</long>
+        </locale>
+
+        <locale name="nn">
+        <short>Namn på biletefil</short>
+        <long>Fil som skal brukast til bakgrunnsbilete.</long>
+        </locale>
+
+        <locale name="oc">
+        <short>Nom de fichièrs de l&apos;imatge</short>
+        <long>Fichièr d&apos;utilizar coma imatge de fons</long>
+        </locale>
+
+        <locale name="or">
+        <short>ଚିତ୍ର ଫାଇଲ ନାମ</short>
+        <long>ପ୍ରୁଷ୍ଠଭୂମି ଚିତ୍ର ପାଇଁ ବ୍ଯବହୃତ ଫାଇଲ.</long>
+        </locale>
+
+        <locale name="pa">
+        <short>ਤਸਵੀਰ ਫਾਇਲ-ਨਾਂ</short>
+        <long>ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ ਦੇ ਤੌਰ ਤੇ ਵਰਤਣ ਲਈ ਫਾਇਲ</long>
+        </locale>
+
+        <locale name="pl">
+        <short>Nazwa pliku z obrazem</short>
+        <long>Plik wykorzystywany jako obraz tła.</long>
+        </locale>
+
+        <locale name="pt">
+        <short>Nome de Ficheiro de Imagem</short>
+        <long>Ficheiro a utilizar para a imagem de fundo.</long>
+        </locale>
+
+        <locale name="pt_BR">
+        <short>Nome do arquivo da imagem</short>
+        <long>Arquivo a ser usado para a imagem de plano de fundo.</long>
+        </locale>
+
+        <locale name="ro">
+        <short>Nume fișier imagine</short>
+        <long>Fișier de utilizat ca imagine de fundal.</long>
+        </locale>
+
+        <locale name="ru">
+        <short>Имя файла картинки</short>
+        <long>Файл, используемый в качестве фона рабочего стола.</long>
+        </locale>
+
+        <locale name="sk">
+        <short>Názov súboru obrázka</short>
+        <long>Súbor, ktorý použiť ako obrázok pozadia.</long>
+        </locale>
+
+        <locale name="sl">
+        <short>Ime slike</short>
+        <long>Datoteka, ki naj se uporabi za ozadje.</long>
+        </locale>
+
+        <locale name="sq">
+        <short>Emri i file të figurës</short>
+        <long>File që duhet përdorur si figurë sfondi.</long>
+        </locale>
+
+        <locale name="sr">
+        <short>Датотека са сликом</short>
+        <long>Коју датотеку да користи за позадинску слику.</long>
+        </locale>
+
+        <locale name="sr@ije">
+        <short>Датотека са сликом</short>
+        
+        </locale>
+
+        <locale name="sr@latin">
+        <short>Datoteka sa slikom</short>
+        <long>Koju datoteku da koristi za pozadinsku sliku.</long>
+        </locale>
+
+        <locale name="sv">
+        <short>Bildfilnamn</short>
+        <long>Fil att använda som bakgrundsbild.</long>
+        </locale>
+
+        <locale name="ta">
+        <short>ஓவியம் கோப்பு பெயர்</short>
+        <long>பின்னணி படத்திற்கு பயன்படுத்த வேண்டிய கோப்பு</long>
+        </locale>
+
+        <locale name="te">
+        <short>చిత్రము దస్త్రమునామము</short>
+        <long>బ్యాక్‌గ్రౌండు ప్రతిబింబముకు వుపయోగించుటకు దస్త్రము.</long>
+        </locale>
+
+        <locale name="th">
+        <short>ชื่อแฟ้มรูป</short>
+        <long>แฟ้มที่จะใช้เป็นรูปพื้นหลัง</long>
+        </locale>
+
+        <locale name="tr">
+        <short>Resim Dosyaadı</short>
+        <long>Arkaplan resmi için kullanılacak dosya.</long>
+        </locale>
+
+        <locale name="tt">
+        <short>Sürät Biremeneñ Adı</short>
+        
+        </locale>
+
+        <locale name="uk">
+        <short>Файл малюнка</short>
+        <long>Файл, що використовуватиметься для зображення тла.</long>
+        </locale>
+
+        <locale name="vi">
+        <short>Tên tập tin ảnh</short>
+        <long>Tập tin dùng làm ảnh nền.</long>
+        </locale>
+
+        <locale name="wa">
+        <short>No do fitchî del imådje</short>
+        
+        </locale>
+
+        <locale name="xh">
+        <short>Igama leFayili yoMfanekiso</short>
+        
+        </locale>
+
+        <locale name="zh_CN">
+        <short>图片文件名</short>
+        <long>用作背景图片的文件。</long>
+        </locale>
+
+        <locale name="zh_HK">
+        <short>圖案檔案名稱</short>
+        <long>用作背景圖案的檔案。</long>
+        </locale>
+
+        <locale name="zh_TW">
+        <short>圖案檔案名稱</short>
+        <long>用作背景圖案的檔案。</long>
+        </locale>
+      </schema>
+      <schema>
+        <key>/schemas/desktop/gnome/background/picture_opacity</key>
+        <applyto>/desktop/gnome/background/picture_opacity</applyto>
+        <owner>gnome</owner>
+        <type>int</type>
+	<default>100</default>
+        <locale name="C">
+        <short>Picture Opacity</short>
+        <long>Opacity with which to draw the background picture.</long>
+        </locale>
+
+        <locale name="ar">
+        <short>عتامة الصورة</short>
+        <long>العتامة التي سترسم بها صورة الخلفية.</long>
+        </locale>
+
+        <locale name="as">
+        <short>ছবিৰ স্বচ্ছতা</short>
+        <long>পটভুমিৰ ছবি আঁকাৰ উদ্দেশ্যে স্বচ্ছতাৰ মাত্ৰা ।</long>
+        </locale>
+
+        <locale name="ast">
+        <short>Opacidá de la imaxe</short>
+        
+        </locale>
+
+        <locale name="az">
+        <short>Rəsmin Matlığı</short>
+        
+        </locale>
+
+        <locale name="be">
+        <short>Празрыстасьць карцінкі</short>
+        
+        </locale>
+
+        <locale name="bg">
+        <short>Непрозрачност на изображението</short>
+        <long>Непрозрачност, с която да се изобрази изображението за фон.</long>
+        </locale>
+
+        <locale name="bn">
+        <short>শিল্পকর্মের জড়তা</short>
+        
+        </locale>
+
+        <locale name="bn_IN">
+        <short>ছবির স্বচ্ছতা</short>
+        <long>পটভুমির ছবি আঁকার উদ্দেশ্যে স্বচ্ছতার মাত্রা।</long>
+        </locale>
+
+        <locale name="bs">
+        <short>Neprovidnost slike</short>
+        
+        </locale>
+
+        <locale name="ca">
+        <short>Opacitat de la imatge</short>
+        <long>Opacitat amb la qual dibuixar la imatge de fons.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+        <short>Opacitat de la imatge</short>
+        <long>Opacitat amb la qual dibuixar la imatge de fons.</long>
+        </locale>
+
+        <locale name="crh">
+        <short>Resim Tonuqlığı</short>
+        <long>Arqa-zemin resminiñ sızılacağı tonuqlıq.</long>
+        </locale>
+
+        <locale name="cs">
+        <short>Průhlednost obrázku</short>
+        <long>Průhlednost, se kterou kreslit obrázek na pozadí.</long>
+        </locale>
+
+        <locale name="cy">
+        <short>Didreiddiad y Darlun</short>
+        
+        </locale>
+
+        <locale name="da">
+        <short>Billeduigennemsigtighed</short>
+        <long>Uigennemsigtighedsgrad som baggrundsbilledet skal tegnes med.</long>
+        </locale>
+
+        <locale name="de">
+        <short>Deckkraft des Bildes</short>
+        <long>Deckkraft, mit der das Hintergrundbild gezeichnet wird.</long>
+        </locale>
+
+        <locale name="dz">
+        <short>པར་གྱི་དྭངས་སྒྲིབ།</short>
+        
+        </locale>
+
+        <locale name="el">
+        <short>Αδιαφάνεια εικόνας</short>
+        <long>Αδιαφάνεια με την οποία θα σχεδιάζεται η εικόνα παρασκηνίου.</long>
+        </locale>
+
+        <locale name="en_CA">
+        <short>Picture Opacity</short>
+        
+        </locale>
+
+        <locale name="en_GB">
+        <short>Picture Opacity</short>
+        <long>Opacity with which to draw the background picture.</long>
+        </locale>
+
+        <locale name="eo">
+        <short>Bilda netravidebleco</short>
+        
+        </locale>
+
+        <locale name="es">
+        <short>Opacidad de la imagen</short>
+        <long>Opacidad con la cual dibujar el tapiz.</long>
+        </locale>
+
+        <locale name="et">
+        <short>Pildi läbipaistmatus</short>
+        <long>Poolläbipaistev värv, millega taustapilt kaetakse.</long>
+        </locale>
+
+        <locale name="eu">
+        <short>Irudiaren opakutasuna</short>
+        <long>Atzeko planoaren irudia marrazteko opakutasuna.</long>
+        </locale>
+
+        <locale name="fa">
+        <short>کدری عکس</short>
+        
+        </locale>
+
+        <locale name="fi">
+        <short>Kuvan peittävyys</short>
+        <long>Taustakuvan piirrossa käytetty peittävyys.</long>
+        </locale>
+
+        <locale name="fr">
+        <short>Opacité de l&apos;image</short>
+        <long>Opacité avec laquelle dessiner l&apos;image d&apos;arrière-plan.</long>
+        </locale>
+
+        <locale name="fur">
+        <short>Opacitât da l&apos;imagjine</short>
+        
+        </locale>
+
+        <locale name="gl">
+        <short>Opacidade da imaxe</short>
+        <long>Opacidade coa que debuxar a imaxe de fondo.</long>
+        </locale>
+
+        <locale name="gu">
+        <short>ચિત્રની અપારદર્શકતા</short>
+        <long>અપારદર્શકતા કે જેના વડે પાશ્વ ભાગનું ચિત્ર દોરવાનું છે.</long>
+        </locale>
+
+        <locale name="he">
+        <short>Picture Opacity</short>
+        <long>Opacity with which to draw the background picture.</long>
+        </locale>
+
+        <locale name="hi">
+        <short>छवि अपारदर्शिता</short>
+        <long>अपारदर्शिता जिससे पृष्ठभूमि छवि आरेखित करनी है.</long>
+        </locale>
+
+        <locale name="hr">
+        <short>Prozirnost slike</short>
+        
+        </locale>
+
+        <locale name="hu">
+        <short>Kép átlátszósága</short>
+        <long>A háttérkép rajzolásához használandó átlátszatlanság.</long>
+        </locale>
+
+        <locale name="id">
+        <short>Tingkat transparansi gambar</short>
+        
+        </locale>
+
+        <locale name="is">
+        <short>Ógagnsæi myndar</short>
+        
+        </locale>
+
+        <locale name="it">
+        <short>Opacità immagine</short>
+        <long>Opacità con cui disegnare l&apos;immagine di sfondo.</long>
+        </locale>
+
+        <locale name="ja">
+        <short>画像の透明度</short>
+        <long>背景の画像に適用する透明度です。</long>
+        </locale>
+
+        <locale name="ka">
+        <short>ნახატის გაუმჭვირვალობა</short>
+        
+        </locale>
+
+        <locale name="kn">
+        <short>ಚಿತ್ರದ ಅಪಾರದರ್ಶಕತೆ</short>
+        <long>ಹಿನ್ನಲೆಯ ಚಿತ್ರವನ್ನು ಚಿತ್ರಿಸಲು ಬಳಸಬೇಕಿರುವ ಅಪಾರದರ್ಶಕತೆ.</long>
+        </locale>
+
+        <locale name="ko">
+        <short>그림 불투명</short>
+        <long>배경 그림을 그릴 때 불투명하게.</long>
+        </locale>
+
+        <locale name="ku">
+        <short>Zenûniya Wêne</short>
+        
+        </locale>
+
+        <locale name="lt">
+        <short>Paveikslėlio neskaidrumas</short>
+        <long>Foninio piešinio nepermatomumas.</long>
+        </locale>
+
+        <locale name="lv">
+        <short>Attēla necaurredzamība</short>
+        
+        </locale>
+
+        <locale name="mai">
+        <short>चित्र अपारदर्शिता</short>
+        
+        </locale>
+
+        <locale name="mg">
+        <short>Ny hatevin&apos;ilay sary</short>
+        
+        </locale>
+
+        <locale name="mk">
+        <short>Затемнетост на слика</short>
+        <long>Затемнетост со која се исцртува позадинската слика.</long>
+        </locale>
+
+        <locale name="ml">
+        <short>ചിത്രത്തിന്റെ വ്യക്തത</short>
+        <long>പശ്ചാത്തലചിത്രം വരയ്ക്കേണ്ട വ്യക്തത.</long>
+        </locale>
+
+        <locale name="mn">
+        <short>Зургийн өнгөний идэвх</short>
+        <long>Дэвсгэрийн зургийн өнгөний идэвх.</long>
+        </locale>
+
+        <locale name="mr">
+        <short>चित्र अपारदर्शीता</short>
+        <long>पार्श्वभूमी चित्र रेखाटतेवेळी गडदता किती ठेवायची.</long>
+        </locale>
+
+        <locale name="ms">
+        <short>Opacity Gambar</short>
+        
+        </locale>
+
+        <locale name="nb">
+        <short>Ugjennomsiktighet for bildet</short>
+        <long>Ugjennomsiktighet for tegning av bakgrunnsbildet.</long>
+        </locale>
+
+        <locale name="ne">
+        <short>तस्बिर अस्पष्टता</short>
+        
+        </locale>
+
+        <locale name="nl">
+        <short>Doorzichtigheid van afbeelding</short>
+        <long>Doorzichtigheid van de achtergrondafbeelding.</long>
+        </locale>
+
+        <locale name="nn">
+        <short>Kor ugjennomsynleg biletet er</short>
+        <long>Kor ugjennomsynleg bakgrunnsbiletet skal vera.</long>
+        </locale>
+
+        <locale name="oc">
+        <short>Opacitat de l&apos;imatge</short>
+        
+        </locale>
+
+        <locale name="or">
+        <short>ଚିତ୍ରର ସ୍ବଚ୍ଛତା</short>
+        <long>ପୃଷ୍ଠଭୂମି ଚିତ୍ର ଅଙ୍କନ ପାଇଁ ସ୍ବଚ୍ଛତା.</long>
+        </locale>
+
+        <locale name="pa">
+        <short>ਤਸਵੀਰ ਧੁੰਦਲਾਪਨ</short>
+        <long>ਧੁੰਦਲਾਪਨ, ਜਿਸ ਨਾਲ ਬੈਕਗਰਾਊਂਡ ਦੀ ਤਸਵੀਰ ਨੂੰ ਬਣਾਇਆ ਜਾਵੇ</long>
+        </locale>
+
+        <locale name="pl">
+        <short>Nieprzepuszczalność obrazu</short>
+        <long>Przezroczystość obrazu w tle.</long>
+        </locale>
+
+        <locale name="pt">
+        <short>Opacidade da Imagem</short>
+        <long>Opacidade com que desenhar a imagem de fundo.</long>
+        </locale>
+
+        <locale name="pt_BR">
+        <short>Opacidade da imagem</short>
+        <long>Opacidade para desenhar a imagem de fundo.</long>
+        </locale>
+
+        <locale name="ro">
+        <short>Opacitate imagine</short>
+        <long>Opacitatea cu care se va afișa imaginea de fundal.</long>
+        </locale>
+
+        <locale name="ru">
+        <short>Непрозрачность картинки</short>
+        <long>Непрозрачность, с которой следует отрисовывать фоновое изображение.</long>
+        </locale>
+
+        <locale name="sk">
+        <short>Priehľadnosť obrázka</short>
+        <long>Priehľadnosť, pomocou ktorej vykresliť obrázok pozadia.</long>
+        </locale>
+
+        <locale name="sl">
+        <short>Prosojnost slike</short>
+        <long>Prosojnost s katero naj se nariše slika ozadja.</long>
+        </locale>
+
+        <locale name="sq">
+        <short>Tejdukshëria e figurës</short>
+        <long>Tejdukshmëria me të cilën të vizatohet figura e sfondit.</long>
+        </locale>
+
+        <locale name="sr">
+        <short>Непровидност слике</short>
+        <long>Непровидност којом да исцрта позадинску слику.</long>
+        </locale>
+
+        <locale name="sr@ije">
+        <short>Непровидност слике</short>
+        
+        </locale>
+
+        <locale name="sr@latin">
+        <short>Neprovidnost slike</short>
+        <long>Neprovidnost kojom da iscrta pozadinsku sliku.</long>
+        </locale>
+
+        <locale name="sv">
+        <short>Bildopacitet</short>
+        <long>Opacitet med vilken bakgrundsbilden ska ritas.</long>
+        </locale>
+
+        <locale name="ta">
+        <short>படம் ஒளி புகாமை</short>
+        <long>பின்னணி படத்தை வரைய தேவையான ஒளிபுகு தன்மை</long>
+        </locale>
+
+        <locale name="te">
+        <short>చిత్రము ఒపాసిటి</short>
+        <long>బ్యాక్‌గ్రౌండ్ చిత్రము గీయుటకు ఒపాసిటి</long>
+        </locale>
+
+        <locale name="th">
+        <short>ความโปร่งแสงของรูป</short>
+        <long>ความโปร่งแสงสำหรับรูปพื้นหลัง</long>
+        </locale>
+
+        <locale name="tr">
+        <short>Resim Donukluğu</short>
+        <long>Arkaplan resminin çizileceği matlık.</long>
+        </locale>
+
+        <locale name="tt">
+        <short>Sürät Tonıqlığı</short>
+        
+        </locale>
+
+        <locale name="uk">
+        <short>Прозорість малюнка</short>
+        <long>Прозорість зображення тла.</long>
+        </locale>
+
+        <locale name="vi">
+        <short>Độ mờ đục ảnh</short>
+        <long>Độ mờ đục để vẽ ảnh nền.</long>
+        </locale>
+
+        <locale name="xh">
+        <short>Ulwalamano lotshintshiselwano loMbala</short>
+        
+        </locale>
+
+        <locale name="zh_CN">
+        <short>图片不透明度</short>
+        <long>绘制背景图片的不透明度。</long>
+        </locale>
+
+        <locale name="zh_HK">
+        <short>圖案透明度</short>
+        <long>繪畫背景圖案時選用的透明度。</long>
+        </locale>
+
+        <locale name="zh_TW">
+        <short>圖案透明度</short>
+        <long>繪畫背景圖案時選用的透明度。</long>
+        </locale>
+      </schema>
+      <schema>
+        <key>/schemas/desktop/gnome/background/primary_color</key>
+        <applyto>/desktop/gnome/background/primary_color</applyto>
+        <owner>gnome</owner>
+        <type>string</type>
+        <default>#66ba00</default>
+        <locale name="C">
+        <short>Primary Color</short>
+        <long>Left or Top color when drawing gradients, or the solid color.</long>
+        </locale>
+
+        <locale name="ar">
+        <short>اللون الأساسي</short>
+        <long>اللون الأيسر أو الأعلى عند رسم التدرّج، أو اللون الصلب.</long>
+        </locale>
+
+        <locale name="as">
+        <short>প্ৰাথমিক ৰং</short>
+        <long>পৰ্যায়ক্ৰমে প্ৰদৰ্শিত ৰঙৰ ক্ষেত্ৰত ওপৰ বা বাওঁফালৰ ৰং, বা গাঢ় ৰং ।</long>
+        </locale>
+
+        <locale name="ast">
+        <short>Color primariu</short>
+        
+        </locale>
+
+        <locale name="az">
+        <short>Əsas Rəng</short>
+        <long>Qradientlər ya da sadə rəng çəkilərkən sol ya da üst rəng.</long>
+        </locale>
+
+        <locale name="be">
+        <short>Першасны колер</short>
+        <long>Левы і верхні колер калі выводзіцца градыент, ці суцэльны колер.</long>
+        </locale>
+
+        <locale name="bg">
+        <short>Първи цвят</short>
+        <long>Ляв или горен цвят при преливки или единствен цвят.</long>
+        </locale>
+
+        <locale name="bn">
+        <short>প্রাথমিক রং</short>
+        <long>অংকিত নতিমাত্রার বাম বা ডানের রং অথবা কঠিন রং।</long>
+        </locale>
+
+        <locale name="bn_IN">
+        <short>প্রাথমিক রং</short>
+        <long>পর্যায়ক্রমে প্রদর্শিত রং&apos;র ক্ষেত্রে উপরের অথবা বাঁদিকের রং, অথবা গাঢ় রং।</long>
+        </locale>
+
+        <locale name="bs">
+        <short>Glavna boja</short>
+        <long>Lijeva ili gornja boja kod crtanja gradijenta, ili čista boja.</long>
+        </locale>
+
+        <locale name="ca">
+        <short>Color primari</short>
+        <long>Color de l&apos;esquerra o superior quan es dibuixi el degradat, o el color sòlid.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+        <short>Color primari</short>
+        <long>Color de l&apos;esquerra o superior quan es dibuixe el degradat, o el color sòlid.</long>
+        </locale>
+
+        <locale name="crh">
+        <short>Birlemci Tüs</short>
+        <long>Dereceçenlerni (gradientlerni) sızğanda qullanılacak Sol yaki Üst renk, ya da som renk.</long>
+        </locale>
+
+        <locale name="cs">
+        <short>Primární barva</short>
+        <long>Levá nebo horní barva při kreslení přechodů, nebo jediná barva.</long>
+        </locale>
+
+        <locale name="cy">
+        <short>Lliw Cynradd</short>
+        <long>Y lliw chwith neu frig wrth arlunio graddiannau, neu&apos;r lliw unffurf</long>
+        </locale>
+
+        <locale name="da">
+        <short>Primær farve</short>
+        <long>Venstre eller øverste farve ved tegning af farveovergange, eller blot den enkelte farve hvis ensfarvet.</long>
+        </locale>
+
+        <locale name="de">
+        <short>Erste Farbe</short>
+        <long>Linke bzw. obere Farbe beim Zeichnen eines Farbverlaufs, oder die bei einem einfarbigen Hintergrund verwendete Farbe.</long>
+        </locale>
+
+        <locale name="dz">
+        <short>ཚོས་གཞི་གཙོ་བོ།</short>
+        <long>སྟེགས་རིས་སམ་ ཚོས་རགས་པ་འབྲི་བའི་སྐབས་ གཡོན་ ཡང་ན་ མགོའི་ཚོས་གཞི།</long>
+        </locale>
+
+        <locale name="el">
+        <short>Κύριο χρώμα</short>
+        <long>Αριστερό ή πάνω χρώμα κατά τη σχεδίαση διαβαθμίσεων, ή το συμπαγές χρώμα.</long>
+        </locale>
+
+        <locale name="en_CA">
+        <short>Primary Colour</short>
+        <long>Left or Top colour when drawing gradients, or the solid colour.</long>
+        </locale>
+
+        <locale name="en_GB">
+        <short>Primary Colour</short>
+        <long>Left or Top colour when drawing gradients, or the solid colour.</long>
+        </locale>
+
+        <locale name="eo">
+        <short>Ĉefa koloro</short>
+        <long>Koloro de maldekstro aŭ supro pentrante laŭgradan, aŭ solidan koloron.</long>
+        </locale>
+
+        <locale name="es">
+        <short>Color primario</short>
+        <long>Color superior o izquierdo cuando se dibujan los degradados, o el color sólido.</long>
+        </locale>
+
+        <locale name="et">
+        <short>Peamine värv</short>
+        <long>Hajusülemineku vasakpoolne või ülemine värvus, või hoopis ühtlane värvus.</long>
+        </locale>
+
+        <locale name="eu">
+        <short>Lehen mailako kolorea</short>
+        <long>Ezkerreko edo goiko kolorea gradienteak marraztean, edo kolore lisoa.</long>
+        </locale>
+
+        <locale name="fa">
+        <short>رنگ اصلی</short>
+        <long>رنگ چپ یا بالا وقتی با شیب‌ها کشیده می‌شود، یا رنگ یکدست.</long>
+        </locale>
+
+        <locale name="fi">
+        <short>Pääväri</short>
+        <long>Vasemman reunan tai yläreunan väri väriliu&apos;ussa, tai tasainen väri.</long>
+        </locale>
+
+        <locale name="fr">
+        <short>Couleur primaire</short>
+        <long>Couleur de gauche ou du haut quand on dessine des dégradés, ou la couleur unie.</long>
+        </locale>
+
+        <locale name="fur">
+        <short>Colôr primari</short>
+        <long>Colôr in alt o a bande çampe cuant ch&apos;a si dopre un gradient, opûr il colôr pa tinte unide.</long>
+        </locale>
+
+        <locale name="ga">
+        <short>An Dáth Príomha</short>
+        
+        </locale>
+
+        <locale name="gl">
+        <short>Cor primaria</short>
+        <long>Cor superior ou esquerda ao debuxar os degradados ou a cor sólida.</long>
+        </locale>
+
+        <locale name="gu">
+        <short>પ્રાથમિક રંગ</short>
+        <long>ઢાળો દોરતી વખતે ડાબો અથવા ઉપરનો રંગ, અથવા ઘાટો રંગ.</long>
+        </locale>
+
+        <locale name="he">
+        <short>Primary Color</short>
+        <long>Left or Top color when drawing gradients, or the solid color.</long>
+        </locale>
+
+        <locale name="hi">
+        <short>प्राथमिक रंग</short>
+        <long>बायाँ या शीर्ष रंग जब अनुपात आरेखित किए जाएँ, या ठोस रंग.</long>
+        </locale>
+
+        <locale name="hr">
+        <short>Osnovna boja</short>
+        <long>Lijeva ili gornja boja kod crtanja prijelaza ili pune boje.</long>
+        </locale>
+
+        <locale name="hu">
+        <short>Elsődleges szín</short>
+        <long>Színátmenet rajzolásánál a bal vagy a felső szín, vagy az egyszínű háttér színe.</long>
+        </locale>
+
+        <locale name="id">
+        <short>Warna utama</short>
+        <long>Warna sebelah kiri atau sebelah atas saat menggambar gradien, atau warna padat.</long>
+        </locale>
+
+        <locale name="is">
+        <short>Aðallitur</short>
+        <long>Vinstri eða efsti litur þegar &apos;gradients&apos; eru teiknaðir eða heill litur.</long>
+        </locale>
+
+        <locale name="it">
+        <short>Colore primario</short>
+        <long>Colore in alto o a sinistra quando si utilizza un gradiente, oppure il colore per la tinta unita.</long>
+        </locale>
+
+        <locale name="ja">
+        <short>一番目の色</short>
+        <long>グラデーション時の左側もしくは上側の色、あるいは単色時の色です。</long>
+        </locale>
+
+        <locale name="ka">
+        <short>პირველადი ფერი</short>
+        <long>მარცხენა ან ზედა ფერი გრადიენტების ან ერთგვაროვანი ფერით ასახვისას.</long>
+        </locale>
+
+        <locale name="kn">
+        <short>ಪ್ರಾಥಮಿಕ ಬಣ್ಣ</short>
+        <long>ಗ್ರೇಡಿಯಂಟ್‌ಗಳನ್ನು ಅಥವ ದಟ್ಟ ಬಣ್ಣಗಳನ್ನು ಚಿತ್ರಿಸುವಾಗ ಬಲ ಅಥವ ಕೆಳಗಿನ ಬಣ್ಣ.</long>
+        </locale>
+
+        <locale name="ko">
+        <short>일차 색상</short>
+        <long>경사지게 혹은 단색으로 그릴 때의 왼쪽 혹은 윗쪽 색.</long>
+        </locale>
+
+        <locale name="ku">
+        <short>Rengê Yekemîn</short>
+        <long>Dema xêzkirina derbasînan de rengê Çepê an jî yê Jor, an jî rengekî sabît.</long>
+        </locale>
+
+        <locale name="lt">
+        <short>Pradinė spalva</short>
+        <long>Kairė arba viršutinė spalva (kai naudojami persiliejimai), arba vientisa spalva.</long>
+        </locale>
+
+        <locale name="lv">
+        <short>Primārā krāsa</short>
+        <long>Kreisā vai augšējā krāsa (kad tiek izmantota pāreja), vai viendabīga krāsa.</long>
+        </locale>
+
+        <locale name="mai">
+        <short>प्राथमिक रँग</short>
+        <long>बम्माँ अथवा शीर्ष रँग जखन अनुपात आरेखित कएल जाइछ, अथवा ठोस रँग</long>
+        </locale>
+
+        <locale name="mg">
+        <short>Loko lohalaharana</short>
+        <long>Loko havia na havanana rehefa manao ny lafy misompirana, na ny loko tokana.</long>
+        </locale>
+
+        <locale name="mk">
+        <short>Примарна Боја</short>
+        <long>Лева или горна боја при цртање на градиенти или полна боја.</long>
+        </locale>
+
+        <locale name="ml">
+        <short>പ്രാഥമിക നിറം</short>
+        <long>ഘനമായ നിറത്തിലോ നിറങ്ങള്‍ വിതറുമ്പോഴോ ഇടതുവശത്തോ മുകളിലോ കാണുന്ന നിറം.</long>
+        </locale>
+
+        <locale name="mn">
+        <short>Анхны өнгө</short>
+        <long>Өнгөний өөрчлөлтийг илэрхийлэхэд гарах зүүн болоод дээд хэсгийн өнгө эсвэл цул өнгөөр будахад хэрэглэх өнгө.</long>
+        </locale>
+
+        <locale name="mr">
+        <short>प्राथमिक रंग</short>
+        <long>ग्रेडीयंट काढतेवेळी डावे किंवा शिर्ष रंग, किंवा गडद रंग.</long>
+        </locale>
+
+        <locale name="ms">
+        <short>Warna Utama</short>
+        <long>Warna kiri atau atas bila melukis gradien, atau warna tegar.</long>
+        </locale>
+
+        <locale name="nb">
+        <short>Primærfarge</short>
+        <long>Venstre eller øverste farge ved tegning av gradienter, eller den helfylte fargen.</long>
+        </locale>
+
+        <locale name="ne">
+        <short>प्राथमिक रङ</short>
+        <long>ग्रेडिएन्ट, वा ठोस रङ कोर्दा बाँया वा माथिको रङ ।</long>
+        </locale>
+
+        <locale name="nl">
+        <short>Primaire kleur</short>
+        <long>Linker - of bovenste kleur bij kleurverloop, of gewoon de kleur bij één kleur.</long>
+        </locale>
+
+        <locale name="nn">
+        <short>Fyrste farge</short>
+        <long>Venstre eller øvste farge når gradientar vert teikna, eller den heilfylte fargen.</long>
+        </locale>
+
+        <locale name="oc">
+        <short>Color primària</short>
+        
+        </locale>
+
+        <locale name="or">
+        <short>ମୌଳିକ ରଙ୍ଗ</short>
+        <long>କ୍ରମାନତ ବା ଉର୍ଦ୍ଧ ରଙ୍ଗ ଅଙ୍କନରେ, ବାମ ବା ଉପର ରଙ୍ଗ</long>
+        </locale>
+
+        <locale name="pa">
+        <short>ਮੁੱਖ ਰੰਗ</short>
+        <long>ਜਦੋਂ ਢਾਲਵਾਂ ਬਣਾਇਆ ਜਾਵੇ ਤਾਂ ਖੱਬੇ ਤੋਂ ਜਾਂ ਉਪੱਰੋ ਜਾਂ ਇਕਸਾਰ ਰੰਗ ਵਰਤਣਾ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+        <short>Kolor główny</short>
+        <long>Lewy lub górny kolor podczas rysowania gradientów lub kolor jednolity.</long>
+        </locale>
+
+        <locale name="pt">
+        <short>Cor Primária</short>
+        <long>Cor Esquerda ou de Topo ao desenhar gradientes, ou cor sólida.</long>
+        </locale>
+
+        <locale name="pt_BR">
+        <short>Cor primária</short>
+        <long>Cor da esquerda ou topo ao desenhar gradientes, ou a cor sólida.</long>
+        </locale>
+
+        <locale name="ro">
+        <short>Culoare primară</short>
+        <long>Culoarea unică sau culoarea din marginea stângă sau de sus când se utilizează gradienți.</long>
+        </locale>
+
+        <locale name="ru">
+        <short>Первичный цвет</short>
+        <long>Левый или верхний цвета при отрисовке градиента, либо сплошной цвет.</long>
+        </locale>
+
+        <locale name="sk">
+        <short>Primárna farba</short>
+        <long>Ľavá alebo horná farba pri kreslení prechodov alebo jednoliata farba.</long>
+        </locale>
+
+        <locale name="sl">
+        <short>Prvotna barva</short>
+        <long>Leva ali zgornja barva ob risanju prelivov, ali barva polnjenja.</long>
+        </locale>
+
+        <locale name="sq">
+        <short>Ngjyra kryesore</short>
+        <long>Ngjyra sipër apo majtas kur vizatohet një i shkallëzuar, ose për ngjyrën e plotë.</long>
+        </locale>
+
+        <locale name="sr">
+        <short>Основна боја</short>
+        <long>Боја на врху или левој страни при исцртавању претапања боја, или боја једнобојне позадине.</long>
+        </locale>
+
+        <locale name="sr@ije">
+        <short>Основна боја</short>
+        <long>Боја на врху или левој страни при исцртавању претапања боја, или боја једнобојне позадине.</long>
+        </locale>
+
+        <locale name="sr@latin">
+        <short>Osnovna boja</short>
+        <long>Boja na vrhu ili levoj strani pri iscrtavanju pretapanja boja, ili boja jednobojne pozadine.</long>
+        </locale>
+
+        <locale name="sv">
+        <short>Primär färg</short>
+        <long>Vänster färg eller övre färg vid ritande av färgtoningar, eller den enda färgen vid enfärgat.</long>
+        </locale>
+
+        <locale name="ta">
+        <short>முதல் வண்ணம்</short>
+        <long>இடது அல்லது மேல் வண்ணம் சரிவாக வண்ணம் தரும்போது அல்லது நிலையான வண்னத்தில்</long>
+        </locale>
+
+        <locale name="te">
+        <short>ప్రాధమిక రంగు</short>
+        <long>గ్రెడియంట్స్‍ గీయుచున్నప్పుడు ఎడమ లేదా పైన రంగు, లేదా సాలిడ్ రంగు.</long>
+        </locale>
+
+        <locale name="th">
+        <short>สีหลัก</short>
+        <long>สีเดียวที่ใช้ หรือสีซ้ายหรือสีบนถ้าไล่แถบสี </long>
+        </locale>
+
+        <locale name="tr">
+        <short>Birincil Renk</short>
+        <long>Geçişleri çizerken kullanılacak Sol veya Üstteki renk, veya sabit renk.</long>
+        </locale>
+
+        <locale name="tt">
+        <short>Töp Tös</short>
+        
+        </locale>
+
+        <locale name="uk">
+        <short>Первинний колір</short>
+        <long>Лівий чи верхній колір для малювання градієнтів, не використовується для суцільного кольору.</long>
+        </locale>
+
+        <locale name="vi">
+        <short>Màu chính</short>
+        <long>Màu Trái hoặc Trên khi vẽ dốc, hoặc màu đặc.</long>
+        </locale>
+
+        <locale name="wa">
+        <short>Prumire coleur</short>
+        
+        </locale>
+
+        <locale name="xh">
+        <short>UMbala wokuqala</short>
+        <long>Umbala osekhohlo okanye Phezulu xa uzoba ukuthambeka, okanye umbala ongqindilili.</long>
+        </locale>
+
+        <locale name="zh_CN">
+        <short>主要颜色</short>
+        <long>绘制渐变带时左边或上边的颜色，或者是绘制的纯色。</long>
+        </locale>
+
+        <locale name="zh_HK">
+        <short>第一種顏色</short>
+        <long>指定當顯示漸變色時左邊或頂部的顏色，或是顯示單色時使用的顏色。</long>
+        </locale>
+
+        <locale name="zh_TW">
+        <short>第一種顏色</short>
+        <long>指定當顯示漸層時左邊或頂部的顏色，或是顯示單色時使用的顏色。</long>
+        </locale>
+      </schema>
+      <schema>
+        <key>/schemas/desktop/gnome/background/secondary_color</key>
+        <applyto>/desktop/gnome/background/secondary_color</applyto>
+        <owner>gnome</owner>
+        <type>string</type>
+        <default>#66ba00</default>
+        <locale name="C">
+        <short>Secondary Color</short>
+        <long>Right or Bottom color when drawing gradients, not used for solid color.</long>
+        </locale>
+
+        <locale name="ar">
+        <short>اللون الثانوي</short>
+        <long>اللون الأيمن أو الأسفل عند رسم التدرّجات، غير مستعمل للون الصلب</long>
+        </locale>
+
+        <locale name="as">
+        <short>দ্বিতীয় ৰং</short>
+        <long>পৰ্যায়ক্ৰমে প্ৰদৰ্শিত ৰংৰ ক্ষেত্ৰত তলৰ বা সোঁফালৰ ৰং, গাঢ় ৰংৰ ক্ষেত্ৰত ব্যৱহৃত নহয় ।</long>
+        </locale>
+
+        <locale name="ast">
+        <short>Color secundariu</short>
+        
+        </locale>
+
+        <locale name="az">
+        <short>İkinci Rəng</short>
+        <long>Gradientlər çəkilərkən Sağ ya da Aşağı rəng. </long>
+        </locale>
+
+        <locale name="be">
+        <short>Другасны колер</short>
+        <long>Правы ці ніжні колер калі выводзіцца градыент, не выкарыстоўваецца для суцэльнага колеру.</long>
+        </locale>
+
+        <locale name="bg">
+        <short>Втори цвят</short>
+        <long>Десен или долен цвят при преливки, не се използва при единствен цвят.</long>
+        </locale>
+
+        <locale name="bn">
+        <short>দ্বিতীয়ত রং</short>
+        <long>অংকিত নতিমাত্রার  ডান বা নিচের দিককার  রং, অব্যবহৃত কঠিন রং</long>
+        </locale>
+
+        <locale name="bn_IN">
+        <short>দ্বিতীয় রং</short>
+        <long>পর্যায়ক্রমে প্রদর্শিত রং&apos;র ক্ষেত্রে নীচের অথবা ডানদিকের রং, গাঢ় রং&apos;র ক্ষেত্রে ব্যবহৃত হয় না।</long>
+        </locale>
+
+        <locale name="bs">
+        <short>Sporedna boja</short>
+        <long>Desna ili donja boja kod crtanja gradijenta, ne koristi se pri čistoj boji.</long>
+        </locale>
+
+        <locale name="ca">
+        <short>Color secundari</short>
+        <long>Color de la dreta o inferior quan es dibuixi el degradat, no s&apos;utilitza per a colors sòlids.</long>
+        </locale>
+
+        <locale name="ca@valencia">
+        <short>Color secundari</short>
+        <long>Color de la dreta o inferior quan es dibuixe el degradat, no s&apos;utilitza per a colors sòlids.</long>
+        </locale>
+
+        <locale name="crh">
+        <short>Ekilemci Tüs</short>
+        <long>Dereceçenlerni (gradientlerni) sızğanda qullanılacak Sağ yaki Alt renk, som renk içün qullanılmaz.</long>
+        </locale>
+
+        <locale name="cs">
+        <short>Sekundární barva</short>
+        <long>Pravá nebo dolní barva při kreslení přechodů, nepoužito pro jedinou barvu.</long>
+        </locale>
+
+        <locale name="cy">
+        <short>Lliw Eilaidd</short>
+        <long>Y lliw de neu waelod wrth arlunio graddiannau, ni ddefnyddir ar gyfer lliw unffurf.</long>
+        </locale>
+
+        <locale name="da">
+        <short>Sekundær farve</short>
+        <long>Højre eller nederste farve ved tegning af farveovergange, benyttes ikke til ved ensfarvet baggrund.</long>
+        </locale>
+
+        <locale name="de">
+        <short>Zweite Farbe</short>
+        <long>Rechte bzw. untere Farbe beim Zeichnen eines Farbverlaufs. Bei einem einfarbigen Hintergrund wir diese Farbe nicht verwendet.</long>
+        </locale>
+
+        <locale name="dz">
+        <short>གལ་གནད་ཆུང་བའི་ཚོས་གཞི།</short>
+        <long>སྟེགས་རིས་འབྲི་བའི་སྐབས་ ཚོས་གཞི་རགས་པ་ ལག་ལེན་མ་འཐབ་པའི་ གཡས་ ཡང་ན་ མཇུག་གི་ཚོས་གཞི།</long>
+        </locale>
+
+        <locale name="el">
+        <short>Δευτερεύον χρώμα</short>
+        <long>Δεξιό ή κάτω χρώμα κατά τη σχεδίαση διαβαθμίσεων, δε χρησιμοποιείται για συμπαγές χρώμα.</long>
+        </locale>
+
+        <locale name="en_CA">
+        <short>Secondary Colour</short>
+        <long>Right or Bottom colour when drawing gradients, not used for solid colour.</long>
+        </locale>
+
+        <locale name="en_GB">
+        <short>Secondary Colour</short>
+        <long>Right or Bottom colour when drawing gradients, not used for solid colour.</long>
+        </locale>
+
+        <locale name="eo">
+        <short>Duaranga koloro</short>
+        <long>Koloro de dekstro aŭ malsupro pentrante laŭgradan koloron, ne uzata por solida koloro.</long>
+        </locale>
+
+        <locale name="es">
+        <short>Color secundario</short>
+        <long>Color inferior o derecho cuando se dibujan los degradados, no usado para color sólido.</long>
+        </locale>
+
+        <locale name="et">
+        <short>Teisene värv</short>
+        <long>Hajusülemineku parempoolne või alumine värvus, ei kasutata ühtlase värvuse jaoks.</long>
+        </locale>
+
+        <locale name="eu">
+        <short>Bigarren mailako kolorea</short>
+        <long>Eskuineko edo beheko kolorea gradienteak marraztean; ez da erabiltzen kolore lisoentzat.</long>
+        </locale>
+
+        <locale name="fa">
+        <short>رنگ‌ فرعی </short>
+        <long>رنگ راست یا پایین برای وقتی شیب‌ها رسم می‌شوند، برای رنگ یکدست استفاده نمی‌شود.</long>
+        </locale>
+
+        <locale name="fi">
+        <short>Toinen väri</short>
+        <long>Oikean tai alareunan väri väriliu&apos;ussa. Tasainen väri ei riipu tästä.</long>
+        </locale>
+
+        <locale name="fr">
+        <short>Couleur secondaire</short>
+        <long>Couleur de droite ou du bas quand on dessine des dégradés, non utilisée pour la couleur unie.</long>
+        </locale>
+
+        <locale name="fur">
+        <short>Colôr secondari</short>
+        <long>Colôr a gjestre o in bas cuant ch&apos;a si dopre un gradient, opûr il colôr pa tinte unide.</long>
+        </locale>
+
+        <locale name="ga">
+        <short>An Dáth Tánaisteach</short>
+        
+        </locale>
+
+        <locale name="gl">
+        <short>Cor secundaria</short>
+        <long>Cor inferior ou dereita ao debuxar os degradados; non se usa para a cor sólida.</long>
+        </locale>
+
+        <locale name="gu">
+        <short>ગૌણ રંગ</short>
+        <long>ઢાળો દોરવા માટે જમણો અથવા નીચેનો રંગ વપરાય છે, ઘાટો રંગ વપરાતો નથી.</long>
+        </locale>
+
+        <locale name="he">
+        <short>Secondary Color</short>
+        <long>Right or Bottom color when drawing gradients, not used for solid color.</long>
+        </locale>
+
+        <locale name="hi">
+        <short>द्वैतीयक रंग</short>
+        <long>दायाँ या तल रंग जब अनुपात आरेखित किए जाएँ, ठोस रंगों में प्रयुक्त नहीं.</long>
+        </locale>
+
+        <locale name="hr">
+        <short>Sekundarna boja</short>
+        <long>Desna ili donja boja gdje počinje prijelaz crtanja, ne koristi se za pune boje.</long>
+        </locale>
+
+        <locale name="hu">
+        <short>Másodlagos szín</short>
+        <long>Színátmenet rajzolásánál a jobb vagy az alsó szín, egyszínű háttér esetén nem használt.</long>
+        </locale>
+
+        <locale name="id">
+        <short>Warna sekunder</short>
+        <long>Warna sebelah kanan atau sebelah bawah saat menggambar gradien, warna ini tidak digunakan saat menggambar warna padat</long>
+        </locale>
+
+        <locale name="is">
+        <short>Auka litur</short>
+        <long>Hægri eða neðsti litur þegar &apos;gradients&apos; eru teiknaðir eða heill litur.</long>
+        </locale>
+
+        <locale name="it">
+        <short>Colore secondario</short>
+        <long>Colore a destra o in basso quando si disegna un gradiente, non usato per la tinta unita.</long>
+        </locale>
+
+        <locale name="ja">
+        <short>二番目の色</short>
+        <long>グラデーション時の右側もしくは下側の色、あるいは単色時の色です。</long>
+        </locale>
+
+        <locale name="ka">
+        <short>მეორადი ფერი</short>
+        <long>მარჯვენა ან ქვედა ფერი გრადიენტების ან ერთგვაროვანი ფერით ასახვისას.</long>
+        </locale>
+
+        <locale name="kn">
+        <short>ಅಪ್ರಧಾನ ಬಣ್ಣ</short>
+        <long>ಗ್ರೇಡಿಯಂಟ್‌ಗಳನ್ನು ಚಿತ್ರಿಸುವಾಗ ಬಲ ಅಥವ ಕೆಳಗಿನ ಬಣ್ಣ, ಇದನ್ನು ದಟ್ಟ ಬಣ್ಣಗಳಲ್ಲಿ ಬಳಸಲಾಗುವುದಿಲ್ಲ.</long>
+        </locale>
+
+        <locale name="ko">
+        <short>이차 색상</short>
+        <long>경사지게 그릴 때의 오른쪽 혹은 아랫쪽 색, 단색에서는 사용하지 않음.</long>
+        </locale>
+
+        <locale name="ku">
+        <short>Rengê Duyemîn</short>
+        <long>Ji bo ku tu karibe derbasbûyînan xêz bike rengê Jêr û Rastê yê tu yê bikar bîne, ji bo rengên sabît nayê bikaranîn.</long>
+        </locale>
+
+        <locale name="lt">
+        <short>Antrinė spalva</short>
+        <long>Dešinė arba apatinė spalva kai naudojami persiliejimai; vientisai spalvai nenaudojama.</long>
+        </locale>
+
+        <locale name="lv">
+        <short>Sekundārā krāsa</short>
+        <long>Labā vai Apakšas krāsa, kad zīmē pārejas, netiek lietota viendabīgai krāsai.</long>
+        </locale>
+
+        <locale name="mai">
+        <short>द्वितीयक रँग</short>
+        <long>दहिन्ना अथवा तल रँग जखन अनुपात आरेखित कएल जाइछ, ठोस रँगसभमे प्रयुक्त नहि.</long>
+        </locale>
+
+        <locale name="mg">
+        <short>Loko manarakaraka</short>
+        <long>Loko havanana na ambany rehefa manao ny lafy misompirana, tsy mety atao loko tokana.</long>
+        </locale>
+
+        <locale name="mk">
+        <short>Секундарна Боја</short>
+        <long>Десна или долна боја при цртање на градиенти, не се користи за полна боја.</long>
+        </locale>
+
+        <locale name="ml">
+        <short>ദ്വീതീയ നിറം</short>
+        <long>നിറങ്ങള്‍ വിതറുമ്പോള്‍ വലതുവശത്തോ താഴെയോ ചേര്‍ക്കേണ്ട നിറം, ഘനമായ നിറമാണെങ്കില്‍ ഇതുപയോഗിയ്ക്കില്ല.</long>
+        </locale>
+
+        <locale name="mn">
+        <short>Хоёрдогч өнгө</short>
+        <long>Өнгөний өөрчлөлтийг илэрхийлэхэд гарах баруун болоод доод хэсгийн өнгө эсвэл цул өнгөөр будахад хэрэглэх өнгө.</long>
+        </locale>
+
+        <locale name="mr">
+        <short>दुय्यम रंग</short>
+        <long>गडद रंगाकरीता ग्रेडीयंट काढतेवेळी उजवे किंवा तळ रंगाशी वापरल्या जात नाही.</long>
+        </locale>
+
+        <locale name="ms">
+        <short>Warna Sekunder</short>
+        <long>warna Kanan atau Bawah bila melukis gradien, tak digunakan untuk warna tegar.Warna Kanan atau Bawah bila melukis gradien, tidak digunakan untuk warna tegar.</long>
+        </locale>
+
+        <locale name="nb">
+        <short>Sekundærfarge</short>
+        <long>Høyre eller nedre farge ved tegning av gradienter. Ikke brukt for helfylt farge.</long>
+        </locale>
+
+        <locale name="ne">
+        <short>गौण रङ</short>
+        <long>ठोस रङका लागि प्रयोग नगरी, ग्रेडियन्ट कोर्दा दायाँ र तलको रङ ।</long>
+        </locale>
+
+        <locale name="nl">
+        <short>Secundaire kleur</short>
+        <long>Rechter of onderste kleur bij kleurverloop (ongebruikt bij één kleur).</long>
+        </locale>
+
+        <locale name="nn">
+        <short>Andre farge</short>
+        <long>Høgre eller nedre farge når gradientar vert teikna. Ikkje brukt i heilfylt farge.</long>
+        </locale>
+
+        <locale name="oc">
+        <short>Color segondària</short>
+        
+        </locale>
+
+        <locale name="or">
+        <short>ଦ୍ବିତୀୟକ ରଙ୍ଗ</short>
+        <long>କ୍ରମାନତ ରଙ୍ଗ ଅଙ୍କନରେ, ଡାହାଣ ବା ତଳ ରଙ୍ଗ, ଉର୍ଦ୍ଧ ରଙ୍ଗ ପାଇଁ ବ୍ଯବହୃତ ନୁହେଁ.</long>
+        </locale>
+
+        <locale name="pa">
+        <short>ਸੈਕੰਡਰੀ ਰੰਗ</short>
+        <long>ਜਦੋਂ ਢਾਲਵਾਂ ਬਣਾਇਆ ਜਾਵੇ ਤਾਂ ਸੱਜਿਉ ਤੋਂ ਜਾਂ ਥੱਲਿਉ ਜਾਂ ਇਕਸਾਰ ਰੰਗ ਲਈ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।</long>
+        </locale>
+
+        <locale name="pl">
+        <short>Kolor pomocniczy</short>
+        <long>Prawy lub dolny kolor podczas rysowania gradientów, nie wykorzystywany dla koloru jednolitego.</long>
+        </locale>
+
+        <locale name="pt">
+        <short>Cor Secundária</short>
+        <long>Cor Direita ou de Fundo ao desenhar gradientes, não utilizado na cor sólida.</long>
+        </locale>
+
+        <locale name="pt_BR">
+        <short>Cor secundária</short>
+        <long>Cor da direita ou de baixo ao desenhar gradientes, não é usado para a cor sólida.</long>
+        </locale>
+
+        <locale name="ro">
+        <short>Culoare secundară</short>
+        <long>Culoarea din marginea dreaptă sau de jos când se utilizează gradienți, nefolosită în cazul unei culori unice.</long>
+        </locale>
+
+        <locale name="ru">
+        <short>Вторичный цвет</short>
+        <long>Правый или нижний цвета при отрисовке градиента. Не используется при сплошном цвете.</long>
+        </locale>
+
+        <locale name="sk">
+        <short>Sekundárna farba</short>
+        <long>Pravá alebo dolná farba pri kreslení prechodov, nepoužité pre jednoliatu farbu.</long>
+        </locale>
+
+        <locale name="sl">
+        <short>Drugotna barva</short>
+        <long>Desna ali spodnja barva za risanje prelivov, ni uporabljena pri barvi polnjenja.</long>
+        </locale>
+
+        <locale name="sq">
+        <short>Ngjyra dytësore</short>
+        <long>Ngjyra djathtas apo poshtë kur vizatohet një i shkallëzuar, nuk përdoret për ngjyrën e plotë.</long>
+        </locale>
+
+        <locale name="sr">
+        <short>Додатна боја</short>
+        <long>Боја на дну или десној страни при исцртавању претапања боја; не користи се за једнобојну позадину.</long>
+        </locale>
+
+        <locale name="sr@ije">
+        <short>Додатна боја</short>
+        <long>Боја на дну или десној страни при исцртавању претапања боја; не користи се за једнобојну позадину.</long>
+        </locale>
+
+        <locale name="sr@latin">
+        <short>Dodatna boja</short>
+        <long>Boja na dnu ili desnoj strani pri iscrtavanju pretapanja boja; ne koristi se za jednobojnu pozadinu.</long>
+        </locale>
+
+        <locale name="sv">
+        <short>Sekundär färg</short>
+        <long>Höger eller nedre färg vid ritande av färgtoningar, används inte för enfärgat.</long>
+        </locale>
+
+        <locale name="ta">
+        <short>இரண்டாம் வண்ணம்</short>
+        <long>வலது அல்லது கீழ் வண்ணம் சரிவு வண்ணத்தை பயன்படுத்தும் போது அல்லது நிலையான வண்ணத்தில்</long>
+        </locale>
+
+        <locale name="te">
+        <short>రెండవ రంగు</short>
+        <long>గ్రేడియంట్స్‍ గీయుచున్నప్పుడు కుడి లేదా క్రింది రంగు, సాలిడ్ రంగులకు వుపయోగపడదు.</long>
+        </locale>
+
+        <locale name="th">
+        <short>สีรอง</short>
+        <long>สีขวาหรือสีล่างถ้าไล่แถบสี ค่านี้ไม่ถูกใช้ถ้าใช้สีเดียว</long>
+        </locale>
+
+        <locale name="tr">
+        <short>İkincil Renk</short>
+        <long>Geçişleri çizerken kullanılacak Sağ veya Alttaki renk, sabit renkler için kullanılmaz.</long>
+        </locale>
+
+        <locale name="tt">
+        <short>İkeçe Tös</short>
+        
+        </locale>
+
+        <locale name="uk">
+        <short>Вторинний колір</short>
+        <long>Правий чи ніжній колір для малювання градієнтів, не використовується для суцільного кольору.</long>
+        </locale>
+
+        <locale name="vi">
+        <short>Màu phụ</short>
+        <long>Màu Phải hoặc Dưới khi vẽ dốc, không được dùng để vẽ màu đặc.</long>
+        </locale>
+
+        <locale name="wa">
+        <short>Deujhinme coleur</short>
+        <long>Coleur pol droete ou l&apos; valeye po les degradés, nén eployî po les coleurs simpes.</long>
+        </locale>
+
+        <locale name="xh">
+        <short>UMbala weSibini</short>
+        <long>Umbala oseKunene okanye eZantsi xa uzoba ukuthambeka, awusetyenziswa kumbala ongqindilili.</long>
+        </locale>
+
+        <locale name="zh_CN">
+        <short>次要颜色</short>
+        <long>绘制渐变带时的右边或下边颜色，绘制纯色时不使用。</long>
+        </locale>
+
+        <locale name="zh_HK">
+        <short>第二種顏色</short>
+        <long>當繪畫漸變色時選用的右邊或底部顏色，繪畫單色時不會使用本選項。</long>
+        </locale>
+
+        <locale name="zh_TW">
+        <short>第二種顏色</short>
+        <long>當繪畫漸層時選用的右邊或底部顏色，繪畫單色時不會使用本選項。</long>
+        </locale>
+      </schema>
+      <schema>
+        <key>/schemas/desktop/gnome/background/color_shading_type</key>
+        <applyto>/desktop/gnome/background/color_shading_type</applyto>
+        <owner>gnome</owner>
+        <type>string</type>
+        <default>solid</default>
+        <locale name="C">
+        <short>Color Shading Type</short>
+        <long>How to shade the background color. Possible values are "horizontal-gradient", "vertical-gradient", and "solid".</long>
+        </locale>
+
+        <locale name="ar">
+        <short>نوع لون الإخفاء</short>
+        <long>كيفية تظليل لون الخلفية. القيم الممكنة هي &quot;horizontal-gradient&quot;، و &quot;vertical-gradient&quot;، و &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="as">
+        <short>ৰং কৰাৰ প্ৰণালী</short>
+        <long>পটভূমিৰ ৰং সহযোগে ছায়ান্বিত কৰাৰ পদ্ধতি । সম্ভাব্য মান &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, and &quot;solid&quot; ।</long>
+        </locale>
+
+        <locale name="az">
+        <short>Rəng Kölgələmə Növü</short>
+        
+        </locale>
+
+        <locale name="be">
+        <short>Тып адценьня колеру</short>
+        
+        </locale>
+
+        <locale name="bg">
+        <short>Тип на цветовото нюансиране</short>
+        <long>Как да се нюансира цветът за фона. Възможни стойности са „horizontal-gradient“ (хоризонтално преливане), „vertical-gradient“ (вертикално преливане), и „solid“ (единствен цвят).</long>
+        </locale>
+
+        <locale name="bn">
+        <short>রংয়ের ছায়ার ধরণ</short>
+        
+        </locale>
+
+        <locale name="bn_IN">
+        <short>রং ভরাট করার প্রণালী</short>
+        <long>পটভূমির রং সহযোগে ছায়ান্বিত করার পদ্ধতি। সম্ভাব্য মান &quot;অনুভূমিক-গ্রেডিয়েন্ট&quot;, &quot;উলম্ব-গ্রেডিয়েন্ট&quot; ও &quot;গাঢ়&quot;</long>
+        </locale>
+
+        <locale name="bs">
+        <short>Tip sjenčenja boja</short>
+        
+        </locale>
+
+        <locale name="ca">
+        <short>Tipus d&apos;ombreig de color</short>
+        <long>Com ombrejar el color de fons. Els valors possibles són «horizontal-gradient» (degradat horitzontal), «vertical-gradient» (degradat vertical) i «solid» (sòlid).</long>
+        </locale>
+
+        <locale name="ca@valencia">
+        <short>Tipus d&apos;ombreig de color</short>
+        <long>Com ombrejar el color de fons. Els valors possibles són «horizontal-gradient» (degradat horitzontal), «vertical-gradient» (degradat vertical) i «solid» (sòlid).</long>
+        </locale>
+
+        <locale name="crh">
+        <short>Tüs Kölgelendirme Türü</short>
+        <long>Arqa-zemini tüsüniñ nasıl kölgelendirilecegi. Caiz qıymetler, &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; ve &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="cs">
+        <short>Typ barevného stínování</short>
+        <long>Jak stínovat barvu pozadí. Možné hodnoty jsou &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; a &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="cy">
+        <short>Math Cysgodi Lliw</short>
+        
+        </locale>
+
+        <locale name="da">
+        <short>Farvelægningstype</short>
+        <long>Hvordan baggrundsfarven skal tegnes. Mulige værdier er &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; og &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="de">
+        <short>Typ der Farbschattierung</short>
+        <long>Legt fest, wie die Hintergrundfarbe schattiert werden soll. Zulässige Werte: »horizontal-gradient« (Horizontaler Verlauf), »vertical-gradient« (Vertikaler Verlauf) sowie »solid« (Einfarbig).</long>
+        </locale>
+
+        <locale name="dz">
+        <short>ཚོས་གཞི་ནག་གྲིབ་ཀྱི་དབྱེ་བ།</short>
+        
+        </locale>
+
+        <locale name="el">
+        <short>Τύπος σκίασης χρώματος</short>
+        <long>Πώς να σκιάζεται το χρώμα παρασκηνίου. Οι πιθανές τιμές είναι &quot;οριζόντια διαβάθμιση&quot;, &quot;κάθετη διαβάθμιση&quot;, και &quot;συμπαγές χρώμα&quot;.</long>
+        </locale>
+
+        <locale name="en_CA">
+        <short>Colour Shading Type</short>
+        
+        </locale>
+
+        <locale name="en_GB">
+        <short>Colour Shading Type</short>
+        <long>How to shade the background colour. Possible values are &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, and &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="eo">
+        <short>Kolora ombra tipo</short>
+        
+        </locale>
+
+        <locale name="es">
+        <short>Tipo de sombreado de colores</short>
+        <long>Como sombrear el color de fondo. Los valores posibles son &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, y &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="et">
+        <short>Värvi varjutamise laad</short>
+        <long>Kuidas taustavärvust varjutatakse. Võimalikud väärtused on &quot;horizontal-gradient&quot; (rõhtsa üleminekuga), &quot;vertical-gradient&quot; (püstise üleminekuga) ja &quot;solid&quot; (ühtlane värvus).</long>
+        </locale>
+
+        <locale name="eu">
+        <short>Koloreen itzaldura-mota</short>
+        <long>Nola itzaleztatu atzeko planoaren kolorea. Hauek dira balio posibleak: &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, eta &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="fa">
+        <short>نوع پرده‌ی رنگ</short>
+        
+        </locale>
+
+        <locale name="fi">
+        <short>Varjostustyyppi</short>
+        <long>Miten taustaväri varjostuu. Mahdollisia arvoja ovat &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; ja &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="fr">
+        <short>Type de couleur d&apos;ombrage</short>
+        <long>Méthode de rendu de la couleur d&apos;arrière-plan. Les valeurs possibles sont « horizontal-gradient » (dégradé horizontal), « vertical-gradient » (dégradé vertical) et « solid » (uni).</long>
+        </locale>
+
+        <locale name="fur">
+        <short>Tipo sfumadure colôr</short>
+        
+        </locale>
+
+        <locale name="gl">
+        <short>Tipo de sombreado de cor</short>
+        <long>Como ensombrecer a cor de fondo. Os valores posíbeis son &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; e &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="gu">
+        <short>રંગની છાયાનો પ્રકાર</short>
+        <long>કેવી રીતે પાશ્વ ભાગના રંગને છાયા આપવી. શક્ય કિંમતો છે &quot;આડો-ઢાળ&quot;, &quot;ઊભો-ઢાળ&quot;, અને &quot;ઘાટુ&quot;.</long>
+        </locale>
+
+        <locale name="he">
+        <short>Color Shading Type</short>
+        <long>How to shade the background color. Possible values are &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, and &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="hi">
+        <short>रंग आभा प्रकार</short>
+        <long>पृष्ठभूमि रंग कैसे छायांकित करें. &quot;क्षैतिज-ढाल&quot;, &quot;लंबवत-ढाल&quot;, और &quot;ठोस&quot; संभावित मान हैं</long>
+        </locale>
+
+        <locale name="hr">
+        <short>Vrsta boje sjenčanja</short>
+        
+        </locale>
+
+        <locale name="hu">
+        <short>Színárnyalat típusa</short>
+        <long>Hogyan legyen árnyalva a háttérszín. Lehetséges értékek: „horizontal-gradient” (vízszintes színátmenet), „vertical-gradient” (függőleges színátmenet), és „solid” (egyszínű).</long>
+        </locale>
+
+        <locale name="id">
+        <short>Tipe Color Shading</short>
+        
+        </locale>
+
+        <locale name="is">
+        <short>Gerð skuggalits</short>
+        
+        </locale>
+
+        <locale name="it">
+        <short>Tipo sfumatura colore</short>
+        <long>Indica come sfumare il colore di sfondo. Valori ammessi sono &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; e &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="ja">
+        <short>色調の変化</short>
+        <long>背景の色調をどのように変化させるか設定します。設定可能な値: &quot;horizontal-gradient&quot;、&quot;vertical-gradient&quot;、&quot;solid&quot;</long>
+        </locale>
+
+        <locale name="ka">
+        <short>ფერის დაჩრდილვის ტიპი</short>
+        
+        </locale>
+
+        <locale name="kn">
+        <short>ಬಣ್ಣಹಚ್ಚುವಿಕೆಯ ಬಗೆ</short>
+        <long>ಹಿನ್ನಲೆಗೆ ಹೇಗೆ ಬಣ್ಣ ಹಚ್ಚಬೇಕು. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, ಹಾಗು &quot;solid&quot; ಆಗಿರುತ್ತದೆ.</long>
+        </locale>
+
+        <locale name="ko">
+        <short>색상 변화 형식</short>
+        <long>배경 색상을 어떻게 변화시킬지 결정합니다. 가능한 값들은 &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;와 &quot;solid&quot;입니다.</long>
+        </locale>
+
+        <locale name="ku">
+        <short>Cureyê Bisîkirina Rengan</short>
+        
+        </locale>
+
+        <locale name="lt">
+        <short>Spalvos šešėlių tipas</short>
+        <long>Kaip keisti fono spalvos šešėlį. Galimos reikšmės yra &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; ir &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="lv">
+        <short>Krāsas ēnošanas tips</short>
+        
+        </locale>
+
+        <locale name="mai">
+        <short>रँग आभा प्रकार</short>
+        
+        </locale>
+
+        <locale name="mg">
+        <short>Karazam-panalofana loko</short>
+        
+        </locale>
+
+        <locale name="mk">
+        <short>Тип на затемнување на боја</short>
+        <long>Како да се затемни бојата за позадината. Можни вредности се &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, и &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="ml">
+        <short>നിറങ്ങളുടെ നിഴലിന്റെ തരം</short>
+        <long>പുരോതലനിറത്തിന്റെ നിഴല്‍ എങ്ങനെ കാണിയ്ക്കണം. സാധ്യമായ വിലകള്‍ &quot;തിരശ്ചീനമായി-വിതറുക&quot;, &quot;ലംബമായി-വിതറുക&quot;, &quot;ഘനമായി&quot; എന്നിവയാണു്.</long>
+        </locale>
+
+        <locale name="mn">
+        <short>Өнгөний тунаралтын төрөл</short>
+        <long>Дэвсгэрийн өнгөний уусалтыг тохируулах. Боломжит утгууд нь »horizontal-gradient« (хэвтээ уусалт), »vertical-gradient« (босоо уусалт) мөн »solid« (дан өнгийн).</long>
+        </locale>
+
+        <locale name="mr">
+        <short>रंग छटाचे प्रकार</short>
+        <long>पार्श्वभूमीतील रंगाची छटा कशी बदलवायची. संभाव्य मुल्य आहे &quot;आडवे-ग्रेडीयंट&quot;, &quot;उभे-ग्रेडीयंट&quot;, व &quot;गडद&quot;.</long>
+        </locale>
+
+        <locale name="ms">
+        <short>Jenis Kesuraman Warna</short>
+        
+        </locale>
+
+        <locale name="nb">
+        <short>Type skyggelegging av farger</short>
+        <long>Hvordan bakgrunnsfargen skal skyggelegges. Mulige verdier er «horizontal-gradient», «vertical-gradient» og «solid».</long>
+        </locale>
+
+        <locale name="ne">
+        <short>रङ छाया पार्ने प्रकार</short>
+        
+        </locale>
+
+        <locale name="nl">
+        <short>Type kleurschakering</short>
+        <long>Hoe de achtergrondkleur getekend moet worden. Mogelijke waarden zijn ‘horizontal-gradient’, ‘vertical-gradient’, ‘solid’.</long>
+        </locale>
+
+        <locale name="nn">
+        <short>Type skuggelegging av fargar</short>
+        <long>Korleis bakgrunnsfargen skal skuggeleggjast. Moglege verdiar er «horizontal-gradient», «vertical-gradient» og «solid».</long>
+        </locale>
+
+        <locale name="or">
+        <short>ରଙ୍ଗ ଛାୟଙ୍କନ ପ୍ରକାର</short>
+        <long>ପୃଷ୍ଠଭୂମି ରଙ୍ଗ କିପରି ଛାୟଙ୍କନ କରାଯିବ. ସମ୍ଭାବ୍ଯ ମୂଲ୍ଯଗୁଡ଼ିକ ହେଲା &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, ଏବଂ &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="pa">
+        <short>ਰੰਗ ਸ਼ੇਡਿੰਗ ਕਿਸਮ</short>
+        <long>ਬੈਕਗਰਾਊਂਡ ਦੇ ਰੰਗ ਦਾ ਸ਼ੇਡ ਕਿਵੇਂ ਹੋਵੇ ਸੰਭਵ ਮੁੱਲ ਹਨ &quot;ਲੇਟਵਾਂ ਢਾਲਵਾਂ&quot;, &quot;ਲੰਬਕਾਰੀ ਢਾਲਵਾਂ&quot; ਅਤੇ &quot;ਇਕਸਾਰ&quot;</long>
+        </locale>
+
+        <locale name="pl">
+        <short>Typ przejścia pomiędzy kolorami</short>
+        <long>Metoda przejścia pomiędzy kolorami tła. Możliwymi wartościami są &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, oraz &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="pt">
+        <short>Tipo de Sombreado de Cor</short>
+        <long>Como sombrear a cor de fundo. Valores possíveis são &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, e &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="pt_BR">
+        <short>Tipo de gradiente de cor</short>
+        <long>Como sombrear a cor de fundo. Os valores possíveis são &quot;horizontal-gradient&quot; (gradiente horizontal), &quot;vertical-gradient&quot; (gradiente vertical), e &quot;solid&quot; (sólida).</long>
+        </locale>
+
+        <locale name="ro">
+        <short>Tip umbrire culoare</short>
+        <long>Cum va fi umbrită culoarea de fundal. Valorile posibile sunt „horizontal-gradient”, „vertical-gradient” și „solid”.</long>
+        </locale>
+
+        <locale name="ru">
+        <short>Тип цветового перехода</short>
+        <long>Как изменять цвет фона. Возможные значения: «horizontal-gradient», «vertical-gradient» и «solid».</long>
+        </locale>
+
+        <locale name="sk">
+        <short>Typ farebného tieňovania</short>
+        <long>Ako tieňovať farbu pozadia. Možné hodnoty sú &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; a &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="sl">
+        <short>Vrsta senčenja barv</short>
+        <long>Kako naj se senči barva ozadja. Mogoče vrednosti so &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, in &quot;solid&quot;</long>
+        </locale>
+
+        <locale name="sq">
+        <short>Lloji i sfumimit të ngjyrave</short>
+        <long>Tregon se si duhet sfumuar ngjyra e sfondit. Vlerat e mundëshme janë &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, dhe &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="sr">
+        <short>Врста претапања боја</short>
+        <long>Како да претапа боје позадине. Могуће вредности су „horizontal-gradient“, „vertical-gradient“ и „solid“.</long>
+        </locale>
+
+        <locale name="sr@ije">
+        <short>Врста претапања боја</short>
+        
+        </locale>
+
+        <locale name="sr@latin">
+        <short>Vrsta pretapanja boja</short>
+        <long>Kako da pretapa boje pozadine. Moguće vrednosti su „horizontal-gradient“, „vertical-gradient“ i „solid“.</long>
+        </locale>
+
+        <locale name="sv">
+        <short>Färgskuggningstyp</short>
+        <long>Hur bakgrundsfärgen ska skuggas. Möjliga värden är &quot;horizontal-gradient&quot; (vågrät gradient), &quot;vertical-gradient&quot; (lodrät gradient) och &quot;solid&quot; (enfärgad).</long>
+        </locale>
+
+        <locale name="ta">
+        <short>வண்ண நிழலாக்குதல் வகை</short>
+        <long>பின்னணி நிறத்தின் அளவை எப்படி மாற்றுவது. மதிப்புகள் &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, மற்றும் &quot;solid&quot; இருக்கும்</long>
+        </locale>
+
+        <locale name="te">
+        <short>వర్ణ రంజిత రకము</short>
+        <long>బ్యాక్‌గ్రౌండు రంగును యెలా వేయాలి. సాధ్యమగువిలువలు &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, మరియు &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="th">
+        <short>ชนิดการแรเงาสี</short>
+        <long>จะไล่สีพื้นหลังอย่างไร  สามารถตั้งเป็น &quot;horizontal-gradient&quot; &quot;vertical-gradient&quot; หรือ &quot;solid&quot;</long>
+        </locale>
+
+        <locale name="tr">
+        <short>Renk Gölgelendirme Türü</short>
+        <long>Arkaplan renginin nasıl gölgelendirileceği. Geçerli değerler, &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, ve &quot;solid&quot;dir.</long>
+        </locale>
+
+        <locale name="uk">
+        <short>Тип кольорового переходу</short>
+        <long>Тип згасання кольору тла. Можливі значення: &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot; і &quot;solid&quot;.</long>
+        </locale>
+
+        <locale name="vi">
+        <short>Kiểu bóng màu</short>
+        <long>Bóng màu nền như thế nào. Giá trị hợp lệ là:
+ • horizontal-gradient — dốc ngang
+ • vertical-gradient — dốc dọc
+ • solid — đặc.</long>
+        </locale>
+
+        <locale name="xh">
+        <short>Uhlobo loKhusela uMbala</short>
+        
+        </locale>
+
+        <locale name="zh_CN">
+        <short>颜色渐变类型</short>
+        <long>如何渐变背景颜色。可用的值有“水平渐变”，“垂直渐变”和“纯色”。</long>
+        </locale>
+
+        <locale name="zh_HK">
+        <short>背景顏色顯示方式</short>
+        <long>繪畫背景顏色的方式。可使用的值為“horizontal-gradient”、“vertical-gradient”及“solid”。</long>
+        </locale>
+
+        <locale name="zh_TW">
+        <short>背景顏色顯示方式</short>
+        <long>繪畫背景顏色的方式。可使用的值為“horizontal-gradient”、“vertical-gradient”及“solid”。</long>
+        </locale>
+      </schema>
+    </schemalist>
+</gconfschemafile>

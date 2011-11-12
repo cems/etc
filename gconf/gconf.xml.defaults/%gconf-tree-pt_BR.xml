@@ -1,0 +1,2852 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="Usar animação rápida">
+						<longdesc>Definindo como FALSE significa que as peças caem lenta, mas graciosamente. Uma configuração como TRUE faz com que as peças caiam rapidamente.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Altura do tabuleiro personalizado">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Largura do tabuleiro personalizado">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="O tamanho do tabuleiro">
+						<longdesc>O tamanho do tabuleiro para usar. 1 = Personalizado, 2 = Pequeno, 3 = Médio, 4 = Grande.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="O tema para usar">
+						<longdesc>O nome do arquivo de tema para usar.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Soltar a bolinha">
+						<longdesc>Tecla para soltar a bolinha.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Ir para a direita">
+						<longdesc>Tecla para mover à direita.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Ir para esquerda">
+						<longdesc>Tecla para mover à esquerda.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Som">
+						<longdesc>Reproduz os sons dos eventos.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Animar">
+						<longdesc>Usar ou não animação.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="ID do tema">
+						<longdesc>Um número que especifique o tema preferido.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Nível do Jogador Dois">
+						<longdesc>Zero é humano; um a três correspondem ao nível de inteligência do computador.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Nível do Jogador Um">
+						<longdesc>Zero é humano; um a três correspondem ao nível de inteligência do computador.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Visualização do jogo">
+							<longdesc>Visualização do jogo da última sessão salva.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Campo do jogo">
+							<longdesc>Campo do jogo da última sessão salva.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Pontuação do jogo">
+							<longdesc>Pontuação do jogo da última sessão salva.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Tempo entre jogadas">
+							<longdesc>Tempo entre jogadas em milissegundos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Cor de fundo">
+							<longdesc>Cor de fundo. A especificação hexadecimal da cor de fundo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Estilo da bola">
+							<longdesc>Estilo da bola. O nome do arquivo das imagens para usar para as bolas.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Tamanho do campo de jogo">
+							<longdesc>Tamanho do campo de jogo. 1=Pequeno, 2=Médio, 3=Grande. Qualquer outro valor é inválido.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="O lado do tabuleiro a ser exibido">
+						<longdesc>O lado do tabuleiro que está em primeiro plano, &quot;branco&quot;, &quot;preto&quot;, &quot;atual&quot; (o jogador atual) ou &quot;humano&quot; (o lado do jogador humano atual)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="O formato para exibir os movimentos">
+						<longdesc>O formato para exibir os movimentos pode ser &quot;humano&quot; (que pode ser lido normalmente), &quot;lan&quot; (notação algébrica longa), ou &quot;san&quot; (notação algébrica padrão)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="O diretório para a janela de abertura de jogos">
+						<longdesc>O diretório para a janela de abertura de jogos</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="O diretório para a janela de salvamento de jogos">
+						<longdesc>O diretório para a janela de salvamento de jogos</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Marcação para habilitar a barra de ferramentas">
+						<longdesc>Marcação para habilitar a barra de ferramentas</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="Marcação para habilitar navegação em histórico de movimentos">
+						<longdesc>Marcação para habilitar navegação em histórico de movimentos</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="Marcação para mostrar comentários sobre movimentos">
+						<longdesc>Marcação para mostrar comentários sobre movimentos</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="Marcação para habilitar numeração de tabuleiros">
+						<longdesc>Marcação para habilitar numeração de tabuleiros</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="Marcação para habilitar dicas de movimentos">
+						<longdesc>Marcação para habilitar dicas de movimentos</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="Marcação para habilitar modo 3D">
+						<longdesc>Marcação para habilitar modo 3D</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="Promover peões para">
+						<longdesc>A peça a que o peão deve ser promovido quando um jogador humano move um peão até a última casa. Pode ser: &quot;dama&quot;, &quot;cavalo&quot;, &quot;torre&quot;, &quot;bispo&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="Marcação para habilitar suporte a jogo em rede">
+						<longdesc>Marcação para habilitar suporte a jogo em rede</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="Marcação para habilitar modo tela cheia">
+						<longdesc>Marcação para habilitar modo tela cheia</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="Marcação para habilitar modo maximizado">
+						<longdesc>Marcação para habilitar modo maximizado</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="A altura da janela">
+						<longdesc>A altura da janela principal em pixels.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="A largura da janela">
+						<longdesc>A largura da janela principal em pixels.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="Marcação que permite jogares remotos observarem novos jogos">
+							<longdesc>Marcação que permite jogares remotos observarem novos jogos</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="A quantidade de tempo que cada jogador tem para o movimento em novos jogos">
+							<longdesc>A quantidade de tempo que cada jogador tem para o movimento em novos jogos</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="A dificuldade padrão para as pretas em novos jogos">
+								<longdesc>A dificuldade padrão para as pretas em novos jogos</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="O tipo de jogador padrão para as pretas em novos jogos">
+								<longdesc>O tipo de jogador padrão para as pretas em novos jogos</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="A dificuldade padrão para as brancas em novos jogos">
+								<longdesc>A dificuldade padrão para as brancas em novos jogos</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="O tipo de jogador padrão para as brancas em novos jogos">
+								<longdesc>O tipo de jogador padrão para as brancas em novos jogos</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="Jogos realizados recentemente">
+						<longdesc>Uma lista de jogos realizados recentemente.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="Estatísticas dos jogos realizados">
+						<longdesc>Uma lista de texto que vem em forma de quíntuplo: nome, vitórias, total de jogos, melhor tempo (em segundos) e pior tempo (também em segundos). Não é necessário mostrar jogos não realizados.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="O arquivo de jogo a usar">
+						<longdesc>O nome do arquivo de esquema que contém o jogo de paciência para jogar.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Som">
+						<longdesc>Reproduz os sons dos eventos.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Selecionar o estilo de controle">
+						<longdesc>Selecione se as cartas devem ser arrastadas ou se deve ser clicado na origem e no destino.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_statusbar">
+					<local_schema short_desc="Mostrar a barra de status">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Mostrar a barra de ferramentas">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Nome do arquivo de tema">
+						<longdesc>O nome do arquivo que contém os gráficos das cartas.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Tecla para esperar">
+							<longdesc>O nome da tecla usada para esperar. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Tecla para teletransporte aleatório">
+							<longdesc>O nome da tecla usada para teletransportar aleatoriamente. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Tecla para teletransporte">
+							<longdesc>O nome da tecla usada para teletransportar seguramente (se possível). O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Tecla para mover à direita e para baixo">
+							<longdesc>O nome da tecla usada para mover à direita e abaixo. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Tecla para mover para baixo">
+							<longdesc>O nome da tecla usada para mover abaixo. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Tecla para mover à esquerda e para baixo">
+							<longdesc>O nome da tecla usada para mover à esquerda e abaixo. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Tecla para mover à direita">
+							<longdesc>O nome da tecla par mover à direita. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Tecla para ficar parado">
+							<longdesc>O nome da tecla usada para ficar parado. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Tecla para mover à esquerda">
+							<longdesc>O nome da tecla usada para mover à esquerda. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Tecla para mover à direita e para cima">
+							<longdesc>O nome da tecla usada para mover à direita e para cima. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Tecla para mover para cima">
+							<longdesc>O nome da tecla usada para mover para cima. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Tecla para mover à esquerda e para cima">
+							<longdesc>O nome da tecla usada para mover à esquerda e para cima. O nome é o nome padrão da tecla no X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Habilitar splats">
+							<longdesc>Habilitar splats. Reproduz um som e mostra um &quot;Splat!&quot; na tela.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Habilitar sons do jogo">
+							<longdesc>Habilitar sons do jogo. Reproduz sons para vários eventos durante o jogo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Usar movimentos super seguros">
+							<longdesc>Usar movimentos super seguros. O jogador é alertado quando não há movimento seguro e a única opção é o teletransporte.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Usar movimentos seguros">
+							<longdesc>Usar movimentos seguros. A opção de movimentos seguros irá lhe ajudar a evitar ser morto por um erro. Se você tentar fazer um movimento que ocasionaria sua morte quando há um movimento seguro disponível, você não poderá prosseguir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Tipo de jogo">
+							<longdesc>Tipo de jogo. O nome da variação do jogo para usar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Cor de fundo">
+							<longdesc>Cor de fundo. A especificação hexadecimal da cor de fundo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Tema de imagem do robô">
+							<longdesc>Tema de imagem do robô. O tema das imagens para usar para os robôs.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="Mostrar barra de ferramentas">
+							<longdesc>Mostrar barra de ferramentas. Uma opção padrão para barra de ferramentas.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Tamanho dos espaços de jogo">
+							<longdesc>Tamanho dos espaços de jogo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Habilitar sons">
+							<longdesc>Habilitar os sons.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Nível inicial">
+							<longdesc>Nível inicial do jogo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Níveis ordenados aleatoriamente">
+							<longdesc>Níveis ordenados aleatoriamente.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Habilitar bônus falsos">
+							<longdesc>Habilitar bônus falsos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Velocidade do jogo">
+							<longdesc>Velocidade do jogo (1=rápido, 4=lento).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="Número de jogadores de IA">
+							<longdesc>Número de jogadores de IA.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="Número de jogadores humanos">
+							<longdesc>Número de jogadores humanos.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Ir para a direita">
+									<longdesc>Tecla para mover à direita.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Ir para esquerda">
+									<longdesc>Tecla para mover à esquerda.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Move para baixo">
+									<longdesc>Tecla para mover para baixo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mover para cima">
+									<longdesc>Tecla para mover para cima.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Usar movimento relativo">
+									<longdesc>Usar movimento relativo (ou seja, apenas para a esquerda e direita).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Cor para usar para a minhoca">
+									<longdesc>Cor para usar para a minhoca.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Ir para a direita">
+									<longdesc>Tecla para mover à direita.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Ir para esquerda">
+									<longdesc>Tecla para mover à esquerda.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Move para baixo">
+									<longdesc>Tecla para mover para baixo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mover para cima">
+									<longdesc>Tecla para mover para cima.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Usar movimento relativo">
+									<longdesc>Usar movimento relativo (ou seja, apenas para a esquerda e direita).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Cor para usar para a minhoca">
+									<longdesc>Cor para usar para a minhoca.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Ir para a direita">
+									<longdesc>Tecla para mover à direita.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Ir para esquerda">
+									<longdesc>Tecla para mover à esquerda.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Move para baixo">
+									<longdesc>Tecla para mover para baixo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mover para cima">
+									<longdesc>Tecla para mover para cima.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Usar movimento relativo">
+									<longdesc>Usar movimento relativo (ou seja, apenas para a esquerda e direita).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Cor para usar para a minhoca">
+									<longdesc>Cor para usar para a minhoca.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Ir para a direita">
+									<longdesc>Tecla para mover à direita.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Ir para esquerda">
+									<longdesc>Tecla para mover à esquerda.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Move para baixo">
+									<longdesc>Tecla para mover para baixo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mover para cima">
+									<longdesc>Tecla para mover para cima.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Usar movimento relativo">
+									<longdesc>Usar movimento relativo (ou seja, apenas para a esquerda e direita).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Cor para usar para a minhoca">
+									<longdesc>Cor para usar para a minhoca.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Ir para a direita">
+									<longdesc>Tecla para mover à direita.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Ir para esquerda">
+									<longdesc>Tecla para mover à esquerda.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Move para baixo">
+									<longdesc>Tecla para mover para baixo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mover para cima">
+									<longdesc>Tecla para mover para cima.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Usar movimento relativo">
+									<longdesc>Usar movimento relativo (ou seja, apenas para a esquerda e direita).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Cor para usar para a minhoca">
+									<longdesc>Cor para usar para a minhoca.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Ir para a direita">
+									<longdesc>Tecla para mover à direita.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Ir para esquerda">
+									<longdesc>Tecla para mover à esquerda.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Move para baixo">
+									<longdesc>Tecla para mover para baixo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mover para cima">
+									<longdesc>Tecla para mover para cima.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Usar movimento relativo">
+									<longdesc>Usar movimento relativo (ou seja, apenas para a esquerda e direita).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Cor para usar para a minhoca">
+									<longdesc>Cor para usar para a minhoca.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Selecionar o estilo de controle">
+						<longdesc>Selecione se os ladrilhos devem ser arrastados ou se devem ser clicados na origem e no destino.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="Controlar ladrilhos coloridos">
+						<longdesc>Um sinalizador para habilitar ladrilhos coloridos.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="O tamanho da grade de jogo">
+						<longdesc>O valor desta chave é usado para decidir o tamanho da grade de jogo. Os valores válidos são de 2 a 8, qualquer outro valor é definido como 3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Pausar">
+							<longdesc>Tecla para pausar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Girar">
+							<longdesc>Tecla para girar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Soltar">
+							<longdesc>Tecla para soltar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Move para baixo">
+							<longdesc>Tecla para mover para baixo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Ir para a direita">
+							<longdesc>Tecla para mover à direita.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Ir para esquerda">
+							<longdesc>Tecla para mover à esquerda.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="A densidade das linhas preenchidas">
+							<longdesc>A densidade de blocos em linhas preenchidas no começo do jogo. O valor pode variar entre 0 (nenhum bloco) e 10 (pra uma coluna completamente cheia).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="O número de linhas a preencher">
+							<longdesc>O número de linhas que estarão preenchidas com blocos randômicos no começo do jogo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Girar no sentido anti-horário">
+							<longdesc>Gira ou não no sentido anti-horário.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Dar ou não cores aleatórias aos blocos">
+							<longdesc>Dá cores aleatórias aos blocos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="Mostrar um alvo">
+							<longdesc>Mostra uma representação gráfica de onde o bloco cairá.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Visualizar ou não o bloco seguinte">
+							<longdesc>Visualiza o bloco seguinte.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="A cor do plano de fundo">
+							<longdesc>A cor do plano de fundo, num formato que gdk_color_parse entende.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Usar a imagem do plano de fundo">
+							<longdesc>Isto seleciona se deve desenhar a imagem do plano de fundo sobre a cor do plano de fundo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Nível inicial">
+							<longdesc>Nível inicial do jogo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="O tema para usar para desenhar os blocos">
+							<longdesc>O nome do tema usado para desenhar os blocos e o plano de fundo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Imagem para usar para desenhar os blocos">
+							<longdesc>Imagem para usar para desenhar os blocos.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Exibir pensamentos do computador">
+						<longdesc>Se verdadeiro, o trabalho da IA será despejado na saída padrão.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Espera entre jogadas">
+						<longdesc>Escolha se deseja ou não inserir um intervalo entre o lançamento do dado pelo computador para que o jogador possa acompanhar o que está acontecendo.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="O quebra-cabeça em jogo">
+						<longdesc>O número do quebra-cabeça sendo jogado.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nm-applet">
+				<entry name="disable-wifi-create">
+					<local_schema short_desc="Desabilitar criação de WiFi">
+						<longdesc>Defina como TRUE para desabilitar a criação de redes adhoc quando usar o miniaplicativo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="stamp">
+					<local_schema short_desc="Selo">
+						<longdesc>Usado para determinar se as configurações devem ser migradas para uma nova versão.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="suppress-wireless-networks-available">
+					<local_schema short_desc="Não mostrar notificações de redes disponíveis">
+						<longdesc>Defina como TRUE para desabilitar notificações quando redes sem fio estiverem disponíveis</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-disconnected-notifications">
+					<local_schema short_desc="Desabilitar notificações de desconexão">
+						<longdesc>Defina como TRUE para desabilitar notificações ao desconectar-se de uma rede.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-connected-notifications">
+					<local_schema short_desc="Desabilitar notificações de conexão">
+						<longdesc>Defina como TRUE para desabilitar notificações ao conectar-se a uma rede.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Som">
+						<longdesc>Reproduz os sons dos eventos.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Estilo da Barra de Ferramentas">
+							<longdesc>Estilo da barra de Ferramentas. Valores permitidos são: ambos, ambos_horiz, ícone e texto</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Permitir a seleção de regiões sem foco">
+								<longdesc>Alguns diálogos contêm somente um campo de entrada simples que permite seleções longas na pasta de trabalho. Definindo esta variável para VERDADEIRO direciona as seleções para essa entrada mesmo que este campo de entrada não tenha o foco do teclado.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema short_desc="Formato do cabeçalho e rodapé (trecho à direita)">
+							<longdesc>Por favor, utilize o diálogo de Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema short_desc="Formato de cabeçalho e rodapé (trecho do meio)">
+							<longdesc>Por favor, utilize o diálogo de Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema short_desc="Formato de Cabeçalho e rodapé (trecho à esquerda)">
+							<longdesc>Por favor, utilize o diálogo de Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paper-orientation">
+						<local_schema short_desc="Papel">
+							<longdesc>Esta é a orientação de papel padrão. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="paper">
+						<local_schema short_desc="Papel">
+							<longdesc>Esta é a especificação de papel padrão. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-right">
+						<local_schema short_desc="Margem inferior padrão">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-left">
+						<local_schema short_desc="Margem esquerda padrão">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-top">
+						<local_schema short_desc="Margem externa superior padrão">
+						</local_schema>
+					</entry>
+					<entry name="margin-gtk-bottom">
+						<local_schema short_desc="Margem exterior inferior padrão">
+						</local_schema>
+					</entry>
+					<entry name="margin-bottom">
+						<local_schema short_desc="Margem inferior padrão">
+							<longdesc>Este valor fornece o número padrão de pontos da parte inferior de uma página até o final do corpo. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="margin-top">
+						<local_schema short_desc="Margem superior padrão">
+							<longdesc>Este valor fornece o número padrão de pontos do topo de uma página até o início do corpo. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="preferred-unit">
+						<local_schema short_desc="Unidade de exibição preferida">
+							<longdesc>Este texto fornece a unidade padrão a ser usada no diálogo configurar página.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-left">
+						<local_schema short_desc="Região de repetição esquerda padrão">
+							<longdesc>Este texto fornece a região padrão a ser repetida à esquerda de cada pasta impressa. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="repeat-top">
+						<local_schema short_desc="Região de repetição superior padrão">
+							<longdesc>Este texto fornece a região padrão a ser repetida no início de cada planilha impressa. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-height">
+						<local_schema short_desc="Altura padrão de redimensionamento">
+						</local_schema>
+					</entry>
+					<entry name="scale-width">
+						<local_schema short_desc="Largura padrão de redimensionamento">
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage-value">
+						<local_schema short_desc="Escala de porcentagem padrão">
+							<longdesc>Este valor fornece a porcentagem de fator de escala que deve ser aplicada a cada página impressa. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="scale-percentage">
+						<local_schema short_desc="Tipo padrão de escala">
+							<longdesc>Este valor determina a configuração padrão no diálogo Configurar Impressão sobre quando aplicar o efeito de escala por uma dada porcentagem. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="across-then-down">
+						<local_schema short_desc="Direção de impressão padrão">
+							<longdesc>Este valor determina a configuração padrão no diálogo Configurar Impressão sobre quando imprimir primeiro à direita e depois a baixo. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-titles">
+						<local_schema short_desc="Título de impressão padrão">
+							<longdesc>Este valor determina o valor padrão de configuração no diálogo Configurar Impressão sobre quando se deve imprimir cabeçalhos de linhas e colunas. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-black-n-white">
+						<local_schema short_desc="Impressão padrão em preto e branco">
+							<longdesc>Este valor determina a configuração padrão no diálogo Configurar Impressão sobre quando imprimir somente em preto e branco. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-even-if-only-styles">
+						<local_schema short_desc="Células de impressão padrão somente com estilos">
+							<longdesc>Este valor determina a configuração padrão no diálogo Configurar Impressão sobre quando imprimir células vazias mas formatadas. Por favor, utilize o diálogo Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="print-grid-lines">
+						<local_schema short_desc="Linha de grade de impressão padrão">
+							<longdesc>&gt;Este valor determina a configuração padrão no diálogo de Configurar Impressão ao imprimir linhas de grade. Por favor, utilize o diálogo de Configurar Impressão para editar este valor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="center-vertically">
+						<local_schema short_desc="Centralização vertical padrão">
+						</local_schema>
+					</entry>
+					<entry name="center-horizontally">
+						<local_schema short_desc="Centralização horizontal padrão">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="A fonte padrão do cabeçalho e rodapé é itálico.">
+							<longdesc>Este valor determina se a fonte padrão para cabeçalhos e rodapés é itálico.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="A fonte padrão do cabeçalho e rodapé é negrito.">
+							<longdesc>Este valor determina se a fonte padrão para cabeçalhos e rodapés é negrito.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema short_desc="Nome de fonte padrão do cabeçalho e rodapé">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema short_desc="Tamanho de fonte padrão do cabeçalho e rodapé">
+							<longdesc>Tamanho da fonte padrão para cabeçalhos e rodapés.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="Rodapé da página">
+							<longdesc>O rodapé de página padrão para novos documentos que não podem ser modificados usando o diálogo da configuração de página.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="Cabeçalho da página">
+							<longdesc>O cabeçalho de página padrão para novos documentos que não podem ser modificados usando o diálogo da configuração de página.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-setting">
+						<local_schema short_desc="GTKPrintSetting">
+							<longdesc>A configuração de GTKPrintSetting. Não edite essa variável.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="all-sheets">
+						<local_schema short_desc="Aplicar a configuração de impressão para todas as planilhas">
+							<longdesc>Este valor determina se, por padrão, o diálogo de configuração de impressão é aplicado a todas as pastas simultâneamente.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Diretório do Usuário para Autoformatos">
+							<longdesc>O diretório principal para modelos de formatação automática especificados pelo usuário.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Diretório de sistema para formatos automáticos">
+							<longdesc>Esse diretório contém modelos de formatação automática pré-instalados.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="Lista de diretórios de formatação automática extra.">
+							<longdesc>Esta lista contém todos os diretórios extras contendo modelos de formatação automática.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="Lista de diretórios de plugin extra.">
+							<longdesc>Esta lista contém todos os diretórios extras contendo plugins.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Lista dos estados dos arquivos de plugin.">
+							<longdesc>Esta lista contém todos os estados de arquivos de plugin.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Lista de plugins conhecidos.">
+							<longdesc>Esta lista contém todos os plugins conhecidos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Lista de plugins ativos.">
+							<longdesc>Essa lista contém todos os plugins que deveriam ser ativados automaticamente.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Ativar novos plugins">
+							<longdesc>Esta variável determina se é para ativar cada novo plugin encontrado.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Corrigir automaticamente a substituição">
+							<longdesc>Corrigir automaticamente a substituição</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Corrigir automaticamente os nomes dos dias">
+							<longdesc>Corrigir automaticamente os nomes dos dias</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="Lista das exceções de primeira letra">
+							<longdesc>A ferramenta de correção automática não corrige a primeira letra para palavras nessa lista.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="Corrigir automaticamente a primeira letra">
+							<longdesc>Corrigir automaticamente a primeira letra</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="Lista das excessões de maiusculização inicial">
+							<longdesc>A ferramenta de correção automática não corrige a maiusculização inicial para palavras nesta lista.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Corrigir automaticamente a maiusculização inicial">
+							<longdesc>Corrigir automaticamente a maiusculização inicial</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="O comprimento máximo da lista das funções recentemente utilizadas">
+							<longdesc>A função de seleção guarda uma lista das funções recentemente utilizadas. Esse é o tamanho máximo dessa lista.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Lista das funções recentemente utilizadas.">
+							<longdesc>A função de seleção guarda uma lista das funções recentemente utilizadas. Essa é a lista.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="Preferir CLIPBOARD sobre a seleção PRIMÁRIA">
+							<longdesc>Quando VERDADEIRO, o Gnumeric irá preferir a forma moderna de seleção da Área de Transferência. Ative FALSO se você irá trabalhar com aplicações antigas, como o Xterm ou Emacs, que ativam apenas a seleção PRIMÁRIA.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Número de Cláusulas Automáticas">
+									<longdesc>Quando uma região de ordenação estiver sendo selecionada, as regras de busca são automaticamente adicionadas. Este número determina o número máximo de regras que podem ser adicionadas automaticamente.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Ordem Crescente">
+									<longdesc>Essa opção determina o estado inicial do botão da direção de ordenação na caixa de diálogo de ordenação.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="Ordenar Preserva Formatos">
+									<longdesc>Selecionando esta opção, os botões de ordenação na barra de ferramentas preservam os formatos das células durante a ordenação e determinam os estados iniciais dos formatos preservados na caixa de diálogo de ordenação.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Ordenar Diferencia Maiúsculas de Minúsculas">
+									<longdesc>Selecione esta opção para que os botões de ordenar na barra de ferramentas realizem uma ordenação diferenciando letras maiúsculas e minúsculas, e determinem o estado inicial do botão de verificação de diferenciar maiúsculas e minúsculas na janela do comando ordenar.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Sobrescrever Arquivos como Padrão ao Salvar">
+									<longdesc>Antes de um arquivo existente ser sobrescrito, o gnumeric apresentará um diálogo de aviso. Ativando esta opção, o botão de sobrescrever será o botão padrão do diálogo de aviso.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Avisar Quando for Exportar em Formato de Pastas Simples">
+									<longdesc>Alguns formatos de arquivos podem conter somente uma planilha simples. Esta variável determina se o usuário será avisado se somente uma planilha simples de uma pasta de trabalho multi-planilha está sendo salva.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Nível de Compressão Padrão para Arquivos Gnumeric">
+								<longdesc>Esse inteiro (entre 0 e 9) especifica o nível da compressão aplicada pelo Gnumeric quando salva arquivos no formato de arquivo padrão. 0 é a compressão mínima, enquanto 9 é a compressão máxima.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Fator Padrão de Zoom">
+									<longdesc>O fator de zoom inicial para novas pastas de trabalho.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Tamanho Padrão da Janela Vertical">
+									<longdesc>Esse número (entre 0.25 e 1.00) dá a fração vertical do tamanho da tela coberta pela janela padrão.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Tamanho Padrão da Janela Horizontal">
+									<longdesc>Esse número (entre 0.25 e 1.00) dá a fração horizontal do tamanho da tela coberta pela janela padrão.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="Chaves de Transição">
+								</local_schema>
+							</entry>
+							<entry name="recalclag">
+								<local_schema short_desc="Atraso no Recálculo da Auto Expressão">
+									<longdesc>Se &quot;intervalo&quot; é 0, o gnumeric recalcula todas as expressões automáticas imediatamente após cada mudança. Valores diferentes de zero para o &quot;intervalo&quot; permitem ao gnumeric acumular mais alterações antes de cada recálculo. Se &quot;intervalo&quot; é positivo, então quando surge uma alteração o gnumeric aguarda &quot;intervalo&quot; milisegundos e então realiza o recálculo, se mais alterações surgem durante este intervalo, elas são também processadas naquele momento. Se &quot;intervalo&quot; é negativo, então o recálculo apenas ocorre após um período inativo de |intervalo| milisegundos.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Rolagem Automática">
+									<longdesc>Esta variável determina se a barra de rolagem automática (em oposição à barra com atraso) é ativada.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Autocompletar">
+									<longdesc>Essa variável determina se o recurso autocompletar está ativo.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="toolbars">
+							<entry name="ObjectToolbar-position">
+								<local_schema>
+									<longdesc>Essa variável determina onde a barra de ferramentas Objetos deve estar visível. 0, à esquerda; 1, à direita e 2, no topo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="ObjectToolbar">
+								<local_schema short_desc="Barra de ferramentas Objetos visível">
+									<longdesc>Essa variável determina se a barra de ferramentas Objetos deve estar visível ao iniciar.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar-position">
+								<local_schema>
+									<longdesc>Esta variável determina como a barra de ferramentas Formatar deve ser mostrada. 0, à esquerda; 1, à direita e 2, no topo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="FormatToolbar">
+								<local_schema short_desc="Barra de ferramentas Formatar visível">
+									<longdesc>Esta variável determina se a barra de ferramentas Formatar deve estar visível ao iniciar.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar-position">
+								<local_schema short_desc="Posição da barra de ferramentas padrão.">
+									<longdesc>Esta variável determina onde a barra de ferramentas Padrão deve estar visível. 0, à esquerda; 1, à direita e 2, no topo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="StandardToolbar">
+								<local_schema short_desc="Barra de ferramentas Padrão visível">
+									<longdesc>Esta variável determina se a barra de ferramentas Padrão deve estar visível ao iniciar.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="DPI Vertical">
+									<longdesc>Resolução da tela na direção vertical.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="DPI Horizontal">
+									<longdesc>Resolução da tela na direção horizontal.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Número Padrão de Pastas">
+								<longdesc>O número de planilhas inicialmente criadas em uma nova pasta de trabalho.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="A fonte padrão é itálico.">
+								<longdesc>Este valor determina se a fonte padrão para um nova pasta de trabalho é itálico.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="A fonte padrão é negrito.">
+								<longdesc>Este valor determina se a fonte padrão para um nova pasta de trabalho é negrito.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Nome da Fonte Padrão">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Tamanho da Fonte Padrão">
+								<longdesc>O tamanho da fonte padrão para novas pastas de trabalho.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Tamanho das Descrições do Desfazer">
+							<longdesc>Este valor indica o tamanho máximo das descriçõoes de comando nas listas de desfazer e refazer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="Número de Itens do Desfazer">
+							<longdesc>Este valor determina o número máximo de itens na lista de desfazer/refazer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Tamanho Máximo do Desfazer">
+							<longdesc>Este valor determina o comprimento da pilha de desfazer. Cada ação de edição tem um tamanho associado, de modo que se possa compará-la com as necessidades de uma edição simples de uma célula (tamanho 1). A lista de desfazer será truncada quando o seu tamanho total exceder a este valor configurável.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Mostrar Nome da Pasta na Lista de Desfazer">
+							<longdesc>Este valor determina se devem ser mostrados os nomes das pastas nas listas de desfazer e refazer.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="Utilizar UTF-8 na Exportação LaTeX">
+								<longdesc>Essa opção determina se arquivos LaTeX criados usam UTF-8 (unicode) ou ISO-8859-1 (Latin1). Para usar arquivos UTF-8, você deve ter os pacotes ucs LaTeX instalados.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="Se exibe o ícone de notificação">
+						<longdesc>Se exibe o ícone de notificação.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Sobrescrever restrições do documento">
+						<longdesc>Ignora restrições do documento original, como restrição a cópia ou impressão.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="Habilitar o posicionamento automático de bandeiras">
+						<longdesc>Defina como verdadeiro para ter o gnomine automaticamente marcar os quadrados como minados, quando suficientes quadrados forem revelados</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="Aviso sobre muitas bandeiras">
+						<longdesc>Defina como verdadeiro para habilitar ícones de aviso quando muitas marcas forem colocadas.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="Usar a bandeira desconhecida">
+						<longdesc>Defina como verdadeiro para poder marcar espaços como desconhecidos.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="Tamanho do tabuleiro">
+							<longdesc>Tamanho do tabuleiro (0-2 = pequeno-grande, 3=customizado)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="O número de minas em um jogo personalizado">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="Número de linhas em um jogo personalizado">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="Número de colunas em um jogo personalizado">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Mostrar a barra de ferramentas">
+						<longdesc>Mostra a barra de ferramentas.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="A quantia em dinheiro no seu banco">
+							<longdesc>A quantia em dinheiro no seu banco.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Nome do arquivo de tema">
+							<longdesc>O nome do arquivo que contém os gráficos das cartas.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Nunca pegar seguro">
+							<longdesc>Nunca pegar seguro com um carteador mostrando um ás.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Distribuir rapidamente">
+							<longdesc>Distribuir rapidamente, sem intervalo entre cada carta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Exibir probabilidades">
+							<longdesc>Exibe as probabilidades de cada mão do carteador e o valor esperado da sua mão.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="A variação do arquivo de regras para usar">
+							<longdesc>O nome do arquivo de regras que contém a variação de regras para jogar.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Habilitar opção de proteção de gravação">
+						<longdesc>Se deve ser usada a opção de proteção de gravação disponível em alguns gravadores.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Habilitar gravação extra (overburn)">
+						<longdesc>Se deve ser permitido que os dados excedam o tamanho da mídia física.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Habilitar depuração">
+						<longdesc>Se deve ser habilitada a depuração para a Gravação de CD.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Velocidade padrão de gravação">
+						<longdesc>Velocidade padrão à qual a mídia será gravada.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Diretório para as imagens ISO temporárias">
+						<longdesc>Diretório usado para as imagens ISO temporárias. Deixe em branco para usaro diretório de temporários padrão do sistema.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="Habilitar o componente PKCS#11 do gnome-keyring.">
+							<longdesc>Esta opção habilita o componente PKCS#11 no daemon do gnome-keyring. Ela só tem efeito quando o gnome-keyring-daemon inicia, ou seja, quando o usuário inicia uma sessão. Esta configuração pode ser substituída quando certos argumentos de linha de comando são passados para o daemon.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="Habilitar o agente SSH do gnome-keyring.">
+							<longdesc>Esta opção habilita o agente SSH no daemon do gnome-keyring. Ela só tem efeito quando o gnome-keyring-daemon inicia, ou seja, quando o usuário inicia uma sessão. Esta configuração pode ser substituída quando certos argumentos de linha de comando são passados para o daemon.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Tema de ícones de arquivos">
+							<longdesc>Tema usado para exibir ícones de arquivos.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="Sons de retorno de entrada">
+							<longdesc>Reproduzir sons em eventos de entrada.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="Nome do tema de som">
+							<longdesc>O tema de som XDG para usar como sons de evento.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="Sons para eventos">
+							<longdesc>Reproduzir sons em eventos do usuário.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Habilitar ESD">
+							<longdesc>Habilitar servidor de áudio ao iniciar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="Faixas">
+							<longdesc>As faixas de mixer padrão usadas pelos atalhos de teclado multimídia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="Dispositivo padrão de mixer">
+							<longdesc>O dispotivo de mixer padrão usado por atalhos de teclado multimídia.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Mostrar menu &quot;Caractere de controle unicode&quot;">
+							<longdesc>Os menus de contexto de entradas e textos devem oferecer a opção de inserir caracteres de controle.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Mostrar menu &quot;Métodos de entrada&quot;">
+							<longdesc>Os menus de contexto de entradas e textos devem oferecer a opção de alterar o método de entrada.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Acelerador da barra de menu">
+							<longdesc>Atalho de teclado para abrir as barras de menu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Módulo para GTkFileChooser">
+							<longdesc>Módulo para usar como modelo de sistema de arquivos para o componente GtkFileChooser. Os valores possíveis são &quot;gio&quot;, &quot;gnome-vfs&quot; e &quot;gtk+&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Barra de status à direita">
+							<longdesc>Exibe um medidor da barra de status à direita.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Usar fonte personalizada">
+							<longdesc>Usa uma fonte personalizada nos aplicativos gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Fonte monoespaçada">
+							<longdesc>Nome de uma fonte monoespaçada (largura-fixa) para ser usada em locais como terminais.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Fonte para documentos">
+							<longdesc>Nome da fonte padrão usada para ler documentos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="Módulo GTK ME">
+							<longdesc>Nome do módulo de método de entrada usado pelo GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="Estilo de status do GTK ME">
+							<longdesc>Nome do estilo de status do método de entrada GTK+ usado pelo gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="Estilo de Preedit do GTK ME">
+							<longdesc>Nome do estilo Preedit do método de entrada GTK+ usado pelo gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Fonte padrão">
+							<longdesc>Nome da fonte padrão usada pelo gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Tema do Gtk+">
+							<longdesc>Nome base do tema padrão usado pelo gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Tema do Gtk+">
+							<longdesc>Nome base do tema padrão usado pelo gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Tema de ícones">
+							<longdesc>Tema de ícones usados para o painel, nautilus etc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Tempo de intermitência do cursor">
+							<longdesc>Tamanho do ciclo da piscada do cursor, em milissegundos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Intermitência do cursor">
+							<longdesc>O cursor deve piscar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Tamanho dos ícones da barra de ferramentas">
+							<longdesc>Tamanho dos ícones em barras de ferramentas; &quot;small-toolbar&quot; (pequenos) ou &quot;large-toolbar&quot; (grandes).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Barra de ferramentas destacável">
+							<longdesc>O usuário pode destacar as barras de ferramentas e movê-las.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Barra de menu destacável">
+							<longdesc>O usuário pode destacar as barras de menu e movê-las.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="Os botões têm ícones">
+							<longdesc>Os botões devem exibir um ícone junto ao texto do botão.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Os menus têm ícones">
+							<longdesc>Os menus devem exibir um ícone próximo à entrada de menu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Estilo da barra de ferramentas">
+							<longdesc>Estilo da barra de ferramentas. Valores válidos são &quot;both&quot; (ambos), &quot;both-horiz&quot; (texto seletivo ao lado), &quot;icons&quot; (apenas ícones) e &quot;text&quot; (apenas texto).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Aceleradores podem ser mudados">
+							<longdesc>O usuário pode ou não digitar dinamicamente um acelerador quando posicionado em um item de menu ativo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Os menus são destacáveis">
+							<longdesc>Os menus devem ser destacáveis.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Habilitar animações">
+							<longdesc>As animações devem ser exibidas. Nota: Essa é uma chave global, ela altera o comportamento do gerenciador de janelas, do painel, etc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Habilitar acessibilidade">
+							<longdesc>Os aplicativos devem ter suporte a acessibilidade.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Aplicativos de tecnologia assistiva de inicialização">
+								<longdesc>Lista de aplicativos de tecnologia assistiva a serem carregados ao iniciar uma sessão do GNOME.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>Emite um alerta sonoro quando um modificador for pressionado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Desabilitar se duas teclas forem pressionadas ao mesmo tempo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Intervalo mínimo em milissegundos">
+								<longdesc>Não aceita que uma tecla seja pressionada a menos que seja mantida assim por @atraso milissegundos.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Espera inicial em milissegundos">
+								<longdesc>Quantos milissegundos esperar antes que as teclas de movimento do mouse comecem a operar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Por quanto tempo acelerar em milissegundos">
+								<longdesc>Quantos milissegundos leva para ir de 0 até a velocidade máxima.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Pixels por segundos">
+								<longdesc>Quantos pixels por segundo mover na velocidade máxima.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="intervalo mínimo em milisegundos">
+								<longdesc>Ignora múltiplas pressões da _mesma_ tecla dentro de @atraso milissegundos.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Habilitar ou não o bloqueio de teclado">
+							<longdesc>Habilitar ou não o bloqueio de teclado.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Permitir adiamento de intervalo">
+							<longdesc>Permitir ou não adiamento da tela de tempo de intervalo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Tempo de intervalo">
+							<longdesc>Número de minutos que o intervalo de digitação deve durar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Tempo de digitação">
+							<longdesc>Número de minutos de digitação antes de o modo de intervalo começar.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="Desabilitar manipuladores de URL e tipo MIME">
+							<longdesc>Evita a execução de quaisquer aplicativos manipuladores de URL ou tipo MIME.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Desabilitar o bloqueio de tela">
+							<longdesc>Evitar que o usuário bloqueie sua tela.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Desabilitar a troca de usuários">
+							<longdesc>Evitar que o usuário alterne para outra conta enquanto sua sessão estiver ativa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Desabilitar configuração de impressão">
+							<longdesc>Evita que o usuário modifique as configurações de impressão. Por exemplo, isso desabilitaria o acesso ao diálogo &quot;Configuração de impressão&quot; de todos os aplicativos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Desabilitar impressão">
+							<longdesc>Evita que o usuário imprima. Por exemplo, isso desabilitaria o acesso ao diálogo &quot;imprimir&quot; em todos os aplicativos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Desabilitar gravação de arquivos em disco">
+							<longdesc>Evita que o usuário salve arquivos no disco. Por exemplo, isso desabilitaria o acesso ao diálogo &quot;Salvar como&quot; em todos os aplicativos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Desabilitar linha de comando">
+							<longdesc>Evita que o usuário acesse o terminal ou especifique uma linha de comando para ser executada. Por exemplo, isso desabilitaria o acesso ao diálogo &quot;Executar aplicativo&quot; do painel.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Tipo de gradiente de cor">
+							<longdesc>Como sombrear a cor de fundo. Os valores possíveis são &quot;horizontal-gradient&quot; (gradiente horizontal), &quot;vertical-gradient&quot; (gradiente vertical), e &quot;solid&quot; (sólida).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Cor secundária">
+							<longdesc>Cor da direita ou de baixo ao desenhar gradientes, não é usado para a cor sólida.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Cor primária">
+							<longdesc>Cor da esquerda ou topo ao desenhar gradientes, ou a cor sólida.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Opacidade da imagem">
+							<longdesc>Opacidade para desenhar a imagem de fundo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Nome do arquivo da imagem">
+							<longdesc>Arquivo a ser usado para a imagem de plano de fundo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Opções da figura">
+							<longdesc>Determina como a imagem definida por arquivo_papel_de_parede é renderizada. Os valores possíveis são &quot;none&quot; (nenhum), &quot;wallpaper&quot; (papel de parede), &quot;centered&quot; (centralizado), &quot;scaled&quot; (dimensionado),  &quot;stretched&quot; (esticado), e &quot;zoom&quot; (ampliado).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Desenhar plano de fundo da área de trabalho">
+							<longdesc>Fazer com que o GNOME desenhe o plano de fundo da área de trabalho.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>Tamanho máximo das miniaturas em cache, em megabytes. Digite -1 para desabilitar a limpeza.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>Tempo máximo para miniaturas no cache, em dias. Digite -1 para desabilitar a limpeza.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Lembrar estado NumLock">
+								<longdesc>Se verdadeiro, o GNOME irá lembrar o estado do LED NumLock entre sessões.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Nome do arquivo personalizado da campainha do teclado">
+								<longdesc>Nome do arquivo do som de campainha que será reproduzida.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>valores possíveis são &quot;on&quot; (ligado), &quot;off&quot; (desligado), e &quot;custom&quot; (personalizado).</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Tamanho do cursor">
+								<longdesc>Tamanho do cursor referenciado por cursor_theme.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Tema do cursor">
+								<longdesc>Nome do tema do cursor. Usado apenas em servidores X que suportam Xcursor, como XFree86 4.3 e posteriores.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Fonte do cursor">
+								<longdesc>Nome da fonte do cursor. Se desligado a fonte padrão é usada. Esse valor é propagado somente para a inicialização do servidor X de cada sessão, então mudá-la no meio da sessão não terá efeito até a próxima vez que você iniciar uma sessão.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Localizar ponteiro">
+								<longdesc>Destaca a localização atual do ponteiro quando a tecla Control for pressionada e solta.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Tempo de clique duplo">
+								<longdesc>Tamanho de um duplo-clique.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Limiar do arrasto">
+								<longdesc>Distância antes que um arrasto seja iniciado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Limiar do movimento">
+								<longdesc>Distância em pixels que o ponteiro deve andar antes do movimento acelerado do mouse ser iniciado. Um valor de -1 é o padrão do sistema.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Clique único">
+								<longdesc>Multiplicador de aceleração para o movimento do mouse. Um valor de -1 é o padrão do sistema.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Clique único">
+								<longdesc>Clique único para abrir ícones.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Orientação do botão do mouse">
+								<longdesc>Trocar botões da direita e esquerda para canhotos.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Desabilitar todos os criadores de miniaturas externos">
+							<longdesc>Defina como verdadeiro para desabilitar todos os programas criadores de miniaturas externos, independente de se eles estão independentemente desabilitados/habilitados.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos PDF">
+								<longdesc>Um comando válido e argumentos para o miniaturizador de documentos PDF. Veja a documentação do miniaturizador do nautilus para mais informações.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilitar a miniaturização de documentos PDF">
+								<longdesc>Opções booleanas disponíveis: verdadeiro habilita a miniaturização e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos PDF">
+								<longdesc>Um comando válido e argumentos para o miniaturizador de documentos PDF. Veja a documentação do miniaturizador do nautilus para mais informações.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilitar a miniaturização de documentos PDF">
+								<longdesc>Opções booleanas disponíveis: verdadeiro habilita a miniaturização e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos PDF">
+								<longdesc>Um comando válido e argumentos para o miniaturizador de documentos PDF. Veja a documentação do miniaturizador do nautilus para mais informações.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilitar a miniaturização de documentos PDF">
+								<longdesc>Opções booleanas disponíveis: verdadeiro habilita a miniaturização e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.math">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos do OpenOffice Math 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de documento do OpenOffice Math 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para documentos do OpenOffice Math 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.draw">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para planilhas do OpenOffice 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas do OpenOffice Drawing 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para planilhas do OpenOffice Calc 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.draw.template">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos do OpenOffice Drawing 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelos do OpenOffice Drawing 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos de desenho do OpenOffice Drawing 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.writer">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos do OpenOffice Writer 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de documentos do OpenOffice Writer 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para documentos do OpenOffice Writer 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.writer.template">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos do OpenOffice Writer 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelos do OpenOffice Writer 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos do OpenOffice Writer 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.writer.global">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos globais do OpenOffice Writer 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelos globais do OpenOffice Writer 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos globais do OpenOffice Writer 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.calc">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para planilhas do OpenOffice 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de planilhas do OpenOffice 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para planilhas do OpenOffice Calc 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.calc.template">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos do OpenOffice 1.x Spreadsheet">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelos do OpenOffice Writer 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos do OpenOffice Spreadsheet 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.impress">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para apresentações do OpenOffice Impress 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de apresentações do OpenOffice Impress 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para apresentações do OpenOffice Impress 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.sun.xml.impress.template">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos de apresentação do OpenOffice Impress 1.x">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelos de apresentação do OpenOffice Impress 1.x</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos de apresentação do OpenOffice Impress 1.x">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.formula">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para fórmulas do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de fórmulas do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para fórmulas do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.image">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para imagens do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de imagens do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para imagens do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.chart">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para gráficos do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para gráficos do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.graphics">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para desenhos do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de desenhos do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para desenhos do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.graphics-template">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos de desenho do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelos de desenhos do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos de desenhos do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.text">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos de processamento de texto do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de processamento de texto do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para processamento de texto do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.text-master">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos mestre de processamento de texto do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas do documento mestre de processamento de texto do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para processamento de texto mestre do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.text-template">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos de processamento de texto do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelos de processamento de texto do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos de processamento de texto do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.spreadsheet">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para planilhas do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de planilha do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para planilhas do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.spreadsheet-template">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos de planilha do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelo de planilha do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos de planilha do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.presentation">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para apresentações do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de apresentação do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para apresentações do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.oasis.opendocument.presentation-template">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para modelos de apresentação do OpenDocument">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas de modelos de apresentação do OpenDocument</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para modelos de apresentação do OpenDocument">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.openxmlformats-officedocument.wordprocessingml.document">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos do Microsoft Word 2007">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas do Microsoft Word 2007</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para documentos do Microsoft Word 2007">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@msword">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para documentos do Microsoft Word">
+								<longdesc>Argumentos de comando válidos para o gerador de miniaturas do Microsoft Word</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para documentos do Microsoft Word">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para planilhas do Microsoft Excel 2007">
+								<longdesc>Argumentos de comando válidos para apresentações do Microsoft Excel 2007.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para planilhas do Microsoft Excel 2007">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.ms-excel">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para planilhas do Microsoft Excel">
+								<longdesc>Argumentos de comando válidos para planilhas do Microsoft Excel.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para planilhas do Microsoft Excel">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.openxmlformats-officedocument.presentationml.presentation">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para apresentações do Microsoft PowerPoint 2007">
+								<longdesc>Argumentos de comando válidos para miniaturas do Microsoft PowerPoint 2007</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para apresentações do Microsoft PowerPoint 2007">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@vnd.ms-powerpoint">
+						<entry name="command">
+							<local_schema short_desc="Comando de miniatura para apresentações do Microsoft PowerPoint">
+								<longdesc>Argumentos de comando válidos para miniatura do Microsoft PowerPoint</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Habilita miniaturas para apresentações do Microsoft PowerPoint">
+								<longdesc>Opções booleanas disponíveis, verdadeiro habilita e falso desabilita a criação de novas miniaturas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="As tarefas precisam de um terminal">
+								<longdesc>Se o aplicativo padrão de tarefas precisa de um terminal para ser executado</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Tarefas padrão">
+								<longdesc>Aplicativo padrão de tarefas</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="O calendário requer um terminal">
+								<longdesc>Se o aplicativo padrão de calendário precisa de um terminal para ser executado</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Calendário padrão">
+								<longdesc>Aplicativo padrão de calendário</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Navegador entende protocolo remote">
+								<longdesc>O navegador padrão entende o protocolo remote do Netscape.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Navegador precisa de terminal">
+								<longdesc>O navegador padrão precisa de um terminal para ser executado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Navegador padrão">
+								<longdesc>Navegador padrão para todos as URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Nomes dos espaços de trabalho (obsoleto)">
+								<longdesc>Uma lista de nomes dos primeiros espaços de trabalho do gerenciador de janelas. Essa chave ficou obsoleta desde o GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="O número de espaços de trabalho (obsoleto)">
+								<longdesc>O número de espaços de trabalho que o gerenciador de janelas deve usar. Essa chave ficou obsoleta desde o GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Gerenciador de janelas do usuário (obsoleto)">
+								<longdesc>Primeiro gerenciador de janelas. Essa chave ficou obsoleta desde o GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Gerenciador de janelas reserva (obsoleto)">
+								<longdesc>Gerenciador de janelas reserva, caso o gerenciador de janelas do usuário não for localizado. Essa chave ficou obsoleta desde o GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Iniciar aplicativo preferencial de tecnologia assistiva em mobilidade">
+									<longdesc>Iniciar aplicativo preferencial de tecnologia assistiva em mobilidade quando o usuário estiver iniciando uma sessão.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Aplicativo preferencial de tecnologia assistiva em mobilidade">
+									<longdesc>Aplicativo preferencial de tecnologia assistiva em mobilidade a ser usado ao iniciar sessões, no menu ou linha de comando.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Iniciar aplicativo preferencial de tecnologia assistiva Visual">
+									<longdesc>Iniciar aplicativo preferencial de tecnologia assistiva visual quando o usuário estiver iniciando uma sessão.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Aplicativo preferencial de tecnologia assistiva visual">
+									<longdesc>Aplicativo preferencial de tecnologia assistiva visual a ser usado ao iniciar sessões, no menu ou linha de comando.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Aplicativo padrão para visualização de componentes">
+								<longdesc>O aplicativo para ser usado na visualização de arquivos que requerem um componente para serem visualizados. O parâmetro %s será substituído pelos URIs dos arquivos e o parâmetro %c será substituído pelo IID do componente.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Argumentos de execução">
+								<longdesc>Argumento usado para executar programas no terminal definido pela chave &quot;exec&quot;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Aplicativo de terminal">
+								<longdesc>Programa de terminal a ser usado ao iniciar aplicativos que precisam de um.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execute o comando num terminal">
+								<longdesc>Verdadeiro se o comando usado para lidar com este tipo de URL deve ser executado num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Associar URLs &quot;ymsgr&quot; a">
+								<longdesc>O comando usado para lidar com URLs &quot;ymsgr&quot;, se ativado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Diz se o comando especificado deve ser associado a URLs &quot;ymsgr&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;comando&quot; deve ser associado a URLs &quot;ymsgr&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execute o comando num terminal">
+								<longdesc>Verdadeiro se o comando usado para lidar com este tipo de URL deve ser executado num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Associar URLs &quot;xmpp&quot; a">
+								<longdesc>O comando usado para lidar com URLs &quot;xmpp&quot;, se ativado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Diz se o comando especificado deve ser associado a URLs &quot;xmpp&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;comando&quot; deve ser associado a URLs &quot;xmpp&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execute o comando num terminal">
+								<longdesc>Verdadeiro se o comando usado para lidar com este tipo de URL deve ser executado num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Associar URLs &quot;sip&quot; a">
+								<longdesc>O comando usado para lidar com URLs &quot;sip&quot;, se ativado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Diz se o comando especificado deve ser associado a URLs &quot;sip&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;comando&quot; deve ser associado a URLs &quot;sip&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execute o comando num terminal">
+								<longdesc>Verdadeiro se o comando usado para lidar com este tipo de URL deve ser executado num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Associar URLs &quot;msnim&quot; a">
+								<longdesc>O comando usado para lidar com URLs &quot;msnim&quot;, se ativado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Diz se o comando especificado deve ser associado a URLs &quot;msnim&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;comando&quot; deve ser associado a URLs &quot;msnim&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execute o comando num terminal">
+								<longdesc>Verdadeiro se o comando usado para lidar com este tipo de URL deve ser executado num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Associar URLs &quot;irc&quot; a">
+								<longdesc>O comando usado para lidar com URLs &quot;irc&quot;, se ativado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Diz se o comando especificado deve ser associado a URLs &quot;irc&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;comando&quot; deve ser associado a URLs &quot;irc&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execute o comando num terminal">
+								<longdesc>Verdadeiro se o comando usado para lidar com este tipo de URL deve ser executado num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Associar URLs &quot;icq&quot; a">
+								<longdesc>O comando usado para lidar com URLs &quot;icq&quot;, se ativado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Diz se o comando especificado deve ser associado a URLs &quot;icq&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;comando&quot; deve ser associado a URLs &quot;icq&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execute o comando num terminal">
+								<longdesc>Verdadeiro se o comando usado para lidar com este tipo de URL deve ser executado num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Associar URLs &quot;gg&quot; a">
+								<longdesc>O comando usado para lidar com URLs &quot;gg&quot;, se ativado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Diz se o comando especificado deve ser associado a URLs &quot;gg&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;comando&quot; deve ser associado a URLs &quot;gg&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;h323&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;h323&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;h323&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;h323&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;callto&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;callto&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;callto&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;callto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execute o comando num terminal">
+								<longdesc>Verdadeiro se o comando usado para lidar com este tipo de URL deve ser executado num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Associar URLs &quot;aim&quot; a">
+								<longdesc>O comando usado para lidar com URLs &quot;aim&quot;, se ativado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Diz se o comando especificado deve ser associado a URLs &quot;aim&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;comando&quot; deve ser associado a URLs &quot;aim&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;mailto&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;mailto&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;mailto&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;mailto&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;https&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;https&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;https&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;https&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;http&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;http&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;http&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;http&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;man&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;man&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;man&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;man&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;info&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;info&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;info&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;info&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;ghelp&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;ghelp&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;ghelp&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;ghelp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar o comando em um terminal">
+								<longdesc>Verdadeiro se o comando usado para manipular esse tipo de URL deve ser executado em um terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador para URLs &quot;trash&quot;">
+								<longdesc>O comando usado para manipular URLs &quot;trash&quot;, se habilitado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se o comando especificado deve manipular URLs &quot;trash&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; (comando) deve manipular URLs &quot;trash&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Se esse perfil deve ou não ser usado">
+									<longdesc>Se esse perfil deve ou não ser usado e mostrado.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="A extensão padrão de arquivos para este perfil">
+									<longdesc>Uma extensão para o nome de arquivo para ser usada ao armazenar arquivos codificados com esse perfil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="A linha de montagem parcial do GStreamer utilizada">
+									<longdesc>Uma linha de montagem parcial do GStreamer para usar com este perfil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Uma descrição para o perfil de áudio">
+									<longdesc>Uma descrição do perfil, contendo mais informação e descrevendo quando usar o perfil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Um apelido para o perfil de áudio">
+									<longdesc>Um apelido para o perfil de áudio, para ser usado em seleções e identificando unicamente o perfil.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Se esse perfil deve ou não ser usado">
+										<longdesc>Se esse perfil deve ou não ser usado e mostrado.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="A extensão padrão de arquivos para este perfil">
+										<longdesc>Uma extensão para o nome de arquivo para ser usada ao armazenar arquivos codificados com esse perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="A linha de montagem parcial do GStreamer utilizada">
+										<longdesc>Uma linha de montagem parcial do GStreamer para usar com este perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Uma descrição para o perfil de áudio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Um apelido para o perfil de áudio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="A extensão padrão de arquivos para este perfil">
+										<longdesc>Uma extensão para o nome de arquivo para ser usada ao armazenar arquivos codificados com esse perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="A linha de montagem parcial do GStreamer utilizada">
+										<longdesc>Uma linha de montagem parcial do GStreamer para usar com este perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Uma descrição para o perfil de áudio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Um apelido para o perfil de áudio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="A extensão padrão de arquivos para este perfil">
+										<longdesc>Uma extensão para o nome de arquivo para ser usada ao armazenar arquivos codificados com esse perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="A linha de montagem parcial do GStreamer utilizada">
+										<longdesc>Uma linha de montagem parcial do GStreamer para usar com este perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Uma descrição para o perfil de áudio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Um apelido para o perfil de áudio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="A extensão padrão de arquivos para este perfil">
+										<longdesc>Uma extensão para o nome de arquivo para ser usada ao armazenar arquivos codificados com esse perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="A linha de montagem parcial do GStreamer utilizada">
+										<longdesc>Uma linha de montagem parcial do GStreamer para usar com este perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Uma descrição para o perfil de áudio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Um apelido para o perfil de áudio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="A extensão padrão de arquivos para este perfil">
+										<longdesc>Uma extensão para o nome de arquivo para ser usada ao armazenar arquivos codificados com esse perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="A linha de montagem parcial do GStreamer utilizada">
+										<longdesc>Uma linha de montagem parcial do GStreamer para usar com este perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Uma descrição para o perfil de áudio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Um apelido para o perfil de áudio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="A extensão padrão de arquivos para este perfil">
+										<longdesc>Uma extensão para o nome de arquivo para ser usada ao armazenar arquivos codificados com esse perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="A linha de montagem parcial do GStreamer utilizada">
+										<longdesc>Uma linha de montagem parcial do GStreamer para usar com este perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Uma descrição para o perfil de áudio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Um apelido para o perfil de áudio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="A extensão padrão de arquivos para este perfil">
+										<longdesc>Uma extensão para o nome de arquivo para ser usada ao armazenar arquivos codificados com esse perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="A linha de montagem parcial do GStreamer utilizada">
+										<longdesc>Uma linha de montagem parcial do GStreamer para usar com este perfil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Uma descrição para o perfil de áudio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Um apelido para o perfil de áudio">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Lista de perfis">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Grupo de trabalho SMB">
+						<longdesc>O grupo de trabalho de rede Windows ou domínio do qual o usuário faz parte. Para que um grupo de trabalho tenha total efeito, o usuário pode precisar logar novamente.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="Domínios extras para procurar por serviços DNS-SD">
+						<longdesc>Lista separada por vírgulas de domínios DNS-SD que devem ser visíveis na localização &quot;network:///&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="Como exibir o serviço DNS-SD local">
+						<longdesc>Valores possíveis são &quot;merged&quot; (junto), &quot;separate&quot; (à parte) e &quot;disabled&quot; (desabilitado).</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="URL de configuração automática de proxy">
+						<longdesc>URL que fornece os valores de configuração do proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="Porta do proxy de SOCKS">
+						<longdesc>A porta na máquina definida por &quot;/system/http_proxy/socks_host&quot; que você acessará o proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="Nome de máquina do proxy de SOCKS">
+						<longdesc>O nome da máquina para acessar o proxy de SOCKS.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="Porta do proxy FTP">
+						<longdesc>A porta na máquina definida por &quot;/system/http_proxy/ftp_host&quot; que você acessará o proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="Nome de máquina do proxy FTP">
+						<longdesc>O nome da máquina para acessar o proxy de FTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Porta para proxy de HTTP seguro">
+						<longdesc>A porta na máquina definida por &quot;/system/http_proxy/secure_host&quot; que você acessará o proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Nome de máquina para proxy de HTTP seguro">
+						<longdesc>O nome da máquina para acessar o proxy de HTTP seguro.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Modo de configuração do proxy">
+						<longdesc>Selecione o modo de configuração do proxy. Valores aceitos são &quot;none&quot; (nenhum), &quot;manual&quot; (manual), &quot;auto&quot; (automático).</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Servidores não-proxy">
+						<longdesc>Esse campo contém a lista de máquinas que são conectadas diretamente, em vez de via proxy (se estiver ativo). Os valores podem ser nomes de máquina, domínios (usando um coringa inicial como *.foo.com.br), endereços IP (tanto IPv4 quanto IPv6) e endereços com uma máscara de rede (algo como 192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="Senha do proxy HTTP">
+						<longdesc>Senha para ser enviada na autenticação ao realizar proxy de HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="Usuário do proxy HTTP">
+						<longdesc>Nome de usuário para ser enviado na autenticação ao realizar proxy de HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Conexões de proxy autenticadas">
+						<longdesc>Se verdadeiro, as conexões ao servidor proxy requerem autenticação. A combinação usuário/senha é definida por &quot;/system/http_proxy/authentication_user&quot; e &quot;/system/http_proxy/authentication_password&quot;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="Porta do proxy HTTP">
+						<longdesc>A porta na máquina definida por &quot;/system/http_proxy/host&quot; que você acessará o proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="Nome de máquina do proxy HTTP">
+						<longdesc>O nome da máquina para acessar o proxy de HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Usar proxy HTTP">
+						<longdesc>Ativa configurações de proxy ao acessar HTTP na Internet.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

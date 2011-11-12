@@ -1,0 +1,882 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="වේගවත් සජිවිකරණය භාවිතා කරන්න">
+						<longdesc>Setting this to FALSE means the pieces fall slowly, but gracefully. A setting of TRUE causes the pieces to fall quickly and jerkily.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Height of the custom board">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Width of the custom board">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="The board size">
+						<longdesc>The size of the board to use. 1 = Custom, 2 = Small, 3 = Medium, 4 = Large.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="The theme to use">
+						<longdesc>The filename of the theme to use.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Drop marble">
+						<longdesc>Key press to drop a marble.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="දකුණට ගෙනයන්න">
+						<longdesc>Key press to move right.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="වමට ගෙනයන්න">
+						<longdesc>Key press to move left.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="ශබ්දය">
+						<longdesc>Whether or not to play event sounds.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="සජිවිකරණය">
+						<longdesc>Whether or not to use animation.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="තේමා අංකය">
+						<longdesc>A number specifying the preferred theme.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Level of Player Two">
+						<longdesc>Zero is human; one through three correspond to the level of the computer player.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Level of Player One">
+						<longdesc>Zero is human; one through three correspond to the level of the computer player.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="තරග පූර්‍වදසුන">
+							<longdesc>Game preview from last saved session.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="තරග ක්‍ෂේත්‍රය">
+							<longdesc>Game field from last saved session.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="තරග ලකුණු">
+							<longdesc>Game score from last saved session.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Time between moves">
+							<longdesc>Time between moves in milliseconds.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="පසුබිම් වර්‍ණය">
+							<longdesc>Background color. The hex specification of the background color.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="බෝල වර්‍ගය">
+							<longdesc>Ball style. The filename of the images to use for the balls.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="ක්‍රිඩා කරන ක්‍ෂේත්‍රයේ ප්‍රමාණය">
+							<longdesc>ක්‍රිඩා කරන ක්‍ෂේත්‍රයේ ප්‍රමාණය. 1=කුඩා, 2=මධ්‍යම, 3=විශාල. වෙනත් අගයක් සාවද්‍යවේ.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="The board side to display">
+						<longdesc>The side of the board that is in the foreground, either &apos;white&apos;, &apos;black&apos;, &apos;current&apos; (the current player) or &apos;human&apos; (the side of the current human player)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="The format to display moves in">
+						<longdesc>The format to display moves in, can be either &apos;human&apos; (human readable), &apos;lan&apos; (long algebraic notation) or &apos;san&apos; (standard algebraic notation)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="The directory to open the load game dialog in">
+						<longdesc>The directory to open the load game dialog in</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="The directory to open the save game dialog in">
+						<longdesc>The directory to open the save game dialog in</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="A flag to enable the toolbar">
+						<longdesc>A flag to enable the toolbar</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="A flag to enable the move history browser">
+						<longdesc>A flag to enable the move history browser</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="A flag to show move comments">
+						<longdesc>A flag to show move comments</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="A flag to enable board numbering">
+						<longdesc>A flag to enable board numbering</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="A flag to enable move hints">
+						<longdesc>A flag to enable move hints</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="A flag to enable 3D mode">
+						<longdesc>A flag to enable 3D mode</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="The piece to promote pawns to">
+						<longdesc>The piece to promote to when a human player moves a pawn to the far rank. Can be one of: &apos;queen&apos;, &apos;knight&apos;, &apos;rook&apos;, &apos;bishop&apos;.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="A flag to enable fullscreen mode">
+						<longdesc>A flag to enable fullscreen mode</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="A flag to enable maximised mode">
+						<longdesc>A flag to enable maximised mode</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="The height of the window">
+						<longdesc>The height of the main window in pixels.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="The width of the window">
+						<longdesc>The width of the main window in pixels.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="A flag to allow remote players to watch new games">
+							<longdesc>A flag to allow remote players to watch new games</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="The amount of time each player has to move in new games">
+							<longdesc>The amount of time each player has to move in new games</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="The default player difficulty for black in new games">
+								<longdesc>The default player difficulty for black in new games</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="The default player type for black in new games">
+								<longdesc>The default player type for black in new games</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="The default player difficulty for white in new games">
+								<longdesc>The default player difficulty for white in new games</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="The default player type for white in new games">
+								<longdesc>The default player type for white in new games</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="මෑතකඳි තරග කළ තරග">
+						<longdesc>මෑතකඳි තරග කළ තරග ලැයිස්තුව</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="තරග කළ තරග සංඛ්‍යාන්ක">
+						<longdesc>A list of strings that come in the form of a quintuple: name, wins, total games played, best time (in seconds) and worst time (also in seconds). Unplayed games do not need to be represented.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="The game file to use">
+						<longdesc>The name of the scheme file containing the solitaire game to play.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="ශබ්දය">
+						<longdesc>Whether or not to play event sounds.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Select the style of control">
+						<longdesc>Select whether to drag the cards or to click on the source then the destination.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Whether or not to show the toolbar">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="තේමා ගොනු නම">
+						<longdesc>The name of the file with the graphics for the cards.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Key to wait">
+							<longdesc>The name of the key used to wait. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Key to teleport randomly">
+							<longdesc>The name of the key used to teleport randomly. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Key to teleport">
+							<longdesc>The name of the key used to teleport safely (if possible). The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Key to move SE">
+							<longdesc>The name of the key used to move south-east. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Key to move S">
+							<longdesc>The name of the key used to move south. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Key to move SW">
+							<longdesc>The name of the key used to move south-west. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Key to move E">
+							<longdesc>The name of the key used to move east. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Key to hold">
+							<longdesc>The name of the key used to hold still. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Key to move W">
+							<longdesc>The name of the key used to move west. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Key to move NE">
+							<longdesc>The name of the key used to move north-east. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Key to move N">
+							<longdesc>The name of the key used to move north. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Key to move NW">
+							<longdesc>The name of the key used to move north-west. The name is a standard X key name.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Enable splats">
+							<longdesc>Enable splats. Play a sound and show a &quot;Splat!&quot; on the screen.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Enable game sounds">
+							<longdesc>Enable game sounds. Play sounds for various events throughout the game.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Use super safe moves">
+							<longdesc>Use super safe moves. The player is alerted when there is no safe move and the only option is to teleport out.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Use safe moves">
+							<longdesc>Use safe moves. The safe moves option will help you to avoid being killed due to a mistake. If you try to make a move that would lead to your death when there is a safe move available you will not be allowed to proceed.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="තරග වර්‍ගය">
+							<longdesc>Game type. The name of the game variation to use.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="පසුබිම් වර්‍ණය">
+							<longdesc>Background color. The hex specification of the background color.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="රොබෝ පිළිඹිබු තේමාව">
+							<longdesc>Robot image theme. The theme of the images to use for the robots.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="මෙවලම්තීරුව පෙන්වන්න">
+							<longdesc>Show toolbar. A standard option for toolbars.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Size of game tiles">
+							<longdesc>Size of game tiles.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="හඬ සක්‍රීය කරන්න">
+							<longdesc>හඬ සක්‍රීය කරන්න.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Game level to start on">
+							<longdesc>Game level to start on.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Play levels in random order">
+							<longdesc>Play levels in random order.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Enable fake bonuses">
+							<longdesc>Enable fake bonuses.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="තරගයේ වේගය">
+							<longdesc>තරගයේ වේගය (1=වේගවත්, 4=මන්දගාමී).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="Number of AI players">
+							<longdesc>Number of AI players.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="Number of human players">
+							<longdesc>Number of human players.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="දකුණට ගෙනයන්න">
+									<longdesc>Key to use for motion right.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="වමට ගෙනයන්න">
+									<longdesc>Key to use for motion left.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="පහළට ගෙනයන්න">
+									<longdesc>Key to use for motion down.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ඉහළට ගෙනයන්න">
+									<longdesc>Key to use for motion up.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Use relative movement">
+									<longdesc>Use relative movement (ie. left or right only).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Color to use for worm">
+									<longdesc>Color to use for worm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="දකුණට ගෙනයන්න">
+									<longdesc>Key to use for motion right.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="වමට ගෙනයන්න">
+									<longdesc>Key to use for motion left.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="පහළට ගෙනයන්න">
+									<longdesc>Key to use for motion down.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ඉහළට ගෙනයන්න">
+									<longdesc>Key to use for motion up.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Use relative movement">
+									<longdesc>Use relative movement (ie. left or right only).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Color to use for worm">
+									<longdesc>Color to use for worm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="දකුණට ගෙනයන්න">
+									<longdesc>Key to use for motion right.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="වමට ගෙනයන්න">
+									<longdesc>Key to use for motion left.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="පහළට ගෙනයන්න">
+									<longdesc>Key to use for motion down.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ඉහළට ගෙනයන්න">
+									<longdesc>Key to use for motion up.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Use relative movement">
+									<longdesc>Use relative movement (ie. left or right only).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Color to use for worm">
+									<longdesc>Color to use for worm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="දකුණට ගෙනයන්න">
+									<longdesc>Key to use for motion right.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="වමට ගෙනයන්න">
+									<longdesc>Key to use for motion left.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="පහළට ගෙනයන්න">
+									<longdesc>Key to use for motion down.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ඉහළට ගෙනයන්න">
+									<longdesc>Key to use for motion up.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Use relative movement">
+									<longdesc>Use relative movement (ie. left or right only).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Color to use for worm">
+									<longdesc>Color to use for worm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="දකුණට ගෙනයන්න">
+									<longdesc>Key to use for motion right.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="වමට ගෙනයන්න">
+									<longdesc>Key to use for motion left.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="පහළට ගෙනයන්න">
+									<longdesc>Key to use for motion down.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ඉහළට ගෙනයන්න">
+									<longdesc>Key to use for motion up.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Use relative movement">
+									<longdesc>Use relative movement (ie. left or right only).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Color to use for worm">
+									<longdesc>Color to use for worm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="දකුණට ගෙනයන්න">
+									<longdesc>Key to use for motion right.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="වමට ගෙනයන්න">
+									<longdesc>Key to use for motion left.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="පහළට ගෙනයන්න">
+									<longdesc>Key to use for motion down.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="ඉහළට ගෙනයන්න">
+									<longdesc>Key to use for motion up.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Use relative movement">
+									<longdesc>Use relative movement (ie. left or right only).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Color to use for worm">
+									<longdesc>Color to use for worm.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Select the style of control">
+						<longdesc>Select whether to drag the tiles or to click on the source then the destination.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="Control coloured tiles">
+						<longdesc>A flag to enable coloured tiles.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="The size of the playing grid">
+						<longdesc>The value of this key is used to decide the size of the playing grid. The valid values are 2 to 8, anything else gets set to 3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="විරාමය">
+							<longdesc>Key press to pause.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Rotate">
+							<longdesc>Key press to rotate.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Drop">
+							<longdesc>Key press to drop.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="පහළට ගෙනයන්න">
+							<longdesc>Key press to move down.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="දකුණට ගෙනයන්න">
+							<longdesc>Key press to move right.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="වමට ගෙනයන්න">
+							<longdesc>Key press to move left.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="The density of filled rows">
+							<longdesc>The density of blocks in rows filled at the start of the game. The value is between 0 (for no blocks) and 10 (for a completely filled row).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="The number of rows to fill">
+							<longdesc>The number of rows that are filled with random blocks at the start of the game.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Whether to rotate counter clock wise">
+							<longdesc>Whether to rotate counter clock wise.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Whether to give blocks random colors">
+							<longdesc>Whether to give blocks random colors.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="Whether to provide a target">
+							<longdesc>Whether to provide a graphical representation of where a block will land.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Whether to preview the next block">
+							<longdesc>Whether to preview the next block.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="The background color">
+							<longdesc>The background color, in a format gdk_color_parse understands.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Whether to use the background image">
+							<longdesc>This selects whether or not to draw the background image over the background color.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Level to start with">
+							<longdesc>Level to start with.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="The theme used for rendering the blocks">
+							<longdesc>The name of the theme used for rendering the blocks and the background.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Image to use for drawing blocks">
+							<longdesc>Image to use for drawing blocks.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Display the computer&apos;s thoughts">
+						<longdesc>If set to true, a dump of the AI&apos;s working will be done to standard output.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Delay between rolls">
+						<longdesc>Choose whether or not to insert a delay between the computer&apos;s dice rolls so the player can follow what it is doing.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="The puzzle in play">
+						<longdesc>The number of the puzzle being played.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="ශබ්දය">
+						<longdesc>Whether or not to play event sounds.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="Enable automatic placing of flags">
+						<longdesc>Set to true to have gnomine automatically flag squares as mined when enough squares are revealed</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="සංකේත ප්‍රමාණය වැඩියිවිම පිළිබඳ අවවාදය">
+						<longdesc>Set to true to enable warning icons when too many flags are placed.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="Use the unknown flag">
+						<longdesc>Set to true to be able to mark squares as unknown.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="පුවරුවේ ප්‍රමාණය">
+							<longdesc>පුවරුවේ ප්‍රමාණය (0-2 = කුඩා-විශාල, 3=රිසිකළ)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="The number of mines in a custom game">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="Number of rows in a custom game">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="Number of columns in a custom game">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Whether or not to show the toolbar">
+						<longdesc>Whether or not to show the toolbar.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="The amount of money in your bank">
+							<longdesc>The amount of money in your bank.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="තේමා ගොනු නම">
+							<longdesc>The name of the file with the graphics for the cards.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Never take insurance">
+							<longdesc>Never take insurance with a dealer showing an ace.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Use a quick deal">
+							<longdesc>Use a quick deal with no delay between each card.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Display probabilities">
+							<longdesc>Display the probabilities of each dealer hand outcome and the expected value of your hand.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="The variation of the rules file to use">
+							<longdesc>The name of the rules file containing the variation of the rules to play.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="debug">
+					<local_schema short_desc="දෝෂහරණය සක්‍රීය කරන්න">
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="පෙරනිමි ලිවීමේ වේගය">
+						<longdesc>මාධ්‍ය ලිවිය යුතු පෙරනිමි වේගය.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="තාවකාලීක ISO පිළිඹිබු සඳහා බහලුම">
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<dir name="aac">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="name">
+									<local_schema>
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="පැතිකඩ ලැයිස්තුව">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

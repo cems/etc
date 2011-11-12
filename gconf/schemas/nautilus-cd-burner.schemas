@@ -1,0 +1,1893 @@
+<gconfschemafile>
+    <schemalist>    
+
+      <schema>
+        <key>/schemas/apps/nautilus-cd-burner/temp_iso_dir</key>
+	<applyto>/apps/nautilus-cd-burner/temp_iso_dir</applyto>
+	<owner>nautilus-cd-burner</owner>
+	<type>string</type>
+	<default></default>
+	<locale name="C">
+	  <short>Directory for the temporary ISO images</short>
+	  <long>
+	    Directory used for the temporary ISO images, leave blank
+	    to use the default system temporary directory.
+	  </long>
+	</locale>
+
+	<locale name="ar">
+	  <short>دليل صور ISO المؤقتة</short>
+	  <long>الدليل المستخدم لصور ISO المؤقتة، اتركه فارغا لاستخدام الدليل المؤقت الافتراضي للنظام.</long>
+	</locale>
+
+	<locale name="as">
+	  <short>অস্থায়ী ISO ইমেজ সংৰক্ষণেৰ বাবে ব্যৱহৃত ডিৰেক্টৰি</short>
+	  <long>অস্থায়ী ISO ইমেজ সংৰক্ষণেৰ বাবে ব্যৱহৃত ডিৰেক্টৰি, ডিফল্ট সিস্টেম ডিৰেক্টৰি ব্যৱহাৰ কৰতে ইচ্ছুক হলে ফাঁকা ৰাখুন ।</long>
+	</locale>
+
+	<locale name="az">
+	  <short>Müvəqqəti ISO əksləri üçün cərgə</short>
+	  <long>Müvəqqəti ISO əkslərinin saxlanacağı qovluqdur, sistemin ön qurğulu müvəqqəti qovluğunu işlətmək üçün buranı boş buraxın.</long>
+	</locale>
+
+	<locale name="be">
+	  <short>Тэчка для часовых вобразаў дыскаў</short>
+	  <long>Тэчка для часовага захоўваньня ISO-вобразаў. Пакіньце поле пустым, каб выкарыстоўваць сыстэмную часовую тэчку.</long>
+	</locale>
+
+	<locale name="be@latin">
+	  <short>Kataloh dziela časovych vyjavaŭ dyskaŭ ISO</short>
+	  <long>Kataloh dziela zachoŭvańnia časovych vyjavaŭ ISO. Akreśli pustym, kab vykarystoŭvać zmoŭčany systemny kataloh dla časovych fajłaŭ.</long>
+	</locale>
+
+	<locale name="bg">
+	  <short>Папка за временните образи, формат ISO</short>
+	  <long>Папка, която ще се използва за временните образи във формат ISO. Оставете полето празно, за да се използва стандартната за системата папка за временни файлове.</long>
+	</locale>
+
+	<locale name="bn">
+	  <short>অস্থায়ী ISO ইমেজের জন্য ডিরেক্টরী</short>
+	  <long>অস্থায়ী ISO ইমেজের জন্য যে ডিরেক্টরী ব্যবহৃত হবে। ডিফল্ট সিস্টেম ডিরেক্টরী ব্যবহার করার জন্য ফাঁকা রাখুন।</long>
+	</locale>
+
+	<locale name="bn_IN">
+	  <short>অস্থায়ী ISO ইমেজ সংরক্ষণের জন্য ব্যবহৃত ডিরেক্টরি</short>
+	  <long>অস্থায়ী ISO ইমেজ সংরক্ষণের জন্য ব্যবহৃত ডিরেক্টরি, ডিফল্ট সিস্টেম ডিরেক্টরি ব্যবহার করতে ইচ্ছুক হলে ফাঁকা রাখুন।</long>
+	</locale>
+
+	<locale name="bs">
+	  <short>Direktorij za privremene ISO imidže </short>
+	  <long>Direktorij koji se koristi za privremene ISO imidže, ostavite prazno da koristim podrazumijevani sistemski direktorij za privremene datoteke. </long>
+	</locale>
+
+	<locale name="ca">
+	  <short>Directori per a les imatges ISO temporals</short>
+	  <long>Directori utilitzat per a les imatges ISO temporals, deixeu-ho en blanc per a utilitzar el directori temporal predeterminat del sistema.</long>
+	</locale>
+
+	<locale name="cs">
+	  <short>Adresář pro dočasné obrazy ISO</short>
+	  <long>Adresář pro dočasné obrazy ISO, nechte prázdné, chcete-li použít výchozí systémový dočasný adresář.</long>
+	</locale>
+
+	<locale name="cy">
+	  <short>Cyfeiriadur ar gyfer y delweddau ISO dros dro</short>
+	  <long>Y cyfeiriadur a ddefnyddir ar gyfer y delweddau ISO dros dro. Gadewch yn wag er mwyn defnyddio cyfeiriadur dros dro rhagosod y system.</long>
+	</locale>
+
+	<locale name="da">
+	  <short>Mappe til de midlertidige ISO-aftryk</short>
+	  <long>Mappe til de midlertidige ISO-aftryk, efterlad tom for at benytte systemets standardmappe til midlertidige filer.</long>
+	</locale>
+
+	<locale name="de">
+	  <short>Ordner für temporäre ISO-Image-Dateien</short>
+	  <long>Der für temporäre ISO-Image-Dateien verwendete Ordner. Falls dieser Schlüssel leer ist, wird der voreingestellte Systemordner verwendet.</long>
+	</locale>
+
+	<locale name="dz">
+	  <short>འཕྲལ་སྐབས་ཀྱི་ ཨའི་ཨེསི་ཨོ་ གཟུགས་བརྙན་ཚུ་གི་དོན་ལུ་སྣོད་ཐོ།</short>
+	  <long>འཕྲལ་སྐབས་ཀྱི་ ཨའི་ཨེསི་ཨོ་ གཟུགས་བརྙན་ཚུ་གི་དོན་ལུ་ ལག་ལེན་འཐབ་མི་ ཁ་བྱང་ཐོ་ཡིག འཕྲལ་སྐབས་ཀྱི་སྣོད་ཐོ་ སྔོན་སྒྲིག་རིམ་ལུགས་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ བར་སྟོང་བཞག</long>
+	</locale>
+
+	<locale name="el">
+	  <short>Κατάλογος για προσωρινές εικόνες ISO</short>
+	  <long>Κατάλογος που χρησιμοποιείται για προσωρινές εικόνες ISO, αφήστε τον κενό για να γίνει χρήση του προεπιλεγμένου από το σύστημα προσωρινού καταλόγου.</long>
+	</locale>
+
+	<locale name="en_CA">
+	  <short>Directory for the temporary ISO images</short>
+	  <long>Directory used for the temporary ISO images, leave blank to use the default system temporary directory.</long>
+	</locale>
+
+	<locale name="en_GB">
+	  <short>Directory for the temporary ISO images</short>
+	  <long>Directory used for the temporary ISO images, leave blank to use the default system temporary directory.</long>
+	</locale>
+
+	<locale name="es">
+	  <short>Directorio para las imágenes ISO temporales</short>
+	  <long>Directorio usado para las imágenes ISO temporales. Déjelo en blanco para usar el directorio temporal del sistema.</long>
+	</locale>
+
+	<locale name="et">
+	  <short>Kataloog ajutistele ISO tõmmistele</short>
+	  <long>Kataloog ajutistele ISO tõmmistele. Kui soovid kasutada süsteemi vaikimisi ajutiste failide kataloogi, siis jäta see tühjaks.</long>
+	</locale>
+
+	<locale name="eu">
+	  <short>Behin-behineko ISO irudientzako direktorioa</short>
+	  <long>Aldi bateko ISO irudientzako direktorioa, utzi hutsik sistemaren aldi baterako direktorio lehenentsia erabiltzeko.</long>
+	</locale>
+
+	<locale name="fa">
+	  <short>شاخهٔ تصاویر ISO موقتی</short>
+	  <long>شاخه‌ای که پرونده‌های تصویر ISO موقت در آن قرار می‌گیرند، برای استفاده از پیش‌فرض سیستم می‌توانید خالی رهایش کنید.</long>
+	</locale>
+
+	<locale name="fi">
+	  <short>Kansio väliaikaisille ISO-vedostiedostoille</short>
+	  <long>Kansio, johon väliaikaiset ISO-vedostiedostot tallentuvat. Jos ei annettu, käytetään järjestelmän väliaikaiskansiota.</long>
+	</locale>
+
+	<locale name="fr">
+	  <short>Répertoire pour les images ISO temporaires</short>
+	  <long>Répertoire utilisé pour les images ISO temporaires. Laissez-le vide pour utiliser le répertoire temporaire par défaut du système.</long>
+	</locale>
+
+	<locale name="gl">
+	  <short>Directorio para as imaxes ISO temporais</short>
+	  <long>Directorio usado para as imaxes ISO temporais, déixeo en branco para usar o directorio temporal do sistema.</long>
+	</locale>
+
+	<locale name="gu">
+	  <short>કામચલાઉ ISO ઈમેજો માટે ડિરેક્ટરી</short>
+	  <long>કામચલાઉ ISO ઈમેજો માટે ડિરેક્ટરી વપરાય છે, મૂળભુત સિસ્ટમ કામચલાઉ ડિરેક્ટરી માટે જગ્યા છોડો.</long>
+	</locale>
+
+	<locale name="he">
+	  <short>ספרייה לתמונות ה ISO הזמניות</short>
+	  <long>ספרייה המשמשת לתמונות ISO זמניות, השאר ריק כדי להשתמש בספרייה הזמנית ברירת המחדל של המערכת.</long>
+	</locale>
+
+	<locale name="hi">
+	  <short>अस्थाई आईएसओ इमेज़ेस हेतु डिरेक्ट्री</short>
+	  <long>अस्थाई आईएसओ इमेज़ेस हेतु उपयोग में डिरेक्ट्री, खाली छोड़ दें यदि डिफ़ॉल्ट तंत्र अस्थाई डिरेक्ट्री उपयोग करना हो.</long>
+	</locale>
+
+	<locale name="hr">
+	  <short>Direktorij za privremene ISO slike</short>
+	  <long>Mapa koja se koristi za privremene ISO slike, ostavite ovo prazno ako želite koristiti privremenu mapu sustava.</long>
+	</locale>
+
+	<locale name="hu">
+	  <short>Átmeneti ISO-lemezképek könyvtára</short>
+	  <long>Átmeneti ISO-lemezképekhez használt könyvár, a rendszer alapértelmezett átmeneti könyvtárának használatához hagyja üresen.</long>
+	</locale>
+
+	<locale name="hy">
+	  <short>Թղթապանակ ժամանակավոր ISO իմիջների համար</short>
+	  <long>ISO իմիջների համար օգտագործվող թղթապանակը դատարկ թողնել օգտագործելու նախնական համակարգի ժամանակավոր թղթապանակը</long>
+	</locale>
+
+	<locale name="id">
+	  <short>Direktori untuk image ISO sementara</short>
+	  <long>Direktori yang dipakai untuk image ISO sementara, biarkan kosong untuk menggunakan sistem direktori sementara yang default</long>
+	</locale>
+
+	<locale name="is">
+	  <short>Mappa fyrir bráðabirgða ISO myndir</short>
+	  <long>Mappa fyrir bráðabirgða ISO myndir. Skilja eftir autt ef á að nota sjálfgefna bráðabirgðamöppu stýrikerfisins.</long>
+	</locale>
+
+	<locale name="it">
+	  <short>Directory per immagini ISO temporanee</short>
+	  <long>La directory usata per le immagini ISO temporanee. Lasciare in bianco per usare la directory temporanea predefinita del sistema.</long>
+	</locale>
+
+	<locale name="ja">
+	  <short>一時的な ISO イメージを格納するフォルダ</short>
+	  <long>一時的な ISO イメージで使用するフォルダです。システムでデフォルトの作業フォルダを使用する場合は、空のままにして下さい。</long>
+	</locale>
+
+	<locale name="ka">
+	  <short>დროებითი ISO  ანარეკლის ფაილების დირექტორია</short>
+	  <long>დროებითი ISO  ანარეკლის ფაილების დირექტორია, დატოვეთ ცარელა და გამოყენებული იქნება სისტემის ნაგულისხმევი დროებით იდირექტორია.</long>
+	</locale>
+
+	<locale name="ko">
+	  <short>임시 ISO 이미지를 만들 디렉토리</short>
+	  <long>임시 ISO 이미지를 만드는 데 쓸 디렉토리. 시스템 임시 디렉토리 기본값을 사용하려면 비워 두십시오.</long>
+	</locale>
+
+	<locale name="lt">
+	  <short>Aplankas laikiniems ISO atvaizdžių failams talpinti</short>
+	  <long>Aplankas, kuris yra naudojamas laikiniems ISO atvaizdžiams. Norėdami naudoti standartinį sistemos laikinųjų failų aplanką, palikite jį tuščią.</long>
+	</locale>
+
+	<locale name="lv">
+	  <short>Direktorija priekš pagaidu ISO attēliem</short>
+	  <long>Direktoriju priekš pagaidu ISO attēliem,atstāt neaizpildītu, lai lietotu noklusēto sistēmas pagaidu direktoriju.</long>
+	</locale>
+
+	<locale name="mg">
+	  <short>Laha-tahiry asiana ireo dindo ISO vonjimaika</short>
+	  <long>Laha-tahiry ampiasaina asiana ireo dindo ISO. Aza asiana na inona na inona io raha ampiasa ny laha-tahiry vonjimaika tsotran&apos;ny rafitra.</long>
+	</locale>
+
+	<locale name="mk">
+	  <short>Директориум за привремените ISO слики</short>
+	  <long>Директориум кој ќе се користи за привремени ISO слики. Оставете го празно за да се користи стандардниот системски директориум.</long>
+	</locale>
+
+	<locale name="ml">
+	  <short>താല്‍ക്കാലിക ISO ഇമേജിനുളള ഡയറക്ടറി</short>
+	  <long>താല്‍ക്കാലിക ISO ഇമേജിനുളള ഡയറക്ടറി, ഡീഫോള്‍ട്ടായ സിസ്റ്റത്തിന്റെ താല്‍ക്കാലിക ഡയറക്ടറി ഉപയോഗിക്കുന്നതിനായി ശൂന്യമായി ഉപേക്ഷിക്കുക.</long>
+	</locale>
+
+	<locale name="mn">
+	  <short>Түр зуурын ИСО хэвэнд зориулсан хавтас</short>
+	  <long>Түр зуурын ИСО хэвэнд ашиглагдах хавтас, системийн түр зуурын хавстыг ашиглахыг хүсвэл хоосон орхи.</long>
+	</locale>
+
+	<locale name="mr">
+	  <short>तात्पुरत्या ISO प्रतिमांकरीता संचयीका</short>
+	  <long>तात्पूरते ISO प्रतिमा करीता वापरले जाणारी संचयीका, मुलभूत प्रणालीवरील तात्पूरती संचयीका वापरण्याकरीता रिक्त सोडा.</long>
+	</locale>
+
+	<locale name="ms">
+	  <short>Direktori bagi imej ISO sementara</short>
+	  <long>Direktori digunakan untuk imej ISO sementara, biarkan kosong untuk menggunakan direktori sementara sistem yg default.</long>
+	</locale>
+
+	<locale name="nb">
+	  <short>Katalog for midlertidige ISO-avtrykk</short>
+	  <long>Katalog som brukes for de midlertidige ISO-avtrykkene. La denne stå tom for å bruke systemets forvalgte katalog.</long>
+	</locale>
+
+	<locale name="ne">
+	  <short>अस्थायी ISO छविका लागि डाइरेक्टरी</short>
+	  <long>अस्थायी ISO छविका लागि डाइरेक्टरी, पूर्वनिर्धारित प्रणाली अस्थायी डाइरेक्टरी प्रयोग गर्न खाली छोड्नुहोस् ।</long>
+	</locale>
+
+	<locale name="nl">
+	  <short>Map voor de tijdelijke ISO-iso-bestanden</short>
+	  <long>Map voor de tijdelijke ISO-iso-bestanden, laat leeg om de standaard tijdelijke map van het systeem te gebruiken</long>
+	</locale>
+
+	<locale name="nn">
+	  <short>Katalog som mellombels ISO-bilete skal leggjast i</short>
+	  <long>Katalog der mellombels ISO-bilete vert lagra. Dersom dette feltet er tomt, vert systemkatalogen for mellombels filer brukt.</long>
+	</locale>
+
+	<locale name="or">
+	  <short>ଅସ୍ଥାୟୀ ଆଇ.ଏସ.ଓ. ପ୍ରତିଛବିଙ୍କ ପାଇଁ ଡିରେକ୍ଟୋରି</short>
+	  <long>ଅସ୍ଥାୟୀ ଆଇ.ଏସ.ଓ. ପ୍ରତିଛବିଙ୍କ ପାଇଁ ବ୍ଯବହାର କରାଯିବା ଡିରେକ୍ଟୋରି, ପୂର୍ବନିର୍ଦ୍ଧାରିତ ପ୍ରଚାଳନ ତନ୍ତ୍ରର ଅସ୍ଥାୟୀ ଡିରେକ୍ଟୋରି ବ୍ଯବହାର କରିବା ପାଇଁ ଏହାକୁ ଖାଲି ଛାଡ଼ନ୍ତୁ</long>
+	</locale>
+
+	<locale name="pa">
+	  <short>ਆਰਜ਼ੀ ਆਈਸੋ (ISO) ਪ੍ਰਤੀਬਿੰਬ ਲਈ ਡਾਇਰੈਕਟਰੀ</short>
+	  <long>ਕੰਪਿਊਟਰ ਦੀ ਆਰਜੀ ਡਾਇਰੈਕਟਰੀ ਵਰਤਣ ਲਈ; ਆਰਜ਼ੀ ਆਈਸੋ (ISO) ਪ੍ਰਤੀਬਿੰਬ ਲਈ ਡਾਇਰੈਕਟਰੀ, ਨੂੰ ਖਾਲੀ ਛੱਡ ਦਿਉ।</long>
+	</locale>
+
+	<locale name="pl">
+	  <short>Katalog na tymczasowe obrazy ISO</short>
+	  <long>Katalog używany do zapisu tymczasowych obrazów ISO. Proszę pozostawić puste pole aby użyć domyślnego katalogu tymczasowego systemu.</long>
+	</locale>
+
+	<locale name="pt">
+	  <short>Directório para as imagens ISO temporárias</short>
+	  <long>Directório utilizado para as imagens ISO temporárias, see vazio será utilizado o directório temporário de sistema por omissão.</long>
+	</locale>
+
+	<locale name="pt_BR">
+	  <short>Diretório para as imagens ISO temporárias</short>
+	  <long>Diretório usado para as imagens ISO temporárias. Deixe em branco para usaro diretório de temporários padrão do sistema.</long>
+	</locale>
+
+	<locale name="ro">
+	  <short>Directorul pentru imaginea temporară ISO</short>
+	  <long>Directorul folosit pentru imaginile temporare ISO, dacă nu este specificat va fi folosit directorul implicit temporar de sistem.</long>
+	</locale>
+
+	<locale name="ru">
+	  <short>Каталог для временных ISO-образов</short>
+	  <long>Каталог, используемый для временных ISO-образов, оставьте поле пустым для использования системного каталога временных файлов.</long>
+	</locale>
+
+	<locale name="si">
+	  <short>තාවකාලීක ISO පිළිඹිබු සඳහා බහලුම</short>
+	  
+	</locale>
+
+	<locale name="sk">
+	  <short>Priečinok pre dočasné ISO obrazy</short>
+	  <long>Priečinok použitý pre dočasné ISO obrazy. Ak necháte prázdne, použije sa systémový priečinok pre dočasné súbory.</long>
+	</locale>
+
+	<locale name="sl">
+	  <short>Mapa začasnih slik plošče ISO</short>
+	  <long>Mapa, ki bo uporabljena za začasne slike plošče ISO. Pustite prazno za uporabo privzete začasne mape sistema.</long>
+	</locale>
+
+	<locale name="sq">
+	  <short>Directory për imazhet e përkohshme ISO</short>
+	  <long>Directory e përdorur për imazhet e përkohshme ISO, lëre bosh nëse dëshiron të përdorësh directory e përkohshme të prezgjedhur nga sistemi.</long>
+	</locale>
+
+	<locale name="sr">
+	  <short>Директоријум за привремене ИСО отиске</short>
+	  <long>Директоријум за складиштење привремених ИСО отискака; оставите празно за подразумевани системски привремени директоријум.</long>
+	</locale>
+
+	<locale name="sr@latin">
+	  <short>Direktorijum za privremene ISO otiske</short>
+	  <long>Direktorijum za skladištenje privremenih ISO otiskaka; ostavite prazno za podrazumevani sistemski privremeni direktorijum.</long>
+	</locale>
+
+	<locale name="sv">
+	  <short>Katalog för de temporära iso-avbildningarna</short>
+	  <long>Katalog för de temporära iso-avbildningarna, lämna tomt för att använda systemets standardtemporärkatalog.</long>
+	</locale>
+
+	<locale name="ta">
+	  <short>தற்காலிக ISO பிம்பத்திற்கான அடைவு</short>
+	  <long>தற்காலிக ISO பிம்பத்திற்கான அடைவு, இயல்பான தற்காலிக அடைவை பயன்படுத்த வெற்றாக விடவும்</long>
+	</locale>
+
+	<locale name="te">
+	  <short>తాత్కాలిక ISO చిత్రాలకు సంచయం</short>
+	  <long>తాత్కాలిక ISO చిత్రాలకు ఉపయోగించే సంచయం, సిస్టమ్ యొక్క అప్రమేయ తాత్కాలిక సంచయాన్ని ఉపయోగించుకొనుటకు ఖాళీగావదిలివేయండి.</long>
+	</locale>
+
+	<locale name="th">
+	  <short>โฟลเดอร์สำหรับแฟ้ม ISO image ชั่วคราว</short>
+	  <long>โฟลเดอร์สำหรับเขียนแฟ้ม ISO image ชั่วคราว เว้นว่างไว้ถ้าจะใช้ โฟลเดอร์ชั่วคราวปริยาย ของเครื่อง</long>
+	</locale>
+
+	<locale name="tr">
+	  <short>Geçici ISO görünümlerinin kaydedileceği dizin</short>
+	  <long>Geçici ISO görünümlerinin kaydedileceği dizin, sistemin öntanımlı geçici dizinini kullanmak için boş bırakın.</long>
+	</locale>
+
+	<locale name="uk">
+	  <short>Каталог для тимчасових ISO образів</short>
+	  <long>Каталог для тимчасових ISO образів, залишить поле порожнім, щоб користуватись типовим системним каталогом для тимчасових файлів,</long>
+	</locale>
+
+	<locale name="vi">
+	  <short>Thư mục chứa ảnh ISO tạm thời</short>
+	  <long>Thư mục dùng để chứa ảnh ISO tạm thời. Bỏ trống nếu bạn muốn dùng thư mục tạm thời mặc định của hệ thống.</long>
+	</locale>
+
+	<locale name="xh">
+	  <short>Uvimba weefayili wemifanekiso ye ISO yethutyana</short>
+	  <long>Uvimba weefayili osetyenziselwa imifanekiso ye ISO yethutyana, shiya ize ukwenzela ukuba isebenzise uvimba weefayili wethutyana wenkqubo emiselweyo.</long>
+	</locale>
+
+	<locale name="zh_CN">
+	  <short>ISO 映像文件的临时目录</short>
+	  <long>用于临时 ISO 映像的目录，留空将使用系统的默认临时目录。</long>
+	</locale>
+
+	<locale name="zh_HK">
+	  <short>儲存臨時 ISO 檔的目錄</short>
+	  <long>儲存臨時 ISO 檔的目錄。如果使用系統預設的暫存目錄，則使其空白。</long>
+	</locale>
+
+	<locale name="zh_TW">
+	  <short>儲存臨時 ISO 檔的目錄</short>
+	  <long>儲存臨時 ISO 檔的目錄。如果使用系統預設的暫存目錄，則使其空白。</long>
+	</locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/nautilus-cd-burner/default_speed</key>
+	<applyto>/apps/nautilus-cd-burner/default_speed</applyto>
+	<owner>nautilus-cd-burner</owner>
+	<type>int</type>
+	<default>0</default>
+	<locale name="C">
+	  <short>Default burn speed</short>
+	  <long>Default speed at which the media will be written.</long>
+	</locale>
+
+	<locale name="ar">
+	  <short>سرعة الكتابة المبدئية</short>
+	  <long>السرعة المبدئية التي سيكتب بها الوسيط.</long>
+	</locale>
+
+	<locale name="as">
+	  <short>বাৰ্নেৰ ডিফল্ট গতি</short>
+	  <long>মিডিয়াত লেখাৰ ডিফল্ট গতি</long>
+	</locale>
+
+	<locale name="az">
+	  <short>Ön qurğulu yazma sür&apos;əti</short>
+	  <long>Mediyanın yazılacağı ön qurğulu sür&apos;ət.</long>
+	</locale>
+
+	<locale name="be">
+	  <short>Дапомная хуткасьць запісу</short>
+	  <long>Дапомная хуткасьць, на якой будзе запісаны носьбіт.</long>
+	</locale>
+
+	<locale name="be@latin">
+	  <short>Zmoŭčanaja chutkaść zapisu</short>
+	  <long>Zmoŭčanaja chutkaść, ź jakoj budzie zapisany dysk.</long>
+	</locale>
+
+	<locale name="bg">
+	  <short>Стандартна скорост на записване</short>
+	  <long>Стандартна скорост на записване на дискове.</long>
+	</locale>
+
+	<locale name="bn">
+	  <short>বার্নের ডিফল্ট গতি</short>
+	  <long>মিডিয়ার উপর লেখার ডিফল্ট গতি</long>
+	</locale>
+
+	<locale name="bn_IN">
+	  <short>বার্নের ডিফল্ট গতি</short>
+	  <long>মিডিয়ার মধ্যে লেখার ডিফল্ট গতি</long>
+	</locale>
+
+	<locale name="bs">
+	  <short>Podrazumjevana brzina pisanja</short>
+	  <long>Podrazumjevana brzina pisanja medija</long>
+	</locale>
+
+	<locale name="ca">
+	  <short>Velocitat d&apos;enregistrament predeterminada</short>
+	  <long>Velocitat d&apos;enregistrament predeterminada a la que s&apos;escriuran els medis.</long>
+	</locale>
+
+	<locale name="cs">
+	  <short>Výchozí rychlost vypalování</short>
+	  <long>Výchozí rychlost, kterou se bude zapisovat na média.</long>
+	</locale>
+
+	<locale name="cy">
+	  <short>Cyflymdra llosgi rhagosod</short>
+	  <long>Y cyflymder rhagosod ar gyfer ysgrifennu at gyfrwng.</long>
+	</locale>
+
+	<locale name="da">
+	  <short>Standardhastighed</short>
+	  <long>Standardhastighed som mediet vil blive skrevet med.</long>
+	</locale>
+
+	<locale name="de">
+	  <short>Voreingestellte Brenngeschwindigkeit</short>
+	  <long>Vorgabegeschwindigkeit, mit der ein Medium beschrieben werden soll.</long>
+	</locale>
+
+	<locale name="dz">
+	  <short>བཙུགས་སྤྱོད་མགྱོགས་ཚད་ སྔོན་སྒྲིག་འབད།</short>
+	  <long>བརྡ་ལམ་འབྲི་ནིའི་མགྱོགས་ཚད་གུ་ སྔོན་སྒྲིག་འབད།</long>
+	</locale>
+
+	<locale name="el">
+	  <short>Προεπιλεγμένη ταχύτητα εγγραφής</short>
+	  <long>Προεπιλεγμένη ταχύτητα με την οποία θα εγγραφεί το μέσο.</long>
+	</locale>
+
+	<locale name="en_CA">
+	  <short>Default burn speed</short>
+	  <long>Default speed at which the media will be written.</long>
+	</locale>
+
+	<locale name="en_GB">
+	  <short>Default burn speed</short>
+	  <long>Default speed at which the media will be written.</long>
+	</locale>
+
+	<locale name="es">
+	  <short>Velocidad de grabación predeterminada</short>
+	  <long>La velocidad predeterminada a la que se grabará el soporte.</long>
+	</locale>
+
+	<locale name="et">
+	  <short>Vaikimisi kirjutuskiirus</short>
+	  <long>Vaikimisi kiirus plaatide kirjutamisel.</long>
+	</locale>
+
+	<locale name="eu">
+	  <short>Grabatzeko abiadura lehenetsia</short>
+	  <long>Euskarria grabatzeko erabiliko den abiadura lehenentsia.</long>
+	</locale>
+
+	<locale name="fa">
+	  <short>سرعت نوشتن پیش‌فرض</short>
+	  <long>سرعت پیش‌فرض نوشتن رسانه.</long>
+	</locale>
+
+	<locale name="fi">
+	  <short>Oletusarvoinen kirjoitusnopeus</short>
+	  <long>Oletusarvoinen nopeus, jolla taltiolle kirjoitetaan.</long>
+	</locale>
+
+	<locale name="fr">
+	  <short>Vitesse de gravure par défaut</short>
+	  <long>Vitesse par défaut à laquelle le disque est gravé.</long>
+	</locale>
+
+	<locale name="gl">
+	  <short>Velocidade de gravación predeterminada</short>
+	  <long>A velocidade predeterminada á que se gravarán os soportes.</long>
+	</locale>
+
+	<locale name="gu">
+	  <short>મૂળભુત બર્ન ઝડપ</short>
+	  <long>મૂળભુત ઝડપ કો જેનાથી મિડીયા પર લખાય છે.</long>
+	</locale>
+
+	<locale name="he">
+	  <short>מהירות צריבה ברירת מחדל</short>
+	  <long>מהירות ברירת המחדל שבה תכתב המדיה.</long>
+	</locale>
+
+	<locale name="hi">
+	  <short>डिफ़ॉल्ट बर्न गति</short>
+	  <long>डिफ़ॉल्ट गति जिससे मीडिया लिखी जाएगी.</long>
+	</locale>
+
+	<locale name="hr">
+	  <short>Uobičajena brzina prženja</short>
+	  <long>Uobičajena brzina pri kojoj će podaci biti pisati na medij</long>
+	</locale>
+
+	<locale name="hu">
+	  <short>Alapértelmezett írási sebesség</short>
+	  <long>Alapértelmezett sebesség, amellyel a CD-írás történni fog.</long>
+	</locale>
+
+	<locale name="hy">
+	  <short>Ձայնագրման նախնական արագություն</short>
+	  <long>Նախնական արագություն որով մեդիան պետք է ձայնագրվի</long>
+	</locale>
+
+	<locale name="id">
+	  <short>Kecepatan rekam default</short>
+	  <long>Kecepatan default pada saat penulisan media.</long>
+	</locale>
+
+	<locale name="is">
+	  <short>Sjálfgefinn skrifhraði</short>
+	  <long>Sjálfgefinn hraði skriftar á miðilinn.</long>
+	</locale>
+
+	<locale name="it">
+	  <short>Velocità di masterizzazione predefinita</short>
+	  <long>La velocità predefinita alla quale il supporto è scritto.</long>
+	</locale>
+
+	<locale name="ja">
+	  <short>デフォルトの書き込み速度</short>
+	  <long>メディアへ書き込むデフォルトの速度です。</long>
+	</locale>
+
+	<locale name="ka">
+	  <short>ჩაწერის ნაგულისხმევი სიჩქარე</short>
+	  <long>ნაგულისხმევი სიჩქარე, რომლითაც დისკი ჩაიწერება.</long>
+	</locale>
+
+	<locale name="kn">
+	  <short>ಪೂರ್ವನಿಯೋಜಿತ ಬರೆಯುವ ವೇಗ</short>
+	  
+	</locale>
+
+	<locale name="ko">
+	  <short>기본 굽기 속도</short>
+	  <long>미디어를 쓸 기본 속도.</long>
+	</locale>
+
+	<locale name="lt">
+	  <short>Numatytasis rašymo greitis</short>
+	  <long>Numatytasis greitis kuriuo bus rašoma į laikmeną.</long>
+	</locale>
+
+	<locale name="lv">
+	  <short>Noklusētais rakstīšanas ātrums</short>
+	  <long>Noklusētais ātrums, ar kuru tiks ierakstīts.</long>
+	</locale>
+
+	<locale name="mg">
+	  <short>Hafainganan&apos;ny sokitra fampiasa</short>
+	  <long>Hafainganana fampiasa hisokirana ilay kapila.</long>
+	</locale>
+
+	<locale name="mk">
+	  <short>Стандардна брзина на снимање</short>
+	  <long>Стандардна брзина на која што ќе бидат снимани медиумите.</long>
+	</locale>
+
+	<locale name="ml">
+	  <short>സി.ഡിയിലേയ്ക്കു് കംപ്യൂട്ടറില്‍ നിന്നും ഫയലുകള്‍ പകര്‍ത്തുന്നതിനുളള ഡീഫോള്‍ട്ട് വേഗത</short>
+	  <long>ഡിസ്കിലേയ്ക്കു് എഴുതുന്നതിന് ആവശ്യമായ വേഗത.</long>
+	</locale>
+
+	<locale name="mn">
+	  <short>Стандарт бичих хурд</short>
+	  
+	</locale>
+
+	<locale name="mr">
+	  <short>सर्वसाधरण प्रतिकृत वेग</short>
+	  <long>माध्यम लिहीण्याकरीता मुलभूत गती.</long>
+	</locale>
+
+	<locale name="ms">
+	  <short>kelajuan pembakaran default</short>
+	  <long>Kelajuan default apabila media ditulis.</long>
+	</locale>
+
+	<locale name="nb">
+	  <short>Forvalgt hastighet for skriving</short>
+	  <long>Forvalgt hastighet for skriving av mediet.</long>
+	</locale>
+
+	<locale name="ne">
+	  <short>पूर्वनिर्धारित बर्न गति</short>
+	  <long>मिडिया लेखिने पूर्वनिर्धारित गति ।</long>
+	</locale>
+
+	<locale name="nl">
+	  <short>Standaard brandsnelheid</short>
+	  <long>Standaardsnelheid voor beschrijven van de media</long>
+	</locale>
+
+	<locale name="nn">
+	  <short>Standard brennefart</short>
+	  <long>Farten som plata vil bli brent med.</long>
+	</locale>
+
+	<locale name="or">
+	  <short>ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଲେଖାର ଗତି</short>
+	  <long>ସଞ୍ଚାରମାଧ୍ଯମ ଲେଖିବାର ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଗତି.</long>
+	</locale>
+
+	<locale name="pa">
+	  <short>ਮੂਲ ਲਿਖਣ ਗਤੀ</short>
+	  <long>ਮੂਲ ਗਤੀ, ਜਿਸ ਨਾਲ ਮੀਡਿਆ &apos;ਤੇ ਡਾਟਾ ਲਿਖਿਆ ਜਾਵੇ।</long>
+	</locale>
+
+	<locale name="pl">
+	  <short>Domyślna prędkość nagrywania</short>
+	  <long>Domyślna prędkość, z którą zostanie nagrany nośnik.</long>
+	</locale>
+
+	<locale name="pt">
+	  <short>Velocidade de gravação por omissão</short>
+	  <long>Velocidade por omissão a que o media será gravado.</long>
+	</locale>
+
+	<locale name="pt_BR">
+	  <short>Velocidade padrão de gravação</short>
+	  <long>Velocidade padrão à qual a mídia será gravada.</long>
+	</locale>
+
+	<locale name="ro">
+	  <short>Viteza de scriere implicită</short>
+	  <long>Viteza implicită la care va fi scris mediul.</long>
+	</locale>
+
+	<locale name="ru">
+	  <short>Скорость записи по умолчанию</short>
+	  <long>Скорость записи дисков по умолчанию.</long>
+	</locale>
+
+	<locale name="si">
+	  <short>පෙරනිමි ලිවීමේ වේගය</short>
+	  <long>මාධ්‍ය ලිවිය යුතු පෙරනිමි වේගය.</long>
+	</locale>
+
+	<locale name="sk">
+	  <short>Predvolená rýchlosť napaľovania</short>
+	  <long>Predvolená rýchlosť, ktorou sa bude zapisovať na médium.</long>
+	</locale>
+
+	<locale name="sl">
+	  <short>Privzeta hitrost zapisovanja</short>
+	  <long>Privzeta hitrost, pri kateri bo nosilec zapisan.</long>
+	</locale>
+
+	<locale name="sq">
+	  <short>Shpejtësia e paracaktuar e masterizimit</short>
+	  <long>Shpejtësia e paracaktuar me të cilën do të shkruhen suportet.</long>
+	</locale>
+
+	<locale name="sr">
+	  <short>Подразумевана брзина резања</short>
+	  <long>Подразумевана брзина којом ће се снимати дискови.</long>
+	</locale>
+
+	<locale name="sr@latin">
+	  <short>Podrazumevana brzina rezanja</short>
+	  <long>Podrazumevana brzina kojom će se snimati diskovi.</long>
+	</locale>
+
+	<locale name="sv">
+	  <short>Standardhastighet för bränning</short>
+	  <long>Standardhastighet med vilken mediumet kommer att skrivas.</long>
+	</locale>
+
+	<locale name="ta">
+	  <short>தயாராகும் வேகம்</short>
+	  <long>ஊடகத்தில் எழுதும் வேகம்</long>
+	</locale>
+
+	<locale name="te">
+	  <short>అప్రమేయ వ్రాత వేగం</short>
+	  <long>మాద్యమం వ్రాయబడే అప్రమేయ వేగం.</long>
+	</locale>
+
+	<locale name="th">
+	  <short>ความเร็วปริยายในการเขียน</short>
+	  <long>ความเร็วปริยายสำหรับเขียนข้อมูลลงซีดี</long>
+	</locale>
+
+	<locale name="tr">
+	  <short>Öntanımlı yazma hızı</short>
+	  <long>Diskin yazılacağı öntanımlı hız.</long>
+	</locale>
+
+	<locale name="ug">
+	  <short>ئەسلى يېزىش سۈرئىتى</short>
+	  <long>دىسكىنى يېزىش ئەسلى سۈرئىتى</long>
+	</locale>
+
+	<locale name="uk">
+	  <short>Типова швидкість запису</short>
+	  <long>Типова швидкість для запису інформація на носій.</long>
+	</locale>
+
+	<locale name="vi">
+	  <short>Tốc độ ghi mặc định</short>
+	  <long>Tốc độ ghi mặc định cho đĩa</long>
+	</locale>
+
+	<locale name="xh">
+	  <short>Misela isantya sokutshisa</short>
+	  <long>Isantya somiselo esiyakusetyenziswa ekukhupheleni ulwazi kwizixhobo eziphathekayo zokugcina ulwazi.</long>
+	</locale>
+
+	<locale name="zh_CN">
+	  <short>默认刻录速度</short>
+	  <long>写入介质的默认速度。</long>
+	</locale>
+
+	<locale name="zh_HK">
+	  <short>預設燒錄速度</short>
+	  <long>預設的光碟燒錄速度。</long>
+	</locale>
+
+	<locale name="zh_TW">
+	  <short>預設燒錄速度</short>
+	  <long>預設的光碟燒錄速度。</long>
+	</locale>
+      </schema>
+
+      <schema>
+        <key>/schemas/apps/nautilus-cd-burner/debug</key>
+	<applyto>/apps/nautilus-cd-burner/debug</applyto>
+	<owner>nautilus-cd-burner</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	  <short>Enable debug</short>
+	  <long>Whether to enable the debugging for CD Recording.</long>
+	</locale>
+
+	<locale name="ar">
+	  <short>فعّل التّنقيح</short>
+	  <long>فيما إذا سيفعّل تنقيح لتسجيل الاسطوانات.</long>
+	</locale>
+
+	<locale name="as">
+	  <short>ডিবাগ ব্যৱস্থা সক্ৰিয় কৰা হবে</short>
+	  <long>CD ৰিকোৰ্ড কৰ্মেৰ বাবে ডিবাগ ব্যৱস্থা সক্ৰিয় কৰা হবে কি না ।</long>
+	</locale>
+
+	<locale name="az">
+	  <short>Xəta ayırmasını fəallaşdır</short>
+	  <long>CD yazımı üçün xəta ayırmasının fəallaşdırılması.</long>
+	</locale>
+
+	<locale name="be">
+	  <short>Уключыць адладку</short>
+	  <long>Ці уключыць адладку для запісу дыскаў.</long>
+	</locale>
+
+	<locale name="be@latin">
+	  <short>Uklučy adładku</short>
+	  <long>Ci ŭklučyć adładku dla zapisu CD.</long>
+	</locale>
+
+	<locale name="bg">
+	  <short>Включване на изчистване на грешки</short>
+	  <long>Дали да се включи изчистването на грешки за записа на CD.</long>
+	</locale>
+
+	<locale name="bn">
+	  <short>ডিবাগ সক্রিয় করো</short>
+	  <long>সিডি রেকর্ডিংয়ের জন্য ডিবাগিং সক্রিয় করা হবে কিনা।</long>
+	</locale>
+
+	<locale name="bn_IN">
+	  <short>ডিবাগ ব্যবস্থা সক্রিয় করুন</short>
+	  <long>CD রিকোর্ড কর্মের জন্য ডিবাগ ব্যবস্থা সক্রিয় করা হবে কি না।</long>
+	</locale>
+
+	<locale name="bs">
+	  <short>Omogući ispravljanje grešaka</short>
+	  <long>Da li da omogućite ispravljanje grešaka u programu (debug) za pisanje CDova</long>
+	</locale>
+
+	<locale name="ca">
+	  <short>Habilita la depuració</short>
+	  <long>Si s&apos;hauria d&apos;habilitar la depuració per a l&apos;enregistrament de CD.</long>
+	</locale>
+
+	<locale name="cs">
+	  <short>Povolit ladění</short>
+	  <long>Jestli povolit ladění vypalování CD.</long>
+	</locale>
+
+	<locale name="cy">
+	  <short>Galluogi datnamu</short>
+	  <long>A ddylid galluogi datnamu ar gyfer recordio CD.</long>
+	</locale>
+
+	<locale name="da">
+	  <short>Aktivér fejlfinding</short>
+	  <long>Om fejlfinding for cdbrænding er aktiveret.</long>
+	</locale>
+
+	<locale name="de">
+	  <short>Fehlerdiagnose aktivieren</short>
+	  <long>Soll die Fehlerdiagnose zum Beschreiben von CDs verwendet werden?</long>
+	</locale>
+
+	<locale name="dz">
+	  <short>རྐྱེན་སེལ་ལྕོགས་ཅན་བཟོ།</short>
+	  <long>སི་ཌི་སྒྲ་བཟུང་གི་དོན་ལུ་ རྐྱེན་སེལ་ལྕོགས་ཅན་ བཟོ་ནི་ཨིན་ན་མེན།</long>
+	</locale>
+
+	<locale name="el">
+	  <short>Ενεργοποίηση αποσφαλμάτωσης</short>
+	  <long>Αν θα είναι ενεργή η διόρθωση σφαλμάτων για την εγγραφή CD.</long>
+	</locale>
+
+	<locale name="en_CA">
+	  <short>Enable debug</short>
+	  <long>Whether to enable the debugging for CD Recording.</long>
+	</locale>
+
+	<locale name="en_GB">
+	  <short>Enable debug</short>
+	  <long>Whether to enable the debugging for CD Recording.</long>
+	</locale>
+
+	<locale name="es">
+	  <short>Activar depuración</short>
+	  <long>Indica si debe activar la depuración para la grabación de CD.</long>
+	</locale>
+
+	<locale name="et">
+	  <short>Silumisandmete lubamine</short>
+	  <long>Kas CD salvestamise ajal on silumisandmete väljastamine lubatud või mitte.</long>
+	</locale>
+
+	<locale name="eu">
+	  <short>Gaitu arazketa</short>
+	  <long>CDaren grabazioaren arazketa gaitu ala ez.</long>
+	</locale>
+
+	<locale name="fa">
+	  <short>به کار انداختن اشکال‌زدا</short>
+	  <long>این که آیا اشکال‌زدا برای ضبط سی‌دی به کار انداخته بشود یا نه.</long>
+	</locale>
+
+	<locale name="fi">
+	  <short>Etsi vikoja</short>
+	  <long>Etsitäänkö CD-kirjoittamisesta vikoja</long>
+	</locale>
+
+	<locale name="fr">
+	  <short>Activer le débogage</short>
+	  <long>Indique s&apos;il faut activer le débogage lors de la gravure de CD.</long>
+	</locale>
+
+	<locale name="gl">
+	  <short>Activar a depuración</short>
+	  <long>Indica se se activa a depuración para a gravación de CDs.</long>
+	</locale>
+
+	<locale name="gu">
+	  <short>ભૂલો શોધવાનું સક્રિય કરો</short>
+	  <long>શું CD રેકોર્ડ કરવા માટે ભૂલો શોધવાનું સક્રિય કરવું.</long>
+	</locale>
+
+	<locale name="he">
+	  <short>אפשר ניפוי</short>
+	  <long>האם לאפשר ניפוי בצריבת CD</long>
+	</locale>
+
+	<locale name="hi">
+	  <short>सक्षम करें</short>
+	  <long>CD रिकार्डिंग के लिये डिबगिंग को सक्रिय किया जाना है कि नहीं.</long>
+	</locale>
+
+	<locale name="hr">
+	  <short>Omogući debug</short>
+	  <long>Želite li vidjeti debug poruke vezane za snimanje CD medija</long>
+	</locale>
+
+	<locale name="hu">
+	  <short>Hibakeresés engedélyezése</short>
+	  <long>Engedélyezze-e a hibakeresést CD-íráskor.</long>
+	</locale>
+
+	<locale name="hy">
+	  <short>Միացնել դեֆեկտների վերացման ծրագիրը</short>
+	  <long>Միացնե՞լ դեֆեկտների միացման ծրագիրը CD ձայնագրման համար</long>
+	</locale>
+
+	<locale name="id">
+	  <short>Aktifkan debug</short>
+	  <long>Menentukan apakah debug akan diaktifkan saat merekam CD.</long>
+	</locale>
+
+	<locale name="it">
+	  <short>Abilitare debug</short>
+	  <long>Indica se abilitare il debug per la scrittura di CD.</long>
+	</locale>
+
+	<locale name="ja">
+	  <short>デバッグの可否</short>
+	  <long>CD 書き込みのデバッグ情報を有効にするかどうかです。</long>
+	</locale>
+
+	<locale name="ka">
+	  <short>შეცდომების გამოტანის ჩართვა</short>
+	  <long>დავუშვათ თუ არა, რომ ვნახოთ შეცდომების გამონატანი CD-ს ჩაწერისას.</long>
+	</locale>
+
+	<locale name="kn">
+	  <short>ದೋಷನಿವಾರಣೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು</short>
+	  
+	</locale>
+
+	<locale name="ko">
+	  <short>디버깅 사용</short>
+	  <long>CD 리코딩 디버깅을 사용할 지 여부.</long>
+	</locale>
+
+	<locale name="lt">
+	  <short>Įjungti derinimą</short>
+	  <long>Ar įjungti CD rašymo derinimą.</long>
+	</locale>
+
+	<locale name="lv">
+	  <short>Aktivizēt atkļūdošanu</short>
+	  <long>Vai atļaut atkļūdošanu CD rakstīšanai.</long>
+	</locale>
+
+	<locale name="mg">
+	  <short>Alefaso ny debug</short>
+	  <long>Mamaritra ny fandefasana ny debug rehefa misokitra CD.</long>
+	</locale>
+
+	<locale name="mk">
+	  <short>Вклучи дебагирање</short>
+	  <long>Дали да го вклучи дебагирањето за снимање на CD-а.</long>
+	</locale>
+
+	<locale name="ml">
+	  <short>ഡീബഗ് സജ്ജമാക്കുക</short>
+	  <long>സി.ഡി റിക്കോര്‍ഡിങിനുളള ഡീബഗ്ഗിങ് സജ്ജമാക്കാമോ എന്നു്</long>
+	</locale>
+
+	<locale name="mn">
+	  <short>Шинжилгээ идэвхжүүлэх</short>
+	  
+	</locale>
+
+	<locale name="mr">
+	  <short>त्रुटी निर्धारण सुरू करा</short>
+	  <long>CD रेकॉर्डींगकरीता त्रुटी निर्धारण कार्यान्वीत करायची का.</long>
+	</locale>
+
+	<locale name="ms">
+	  <short>Hidupkan nyahpepijat</short>
+	  <long>Samada menghidupkan pengnyahpepijatan bagi perekodan CD.</long>
+	</locale>
+
+	<locale name="nb">
+	  <short>Aktiver feilsøking</short>
+	  <long>Om feilsøking for CD-brenning skal aktiveres.</long>
+	</locale>
+
+	<locale name="ne">
+	  <short>त्रुटिमोचन सक्षम पार्नुहोस्</short>
+	  <long>सीडी रेकर्डडिङका लागि त्रुटिमोचन सक्रिय पार्ने या नपार्ने</long>
+	</locale>
+
+	<locale name="nl">
+	  <short>Debug inschakelen</short>
+	  <long>Of fouten opsporen ingeschakeld moet worden voor het opnemen van cd&apos;s.</long>
+	</locale>
+
+	<locale name="nn">
+	  <short>Bruk feilsøking</short>
+	  <long>Om du vil bruka feilsøking under CD-brenninga.</long>
+	</locale>
+
+	<locale name="or">
+	  <short>ତ୍ରୁଟିମୁକ୍ତିକରଣ ସମର୍ଥ କରନ୍ତୁ</short>
+	  <long>ସି.ଡି. ଅନୁଲିପିରେ ତ୍ରୁଟିମୁକ୍ତିକରଣ ସମର୍ଥ କରାଯିବ କି ନାହିଁ.</long>
+	</locale>
+
+	<locale name="pa">
+	  <short>ਡੀਬੱਗ ਯੋਗ</short>
+	  <long>ਕੀ CD ਰਿਕਾਰਡਿੰਗ ਲਈ ਡੀਬੱਗ ਯੋਗ ਕਰਨਾ ਹੈ।</long>
+	</locale>
+
+	<locale name="pl">
+	  <short>Włączenie debugowania</short>
+	  <long>Określa, czy włączyć tryb debugowania nagrywania CD.</long>
+	</locale>
+
+	<locale name="pt">
+	  <short>Activar a depuração</short>
+	  <long>Se activar ou não a depuração da Gravação de CD.</long>
+	</locale>
+
+	<locale name="pt_BR">
+	  <short>Habilitar depuração</short>
+	  <long>Se deve ser habilitada a depuração para a Gravação de CD.</long>
+	</locale>
+
+	<locale name="ro">
+	  <short>Activare mesaje pentru depanare</short>
+	  <long>Dacă să se activeze depanarea pentru Înregistrare CD.</long>
+	</locale>
+
+	<locale name="ru">
+	  <short>Включить отладку</short>
+	  <long>Включить отладку процесса записи CD.</long>
+	</locale>
+
+	<locale name="si">
+	  <short>දෝෂහරණය සක්‍රීය කරන්න</short>
+	  
+	</locale>
+
+	<locale name="sk">
+	  <short>Povoliť ladenie</short>
+	  <long>Či povoliť ladenie pri zapisovaní CD.</long>
+	</locale>
+
+	<locale name="sl">
+	  <short>Omogoči razhroščevanje</short>
+	  <long>Ali naj bo omogočeno razhroščevanje za zapisovanje plošč CD.</long>
+	</locale>
+
+	<locale name="sq">
+	  <short>Aktivo debug</short>
+	  <long>Nëse duhet aktivuar proçesi i gjetjes dhe korrigjimit të gabimeve për Regjistrimin e CD.</long>
+	</locale>
+
+	<locale name="sr">
+	  <short>Укључи праћење грешака</short>
+	  <long>Да ли да укључи праћење грешака за упис ЦД-а.</long>
+	</locale>
+
+	<locale name="sr@latin">
+	  <short>Uključi praćenje grešaka</short>
+	  <long>Da li da uključi praćenje grešaka za upis CD-a.</long>
+	</locale>
+
+	<locale name="sv">
+	  <short>Aktivera felsökning</short>
+	  <long>Huruvida felsökningen för cd-inspelning ska aktiveras.</long>
+	</locale>
+
+	<locale name="ta">
+	  <short>பிழை திருத்தலை செயல்படுத்து</short>
+	  <long>CD பதிவிற்கான பிழை திருத்தலை செயல்படுத்தவா</long>
+	</locale>
+
+	<locale name="te">
+	  <short>లోపనిర్మూలనం ఉపయోగించుము</short>
+	  <long>CD రికార్డింగ్ కు డిబగ్గింగ్ ను చేతనపరచాలనుకుంటే.</long>
+	</locale>
+
+	<locale name="th">
+	  <short>เลือกใช้การดีบัก</short>
+	  <long>กำหนดว่าจะเลือกใช้การดีบักสำหรับการเขียนซีดี หรือไม่</long>
+	</locale>
+
+	<locale name="tr">
+	  <short>Hata ayıklamayı etkinleştir</short>
+	  <long>CD Kayıt hata ayıklamasının etkinleştirilmesi.</long>
+	</locale>
+
+	<locale name="uk">
+	  <short>Увімкнути налагодження</short>
+	  <long>Увімкнути налагодження процесу запису CD.</long>
+	</locale>
+
+	<locale name="vi">
+	  <short>Bật gỡ lỗi</short>
+	  <long>Có nên bật gỡ lỗi khi ghi đĩa CD không.</long>
+	</locale>
+
+	<locale name="xh">
+	  <short>Yenza ukuba kulungiswe isiphene</short>
+	  <long>Ukuba yenze ukuba ibe nakho ukungisa isiphene senkqubo ukwenzela i CD Recording.</long>
+	</locale>
+
+	<locale name="zh_CN">
+	  <short>启用调试</short>
+	  <long>是否启用 CD 刻录的调试功能。</long>
+	</locale>
+
+	<locale name="zh_HK">
+	  <short>啟用除錯</short>
+	  <long>是否使用光碟燒錄的除錯模式。</long>
+	</locale>
+
+	<locale name="zh_TW">
+	  <short>啟用除錯</short>
+	  <long>是否使用光碟燒錄的除錯模式。</long>
+	</locale>
+       </schema>
+
+      <schema>
+        <key>/schemas/apps/nautilus-cd-burner/overburn</key>
+	<applyto>/apps/nautilus-cd-burner/overburn</applyto>
+	<owner>nautilus-cd-burner</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	  <short>Enable overburn</short>
+	  <long>Whether to allow the data to exceed the size of the physical medium.</long>
+	</locale>
+
+	<locale name="ar">
+	  <short>فعّل النسخ الزّائد</short>
+	  <long>فيما إذا سيسمح للبيانات أن تتجاوز حجم الوسيط المادّي.</long>
+	</locale>
+
+	<locale name="as">
+	  <short>ওভাৰবাৰ্ন বৈশিষ্ট্য সক্ৰিয় কৰক</short>
+	  <long>তথ্যেৰ মাপ প্ৰকৃত মিডিয়াৰ মাপেৰ অধিক হওয়া সম্ভব কিনা ।</long>
+	</locale>
+
+	<locale name="az">
+	  <short>Tərkibdən çox yazmağı fəallaşdır</short>
+	  <long>Datanın, mediumun fizikal böyüklüyünü keçməsinə icazə</long>
+	</locale>
+
+	<locale name="be">
+	  <short>Уключыць перапаўненьне</short>
+	  <long>Ці дазволіць перавышэньне памеру даньняў фізычнага памеру носьбіту.</long>
+	</locale>
+
+	<locale name="be@latin">
+	  <short>Uklučy zapis bolš za normu (overburn)</short>
+	  <long>Ci dazvalać zapis źviestak pamieram, bolšym za naminalny pamier fizyčnaha nośbitu.</long>
+	</locale>
+
+	<locale name="bg">
+	  <short>Включване на нестандартно големи дискове</short>
+	  <long>Дали да се позволява на данните да надвишават размера на физическия носител.</long>
+	</locale>
+
+	<locale name="bn">
+	  <short>ওভারবার্ণ সক্রিয় করো</short>
+	  <long>মিডিয়ার প্রকৃত সাইজ থেকে তথ্যের আকার বেশি হওয়ার অনুমতি দেওয়া হবে কিনা।</long>
+	</locale>
+
+	<locale name="bn_IN">
+	  <short>ওভার-বার্ন বৈশিষ্ট্য সক্রিয় করুন</short>
+	  <long>তথ্যের মাপ প্রকৃত মিডিয়ার মাপের অধিক হওয়া সম্ভব কিনা।</long>
+	</locale>
+
+	<locale name="bs">
+	  <short>Ukjluči pisanje preko preporučene granice na mediju (overburn)</short>
+	  <long>Da li da dozvolite podacima da pređu veličinu fizičkog medija. </long>
+	</locale>
+
+	<locale name="ca">
+	  <short>Habilita la gravació per damunt del límit</short>
+	  <long>Si s&apos;hauria de permetre que les dades excedissin la mida del medi físic.</long>
+	</locale>
+
+	<locale name="cs">
+	  <short>Povolit přesáhnutí kapacity disku</short>
+	  <long>Jestli povolit, aby data přesáhla velikost fyzického média.</long>
+	</locale>
+
+	<locale name="cy">
+	  <short>Galluogi troslosgi</short>
+	  <long>A ddylid caniatáu i&apos;r data fynd dros faint y cyfrwng corfforol.</long>
+	</locale>
+
+	<locale name="da">
+	  <short>Aktivér overbrænding</short>
+	  <long>Om data må overstige størrelsen af det fysiske medium.</long>
+	</locale>
+
+	<locale name="de">
+	  <short>Overburn aktivieren</short>
+	  <long>Soll das Datenvolumen die Kapazität des physischen Mediums überschreiten dürfen?</long>
+	</locale>
+
+	<locale name="dz">
+	  <short>ཚད་ལས་བརྒལ་བའི་བཙུགས་སྤྱོད་ ལྕོགས་ཅན་བཟོ།</short>
+	  <long>གནད་སྡུད་དེ་ དངོས་སུ་ཡོད་པའི་བརྡ་ལམ་གྱི་ཚད་ལས་ ལྷག་བཅུག་ནི་ཨིན་ན་མེན།</long>
+	</locale>
+
+	<locale name="el">
+	  <short>Ενεργοποίηση overburn</short>
+	  <long>Αν θα επιτρέπεται στα δεδομένα τα υπερβαίνουν το φυσικό μέγεθος του μέσου.</long>
+	</locale>
+
+	<locale name="en_CA">
+	  <short>Enable overburn</short>
+	  <long>Whether to allow the data to exceed the size of the physical medium.</long>
+	</locale>
+
+	<locale name="en_GB">
+	  <short>Enable overburn</short>
+	  <long>Whether to allow the data to exceed the size of the physical medium.</long>
+	</locale>
+
+	<locale name="es">
+	  <short>Activar «overburn»</short>
+	  <long>Indica si debe permitir que los datos excedan el tamaño del medio físico.</long>
+	</locale>
+
+	<locale name="et">
+	  <short>Üle ääre kirjutamise lubamine</short>
+	  <long>Kas kirjutusmeedia füüsilise suuruse ületamine on lubatud või mitte.</long>
+	</locale>
+
+	<locale name="eu">
+	  <short>Gaitu mugatik gora grabatzea</short>
+	  <long>Datuek euskarri fisikoaren tamaina gainditu dezaketen ala ez.</long>
+	</locale>
+
+	<locale name="fa">
+	  <short>به کار انداختن نوشتن بیش از ظرفیت</short>
+	  <long>این که آیا اجازه داده بشود که اندازهٔ داده‌ها از اندازهٔ رسانهٔ فیزیکی بیشتر شود یا نه.</long>
+	</locale>
+
+	<locale name="fi">
+	  <short>Salli lopun yli kirjoitus</short>
+	  <long>Voiko datan koko ylittää tallennusvälineen koon</long>
+	</locale>
+
+	<locale name="fr">
+	  <short>Activer la gravure en surcapacité (Overburn)</short>
+	  <long>Indique s&apos;il faut autoriser aux données de dépasser la taille physique du média.</long>
+	</locale>
+
+	<locale name="gl">
+	  <short>Activar a gravación por riba do límite (overburn)</short>
+	  <long>Indica se se permite que os datos excedan o tamaño do soporte físico.</long>
+	</locale>
+
+	<locale name="gu">
+	  <short>વધુ બર્ન સક્રિય કરો</short>
+	  <long>શું માહિતીને ભૌતિક માધ્યમના માપથી વધી જવાની પરવાનગી આપવી.</long>
+	</locale>
+
+	<locale name="he">
+	  <short>אפשר צריבת יתר</short>
+	  <long>האם לאפשר למידע לחרוג מגודל המדיה</long>
+	</locale>
+
+	<locale name="hi">
+	  <short>ओवरवर्न सक्रिय करें</short>
+	  <long>भौतिक माध्यम के आकार से आंकड़ों को बढ़ने की अनुमति देना है कि नहीं.</long>
+	</locale>
+
+	<locale name="hr">
+	  <short>Uključi overburn</short>
+	  <long>Želite li da na medij bude zapisano više podataka od predviđene količine.</long>
+	</locale>
+
+	<locale name="hu">
+	  <short>Túlírás engedélyezése</short>
+	  <long>Engedélyezze-e, hogy az adatméret meghaladhassa a fizikai adathordozó méretét.</long>
+	</locale>
+
+	<locale name="hy">
+	  <short>Միացնել overburn ֆունկցիան</short>
+	  <long>Թույլատրե՞լոր տեեկատվությունը գերազանցի ֆիզիկական միջինի չափսը</long>
+	</locale>
+
+	<locale name="id">
+	  <short>Aktifkan overburn</short>
+	  <long>Menentukan apakah ukuran data boleh lebih besar dari ukuran fisik media.</long>
+	</locale>
+
+	<locale name="it">
+	  <short>Abilitare overburn</short>
+	  <long>Indica se consentire ai dati di eccedere la dimensione del supporto fisico.</long>
+	</locale>
+
+	<locale name="ja">
+	  <short>オーバーバーンの可否</short>
+	  <long>メディアの物理的なサイズを超えたデータを許可するかどうかです。</long>
+	</locale>
+
+	<locale name="ka">
+	  <short>დაშვებულზე მეტის ჩაწერის ჩართვა</short>
+	  <long>დავუშვათ თუ არა, რომ ჩაწერილმა მონაცემებმა გადაააჭარბონ დისკის დასაშვებ ტევადობებს.</long>
+	</locale>
+
+	<locale name="ko">
+	  <short>용량 초과 굽기 사용</short>
+	  <long>물리적인 미디어 크기를 넘어가는 데이터를 쓰도록 허용할 지 여부.</long>
+	</locale>
+
+	<locale name="lt">
+	  <short>Įjungti „overburn“</short>
+	  <long>Ar leisti duomenims viršyti disko talpą.</long>
+	</locale>
+
+	<locale name="lv">
+	  <short>Aktivizēt pār-rakstīšanu</short>
+	  <long>Vai atļaut ierakstāmajiem datiem pārsniegt matricas fiziskos izmērus.</long>
+	</locale>
+
+	<locale name="mg">
+	  <short>Alefaso ny Overburn</short>
+	  <long>Mamaritra ny fahafahan&apos;ny data mihoatra ny tena haben&apos;ilay kapila.</long>
+	</locale>
+
+	<locale name="mk">
+	  <short>Овозможи запис над стандардното</short>
+	  <long>Дали да дозволува податоците да ја надминат големината на медиумот.</long>
+	</locale>
+
+	<locale name="ml">
+	  <short>ഓവര്‍ബേര്‍ണ്‍ സജ്ജമാക്കുക</short>
+	  <long>ഫിസിക്കല്‍ മീഡിയുടെ വലിപ്പത്തേക്കാള്‍ ഡേറ്റായുടെ വലിപ്പം കൂടുന്നതിനു് അനുവാദം ഉണ്ടോ എന്നു്</long>
+	</locale>
+
+	<locale name="mn">
+	  <short>Давхарлаж бичихийг идэвхжүүлэх</short>
+	  
+	</locale>
+
+	<locale name="mr">
+	  <short>overburn कार्यान्वीत करा</short>
+	  <long>वास्तवीक माध्यमाच्या आकार क्षमता पलीकडे माहितीस सहमती द्यावी.</long>
+	</locale>
+
+	<locale name="ms">
+	  <short>Hidupkan overburn</short>
+	  <long>Samada mengizinkan data untuk melebihi saiz fizikal medium</long>
+	</locale>
+
+	<locale name="nb">
+	  <short>Aktiver overbrenning</short>
+	  <long>Om størrelsen på data kan overgå størrelsen på det fysiske mediet.</long>
+	</locale>
+
+	<locale name="ne">
+	  <short>ओभरबर्न सक्षम पार्नुहोस्</short>
+	  <long>डेटालाई भौतिक माध्यमको साइज नाघ्न अनुमति दिने या नदिने ।</long>
+	</locale>
+
+	<locale name="nl">
+	  <short>Overburn inschakelen</short>
+	  <long>Of de gegevens groter mogen zijn dan de grootte van het fysieke medium.</long>
+	</locale>
+
+	<locale name="nn">
+	  <short>Bruk overbrenning</short>
+	  <long>Om du vil brenna meir data enn plata nominelt har plass til.</long>
+	</locale>
+
+	<locale name="or">
+	  <short>ଅତ୍ଯଧିକ ଲିଖନ ସମର୍ଥ କରନ୍ତୁ</short>
+	  <long>ତଥ୍ଯକୁ ସଞ୍ଚାରମାଧ୍ଯମର ଭୌତିକ ଆକାରକୁ ଟପିବାର ଅନୁମତି ଦିୟାଯିବ କି ନାହିଁ.</long>
+	</locale>
+
+	<locale name="pa">
+	  <short>ਜ਼ਿਆਦਾ ਲਿਖਣਾ ਯੋਗ</short>
+	  <long>ਕੀ ਅਸਲੀ ਡਿਸਕ ਥਾਂ ਤੋਂ ਜਿਆਦਾ ਲਿਖਣ ਲਈ ਡਾਟਾ ਨੂੰ ਇਜ਼ਾਜਤ ਹੈ।</long>
+	</locale>
+
+	<locale name="pl">
+	  <short>Włączenie nadpalania (overburn)</short>
+	  <long>Określa, czy dane mogą przekroczyć rozmiar fizycznego nośnika.</long>
+	</locale>
+
+	<locale name="pt">
+	  <short>Activar o &quot;overburn&quot;</short>
+	  <long>Se permitir ou não que os dados excedam o tamanho físico do media.</long>
+	</locale>
+
+	<locale name="pt_BR">
+	  <short>Habilitar gravação extra (overburn)</short>
+	  <long>Se deve ser permitido que os dados excedam o tamanho da mídia física.</long>
+	</locale>
+
+	<locale name="ro">
+	  <short>Activare overburn</short>
+	  <long>Dacă se va permite datelor să depășească capacitatea mediului de scriere.</long>
+	</locale>
+
+	<locale name="ru">
+	  <short>Включить функцию overburn</short>
+	  <long>Разрешить запись данных, превышающих объем физического носителя.</long>
+	</locale>
+
+	<locale name="sk">
+	  <short>Povoliť preplnenie</short>
+	  <long>Či povoliť, aby údaje presiahli veľkosť fyzického média.</long>
+	</locale>
+
+	<locale name="sl">
+	  <short>Omogoči zapisovanje preko meje zmogljivosti</short>
+	  <long>Ali naj bo dovoljeno, da podatki prekoračijo velikost fizičnega medija.</long>
+	</locale>
+
+	<locale name="sq">
+	  <short>Aktivo overburn</short>
+	  <long>Nëse duhet lejuar që të dhënat të tejkalojnë madhësinë e suportit fizik.</long>
+	</locale>
+
+	<locale name="sr">
+	  <short>Укључи прекорачење</short>
+	  <long>Да ли да дозволи да подаци прекораче величину физичког диска</long>
+	</locale>
+
+	<locale name="sr@latin">
+	  <short>Uključi prekoračenje</short>
+	  <long>Da li da dozvoli da podaci prekorače veličinu fizičkog diska</long>
+	</locale>
+
+	<locale name="sv">
+	  <short>Aktivera överbränning</short>
+	  <long>Huruvida data ska tillåtas att överskrida storleken på det fysiska mediumet.</long>
+	</locale>
+
+	<locale name="ta">
+	  <short>overburn செயல்படுத்தப்பட்டது</short>
+	  <long>ஊடகத்தின் அளவை விட தகவலின் அளவு பெரிதாவதை அனுமதிக்கவா</long>
+	</locale>
+
+	<locale name="te">
+	  <short>ఓవర్ బర్న్ ఉపయోగించుము </short>
+	  <long>బౌతిక మాద్యమం పరిమాణం ను మించుపోవు డాటాను అనుమతించాలనుకుంటే.</long>
+	</locale>
+
+	<locale name="th">
+	  <short>เลือกใช้ overburn</short>
+	  <long>กำหนดว่าจะยอมเขียนข้อมูลเกินขนาดของแผ่นหรือไม่</long>
+	</locale>
+
+	<locale name="tr">
+	  <short>Overburn&apos;u etkinleştir</short>
+	  <long>Fiziksel alanı geçecek boyuttaki verinin yazılmasına izin verilmesi.</long>
+	</locale>
+
+	<locale name="ug">
+	  <short>ئەسلى سىغىمىدىن كۆپ يېزىشقا رۇخسەت قىلىش</short>
+	  <long>ھۆججەتنىڭ سىغىمىنىڭ دىسكىنىڭ سىغىمىدىن ئېشىپ كېتىشكە رۇخسەت قىلىش-قىلماسلىق</long>
+	</locale>
+
+	<locale name="uk">
+	  <short>Увімкнути функцію overburn</short>
+	  <long>Дозволити запис даних, що перевищують об&apos;єм фізичного носія.</long>
+	</locale>
+
+	<locale name="vi">
+	  <short>Bật quá ghi</short>
+	  <long>Có nên cho phép ghi dữ liệu vượt quá kích thước đĩa thực không.</long>
+	</locale>
+
+	<locale name="xh">
+	  <short>Yenza ukuba kutshe ngaphezulu</short>
+	  <long>Ukuba ivumele ii-data idlule ubungakanani bendlela ephathekayo.</long>
+	</locale>
+
+	<locale name="zh_CN">
+	  <short>启用超刻</short>
+	  <long>是否允许数据超过物理介质的大小。</long>
+	</locale>
+
+	<locale name="zh_HK">
+	  <short>啟用超燒</short>
+	  <long>是否允許資料的大小大於物理媒體的空間。</long>
+	</locale>
+
+	<locale name="zh_TW">
+	  <short>啟用超燒</short>
+	  <long>是否允許資料的大小大於物理媒體的空間。</long>
+	</locale>
+       </schema>
+
+      <schema>
+        <key>/schemas/apps/nautilus-cd-burner/burnproof</key>
+	<applyto>/apps/nautilus-cd-burner/burnproof</applyto>
+	<owner>nautilus-cd-burner</owner>
+	<type>bool</type>
+	<default>false</default>
+	<locale name="C">
+	  <short>Enable Burnproof option</short>
+	  <long>Whether to use the Burnproof option available on some recorders.</long>
+	</locale>
+
+	<locale name="ar">
+	  <short>فعّل خيار مضاد الاحتراق</short>
+	  <long>فيما إذا سيستعمل خيار مضاد الاحتراق المتوفّر على بعض المسجّلات.</long>
+	</locale>
+
+	<locale name="as">
+	  <short>বাৰ্নপ্ৰুফ বিকল্প সক্ৰিয় কৰক</short>
+	  <long>কিছু ৰেকৰ্ডাৰে উপলব্ধ বাৰ্নপ্ৰুফ বিকল্প প্ৰয়োগ কৰা হবে কি না ।</long>
+	</locale>
+
+	<locale name="az">
+	  <short>Yanmağa qarşı qoruma işlət</short>
+	  <long>Bəzi yazıcılarda mövcud olan Burnproof xassəsini işlətmək üçün.</long>
+	</locale>
+
+	<locale name="be">
+	  <short>Уключыць выбар Burnproof</short>
+	  <long>Ці выкарыстоўваць выбар Burnproof, што даступны для некаторых прыладаў.</long>
+	</locale>
+
+	<locale name="be@latin">
+	  <short>Uklučy opcyju Burnproof</short>
+	  <long>Ci vykarystać opcyju Burnproof, padtrymanuju niekatorymi pryładami zapisu dyskaŭ.</long>
+	</locale>
+
+	<locale name="bg">
+	  <short>Защита срещу забавяне при записа.</short>
+	  <long>Дали да се ползва защитата срещу забавяне на потока от данни, която е вградена в някои устройства.</long>
+	</locale>
+
+	<locale name="bn">
+	  <short>বার্ণপ্রুফ অপশন সক্রিয় করো</short>
+	  <long>কিছু রেকর্ডারের জন্য বার্ণপ্রুফ অপশন সক্রিয় করা হবে কিনা।</long>
+	</locale>
+
+	<locale name="bn_IN">
+	  <short>বার্নপ্রুফ বিকল্প সক্রিয় করুন</short>
+	  <long>কয়েকটি রেকর্ডারে উপলব্ধ বার্নপ্রুফ বিকল্প প্রয়োগ করা হবে কি না।</long>
+	</locale>
+
+	<locale name="bs">
+	  <short>Uključi sigurno pisanje</short>
+	  <long>Da li da koristite opciju sigurnog pisanja (burnproof) koju podržavaju neki pisači.</long>
+	</locale>
+
+	<locale name="ca">
+	  <short>Habilita l&apos;opció «Burnproof»</short>
+	  <long>Si s&apos;hauria d&apos;utilitzar l&apos;opció «Burnproof» disponible en alguns enregistradors.</long>
+	</locale>
+
+	<locale name="cs">
+	  <short>Povolit možnost Burnproof</short>
+	  <long>Jestli používat možnost Burnproof, dostupnou v některých vypalovacích mechanikách.</long>
+	</locale>
+
+	<locale name="cy">
+	  <short>Galluogi opsiwn &quot;Burnproof&quot;</short>
+	  <long>A ddylid defnyddio&apos;r opsiwn &quot;Burnproof&quot; sydd ar gael ar recordwyr.</long>
+	</locale>
+
+	<locale name="da">
+	  <short>Aktivér fejlbrændingssikring</short>
+	  <long>Om Burnproof-fejlbrændingssikring, tilgængelig på nogle brændere, skal bruges.</long>
+	</locale>
+
+	<locale name="de">
+	  <short>Burnproof aktivieren</short>
+	  <long>Soll die auf manchen Brennern verfügbare Option Burnproof verwendet werden?</long>
+	</locale>
+
+	<locale name="dz">
+	  <short>བཙུགས་སྤྱོད་ཉེན་སྲུང་གི་གདམ་ཁ་ ལྕོགས་ཅན་བཟོ།</short>
+	  <long>བཟུང་འཕྲུལ་གཞན་ཚུ་ལུ་ཡོད་མི་ བཙུགས་སྤྱོད་ཉེན་སྲུང་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།</long>
+	</locale>
+
+	<locale name="el">
+	  <short>Ενεργοποίηση επιλογής Burnproof</short>
+	  <long>Αν θα γίνεται χρήση της επιλογής Burnproof που είναι διαθέσιμη σε μερικές συσκευές εγγραφής.</long>
+	</locale>
+
+	<locale name="en_CA">
+	  <short>Enable Burnproof option</short>
+	  <long>Whether to use the Burnproof option available on some recorders.</long>
+	</locale>
+
+	<locale name="en_GB">
+	  <short>Enable Burnproof option</short>
+	  <long>Whether to use the Burnproof option available on some recorders.</long>
+	</locale>
+
+	<locale name="es">
+	  <short>Activar BurnProof</short>
+	  <long>Indica si debe usar la opción «Burnproof» disponible en algunas grabadoras.</long>
+	</locale>
+
+	<locale name="et">
+	  <short>Burnproof valiku lubamine</short>
+	  <long>Kas mõnede salvestajate puhul on Burnproof võimalus lubatud või mitte.</long>
+	</locale>
+
+	<locale name="eu">
+	  <short>Gaitu BurnProof</short>
+	  <long>Grabagailu batzuek eskaintzen duten BurnProof aukera gaitu ala ez.</long>
+	</locale>
+
+	<locale name="fa">
+	  <short>به کار انداختن گزینهٔ Burnproof</short>
+	  <long>این که آیا از گزینه Burnproof که در بعضی ضبط کننده‌ها موجود است استفاده بشود یا نه.</long>
+	</locale>
+
+	<locale name="fi">
+	  <short>Käytä Burnproof-ominaisuutta</short>
+	  <long>Käytetäänkö eräiden levyasemien Burnproof-ominaisuutta.</long>
+	</locale>
+
+	<locale name="fr">
+	  <short>Activer l&apos;option Burnproof</short>
+	  <long>Indique s&apos;il faut utiliser l&apos;option Burnproof disponible sur certains graveurs.</long>
+	</locale>
+
+	<locale name="gl">
+	  <short>Activar a opción Burnproof</short>
+	  <long>Indica se se usa a opción &quot;burnproof&quot; dispoñible nalgunhas gravadoras.</long>
+	</locale>
+
+	<locale name="gu">
+	  <short>બર્નસુરક્ષિત વિકલ્પ સક્રિય કરો</short>
+	  <long>શું અમુક રેકોર્ડરો પર ઉપ્લબ્ધ બર્નસુરક્ષિત વિકલ્પ વાપરવો.</long>
+	</locale>
+
+	<locale name="he">
+	  <short>אפשר Burnproof</short>
+	  <long>האם לאפשר שימוש ב Burnproof במידה וקיים בצורב</long>
+	</locale>
+
+	<locale name="hi">
+	  <short>Burnproof विकल्प सक्रिय करें</short>
+	  <long>कुछ रिकार्डर पर बर्नप्रूफ विकल्प उपलब्ध का प्रयोग करना है या नहीं.</long>
+	</locale>
+
+	<locale name="hr">
+	  <short>Uključi Burnproof</short>
+	  <long>Da li da koristim Burnprof opciju dostupnu kod nekih uređaja za snimanje.</long>
+	</locale>
+
+	<locale name="hu">
+	  <short>Burnproof-opció engedélyezése</short>
+	  <long>Használja-e a néhány írónál elérhető Burnproof-opciót.</long>
+	</locale>
+
+	<locale name="hy">
+	  <short>Միացնել ձայնագրման Burnproof տարբերակը</short>
+	  <long>Օգտագործե՞լ Burnproof տարբերակը, որոնք մատչելի են որոշ ձայնագրիչների վրա</long>
+	</locale>
+
+	<locale name="id">
+	  <short>Aktifkan pilihan Burnproof</short>
+	  <long>Menentukan apakah pilihan Burnproof diaktifkan atau tidak (hanya tersedia pada alat perekam tertentu saja).</long>
+	</locale>
+
+	<locale name="it">
+	  <short>Abilitare opzione Burnproof</short>
+	  <long>Indica se usare l&apos;opzione Burnproof disponibile su alcuni masterizzatori.</long>
+	</locale>
+
+	<locale name="ja">
+	  <short>BurnProof オプションの可否</short>
+	  <long>いくつかのレコーダで利用できる BurnProof 機能を利用するかどうかです。</long>
+	</locale>
+
+	<locale name="ka">
+	  <short>ჩაწერაზე შემოწმების პარამეტრის ჩართვა</short>
+	  <long>გამოვიყენოთ თუ არა ჩაწერაზე შემოწმება, რომელიც ხელმისაწვდომია ზოგიერთ ჩამწერ მოწყობილობებში.</long>
+	</locale>
+
+	<locale name="ko">
+	  <short>번프루프(BurnProof) 기능 사용</short>
+	  <long>일부 리코더에서 사용할 수 있는 번프루프(BurnProof) 기능을 사용할 지 여부.</long>
+	</locale>
+
+	<locale name="lt">
+	  <short>Įjungti Burnproof parametrą</short>
+	  <long>Ar naudoti Burnproof parametrą prieinamą su kai kuriai įrenginiais.</long>
+	</locale>
+
+	<locale name="lv">
+	  <short>Aktivizēt rakstīšanas pārbaudes iespēju</short>
+	  <long>Vai lietot rakstīšanas pārbaudes iespēju pieejamu dažiem rakstītājiem.</long>
+	</locale>
+
+	<locale name="mg">
+	  <short>Ekeo ny safidy Burnproof</short>
+	  <long>Mamaritra ny fahafahana mampiasa ny safidy Burnproof izay hita amin&apos;ny mpisokitra sasany.</long>
+	</locale>
+
+	<locale name="mk">
+	  <short>Вклучи ја опцијата за заштита при снимање</short>
+	  <long>Дали да користи заштита која е достапна на некои снимачи.</long>
+	</locale>
+
+	<locale name="ml">
+	  <short>സി.ഡിയിലേയ്ക്കു് എഴുതുന്നതു് തടയുന്നതിനുളള ഉപാധി സജ്ജമാക്കുക</short>
+	  <long>ചില റിക്കോര്‍ഡറില്‍ ലഭ്യമായ സി.ഡിയിലേയ്ക്കു് എഴുതുന്നതു് തടയുന്നതിനുളള ഉപാധി ഉപയോഗിക്കണമോ എന്നു്</long>
+	</locale>
+
+	<locale name="mn">
+	  <short>Burnproof сонголтыг идэвхижүүлэх</short>
+	  <long>Зарим бичигчдэд байдаг Burnproof сонголтыг ашиглах эсэх.</long>
+	</locale>
+
+	<locale name="mr">
+	  <short>Burnproof पर्याय कार्यान्वीत करा</short>
+	  <long>काहीक रेकॉर्ड यंत्रावरील उपलब्ध Burnproof पर्याय वापरायचे का.</long>
+	</locale>
+
+	<locale name="ms">
+	  <short>Hidupkan opsyen Burnproof</short>
+	  <long>Samada menggunakan opesyen Burnroof yang ada pada sesetengah perekod</long>
+	</locale>
+
+	<locale name="nb">
+	  <short>Aktiver alternativet «Burnproof»</short>
+	  <long>Om Burnproof skal brukes hvis tilgjengelig.</long>
+	</locale>
+
+	<locale name="ne">
+	  <short>बर्नप्रुफ विकल्प सक्षम पार्नुहोस्</short>
+	  <long>केहि रेकर्डरमा उपलब्ध भएको बर्नप्रुफ विकल्प प्रयोग गर्ने या नगर्ने ।</long>
+	</locale>
+
+	<locale name="nl">
+	  <short>Burnproof-optie inschakelen</short>
+	  <long>Of de Burnproof-optie op sommige branders gebruikt moet worden.</long>
+	</locale>
+
+	<locale name="nn">
+	  <short>Bruk Burnproof</short>
+	  <long>Om Burnproof-funksjonen skal brukast, dersom brennaren støttar det.</long>
+	</locale>
+
+	<locale name="or">
+	  <short>ଲେଖା ପ୍ରତିରୋଧକ୍ଷମ ପସନ୍ଦକୁ ସମର୍ଥ କରନ୍ତୁ</short>
+	  <long>କିଛି ଅନୁଲିପିକାରରେ ଉପଲବ୍ଧ ଲେଖା ପ୍ରତିରୋଧକ୍ଷମ ପସନ୍ଦକୁ ବ୍ଯବହାର କରାଯିବ କି ନାହିଁ.</long>
+	</locale>
+
+	<locale name="pa">
+	  <short>ਸੁਰੱਖਿਅਤ ਲਿਖਣ ਚੋਣ ਯੋਗ</short>
+	  <long>ਸੁਰੱਖਿਅਤ ਲਿਖਣ ਦੀ ਚੋਣ ਕੁਝ ਰਿਕਾਰਡਰਾਂ ਨਾਲ ਹੀ ਉਪਲੱਬਧ ਹੈ, ਕੀ ਇਸ ਨੂੰ ਵਰਤਣਾ ਹੈ।</long>
+	</locale>
+
+	<locale name="pl">
+	  <short>Włączenie opcji Burnproof</short>
+	  <long>Określa, czy użyć opcji Burnproof dostępnej w niektórych nagrywarkach.</long>
+	</locale>
+
+	<locale name="pt">
+	  <short>Activar a opção &quot;Burnproof&quot;</short>
+	  <long>Se utilizar ou não a opção de &quot;Burnproof&quot; disponível em alguns gravadores.</long>
+	</locale>
+
+	<locale name="pt_BR">
+	  <short>Habilitar opção de proteção de gravação</short>
+	  <long>Se deve ser usada a opção de proteção de gravação disponível em alguns gravadores.</long>
+	</locale>
+
+	<locale name="ro">
+	  <short>Activare Burnproof</short>
+	  <long>Dacă să se folosească optiunea Burnproof disponibilă la unele dintre unități.</long>
+	</locale>
+
+	<locale name="ru">
+	  <short>Включить функцию Burnproof</short>
+	  <long>Включить функцию Burnproof, доступную на некоторых устройствах.</long>
+	</locale>
+
+	<locale name="sk">
+	  <short>Povoliť voľbu Burnproof</short>
+	  <long>Či použiť voľbu Burnproof, ktorá je dostupná na niektorých napaľovačkách.</long>
+	</locale>
+
+	<locale name="sl">
+	  <short>Omogoči možnost Burnproof</short>
+	  <long>Ali naj bo uporabljena možnost Burnproof, ki je na voljo pri nekaterih zapisovalcih.</long>
+	</locale>
+
+	<locale name="sq">
+	  <short>Aktivo opcionin Burnproof</short>
+	  <long>Nëse duhet përdorur opcioni Burnproof që disa masterizues vënë në dispozicion.</long>
+	</locale>
+
+	<locale name="sr">
+	  <short>Укључи заштиту уписа</short>
+	  <long>Да ли да користи могућност заштите резања доступну на неким резачима.</long>
+	</locale>
+
+	<locale name="sr@latin">
+	  <short>Uključi zaštitu upisa</short>
+	  <long>Da li da koristi mogućnost zaštite rezanja dostupnu na nekim rezačima.</long>
+	</locale>
+
+	<locale name="sv">
+	  <short>Aktivera alternativ för säker bränning</short>
+	  <long>Huruvida alternativet för säker bränning som är tillgängligt på en del brännare ska användas.</long>
+	</locale>
+
+	<locale name="ta">
+	  <short>Burnproof தேர்வை செயல்படுத்தவும்</short>
+	  <long>இதே பதிவில் உள்ள Burnproof தேர்வை பயன்படுத்தவா</long>
+	</locale>
+
+	<locale name="te">
+	  <short>బర్న్ ప్రూఫ్ ఉపయోగించుము</short>
+	  <long>బర్న్‌ప్రూఫ్ ఐచ్చికం అందుబాటును కొన్ని రికార్డర్లందు ఉపయోగించాలనుకుంటే.</long>
+	</locale>
+
+	<locale name="th">
+	  <short>เลือกใช้ Burnproof</short>
+	  <long>กำหนดว่าจะเลือกใช้ตัวเลือก Burnproof หรือไม่ (มีแค่ในเครื่องเขียนบางเครื่อง)</long>
+	</locale>
+
+	<locale name="tr">
+	  <short>Burnproof seçeneğini etkinleştir</short>
+	  <long>Kimi yazıcılarda bulunan kayıt hatalarını engelleyen, Burnproof seçeneğinin kullanılması.</long>
+	</locale>
+
+	<locale name="ug">
+	  <short>يېزىشنى تەكشۈرۈش تاللىشىنى رۇخسەت قىلىش</short>
+	  
+	</locale>
+
+	<locale name="uk">
+	  <short>Увімкнути параметр Burnproof</short>
+	  <long>Увімкнути функцію Burnproof, наявну на деяких пристроях запису.</long>
+	</locale>
+
+	<locale name="vi">
+	  <short>Bật tùy chọn Chịu Ghi</short>
+	  <long>Có nên dùng tùy chọn Chịu Ghi (Burnproof) sẵn sàng trên vài trình thu không.</long>
+	</locale>
+
+	<locale name="xh">
+	  <short>Yenza ukuba kubekho into ekunokukhethwa kuyo eyi-Burnproof</short>
+	  <long>Ukuba isebenzise into ekunokukhethwa kuyo eyi-Burnproof kwezinye iziniki-ngxelo.</long>
+	</locale>
+
+	<locale name="zh_CN">
+	  <short>启用防刻坏选项</short>
+	  <long>是否使用某些刻录机提供的防刻坏选项。</long>
+	</locale>
+
+	<locale name="zh_HK">
+	  <short>啟用 Burnproof 選項</short>
+	  <long>是否使用一些燒錄機上有的 Burnproof 選項。</long>
+	</locale>
+
+	<locale name="zh_TW">
+	  <short>啟用 Burnproof 選項</short>
+	  <long>是否使用一些燒錄機上有的 Burnproof 選項。</long>
+	</locale>
+       </schema>
+
+  </schemalist>
+</gconfschemafile>

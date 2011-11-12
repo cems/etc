@@ -1,0 +1,2281 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="Hızlı canlandırmayı kullan">
+						<longdesc>Bunun seçili olmaması parcaların yavaşça düşmesini sağlayacak. Eğer seçiliyse parçalar hızlıca düşecek.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Özel tablonun boyutu">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Özel tablonun genişliği">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="Tablo boyutu">
+						<longdesc>Kullanılacak tablonun boyutu. 1 = Özel, 2 = Küçük, 3 = Orta, 4 = Büyük.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="Kullanılacak tema">
+						<longdesc>Kullanılacak temanın dosya adı.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Pul at">
+						<longdesc>Pul atmak için gereken tuş.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Sağa taşı">
+						<longdesc>Sağa taşımak için gereken tuş.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Sola taşı">
+						<longdesc>Sola taşımak için gereken tuş.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Ses">
+						<longdesc>Olay seslerinin çalınıp çalınmayacağı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Canlandır">
+						<longdesc>Canlandırma kullanıp kullanılmayacağı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="Tema No">
+						<longdesc>Tercih edilen temayı belirten rakam.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="İkinci Oyuncunun Seviyesi">
+						<longdesc>Sıfır insan; birden üçe kadar olan sayılarda bilgisayarın seviyesini belirtir.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Birinci Oyuncunun Seviyesi">
+						<longdesc>Sıfır insan; birden üçe kadar olan sayılarda bilgisayarın seviyesini belirtir.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Oyun önizleme">
+							<longdesc>Son kaydedilen oturumdan oyun önizleme.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Oyun sahası">
+							<longdesc>Son kaydedilen oturumdan kalan oyun alanı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Oyun puanı">
+							<longdesc>Son kaydedilen oturumdan kalan oyun puanı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Hareketler arasıdaki süre">
+							<longdesc>Milisaniye olarak hareketler arasıdaki süre.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Arkaplan rengi">
+							<longdesc>Arkaplan rengi. Arkaplan renginin hex belirtimi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Top stili">
+							<longdesc>Top stili. Toplar için kullanılacak resimlerin dosya adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Oyun alanı boyutu">
+							<longdesc>Oyun alanı boyutu: 1=Küçük, 2=Orta, 3=Büyük. Diğer değerler geçersizdir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="Gösterilecek tahta boyutu">
+						<longdesc>Tahtanın önplanda bulunan yüzü, &apos;beyaz&apos;, &apos;siyah&apos;, &apos;mevcut&apos;, (mevcut oyuncu) veya &apos;insan&apos; (mevcut insan oyuncunun tarafı) değerlerinden biri</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="Hamlelerin gösterilme biçimi">
+						<longdesc>Hamlelerin gösterilme biçimi, &apos;insan&apos; (insanın okuyabileceği), &apos;lan&apos; (uzun cevirsel gösterim) veya &apos;san&apos; (standart cebirsel gösterim) değerlerinden biri olabilir</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="Oyun yükleme penceresinde açılacak dizin ">
+						<longdesc>Oyun yükleme penceresinde açılacak dizin </longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="Oyun kaydetme penceresinde açılacak dizin ">
+						<longdesc>Oyun kaydetme penceresinde açılacak dizin </longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Araç çubuğunu etkinleştiren bir im">
+						<longdesc>Araç çubuğunu etkinleştiren bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="Geçmiş tarayıcısında hareket etmeyi etkinleştiren bir im">
+						<longdesc>Geçmiş tarayıcısında hareket etmeyi etkinleştiren bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="Hamle yorumlarını göstermek için bir im">
+						<longdesc>Hamle yorumlarını göstermek için bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="Tahta numaralandırmasını etkinleştirmek için bir im">
+						<longdesc>Tahta numaralandırmasını etkinleştirmek için bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="Hamle ipuçlarını etkinleştirmek için bir im">
+						<longdesc>Hamle ipuçlarını etkinleştirmek için bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="3D kipini etkinleştirmek için bir im">
+						<longdesc>3D kipini etkinleştirmek için bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="Piyonların terfi ettirileceği taş">
+						<longdesc>Bir insan oyuncu piyonunu en uç noktaya ulaştırdığında terfi edeceği taş: &apos;vezir&apos;, &apos;at&apos;, &apos;kale&apos;, &apos;fil&apos; taşlarından biri olabilir.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="Ağ oyunu desteğini etkinleştiren bir im">
+						<longdesc>Ağ oyunu desteğini etkinleştiren bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="Tam ekran kipini etkinleştiren bir im">
+						<longdesc>Tam ekran kipini etkinleştiren bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="Ekranı kaplama kipini etkinleştirmek için bir im">
+						<longdesc>Ekranı kaplama kipini etkinleştirmek için bir im</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="Pencere yüksekliği">
+						<longdesc>Ana pencerenin benek olarak yüksekliği.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Pencere genişliği">
+						<longdesc>Benek olarak ana pencerenin genişliği.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="Uzaktaki oyuncuların yeni oyunları izlemesine izin veren bir im">
+							<longdesc>Uzaktaki oyuncuların yeni oyunları izlemesine izin veren bir im</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="Yeni oyunlarda her oyuncunun hamle yapması için tanınan süre">
+							<longdesc>Yeni oyunlarda her oyuncunun hamle yapması için tanınan süre</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="Siyah için yeni oyunlardaki öntanımlı oyuncu zorluğu">
+								<longdesc>Siyah için yeni oyunlardaki öntanımlı oyuncu zorluğu</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Siyah için yeni oyunlardaki öntanımlı oyuncu türü">
+								<longdesc>Siyah için yeni oyunlardaki öntanımlı oyuncu türü</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="Beyaz için yeni oyunlardaki öntanımlı oyuncu zorluğu">
+								<longdesc>Beyaz için yeni oyunlardaki öntanımlı oyuncu zorluğu</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="Beyaz için yeni oyunlardaki öntanımlı oyuncu türü">
+								<longdesc>Beyaz için yeni oyunlardaki öntanımlı oyuncu türü</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="Yakınlarda oynanmış oyunlar">
+						<longdesc>Yakınlarda oynanmış oyunların bir listesi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="Oynanan oyun hakkındali istatistikler">
+						<longdesc>Beşli olarak gelen dizgilerin anlamları: isim, kazandığı, toplam oynanan oyun, en iyi zaman (saniye) ve en kötü zaman (saniye). Oynanmayan oyunları belirtme ihtiyacı duyulmadı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Kullanılacak oyun dosyası">
+						<longdesc>Oynanılacak iskambil falı oyununu içeren şema dosyasının ismi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Ses">
+						<longdesc>Olay seslerinin çalınıp çalınmayacağı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Kontrol biçimini seçin">
+						<longdesc>Kağıtları taşınmasını mı yoksa kaynağa sonra da hedefe tıklanmasını mı istediğinizi seçin.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_statusbar">
+					<local_schema short_desc="Durum çubuğunu göster veya gizle">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Araç çubuğunu göster veya gizle">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Tema dosyasının ismi">
+						<longdesc>Kartlar için grafikleri içeren dosyanın adı.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Bekleme için tuş">
+							<longdesc>Bekleme için kulllanılacak tuş adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Rastgele ışınlanma için tuş">
+							<longdesc>Rastgele ışınlama için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Işınlama için tuş">
+							<longdesc>Güvenli (eğer mümkünse) ışınlama için kullanılacak tuş adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="GD için tuş">
+							<longdesc>Güney-doğuya taşımak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="G için tuş">
+							<longdesc>Güneye taşımak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="GB için tuş">
+							<longdesc>Güney-batıya taşımak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="D için tuş">
+							<longdesc>Doğuya taşımak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Saklamak için tuş">
+							<longdesc>Hala saklamak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="B için tuş">
+							<longdesc>Batıya taşımak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="KD için tuş">
+							<longdesc>Kuzey-doğuya taşımak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="K için tuş">
+							<longdesc>Kuzeye taşımak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="KB için tuş">
+							<longdesc>Kuzey-batıya taşımak için kullanılacak tuşun adı. Ad standart X tuş adıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Patlamaları etkinleştir">
+							<longdesc>Patlamaları etkinleştirir. Ses çalar ve ekranda &quot;Boom!&quot; gösterir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Oyun seslerini etkinleştir">
+							<longdesc>Oyun seslerini etkinleştirir. Oyundaki bir çok olay için ses çalar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Süper güvenli harekeri kullan">
+							<longdesc>Süper güvenli harekeri kullanır. Kullanıcı güvenli bir hareket kalmadığında ve tek seçeneğin ışınlanma olduğu hallerde uyarılır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Güvenli hareketleri kullan">
+							<longdesc>Güvenli hareketleri kullanır. Güvenli hareketler hata sonucu ölmenize engel olur. Güvenli bir hareket olduğu halde sizi öldürecek bir hareket yapmaya çalıştığınızda bunun gerçekleşmesine izin vermez.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Oyun türü">
+							<longdesc>Oyun türü. Kullanılacak oyun çeşitinin adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Arkaplan rengi">
+							<longdesc>Arkaplan rengi. Arkaplan renginin hex belirtimi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Robot resim teması">
+							<longdesc>Robot resim teması. Robotlar için kullanılacak resim teması.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="Araç çubuğunu göster">
+							<longdesc>Araç çubuğunu göster. Araç çubukları için standart seçenek.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Oyundaki döşemelerin boyutu">
+							<longdesc>Oyundaki döşemelerin boyutu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Sesleri etkinleştir">
+							<longdesc>Sesleri etkinleştirir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Başlama seviyesi">
+							<longdesc>Başlama seviyesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Seviyeleri rastgele sıralı oyna">
+							<longdesc>Seviyeleri rastgele sıralı oynatır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Sahte bonusları etkinleştir">
+							<longdesc>Sahte bonusları etkinleştirir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Oyun hızı">
+							<longdesc>Oyunun hızı (1=hızlı, 4=yavaş).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="YZ oyuncuların sayısı">
+							<longdesc>YZ oyuncuların sayısı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="İnsan oyuncuların sayısı">
+							<longdesc>İnsan oyuncuların sayısı.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Sağa taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Sola taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Aşağı taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yukarı taşı">
+									<longdesc>Yukarı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Bağıl hareketleri kullan">
+									<longdesc>Bağıl hareketleri kullanır (örn. sadece sol veya sağ gibi).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Solucan için kullanılacak renk">
+									<longdesc>Solucan için kullanılacak renk.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Sağa taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Sola taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Aşağı taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yukarı taşı">
+									<longdesc>Yukarı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Bağıl hareketleri kullan">
+									<longdesc>Bağıl hareketleri kullanır (örn. sadece sol veya sağ gibi).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Solucan için kullanılacak renk">
+									<longdesc>Solucan için kullanılacak renk.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Sağa taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Sola taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Aşağı taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yukarı taşı">
+									<longdesc>Yukarı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Bağıl hareketleri kullan">
+									<longdesc>Bağıl hareketleri kullanır (örn. sadece sol veya sağ gibi).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Solucan için kullanılacak renk">
+									<longdesc>Solucan için kullanılacak renk.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Sağa taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Sola taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Aşağı taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yukarı taşı">
+									<longdesc>Yukarı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Bağıl hareketleri kullan">
+									<longdesc>Bağıl hareketleri kullanır (örn. sadece sol veya sağ gibi).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Solucan için kullanılacak renk">
+									<longdesc>Solucan için kullanılacak renk.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Sağa taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Sola taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Aşağı taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yukarı taşı">
+									<longdesc>Yukarı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Bağıl hareketleri kullan">
+									<longdesc>Bağıl hareketleri kullanır (örn. sadece sol veya sağ gibi).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Solucan için kullanılacak renk">
+									<longdesc>Solucan için kullanılacak renk.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Sağa taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Sola taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Aşağı taşı">
+									<longdesc>Aşağı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yukarı taşı">
+									<longdesc>Yukarı hareket için kullanılacak tuş.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Bağıl hareketleri kullan">
+									<longdesc>Bağıl hareketleri kullanır (örn. sadece sol veya sağ gibi).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Solucan için kullanılacak renk">
+									<longdesc>Solucan için kullanılacak renk.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Kontrol biçimini seçin">
+						<longdesc>Döşemelerin taşınmasını mı yoksa kaynağa sonra da hedefe tıklanmasını mı istediğinizi seçin.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="Renkli karoları kontrol et">
+						<longdesc>Renkli karoları etkinleştirmek için bir bayrak.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="Oyun ızgarasının boyutu">
+						<longdesc>Bu anahtarın değeri oyun ızgarasının boyutunu seçmekte kullanılacaktır. Geçerli değerler 2&apos;den 8&apos;e kadardır, bunun dışındaki değerler 3 kabul edilir.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Dondur">
+							<longdesc>Duraklatmak için gereken tuş.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Çevir">
+							<longdesc>Çevirmek için gereken tuş.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Bırak">
+							<longdesc>Bırakmak için basılacak tuş.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Aşağı taşı">
+							<longdesc>Aşağı taşımak için gereken tuş.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Sağa taşı">
+							<longdesc>Sağa taşımak için gereken tuş.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Sola taşı">
+							<longdesc>Sola taşımak için gereken tuş.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Önceden doldurulmuş sıraların yoğunluğu">
+							<longdesc>Oyunun başında dolu sıraların yoğunluğu. Bu değer 0 (hiç blok yok) ve 10 (tüm sıra dolu) arasındadır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Doldurulacak sıra sayısı">
+							<longdesc>Oyunun başında rastgele bloklarla doldurulmuş sıraların sayısı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Saat yönü tersine döndür">
+							<longdesc>Saat yönü tersine döndürme.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Bloklara rastgele renk verilecek mi">
+							<longdesc>Bloklara rastgele renk verilip verilmeyeceği.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="Hedefin gösterilmesi">
+							<longdesc>Bloğun nereye yerleşeceğinin grafiksel gösteriminin sağlanıp sağlanmayacağı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Sonraki bloğu göster">
+							<longdesc>Sonraki bloğun gösterilmesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Arkaplan rengi">
+							<longdesc>Arkaplan rengi, gdk_color_parse&apos;ın anlayabileceği şekilde.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Arkaplan resmi kullanılması">
+							<longdesc>Bu arkaplan resminin arkaplan renginin üstüne çizilip çizilmemesini seçer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Başlangıç seviyesi">
+							<longdesc>Başlangıç seviyesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Blokları oluştururken kullanılacak resim">
+							<longdesc>Blokları ve arkaplanı taramak için kullanılan temanın adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Blokları oluştururken kullanılacak resim">
+							<longdesc>Blokları oluştururken kullanılacak resim.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Bilgisayarın düşüncelerini göster">
+						<longdesc>Eğer doğru seçiliyse, YZ&apos;nin çalışmaları standart çıktıya aktarılacak.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Atışlar arası süre">
+						<longdesc>Oyuncunun ne olup bittiğini takip edebilmesi için bilgisayarın zar atışları arasına ara ekleyip eklememesini seçin.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="Oynanmakta olan bulmaca">
+						<longdesc>Oynanan bulmaca sayısı.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Ses">
+						<longdesc>Olay seslerinin çalınıp çalınmayacağı.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="Araç Çubuğu Tarzı">
+							<longdesc>Araç çubuğunun yerleşimi. Geçerli değerler, icon (simge), text (metin), both (herikisi altalta) ve both_horiz (herikisi yanyana)</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="dialogs">
+					<dir name="rs">
+						<entry name="unfocused">
+							<local_schema short_desc="Odaksız Aralık Seçimine İzin Ver">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="printsetup">
+					<entry name="all-sheets">
+						<local_schema short_desc="Tüm çizelgelere yazdırma ayarını uygular">
+							<longdesc>Bu değer, yazıcı ayarları penceresinin tüm çizelgelere öntanımlı olarak aynı anda uygulanıp uygulanmayacağını belirler.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema short_desc="Otomatik Biçemler için Kullanıcı Dizini">
+							<longdesc>Kullanıcıya özel otomatik biçemleme şablonlarının ana dizini.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="Otomatik Biçemleme için Sistem Dizini">
+							<longdesc>Bu dizin gnumeric ile gelen otomatik biçemleme şablonlarını içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="extra-dirs">
+						<local_schema short_desc="İlave Otomatik Biçemleme Dizinleri Listesi">
+							<longdesc>Bu liste otomatik biçemleme şablonlarının bulunduğu dizinleri içerir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="extra-dirs">
+						<local_schema short_desc="İlave Eklenti Dizinleri Listesi.">
+							<longdesc>Bu liste, eklentileri içeren dizinleri içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file-states">
+						<local_schema short_desc="Eklenti Dosyalarının Durum Listesi.">
+							<longdesc>Bu liste eklenti dosya durumlarını içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="Bilinen Eklentiler Listesi.">
+							<longdesc>Bu liste bilinen eklentileri içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="Etkin Eklentilerin Listesi.">
+							<longdesc>Bu liste, otomatik olarak etkinleştirileceği varsayılan eklentileri içerir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="Yeni Eklentileri Etkinleştir">
+							<longdesc>Bu değişken, yeni bir eklenti saptandığında eklentinin otomatik olarak yüklenip yüklenmeyeceğini belirler.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="replace">
+						<local_schema short_desc="Otomatik düzelterek değiştirir">
+							<longdesc>Otomatik düzelterek değiştirir</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="names-of-days">
+						<local_schema short_desc="Gün isimlerini otomatik düzeltir">
+							<longdesc>Gün isimlerini otomatik düzeltir</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter-list">
+						<local_schema short_desc="İlk Harfi Düzeltilmeyecekler Listesi">
+							<longdesc>Otomatik düzeltme motoru bu listedeki sözcüklerin ilk harflerini düzeltmez.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="first-letter">
+						<local_schema short_desc="İlk harfleri otomatik düzeltir">
+							<longdesc>İlk harfleri otomatik düzeltir</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="init-caps-list">
+						<local_schema short_desc="Baş Harfi Düzeltilmeyecekler Listesi">
+						</local_schema>
+					</entry>
+					<entry name="init-caps">
+						<local_schema short_desc="Baş harfleri otomatik düzeltir">
+							<longdesc>Baş harfleri otomatik düzeltir</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="Son Kullanılan İşlevler Listesinin Azami Uzunluğu">
+							<longdesc>İşlev seçici son kullanılan işlevlerin listesini tutar. Bu değer, bu listenin azami uzunluğunu belirler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="Son kullanılan işlevler listesi.">
+							<longdesc>İşlev seçici son kullanılan işlevlerin listesini tutar. Bu o listedir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="dialog">
+							<entry name="max-initial-clauses">
+								<local_schema short_desc="Otomatik Eklenen Sözcüklerin Sayısı">
+									<longdesc>Sıralama diyaloğunda bir sıralama aralığı seçilirken, arama sözcükleri otomatikman eklenir. Bu sayı, otomatik olarak eklenecek azami sözcük sayısıdır.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Artan Sıralama">
+									<longdesc>Bu seçenek, sıralama diyaloğundaki sırala düğmesinin durumunu belirler.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema>
+									<longdesc>Bu seçenek etkin olduğunda araç çubuğunda sıralama sırasında göze biçemlerini saklayacak sıralama düğmeleri etkin olur ve sıralama diyaloğundaki biçemleri saklama onay kutularının durumunu belirler.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="Sıralama Harf Büyüklüğüne Duyarlıdır">
+									<longdesc>Bu seçenek etkin olduğunda araç çubuğunda harf büyüklüğüne göre sıralama düğmeleri etkin olur ve sıralama diyaloğundaki harf büyüklüğüne göre sıralama onay kutularının durumunu belirler.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="Öntanımlı Üzerine Yazılacak Dosyalar">
+									<longdesc>Mevcut bir dosyanın üzerine yazılmadan önce, Gnumeric bir uyarı verir. Bu seçenekle uyarı penceresindeki Üzerine Yaz düğmesi öntanımlı seçilen düğme olur.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="Tek Çizelgelik Biçeme Çıktılandığında Uyar">
+									<longdesc>Bazı dosya biçemleri tek bir çizelge içerir. Bu değişken çok çizelgeli bir defterin sadece bir çizelgesi kaydedileceği zaman kullanıcının uyarılıp uyarılmayacağını belirler.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="Gnumiric Dosyalarının Öntanımlı Sıkıştırma Seviyesi">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="Öntanımlı Büyütme Çarpanı">
+									<longdesc>Yeni bir deferin hangi büyütme çarpanı ile açılacağını belirler.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="Öntanımlı Pencere Düşey Uzunluğu">
+									<longdesc>Bu sayı (0.25 ile 1.00 arasındadır) öntanımlı pencerenin ekrana düşey oranıdır.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="Öntanımlı Pencere Yatay Uzunluğu">
+									<longdesc>Bu sayı (0.25 ile 1.00 arasındadır) öntanımlı pencerenin ekrana yatay oranıdır.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="recalclag">
+								<local_schema short_desc="Otomatik Yeniden Hesaplama Gecikmesi">
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="Anında Kaydırma">
+									<longdesc>Bu değişken kaydırmanın gecikmeli olup olmadığını belirler.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="Otomatik Tamamla">
+									<longdesc>Bu değişken otomatik tamamlamanın geçerli olup olmadığını belirler.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="Düşey DPI">
+									<longdesc>Düşey ekran çözünürlüğü</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="Yatay DPI">
+									<longdesc>Yatay ekran çözünürlüğü</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="Öntanımlı Çizelge Sayısı">
+								<longdesc>Yeni bir defterin kaç çizelge ile açılacağını belirler.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="Öntanımlı yazıtipi eğiktir.">
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="Öntanımlı yazıtipi kalındır.">
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="Öntanımlı yazıtipi ismi">
+								<longdesc>Yeni bir defterin öntanımlı yazıtipi ismi.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Öntanımlı Yazıtipi Yüksekliği">
+								<longdesc>Yeni bir defterin öntanımlı yazıtipi boyu.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="Geri Al Açıklamalarının Uzunluğu">
+							<longdesc>Bu değer, Geri Al ve Tekrar Yap zincirlerindeki azami kayıtlı eylem sayısıdır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="Geri Al Öğelerinin Sayısı">
+							<longdesc>Bu değer, Geri Al/Yeniden Yap listelerindeki azami öğe sayısını belirler.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Azami Geri Alma Sayısı">
+							<longdesc>Bu değer, Geri Al zincirinin uzunluğunu belirler. Her düzenleme eylemi, bu değerle ilişkili uzunluktadır. Bu ilişki, bir basit gözenin düzenlenmesinin (bu eylemin değeri 1 dir) bellek gereksinimine göredir. Geri Al listesi, bu yapılandırma değerini aşan toplam bellekle kırpılır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="Geri Al Listesinde Çizelge İsmini Göster">
+							<longdesc>Bu değer, Geri Al ve Tekrar Yap listelerinde çizelge isimlerinin gösterilip gösterilmeyeceğini belirler.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="Uyarı simgesinin gösterilmesi">
+						<longdesc>Uyarı simgesini gösterilmesi.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Belge sınırlamalarını değiştir">
+						<longdesc>Kopyalama ya da yazdırma gibi belge sınırlarlamalarını değiştir.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="Bayrakların otomatik yerleşimini etkinleştir">
+						<longdesc>Yeterince kare açığa çıkarılınca gnomine&apos;nın kareleri otomatik olarak mayınlı işaretlemesi için doğru yapın</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="Çok fazla bayrak hakkında uyarı">
+						<longdesc>Çok fazla bayrak yerleştirildiğinde uyarı simgeleri etkinleştirmek için doğru olarak belirt.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="Bilinmiyor bayrağını kullan">
+						<longdesc>Kareleri bilinmiyor şeklide işaretleyebilmek için doğruya ayarlayın.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="Tablo boyutu">
+							<longdesc>Tahta boyutu (0-2=küçük-büyük, 3=özel)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="Özel bir oyundaki mayınların sayısı">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="Özel bir oyundaki satırların sayısı">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="Özel bir oyundaki sütunların sayısı">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Araç çubuğunu göster veya gizle">
+						<longdesc>Araç çubuğunu göster veya gizle.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Bankanızdaki para miktarı">
+							<longdesc>Bankanızdaki para miktarı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Tema dosyasının ismi">
+							<longdesc>Kartlar için grafikleri içeren dosyanın adı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Asla sigorta alma">
+							<longdesc>Asla as gösteren bir dağıtıcıdan sigorta alma.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Hızlı dağıtı kullan">
+							<longdesc>Kartlar arasında bekleme yapmayan hızlı dağıtı kullan.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Olasılıkları göster">
+							<longdesc>Dağıtılan eller sonunda çıkan olasılıkları ve elinin beklenen değerini göster.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Kullanılacak oyun kuralları dosyası">
+							<longdesc>Oyun kurallarının bulunduğu dosyanın adı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Burnproof seçeneğini etkinleştir">
+						<longdesc>Kimi yazıcılarda bulunan kayıt hatalarını engelleyen, Burnproof seçeneğinin kullanılması.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Overburn&apos;u etkinleştir">
+						<longdesc>Fiziksel alanı geçecek boyuttaki verinin yazılmasına izin verilmesi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Hata ayıklamayı etkinleştir">
+						<longdesc>CD Kayıt hata ayıklamasının etkinleştirilmesi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Öntanımlı yazma hızı">
+						<longdesc>Diskin yazılacağı öntanımlı hız.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Geçici ISO görünümlerinin kaydedileceği dizin">
+						<longdesc>Geçici ISO görünümlerinin kaydedileceği dizin, sistemin öntanımlı geçici dizinini kullanmak için boş bırakın.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="Gnome-keyring PKCS#11 bileşeninin etkin olmaması.">
+							<longdesc>Bu özellik gnome-keyring servisi içindeki PKCS#11 eklentisini etkinleştirir. Bu sadece gnome-keyring-daemon başladığında etkili olur, (örn: kullanıcı giriş yaptığında). Kesin komut parametleri servise geçildiğinde bu ayarın yerine geçer.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="Gnome-keyring SSH aracının etkin olmaması.">
+							<longdesc>Bu özellik gnome-keyring servisi içindeki SSH aracını etkinleştirir. Bu sadece gnome-keyring-daemon başladığında etkili olur, (örn: kullanıcı giriş yaptığında). Kesin komut parametleri servise geçildiğinde bu ayarın yerine geçer.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Dosya Simge Teması">
+							<longdesc>Dosya simgelerini görüntülemekte kullanılacak tema.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="Girdi geri besleme sesleri">
+							<longdesc>Girdi olaylarında ses çalınması.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="Ses tema ismi">
+							<longdesc>Olay sesleri için kullanılacak XDG ses teması.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="Olaylar için sesler">
+							<longdesc>Kullanıcı olaylarında ses çalınması.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="ESD&apos;yi Etkinleştir">
+							<longdesc>Ses sunucusunun başlatılmasını etkinleştir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="Öntanımlı karıştırıcı parçaları">
+							<longdesc>Çokluortam tuş bağları tarafından kullanılacak öntanımlı karıştırıcı parçaları.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="Öntanımlı karıştırıcı aygıtı">
+							<longdesc>Çokluortam tuş bağları tarafından kullanılacak öntanımlı karıştırıcı aygıtı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="&quot;Unikod Kontrol Karakteri&quot; menüsünü göster">
+							<longdesc>İçerik menüleri girişlerinin ve metin görünümlerinin kontrol karakterleri eklenmesini önermesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="&quot;Giriş Metodları&quot; menüsünü göster">
+							<longdesc>İçerik menüsü girişlerinin ve metin görünümlerinin giriş metodunu değiştirmeyi önermesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Menü çubukları hızlandırıcısı">
+							<longdesc>Menü çubuklarını açan klavya kısayolu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="GtkFileChooser için modül">
+							<longdesc>GtkFileChooser parçası için dosya sistemi modeli olarak kullanılacak modül. Geçerli değerler, &quot;gio&quot;, &quot;gnome-vfs&quot; ve &quot;gtk+&quot;dır.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Durum Çubuğu Sağda">
+							<longdesc>Sağda bir durum çubuğu ölçücü gösterilmesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Özel Yazıtipi Kullan">
+							<longdesc>Gtk+ uygulamalarında özel yazı tipi kullanılması.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Eş aralıklı yazıtipi">
+							<longdesc>Uçbirimler gibi yerlerde kullanılacak eş aralıklı (sabit genişlikli) yazıtipinin adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Belge yazıtipi">
+							<longdesc>Belgeleri okumak için kullanılan öntanımlı yazıtipinin adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="GTK IM Modülü">
+							<longdesc>GTK+ tarafından kullanılan girdi metodu adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM Durum Biçemi">
+							<longdesc>Gtk+ tarafından kullanılan Durum Biçeminin GTK+ girdi metodu adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM Öndüzenli Biçemi">
+							<longdesc>Gtk+ tarafından kullanılan Öndüzenli Biçeminin GTK+ girdi metodu adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Öntanımlı yazıtipi">
+							<longdesc>Gtk+ tarafından öntanımlı olarak kullanılan yazıtipinin adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Gtk+ Teması">
+							<longdesc>Gtk+ tarafından kullanılan öntanımlı temanın ana adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Gtk+ Teması">
+							<longdesc>Gtk+ tarafından kullanılan öntanımlı temanın ana adı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Simge Teması">
+							<longdesc>Panel, nautilus vs. kullanmak için simge teması</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="İmlecin Yanıp Sönme Süresi">
+							<longdesc>İmlecin yanıp sönme döngü uzunluğu, milisaniye olarak.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="İmlecin yanıp sönmesi">
+							<longdesc>İmlecin yanıp sönmesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Araç Çubuğu Simge Boyutu">
+							<longdesc>Araç çubuğundaki simgelerin boyutu, ya &quot;small-toolbar&quot; ya da &quot;large-toolbar&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Araç Çubuğu Ayrılabilir">
+							<longdesc>Kullanıcının araç çubukarını ayırabilmesi ve ekranda taşıyabilmesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Menü Çubukları Ayrılabilir">
+							<longdesc>Kullanıcının menüleri ayırıp ekranda taşıyabilmesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="Düğmelerde Simgeler Bulunsun">
+							<longdesc>Düğmelerde girdilerin yanında simgelerin gösterilip gösterilmeyeceği.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Menülerde Simgeler Bulunsun">
+							<longdesc>Menülerde girdilerin yanında simgelerin gösterilip gösterilmeyeceği.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Araç Çubuğu Biçemi">
+							<longdesc>Araç çubuğu biçemi. Geçerli değerler  &quot;both&quot;, &quot;both-horiz&quot;, &quot;icon&quot;, ve&quot;text&quot;.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Hızlardırıcılar değiştirilebilir">
+							<longdesc>Bir menü açıldığında kullanıcının dinamik olarak yeni bir hızlandırıcı girebilmesi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Menülerde Ayıraç Bulunsun">
+							<longdesc>Menülerde ayıraçların olup olmayacağı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Canlandırmaları Etkinleştir">
+							<longdesc>Canlandırmaların gösterilip gösterilmeyeceği. Not: Bu genel bir anahtardır, ve pencere yöneticisi, panel vb. işleyişlerini değiştirir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Erişilebilirliği Etkinleştir">
+							<longdesc>Uygulamalarda erişebilirlik desteğinin olup olmayacağı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Başlangıç Yardımcı Teknoloji Uygulamaları">
+								<longdesc>GNOME masaüstüne giriş yaptığınızda başlatılacak yardımcı teknoloji uygulamaları listesi.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>Bir değiştiriciye basıldığında biple.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>İki tuşa birden basıldığında etkisiz hale getir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Milisaniye cinsinden en düşük aralık">
+								<longdesc>Bir tuşa @delay milisaniye uzunlukta basılmadıkça basılmış olarak kabul etme.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Milisaniye cinsinden başlangıç gecikmesi">
+								<longdesc>Fare hareket tuşlarının harekete başlamasından önce kaç milisaniye beklemek gerektiği.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Ne kadar süre hızlandırılacağı milisaniye cinsinden">
+								<longdesc>0&apos;dan en yüksek hıza ulaşmak için kaç milisaniye gerektiği.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Saniye başına piksel">
+								<longdesc>En yüksek hızda hareket edilmesi için ne kadar piksel / saniye gerektiği.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="milisaniye cinsinden en düşük aralık">
+								<longdesc>@delay milisaniye içerisinde _aynı_ tuşa birden fazla basmayı gözardı et.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Klavye kilitlemesinin etkinliği">
+							<longdesc>Klavye kilitlemesinin etkinliği.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Molaların erkelenmesine izin ver">
+							<longdesc>Mola ekranının ertelenip ertelenemeyeceği.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Mola Zamanı">
+							<longdesc>Mola kipinin sonlanması için gereken dakika miktarı.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Yazma zamanı">
+							<longdesc>Mola kipinin başlamasından önce yazmak için dakika sayısı.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="URL ve MIME tür işleyicilerini etkinsizleştir">
+							<longdesc>Herhangibir URL ya da MIME tür işleyici uygulamasının çalışmasını engelle.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Ekran kilitlemeyi kapat">
+							<longdesc>Kullanıcının ekranını kilitlemesini engeller.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Kullanıcı geçişini kapat">
+							<longdesc>Kullanıcının oturumu etkinken başka bir kullanıcı hesabına geçmesini engeller.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Yazıcı yapılandırmayı iptal et">
+							<longdesc>Kullanıcının yazıcı ayarlarını değiştirmesine izin verme. Örneğin, Tüm programlardaki &quot;Yazıcı Ayarları&quot;na erişim engellenecektir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Yazdırmayı iptal et">
+							<longdesc>Kullanıcınınyazıcıerişmesiniengelle.Örneğin,Tüm programlardaki &quot;Yazdır&quot; seçeneği iptal edilecektir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Dosyaların diske yazılmasını iptal et">
+							<longdesc>Kullanıcının dosyaları diske yazmasını engelle.Örneğin,tüm uygulamalardaki &quot;Farklı Kaydet&quot; seçeneği iptal edilecektir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Komut satırını iptal et">
+							<longdesc>Kullanıcının uçbirim ya da komut satırına erişmesini engelle. Örneğin, Paneldeki &quot;Uygulama çalıştır&quot;a erişim iptal edilecektir.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Renk Gölgelendirme Türü">
+							<longdesc>Arkaplan renginin nasıl gölgelendirileceği. Geçerli değerler, &quot;horizontal-gradient&quot;, &quot;vertical-gradient&quot;, ve &quot;solid&quot;dir.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="İkincil Renk">
+							<longdesc>Geçişleri çizerken kullanılacak Sağ veya Alttaki renk, sabit renkler için kullanılmaz.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Birincil Renk">
+							<longdesc>Geçişleri çizerken kullanılacak Sol veya Üstteki renk, veya sabit renk.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Resim Donukluğu">
+							<longdesc>Arkaplan resminin çizileceği matlık.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Resim Dosyaadı">
+							<longdesc>Arkaplan resmi için kullanılacak dosya.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Resim Seçenekleri">
+							<longdesc>wallpaper_filename ile atanmış resimlerin nasıl taranacağını belirtir. Geçerli değerler &quot;none&quot;, &quot;wallpaper&quot;, &quot;centered&quot;, &quot;scaled&quot; , &quot;stretched&quot; ve &quot;zoom&quot;dur.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Masaüstü Arkaplanını Çiz">
+							<longdesc>GNOME&apos;un masaüstü arkaplanının olması.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>Megabayt olarak ön bellekte küçük resimlerin azami boyutu. Temizlemeyı kapatmak için -1 olarak atayın.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>Gün olarak ön bellekte küçük resimlerin azami yaşı. Temizlemeyı kapatmak için -1 olarak atayın.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="NumLock durumunu hatırla">
+								<longdesc>Eğer seçiliyse, GNOME oturumlar arasında, NumLock LED durumunu hatırlayacak.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Klavye Zili Özel Dosya adı">
+								<longdesc>Çalınacak zil sesinin dosya adı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>geçerli değerler &quot;on&quot;, &quot;off&quot;, ve &quot;custom&quot;dır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="İmleç boyutu">
+								<longdesc>cursor_theme tarafından belirtilen imlecin boyutu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="İmleç teması">
+								<longdesc>İmleç tema ismi. Sadece XFree86 4.3 ve sonrası gibi Xcursor destekleyen Xservers&apos;ları için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="İmleç yazıtipi">
+								<longdesc>İmlecin yazıtipi. Eğer hiç bir şey atanmamışsa öntanımlı yazıtipi kullanılır.Bu değer sadece X oturumu başlangıcında atanır, bir sonraki oturuma kadar bu değişiklik etkin olmaz.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Belirteci Konumlandır">
+								<longdesc>Kontrol tuşuna basılıp bırakıldığında imlecin bulunduğu noktayı belirtmesi.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Çift Tıklama Süresi">
+								<longdesc>Çift tıklama uzunluğu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Taşıma Eşiği">
+								<longdesc>Sürükleme başlamadan önceki uzaklık.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Hareket Eşiği">
+								<longdesc>Fare hareketi başlamadan önce imlecin taşınması gereken benek değerinde uzaklık. Eğer bu değer -1 ise sistem öntanımlı değeri kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Tek Tıklama">
+								<longdesc>Fare hareketleri için hızlanma çarpanı. Eğer değer -1 ise sistem öntanımlı değeri kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Tek Tıklama">
+								<longdesc>Simgeleri açmak için bir kere tıklayın.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Fare tuşları konumlandırması">
+								<longdesc>Solaklar için sağ ve sol tuşların yerini değiştir.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Tüm dış öngörünümleri iptal et">
+							<longdesc>Eğer seçiliyse, ayrı ayrı kapat/etkinleştir ayarlarından bağımsız olarak tüm dış öngörünüm programlarını iptal eder.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF Belgeleri için küçük resim komutu">
+								<longdesc>PDF Belge küçük resimleyicisi için geçerli komut artı parametreleri. Daha fazla bilgi için nautilus küçük resimleyici belgesine bakın.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF Belgelerin küçük resimlerinin etkinliği">
+								<longdesc>Mantıksal değerler geçerlidir, seçili ise küçük resimler etkindir ve eğer seçili değilse küçük resim oluşturma devre dışı olur</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF Belgeleri için küçük resim komutu">
+								<longdesc>PDF Belge küçük resimleyicisi için geçerli komut artı parametreleri. Daha fazla bilgi için nautilus küçük resimleyici belgesine bakın.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF Belgelerin küçük resimlerinin etkinliği">
+								<longdesc>Mantıksal değerler geçerlidir, seçili ise küçük resimler etkindir ve eğer seçili değilse küçük resim oluşturma devre dışı olur</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="PDF Belgeleri için küçük resim komutu">
+								<longdesc>PDF Belge küçük resimleyicisi için geçerli komut artı parametreleri. Daha fazla bilgi için nautilus küçük resimleyici belgesine bakın.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF Belgelerin küçük resimlerinin etkinliği">
+								<longdesc>Mantıksal değerler geçerlidir, seçili ise küçük resimler etkindir ve eğer seçili değilse küçük resim oluşturma devre dışı olur</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="Görevler uçbirime ihtiyaç duyuyor">
+								<longdesc>Öntanımlı görevler uygulamasının bir uçbirime ihtiyaç duyup duymadığı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Öntanımlı görevler">
+								<longdesc>Öntanımlı görevler uygulaması</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="Takvim uçbirime ihtiyaç duyuyor">
+								<longdesc>Öntanımlı takvim uygulamasının bir uçbirime ihtiyaç duyup duymadığı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Öntanımlı takvim">
+								<longdesc>Öntanımlı takvim uygulaması</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Tarayıcı uzaktaki sistemi anlar">
+								<longdesc>Öntanımlı tarayıcının uzaktan netscape anlayıp anlamayacağı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Tarayıcı uçbirime ihtiyaç duyuyor">
+								<longdesc>Öntanımlı tarayıcının çalışması için bir uçbirime ihtiyaç duyup duymadığı.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Öntanımlı tarayıcı">
+								<longdesc>Tüm URL&apos;ler için öntanımlı tarayıcı.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Çalışma alanlarının adları (kullanılmıyor)">
+								<longdesc>İlk pencere yöneticisinin çalışma alanları isimleri listesi. Bu anahtar GNOME 2.12 sonrası kullanılmamaktadır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Çalışma alanlarının sayısı (kullanılmıyor)">
+								<longdesc>Pencere yöneticisinin kullanması gereken çalışma alanlarının sayısı. Bu anahtar GNOME 2.12 sonrası kullanılmıyor.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Kullanıcı pencere yöneticisi (kullanılmıyor)">
+								<longdesc>İlk olarak denenecek pencere yöneticisi. Bu anahtar GNOME 2.12 sonrası kullanılmıyor.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Son çare pencere yöneticisi (kullanılmıyor)">
+								<longdesc>Eğer pencere yöneticisi bulunmazsa son çare olarak kullanılacak pencere yöneticisi. Bu anahtar GNOME 2.12 sonrası kullanılmıyor.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Tercih edilen Taşınabilir yardımcı teknoloji uygulamasını başlat">
+									<longdesc>GNOME&apos;un giriş sırasında tercih edilen Taşınabilir yardımcı teknoloji uygulamasını başlatması.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Tercih edilen Taşınabilir yardımcı teknoloji uygulaması">
+									<longdesc>Giriş, menü ya da komut satırında kullanılacak tercih edilen Taşınabilir yardımcı teknoloji uygulaması.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Tercih edilen Sanal yardımcı teknoloji uygulamasını başlat">
+									<longdesc>GNOME&apos;un tercih edilen Sanal yardımcı teknoloji uygulamasını giriş sırasında başlatması.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Tercih edilen Sanal yardımcı teknoloji uygulaması">
+									<longdesc>Giriş, menü ya da komut satırında kullanılacak tercih edilen Sanal yardımcı teknoloji uygulaması.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Öntanımlı içerik görüntüleme uygulaması">
+								<longdesc>Görüntülemek için kullanılan uygulama, görüntülemek için içerik gerektirir. %s parametresi doyaların URI &apos;si ile, %c parametresi ise içeriğin IID&apos;si ile değiştirilecek. </longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Çalıştırma Argümanları">
+								<longdesc>Programları uçbirimde çalıştırmak için kullanılan, &apos;exec&apos; anahtarıyla belirlenmiş bağımsız değişken.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Uçbirim uygulaması">
+								<longdesc>Üçbirime ihtiyaç duyan uygulamalar başlatılırken kullanılacak uçbirim programı.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;ymsgr&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;ymsgr&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;ymsgr&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;xmpp&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;xmpp&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;xmpp&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;sip&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;sip&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;sip&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;msnim&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;msnim&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;msnim&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;irc&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;irc&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;irc&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;icq&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;icq&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;icq&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;gg&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;gg&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;gg&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;h323&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;h323&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;h323&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; de belirtilen programın &quot;h323&quot; URL&apos;lerini işletmek için ayarlanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;callto&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;callto&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;callto&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; da belirtilen programın &quot;callto&quot; URL&apos;lerini işletmesi için ayalalanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;aim&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;aim&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;aim&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;mailto&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;mailto&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;mailto&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; da belirtilen programın &quot;mailto&quot; URL&apos;lerini işletmesi için ayalalanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;https&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;https&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;https&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; da belirtilen programın &quot;https&quot; URL&apos;lerini işletmesi için ayalalanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;http&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;http&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;http&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; da belirtilen programın &quot;http&quot; URL&apos;lerini işletmesi için ayalalanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;man&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;man&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;man&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; da belirtilen programın &quot;man&quot; URL&apos;lerini işletmesi için ayalalanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;info&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;info&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;info&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; da belirtilen programın &quot;info&quot; URL&apos;lerini işletmesi için ayalalanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ghelp&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;ghelp&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;ghelp&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; da belirtilen programın &quot;ghelp&quot; URL&apos;lerini işletmesi için ayalalanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu uçbirim içinde çalıştır">
+								<longdesc>Eğer seçiliyse, bu URL&apos;yi işletecek program uçbirimde çalışması gerekiyor demektir.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;trash&quot; URL&apos;leri için işleyici">
+								<longdesc>Eğer etkinse, &quot;trash&quot; URL&apos;lerinin işlemek için kullanılacak komut.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komutun &quot;trash&quot; URL&apos;lerini işlemesi">
+								<longdesc>Eğer seçiliyse, &quot;command&quot; da belirtilen programın &quot;trash&quot; URL&apos;lerini işletmesi için ayalalanır.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Bu profilin kullanılıp kullanılmayacağı">
+									<longdesc>Bu profilin listede gösterilip gösterilmeyeceği.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Bu profil için öntanımlı dosya uzantısı">
+									<longdesc>Bu profil ile kodlanan dosyaları kaydederken kullanılacak uzantı.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Kullanılacak kısmi GStreamer yönlendirmesi">
+									<longdesc>Bu profili kullanacak kısmi GStreamer yönlendirmesi (pipeline).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Ses profili için bir açıklama">
+									<longdesc>Profilin nerede kullanılacağı ve profil hakkında daha fazla bilgiler içeren bir açıklama.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Ses profili için kısa bir isim">
+									<longdesc>Profili ayırt edebilmek ve seçerken kullanmak için kısa bir isim.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Bu profilin kullanılıp kullanılmayacağı">
+										<longdesc>Bu profilin listede gösterilip gösterilmeyeceği.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Bu profil için öntanımlı dosya uzantısı">
+										<longdesc>Bu profil ile kodlanan dosyaları kaydederken kullanılacak uzantı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Kullanılacak kısmi GStreamer yönlendirmesi">
+										<longdesc>Bu profili kullanacak kısmi GStreamer yönlendirmesi (pipeline).</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Ses profili için bir açıklama">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Ses profili için kısa bir isim">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil için öntanımlı dosya uzantısı">
+										<longdesc>Bu profil ile kodlanan dosyaları kaydederken kullanılacak uzantı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Kullanılacak kısmi GStreamer yönlendirmesi">
+										<longdesc>Bu profili kullanacak kısmi GStreamer yönlendirmesi (pipeline).</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Ses profili için bir açıklama">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Ses profili için kısa bir isim">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil için öntanımlı dosya uzantısı">
+										<longdesc>Bu profil ile kodlanan dosyaları kaydederken kullanılacak uzantı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Kullanılacak kısmi GStreamer yönlendirmesi">
+										<longdesc>Bu profili kullanacak kısmi GStreamer yönlendirmesi (pipeline).</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Ses profili için bir açıklama">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Ses profili için kısa bir isim">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil için öntanımlı dosya uzantısı">
+										<longdesc>Bu profil ile kodlanan dosyaları kaydederken kullanılacak uzantı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Kullanılacak kısmi GStreamer yönlendirmesi">
+										<longdesc>Bu profili kullanacak kısmi GStreamer yönlendirmesi (pipeline).</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Ses profili için bir açıklama">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Ses profili için kısa bir isim">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil için öntanımlı dosya uzantısı">
+										<longdesc>Bu profil ile kodlanan dosyaları kaydederken kullanılacak uzantı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Kullanılacak kısmi GStreamer yönlendirmesi">
+										<longdesc>Bu profili kullanacak kısmi GStreamer yönlendirmesi (pipeline).</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Ses profili için bir açıklama">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Ses profili için kısa bir isim">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil için öntanımlı dosya uzantısı">
+										<longdesc>Bu profil ile kodlanan dosyaları kaydederken kullanılacak uzantı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Kullanılacak kısmi GStreamer yönlendirmesi">
+										<longdesc>Bu profili kullanacak kısmi GStreamer yönlendirmesi (pipeline).</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Ses profili için bir açıklama">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Ses profili için kısa bir isim">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Bu profil için öntanımlı dosya uzantısı">
+										<longdesc>Bu profil ile kodlanan dosyaları kaydederken kullanılacak uzantı.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Kullanılacak kısmi GStreamer yönlendirmesi">
+										<longdesc>Bu profili kullanacak kısmi GStreamer yönlendirmesi (pipeline).</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Ses profili için bir açıklama">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Ses profili için kısa bir isim">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Profillerin listesi">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="SMB çalışma gurubu">
+						<longdesc>Kullanıcının parçası olduğu Windows ağ çalışma grubu ya da etki alanı. Yeni çalışma grubunun tam olarak işlemesi için kullanıcının çıkış yapıp tekrar giriş yapması gerekebilir.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="İçinde DNS-SD servislerini aramak için ek alan adları">
+						<longdesc>&quot;network:///&quot; konumunda görülmesi gereken DNS-SD alan adlarının virgül ile ayırılmış listesi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="Yerel DNS-SD servislerinin nasıl gösterileceği">
+						<longdesc>Geçerli değerler, &quot;merged&quot; (birleşik), &quot;separate&quot; (ayrık) ve &quot;disabled&quot; (kapalı)&apos;dir.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="Otomatik vekil sunucu yapılandırma adresi">
+						<longdesc>Vekil ayar değerlerini sağlayan URL.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="SOCS vekil sunucu portu">
+						<longdesc>&quot;/system/proxy/socks_host&quot; ile tanımlanmış vekil olarak kullanacağınız makinenin portu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="SOCKS vekil sunucu adı">
+						<longdesc>Socks için kullanılacak vekilin makine adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="FTP vekil sunucu portu">
+						<longdesc>&quot;/system/proxy/ftp_host&quot; ile tanımlanmış vekil olarak kullanacağınız makinenin portu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="FTP vekil sunucu makine adı">
+						<longdesc>FTP için kullanılacak vekilin makine adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Güvenli HTTP sunucu portu">
+						<longdesc>&quot;/system/proxy/secure_host&quot; ile tanımlanmış vekil olarak kullanacağınız makinenin portu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Güvenli HTTP vekil sunucu adı">
+						<longdesc>Güvenli HTTP için kullanılacak vekilin makine adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Vekil sunucu yapılandırma kipi">
+						<longdesc>Vekil yapılandırma kipi seç. Geçerli değerler &quot;none&quot;, &quot;manual&quot; ve &quot;auto&quot;dur.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Vekil olmayan makineler">
+						<longdesc>Bu anahtar vekil (eğer aktifse) aracılığından daha çok, direk bağlanmış sunucuların listesini içerir. Değerler, sunucu adları, alanları (enbaşta maske kullanarak, *.foo.com), IP sunucu adresleri (hem IPv4 hem IPv6) ve ağ maskeli ağ adresleri (192.168.0.0/24 benzeri) olabilir.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="HTTP vekil sunucu parolası">
+						<longdesc>HTTP vekili kimlik doğrulaması için kullanılacak şifre.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="HTTP vekil sunucu kullanıcı adı">
+						<longdesc>HTTP vekili kimlik doğrulamasında kullanacağı kullanıcı adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Vekil sunucu bağlantılarında kimlik doğrulaması yap">
+						<longdesc>Eğer seçiliyse, vekil sunucusuna bağlantılar kimlik doğrulaması gerektirir. kullanıcı adı/parola ikilisi &quot;/system/http_proxy/authentication_user&quot; ve  &quot;/system/http_proxy/authentication_password&quot; ile tanımlanır.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="HTTP vekil sunucu portu">
+						<longdesc>&quot;/system/http_proxy/host&quot; ile tanımlanmış vekil olarak kullanacağınız makinenin portu.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="HTTP vekil sunucu makine adı">
+						<longdesc>HTTP için kullanılacak vekilin makine adı.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="HTTP vekili kullan">
+						<longdesc>HTTP&apos;ye İnternet üzerinden bağlanırken vekili etkin kılar.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

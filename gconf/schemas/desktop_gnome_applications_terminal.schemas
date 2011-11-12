@@ -1,0 +1,848 @@
+<?xml version="1.0"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/terminal/exec</key>
+      <applyto>/desktop/gnome/applications/terminal/exec</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default>gnome-terminal</default>
+      <locale name="C">
+        <short>Terminal application</short>
+        <long>Terminal program to use when starting applications that require one.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>تطبيق الطرفية</short>
+        <long>برنامج الطرفية الذي سيستعمل عند تشغيل تطبيقات تحتاجه.</long>
+      </locale>
+
+      <locale name="as">
+        <short>টাৰ্মিনেল অনুপ্ৰয়োগ</short>
+        <long>আৱশ্যকৰূপে টাৰ্মিনেল ব্যৱহাৰ কৰা অনুপ্ৰয়োগ আৰম্ভ কৰাৰ সময়ত ব্যৱহৃত টাৰ্মিনেল অনুপ্ৰয়োগ</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Aplicación de terminal</short>
+        <long>Programa de terminal a usar al aniciar aplicaciones que necesiten ún.</long>
+      </locale>
+
+      <locale name="az">
+        <short>Terminal proqramı</short>
+        
+      </locale>
+
+      <locale name="be">
+        <short>Дастасаваньне тэрміналу</short>
+        
+      </locale>
+
+      <locale name="bg">
+        <short>Терминална програма</short>
+        <long>Коя терминална програма да се ползва при стартирането на програми в терминал.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>টার্মিনাল এপ্লিকেশন</short>
+        
+      </locale>
+
+      <locale name="bn_IN">
+        <short>টার্মিনাল অ্যাপ্লিকেশন</short>
+        <long>আবশ্যকরূপে টার্মিনাল সহযোগে ব্যবহারের জন্য চিহ্নিত অ্যাপ্লিকেশন আরম্ভ করার সময় ব্যবহৃত টার্মিনাল প্রোগ্রাম।</long>
+      </locale>
+
+      <locale name="br">
+        <short>Arload termenell</short>
+        
+      </locale>
+
+      <locale name="bs">
+        <short>Aplikacija terminala</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Aplicació de terminal</short>
+        <long>El programa de terminal a utilitzar quan s&apos;inicien aplicacions que el necessiten.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Aplicació de terminal</short>
+        <long>El programa de terminal a utilitzar quan s&apos;inicien aplicacions que el necessiten.</long>
+      </locale>
+
+      <locale name="crh">
+        <short>Terminal uyğulaması</short>
+        <long>Terminalğa muhtac olğan uyğulamalarnı başlatqanda qullanılacaq terminal programı.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Aplikace terminálu</short>
+        <long>Terminálový program, který chcete použít pro start aplikací jej vyžadující.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Rhaglen terfynell</short>
+        
+      </locale>
+
+      <locale name="da">
+        <short>Terminalprogram</short>
+        <long>Terminalprogram der benyttes ved start af programmer der kræver terminal.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Terminal-Anwendung</short>
+        <long>Zu verwendende Terminal-Anwendung beim Starten von Anwendungen, die ein Terminal benötigen.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>ཊར་མི་ནཱལ་གློག་རིམ།</short>
+        
+      </locale>
+
+      <locale name="el">
+        <short>Εφαρμογή τερματικού</short>
+        <long>Πρόγραμμα τερματικού που χρησιμοποιείται κατά την εκκίνηση εφαρμογών που το απαιτούν.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Terminal application</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Terminal application</short>
+        <long>Terminal program to use when starting applications that require one.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Terminala aplikaĵo</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>Aplicación de terminal</short>
+        <long>Programa de terminal que se usará cuando se inicien aplicaciones que necesiten uno.</long>
+      </locale>
+
+      <locale name="et">
+        <short>Terminalirakendus</short>
+        <long>Terminali vajavate rakenduste käivitamiseks kasutatav terminaliprogramm.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Terminalaren aplikazioak</short>
+        <long>Terminala behar duten aplikazioak abiaraztean erabili beharreko terminal- programa.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>برنامه‌ی پایانه</short>
+        
+      </locale>
+
+      <locale name="fi">
+        <short>Päätesovellus</short>
+        <long>Käytettävä pääteohjelma käynnistettäessä päätettä tarvitseva ohjelma.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Application de terminal</short>
+        <long>Le programme de terminal à utiliser lorsqu&apos;une application en nécessite un.</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Aplicazion di terminâl</short>
+        
+      </locale>
+
+      <locale name="ga">
+        <short>Feidhmchláir Terminéal</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Aplicación do terminal</short>
+        <long>Programa do terminal para usar ao iniciar aplicacións que precisen dun.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ટર્મીનલ કાર્યક્રમ</short>
+        <long>જ્યારે કાર્યક્રમો શરૂ કરી રહ્યા હોય કે જેમને કોઈકની જરૂર પડે ત્યારે વાપરવાનો ટર્મિનલ કાર્યક્રમ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Terminal application</short>
+        <long>Terminal program to use when starting applications that require one.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>टर्मिनल अनुप्रयोग</short>
+        <long>प्रयोग के लिए टर्मिनल प्रोग्राम जब अनुप्रयोग आरंभ किए जाए जिसके लिए किसी एक की जरूरत होती है.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Terminalni programi</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>Terminál alkalmazás</short>
+        <long>Terminált igénylő alkalmazások indításakor használandó terminál.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Aplikasi terminal</short>
+        
+      </locale>
+
+      <locale name="is">
+        <short>Skeljarforrit</short>
+        
+      </locale>
+
+      <locale name="it">
+        <short>Applicazione di terminale</short>
+        <long>Programma di terminale da usare quando un&apos;applicazione in avvio ne richiede uno.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>端末アプリケーション</short>
+        <long>端末から起動する必要のあるアプリケーションから利用される端末プログラムです。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>ტერმინალის პროგრამა</short>
+        
+      </locale>
+
+      <locale name="kn">
+        <short>ಟರ್ಮಿನಲ್ ಅನ್ವಯ</short>
+        <long>ಟರ್ಮಿನಲ್‌ ಪ್ರೊಗ್ರಾಮಿನ ಅಗತ್ಯವಿರುವ ಒಂದು ಅನ್ವಯವನ್ನು ಆರಂಭಿಸುವಾಗ ಬಳಸಬೇಕಿರುವ ಟರ್ಮಿನಲ್.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>터미널 응용프로그램</short>
+        <long>터미널을 필요로 하는 프로그램을 실행하기 위해 사용될 터미널 프로그램.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Sepana termînalê</short>
+        
+      </locale>
+
+      <locale name="lt">
+        <short>Terminalo programa</short>
+        <long>Terminalo programa, naudojama paleidžiant terminalo reikalaujančias programas.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Termināļa aplikācija</short>
+        
+      </locale>
+
+      <locale name="mai">
+        <short>टर्मिनल अनुप्रयोग</short>
+        
+      </locale>
+
+      <locale name="mg">
+        <short>rindranasan-terminal</short>
+        
+      </locale>
+
+      <locale name="mk">
+        <short>Апликација за во терминал</short>
+        <long>Терминал кој се користи при подигање на апликација која бара терминал.</long>
+      </locale>
+
+      <locale name="ml">
+        <short>ടെര്‍മിനല്‍ പ്രയോഗം</short>
+        <long>ടെര്‍മിനല്‍ പ്രോഗ്രാം ആവശ്യമുളള പ്രയോഗങ്ങള്‍ ആരംഭിക്കുമ്പോള്‍ ഉപയോഗിക്കുന്നതിനായുള്ള പ്രയോഗം.</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Терминал-программ</short>
+        <long>Терминал шаардах програмуудын эхлүүлэхэд хэрэглэх терминал програм.</long>
+      </locale>
+
+      <locale name="mr">
+        <short>टर्मीनल अनुप्रयोग</short>
+        <long>अनुप्रयोग सुरू करताना वापरायचे ते टर्मीनल कार्यक्रम.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Aplikasi terminal</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Terminalprogram</short>
+        <long>Terminalprogram som skal brukes ved oppstart av programmer som krever det.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>टर्मिनल अनुप्रयोग</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Terminaltoepassing</short>
+        <long>Terminalprogramma voor het starten van toepassingen die er één vereisen.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Terminalprogram</short>
+        <long>Terminalprogram som skal brukast til å køyra program som treng ein.</long>
+      </locale>
+
+      <locale name="or">
+        <short>ଟର୍ମିନାଲ ପ୍ରୟୋଗ</short>
+        <long>ଯେଉଁ ପ୍ରୟୋଗ ପାଇଁ ଟର୍ମିନାଲ ଆବଶ୍ଯକ, ତାହା ପାଇଁ ବ୍ଯବହୃତ ଟର୍ମିନାଲ ପ୍ରଗ୍ରାମ</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਟਰਮੀਨਲ ਐਪਲੀਕੇਸ਼ਨ</short>
+        <long>ਵਰਤਣ ਲਈ ਟਰਮੀਨਲ ਕਾਰਜ, ਜਦੋਂ ਕਿ ਸ਼ੁਰੂਆਤੀ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਇਹ ਲੋਡ਼ੀਦਾ ਹੋਵੇ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Program terminala</short>
+        <long>Program terminala wykorzystywany przy uruchamianiu programów wymagających terminala.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Aplicação de consola</short>
+        <long>Aplicação de consola a utilizar ao iniciar aplicações que requeiram uma.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Aplicativo de terminal</short>
+        <long>Programa de terminal a ser usado ao iniciar aplicativos que precisam de um.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Aplicație terminal</short>
+        <long>Terminal pentru pornirea aplicațiilor ce necesită un terminal.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Терминал</short>
+        <long>Терминал, который используется для запуска нуждающихся в нём приложений.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Terminálová aplikácia</short>
+        <long>Terminálový program, ktorý použiť, ak štartujúca aplikácia vyžaduje terminál.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Program terminala</short>
+        <long>Terminalski program, ki naj se zažene, kadar ga drugi programi zahtevajo.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Aplikimi i terminalit</short>
+        <long>Programi i terminalit që duhet përdorur kur nisen aplikativë që kërkojnë një të tillë.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Терминалски програм</short>
+        <long>Терминалски програм који се користи за покретање програма којима је исти потребан.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Терминалски програм</short>
+        
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Terminalski program</short>
+        <long>Terminalski program koji se koristi za pokretanje programa kojima je isti potreban.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Terminalprogram</short>
+        <long>Terminalprogram att använda vid start av program som kräver ett.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>முனைய செயல்பாடு</short>
+        <long>தேவைப்படும் போது பயன்பாட்டை துவக்க முனையத்தை பயன்படுத்து</long>
+      </locale>
+
+      <locale name="te">
+        <short>టెర్మినల్ అనువర్తనము</short>
+        <long>కావలిసిన అనువర్తనములను ప్రారంభిస్తున్నప్పుడు వుపయోగించవలిసిన టెర్మినల్ ప్రోగ్రామ్.</long>
+      </locale>
+
+      <locale name="th">
+        <short>โปรแกรมเทอร์มินัล</short>
+        <long>โปรแกรมเทอร์มินัลที่จะใช้สำหรับโปรแกรมที่ต้องใช้เทอร์มินัล</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Uçbirim uygulaması</short>
+        <long>Üçbirime ihtiyaç duyan uygulamalar başlatılırken kullanılacak uçbirim programı.</long>
+      </locale>
+
+      <locale name="tt">
+        <short>Terminal yazılımı</short>
+        
+      </locale>
+
+      <locale name="uk">
+        <short>Термінальна програма</short>
+        <long>Термінал, що використовуватиметься коли він потрібен програмі.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Ứng dụng thiết bị cuối</short>
+        <long>Chương trình thiết bị cuối cần dùng để khởi chạy ứng dụng có yêu cầu.</long>
+      </locale>
+
+      <locale name="wa">
+        <short>Programe di terminå</short>
+        
+      </locale>
+
+      <locale name="xh">
+        <short>Ukusetyenziswa kwetheminali</short>
+        
+      </locale>
+
+      <locale name="zh_CN">
+        <short>终端应用程序</short>
+        <long>当启动需要终端的应用程序时使用的终端程序。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>終端機程式</short>
+        <long>當啟動的程式需要終端機時，使用哪個終端機程式。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>終端機程式</short>
+        <long>當啟動的程式需要終端機時，使用哪個終端機程式。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/desktop/gnome/applications/terminal/exec_arg</key>
+      <applyto>/desktop/gnome/applications/terminal/exec_arg</applyto>
+      <owner>gnome</owner>
+      <type>string</type>
+      <default>-x</default>
+      <locale name="C">
+        <short>Exec Arguments</short>
+        <long>Argument used to execute programs in the terminal defined
+	by the 'exec' key.</long>
+      </locale>
+
+      <locale name="ar">
+        <short>معطيات Exec</short>
+        <long>المُعطى المستخدم لتشغيل البرامج ·المعرفة·بمفتاح &apos;exec&apos; في الطرفية.</long>
+      </locale>
+
+      <locale name="as">
+        <short>Exec&apos;ৰ তৰ্ক</short>
+        <long>টাৰ্মিনেল &apos;exec&apos; চাবি দ্বাৰা চিহ্নিত অনুপ্ৰয়োগ সঞ্চালনৰ বাবে ব্যৱহৃত তৰ্ক ।</long>
+      </locale>
+
+      <locale name="ast">
+        <short>Argumentos d&apos;execución</short>
+        
+      </locale>
+
+      <locale name="az">
+        <short>Exec Arqumentləri</short>
+        <long>Terminalda proqramları icra etmək üçün &apos;exec&apos; açarı tərəfindən tə&apos;yin edilən arqument.</long>
+      </locale>
+
+      <locale name="be">
+        <short>Аргумэнты пуску</short>
+        <long>Аргумэнт, які выкарыстоўваецца ў часе загрузкі праграмаў у тэрмінале па ключу &quot;exec&quot;.</long>
+      </locale>
+
+      <locale name="bg">
+        <short>Аргументи на exec</short>
+        <long>Аргумент, с който се изпълнява командата в терминала, дефиниран чрез ключа „exec“.</long>
+      </locale>
+
+      <locale name="bn">
+        <short>চালু করার আর্গুমেন্ট</short>
+        <long>&apos;exec&apos; দ্বারা সঙ্গায়িত আর্গুমেন্টটি  টার্মিনালে চালু করতে ব্যবহৃত</long>
+      </locale>
+
+      <locale name="bn_IN">
+        <short>Exec&apos;র আর্গুমেন্ট</short>
+        <long>টার্মিনাল &apos;exec&apos; কি দ্বারা চিহ্নিত প্রোগ্রাম সঞ্চালনের জন্য ব্যবহৃত আর্গুমেন্ট।</long>
+      </locale>
+
+      <locale name="bs">
+        <short>Exec argumenti</short>
+        <long>Argument koji se koristi za pokretanje programa u terminalu definiran u &apos;exec&apos; ključu.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Arguments d&apos;execució</short>
+        <long>L&apos;argument que s&apos;utilitza per a executar programes en el terminal definit per la clau «exec».</long>
+      </locale>
+
+      <locale name="ca@valencia">
+        <short>Arguments d&apos;execució</short>
+        <long>L&apos;argument que s&apos;utilitza per a executar programes en el terminal definit per la clau «exec».</long>
+      </locale>
+
+      <locale name="crh">
+        <short>İfa Delilleri</short>
+        <long>Programlarnı terminalda çaptırmaq içün qullanılğan &apos;exec&apos; anahtarınen belgilengen delil.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Argumenty exec</short>
+        <long>Argument používaný pro spuštění programů v terminálu definovaném v klíči &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="cy">
+        <short>Ymresymiadau Exec</short>
+        <long>Ymresymiad a ddefnyddir er mwyn rhedeg rhaglenni yn y derfynell fe ddiffiniwyd gan yr allwedd &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="da">
+        <short>Kørselsparametre</short>
+        <long>Parameter der benyttes til at køre programmer i terminalen defineret af &quot;exec&quot;-nøglen.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Ausführungsargumente</short>
+        <long>Das zum Ausführen von Programmen im Terminal verwendete, vom Schlüssel »exec« festgelegte Argument.</long>
+      </locale>
+
+      <locale name="dz">
+        <short>སྒྱུབ་རྟགས་ཚུ་ ལག་ལེན་འཐབ།</short>
+        <long>&apos;exec&apos; ལྡེ་མིག་གིས་ ངེས་འཛིན་འབད་མི་ ཊར་མི་ནཱལ་ནང་གི་ལས་རིམ་ཚུ་ ལག་ལེན་འཐབ་ནིའི་སྒྲུབ་རྟགས་ཚུ།</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ορίσματα εκτέλεσης</short>
+        <long>Όρισμα που χρησιμοποιείται για την εκτέλεση προγραμμάτων σε τερματικό που καθορίζονται από το &apos;exec&apos; key.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Exec Arguments</short>
+        <long>Argument used to execute programs in the terminal defined by the &apos;exec&apos; key.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Exec Arguments</short>
+        <long>Argument used to execute programs in the terminal defined by the &apos;exec&apos; key.</long>
+      </locale>
+
+      <locale name="eo">
+        <short>Exec-argumentoj</short>
+        <long>Argumento uzata por ruli programojn en la terminalo difinita per la ŝlosilo &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Argumentos de Exec</short>
+        <long>Argumento utilizado para ejecutar programas en el terminal definida por la clave «exec».</long>
+      </locale>
+
+      <locale name="et">
+        <short>Käivitamise argumendid</short>
+        <long>Argumendid terminalis töötavatele programmidele, kirjeldatakse &apos;exec&apos; võtmega.</long>
+      </locale>
+
+      <locale name="eu">
+        <short>Exekutatzeko argumentuak</short>
+        <long>&apos;exec&apos; teklak definitutako terminalean programak exekutatzeko erabilitako argumentua.</long>
+      </locale>
+
+      <locale name="fa">
+        <short>آرگومان‌های Exec</short>
+        <long>آرگومان استفاده شده برای اجرای برنامه‌ها در پایانه تعریف شده با کلید «exec».</long>
+      </locale>
+
+      <locale name="fi">
+        <short>Suoritusparametrit</short>
+        <long>Parametri, jonka avulla &quot;exec&quot;-avaimessa annettu pääte saadaan suorittamaan jokin ohjelma.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Paramètres d&apos;exécution</short>
+        <long>Paramètre utilisé pour exécuter des programmes dans le terminal défini par la clé « exec ».</long>
+      </locale>
+
+      <locale name="fur">
+        <short>Argoments Exec</short>
+        <long>Argoment doprât par inviâ programs tal terminâl definît da clâf &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Argóintí Reatha</short>
+        
+      </locale>
+
+      <locale name="gl">
+        <short>Argumentos de execución</short>
+        <long>Argumento usado para executar programas no terminal definido pola tecla &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="gu">
+        <short>ચલાવવાની દલીલો</short>
+        <long>&apos;exec&apos; કી દ્વારા વ્યાખ્યાયિત ટર્મિનલમાં કાર્યક્રમ ચલાવવા માટે ઉપયોગમાં લેવાતી દલીલ.</long>
+      </locale>
+
+      <locale name="he">
+        <short>Exec Arguments</short>
+        <long>Argument used to execute programs in the terminal defined by the &apos;exec&apos; key.</long>
+      </locale>
+
+      <locale name="hi">
+        <short>ईएक्सईसी आर्गुमेंट्स</short>
+        <long>&apos;exec&apos; कुंजी के द्वारा परिभाषित टर्मिनल में प्रोग्राम निष्पादन के लिये तर्क.</long>
+      </locale>
+
+      <locale name="hr">
+        <short>Izvršni argumenti</short>
+        <long>Argument koji se koristi za izvršavanje programa u terminalu određenom pomoću &apos;exec&apos; tipke.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Végrehajtási argumentumok</short>
+        <long>Az „exec” kulcsban megadott terminálban a programok végrehajtására használt paraméter.</long>
+      </locale>
+
+      <locale name="id">
+        <short>Perintah Exec</short>
+        <long>Perintah yang digunakan untuk menjalankan program dalam terminal bisa diset pada key &apos;exec&apos;</long>
+      </locale>
+
+      <locale name="is">
+        <short>Ræsiviðföng</short>
+        <long>Viðföng notuð til þess að ræsa forrit í skel skilgreind með &apos;exec&apos; lykli.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Argomenti Exec</short>
+        <long>Argomento usato per eseguire programmi nel terminale definito dalla chiave &quot;exec&quot;.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>実行時の引数</short>
+        <long>&apos;exec&apos; キーで定義された、端末でプログラムを実行するために利用する引数です。</long>
+      </locale>
+
+      <locale name="ka">
+        <short>&apos;Exec&apos; არგუმენტები</short>
+        <long>არგუმენტი, რომელსაც პროგრამების ტერმინალში შესრულებისთვის &apos;exec&apos; კლავიში იყენებს.</long>
+      </locale>
+
+      <locale name="kn">
+        <short>Exec ಆರ್ಗುಮೆಂಟ್‌ಗಳು</short>
+        <long>&apos;exec&apos; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾದ ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ಕಾರ್ಯಗತಗೊಳಿಸಬೇಕಾದ ಪ್ರೋಗ್ರಾಮಿನಲ್ಲಿ ಬಳಸಲಾಗುವ ಆರ್ಗುಮೆಂಟ್.</long>
+      </locale>
+
+      <locale name="ko">
+        <short>실행 인자</short>
+        <long>&apos;exec&apos; 키로 정의된 터미널에서 실행되는 프로그램에 대한 인자.</long>
+      </locale>
+
+      <locale name="ku">
+        <short>Argumanên Xebitandinê</short>
+        <long>Ji bo ku tu bernameyan di termînalê de bixebitîne gûhêrbara xweser ya bi mifteya &quot;exec&quot;ê re hatiye diyarkirin.</long>
+      </locale>
+
+      <locale name="lt">
+        <short>Paleidimo parametrai</short>
+        <long>Argumentas, naudojamas paleisti programas terminale, nurodytame „exec“ raktu.</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Exec argumenti</short>
+        <long>Argumenti, kas izmantoti, lai izpildītu programmas terminālī, definētā ar &apos;exec&apos; atslēgu.</long>
+      </locale>
+
+      <locale name="mai">
+        <short>कार्यकारी वितर्क</short>
+        <long>&apos;exec&apos; कुँजी क&apos; द्वारा परिभाषित टर्मिनलमे प्रोग्राम निष्पादनक लेल तर्क.</long>
+      </locale>
+
+      <locale name="mg">
+        <short>Tondriky Exec</short>
+        <long>Ny tondriky andefasana rindranasa amin&apos;ny terminal voafaritry ny famaha &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="mk">
+        <short>Аргументи за извршување</short>
+        <long>Аргумент кој се користи за подигање на програмата во терминал, дефиниран од exec </long>
+      </locale>
+
+      <locale name="ml">
+        <short>Exec ആര്‍ഗ്യുമെന്‍റുകള്‍</short>
+        <long>&apos;എക്സെക് (exec)&apos; കീ ഉപയോഗിച്ചു് ടെര്‍മിനലില്‍ പ്രോഗ്രാം പ്രവര്‍ത്തിപ്പിയ്ക്കാന്‍ ഉപയോഗിയ്ക്കുന്ന ആര്‍ഗ്യുമെന്റ്</long>
+      </locale>
+
+      <locale name="mn">
+        <short>Үйлдлийн Аргументууд</short>
+        <long>Терминал дотор программ ажиллуулахад хэрэглэдэг »exec«-түлхүүрээр тодорхойлогдсон аргумент</long>
+      </locale>
+
+      <locale name="mr">
+        <short>Exec बाबी</short>
+        <long>&apos;exec&apos; किल्ली द्वारे व्याख्यीत बाबी टर्मीनल मध्ये कार्यक्रम कार्यान्वीत करण्याकरीता वापरले गेले.</long>
+      </locale>
+
+      <locale name="ms">
+        <short>Hujah Exec</short>
+        <long>Hujah digunakan untuk melaksanakan program pada terminal ditakrifkan dengan kekunci &apos;exec&apos;</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Kjøringsflagg</short>
+        <long>Argument som brukes til å kjøre programmer definert av «exec»-nøkkelen i terminalen.</long>
+      </locale>
+
+      <locale name="ne">
+        <short>कार्यान्वयन तर्क</short>
+        <long>टर्मिनलमा &apos;exec&apos; कुञ्जीद्वारा परिभाषित गरिएका कार्यक्रम कार्यान्वयन गर्न प्रयोग गरिने तर्क ।</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Exec-argumenten</short>
+        <long>Argument voor het uitvoeren van programma&apos;s in het terminalvenster gedefinieerd door de &apos;exec&apos;-sleutel.</long>
+      </locale>
+
+      <locale name="nn">
+        <short>Køyringsflagg</short>
+        <long>Argument som vert brukt til å køyra program i terminalen definert av «exec»-nøkkelen.</long>
+      </locale>
+
+      <locale name="oc">
+        <short>Arguments d&apos;execucion</short>
+        
+      </locale>
+
+      <locale name="or">
+        <short>ନିଷ୍ପାଦନ ସ୍ବତନ୍ତ୍ରଚର</short>
+        <long>&apos;exec&apos; ଚାବି ଦ୍ବାରା ଉଲ୍ଲେଖିତ ଟର୍ମିନାଲରେ କାରିକା ନିଷ୍ପାଦନ ପାଇଁ ବ୍ଯବହୃତ ସ୍ବତନ୍ତ୍ରଚର</long>
+      </locale>
+
+      <locale name="pa">
+        <short>Exec ਆਰਗੂਮੈਂਟ</short>
+        <long>ਟਰਮੀਨਲ ਵਿੱਚ ਚੱਲਣ ਵਾਲੇ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਆਰਗੂਮੈਂਟ &apos;exec&apos; ਕੀ ਨਾਲ ਪ੍ਰਭਾਸ਼ਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Argumenty wywołania</short>
+        <long>Argument wykorzystywany do uruchamiania programów w terminalu zdefiniowanym przez klucz &quot;exec&quot;.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Argumentos Exec</short>
+        <long>Argumento utilizado para executar aplicações na consola definida pela tecla &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Argumentos de execução</short>
+        <long>Argumento usado para executar programas no terminal definido pela chave &quot;exec&quot;.</long>
+      </locale>
+
+      <locale name="ro">
+        <short>Parametri „exec”</short>
+        <long>Parametru utilizat pentru lansarea în execuție într-un terminal a programelor specificate în parametrul „exec”</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Аргументы для ключа «exec»</short>
+        <long>Аргумент, используемый при запуске программ в терминале по ключу «exec».</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Parametre spustenia</short>
+        <long>Parameter použitý na spustenie programov v termináli definovaný kľúčom &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="sl">
+        <short>Argumenti za exec</short>
+        <long>Argument, ki naj se uporabi za izvedbo programov v terminalu, definiran kot ključ &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Argumente exec</short>
+        <long>Argumenti i përdorur për të ndjekur programe në terminal i përcaktuar nga çelsi &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Аргументи извршења</short>
+        <long>Аргумент са којим се извршавају програми у терминалу дефинисаном помоћу „exec“ кључа.</long>
+      </locale>
+
+      <locale name="sr@ije">
+        <short>Аргументи извршења</short>
+        <long>Аргумент са којим се извршавају програми у терминалу дефинисаном помоћу „exec“ кључа.</long>
+      </locale>
+
+      <locale name="sr@latin">
+        <short>Argumenti izvršenja</short>
+        <long>Argument sa kojim se izvršavaju programi u terminalu definisanom pomoću „exec“ ključa.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Exec-argument</short>
+        <long>Argument som används för att köra program i terminalen som anges av &quot;exec&quot;-nyckeln.</long>
+      </locale>
+
+      <locale name="ta">
+        <short>செயற்பாடு மாறிகள்</short>
+        <long>&apos;exec&apos; விசையால் குறிப்பிடப்பட்ட முனையத்தில் இயங்கும் நிரல்களின் அளவுரு</long>
+      </locale>
+
+      <locale name="te">
+        <short>Exec ఆర్గుమెంట్లు</short>
+        <long>&apos;exec&apos; కీద్వారా నిర్వచించిన ప్రోగ్రములను టెర్మినల్‌నందు నిర్వర్తించుటకు విపయోగించు ఆర్గుమెంటు.</long>
+      </locale>
+
+      <locale name="th">
+        <short>อาร์กิวเมนต์คำสั่ง</short>
+        <long>อากิวเมนต์สำหรับเรียกใช้โปรแกรมในเทอร์มินัลตามคีย์ &apos;exec&apos;</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Çalıştırma Argümanları</short>
+        <long>Programları uçbirimde çalıştırmak için kullanılan, &apos;exec&apos; anahtarıyla belirlenmiş bağımsız değişken.</long>
+      </locale>
+
+      <locale name="uk">
+        <short>Аргументи параметра exec</short>
+        <long>Аргумент, що буде передано програмі в терміналі через параметр &quot;exec&quot;.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Đối số Exec</short>
+        <long>Đối số được dùng để thực hiện chương trình trong thiết bị cuối được định nghĩa bởi khóa « exec » (thực hiện).</long>
+      </locale>
+
+      <locale name="xh">
+        <short>Iziphumezi-miyalelo ze-exec</short>
+        <long>Isiphumezi-miyalelo esisetyenzisiweyo ekuqaliseni iinkqubo kwitheminali echazwe liqhosha &apos;exec&apos;.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>执行参数</short>
+        <long>在“执行”键定义的终端里执行程序的参数。</long>
+      </locale>
+
+      <locale name="zh_HK">
+        <short>執行指令的參數</short>
+        <long>執行‘exec’設定鍵所指定的終端機時，需要哪些參數來執行其它程式。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>執行指令的參數</short>
+        <long>執行‘exec’設定鍵所指定的終端機時，需要哪些參數來執行其它程式。</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Միացնել ձայնագրման Burnproof տարբերակը">
+						<longdesc>Օգտագործե՞լ Burnproof տարբերակը, որոնք մատչելի են որոշ ձայնագրիչների վրա</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Միացնել overburn ֆունկցիան">
+						<longdesc>Թույլատրե՞լոր տեեկատվությունը գերազանցի ֆիզիկական միջինի չափսը</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Միացնել դեֆեկտների վերացման ծրագիրը">
+						<longdesc>Միացնե՞լ դեֆեկտների միացման ծրագիրը CD ձայնագրման համար</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Ձայնագրման նախնական արագություն">
+						<longdesc>Նախնական արագություն որով մեդիան պետք է ձայնագրվի</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Թղթապանակ ժամանակավոր ISO իմիջների համար">
+						<longdesc>ISO իմիջների համար օգտագործվող թղթապանակը դատարկ թողնել օգտագործելու նախնական համակարգի ժամանակավոր թղթապանակը</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

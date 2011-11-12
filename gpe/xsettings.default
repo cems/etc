@@ -1,0 +1,8 @@
+Gtk/IconSizes:S:gtk-dialog=30,30:gtk-button=16,16
+Gtk/ToolbarIconSize:I:1
+Gtk/ToolbarStyle:I:2
+Gtk/FontName:S:Sans 7
+MATCHBOX/Desktop/Font:S:Sans 7
+Net/ThemeName:S:Clearlooks
+MATCHBOX/Background:S:col-solid:#1f00a2
+

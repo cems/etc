@@ -1,0 +1,2273 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="高速描画するかどうか">
+						<longdesc>これを FALSE にすると玉が落ちる速度が遅くなりますが、描画する効果が綺麗です。TRUE にすると玉の落ちる速度が速く描画する効果はありません。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="盤の高さ">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="盤の幅">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="盤の大きさ">
+						<longdesc>使用する盤の大きさです。指定可能な値: 1 = カスタム、2 = 小さい、3 = 中くらい、4 = 大きい</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="使用するテーマ・ファイル">
+						<longdesc>使用するテーマのファイル名です。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="石を落とす">
+						<longdesc>石を落とすキーです</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="右へ移動する">
+						<longdesc>右に移動するキーです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="左へ移動する">
+						<longdesc>左に移動するキーです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="効果音">
+						<longdesc>イベント時のサウンドを演奏するかどうかです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="アニメーションするかどうか">
+						<longdesc>アニメーションを使用するかどうかです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="テーマの ID">
+						<longdesc>お好みのテーマを表す番号です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="プレイヤー２のレベル">
+						<longdesc>0 = 人間; 1〜3 = コンピュータのレベル</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="プレイヤー１のレベル">
+						<longdesc>0 = 人間; 1〜3 = コンピュータのレベル</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="ゲームのプレビュー">
+							<longdesc>最後にプレイしたセッションを保存したゲーム・プレビューです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="ゲーム・フィールド">
+							<longdesc>最後にプレイしたセッションを保存したゲーム・フィールドです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="ゲームの得点">
+							<longdesc>最後にプレイしたセッションを保存したゲームの得点です。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="移動する時間">
+							<longdesc>玉の移動に必要な時間 (ミリ秒単位) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="背景色">
+							<longdesc>背景色 (16進表記)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="玉のスタイル">
+							<longdesc>玉のスタイルで、玉に使用する画像のファイル名です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="プレイするフィールドの大きさ">
+							<longdesc>プレイするフィールドの大きさです。指定可能な値: 1=小さい、2=中ぐらい、3=大きい (それ以外の値は無効です)</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="board_view">
+					<local_schema short_desc="表示する盤面の向き">
+						<longdesc>正面に持ってくる盤面の向きです。指定可能な値: &apos;white&apos;、&apos;black&apos;、&apos;current&apos; (現在のプレイヤー)、&apos;human&apos; (現在プレイしている人間のプレイヤー)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="move_format">
+					<local_schema short_desc="駒の移動を表現する書式">
+						<longdesc>駒の移動を表現する際に使用する書式です。指定可能な値: &apos;human&apos; (可読な書式)、&apos;lan&apos; (長い代数記法)、&apos;san&apos; (標準的な代数記法)</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="load_directory">
+					<local_schema short_desc="ゲームを読み込む際に開くフォルダ">
+						<longdesc>ゲームを読み込む際に開くフォルダ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="save_directory">
+					<local_schema short_desc="ゲームを保存する際に開くフォルダ">
+						<longdesc>ゲームを保存する際に開くフォルダ</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="ツールバーを表示するかどうか">
+						<longdesc>ツールバーを表示するかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_history">
+					<local_schema short_desc="履歴ブラウザを表示するかどうか">
+						<longdesc>履歴ブラウザを表示するかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_comments">
+					<local_schema short_desc="移動時のコメントを表示するかどうか">
+						<longdesc>移動時のコメントを表示するかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_numbering">
+					<local_schema short_desc="盤面に番号を付与するかどうか">
+						<longdesc>盤面に番号を付与するかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_move_hints">
+					<local_schema short_desc="ヒントを利用できるかどうか">
+						<longdesc>ヒントを利用できるかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_3d">
+					<local_schema short_desc="３Ｄモードを有効にするかどうか">
+						<longdesc>３Ｄモードを有効にするかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="promotion_type">
+					<local_schema short_desc="ポーンがプロモーションすると成る駒">
+						<longdesc>プレイヤー (人間) のポーンが相手側の最終ランクに到達した時に成る駒の種類です。指定可能な値: &apos;queen&apos;、&apos;knight&apos;、&apos;rook&apos;、&apos;bishop&apos;</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="enable_networking">
+					<local_schema short_desc="ネットワーク対戦をサポートするかどうか">
+						<longdesc>ネットワーク対戦をサポートするかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="fullscreen">
+					<local_schema short_desc="フルスクリーン表示にするかどうか">
+						<longdesc>フルスクリーン表示にするかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="maximised">
+					<local_schema short_desc="最大モードにするかどうか">
+						<longdesc>最大モードにするかどうか</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="height">
+					<local_schema short_desc="ウィンドウの高さ">
+						<longdesc>メイン・ウィンドウの高さ (ピクセル単位) です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="ウィンドウの幅">
+						<longdesc>メイン・ウィンドウの幅 (ピクセル単位) です。</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="new_game_dialog">
+					<entry name="allow_spectators">
+						<local_schema short_desc="新しいゲームを見学できるかどうか">
+							<longdesc>新しいゲームを見学できるかどうか</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="move_time">
+						<local_schema short_desc="新しいゲームで各プレイヤーが駒を移動するのに必要な時間">
+							<longdesc>新しいゲームで各プレイヤーが駒を移動するのに必要な時間</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="black">
+						<entry name="difficulty">
+							<local_schema short_desc="黒のプレイヤーの難易度">
+								<longdesc>黒のプレイヤーの難易度</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="黒のプレイヤーの種類">
+								<longdesc>黒のプレイヤーの種類</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="white">
+						<entry name="difficulty">
+							<local_schema short_desc="白のプレイヤーの難易度">
+								<longdesc>白のプレイヤーの難易度</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="type">
+							<local_schema short_desc="白のプレイヤーの種類">
+								<longdesc>白のプレイヤーの種類</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="recent_games_list">
+					<local_schema short_desc="最近プレイしたゲーム">
+						<longdesc>最近プレイしたゲームのリストです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="statistics">
+					<local_schema short_desc="プレイしたゲームの成績">
+						<longdesc>５つからなる文字列のリストです: 名前、勝ち数、プレイ数、ベスト・タイム (秒)、ワースト・タイム(秒)。ここにプレイしていない数を指定する必要はありません。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="使用するゲーム・ファイル">
+						<longdesc>プレイするソリティア・ゲームを格納したスキーマ・ファイルの名前です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="効果音">
+						<longdesc>イベント時のサウンドを演奏するかどうかです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="操作方法の選択">
+						<longdesc>カードを操作する方法として、カードをドラッグするか、または移動元をクリックして対象となるカードへドラッグするかを選択して下さい。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_statusbar">
+					<local_schema short_desc="ステータスバーの表示/非表示">
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="ツールバーの表示/非表示">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="テーマ・ファイルの名前">
+						<longdesc>カードの絵柄を格納したファイルの名前です。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="&quot;待機&quot; のキー">
+							<longdesc>待機する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="&quot;ランダムなテレポート&quot; のキー">
+							<longdesc>ランダムなテレポートを行う際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="&quot;テレポート&quot; のキー">
+							<longdesc>(可能ならば) 安全にテレポートを行う際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="&quot;SE (南東) へ移動&quot; のキー">
+							<longdesc>南東へ移動する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="&quot;S (南) へ移動&quot; のキー">
+							<longdesc>南へ移動する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="&quot;SW (南西) へ移動&quot; のキー">
+							<longdesc>南西へ移動する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="&quot;E (東) へ移動&quot; のキー">
+							<longdesc>東へ移動する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="&quot;保留&quot; のキー">
+							<longdesc>保留のままにする際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="&quot;W (西) へ移動&quot; のキー">
+							<longdesc>西へ移動する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="&quot;NE (北東) へ移動&quot; のキー">
+							<longdesc>北東へ移動する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="&quot;N (北) へ移動&quot; のキー">
+							<longdesc>北へ移動する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="&quot;NW (北西) へ移動&quot; のキー">
+							<longdesc>北西へ移動する際に使用するキーの名前 (標準的な X-ウィンドウ・システムのキーの名前) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="スプラッタ風にする">
+							<longdesc>アニメーションをスプラッタ風にします。画面で &quot;血しぶき！&quot; が表示され音が流れます。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="ゲーム・サウンドを有効にする">
+							<longdesc>ゲーム・サウンドを有効にします。ゲームをとおしていろいろなイベントで演奏します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="超安全モードを使う">
+							<longdesc>超安全に移動します。プレイヤーが安全ではない方向に移動する際に警告を発します。このオプションはテレポートした後のみ有効になります。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="安全モードを使う">
+							<longdesc>安全に移動します。このオプションは、誤ってプレイヤーを死なせることがありません。安全な移動が有効な場合、危険を目前に迫っている場所に移動させようとしても、それ以上進むことができなくなります。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="ゲームの種類">
+							<longdesc>ゲームの種類です。プレイするいろいろなゲームの名前になります。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="背景色">
+							<longdesc>背景色 (16進表記)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="ロボットのテーマ">
+							<longdesc>ロボットのテーマ画像です。ロボットに使用する画像になります。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="ツールバーを表示します">
+							<longdesc>ツールバーを表示します (ツールバーの標準オプションです)。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="ゲーム盤のサイズ">
+							<longdesc>プレイするゲーム盤の大きさです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="サウンドを有効にする">
+							<longdesc>サウンドを有効にします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="ゲーム開始時のレベル">
+							<longdesc>ゲーム開始時のレベルです</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="プレイするレベルをランダムに切り替える">
+							<longdesc>プレイするゲーム・レベルをランダムに切り替えます。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="偽物のボーナスを有効にする">
+							<longdesc>偽物のボーナスを出します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="ゲームのスピード">
+							<longdesc>ゲームの進行スピードです (1=高速 4=低速)。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ai">
+						<local_schema short_desc="AI プレイヤーの数">
+							<longdesc>プレイする AI (人工知能) の数です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="players">
+						<local_schema short_desc="プレイヤーの人数">
+							<longdesc>プレイする人の数です。</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="右へ移動する">
+									<longdesc>右へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="左へ移動する">
+									<longdesc>左へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="下へ移動する">
+									<longdesc>下へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="上へ移動する">
+									<longdesc>上へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="相対移動にする">
+									<longdesc>相対的に移動させるようにします (つまり左または右のみ移動可)。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="いも虫の色">
+									<longdesc>いも虫の色です。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="右へ移動する">
+									<longdesc>右へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="左へ移動する">
+									<longdesc>左へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="下へ移動する">
+									<longdesc>下へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="上へ移動する">
+									<longdesc>上へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="相対移動にする">
+									<longdesc>相対的に移動させるようにします (つまり左または右のみ移動可)。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="いも虫の色">
+									<longdesc>いも虫の色です。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="右へ移動する">
+									<longdesc>右へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="左へ移動する">
+									<longdesc>左へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="下へ移動する">
+									<longdesc>下へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="上へ移動する">
+									<longdesc>上へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="相対移動にする">
+									<longdesc>相対的に移動させるようにします (つまり左または右のみ移動可)。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="いも虫の色">
+									<longdesc>いも虫の色です。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="右へ移動する">
+									<longdesc>右へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="左へ移動する">
+									<longdesc>左へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="下へ移動する">
+									<longdesc>下へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="上へ移動する">
+									<longdesc>上へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="相対移動にする">
+									<longdesc>相対的に移動させるようにします (つまり左または右のみ移動可)。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="いも虫の色">
+									<longdesc>いも虫の色です。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="右へ移動する">
+									<longdesc>右へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="左へ移動する">
+									<longdesc>左へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="下へ移動する">
+									<longdesc>下へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="上へ移動する">
+									<longdesc>上へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="相対移動にする">
+									<longdesc>相対的に移動させるようにします (つまり左または右のみ移動可)。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="いも虫の色">
+									<longdesc>いも虫の色です。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="右へ移動する">
+									<longdesc>右へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="左へ移動する">
+									<longdesc>左へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="下へ移動する">
+									<longdesc>下へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="上へ移動する">
+									<longdesc>上へ移動する際に使用するキーです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="相対移動にする">
+									<longdesc>相対的に移動させるようにします (つまり左または右のみ移動可)。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="いも虫の色">
+									<longdesc>いも虫の色です。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="操作方法の選択">
+						<longdesc>タイルの移動方法で、タイルをドラッグして移動するか、またはクリックするとそのまま移動するかです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="colours">
+					<local_schema short_desc="タイルに色を付けるかどうか">
+						<longdesc>タイルに色を付けるかどうかです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="プレイするグリッドのサイズ">
+						<longdesc>このキーの値はプレイする盤面のサイズを決定するのに使用します。設定可能な値は 2〜8 で、それ以外は強制的に 3 になります。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="一時停止">
+							<longdesc>プレイを一時停止する時に使用するキーです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="回転させるキー">
+							<longdesc>回転させる時に使用するキーです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="落とすキー">
+							<longdesc>落とす時に使用するキーです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="下へ移動する">
+							<longdesc>下へ移動する時に使用するキーです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="右へ移動する">
+							<longdesc>右に移動するキーです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="左へ移動する">
+							<longdesc>左に移動するキーです。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="予め埋めておくブロックの密度">
+							<longdesc>ゲーム開始時に予め埋めておくブロックの密度です。指定可能な値は 0 (ブロックなし) 〜 10 (全て埋める) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="予め埋めておく桁の番号">
+							<longdesc>ゲーム開始時にランダムなブロックで予め埋めておく桁の番号です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="半時計周りに回転させるかどうか">
+							<longdesc>半時計周りに回転させるかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="ブロックの色をランダムにするかどうか">
+							<longdesc>ブロックの色をランダムにするかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="ブロックを落とす箇所を表示するかどうか">
+							<longdesc>ブロックを落とす場所を視覚効果を使って表示するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="次のブロックのプレビューを表示するかどうか">
+							<longdesc>次のブロックのプレビューを表示するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="背景色">
+							<longdesc>背景の色を gdk_color_parse が理解する書式で指定して下さい。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="背景として画像を利用するかどうか">
+							<longdesc>背景色の上に背景画像を描画するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="ゲーム開始時のレベル">
+							<longdesc>ゲーム開始時のレベルです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="ブロックの描画に使用するテーマ">
+							<longdesc>ブロックと背景を描画する際に使用するテーマの名前です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="ブロックの描画に使用する画像">
+							<longdesc>ブロックの描画に使用する画像です。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="GameType">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="コンピュータの思考を出力する">
+						<longdesc>TRUE の場合、コンピュータの AI 思考情報が標準出力に出力されます。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="ゆっくり実行する">
+						<longdesc>コンピュータがサイコロを振る際に遅延時間を入れるかどうか選択して下さい。プレイヤーは何の目になったか知ることができます。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="プレイするパズル">
+						<longdesc>プレイするパズルの数です。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="効果音">
+						<longdesc>イベント時のサウンドを演奏するかどうかです。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-settings">
+				<dir name="gnumeric">
+					<entry name="toolbar_style">
+						<local_schema short_desc="ツールバーのスタイル">
+							<longdesc>ツールバースタイルです。有効な値はboth, both_horiz, icon, textです</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="printsetup">
+					<entry name="hf-right">
+						<local_schema>
+							<longdesc>この値を変更するには、印刷設定ダイアログを使ってください。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-middle">
+						<local_schema>
+							<longdesc>この値を変更するには、印刷設定ダイアログを使ってください。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-left">
+						<local_schema>
+							<longdesc>この値を変更するには、印刷設定ダイアログを使ってください。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-italic">
+						<local_schema short_desc="ヘッダ/フッタのフォントはデフォルトではイタリックです。">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-bold">
+						<local_schema short_desc="ヘッダ/フッタのフォントはデフォルトではボールドです。">
+						</local_schema>
+					</entry>
+					<entry name="hf-font-name">
+						<local_schema>
+						</local_schema>
+					</entry>
+					<entry name="hf-font-size">
+						<local_schema>
+							<longdesc>ヘッダとフッタのデフォルトフォントサイズです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="footer">
+						<local_schema short_desc="ページフッタ">
+							<longdesc>新規ドキュメントのデフォルトのページフッタはページセットアップダイアログで変更することができます。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="header">
+						<local_schema short_desc="ページヘッダ">
+							<longdesc>新規ドキュメントのデフォルトのページヘッダはページセットアップダイアログで変更することができます。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autoformat">
+					<entry name="usr-dir">
+						<local_schema>
+							<longdesc>ユーザごとの自動書式テンプレートのメインディレクトリです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sys-dir">
+						<local_schema short_desc="自動フォーマットのシステムディレクトリ">
+							<longdesc>このディレクトリにはプレインストールされた自動書式テンプレートがあります。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugins">
+					<entry name="file-states">
+						<local_schema short_desc="プラグインファイルの状態のリスト">
+							<longdesc>このリストにはすべてのプラグインファイルの状態が含まれます。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="known">
+						<local_schema short_desc="既知のプラグインのリスト">
+						</local_schema>
+					</entry>
+					<entry name="active">
+						<local_schema short_desc="有効なプラグインの一覧です。">
+						</local_schema>
+					</entry>
+					<entry name="activate-new">
+						<local_schema short_desc="プラグインを有効にする">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="autocorrect">
+					<entry name="first-letter-list">
+						<local_schema>
+							<longdesc>自動訂正エンジンはこのリストにある単語の最初の文字を訂正しません。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="functionselector">
+					<entry name="num-of-recent">
+						<local_schema short_desc="最近使った関数リストの最大長さ">
+							<longdesc>関数セレクタは最近使われた関数をリストで覚えています。これはそのリストの最大長です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="recentfunctions">
+						<local_schema short_desc="最近使った関数のリスト">
+							<longdesc>関数セレクタは最近使われた関数をリストで覚えています。これはそのリストです。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="cut-and-paste">
+					<entry name="prefer-clipboard">
+						<local_schema short_desc="PRIMARYセレクションよりもクリップボードを優先する">
+							<longdesc>TRUEにすると、GnumericはレガシーなPRIMARYセレクションよりもモダンなクリップボードセレクションを優先します。もしXtermやEmacsなど、PRIMARYセレクションのみをセットするような古めのアプリケーションを扱いたいときは、FALSEにしてください。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="昇順">
+								</local_schema>
+							</entry>
+							<entry name="retain-formats">
+								<local_schema short_desc="フォーマットを保護したままソート">
+									<longdesc>このオプションを設定すると、ツールバーのソートボタンがソート中にセルフォーマットを保護したり、ソートダイアログにある「フォーマットを保護したままソート」チェックボックスの初期状態を決定したりします。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="by-case">
+								<local_schema short_desc="大文字と小文字を区別する">
+									<longdesc>このオプションを設定するとツールバーのソートボタンが大文字小文字を区別したソートをするようになったりソートダイアログにある「大文字小文字を区別する」チェックボックスの初期状態を決定したりします。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="file">
+						<dir name="save">
+							<entry name="def-overwrite">
+								<local_schema short_desc="デフォルトでファイルに上書きする">
+									<longdesc>すでに存在するファイルを上書きする前に、Gnumericは警告ダイアログを表示します。このオプションをセットすると、 そのダイアログの上書きボタンをデフォルトボタンにします。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="single_sheet">
+								<local_schema short_desc="シングルシートフォーマットにエクスポートするときは警告する">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="xml">
+						<entry name="compression-level">
+							<local_schema short_desc="デフォルトのGnumericファイル圧縮レベル">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gui">
+						<dir name="window">
+							<entry name="zoom">
+								<local_schema short_desc="デフォルトの拡大率">
+									<longdesc>新規ワークブックでの最初の拡大倍率です。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="y">
+								<local_schema short_desc="デフォルトのウィンドウ垂直サイズ">
+								</local_schema>
+							</entry>
+							<entry name="x">
+								<local_schema short_desc="デフォルトのウィンドウ水平サイズ">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="editing">
+							<entry name="transitionkeys">
+								<local_schema short_desc="キーの変換">
+								</local_schema>
+							</entry>
+							<entry name="livescrolling">
+								<local_schema short_desc="ライブスクローリング">
+									<longdesc>この項目はライブ(遅延ありに対して)スクローリングを実行するかどうかを決定します。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="autocomplete">
+								<local_schema short_desc="オートコンプリート">
+									<longdesc>この項目は自動的に補完するかどうかを設定します。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="垂直方向DPI">
+									<longdesc>垂直方向のスクリーン解像度です。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="水平方向DPI">
+									<longdesc>水平方向のスクリーン解像度です。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="workbook">
+						<entry name="n-sheet">
+							<local_schema short_desc="デフォルトのシート数">
+								<longdesc>新規ワークブックで最初に作成するシートの数です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="italic">
+							<local_schema short_desc="デフォルトフォントはイタリックです。">
+							</local_schema>
+						</entry>
+						<entry name="bold">
+							<local_schema short_desc="デフォルトフォントはボールドです">
+							</local_schema>
+						</entry>
+						<entry name="name">
+							<local_schema short_desc="デフォルトのフォント名">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="デフォルトのフォントサイズ">
+								<longdesc>新規ワークブックのデフォルトフォントサイズです。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="undo">
+					<entry name="max_descriptor_width">
+						<local_schema short_desc="「元に戻す」記述の長さ">
+						</local_schema>
+					</entry>
+					<entry name="maxnum">
+						<local_schema short_desc="「元に戻す」ことのできるアイテムの数">
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="「元に戻す」の最大サイズ">
+						</local_schema>
+					</entry>
+					<entry name="show_sheet_name">
+						<local_schema short_desc="シートの名前を元に戻す操作の一覧に表示する">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="plugin">
+					<dir name="latex">
+						<entry name="use-utf8">
+							<local_schema short_desc="LaTeXのエクスポートでUTF-8を使う">
+								<longdesc>この設定では、作成するLaTeXファイルでUTF-8(unicode)を使うかISO-8859-1(Latin1)を使うかを決定します。UTF-8ファイルを使うにはucs LaTeXパッケージをインストールしておく必要があります。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="通知アイコンを表示するかどうか">
+						<longdesc>通知アイコンを表示するかどうか。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="ドキュメントの制限を上書きします">
+						<longdesc>コピーや印刷を制限するようなドキュメントの制限を上書きします</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_autoflag">
+					<local_schema short_desc="フラグを自動的に置くかどうか">
+						<longdesc>マス目に地雷が埋まっていることが明らかであることを表すフラグを自動的に付与する場合は TRUE です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_overmine_warning">
+					<local_schema short_desc="フラグを置きすぎたら警告する">
+						<longdesc>フラグをたくさん置いた時に警告アイコンを表示する場合は TRUE にセットして下さい。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_question_marks">
+					<local_schema short_desc="不明なフラグを使う">
+						<longdesc>不明なエリアをマークできるようにする場合は TRUE にセットして下さい。</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="geometry">
+					<entry name="mode">
+						<local_schema short_desc="盤の大きさ">
+							<longdesc>ボードの大きさ (0-2 = 小さい〜大きい、3=その他)</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="nmines">
+						<local_schema short_desc="カスタム・ゲームでの地雷の数">
+						</local_schema>
+					</entry>
+					<entry name="ysize">
+						<local_schema short_desc="カスタマイズしたゲームでの盤面の行数">
+						</local_schema>
+					</entry>
+					<entry name="xsize">
+						<local_schema short_desc="カスタマイズしたゲームでの盤面の桁数">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="ツールバーの表示/非表示">
+						<longdesc>ツールバーの表示/非表示を指定します。</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="プレイヤーの銀行に蓄えられている金額">
+							<longdesc>プレイヤーの銀行に蓄えられている金額です。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="テーマ・ファイルの名前">
+							<longdesc>カードの絵柄を格納したファイルの名前です。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="絶対に保険を受け取らない">
+							<longdesc>エースを見せている親に保険を掛けません。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="素早くカードを配る">
+							<longdesc>一枚単位で配らずに素早く配ります。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="確率の表示">
+							<longdesc>各ディーラーの手の内の確率とプレイヤーの手で期待された値を表示します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="使用するいろいろなルール・ファイル">
+							<longdesc>プレイするいろいろなルールを格納したルール・ファイルの名前です。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="BurnProof オプションの可否">
+						<longdesc>いくつかのレコーダで利用できる BurnProof 機能を利用するかどうかです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="オーバーバーンの可否">
+						<longdesc>メディアの物理的なサイズを超えたデータを許可するかどうかです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="デバッグの可否">
+						<longdesc>CD 書き込みのデバッグ情報を有効にするかどうかです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="デフォルトの書き込み速度">
+						<longdesc>メディアへ書き込むデフォルトの速度です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="一時的な ISO イメージを格納するフォルダ">
+						<longdesc>一時的な ISO イメージで使用するフォルダです。システムでデフォルトの作業フォルダを使用する場合は、空のままにして下さい。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="PKCS#11 コンポーネントを有効にするかどうか">
+							<longdesc>このオプションは gnome-keyring デーモンの PKCS#11 コンポーネントを有効にします。gnome-keyring デーモンを起動した時 (すなわちユーザがログインしている場合) にのみ効果があります。ここで設定した内容はコマンドラインから上書きすることができます。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="SSH エージェントを有効にするかどうか">
+							<longdesc>このオプションは gnome-keyring デーモンの SSH コンポーネントを有効にします。gnome-keyring デーモンを起動した時 (すなわちユーザがログインしている場合) にのみ効果があります。ここで設定した内容はコマンドラインから上書きすることができます。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="ファイル・アイコンのテーマ">
+							<longdesc>ファイルのアイコンに適用するテーマです。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="入力フィードバックとしてのサウンド効果">
+							<longdesc>入力イベントでサウンドを演奏するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="サウンド・テーマの名前">
+							<longdesc>イベント毎に演奏する XDG のサウンド・テーマです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="イベント発生時にサウンドを鳴らす">
+							<longdesc>ユーザのイベントでサウンドを演奏するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="ESD を有効にする">
+							<longdesc>サウンド・サーバを起動します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="デフォルトのミキサ・トラック">
+							<longdesc>マルチメディア・キーの割り当てで使用するデフォルトのミキサ・トラックです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="デフォルトのミキサ用デバイス">
+							<longdesc>マルチメディア・キーの割り当てで使用するデフォルトのミキサ用デバイスです。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="&apos;Unicode 制御文字の挿入&apos; メニューを表示する">
+							<longdesc>入力エントリとテキスト・ビューのコンテキスト・メニューで制御文字を挿入するメニュー項目を提供するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="&apos;入力メソッド&apos; のメニューを表示する">
+							<longdesc>入力エントリとテキスト・ビューのコンテキスト・メニューで入力メソッドを切り替えるメニュー項目を提供するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="メニューバーのアクセラレータ">
+							<longdesc>メニューバーを開くキーボード・ショートカットです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="GtkFileChooser のモジュール">
+							<longdesc>GtkFileChooser ウィジェットのファイルシステム・モデルとして使用するモジュールです。設定可能な値: &quot;gio&quot;、&quot;gnome-vfs&quot;、&quot;gtk+&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="ステータス・バーを右側に表示する">
+							<longdesc>右側にステータス・バーのメータを表示するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="カスタム・フォントを使用する">
+							<longdesc>GTK+ アプリケーションでカスタム・フォントを使用するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="等幅フォント">
+							<longdesc>端末などで使用する等幅 (固定幅) フォントの名前です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="ドキュメントのフォント">
+							<longdesc>ドキュメントで使用するデフォルトのフォント名です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="GTK IM のモジュール名">
+							<longdesc>GTK+ が使用する GTK+ 入力メソッドのモジュール名です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="GTK IM ステータス形式">
+							<longdesc>GTK+ が使用する GTK+ IM ステータス形式の名前です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="GTK IM プレエディット形式">
+							<longdesc>GTK+ が使用する GTK+ IM プレエディット形式の名前です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="デフォルトのフォント">
+							<longdesc>GTK+ が使用するデフォルトのフォント名です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="GTK+ テーマ">
+							<longdesc>GTK+ が使用するデフォルトのテーマの名前 (basename) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="GTK+ テーマ">
+							<longdesc>GTK+ が使用するデフォルトのテーマの名前 (basename) です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="アイコンのテーマ">
+							<longdesc>パネルや Nautilus などで使用するアイコンのテーマです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="カーソルの点滅間隔">
+							<longdesc>カーソルが点滅する間隔です (ミリ秒単位)。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="カーソルを点滅するかどうか">
+							<longdesc>カーソルを点滅させるかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="ツールバーのアイコンのサイズ">
+							<longdesc>ツールバーに表示するアイコンの大きさです。設定可能な値: &quot;small-toolbar&quot; または &quot;large-toolbar&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="ツールバーを取り外せるようにする">
+							<longdesc>ツールバーを取り外して移動できるようにするかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="メニューバーを取り外せるようにする">
+							<longdesc>メニューバーを取り外して移動できるようにするかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="ボタンにアイコンを表示するかどうか">
+							<longdesc>ボタンにラベルとアイコンの両方を表示するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="メニューにアイコンを表示する">
+							<longdesc>メニュー項目の隣にアイコンを表示するかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="ツールバーの形式">
+							<longdesc>ツールバーのスタイルです。設定可能な値: &quot;both&quot;、&quot;both_horiz&quot;、&quot;icons&quot;、&quot;text&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="アクセラレーション・キーを変更できるようにする">
+							<longdesc>メニューアイテムを利用可能な状態にして、新しいアクセラレータを直接入力し登録することができるかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="メニューに可動メニューを表示する">
+							<longdesc>メニューを切り離せるようにするかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="アニメーションを有効にする">
+							<longdesc>アニメーションを有効にするかどうかを設定します。[注意] これはグローバルな設定なので、ウィンドウ・マネージャやパネルなどの挙動に影響します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="アクセシビリティを有効にする">
+							<longdesc>アプリケーションにアクセシビリティをサポートさせるかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="支援技術のアプリケーションを起動する">
+								<longdesc>GNOME デスクトップにログインした後に起動する支援技術 (Assistive Technology) アプリケーションの並びです。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>修飾キーが押されたらビープ音を鳴らします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>同時に二つのキーを押下したら無効にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="最小の間隔 (ミリ秒単位)">
+								<longdesc>@deley ミリ秒間押下し続けていないキーを無視します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="初期の遅延 (ミリ秒単位)">
+								<longdesc>マウス・キーでマウスが移動するまでにどれくらい遅延するかです (ミリ秒単位)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="加速するまでにどれくらい遅延するかです (ミリ秒単位)。">
+								<longdesc>速さが０から最大値になるまでどれくらい遅延するかです (ミリ秒単位)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="単位秒あたりのピクセル数">
+								<longdesc>最高速度の時にどれくらい移動させるかです (ピクセル/秒)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="最小の間隔 (ミリ秒単位)">
+								<longdesc>@delay ミリ秒内に同じキーが複数回押されても無視します。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="キーボードのロックを有効にする">
+							<longdesc>キーボードのロックを有効にするかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="一休みする時間を延長できるようにする">
+							<longdesc>一休みする時間を延長できるかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="一休みする時間">
+							<longdesc>一休みする時間 (分) を指定します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="一休み前のキーボード入力時間">
+							<longdesc>一休みの警告を出すまでの時間 (分) を指定します。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="URL と MIME 型のハンドラを無効にする">
+							<longdesc>URL または MIME 型に対応したハンドラのアプリケーションを起動しないようにします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="画面のロックを利用不可にする">
+							<longdesc>画面をロックできないようにします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="アカウントの切り換えを不可にする">
+							<longdesc>ユーザが使用しているセッションが有効な間は他のアカウントへ切り換えることができないようにします</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="印刷設定を利用不可にする">
+							<longdesc>ユーザによる印刷設定の変更を不可にします。たとえば、これは全てのアプリケーションが提供する &quot;印刷設定&quot; ダイアログへのアクセスを利用できなくします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="印刷機能を利用不可にする">
+							<longdesc>ユーザからの印刷実行を不可にします。たとえば、全てのアプリケーションが提供する &quot;印刷&quot; ダイアログへのアクセスを利用できなくします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="ファイル保存の機能を利用不可にする">
+							<longdesc>ユーザによるファイルの保存を不可にします。たとえば、全てのアプリケーションが提供する &quot;別名で保存&quot; ダイアログへのアクセスを利用できなくします。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="コマンドラインを利用不可にする">
+							<longdesc>ユーザからの端末のアクセス、または実行コマンド・ラインの指定を利用不可にします。たとえば、これはパネルの &quot;アプリケーションの実行&quot; ダイアログへのアクセスを利用できなくします。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="色調の変化">
+							<longdesc>背景の色調をどのように変化させるか設定します。設定可能な値: &quot;horizontal-gradient&quot;、&quot;vertical-gradient&quot;、&quot;solid&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="二番目の色">
+							<longdesc>グラデーション時の右側もしくは下側の色、あるいは単色時の色です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="一番目の色">
+							<longdesc>グラデーション時の左側もしくは上側の色、あるいは単色時の色です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="画像の透明度">
+							<longdesc>背景の画像に適用する透明度です。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="画像のファイル名">
+							<longdesc>背景の画像に使用するファイルです。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="画像のオプション">
+							<longdesc>wallpaper_filename で指定した画像をどのように描画するか設定します。設定可能な値: &quot;none&quot;、&quot;wallpaper&quot;、&quot;centered&quot;、&quot;scaled&quot;、&quot;stretched&quot;、&quot;zoom&quot;</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="デスクトップの背景を描画する">
+							<longdesc>GNOME にデスクトップの背景を描画させるかどうかです。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>キャッシュの中に格納しておくサムネイルの最大サイズ (Mバイト単位) で、キャッシュのクリアを無効にする場合は -1 を指定します。</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>キャッシュの中に格納しておくサムネイルの最大寿命 (日単位) で、キャッシュのクリアを無効にする場合は -1 を指定します。</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="NumLock キーの状態を保存する">
+								<longdesc>TRUE にすると、GNOME ライブラリで NumLock キーの LED の状態をセッション毎に記憶します。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="キーボード・ベルのファイル名">
+								<longdesc>キーボード・ベルの音として利用するファイル名です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>ベル音のモードです。設定可能な値: &quot;on&quot;、&quot;off&quot;、&quot;custom&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="カーソルのサイズ">
+								<longdesc>cursor_theme で参照するカーソルの大きさです。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="カーソルのテーマ">
+								<longdesc>使用するカーソル・テーマの名前です。Xcursor をサポートしているＸサーバ (例えば、XFree86 バージョン 4.3 以降) でのみ利用できます。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="カーソルのフォント">
+								<longdesc>カーソルのフォント名を設定します。ファイル名を指定していない場合はデフォルトのフォントを使用します。この値は各セッションの起動時にＸサーバへ引き渡されるので、セッション中に値を変更しても次回ログインするまで何の効果もありません。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="ポインタの位置を表示する">
+								<longdesc>Ctrl キーを押下して離した時にポインタの現在位置を強調表示するかどうかです。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="ダブル・クリックの間隔">
+								<longdesc>ダブル・クリックの長さです。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="ドラッグのしきい値">
+								<longdesc>ドラッグが開始されるまでの距離です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="移動時のしきい値">
+								<longdesc>マウスの動きが加速されるまでのマウスポインタが動く距離を指定します。システムのデフォルト値は -1 です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="シングル・クリック">
+								<longdesc>マウスの動きを加速させる値を設定します。システムのデフォルト値は -1 です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="シングル・クリック">
+								<longdesc>シングル・クリックでアイコンを開くかどうかです。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="マウス・ボタンの向き">
+								<longdesc>左利き用のマウスのためにマウスの左ボタンと右ボタンを入れ替えるかどうかです。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="サムネイル表示する外部のプログラムを全て無効にする">
+							<longdesc>TRUE にすると、サムネイル表示する外部プログラムを (外部プログラムの有効/無効に関わらず) 全て無効にします。</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF ドキュメントのサムネイル表示コマンド">
+								<longdesc>PDF ドキュメントをサムネイル表示するための妥当なコマンドと引数です。詳細は Nautilus のサムネイル関連のドキュメントを参照して下さい。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF ドキュメントのサムネイル表示">
+								<longdesc>論理型のオプションが利用可能で、TRUE にするとサムネイル表示になります。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="PDF ドキュメントのサムネイル表示コマンド">
+								<longdesc>PDF ドキュメントをサムネイル表示するための妥当なコマンドと引数です。詳細は Nautilus のサムネイル関連のドキュメントを参照して下さい。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF ドキュメントのサムネイル表示">
+								<longdesc>論理型のオプションが利用可能で、TRUE にするとサムネイル表示になります。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="PDF ドキュメントのサムネイル表示コマンド">
+								<longdesc>PDF ドキュメントをサムネイル表示するための妥当なコマンドと引数です。詳細は Nautilus のサムネイル関連のドキュメントを参照して下さい。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="PDF ドキュメントのサムネイル表示">
+								<longdesc>論理型のオプションが利用可能で、TRUE にするとサムネイル表示になります。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="タスクを端末から起動する">
+								<longdesc>デフォルトのタスク管理アプリケーションを実行するのに端末が必要かどうかです。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="デフォルトのタスク">
+								<longdesc>デフォルトのタスク管理アプリケーションです</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="カレンダを端末から起動する">
+								<longdesc>デフォルトのカレンダ・アプリケーションを実行するのに端末が必要かどうかです。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="デフォルトのカレンダ">
+								<longdesc>デフォルトのカレンダ・アプリケーションです。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="ブラウザはリモートを理解する">
+								<longdesc>デフォルトのブラウザが Netscape リモートを理解するかどうかです。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="ブラウザを端末から起動する">
+								<longdesc>デフォルトのブラウザを実行するのに端末が必要かどうかです。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="デフォルトのブラウザ">
+								<longdesc>全ての URL で利用するデフォルトのブラウザです。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="ワークスペースの名前 (破棄の予定)">
+								<longdesc>ウィンドウマネージャの最初のワークスペースの名前のリストです (このキーは GNOME 2.12 から破棄される予定です)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="ワークスペースの数 (破棄の予定)">
+								<longdesc>ウィンドウ・マネージャが使用するワークスペースの数です (このキーは GNOME 2.12 から破棄される予定です)</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="ユーザ指定のウィンドウ・マネージャ (破棄の予定)">
+								<longdesc>最初に起動してみるウィンドウ・マネージャです (このキーは GNOME 2.12 から破棄される予定です)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="代替のウィンドウ・マネージャ (破棄の予定)">
+								<longdesc>指定したウィンドウ・マネージャが見つからなかった場合の代替のウィンドウ・マネージャです (このキーは GNOME 2.12 から破棄される予定です)。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="移動性支援技術をサポートしたアプリケーションを起動する">
+									<longdesc>ログインしたら移動性支援技術 (Mobility Assistive Technology) をサポートするアプリケーションを優先して起動するかどうかです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="起動する移動性支援技術のアプリケーション">
+									<longdesc>ログインやメニュー、あるいはコマンドラインで利用する移動性支援技術 (Mobility Assistive Technology) をサポートしたアプリケーションです。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="視覚支援技術をサポートしたアプリケーションを起動する">
+									<longdesc>ログインしたら視覚支援技術 (Visual Assistive Technology) をサポートするアプリケーションを優先して起動するかどうかです。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="起動する視覚支援技術のアプリケーション">
+									<longdesc>ログインやメニュー、あるいはコマンドラインで利用する視覚支援技術 (Visual Assistive Technology) をサポートしたアプリケーションです。</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="デフォルトのコンポーネント・ビューア・アプリケーション">
+								<longdesc>コンポーネントが必要となるファイルを閲覧するためのアプリケーションです。%s はファイルの URI で、パラメータ %c はコポーネントの IID でそれぞれ置き換えられます。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="実行時の引数">
+								<longdesc>&apos;exec&apos; キーで定義された、端末でプログラムを実行するために利用する引数です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="端末アプリケーション">
+								<longdesc>端末から起動する必要のあるアプリケーションから利用される端末プログラムです。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; 向けのハンドラ">
+								<longdesc>&quot;ymsgr&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;ymsgr&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;ymsgr&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; 向けのハンドラ">
+								<longdesc>&quot;xmpp&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;xmpp&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;xmpp&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; 向けのハンドラ">
+								<longdesc>&quot;sip&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;sip&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;sip&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; 向けのハンドラ">
+								<longdesc>&quot;msnim&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;msnim&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;msnim&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; 向けのハンドラ">
+								<longdesc>&quot;irc&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;irc&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;irc&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; 向けのハンドラ">
+								<longdesc>&quot;icq&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;icq&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;icq&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; 向けのハンドラ">
+								<longdesc>&quot;gg&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;gg&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;gg&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;h323&quot; の URL の処理">
+								<longdesc>&quot;h323&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;h323&quot; の URL を処理するかどうか">
+								<longdesc>&quot;h323&quot; の URL を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="URL &quot;callto&quot; の 処理">
+								<longdesc>&quot;callto&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで URL &quot;callto&quot; を処理するかどうか">
+								<longdesc>URL &quot;callto&quot; を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; 向けのハンドラ">
+								<longdesc>&quot;aim&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;aim&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;aim&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="URL &quot;mailto&quot; の 処理">
+								<longdesc>&quot;mailto&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで URL &quot;mailto&quot; を処理するかどうか">
+								<longdesc>URL &quot;mailto&quot; を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="URL &quot;https&quot; の 処理">
+								<longdesc>&quot;https&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで URL &quot;https&quot; を処理するかどうか">
+								<longdesc>URL &quot;https&quot; を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="URL &quot;http&quot; の 処理">
+								<longdesc>&quot;http&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで URL &quot;http&quot; を処理するかどうか">
+								<longdesc>URL &quot;http&quot; を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="URL &quot;man&quot; の 処理">
+								<longdesc>&quot;man&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで URL &quot;man&quot; を処理するかどうか">
+								<longdesc>URL &quot;man&quot; を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="URL &quot;info&quot; の 処理">
+								<longdesc>&quot;info&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで URL &quot;info&quot; を処理するかどうか">
+								<longdesc>URL &quot;info&quot; を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="URL &quot;ghelp&quot; の 処理">
+								<longdesc>&quot;ghelp&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで URL &quot;ghelp&quot; を処理するかどうか">
+								<longdesc>URL &quot;ghelp&quot; を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末でプログラムを実行するかどうか">
+								<longdesc>この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="URL &quot;trash&quot; の 処理">
+								<longdesc>&quot;trash&quot; の URL を処理する際に使用するコマンドです (任意)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで URL &quot;trash&quot; を処理するかどうか">
+								<longdesc>URL &quot;trash&quot; を処理するキー &quot;command&quot; にコマンドを指定する場合は TRUE にします。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="プロファイルを使用するかどうか">
+									<longdesc>このプロファイルを使用したり表示するかどうかを指定します。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="プロファイルのデフォルトの拡張子">
+									<longdesc>格納するファイルをこのプロファイルでエンコーディングした際に使用するファイル名の拡張子です。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="使用する GStreamer パイプライン部">
+									<longdesc>このプロファイルで使用する GStreamer のパイプライン部です。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="オーディオ・プロファイルの説明">
+									<longdesc>プロファイルの説明で、このプロファイルを使用する際のさらに詳細な情報が含まれています。</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="オーディオ・プロファイルの短い名前">
+									<longdesc>オーディオ・プロファイルの短い名前で、選択で使用したりプロファイルを識別するための重複しない文字列です。</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="プロファイルを使用するかどうか">
+										<longdesc>このプロファイルを使用したり表示するかどうかを指定します。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="プロファイルのデフォルトの拡張子">
+										<longdesc>格納するファイルをこのプロファイルでエンコーディングした際に使用するファイル名の拡張子です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="使用する GStreamer パイプライン部">
+										<longdesc>このプロファイルで使用する GStreamer のパイプライン部です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="オーディオ・プロファイルの説明">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="オーディオ・プロファイルの短い名前">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="プロファイルのデフォルトの拡張子">
+										<longdesc>格納するファイルをこのプロファイルでエンコーディングした際に使用するファイル名の拡張子です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="使用する GStreamer パイプライン部">
+										<longdesc>このプロファイルで使用する GStreamer のパイプライン部です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="オーディオ・プロファイルの説明">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="オーディオ・プロファイルの短い名前">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="プロファイルのデフォルトの拡張子">
+										<longdesc>格納するファイルをこのプロファイルでエンコーディングした際に使用するファイル名の拡張子です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="使用する GStreamer パイプライン部">
+										<longdesc>このプロファイルで使用する GStreamer のパイプライン部です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="オーディオ・プロファイルの説明">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="オーディオ・プロファイルの短い名前">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="プロファイルのデフォルトの拡張子">
+										<longdesc>格納するファイルをこのプロファイルでエンコーディングした際に使用するファイル名の拡張子です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="使用する GStreamer パイプライン部">
+										<longdesc>このプロファイルで使用する GStreamer のパイプライン部です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="オーディオ・プロファイルの説明">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="オーディオ・プロファイルの短い名前">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="プロファイルのデフォルトの拡張子">
+										<longdesc>格納するファイルをこのプロファイルでエンコーディングした際に使用するファイル名の拡張子です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="使用する GStreamer パイプライン部">
+										<longdesc>このプロファイルで使用する GStreamer のパイプライン部です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="オーディオ・プロファイルの説明">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="オーディオ・プロファイルの短い名前">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="プロファイルのデフォルトの拡張子">
+										<longdesc>格納するファイルをこのプロファイルでエンコーディングした際に使用するファイル名の拡張子です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="使用する GStreamer パイプライン部">
+										<longdesc>このプロファイルで使用する GStreamer のパイプライン部です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="オーディオ・プロファイルの説明">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="オーディオ・プロファイルの短い名前">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="プロファイルのデフォルトの拡張子">
+										<longdesc>格納するファイルをこのプロファイルでエンコーディングした際に使用するファイル名の拡張子です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="使用する GStreamer パイプライン部">
+										<longdesc>このプロファイルで使用する GStreamer のパイプライン部です。</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="オーディオ・プロファイルの説明">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="オーディオ・プロファイルの短い名前">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="プロファイルの一覧">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="SMB ワークグループ">
+						<longdesc>ユーザが所属する Windows ネットワーク・グループまたはドメインです。新しいワークグループを認識するには、ユーザがそのグループにログインしてログアウトする必要があります。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="DNS-SD サービスで検索する追加ドメイン">
+						<longdesc>コンマ (,) で区切った DNS-SD のリストで、&quot;network:///&quot; の中に表示されます。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="ローカルの DNS-SD サービスの表示方法">
+						<longdesc>設定可能な値: &quot;merged&quot;、&quot;separate&quot;、&quot;disabled&quot;</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="自動プロキシ設定の URL">
+						<longdesc>プロキシの設定値を提供する URL です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="SOCKS プロキシのポート番号">
+						<longdesc>プロキシとして利用する、&quot;/system/proxy/socks_host&quot; で定義されたマシンのポート番号です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="SOCKS プロキシのホスト名">
+						<longdesc>SOCKS プロキシとして利用するマシンの名前です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="FTP プロキシのポート番号">
+						<longdesc>プロキシとして利用する、&quot;/system/proxy/ftp_host&quot; で定義されたマシンのポート番号です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="FTP プロキシのホスト名">
+						<longdesc>FTP プロキシとして利用するマシンの名前です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="セキュア HTTP プロキシのポート番号">
+						<longdesc>プロキシとして利用する、&quot;/system/proxy/secure_host&quot; で定義されたマシンのポート番号です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="セキュア HTTP プロキシのホスト名">
+						<longdesc>セキュア HTTP のプロキシとして利用するマシンの名前です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="プロキシ設定モード">
+						<longdesc>プロキシ設定モードを選択します (利用可能な値: &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;)。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="プロキシではないホスト名">
+						<longdesc>このキーには、(アクティブな場合は) プロキシ経由ではなく直接接続される多くのホストが含まれています。ホスト名、ドメイン (*.foo.com のように先頭にワイルド・カードが使われます)、IP ホスト・アドレス (IPv4 と IPv6 の両方)、ネット・マスクが併記されたネットワーク・アドレス (192.168.0.0/24のような値) といった値になります。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="HTTP プロキシのパスワード">
+						<longdesc>HTTP プロキシを利用するときに認証として引き渡すパスワードです。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="HTTP プロキシのユーザ名">
+						<longdesc>HTTP プロキシを利用するときに認証として引き渡すユーザ名です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="認証プロキシ・サーバへの接続">
+						<longdesc>TRUE の場合、プロキシ・サーバへの接続で認証が要求されます。ユーザ名/パスワードの組み合わせは &quot;/system/http_proxy/authentication_user&quot; と &quot;/system/http_proxy/authentication_password&quot; で定義されます。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="HTTP プロキシのポート番号">
+						<longdesc>プロキシとして利用する、&quot;/system/http_proxy/host&quot; で定義されたマシンのポート番号です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="HTTP プロキシのホスト名">
+						<longdesc>HTTP のプロキシとして利用するマシンの名前です。</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="HTTP プロキシの使用">
+						<longdesc>インターネットへ HTTP アクセスするときにプロキシの設定を有効にします。</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

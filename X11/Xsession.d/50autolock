@@ -1,0 +1,8 @@
+#!/bin/sh
+
+. /etc/sysconfig/gpelogin
+
+if [ "$AUTOLOGIN" != "true" ] ; then
+	GTK2_RC_FILES=/etc/X11/gpe-login.gtkrc gpe-login --autolock &
+fi
+

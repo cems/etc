@@ -1,0 +1,1436 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="custom_height">
+					<local_schema short_desc="Umphakamo webhodi eqhelekileyo">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Ububanzi bebhodi eqhelekileyo">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="Ubungakanani bebhodi">
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="Umxholo emawusetyenziswe">
+						<longdesc>Igama lefayili lomxholo emawusetyenziswe.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Wisa ibhastile">
+						<longdesc>Ukucofa iqhosha ukuwisa ibhastile.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Yiya ngasekunene">
+						<longdesc>Ukucofa iqhosha ukuya ngasekunene.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Yiya ngasekhohlo">
+						<longdesc>Ukucofa iqhosha ukuya ngasekhohlo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Isandi">
+						<longdesc>Nokuba ngaba zidlalwe na izandi zezehlo okanye hayi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Yenza oopopayi">
+						<longdesc>Nokuba ngaba basetyenziswe na oopopayi okanye hayi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="I-ID Yomxholo">
+						<longdesc>Inani elichaza umxholo okhethiweyo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Inqanaba Lomdlali Wesibini">
+						<longdesc>Iqanda libumntu; isinye ukuya kwisithathu sihambelana nenqanaba lomdlali wekhompyutha.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Inqanaba Lomdlali Wokuqala">
+						<longdesc>Iqanda libumntu; isinye ukuya kwisithathu sihambelana nenqanaba lomdlali wekhompyutha.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Ukuqale ubone umdlalo">
+							<longdesc>Ukuqale ubone umdlalo ujonge lowo ubugciniwe kwiseshoni yokugqibela.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Ibala lomdlalo">
+							<longdesc>Ibala lomdlalo ukusuka kwiseshoni yokugqibela egciniweyo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Iskora somdlalo">
+							<longdesc>Iskora somdlalo ukusuka kwiseshoni yokugqibela egciniweyo.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Ixesha eliphakathi kweentshukumo">
+							<longdesc>Ixesha eliphakathi kweentshukumo ngokweemilisekondi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Umbala wokuvela ngasemva">
+							<longdesc>Umbala wokuvela ngasemva. Uchazo lwe-hex lombala wokuvela ngasemva.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Isimbo sebhola">
+							<longdesc>Isimbo sebhola. Igama lefayile lemifanekiso emayisetyenziswe ezibholeni.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="height">
+					<local_schema short_desc="Umphakamo wefestile">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Ububanzi befestile">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="statistics">
+					<local_schema short_desc="Ingqokelela yamanani yemidlalo edlaliweyo">
+						<longdesc>Uluhlu lwamagama oluvela ngezihlanu: igama, ukuphumelela, imidlalo edlaliweyo iyonke, ixesha elilunge ngqo (ngokweesekondi) nexesha elilelona libi (nalo ngokweesekondi). Imidlalo engadlalangwa akukho mfuneko yokuba ivezwe.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Ifayili yomdlalo emayisetyenziswe">
+						<longdesc>Igama lefayili eyiliweyo enomdlalo i-solitaire omawudlalwe.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Isandi">
+						<longdesc>Nokuba ngaba zidlalwe na izandi zezehlo okanye hayi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Khetha isimbo solawulo">
+						<longdesc>Khetha ukuba uwarhuqe na amakhadi okanye ucofe emthonjeni uze ulandelise ngesiphelo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Nokuba ngaba iboniswe na i-toolbar">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Umxholo wegama lefayili">
+						<longdesc>Igama lefayili enemizobo yamakhadi.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Iqhosha lokulinda">
+							<longdesc>Igama leqhosha elisetyenziselwa ukulinda. Igama ligama leqhosha eliqhelekileyo lika-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Iqhosha lokuqhagamshela ngokungazenzekelayo">
+							<longdesc>Igama leqhosha elisetyenziselwa ukuqhagamshela ngokuzenzekelayo.Igama ligama leqhosha eliqhelekileyo lika-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Iqhosha lokuqhagamshela">
+							<longdesc>Igama leqhosha elisetyenziselwa ukuqhagamshela ngokukhuselekileyo (ukuba ikho indlela). Igama ligama leqhosha eliqhelekileyo lika-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Iqhosha lokuya ngase-SE">
+							<longdesc>Igama leqhosha elisetyenziswe ukuya ngasemazantsi-mpuma. Igama ligama leqhosha eliqhelekileyo u-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Iqhosha lokuya ngase-S">
+							<longdesc>Igama leqhosha elisetyenziswe ukuya ngasemazantsi. Igama ligama leqhosha eliqhelekileyo u-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Iqhosha lokuya ngase-SW">
+							<longdesc>Igama leqhosha elisetyenziswe ukuya ngasemazantsi-ntshona. Igama ligama leqhosha eliqhelekileyo u-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Iqhosha lokuya ngase-E">
+							<longdesc>Igama leqhosha elisetyenziswe ukuya ngasempuma. Igama ligama leqhosha eliqhelekileyo u-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Iqhosha emalibanjwe">
+							<longdesc>Igama leqhosha elisetyenziselwa ukubamba ime ngxi. Igama ligama leqhosha eliqhelekileyo lika-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Iqhosha lokuya ngase-W">
+							<longdesc>Igama leqhosha elisetyenziswe ukuya ngasentshona. Igama ligama leqhosha eliqhelekileyo u-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Iqhosha lokuya ngase-NE">
+							<longdesc>Igama leqhosha elisetyenziswe ukuya ngasemantla-mpuma. Igama ligama leqhosha eliqhelekileyo u-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Iqhosha lokuya ngase-N">
+							<longdesc>Igama leqhosha elisetyenziswe ukuya ngasemantla. Igama ligama leqhosha eliqhelekileyo u-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Iqhosha lokuya ngase-NW">
+							<longdesc>Igama leqhosha elisetyenziswe ukuya ngasemantla-ntshona. Igama ligama leqhosha eliqhelekileyo u-X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Yenza izandi zobetheko zisebenze">
+							<longdesc>Yenza izandi zobetheko zisebenze. Dlala isandi uze ubonise u-&quot;Splat!&quot; kwiskrini.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Yenza izandi zomdlalo zisebenze">
+							<longdesc>Yenza izandi zomdlalo zisebenze. Dlala izandi kwizehlo ezahlukeneyo ngalo lonke ixesha lomdlalo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Sebenzisa iintshukumo ezikhuseleke kakhulu">
+							<longdesc>Sebenzisa ezona ntshukumo zikhuselekileyo. Umdlali uthi aphaphanyiswe xa kungekho ntshukumo ikhuselekileyo kwaye into enokuyenza ikukuqhagamshelana kuphela.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Sebenzisa iintshukumo ezikhuselekileyo">
+							<longdesc>Sebenzisa iintshukumo ezikhuselekileyo. Iintshukumo ezikhuselekileyo ziya kukunceda ukuba uphephe ukubulawa ngenxa yokwenza impazamo. Ukuba uzama ukwenza intshukumo enokuthi ikhokelele ekubulaweni kwakho ngelixa intshukumo ekhuselekileyo ikho awuyi kuvunyelwa ukuba uqhubeke.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Uhlobo lomdlalo">
+							<longdesc>Uhlobo lomdlalo. Igama loguqu-guquko lomdlalo emalisetyenziswe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Umbala wokuvela ngasemva">
+							<longdesc>Umbala wokuvela ngasemva. Uchazo lwe-hex lombala wokuvela ngasemva.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Isihloko somfanekiso wezibane zendlela">
+							<longdesc>Isihloko somfanekiso wezibane zendlela. Isihloko semifanekiso emasisetyenziswe kwizibane zendlela.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Ubungakanani beethayili zomdlalo">
+							<longdesc>Ubungakanani beethayili zomdlalo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Yenza izandi zisebenze">
+							<longdesc>Yenza izandi zisebenze.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Inqanaba lomdlalo emakuqalwe kulo">
+							<longdesc>Inqanaba lomdlalo emakuqalwe kulo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Dlala amanqanaba nokuba kukanjani na ngendlela engakhethiyo">
+							<longdesc>Dlala amanqanaba nokuba kukanjani na ngendlela engakhethiyo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Yenza iibhonasi zenkohliso zisebenze">
+							<longdesc>Yenza iibhonasi zenkohliso zisebenze.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Isantya somdlalo">
+							<longdesc>Isantya somdlalo (1=siphezulu, 4=siphantsi).</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Yiya ngasekunene">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekunene.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Yiya ngasekhohlo">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekhohlo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Yiya ngezantsi">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngezantsi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yiya ngasentla">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasentla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Sebenzisa intshukumo ethelekisiweyo">
+									<longdesc>Sebenzisa intshukumo ethelekisiweyo (ukutsho oko. ekhohlo okanye ekunene kuphela).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Umbala omawusetyenziswe kumbungu">
+									<longdesc>Umbala omawusetyenziswe kumbungu.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Yiya ngasekunene">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekunene.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Yiya ngasekhohlo">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekhohlo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Yiya ngezantsi">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngezantsi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yiya ngasentla">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasentla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Sebenzisa intshukumo ethelekisiweyo">
+									<longdesc>Sebenzisa intshukumo ethelekisiweyo (ukutsho oko. ekhohlo okanye ekunene kuphela).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Umbala omawusetyenziswe kumbungu">
+									<longdesc>Umbala omawusetyenziswe kumbungu.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Yiya ngasekunene">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekunene.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Yiya ngasekhohlo">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekhohlo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Yiya ngezantsi">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngezantsi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yiya ngasentla">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasentla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Sebenzisa intshukumo ethelekisiweyo">
+									<longdesc>Sebenzisa intshukumo ethelekisiweyo (ukutsho oko. ekhohlo okanye ekunene kuphela).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Umbala omawusetyenziswe kumbungu">
+									<longdesc>Umbala omawusetyenziswe kumbungu.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Yiya ngasekunene">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekunene.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Yiya ngasekhohlo">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekhohlo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Yiya ngezantsi">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngezantsi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yiya ngasentla">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasentla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Sebenzisa intshukumo ethelekisiweyo">
+									<longdesc>Sebenzisa intshukumo ethelekisiweyo (ukutsho oko. ekhohlo okanye ekunene kuphela).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Umbala omawusetyenziswe kumbungu">
+									<longdesc>Umbala omawusetyenziswe kumbungu.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Yiya ngasekunene">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekunene.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Yiya ngasekhohlo">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekhohlo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Yiya ngezantsi">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngezantsi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yiya ngasentla">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasentla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Sebenzisa intshukumo ethelekisiweyo">
+									<longdesc>Sebenzisa intshukumo ethelekisiweyo (ukutsho oko. ekhohlo okanye ekunene kuphela).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Umbala omawusetyenziswe kumbungu">
+									<longdesc>Umbala omawusetyenziswe kumbungu.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Yiya ngasekunene">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekunene.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Yiya ngasekhohlo">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasekhohlo.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Yiya ngezantsi">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngezantsi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Yiya ngasentla">
+									<longdesc>Iqhosha emalisetyenziswe xa kusiyiwa ngasentla.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Sebenzisa intshukumo ethelekisiweyo">
+									<longdesc>Sebenzisa intshukumo ethelekisiweyo (ukutsho oko. ekhohlo okanye ekunene kuphela).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Umbala omawusetyenziswe kumbungu">
+									<longdesc>Umbala omawusetyenziswe kumbungu.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Khetha isimbo solawulo">
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="Ubungakanani begridi yokudlala">
+						<longdesc>Ixabiso leli qhosha lisetyenziswa ukugqiba ubungakanani begridi yokudlala. Amaxabiso asebenzayo ngu-2 ukuya ku-8, enye into engenye ithi imiselwe ku-3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Phumla">
+							<longdesc>Iqhosha emalicinezelwe ukuphumla.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Jikelezisa">
+							<longdesc>Iqhosha emalicinezelwe ukujikelezisa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Wisa">
+							<longdesc>Iqhosha emalicinezelwe ukuwisa.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Yiya ngezantsi">
+							<longdesc>Iqhosha emalicinezelwe ukuya ngasezantsi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Yiya ngasekunene">
+							<longdesc>Ukucofa iqhosha ukuya ngasekunene.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Yiya ngasekhohlo">
+							<longdesc>Ukucofa iqhosha ukuya ngasekhohlo.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Uxinano lwemigca enento">
+							<longdesc>Uxinano lwee-bhloko kwimigca enento ekuqaleni komdlalo. Ixabiso liphakathi kuka-0 (xa kungekho zibhloko) kunye ne-10 (kumgca ozele qhu).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Inani lemigca emayizaliswe">
+							<longdesc>Inani lemigca elineebhloko ezingamiselwanga ekuqaleni komdlalo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Nokuba ngaba ujikelezisele ngakwicala eliphikisana nelewotshi na">
+							<longdesc>Nokuba ngaba ujikelezisele ngakwicala eliphikisana nelewotshi na.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Nokuba ngaba iibhloko zinikwe imibala engakhethwanga na">
+							<longdesc>Nokuba ngaba iibhloko zinikwe imibala engakhethwanga na.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Nokuba ngaba uqale uyijonge ibhloko elandelayo">
+							<longdesc>Nokuba ngaba uqale uyijonge ibhloko elandelayo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Umbala wokuvela ngasemva">
+							<longdesc>Umbala wokuvela ngasemva, ngendlela eyaziwayo yi-gdk_color_parse.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Nokuba ngaba umfanekiso wangasemva usetyenziswe na">
+							<longdesc>Le ikhetha ukuba umfanekiso wokuvela ngasemva uzotywe ngaphezu kombala wokuvela ngasemva na okanye hayi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Inqanaba emakuqalwe ngalo">
+							<longdesc>Inqanaba emakuqalwe ngalo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Umfanekiso osetyenziswa xa kuzotywa iibhloko">
+							<longdesc>Umfanekiso osetyenziswa xa kuzotywa iibhloko.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Libazisa iingcinga zekhompyutha">
+						<longdesc>Ukuba imiselwe ku-yinyani, indawo yokulahlela yomsebenzi we-Al iya kwenzelwa kwisiphumo esiqhelekileyo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Libazisa phakathi kweeroli">
+						<longdesc>Khetha ukuba ufake ulibaziseko na phakathi kweeroli zamadayisi ekhompyutha ukuze umdlali ayilandele into ayenzayo okanye hayi.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="Iphazili edlalwayo">
+						<longdesc>Inani lephazili edlalwayo.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Isandi">
+						<longdesc>Nokuba ngaba zidlalwe na izandi zezehlo okanye hayi.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_question_marks">
+					<local_schema short_desc="Sebenzisa iflegi engaziwayo">
+						<longdesc>Milisela ku-yinyani ukuze ukwazi ukuphawula izikweri njengezingaziwayo.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Nokuba ngaba iboniswe na i-toolbar">
+						<longdesc>Nokuba ngaba iboniswe na i-toolbar.</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Imali esebhankini yakho">
+							<longdesc>Imali esebhankini yakho.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Umxholo wegama lefayili">
+							<longdesc>Igama lefayili enemizobo yamakhadi.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="quick_deal">
+						<local_schema short_desc="Sebenzisa ulwabo olukhawulezayo">
+							<longdesc>Sebenzisa ulwabo olukhawulezayo kungabikho lulibaziso phakathi kwekhadi nekhadi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Bonisa amathemba okuba ingenzeka">
+							<longdesc>Bonisa amathemba okunokwenzeka wesiphumo sesandla somabi ngamnye kwakunye nexabiso elilindelekileyo lesandla sakho.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Ifayili engoguquguquko lwemithetho emayisetyenziswe">
+							<longdesc>Igama lefayili yemithetho equlethe uguqu-guquko lwemithetho yokudlala.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Yenza ukuba kubekho into ekunokukhethwa kuyo eyi-Burnproof">
+						<longdesc>Ukuba isebenzise into ekunokukhethwa kuyo eyi-Burnproof kwezinye iziniki-ngxelo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Yenza ukuba kutshe ngaphezulu">
+						<longdesc>Ukuba ivumele ii-data idlule ubungakanani bendlela ephathekayo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Yenza ukuba kulungiswe isiphene">
+						<longdesc>Ukuba yenze ukuba ibe nakho ukungisa isiphene senkqubo ukwenzela i CD Recording.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Misela isantya sokutshisa">
+						<longdesc>Isantya somiselo esiyakusetyenziswa ekukhupheleni ulwazi kwizixhobo eziphathekayo zokugcina ulwazi.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Uvimba weefayili wemifanekiso ye ISO yethutyana">
+						<longdesc>Uvimba weefayili osetyenziselwa imifanekiso ye ISO yethutyana, shiya ize ukwenzela ukuba isebenzise uvimba weefayili wethutyana wenkqubo emiselweyo.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="UMxholo woMfanekiso onguMqondiso weFayili">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="event_sounds">
+						<local_schema short_desc="Izandi zeenkqubo">
+							<longdesc>Nokuba ngaba kudlalwe izandi kwiinkqubo zomsebenzisi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Vula i-ESD">
+							<longdesc>Vula isandi seseva kungeno.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Imodyuli yeGtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="IStatus Bar eKunene">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Sebenzisa iFonti oZenzeleyo">
+							<longdesc>Nokuba ngaba ukusebenzisa ifonti yecustom kwigtk+ iinkqubo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Ifonti elungelelanisiweyo">
+							<longdesc>Igama lefonti elungelelanisiweyo (ububanzi obuzinzisiweyo) kusetyenziso kwiindawo ezinjengeetheminali.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="ISimbo soBume be-GTK IM">
+							<longdesc>Igama leGTK+ indlela yegalelo leSimbo seSimo esisetyenziswe yigtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="ISimbo se-GTK IM Preedit">
+							<longdesc>Igama leGTK+ indlela yegalelo leSimbo sePreedit esisetyenziswa yigtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Ifonti emiselweyo">
+							<longdesc>Igama lefonti emiyo esetyenziswe yigtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="I-Gtk+ noMxholo">
+							<longdesc>Igama elisisiseko somxholo omiyo osetyenziswa yi-gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="I-Gtk+ noMxholo">
+							<longdesc>Igama elisisiseko somxholo omiyo osetyenziswa yi-gtk+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Umxholo woMfanekiso onguMqondiso">
+							<longdesc>Umxholo womfanekiso ongumqondiso ekufuneka usetyenzisiwe kwindawo yolawulo, inautilus, njl-njl.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="IXesha lokuDanyaza kweKhesa">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="UkuDanyaza kweKhesa">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Ubungakanani be-Mifanekiso enguMqondiso">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="UHlukaniso lweToolbar">
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Ukohlulwa koMgca weMenyu">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="IiMenyu zineMifanekiso enguMqondiso">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="ISimbo seToolbar">
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="IngaTshintsha iZinqumlisi">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Iimenyu zine-Tearoff">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Yenza ooPopayi basebenze">
+							<longdesc>Nokuba ngaba oopopayi bangaboniswa. Qaphela: Eli liqhosha lehlabathi jikelele, litshintsha imo kamanejala wefestile, indawo yolawulo, njl-njl.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Yenza uFikelelo">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="IiNkqubo zoBuchwepheshe zoNcediso kuNgeno">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Sukusebenza xa kucofwe amaqhosha amabini ngaxeshanye.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="ikhefu elingephi ngeemilisekondi">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Nokuba ngaba okanye utshixo lwekeyboard luvuliwe okanye akunjalo">
+							<longdesc>Noba okanye utshixo lwekeyboard luvuliwe.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Vumela ukumiswa kwekhefu">
+							<longdesc>Nokuba ngaba okanye iskrini sekhefu lokuchwetheza singamiswa okanye akunjalo.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Ixesha lekhefu">
+							<longdesc>Inani lemizuzu yokuphela kwekhefu lokuchwetheza.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Udidi lwexesha">
+							<longdesc>Inani lemizuzu yexesha lokuchwetheza ngaphambi kokuqala kwemowudi yekhefu.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Vala umiselo loshicilelo">
+							<longdesc>Ikhusela umsebenzisi ekulungiseni useto lokushicilela. Umzekelo, oku kuya kuvala ufikelelo kuzo zonke iinkqubo&apos; &quot;Useto loShicilelo&quot; iibhokisi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Vala ushicilelo">
+							<longdesc>Ikhusela umsebenzisi ekushicileleni. Umzekelo, oku kuya kuvala ufikelelo kuzo zonke iinkqubo&apos; &quot;Shicilela&quot; iibhokisi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Vala ugcino lweefayili kwidisk">
+							<longdesc>Ikhusela umsebenzisi ekugcineni iifayili kwidisk. Umzekelo, oku kungavala ufikelelo kuzo zonke iinkqubo&apos; &quot;Gcina njenge&quot; iibhokisi.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Vala umgca wemiyalelo">
+							<longdesc>Ikhusela umsebenzisi ekufikeleleni kwitheminali okanye ekubaluleni umgca wemiyalelo ekufuneka usetyenzisiwe. Umzekelo, oku kuya kuvala ufikelelo kuzo zonke iinkqubo&apos; &quot;Qhuba iNkqubo&quot; iibhokisi.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Uhlobo loKhusela uMbala">
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="UMbala weSibini">
+							<longdesc>Umbala oseKunene okanye eZantsi xa uzoba ukuthambeka, awusetyenziswa kumbala ongqindilili.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="UMbala wokuqala">
+							<longdesc>Umbala osekhohlo okanye Phezulu xa uzoba ukuthambeka, okanye umbala ongqindilili.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Ulwalamano lotshintshiselwano loMbala">
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Igama leFayili yoMfanekiso">
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Okunye kuMfanekiso">
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Zoba uMva weDesktop">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Igama leFayili iKeyboard Bell Custom">
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>uncedo olunokubakho &quot;on&quot;, &quot;off&quot;, and &quot;custom&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Ubungakanani bekhesa">
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Umxholo wekhesa">
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Ifonti yekhesa">
+								<longdesc>Igama lefonti yekhesa. Ukuba ayisetwanga, ifonti emiyo iyasetyenziswa. Olu ncedo luqhutywa ekuqaleni kwiseva X kwiseshini nganye, kengoko ukuyitshintsha phakathi akusayi kuba nasizathu de kube lixesha elilandelayo ungena.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Bonisa indawo yeSalathisi">
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="IXesha lokuCofa kaBini">
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Tsala uMda">
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="UMda weNtshukumo">
+								<longdesc>Umda ngokwee-pixel isalathisi kufuneka sihambe ngaphambi kokusebenza kwentshukumo ekhawulezayo yemawusi. Ixabiso elingu-1 yinkqubo emiyo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Cofa kanye">
+								<longdesc>Isiphinda-phindi sokhawuleziso kwintshukumo yemawusi. Ixabiso elingu-1 yinkqubo emiyo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Cofa kanye">
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Ukuqheliswa kweqhosha lemawusi">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Vala zonke izityhili ezikhawulezayo zangaphandle">
+							<longdesc>Setela kwinyaniso ukuvala zonke iinkqubo zangaphandle zokutyhila okukhawulezayo, ezizimeleyo noba zivalwe/zivulwe ngokuzimeleyo.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Isikhangeli siyayiqonda enye indawo">
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Isikhangeli sifuna itheminali">
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Isikhangeli esimiyo">
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Isixhobo esimiselweyo esibonakalisayo senkqubo yekhompyutha">
+								<longdesc>Inkqubo yekhompyutha omawuyisebenzise ukujonga iifayili ezifuna isixhobo ukuzijonga. Ixabiso lento ejikajikayo %s kuyakubakhona endaweni yalo iifayili ze-URIs, ixabiso lento ejikayo %c kuyakubakhona endaweni yaloisixhobo se-IID.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Iziphumezi-miyalelo ze-exec">
+								<longdesc>Isiphumezi-miyalelo esisetyenzisiweyo ekuqaliseni iinkqubo kwitheminali echazwe liqhosha &apos;exec&apos;.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Ukusetyenziswa kwetheminali">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;h323&quot; URLs">
+								<longdesc>Umyalelo osetyenziselwa ukukhombisa u- &quot;h323&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;h323&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;h323&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;callto&quot; URLs">
+								<longdesc>Umyalelo osetyenziswayo ukukhombisa u- &quot;callto&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;callto&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;callto&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;aim&quot; URLs">
+								<longdesc>Umyalelo osetyenziswayo ukukhombisa &quot;aim&quot; URLs, ukuba wenziwe ukuba asebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;aim&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise i-&quot;aim&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;mailto&quot; URLs">
+								<longdesc>Umyalelo osetyenziselwa ukukhombisa u-&quot;mailto&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufunekla ukhombise i-&quot;mailto&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;mailto&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;https&quot; URLs">
+								<longdesc>Umyalelo osetyenziselwa ukukhombisa u &quot;https&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;https&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;https&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;http&quot; URLs">
+								<longdesc>Umyalelo osetyenziselwa ukukhombisa u-&quot;http&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;http&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;http&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Iisikhombisi se-&quot;man&quot; URLs">
+								<longdesc>Umyalelo osetyenziselwa ukukhombisa u- &quot;man&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;man&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;man&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;info&quot; URLs">
+								<longdesc>Umyalelo osetyenziselwa ukukhombisa u- &quot;info&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;info&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;info&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;ghelp&quot; URLs">
+								<longdesc>Umyalelo osetyenziselwa ukukhombisa u- &quot;ghelp&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;ghelp&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;ghelp&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Qhuba umyalelo kwi-terminal">
+								<longdesc>Yinyani ukuba umyalelo osetyenzisiweyo ukukhombisa olu hlobo lwe- URL kufuneka uqhutywe kwi-terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Isikhombisi se-&quot;trash&quot; URLs">
+								<longdesc>Umyalelo osetyenziselwa ukukhombisa u-&quot;trash&quot; URLs, ukuba wenziwe ukuba usebenze.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Nokuba ngaba umyalelo obaluliweyo kufuneka ukhombise i-&quot;trash&quot; URLs">
+								<longdesc>Yinyani ukuba umyalelo obaluliweyo kwiqhosha &quot;command&quot; kufuneka ukhombise u-&quot;trash&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Nokuba le nkangeleko iyasetyenziswa okanye hayi">
+									<longdesc>Nokuba unokusebenzisa nokubonisa le nkangeleko okanye hayi.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Isongezo esimiselweyo sale fayili">
+									<longdesc>Isongezo segama lefayili kufuneka sisetyenziswe xa kugcinwa iifayili ezinonxulumano nale nkangeleko.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Inxalenye yombhobho weGStreamer osetyenzisiweyo">
+									<longdesc>Inxalenye yombhobho weGStreamer onokusetyenziswa kule nkangeleko.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="Inkcazelo yenkangeleko enesandi">
+									<longdesc>Inkcazelo yenkangeleko, equlethe ulwazi olongezelelweyo nechaza ukuba isetyenziswe nini le nkangeleko.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Igama elifutshane lenkangeleko enesandi">
+									<longdesc>Igama elifutshane lenkangeleko enesandi, elokusetyenziswa kukhetho nokuchonga inkangeleko ngokukodwa.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Nokuba le nkangeleko iyasetyenziswa okanye hayi">
+										<longdesc>Nokuba unokusebenzisa nokubonisa le nkangeleko okanye hayi.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Isongezo esimiselweyo sale fayili">
+										<longdesc>Isongezo segama lefayili kufuneka sisetyenziswe xa kugcinwa iifayili ezinonxulumano nale nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Inxalenye yombhobho weGStreamer osetyenzisiweyo">
+										<longdesc>Inxalenye yombhobho weGStreamer onokusetyenziswa kule nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Inkcazelo yenkangeleko enesandi">
+										<longdesc>Inkcazelo yenkangeleko, equlethe ulwazi olongezelelweyo nechaza ukuba isetyenziswe nini le nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Igama elifutshane lenkangeleko enesandi">
+										<longdesc>Igama elifutshane lenkangeleko enesandi, elokusetyenziswa kukhetho nokuchonga inkangeleko ngokukodwa.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Isongezo esimiselweyo sale fayili">
+										<longdesc>Isongezo segama lefayili kufuneka sisetyenziswe xa kugcinwa iifayili ezinonxulumano nale nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Inxalenye yombhobho weGStreamer osetyenzisiweyo">
+										<longdesc>Inxalenye yombhobho weGStreamer onokusetyenziswa kule nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Inkcazelo yenkangeleko enesandi">
+										<longdesc>Inkcazelo yenkangeleko, equlethe ulwazi olongezelelweyo nechaza ukuba isetyenziswe nini le nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Igama elifutshane lenkangeleko enesandi">
+										<longdesc>Igama elifutshane lenkangeleko enesandi, elokusetyenziswa kukhetho nokuchonga inkangeleko ngokukodwa.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Isongezo esimiselweyo sale fayili">
+										<longdesc>Isongezo segama lefayili kufuneka sisetyenziswe xa kugcinwa iifayili ezinonxulumano nale nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Inxalenye yombhobho weGStreamer osetyenzisiweyo">
+										<longdesc>Inxalenye yombhobho weGStreamer onokusetyenziswa kule nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Inkcazelo yenkangeleko enesandi">
+										<longdesc>Inkcazelo yenkangeleko, equlethe ulwazi olongezelelweyo nechaza ukuba isetyenziswe nini le nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Igama elifutshane lenkangeleko enesandi">
+										<longdesc>Igama elifutshane lenkangeleko enesandi, elokusetyenziswa kukhetho nokuchonga inkangeleko ngokukodwa.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Isongezo esimiselweyo sale fayili">
+										<longdesc>Isongezo segama lefayili kufuneka sisetyenziswe xa kugcinwa iifayili ezinonxulumano nale nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Inxalenye yombhobho weGStreamer osetyenzisiweyo">
+										<longdesc>Inxalenye yombhobho weGStreamer onokusetyenziswa kule nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Inkcazelo yenkangeleko enesandi">
+										<longdesc>Inkcazelo yenkangeleko, equlethe ulwazi olongezelelweyo nechaza ukuba isetyenziswe nini le nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Igama elifutshane lenkangeleko enesandi">
+										<longdesc>Igama elifutshane lenkangeleko enesandi, elokusetyenziswa kukhetho nokuchonga inkangeleko ngokukodwa.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Isongezo esimiselweyo sale fayili">
+										<longdesc>Isongezo segama lefayili kufuneka sisetyenziswe xa kugcinwa iifayili ezinonxulumano nale nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Inxalenye yombhobho weGStreamer osetyenzisiweyo">
+										<longdesc>Inxalenye yombhobho weGStreamer onokusetyenziswa kule nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Inkcazelo yenkangeleko enesandi">
+										<longdesc>Inkcazelo yenkangeleko, equlethe ulwazi olongezelelweyo nechaza ukuba isetyenziswe nini le nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Igama elifutshane lenkangeleko enesandi">
+										<longdesc>Igama elifutshane lenkangeleko enesandi, elokusetyenziswa kukhetho nokuchonga inkangeleko ngokukodwa.</longdesc>
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Isongezo esimiselweyo sale fayili">
+										<longdesc>Isongezo segama lefayili kufuneka sisetyenziswe xa kugcinwa iifayili ezinonxulumano nale nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Inxalenye yombhobho weGStreamer osetyenzisiweyo">
+										<longdesc>Inxalenye yombhobho weGStreamer onokusetyenziswa kule nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Inkcazelo yenkangeleko enesandi">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Igama elifutshane lenkangeleko enesandi">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Isongezo esimiselweyo sale fayili">
+										<longdesc>Isongezo segama lefayili kufuneka sisetyenziswe xa kugcinwa iifayili ezinonxulumano nale nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Inxalenye yombhobho weGStreamer osetyenzisiweyo">
+										<longdesc>Inxalenye yombhobho weGStreamer onokusetyenziswa kule nkangeleko.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="Inkcazelo yenkangeleko enesandi">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Igama elifutshane lenkangeleko enesandi">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Uluhlu lweenkangeleko">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Iqela lomsebenzi we-SMB">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="display_local">
+					<local_schema short_desc="Uyibonisa njani inkonzo efikeleleka ngqo ye-DNS-SD">
+						<longdesc>Amaxabiso anokubakhona ngala &quot;merged&quot;, &quot;separate&quot; kunye &quot;disabled&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="Ukumiselwa kwenkqubo yekhompyutha ezenzekelayo ye-URL kwikhompyutha esebenza njengemqobo">
+						<longdesc>i-URL enika amaxabiso okumiselwa kwenkqubo yekhompyutha esebenza njengomqobo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="Isiqhagamsheli sekhompyutha esebenza njengomqobo se-SOCKS">
+						<longdesc>Isiqhagamsheli esisematshinini esichazwa yi- &quot;/systrem/proxy/socks_host&quot; kwikhompyutha osebenza kuyo esebenza njengomqobo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="Igama lomququzeleli wekhompyutha esebenza njengomqobo ye-SOCKS">
+						<longdesc>Igama lomatshini kwikhompyutha esebenza njengomqobo ongasebenza kuyo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="Isiqhagamsheli sekhompyutha esebenza njengomqobo se-FTP">
+						<longdesc>Isiqhagamsheli ematshinini esichazwa yi -&quot;/system/proxy/ftp_host&quot; osebenza kuyo njengekhompyutha esebenza njengomqobo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="Igama lomququzeleli wekhompyutha esebenza njengomqobo ye-FTP">
+						<longdesc>Igama lomatshini lokusebenza njengekhompyutha engumqobo kwi-FTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Isiqhagamsheli sekhompyutha esebenza njengomqobo se-HTTP ekhuselekileyo">
+						<longdesc>Isiqhagamsheli esisematshinini esichazwa yi- &quot;/system/proxy/secure_host&quot; kwikhompyutha osebenza kuyo esebenza njengomqobo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Igama lomququzeleli wekhompyutha esebenza njengomqobo ekhuselekileyo ye-HTTP">
+						<longdesc>Igama lomatshini lokusebenza njengekhompyutha engumqobo kwi-HTTP ekhuselekileyo.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Ukumiselwa kwenkqubo yekhompyutha esebenza njengomqobo">
+						<longdesc>Khetha inkqubo emiselweyo yekhompyutha esebenza njengomqobo. Amaxabiso axhaswayo ngala &quot;none&quot;, &quot;manual&quot;, &quot;auto&quot;.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Abaququzeleli bekhompyutha engasebenzi njengomqobo">
+						<longdesc>Eli qhosha liqulethe uluhlu lwabaququzeleli abaqhagamshelwe kuvimba weefayili, kunokuba badlule kwikhompyutha esebenza njengomqobo (ukuba iyasebenza). Amaxabiso anokuba ngamagama abaququzeleli, imimandla (usebenzisa i-wildcard njenge *.foo.com), idilesi ze-IP zabaququzeleli (zombini i-IPv4 ne-IPv6) kunye needilesi zothungelwano ene-netmask (into efana ne-192.168.0.0/24).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="i-password yekhompyutha esebenza njengomqobo ye-HTTP">
+						<longdesc>i-Password yokudlula njengoqinisekiso xa usebenzisa ikhompyutha esebenza njengomqobo kwi-HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="Igama lomsebenzisi wekhompyutha esebenza njengomqobo ye-HTTP">
+						<longdesc>Igama lomsebenzisi ukudlula njengoqinisekiso xa usebenzisa ikhompyutha esebenza njengomqobo ye-HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Qinisekisa unxulumano lweseva elawula kwi-intanethi">
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="Isiqhagamsheli sekhompyutha esebenza njengomqobo se-HTTP">
+						<longdesc>Isiqhagamsheli ematshinini esichazwa nge- &quot;/system/http_proxy/host&quot; oqhagamshela kuso.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="Igama lomququzeleli wekhompyutha esebenza njengomqobo ye-HTTP">
+						<longdesc>Igama lomatshini lokusebenza njengekhompyutha engumqobo kwi-HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Sebenzisa isiqhagamsheli se-HTTP">
+						<longdesc>Yenza ukuba imimiselo yekhompyutha esebenza njengomqobo xa usebenza nge-HTTP kwi-intanethi.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

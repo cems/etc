@@ -1,0 +1,1897 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="same-gnome">
+				<entry name="fast_animation">
+					<local_schema short_desc="Folosește animație rapidă">
+						<longdesc>Setând aceasta la FALSE va determina piesele să cadă încet, dar grațios. O setare de TRUE va determina piesele să cadă rapid și lipsit de grație.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="custom_height">
+					<local_schema short_desc="Înălțimea tablei personalizate">
+					</local_schema>
+				</entry>
+				<entry name="custom_width">
+					<local_schema short_desc="Lătimea ferestrei personalizate">
+					</local_schema>
+				</entry>
+				<entry name="size">
+					<local_schema short_desc="Mărimea tablei de joc">
+						<longdesc>Mărimea tablei pentru folosire. 1 = Personalizată, 2 = Mică, 3 = Medie, 4 = Mare.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="tileset">
+					<local_schema short_desc="Tema ce trebuie folosită">
+						<longdesc>Numele fișierului pentru tema ce trebuie folosită.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnect">
+				<entry name="keydrop">
+					<local_schema short_desc="Eliberează piesa">
+						<longdesc>Tasta apăsată pentru a elibera o piesă.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyright">
+					<local_schema short_desc="Mută la dreapta">
+						<longdesc>Tasta pentru mișcare la dreapta.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Mută la stânga">
+						<longdesc>Tasta pentru mișcare la stânga.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Sunete">
+						<longdesc>Dacă sau nu să se folosească sunete pentru evenimente.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Animație">
+						<longdesc>Dacă să se folosească sau nu animația.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="theme_id">
+					<local_schema short_desc="ID Temă">
+						<longdesc>Un număr specificând tema preferată.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player2">
+					<local_schema short_desc="Nivelul Jucătorului Doi">
+						<longdesc>Zero este uman, iar de la unu la trei este corespunzător nivelului jucătorului computer.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Nivelul Jucătorului Unu">
+						<longdesc>Zero este uman, iar de la unu la trei este corespunzător nivelului jucătorului computer.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="preview">
+						<local_schema short_desc="Previzualizare joc">
+							<longdesc>Previzualizare joc de la ultima sesiune salvată.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="field">
+						<local_schema short_desc="Câmpul jocului">
+							<longdesc>Câmpul jocului de la ultima sesiune salvată.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="score">
+						<local_schema short_desc="Scorul jocului">
+							<longdesc>Scorul jocului de la ultima sesiune salvată.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="move_timeout">
+						<local_schema short_desc="Timpul dintre mutări">
+							<longdesc>Timpul dintre mutări în milisecunde.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Culoarea de fundal">
+							<longdesc>Culoarea de fundal. Specificația în hexazecimal a culorii de fundal.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ball_theme">
+						<local_schema short_desc="Stilul bilei">
+							<longdesc>Stilul bilei. Numele fișierului ce conține imaginile pentru bile.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="size">
+						<local_schema short_desc="Mărimea tablei de joc">
+							<longdesc>Mărimea tablei de joc: 1=Mică, 2=Medie, 3=Mare. Orice altă valoare este invalidă.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="glchess">
+				<entry name="height">
+					<local_schema short_desc="Înălțimea ferestrei">
+					</local_schema>
+				</entry>
+				<entry name="width">
+					<local_schema short_desc="Lățimea ferestrei">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="statistics">
+					<local_schema short_desc="Statistici ale jocurilor">
+						<longdesc>O listă de stringuri ce conține: nume, victorii, numărul total de jocuri, cel mai bun timp (în secunde) și cel mai slab timp (de asemenea în secunde). Jocurile care nu au fost jucate nu au nevoie să fie reprezentate.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="game_file">
+					<local_schema short_desc="Fișierul de joc ce trebuie folosit">
+						<longdesc>Numele fișierului scheme ce conține jocul solitaire de jucat.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Sunete">
+						<longdesc>Dacă sau nu să se folosească sunete pentru evenimente.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="click_to_move">
+					<local_schema short_desc="Selectați stilul de control">
+						<longdesc>Selectați dacă să trageți cărțile sau să faceți clic pe sursă și pe destinație.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="show_toolbar">
+					<local_schema short_desc="Dacă sau nu să se afișeze bara de unelte">
+					</local_schema>
+				</entry>
+				<entry name="card_style">
+					<local_schema short_desc="Numele fișierului temă">
+						<longdesc>Numele fișierului ce conține grafica pentru cărți.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="key11">
+						<local_schema short_desc="Tasta pentru așteptare">
+							<longdesc>Numele tastei folosite pentru a aștepta. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key10">
+						<local_schema short_desc="Tasta pentru teleportare aleatoare">
+							<longdesc>Numele tastei folosite pentru a vă teleporta aleator. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key09">
+						<local_schema short_desc="Tasta pentru teleportare">
+							<longdesc>Numele tastei folosite pentru a vă teleporta în siguranță (dacă este posibil). Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key08">
+						<local_schema short_desc="Tasta pentru mișcare la SE">
+							<longdesc>Numele tastei folosite pentru a vă mișca la sud-est. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key07">
+						<local_schema short_desc="Tasta pentru mișcare la S">
+							<longdesc>Numele tastei folosite pentru a vă mișca la sud. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key06">
+						<local_schema short_desc="Tasta pentru mișcare la SV">
+							<longdesc>Numele tastei folosite pentru a vă mișca la sud-vest. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key05">
+						<local_schema short_desc="Tasta pentru mișcare la E">
+							<longdesc>Numele tastei folosite pentru a vă mișca la est. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key04">
+						<local_schema short_desc="Tasta pentru lipsă mișcare">
+							<longdesc>Numele tastei folosite pentru a sta nemișcat. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key03">
+						<local_schema short_desc="Tasta pentru mișcare la V">
+							<longdesc>Numele tastei folosite pentru a vă mișca la vest. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key02">
+						<local_schema short_desc="Tasta pentru mișcare la NE">
+							<longdesc>Numele tastei folosite pentru a vă mișca la nord-est. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key01">
+						<local_schema short_desc="Tasta pentru mișcare la N">
+							<longdesc>Numele tastei folosite pentru a vă mișca la nord. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key00">
+						<local_schema short_desc="Tasta pentru mișcare la NV">
+							<longdesc>Numele tastei folosite pentru a vă mișca la nord-vest. Numele este un nume standard de tastă X.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_splats">
+						<local_schema short_desc="Activează sunetele pentru coliziune">
+							<longdesc>Activează sunetele pentru coliziune. Redă un sunet și afișează un „Splat!” pe ecran.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_sound">
+						<local_schema short_desc="Activează sunetele jocului">
+							<longdesc>Activează sunetele jocului. Redă sunete pentru diferite evenimente în timpul jocului.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_super_safe_moves">
+						<local_schema short_desc="Folosește mișcări extra-sigure">
+							<longdesc>Folosește mișcări extra-sigure. Jucătorul este alertat atunci când nu există o alternativă sigură și singura opțiune este teleportarea.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_safe_moves">
+						<local_schema short_desc="Folosește mișcări sigure">
+							<longdesc>Folosește mișcări sigure. Opțiunea de mișcări sigure vă va ajuta să nu fiți omorâți din greșeală. Dacă încercați să faceți o mișcare ce va duce la moartea dumneavoastră, atunci când există o alternativă mai sigură nu veți fi lăsat să o faceți.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="configuration">
+						<local_schema short_desc="Tipul jocului">
+							<longdesc>Tipul jocului. Numele tipului de joc ce va fi folosit.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Culoarea de fundal">
+							<longdesc>Culoarea de fundal. Specificația în hexazecimal a culorii de fundal.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Tema de imagine pentru robot">
+							<longdesc>Tema de imagine pentru robot. Tema de imagini folosită pentru roboți.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_toolbar">
+						<local_schema short_desc="Arată bara de unelte">
+							<longdesc>Afișează bara de unelte. O opțiune standard pentru barele de unelte.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<entry name="tile_size">
+						<local_schema short_desc="Mărimea mozaicurilor din joc">
+							<longdesc>Mărimea mozaicurilor în joc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="sound">
+						<local_schema short_desc="Activează sunetele">
+							<longdesc>Activează sunetele.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="start_level">
+						<local_schema short_desc="Nivelul de pornire">
+							<longdesc>Nivelul de pornire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random">
+						<local_schema short_desc="Joacă nivelurile în ordine aleatoare">
+							<longdesc>Joacă nivelurile în ordine aleatoare.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="fakes">
+						<local_schema short_desc="Activează bonusurile false">
+							<longdesc>Activează bonusurile false.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="speed">
+						<local_schema short_desc="Viteza jocului">
+							<longdesc>Viteza jocului (1=rapid, 4=lent).</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Mută la dreapta">
+									<longdesc>Tasta folosită pentru mișcare la dreapta.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mută la stânga">
+									<longdesc>Tasta folosită pentru mișcare la stânga.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Mișcă în jos">
+									<longdesc>Tasta folosită pentru mișcare în jos.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mișcă în sus">
+									<longdesc>Tasta folosită pentru mișcarea în sus.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Folosește mișcări relative">
+									<longdesc>Folosește mișcări relative (ex. doar stânga sau dreapta).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Culoarea folosită pentru râmă">
+									<longdesc>Culoarea folosită pentru râmă.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Mută la dreapta">
+									<longdesc>Tasta folosită pentru mișcare la dreapta.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mută la stânga">
+									<longdesc>Tasta folosită pentru mișcare la stânga.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Mișcă în jos">
+									<longdesc>Tasta folosită pentru mișcare în jos.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mișcă în sus">
+									<longdesc>Tasta folosită pentru mișcarea în sus.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Folosește mișcări relative">
+									<longdesc>Folosește mișcări relative (ex. doar stânga sau dreapta).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Culoarea folosită pentru râmă">
+									<longdesc>Culoarea folosită pentru râmă.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Mută la dreapta">
+									<longdesc>Tasta folosită pentru mișcare la dreapta.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mută la stânga">
+									<longdesc>Tasta folosită pentru mișcare la stânga.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Mișcă în jos">
+									<longdesc>Tasta folosită pentru mișcare în jos.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mișcă în sus">
+									<longdesc>Tasta folosită pentru mișcarea în sus.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Folosește mișcări relative">
+									<longdesc>Folosește mișcări relative (ex. doar stânga sau dreapta).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Culoarea folosită pentru râmă">
+									<longdesc>Culoarea folosită pentru râmă.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Mută la dreapta">
+									<longdesc>Tasta folosită pentru mișcare la dreapta.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mută la stânga">
+									<longdesc>Tasta folosită pentru mișcare la stânga.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Mișcă în jos">
+									<longdesc>Tasta folosită pentru mișcare în jos.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mișcă în sus">
+									<longdesc>Tasta folosită pentru mișcarea în sus.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Folosește mișcări relative">
+									<longdesc>Folosește mișcări relative (ex. doar stânga sau dreapta).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Culoarea folosită pentru râmă">
+									<longdesc>Culoarea folosită pentru râmă.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Mută la dreapta">
+									<longdesc>Tasta folosită pentru mișcare la dreapta.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mută la stânga">
+									<longdesc>Tasta folosită pentru mișcare la stânga.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Mișcă în jos">
+									<longdesc>Tasta folosită pentru mișcare în jos.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mișcă în sus">
+									<longdesc>Tasta folosită pentru mișcarea în sus.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Folosește mișcări relative">
+									<longdesc>Folosește mișcări relative (ex. doar stânga sau dreapta).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Culoarea folosită pentru râmă">
+									<longdesc>Culoarea folosită pentru râmă.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Mută la dreapta">
+									<longdesc>Tasta folosită pentru mișcare la dreapta.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Mută la stânga">
+									<longdesc>Tasta folosită pentru mișcare la stânga.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Mișcă în jos">
+									<longdesc>Tasta folosită pentru mișcare în jos.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Mișcă în sus">
+									<longdesc>Tasta folosită pentru mișcarea în sus.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="move_relative">
+								<local_schema short_desc="Folosește mișcări relative">
+									<longdesc>Folosește mișcări relative (ex. doar stânga sau dreapta).</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="color">
+								<local_schema short_desc="Culoarea folosită pentru râmă">
+									<longdesc>Culoarea folosită pentru râmă.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnotravex">
+				<entry name="click_to_move">
+					<local_schema short_desc="Selectați stilul de control">
+					</local_schema>
+				</entry>
+				<entry name="grid_size">
+					<local_schema short_desc="Mărimea tablei de joc">
+						<longdesc>Valoarea acestei chei este folosită pentru a decide mărimea tablei de joc. Valori valide sunt între 2 și 8, orice altceva este setată la 3.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Pauză">
+							<longdesc>Tasta apăsată pentru pauză.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_rotate">
+						<local_schema short_desc="Rotire">
+							<longdesc>Tasta apăsată pentru rotire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_drop">
+						<local_schema short_desc="Eliberează">
+							<longdesc>Tasta apăsată pentru a elibera o piesă.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Mișcă în jos">
+							<longdesc>Tasta apăsată pentru mișcare în jos.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Mută la dreapta">
+							<longdesc>Tasta pentru mișcare la dreapta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Mută la stânga">
+							<longdesc>Tasta pentru mișcare la stânga.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="options">
+					<entry name="line_fill_probability">
+						<local_schema short_desc="Densitatea blocurilor în liniile pre-umplute">
+							<longdesc>Densitatea blocurilor din linii umplute la începutul jocului. Valorile sunt între 0 (pentru nici un bloc) și 10 (pentru o linie umplută complet).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="line_fill_height">
+						<local_schema short_desc="Numărul liniilor ce vor fi umplute">
+							<longdesc>Numărul liniilor ce sunt umplute cu blocuri aleatoare la începutul jocului.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="rotate_counter_clock_wise">
+						<local_schema short_desc="Dacă să rotească în sens invers orar">
+							<longdesc>Dacă să rotească în sens invers orar.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="random_block_colors">
+						<local_schema short_desc="Dacă piesele vor primi culori aleatoare">
+							<longdesc>Dacă piesele vor primi culori aleatoare.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_target">
+						<local_schema short_desc="Dacă să furnizeze o țintă">
+							<longdesc>Dacă să furnizeze o reprezentare grafică pentru unde va ateriza un bloc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="do_preview">
+						<local_schema short_desc="Dacă să arate următoarea piesă">
+							<longdesc>Dacă să arate următoarea piesă.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="bgcolor">
+						<local_schema short_desc="Culoarea de fundal">
+							<longdesc>Culoarea de fundal, într-un format înțeles de gdk_color_parse.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="usebgimage">
+						<local_schema short_desc="Dacă să se folosească imaginea de fundal.">
+							<longdesc>Aceasta selectează dacă să deseneze sau nu imaginea de fundal peste culoarea de fundal.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="starting_level">
+						<local_schema short_desc="Nivelul de pornire">
+							<longdesc>Nivelul de pornire.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme">
+						<local_schema short_desc="Tema folosită pentru a randa blocurile">
+							<longdesc>Numele temei folosite pentru a randa blocurile și fundalul.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="block_pixmap">
+						<local_schema short_desc="Imaginea folosită pentru desenarea pieselor">
+							<longdesc>Imaginea folosită pentru desenarea pieselor.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gtali">
+				<entry name="PlayerNames">
+					<local_schema>
+					</local_schema>
+				</entry>
+				<entry name="DisplayComputerThoughts">
+					<local_schema short_desc="Arată gândurile calculatorului">
+						<longdesc>Dacă este setată la true, procesările părții de AI va fi afișată la ieșirea standard.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="DelayBetweenRolls">
+					<local_schema short_desc="Arată mâna pentru fiecare">
+						<longdesc>Alegeți dacă să se insereze sau nu o întârziere între aruncările de zaruri ale computerului, astfel încât jucătorul să poată urmări mai bine ceea ce face.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnotski">
+				<entry name="level">
+					<local_schema short_desc="Puzzle-ul jucat">
+						<longdesc>Numărul puzzle-ului ce este jucat.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="nm-applet">
+				<entry name="disable-wifi-create">
+					<local_schema short_desc="Dezacticare creare WiFi">
+						<longdesc>Definiți ca „TRUE” pentru a dezactiva crearea de rețele adhoc când se folosește miniaplicația.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="stamp">
+					<local_schema short_desc="Ștampilă">
+						<longdesc>Folosit pentru a determina dacă configurările ar trebui migrate la o nouă versiune.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="suppress-wireless-networks-available">
+					<local_schema short_desc="Suprimă notificările pentru rețele disponibile">
+						<longdesc>Definiți ca „TRUE” pentru a dezactiva notificările pentru rețelele fără fir disponibile.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-disconnected-notifications">
+					<local_schema short_desc="Dezactivează notificările de deconectare">
+						<longdesc>Definiți ca „TRUE” pentru a dezactiva notificările la deconectarea de la o rețea.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="disable-connected-notifications">
+					<local_schema short_desc="Dezactivează notificările de conectare">
+						<longdesc>Definiți ca „TRUE” pentru a dezactiva notificările la conectarea la o rețea.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Sunete">
+						<longdesc>Dacă sau nu să se folosească sunete pentru evenimente.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="core">
+					<dir name="sort">
+						<dir name="default">
+							<entry name="ascending">
+								<local_schema short_desc="Sortează ascendent">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="bluetooth-manager">
+				<entry name="show_icon">
+					<local_schema short_desc="Dacă se afișează sau nu pictograma de notificare">
+						<longdesc>Dacă se afișează sau nu pictograma de notificare.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="evince">
+				<entry name="override_restrictions">
+					<local_schema short_desc="Ignoră restricțiile documentului">
+						<longdesc>Ignoră restricțiile documentului, precum cele referitoare la tipărire sau copiere.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnomine">
+				<entry name="use_question_marks">
+					<local_schema short_desc="Folosește fanionul necunoscut">
+						<longdesc>Setează la true pentru a putea marca pătratele ca necunoscute.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="blackjack">
+				<entry name="toolbar">
+					<local_schema short_desc="Dacă sau nu să se afișeze bara de unelte">
+						<longdesc>Dacă sau nu să se afișeze bara de unelte</longdesc>
+					</local_schema>
+				</entry>
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="Cantitatea de bani din banca dumneavoastră">
+							<longdesc>Cantitatea de bani din banca dumneavoastră.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="deck">
+					<entry name="card_style">
+						<local_schema short_desc="Numele fișierului temă">
+							<longdesc>Numele fișierului ce conține grafica pentru cărți.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="never_insurance">
+						<local_schema short_desc="Nu lua niciodată asigurare">
+							<longdesc>Nu lua niciodată asigurare cu un dealer având un as la vedere.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="quick_deal">
+						<local_schema short_desc="Folosește o împărțire rapidă">
+							<longdesc>Folosește o împărțire rapidă fără nici o întârziere între cărți.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_probabilities">
+						<local_schema short_desc="Afișează probabilitățile">
+							<longdesc>Afișează probabilitățile rezultatelor pentru fiecare mână a dealer-ului și valoarea așteptată a mâinii proprii.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="variation">
+						<local_schema short_desc="Variația fișierului de reguli ce va fi folosit">
+							<longdesc>Numele fișierului de reguli ce conține variațiile regulilor pentru joc.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="Activare Burnproof">
+						<longdesc>Dacă să se folosească optiunea Burnproof disponibilă la unele dintre unități.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="Activare overburn">
+						<longdesc>Dacă se va permite datelor să depășească capacitatea mediului de scriere.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="debug">
+					<local_schema short_desc="Activare mesaje pentru depanare">
+						<longdesc>Dacă să se activeze depanarea pentru Înregistrare CD.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="Viteza de scriere implicită">
+						<longdesc>Viteza implicită la care va fi scris mediul.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="temp_iso_dir">
+					<local_schema short_desc="Directorul pentru imaginea temporară ISO">
+						<longdesc>Directorul folosit pentru imaginile temporare ISO, dacă nu este specificat va fi folosit directorul implicit temporar de sistem.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnome-keyring">
+				<dir name="daemon-components">
+					<entry name="pkcs11">
+						<local_schema short_desc="Dacă componenta PKCS#11 din gnome-keyring este activă.">
+							<longdesc>Această opțiune activează componenta PKCS#1 în serviciul gnome-keyring. Are efect doar la pornirea gnome-keyring-daemon, (ex: când un utilizator este autentificate). Această opțiunea poate fi suprascrisă în cazul în care serviciul este pornit cu anumite argumente.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="ssh">
+						<local_schema short_desc="Dacă agentul SSH din keyring este activ.">
+							<longdesc>Această opțiune activează agentul SSH în serviciul gnome-keyring. Are efect doar la pornirea gnome-keyring-daemon, (ex: când un utilizator este autentificate). Această opțiunea poate fi suprascrisă în cazul în care serviciul este pornit cu anumite argumente.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Temă iconițe fișiere">
+							<longdesc>Temă utilizată pentru a afișa iconițele fișierelor.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="input_feedback_sounds">
+						<local_schema short_desc="Sunete de feedback la input">
+							<longdesc>Specifică dacă se redau sunete la input.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="theme_name">
+						<local_schema short_desc="Numele temei de sunete">
+							<longdesc>Temă XDG de sunete utilizată pentru evenimentele sonore.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="event_sounds">
+						<local_schema short_desc="Sunete pentru evenimente">
+							<longdesc>Specifică dacă se redau sunete pentru evenimentele utilizator.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_esd">
+						<local_schema short_desc="Activare ESD">
+							<longdesc>Pornește serverul de sunet ESD.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_tracks">
+						<local_schema short_desc="Piste implicite mixer">
+							<longdesc>Piste mixer implicite de utilizat pentru tastele multimedia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="default_mixer_device">
+						<local_schema short_desc="Dispozitiv implicit mixer">
+							<longdesc>Dispozitiv mixer implicit de utilizat pentru tastele multimedia.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Arată meniul „Inserare control Unicode”">
+							<longdesc>Specifică dacă meniurile contextuale ale intrărilor ori vizualizărilor de text conțin opțiunea de inserare de caractere de control Unicode.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Arată meniul „Metode de input”">
+							<longdesc>Specifică dacă meniurile contextuale ale intrărilor ori vizualizărilor de text conțin opțiunea de schimbare a metodei de input.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_accel">
+						<local_schema short_desc="Accelerator bară de meniu">
+							<longdesc>Combinație de taste pentru accesarea barelor de meniu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modul GtkFileChooser">
+							<longdesc>Modul de utilizat ca model de sistem de fișiere pentru widgetul GtkFileChooser. Valorile posibile sunt „gio”, „gnome-vfs” și „gtk+”.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Bară de stare pe dreapta">
+							<longdesc>Specifică dacă bara de stare e afișată pe dreapta.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Utilizează un font personalizat">
+							<longdesc>Specifică dacă aplicațiile GTK+ utilizează un font personalizat.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Font monospațiat">
+							<longdesc>Numele unui font monospațiat (cu caractere de lățime fixă) pentru utilizarea în aplicații precum terminalele.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Document implicit">
+							<longdesc>Numele fontului implicit utilizat pentru citirea documentelor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="Modul GTK IM">
+							<longdesc>Denumirea modulului metodei de input folosit în GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="Stil status GTK IM">
+							<longdesc>Numele metodei de input utilizate de GTK+ în stilul „Status”.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-preedit-style">
+						<local_schema short_desc="Stil pre-editare GTK IM">
+							<longdesc>Numele metodei de input utilizate de GTK+ în stilul „Preedit”.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Font implicit">
+							<longdesc>Numele fontului implicit utilizat de GTK+.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Temă Gtk+">
+							<longdesc>Nume de bază al temei implicite Gtk+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Temă Gtk+">
+							<longdesc>Nume de bază al temei implicite Gtk+</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Temă iconițe">
+							<longdesc>Temă de iconițe utilizată pentru panou, Nautilus etc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Timp clipire cursor">
+							<longdesc>Durata în milisecunde a ciclului de clipire al cursorului.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Cursor clipitor">
+							<longdesc>Specifică dacă ar trebui să clipească cursorul.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Mărimea iconițelor din bara cu unelte">
+							<longdesc>Mărimea iconițelor în barele cu unelte (fie „small-toolbar”, ori „large-toolbar”).</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_detachable">
+						<local_schema short_desc="Bară cu unelte detașabilă">
+							<longdesc>Specifică dacă utilizatorul poate desprinde și muta barele cu unelte.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menubar_detachable">
+						<local_schema short_desc="Bară de meniu detașabilă">
+							<longdesc>Specifică dacă utilizatorul poate desprinde și muta barele de meniuri.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="buttons_have_icons">
+						<local_schema short_desc="Butoanele au iconițe">
+							<longdesc>Specifică dacă butoanele pot afișa o iconiță lângă textul inclus.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Meniurile au iconițe">
+							<longdesc>Specifică dacă meniurile pot afișa o iconiță lângă textul meniului.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Stilul barei cu unelte">
+							<longdesc>Stilul barei cu unelte. Valorile posibile sunt „both”, „both_horiz”, „icons” și „text”.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="can_change_accels">
+						<local_schema short_desc="Acceleratorii pot fi schimbați">
+							<longdesc>Specifică dacă utilizatorul poate tasta dinamic un nou accelerator când este poziționat deasupra unui element activ dintr-un meniu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="menus_have_tearoff">
+						<local_schema short_desc="Meniurile pot fi desprinse">
+							<longdesc>Specifică dacă meniurile pot fi desprinse.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Activare animații">
+							<longdesc>Specifică dacă animațiile ar trebui afișate. Notă: aceasta este o cheie globală ce afectează administratorul de ferestre, panoul etc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Activare accesibilitate">
+							<longdesc>Specifică dacă aplicațiile ar trebui să aibă suport pentru accesibilitate.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="accessibility">
+					<dir name="startup">
+						<entry name="exec_ats">
+							<local_schema short_desc="Tehnologiile de asistență pornite automat">
+								<longdesc>Lista aplicațiilor pentru tehnologiile de asistență ce pornesc automat la autentificarea în mediul GNOME.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="keyboard">
+						<entry name="stickykeys_modifier_beep">
+							<local_schema>
+								<longdesc>Bip la apăsarea unui modificator.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="stickykeys_two_key_off">
+							<local_schema>
+								<longdesc>Dezactivează la apăsarea concomitentă a două taste.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="slowkeys_delay">
+							<local_schema short_desc="Interval minim în milisecunde">
+								<longdesc>Nu se acceptă apăsarea unei taste decât dacă este ținută „@delay” milisecunde.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_init_delay">
+							<local_schema short_desc="Pauză inițială în milisecunde">
+								<longdesc>Milisecunde de așteptare înainte ca tastele pentru mutarea cursorului de maus să fie operaționale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_accel_time">
+							<local_schema short_desc="Cât timp se accelerează în milisecunde">
+								<longdesc>În câte milisecunde se ajunge de la 0 la viteza maximă.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="mousekeys_max_speed">
+							<local_schema short_desc="Pixeli pe secundă">
+								<longdesc>Număr de pixeli pe secundă la viteza maximă.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bouncekeys_delay">
+							<local_schema short_desc="interval minim în milisecunde">
+								<longdesc>Ignoră apăsările multiple ale aceleiași taste într-un interval de „@delay” milisecunde.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="typing_break">
+					<entry name="enabled">
+						<local_schema short_desc="Specifică dacă blocarea tastaturii este activată sau nu">
+							<longdesc>Specifică dacă blocarea tastaturii este activată sau nu.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="allow_postpone">
+						<local_schema short_desc="Permite amânarea pauzelor">
+							<longdesc>Specifică dacă ecranul pauzei de tastare permite amânarea acesteia.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="break_time">
+						<local_schema short_desc="Durată pauză">
+							<longdesc>Număr de minute pentru durata unei pauze de tastare.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="type_time">
+						<local_schema short_desc="Timp de lucru">
+							<longdesc>Număr de minute pentru timpul de lucru înaintea activării pauzei.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="lockdown">
+					<entry name="disable_application_handlers">
+						<local_schema short_desc="Dezactivare a aplicațiilor asociate URL-ulilor și tipurilor MIME">
+							<longdesc>Previne pornirea oricărei aplicații asociate unui URL sau tip MIME</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_lock_screen">
+						<local_schema short_desc="Dezactivare blocare ecran">
+							<longdesc>Nu permite blocarea ecranului.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_user_switching">
+						<local_schema short_desc="Dezactivare schimbare utilizator">
+							<longdesc>Nu permite utilizatorului schimbarea contului înainte de terminarea sesiunii.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_print_setup">
+						<local_schema short_desc="Dezactivare opțiuni de tipărire">
+							<longdesc>Previne schimbarea de către utilizator a opțiunilor de tipărire. De exemplu, se interzice astfel accesul la opțiunile de tipărire ale aplicațiilor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_printing">
+						<local_schema short_desc="Dezactivare tipărire">
+							<longdesc>Previne tipărirea de către utilizator. De exemplu, se interzice accesul la comenzile de tipărire ale aplicațiilor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_save_to_disk">
+						<local_schema short_desc="Dezactivare salvare fișiere">
+							<longdesc>Previne salvarea pe disc a fișierelor de către utilizator. De exemplu, se interzice astfel accesul la comenzile de salvare ale aplicațiilor.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="disable_command_line">
+						<local_schema short_desc="Dezactivare linie de comandă">
+							<longdesc>Previne accesarea terminalului sau lansarea în execuție a unei comenzi de către utilizator. De exemplu, se interzice astfel accesul prin panou la dialogul „Pornire aplicații”.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="background">
+					<entry name="color_shading_type">
+						<local_schema short_desc="Tip umbrire culoare">
+							<longdesc>Cum va fi umbrită culoarea de fundal. Valorile posibile sunt „horizontal-gradient”, „vertical-gradient” și „solid”.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="secondary_color">
+						<local_schema short_desc="Culoare secundară">
+							<longdesc>Culoarea din marginea dreaptă sau de jos când se utilizează gradienți, nefolosită în cazul unei culori unice.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="primary_color">
+						<local_schema short_desc="Culoare primară">
+							<longdesc>Culoarea unică sau culoarea din marginea stângă sau de sus când se utilizează gradienți.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_opacity">
+						<local_schema short_desc="Opacitate imagine">
+							<longdesc>Opacitatea cu care se va afișa imaginea de fundal.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_filename">
+						<local_schema short_desc="Nume fișier imagine">
+							<longdesc>Fișier de utilizat ca imagine de fundal.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="picture_options">
+						<local_schema short_desc="Opțiuni imagine">
+							<longdesc>Determină cum este afișată imaginea setată de „wallpaper_filename”. Valorile posibile sunt „none”, „wallpaper”, „centered”, „scaled”, „stretched” și „zoom”.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="draw_background">
+						<local_schema short_desc="Gestionează fundalul desktopului">
+							<longdesc>Mediul GNOME gestionează fundalul desktopului.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="thumbnail_cache">
+					<entry name="maximum_size">
+						<local_schema>
+							<longdesc>Mărimea maximă în MB a miniaturilor în cache. Alegeți „-1” pentru a dezactiva reciclarea.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="maximum_age">
+						<local_schema>
+							<longdesc>Vârsta maximă în zile a miniaturilor în cache. Alegeți „-1” pentru a dezactiva reciclarea.</longdesc>
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="peripherals">
+					<dir name="keyboard">
+						<entry name="remember_numlock_state">
+							<local_schema short_desc="Reține starea tastei „NumLock”">
+								<longdesc>La activare, GNOME va reține de la o sesiune la alta starea tastei „NumLock”.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_custom_file">
+							<local_schema short_desc="Fișier personalizat pentru clopoțelul tastaturii">
+								<longdesc>Numele fișierului cu sunetul clopoțelului.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="bell_mode">
+							<local_schema>
+								<longdesc>valorile posibile sunt „on”, „off”, și „custom”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mouse">
+						<entry name="cursor_size">
+							<local_schema short_desc="Mărime cursor">
+								<longdesc>Mărimea cursorului precizată în „cursor_theme”.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_theme">
+							<local_schema short_desc="Temă cursor">
+								<longdesc>Nume temă cursor. Utilizat doar de serverele X ce suportă specificațiile Xcursor (XFree86 4.3 sau mai nou).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="cursor_font">
+							<local_schema short_desc="Font cursor">
+								<longdesc>Numele fontului pentru cursor. Dacă nu este configurat, va fi folosit fontul implicit. Această valoare este comunicată serverului X doar la pornirea sesiunii, deci pentru ca schimbările să intre în acțiune va trebui să vă autentificați din nou.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="locate_pointer">
+							<local_schema short_desc="Localizează indicatorul">
+								<longdesc>Evidențiază locația curentă a indicatorului de maus când tasta Ctrl este apăsată și eliberată.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="double_click">
+							<local_schema short_desc="Timp dublu-clic">
+								<longdesc>Durata unui dublu-clic.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="drag_threshold">
+							<local_schema short_desc="Prag tragere fișiere">
+								<longdesc>Distanța parcursă de maus înainte de a începe o tragere.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_threshold">
+							<local_schema short_desc="Prag mișcare">
+								<longdesc>Distanța în pixeli parcursă de maus înainte de a activa accelerarea. „-1” este valoarea implicită a sistemului.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="motion_acceleration">
+							<local_schema short_desc="Clic unic">
+								<longdesc>Multiplicator accelerare la mutarea cursorului de maus. „-1” este valoarea implicită a sistemului.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="single_click">
+							<local_schema short_desc="Clic unic">
+								<longdesc>Un singur clic pentru a deschide iconițele.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="left_handed">
+							<local_schema short_desc="Orientare butoane maus">
+								<longdesc>Schimbă pentru stângaci butoanele stânga și dreapta de maus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="thumbnailers">
+					<entry name="disable_all">
+						<local_schema short_desc="Dezactivează crearea miniaturilor pentru toate aplicațiile externe">
+							<longdesc>Setați această valoare ca „true” pentru a dezactiva crearea miniaturilor în toate programele grafice externe, independent de opțiunile lor individuale.</longdesc>
+						</local_schema>
+					</entry>
+					<dir name="application@x-gzpdf">
+						<entry name="command">
+							<local_schema short_desc="Program pentru crearea de miniaturi ale documentelor PDF">
+								<longdesc>Comandă validă și argumente necesare pentru crearea de miniaturi ale documentelor PDF. Pentru detalii, consultați documentația Nautilus thumbnailer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Activare miniaturi pentru documente PDF">
+								<longdesc>Opțiuni disponibile: „true” permite crearea de noi miniaturi, „false” dezactivează crearea de noi miniaturi</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@x-bzpdf">
+						<entry name="command">
+							<local_schema short_desc="Program pentru crearea de miniaturi ale documentelor PDF">
+								<longdesc>Comandă validă și argumente necesare pentru crearea de miniaturi ale documentelor PDF. Pentru detalii, consultați documentația Nautilus thumbnailer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Activare miniaturi pentru documente PDF">
+								<longdesc>Opțiuni disponibile: „true” permite crearea de noi miniaturi, „false” dezactivează crearea de noi miniaturi</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="application@pdf">
+						<entry name="command">
+							<local_schema short_desc="Program pentru crearea de miniaturi ale documentelor PDF">
+								<longdesc>Comandă validă și argumente necesare pentru crearea de miniaturi ale documentelor PDF. Pentru detalii, consultați documentația Nautilus thumbnailer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enable">
+							<local_schema short_desc="Activare miniaturi pentru documente PDF">
+								<longdesc>Opțiuni disponibile: „true” permite crearea de noi miniaturi, „false” dezactivează crearea de noi miniaturi</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="applications">
+					<dir name="tasks">
+						<entry name="needs_term">
+							<local_schema short_desc="Organizatorul necesită terminal">
+								<longdesc>Specifică dacă aplicația implicită de organizare are nevoie de terminal la pornire</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Sarcini implicite">
+								<longdesc>Aplicație implicită de organizare</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="calendar">
+						<entry name="needs_term">
+							<local_schema short_desc="Calendarul necesită terminal">
+								<longdesc>Specifică dacă aplicația calendar implicită are nevoie de terminal la pornire</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Calendar implicit">
+								<longdesc>Aplicație calendar implicită</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="browser">
+						<entry name="nremote">
+							<local_schema short_desc="Navigatorul recunoaște comenzile la distanță">
+								<longdesc>Specifică dacă navigatorul implicit înțelege comenzile la distanță Netscape.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="needs_term">
+							<local_schema short_desc="Navigatorul necesită terminal">
+								<longdesc>Specifică dacă navigatorul implicit are nevoie de terminal la pornire.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Navigator implicit">
+								<longdesc>Navigatorul implicit pentru toate URL-urile.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="window_manager">
+						<entry name="workspace_names">
+							<local_schema short_desc="Numele spațiilor de lucru (opțiune învechită)">
+								<longdesc>O listă cu numele primelor spații de lucru ale administratorului de ferestre. Această cheie nu mai este utilizată începând cu GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="number_of_workspaces">
+							<local_schema short_desc="Numărul spațiilor de lucru (opțiune învechită)">
+								<longdesc>Numărul spațiilor de lucru utilizate de administratorul de ferestre. Această cheie nu mai este utilizată începând cu GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="current">
+							<local_schema short_desc="Administrator de ferestre al utilizatorului (opțiune învechită)">
+								<longdesc>Administrator de ferestre de încercat prima dată. Această cheie nu mai este utilizată începând cu GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="default">
+							<local_schema short_desc="Administrator de ferestre de rezervă (opțiune învechită)">
+								<longdesc>Administrator de ferestre secundar pornit în cazul în care cel principal lipsește. Această cheie nu mai este utilizată începând cu GNOME 2.12.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="at">
+						<dir name="mobility">
+							<entry name="startup">
+								<local_schema short_desc="Pornește aplicația preferată a tehnologiilor de asistență mobilă">
+									<longdesc>GNOME va porni la autentificare aplicația tehnologiilor de asistență mobilă.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Aplicația preferată a tehnologiilor de asistență mobilă">
+									<longdesc>Aplicația preferată a tehnologiilor de asistență mobilă de utilizat la autentificare, în meniu și în linia de comandă.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="visual">
+							<entry name="startup">
+								<local_schema short_desc="Pornește aplicația preferată a tehnologiilor de asistență vizuală">
+									<longdesc>De pornit la autentificare aplicația tehnologiilor de asistență vizuală.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="exec">
+								<local_schema short_desc="Aplicația preferată a tehnologiilor de asistență vizuală">
+									<longdesc>Aplicația preferată a tehnologiilor de asistență vizuală de utilizat la autentificare, în meniu și în linia de comandă.</longdesc>
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="component_viewer">
+						<entry name="exec">
+							<local_schema short_desc="Aplicație implicită de vizualizare înglobată">
+								<longdesc>Aplicație de utilizat pentru vizualizarea fișierelor ce necesită o componentă de vizualizare. Parametrul %s va fi înlocuit cu URI-ul fișierului, iar parametrul %c va fi înlocuit cu componenta IID.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="terminal">
+						<entry name="exec_arg">
+							<local_schema short_desc="Parametri „exec”">
+								<longdesc>Parametru utilizat pentru lansarea în execuție într-un terminal a programelor specificate în parametrul „exec”</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="exec">
+							<local_schema short_desc="Aplicație terminal">
+								<longdesc>Terminal pentru pornirea aplicațiilor ce necesită un terminal.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urile „ymsgr”">
+								<longdesc>Comanda utilizată pentru URL-urile „ymsgr” în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „ymsgr”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „ymsgr”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urile „xmpp”">
+								<longdesc>Comanda utilizată pentru URL-urile „xmpp” în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „xmpp”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „xmpp”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urile „sip”">
+								<longdesc>Comanda utilizată pentru URL-urile „sip” în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „sip”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „sip”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urile „msnim”">
+								<longdesc>Comanda utilizată pentru URL-urile „msnim” în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „msnim”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „msnim”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urile „irc”">
+								<longdesc>Comanda utilizată pentru URL-urile „irc” în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „irc”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „irc”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urile „icq”">
+								<longdesc>Comanda utilizată pentru URL-urile „icq” în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „icq”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „icq”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urile „gg”">
+								<longdesc>Comanda utilizată pentru URL-urile „gg” în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „gg”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „gg”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="h323">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „h323”">
+								<longdesc>Comanda asociată adreselor „h323” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „h323”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „h323”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="callto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „callto”">
+								<longdesc>Comanda asociată adreselor „callto” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „callto”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „callto”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urile „aim”">
+								<longdesc>Comanda utilizată pentru URL-urile „aim” în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „aim”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „aim”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="mailto">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „mailto”">
+								<longdesc>Comanda asociată adreselor „mailto” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „mailto”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „mailto”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="https">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „https”">
+								<longdesc>Comanda asociată adreselor „https” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „https”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „https”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="http">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „http”">
+								<longdesc>Comanda asociată adreselor „http” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „http”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „http”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="man">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „man”">
+								<longdesc>Comanda asociată adreselor „man” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „man”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „man”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="info">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „info”">
+								<longdesc>Comanda asociată adreselor „info” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „info”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „info”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="ghelp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „ghelp”">
+								<longdesc>Comanda asociată adreselor „ghelp” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „ghelp”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „ghelp”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="trash">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Pornește programul într-un terminal">
+								<longdesc>La activare, comanda asociată acestui tip de URL va fi pornită în terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Programul asociat adreselor „trash”">
+								<longdesc>Comanda asociată adreselor „trash” la activare.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă programul ales va fi asociat adreselor „trash”">
+								<longdesc>La activare, comanda specificată în cheia „command” va fi asociată adreselor „trash”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="system">
+			<dir name="gstreamer">
+				<dir name="0.10">
+					<dir name="audio">
+						<dir name="profiles">
+							<entry name="active">
+								<local_schema short_desc="Dacă acest profil să fie folosit sau nu">
+									<longdesc>Dacă acest profil să fie sau nu folosit și afișat.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="extension">
+								<local_schema short_desc="Extensia de fișier implicită pentru acest profil">
+									<longdesc>O extensie de fișier ce va fi folosită la stocarea fișierelor codate cu acest profil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="pipeline">
+								<local_schema short_desc="Conexiunea parțială GStreamer folosit">
+									<longdesc>O conexiune parțială GStreamer ce va fi folosit pentru acest profil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="description">
+								<local_schema short_desc="O descriere pentru profilul audio">
+									<longdesc>O descriere pentru profil, conținând mai multe informații și descriind când să fie folosit acest profil.</longdesc>
+								</local_schema>
+							</entry>
+							<entry name="name">
+								<local_schema short_desc="Un nume scurt pentru profilul audio">
+									<longdesc>Un nume scurt pentru profilul audio, ce va fi folosit în selecții și va identifica în mod unic profilul.</longdesc>
+								</local_schema>
+							</entry>
+							<dir name="aac">
+								<entry name="active">
+									<local_schema short_desc="Dacă acest profil să fie folosit sau nu">
+										<longdesc>Dacă acest profil să fie sau nu folosit și afișat.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="extension">
+									<local_schema short_desc="Extensia de fișier implicită pentru acest profil">
+										<longdesc>O extensie de fișier ce va fi folosită la stocarea fișierelor codate cu acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Conexiunea parțială GStreamer folosit">
+										<longdesc>O conexiune parțială GStreamer ce va fi folosit pentru acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="O descriere pentru profilul audio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nume scurt pentru profilul audio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp3">
+								<entry name="extension">
+									<local_schema short_desc="Extensia de fișier implicită pentru acest profil">
+										<longdesc>O extensie de fișier ce va fi folosită la stocarea fișierelor codate cu acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Conexiunea parțială GStreamer folosit">
+										<longdesc>O conexiune parțială GStreamer ce va fi folosit pentru acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="O descriere pentru profilul audio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nume scurt pentru profilul audio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="mp2">
+								<entry name="extension">
+									<local_schema short_desc="Extensia de fișier implicită pentru acest profil">
+										<longdesc>O extensie de fișier ce va fi folosită la stocarea fișierelor codate cu acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Conexiunea parțială GStreamer folosit">
+										<longdesc>O conexiune parțială GStreamer ce va fi folosit pentru acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="O descriere pentru profilul audio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nume scurt pentru profilul audio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossy">
+								<entry name="extension">
+									<local_schema short_desc="Extensia de fișier implicită pentru acest profil">
+										<longdesc>O extensie de fișier ce va fi folosită la stocarea fișierelor codate cu acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Conexiunea parțială GStreamer folosit">
+										<longdesc>O conexiune parțială GStreamer ce va fi folosit pentru acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="O descriere pentru profilul audio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nume scurt pentru profilul audio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="voicelossless">
+								<entry name="extension">
+									<local_schema short_desc="Extensia de fișier implicită pentru acest profil">
+										<longdesc>O extensie de fișier ce va fi folosită la stocarea fișierelor codate cu acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Conexiunea parțială GStreamer folosit">
+										<longdesc>O conexiune parțială GStreamer ce va fi folosit pentru acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="O descriere pentru profilul audio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nume scurt pentru profilul audio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossless">
+								<entry name="extension">
+									<local_schema short_desc="Extensia de fișier implicită pentru acest profil">
+										<longdesc>O extensie de fișier ce va fi folosită la stocarea fișierelor codate cu acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Conexiunea parțială GStreamer folosit">
+										<longdesc>O conexiune parțială GStreamer ce va fi folosit pentru acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="O descriere pentru profilul audio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nume scurt pentru profilul audio">
+									</local_schema>
+								</entry>
+							</dir>
+							<dir name="cdlossy">
+								<entry name="extension">
+									<local_schema short_desc="Extensia de fișier implicită pentru acest profil">
+										<longdesc>O extensie de fișier ce va fi folosită la stocarea fișierelor codate cu acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="pipeline">
+									<local_schema short_desc="Conexiunea parțială GStreamer folosit">
+										<longdesc>O conexiune parțială GStreamer ce va fi folosit pentru acest profil.</longdesc>
+									</local_schema>
+								</entry>
+								<entry name="description">
+									<local_schema short_desc="O descriere pentru profilul audio">
+									</local_schema>
+								</entry>
+								<entry name="name">
+									<local_schema short_desc="Un nume scurt pentru profilul audio">
+									</local_schema>
+								</entry>
+							</dir>
+						</dir>
+						<dir name="global">
+							<entry name="profile_list">
+								<local_schema short_desc="Listă a profilelor">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="smb">
+				<entry name="workgroup">
+					<local_schema short_desc="Grup SMB">
+						<longdesc>Grupul sau domeniul Windows din care face parte utilizatorul. Pentru a intra în vigoare opțiunile unui nou workgroup, utilizatorul s-ar putea să trebuiască să iasă din sesiune și apoi să se autentifice din nou.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="dns_sd">
+				<entry name="extra_domains">
+					<local_schema short_desc="Domenii în plus de verificat pentru servicii DNS-SD">
+						<longdesc>Listă separată prin virgule de domenii DNS-SD ce ar trebui să fie vizibile în locația „network:///”.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="display_local">
+					<local_schema short_desc="Modalitatea de afișare a serviciului local dns-sd">
+						<longdesc>Valori posibile: „merged”, „separate” și „disabled”.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="proxy">
+				<entry name="autoconfig_url">
+					<local_schema short_desc="URL pentru configurări proxy automate">
+						<longdesc>URL cu opțiuni automate de proxy.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_port">
+					<local_schema short_desc="Port proxy SOCKS">
+						<longdesc>Portul serverului proxy definit în „/system/proxy/socks_host”.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="socks_host">
+					<local_schema short_desc="Nume proxy SOCKS">
+						<longdesc>Numele serverului proxy SOCKS.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_port">
+					<local_schema short_desc="Port proxy FTP">
+						<longdesc>Portul serverului proxy definit în „/system/proxy/ftp_host”</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="ftp_host">
+					<local_schema short_desc="Nume proxy FTP">
+						<longdesc>Numele serverului proxy FTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_port">
+					<local_schema short_desc="Port proxy HTTPS">
+						<longdesc>Portului serverului proxy definit în „/system/proxy/secure_host”.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="secure_host">
+					<local_schema short_desc="Nume proxy HTTPS">
+						<longdesc>Numele serverului proxy HTTPS.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="mode">
+					<local_schema short_desc="Mod configurare proxy">
+						<longdesc>Selectați modul de configurare proxy. Valorile suportate sunt „none”, „manual” și „auto”.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="http_proxy">
+				<entry name="ignore_hosts">
+					<local_schema short_desc="Adrese fără proxy">
+						<longdesc>Această cheie conține o listă a adreselor la care se preferă conectarea directă, nu prin proxy. Aceste adrese pot fi nume de servere, domenii (cu caractere „wildcard”, de ex. *.foo.com), adrese IP (atât IPv4, cât și IPv6) și adrese de rețea cu mască (de ex. 192.168.0.0/16).</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_password">
+					<local_schema short_desc="Parolă proxy HTTP">
+						<longdesc>Parolă necesară la autentificarea la serverul proxy HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="authentication_user">
+					<local_schema short_desc="Nume utilizator proxy HTTP">
+						<longdesc>Nume utilizator necesar autentificării la serverul proxy HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_authentication">
+					<local_schema short_desc="Autentificare la conectarea prin proxy">
+						<longdesc>La activare, conectarea la serverul proxy necesită autentificare. Combinația nume_utilizator/parolă e definită de „/system/http_proxy/authentication_user” și „/system/http_proxy/authentication_password”.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="port">
+					<local_schema short_desc="Port proxy HTTP">
+						<longdesc>Portul serverului proxy definit în „/system/http_proxy/host”.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="host">
+					<local_schema short_desc="Nume proxy HTTP">
+						<longdesc>Numele serverului proxy HTTP.</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="use_http_proxy">
+					<local_schema short_desc="Utilizează proxy HTTP">
+						<longdesc>Activează opțiunile proxy la accesarea adreselor HTTP în Internet.</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

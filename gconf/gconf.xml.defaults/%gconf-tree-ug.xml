@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="nautilus-cd-burner">
+				<entry name="burnproof">
+					<local_schema short_desc="يېزىشنى تەكشۈرۈش تاللىشىنى رۇخسەت قىلىش">
+					</local_schema>
+				</entry>
+				<entry name="overburn">
+					<local_schema short_desc="ئەسلى سىغىمىدىن كۆپ يېزىشقا رۇخسەت قىلىش">
+						<longdesc>ھۆججەتنىڭ سىغىمىنىڭ دىسكىنىڭ سىغىمىدىن ئېشىپ كېتىشكە رۇخسەت قىلىش-قىلماسلىق</longdesc>
+					</local_schema>
+				</entry>
+				<entry name="default_speed">
+					<local_schema short_desc="ئەسلى يېزىش سۈرئىتى">
+						<longdesc>دىسكىنى يېزىش ئەسلى سۈرئىتى</longdesc>
+					</local_schema>
+				</entry>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

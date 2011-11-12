@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ٹرمینل میں كمانڈ رن كیجیے">
+								<longdesc>صحیح اگر  كمانڈ اس ٹائپ كے URL كو ہینڈل كرنے لیے استعمال كیا جاتا ہے ٹرمینل میں رن كرنا ضروری ہے۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc=" &quot;ymsgr&quot; URLsكے لیے ہینڈل كرنے والا">
+								<longdesc>كمانڈ &quot;ymsgr&quot; URLsہینڈل كے لیے استعمال كیا جاتا ہے، اگر ممكن ہو۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="خواہ  مختص كیا گیا كمانڈ  &quot;ymsgr&quot; URLsكو ہینڈل كرتا ہے۔">
+								<longdesc>صحیح اگر كمانڈ &quot;command&quot; كلید میں مختص كی جاتی ہے  &quot;ymsgr&quot; URLs....... ہینڈل كرنا چاہیے۔</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ٹرمینل میں كمانڈ رن كیجیے">
+								<longdesc>صحیح اگر  كمانڈ اس ٹائپ كے URL كو ہینڈل كرنے لیے استعمال كیا جاتا ہے ٹرمینل میں رن كرنا ضروری ہے۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLsكے لیے ہینڈل كرنے والا">
+								<longdesc>كمانڈ&quot;xmpp&quot; URLsہینڈل كے لیے استعمال كیا جاتا ہے، اگر ممكن ہو۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="خواہ  مختص كیا گیا كمانڈ  &quot;xmpp&quot; URLsكو ہینڈل كرتا ہے۔">
+								<longdesc>صحیح اگر كمانڈ &quot;command&quot; كلید میں مختص كی جاتی ہے  &quot;xmpp&quot; URLs...... ہینڈل كرنا چاہیے۔</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ٹرمینل میں كمانڈ رن كیجیے">
+								<longdesc>صحیح اگر  كمانڈ اس ٹائپ كے URL كو ہینڈل كرنے لیے استعمال كیا جاتا ہے ٹرمینل میں رن كرنا ضروری ہے۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="r &quot;sip&quot; URLsكے لیے ہینڈل كرنے والا">
+								<longdesc>كمانڈ&quot;sip&quot; URLsہینڈل كے لیے استعمال كیا جاتا ہے، اگر ممكن ہو۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="خواہ  مختص كیا گیا كمانڈ  &quot;sip&quot; URLsكو ہینڈل كرتا ہے۔">
+								<longdesc>صحیح اگر كمانڈ &quot;command&quot; كلید میں مختص كی جاتی ہے  &quot;sip&quot; URLs..... ہینڈل كرنا چاہیے۔</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ٹرمینل میں كمانڈ رن كیجیے">
+								<longdesc>صحیح اگر  كمانڈ اس ٹائپ كے URL كو ہینڈل كرنے لیے استعمال كیا جاتا ہے ٹرمینل میں رن كرنا ضروری ہے۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc=" &quot;msnim&quot; URLsكے لیے ہینڈل كرنے والا">
+								<longdesc>كمانڈ&quot;msnim&quot; URLsہینڈل كے لیے استعمال كیا جاتا ہے، اگر ممكن ہو۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="خواہ  مختص كیا گیا كمانڈ &quot;msnim&quot; URLsكو ہینڈل كرتا ہے۔">
+								<longdesc>صحیح اگر كمانڈ &quot;command&quot; كلید میں مختص كی جاتی ہے  &quot;msnim&quot; URLs.... ہینڈل كرنا چاہیے۔</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ٹرمینل میں كمانڈ رن كیجیے">
+								<longdesc>صحیح اگر  كمانڈ اس ٹائپ كے URL كو ہینڈل كرنے لیے استعمال كیا جاتا ہے ٹرمینل میں رن كرنا ضروری ہے۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLsكے لیے ہینڈل كرنے والا">
+								<longdesc>كمانڈ &quot;irc&quot; URLs,ہینڈل كے لیے استعمال كیا جاتا ہے، اگر ممكن ہو۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="خواہ  مختص كیا گیا كمانڈ &quot;irc&quot; URLsكو ہینڈل كرتا ہے۔">
+								<longdesc>صحیح اگر كمانڈ &quot;command&quot; كلید میں مختص كی جاتی ہے  &quot;irc&quot; URLs... ہینڈل كرنا چاہیے۔</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ٹرمینل میں كمانڈ رن كیجیے">
+								<longdesc>صحیح اگر  كمانڈ اس ٹائپ كے URL كو ہینڈل كرنے لیے استعمال كیا جاتا ہے ٹرمینل میں رن كرنا ضروری ہے۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLsكے لیے ہینڈل كرنے  والا">
+								<longdesc>كمانڈ &quot;icq&quot; URLs  ہینڈل كے لیے استعمال كیا جاتا ہے، اگر ممكن ہو۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="خواہ  مختص كیا گیا كمانڈ &quot;icq&quot; URLsكو ہینڈل كرتا ہے۔">
+								<longdesc>صحیح اگر كمانڈ &quot;command&quot; كلید میں مختص كی جاتی ہے &quot;icq&quot; URLs... ہینڈل كرنا چاہیے۔</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ٹرمینل میں كمانڈ رن كیجیے">
+								<longdesc>صحیح اگر  كمانڈ اس ٹائپ كے URL كو ہینڈل كرنے لیے استعمال كیا جاتا ہے ٹرمینل میں رن كرنا ضروری ہے۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLs كے لیے ہینڈل كرنے  والا">
+								<longdesc>كمانڈ  &quot;gg&quot; URLs,  استعمال كے لیے ہینڈل كیا جاتا ہے۔ اگر ممكن ۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="خواہ  مختص كیا گیا كمانڈ &quot;gg&quot; URLs كو ہینڈل كرتا ہے۔">
+								<longdesc>صحیح اگر كمانڈ &quot;command&quot; كلید میں مختص كی جاتی ہے &quot;gg&quot; URLs.. ہینڈل كرنا چاہیے۔</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ٹرمینل میں كمانڈ رن كیجیے">
+								<longdesc>صحیح اگر  كمانڈ اس ٹائپ كے URL كو ہینڈل كرنے لیے استعمال كیا جاتا ہے ٹرمینل میں رن كرنا ضروری ہے۔</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLs كے لیے ہینڈل كرنے  والا">
+								<longdesc>كمانڈ  ہینڈل كرنے كے لیے استعمال كرتے ہیں  &quot;aim&quot; URLs، اگر ممكن ہو</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="خواہ  مختص كیا گیا كمانڈ &quot;aim&quot; URLs كو ہینڈل كرتا ہے۔">
+								<longdesc>صحیح اگر كمانڈ &quot;command&quot; كلید میں مختص كی جاتی ہے &quot;aim&quot; URLs. ہینڈل كرنا چاہیے۔</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

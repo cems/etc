@@ -1,0 +1,32 @@
+#!/bin/sh
+
+. /etc/init.d/functions
+
+# since kdrive 1.4 there is no default keymap in server
+xmodmap - </etc/X11/xmodmap/default.xmodmap
+
+case `machine_id` in
+	"sharp_shepherd" | "sharp_husky" | "sharp_corgi")
+		xmodmap - < /etc/X11/xmodmap/shepherd.xmodmap
+		;;
+	"sharp_akita" | "sharp_borzoi" | "sharp_spitz")
+		xmodmap - < /etc/X11/xmodmap/slcXXXX.xmodmap
+		;;				
+	"sharp_poodle")
+		xmodmap - < /etc/X11/xmodmap/poodle.xmodmap
+		;;
+        "sharp-collie")
+                xmodmap - < /etc/X11/xmodmap/collie.xmodmap
+                ;;
+	"hp_ipaq_h6300")
+		xmodmap - < /etc/X11/xmodmap/h6300.xmodmap
+		;;
+	"ti-osk")
+		xmodmap - < /etc/X11/xmodmap/omap5912osk.xmodmap
+		;;
+	# All the rest of keyboardless PDA machines use common buttonmap
+	"simpad" | "hp_ipaq"* | "asus_mypal"*)
+		xmodmap - < /etc/X11/xmodmap/keyboardless.xmodmap
+		;;
+esac
+

@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gnect">
+				<entry name="keyright">
+					<local_schema short_desc="Bog ar deis">
+					</local_schema>
+				</entry>
+				<entry name="keyleft">
+					<local_schema short_desc="Bog ar clé">
+					</local_schema>
+				</entry>
+				<entry name="sound">
+					<local_schema short_desc="Fuaim">
+					</local_schema>
+				</entry>
+				<entry name="animate">
+					<local_schema short_desc="Beochan">
+					</local_schema>
+				</entry>
+				<entry name="player1">
+					<local_schema short_desc="Leibheal Imreoir a hAon">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="glines">
+				<dir name="saved">
+					<entry name="score">
+						<local_schema short_desc="Scór an Cluiche">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="preferences">
+					<entry name="background_color">
+						<local_schema short_desc="Dath cúlra">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="aisleriot">
+				<entry name="sound">
+					<local_schema short_desc="Fuaim">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnobots2">
+				<dir name="preferences">
+					<entry name="configuration">
+						<local_schema short_desc="Saghas Cluiche:">
+						</local_schema>
+					</entry>
+					<entry name="background_color">
+						<local_schema short_desc="Dath cúlra">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="gnibbles">
+				<dir name="preferences">
+					<dir name="worm">
+						<dir name="5">
+							<entry name="key_right">
+								<local_schema short_desc="Bog ar deis">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bog ar clé">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bog síos">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bog suas">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="4">
+							<entry name="key_right">
+								<local_schema short_desc="Bog ar deis">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bog ar clé">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bog síos">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bog suas">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="3">
+							<entry name="key_right">
+								<local_schema short_desc="Bog ar deis">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bog ar clé">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bog síos">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bog suas">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="2">
+							<entry name="key_right">
+								<local_schema short_desc="Bog ar deis">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bog ar clé">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bog síos">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bog suas">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="1">
+							<entry name="key_right">
+								<local_schema short_desc="Bog ar deis">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bog ar clé">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bog síos">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bog suas">
+								</local_schema>
+							</entry>
+						</dir>
+						<dir name="0">
+							<entry name="key_right">
+								<local_schema short_desc="Bog ar deis">
+								</local_schema>
+							</entry>
+							<entry name="key_left">
+								<local_schema short_desc="Bog ar clé">
+								</local_schema>
+							</entry>
+							<entry name="key_down">
+								<local_schema short_desc="Bog síos">
+								</local_schema>
+							</entry>
+							<entry name="key_up">
+								<local_schema short_desc="Bog suas">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="gnometris">
+				<dir name="controls">
+					<entry name="key_pause">
+						<local_schema short_desc="Sos">
+						</local_schema>
+					</entry>
+					<entry name="key_down">
+						<local_schema short_desc="Bog síos">
+						</local_schema>
+					</entry>
+					<entry name="key_right">
+						<local_schema short_desc="Bog ar deis">
+						</local_schema>
+					</entry>
+					<entry name="key_left">
+						<local_schema short_desc="Bog ar clé">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+			<dir name="iagno">
+				<entry name="sound">
+					<local_schema short_desc="Fuaim">
+					</local_schema>
+				</entry>
+			</dir>
+			<dir name="gnumeric">
+				<dir name="core">
+					<dir name="gui">
+						<dir name="screen">
+							<entry name="verticaldpi">
+								<local_schema short_desc="DPI Ingearach">
+								</local_schema>
+							</entry>
+							<entry name="horizontaldpi">
+								<local_schema short_desc="DPI Cothrománach">
+								</local_schema>
+							</entry>
+						</dir>
+					</dir>
+					<dir name="defaultfont">
+						<entry name="name">
+							<local_schema short_desc="Ainm cló réamhshocraithe">
+							</local_schema>
+						</entry>
+						<entry name="size">
+							<local_schema short_desc="Méid Chló Réamhshocraithe">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+			<dir name="blackjack">
+				<dir name="global">
+					<entry name="balance">
+						<local_schema short_desc="An meid airgead agat sa banc">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="settings">
+					<entry name="show_probabilities">
+						<local_schema short_desc="Taispeain na staidreamh">
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="file-views">
+					<entry name="icon_theme">
+						<local_schema short_desc="Téama Deilbhíní Comhaid">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="sound">
+					<entry name="enable_esd">
+						<local_schema short_desc="Cumasaigh ESD">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="interface">
+					<entry name="show_unicode_menu">
+						<local_schema short_desc="Taispeáin an roghchlár &apos;Carachtar Rialú Unicode&apos;">
+						</local_schema>
+					</entry>
+					<entry name="show_input_method_menu">
+						<local_schema short_desc="Taispeáin an roghchlár &apos;Modhanna Ionchuir&apos;">
+						</local_schema>
+					</entry>
+					<entry name="file_chooser_backend">
+						<local_schema short_desc="Modúl le GtkFileChooser">
+						</local_schema>
+					</entry>
+					<entry name="status_bar_meter_on_right">
+						<local_schema short_desc="Barra Stádais ar Dheis">
+						</local_schema>
+					</entry>
+					<entry name="use_custom_font">
+						<local_schema short_desc="Bain Úsáid as Cló Saincheaptha">
+						</local_schema>
+					</entry>
+					<entry name="monospace_font_name">
+						<local_schema short_desc="Cló aonleithid">
+						</local_schema>
+					</entry>
+					<entry name="document_font_name">
+						<local_schema short_desc="Cló cáipéise">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-module">
+						<local_schema short_desc="Modúl IM GTK">
+						</local_schema>
+					</entry>
+					<entry name="gtk-im-status-style">
+						<local_schema short_desc="Stíl Stádas IM GTK">
+						</local_schema>
+					</entry>
+					<entry name="font_name">
+						<local_schema short_desc="Cló réamhshocrú">
+						</local_schema>
+					</entry>
+					<entry name="gtk_key_theme">
+						<local_schema short_desc="Téama Gtk+">
+						</local_schema>
+					</entry>
+					<entry name="gtk_theme">
+						<local_schema short_desc="Téama Gtk+">
+						</local_schema>
+					</entry>
+					<entry name="icon_theme">
+						<local_schema short_desc="Téama Deilbhíní">
+							<longdesc>Téama na Dealbh chun úsaid leis an painéal, nautilus etc.</longdesc>
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink_time">
+						<local_schema short_desc="Am Chaochadh an Chúrsóra">
+						</local_schema>
+					</entry>
+					<entry name="cursor_blink">
+						<local_schema short_desc="Caochadh an Chúrsóra">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_icons_size">
+						<local_schema short_desc="Méid Deilbhín Bharra Uirlisí">
+						</local_schema>
+					</entry>
+					<entry name="menus_have_icons">
+						<local_schema short_desc="Tá Deilbhíní ag na Roghchláir">
+						</local_schema>
+					</entry>
+					<entry name="toolbar_style">
+						<local_schema short_desc="Stíl Bharra Uirlisí">
+						</local_schema>
+					</entry>
+					<entry name="enable_animations">
+						<local_schema short_desc="Cumasaigh Íomhánna Beo">
+						</local_schema>
+					</entry>
+					<entry name="accessibility">
+						<local_schema short_desc="Cumasaigh Inrochtaineacht">
+						</local_schema>
+					</entry>
+				</dir>
+				<dir name="applications">
+					<dir name="browser">
+						<entry name="exec">
+							<local_schema short_desc="an Líonléitheoir atá loiceadh">
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>
